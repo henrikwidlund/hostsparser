@@ -1,0 +1,37 @@
+name: Build and publish hosts file
+
+on:
+  push:
+  schedule:
+    - cron: '0 */6 * * *' # Every hour
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.x
+    
+    - name: Restore dependencies
+      run: dotnet restore
+    
+    - name: Build
+      run: dotnet build -c Release --no-restore
+    
+    - name: Run HostsParser
+      run: |
+        cd bin/Release/net5.0
+        dotnet HostsParser.dll
+    
+    - name: Copy hosts to root of branch
+      run: cp bin/Release/net5.0/hosts .
+    
+    - uses: EndBug/add-and-commit@v7
+      with:
+        message: 'Auto update hosts'
+        add: 'hosts --force'
