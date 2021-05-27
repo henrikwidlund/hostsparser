@@ -16,7 +16,7 @@ var headerLines = new List<string>(16){"# Content below this line is based on St
 headerLines.AddRange(lines[..14]);
 headerLines.Add(string.Empty);
 
-var skipLines = new string[14]
+var skipLines = new[]
 {
     "127.0.0.1 localhost",
     "127.0.0.1 localhost.localdomain",
