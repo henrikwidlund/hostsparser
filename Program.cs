@@ -50,4 +50,4 @@ foreach (var item in lines)
 await File.WriteAllLinesAsync("hosts", newLines);
 
 static string Replace(ReadOnlySpan<char> item, int length)
-    => $"||{item.Slice(length).ToString()}^";
+    => $"||{item[length..].ToString()}^";
