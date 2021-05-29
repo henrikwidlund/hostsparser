@@ -1,15 +1,20 @@
 ﻿// Copyright Henrik Widlund
 // Apache License 2.0
 
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
 
+var configuration = new ConfigurationBuilder()
+    .AddJsonFile("appsettings.json", false)
+    .Build();
+
 using var httpClient = new HttpClient();
 
-var lines = (await httpClient.GetStringAsync("https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts"))
+var lines = (await httpClient.GetStringAsync(new Uri(configuration["SourceUri"])))
     .Split('\n');
 
 var headerLines = new List<string>(16){"# Content below this line is based on StevenBlack/hosts and only modified to work with AdGuard Home"};
@@ -49,5 +54,5 @@ foreach (var item in lines)
 
 await File.WriteAllLinesAsync("hosts", newLines);
 
-static string Replace(ReadOnlySpan<char> item, int length)
+static string Replace(ReadOnlySpan<char> item, in int length)
     => $"||{item[length..].ToString()}^";
