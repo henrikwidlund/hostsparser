@@ -2,9 +2,8 @@ name: Build
 
 on:
   push:
-    branches: [ main ]
-    paths:
-      - '!hosts'
+    paths-ignore:
+      - '**/hosts'
   pull_request:
     branches: [ main ]
 
