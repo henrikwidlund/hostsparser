@@ -29,6 +29,7 @@ const char NewLine = '\n';
 const char ExclamationMark = '!';
 const char AtSign = '@';
 const string IpFilter = "0.0.0.0 ";
+const string LoopbackEntry = "0.0.0.0 0.0.0.0";
 
 var settings = JsonSerializer.Deserialize<Settings>(File.ReadAllBytes("appsettings.json"));
 
@@ -63,7 +64,7 @@ logger.LogInformation("Done get AdGuard hosts");
 
 var length = IpFilter.Length;
 var cleanedLines = sourceUris
-    .Where(l => l.StartsWith(IpFilter))
+    .Where(l =>  !l.Equals(LoopbackEntry) && l.StartsWith(IpFilter))
     .Select(l => ReplaceSource(l, length))
     .ToArray();
 
@@ -90,9 +91,16 @@ Parallel.ForEach(cleanedLines, line =>
 logger.LogInformation("Done filtering hosts");
 
 logger.LogInformation("Start building hosts results");
-var headerLines = new List<string>(16) { "# Content below this line is based on StevenBlack/hosts and only modified to work with AdGuard Home" };
-headerLines.AddRange(sourceUris[..14]);
-headerLines.Add(string.Empty);
+var headerLines = new []
+{
+    "# Copyright Henrik Widlund https://github.com/henrikwidlund/HostsParser/blob/main/LICENSE",
+    "# All content below commented lines are based on StevenBlack/hosts and AdGuard DNS filter.",
+    "# It is only modified to work with AdGuard Home and remove duplicates.",
+    $"# StevenBlack/hosts: https://github.com/StevenBlack/hosts/ ({settings.SourceUri})",
+    $"# AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter ({settings.AdGuardUri})",
+    string.Empty
+};
+
 var newLines = new HashSet<string>(headerLines);
 var skipLines = new[]
 {
@@ -108,8 +116,7 @@ var skipLines = new[]
     "ff00::0 ip6-mcastprefix",
     "ff02::1 ip6-allnodes",
     "ff02::2 ip6-allrouters",
-    "ff02::3 ip6-allhosts",
-    "0.0.0.0 0.0.0.0"
+    "ff02::3 ip6-allhosts"
 };
 
 sourceUris = sourceUris.Except(newLines).Except(skipLines).ToArray();

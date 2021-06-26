@@ -34,4 +34,4 @@ jobs:
     - uses: EndBug/add-and-commit@v7
       with:
         message: 'Auto update hosts'
-        add: '["hosts", "appsettings.json"] --force'
+        add: 'hosts appsettings.json --force'
