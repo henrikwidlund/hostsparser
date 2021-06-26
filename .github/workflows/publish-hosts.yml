@@ -31,6 +31,9 @@ jobs:
     - name: Copy hosts to root of branch
       run: cp bin/Release/net5.0/hosts .
     
+    - name: Copy appsettings to root of branch
+      run: cp bin/Release/net5.0/appsettings.json .
+    
     - uses: EndBug/add-and-commit@v7
       with:
         message: 'Auto update hosts'
