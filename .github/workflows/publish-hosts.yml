@@ -27,11 +27,20 @@ jobs:
       run: |
         cd bin/Release/net5.0
         dotnet HostsParser.dll
-    
+
     - name: Copy hosts to root of branch
-      run: cp bin/Release/net5.0/hosts .
-    
+      run: |
+        HOSTS=bin/Release/net5.0/hosts
+        if test -f "$HOSTS"; then
+            cp $HOSTS .
+        fi
+
+        APPSETTINGS=bin/Release/net5.0/appsettings.json
+        if test -f "$APPSETTINGS"; then
+            cp $APPSETTINGS .
+        fi
+
     - uses: EndBug/add-and-commit@v7
       with:
         message: 'Auto update hosts'
-        add: 'hosts --force'
+        add: 'hosts appsettings.json --force'
