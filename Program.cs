@@ -90,6 +90,12 @@ Parallel.ForEach(cleanedLines, line =>
 });
 logger.LogInformation("Done filtering hosts");
 
+logger.LogInformation("Start sorting hosts");
+newLinesList = newLinesList
+    .OrderBy(l => l)
+    .ToList();
+logger.LogInformation("Done sorting hosts");
+
 logger.LogInformation("Start building hosts results");
 var headerLines = new []
 {
