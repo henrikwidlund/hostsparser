@@ -1,6 +1,7 @@
 ﻿// Copyright Henrik Widlund
 // Apache License 2.0
 
+using HostsParser;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -23,21 +24,13 @@ logger.LogInformation("Running...");
 var stopWatch = new Stopwatch();
 stopWatch.Start();
 
-const string Pipe = "|";
-const string Hat = "^";
-const char NewLine = '\n';
-const char ExclamationMark = '!';
-const char AtSign = '@';
-const string IpFilter = "0.0.0.0 ";
-const string LoopbackEntry = "0.0.0.0 0.0.0.0";
-
 var settings = JsonSerializer.Deserialize<Settings>(File.ReadAllBytes("appsettings.json"));
 
 using var httpClient = new HttpClient();
 
 logger.LogInformation("Start get source hosts");
 var sourceUris = (await httpClient.GetStringAsync(settings.SourceUri))
-    .Split(NewLine);
+    .Split(Constants.NewLine);
 logger.LogInformation("Done get source hosts");
 
 var modifiedDateString = sourceUris[..14]
@@ -55,78 +48,70 @@ if (epoch <= settings.SourcePreviousUpdateEpoch)
 
 logger.LogInformation("Start get AdGuard hosts");
 var adGuardLines = (await httpClient.GetStringAsync(settings.AdGuardUri))
-    .Split(NewLine)
-    .Where(l => !string.IsNullOrWhiteSpace(l) && !l.StartsWith(ExclamationMark) && !l.StartsWith(AtSign))
-    .Select(l => ReplaceAdGuard(l))
+    .Split(Constants.NewLine)
+    .Where(l => !string.IsNullOrWhiteSpace(l) && !l.StartsWith(Constants.ExclamationMark) && !l.StartsWith(Constants.AtSign))
+    .Select(l => DnsUtilities.ReplaceAdGuard(l))
     .Where(l => !string.IsNullOrWhiteSpace(l))
     .ToArray();
 logger.LogInformation("Done get AdGuard hosts");
 
-var length = IpFilter.Length;
-var cleanedLines = sourceUris
-    .Where(l =>  !l.Equals(LoopbackEntry) && l.StartsWith(IpFilter))
-    .Select(l => ReplaceSource(l, length))
-    .ToArray();
-
-var newLinesList = new List<string>();
-
-logger.LogInformation("Start filtering hosts");
-Parallel.ForEach(cleanedLines, line =>
-{
-    var contained = false;
-    foreach (var adGuardLine in adGuardLines)
-    {
-        if (line.Contains(adGuardLine))
-        {
-            contained = true;
-            break;
-        }
-    }
-
-    if (contained)
-        return;
-
-    newLinesList.Add($"||{line}^");
-});
-logger.LogInformation("Done filtering hosts");
-
-logger.LogInformation("Start sorting hosts");
-newLinesList = newLinesList
+logger.LogInformation("Start combining host sources");
+var combined = sourceUris
+    .Except(settings.SkipLines)
+    .Where(l => !l.Equals(Constants.LoopbackEntry) && l.StartsWith(Constants.IpFilter))
+    .Select(l => DnsUtilities.ReplaceSource(l, Constants.IpFilterLength))
     .OrderBy(l => l)
+    .Except(adGuardLines)
     .ToList();
-logger.LogInformation("Done sorting hosts");
+combined.AddRange(adGuardLines);
+combined.AddRange(settings.KnownBadHosts);
+logger.LogInformation("Done combining host sources");
+
+logger.LogInformation("Start removing www duplicates");
+var wwwOnly = CollectionUtilities.GetWwwOnly(combined);
+var wwwToRemove = new List<string>();
+Parallel.ForEach(wwwOnly, item =>
+{
+    if (combined.Contains(item.WithoutPrefix))
+        wwwToRemove.Add(item.WithPrefix);
+});
+logger.LogInformation("Done removing www duplicates");
+
+combined = CollectionUtilities.SortDnsList(combined.Except(wwwToRemove));
+
+logger.LogInformation("Start filtering duplicates");
+var superFiltered = new List<string>(combined.Count);
+var round = 0;
+do
+{
+    superFiltered.Clear();
+    var lookBack = ++round * 250;
+    Parallel.For(0, combined.Count, (i) =>
+    {
+        for (int j = (i < lookBack ? 0 : i - lookBack); j < i; j++)
+        {
+            var item = combined[i];
+            if (item.EndsWith($".{combined[j]}"))
+            {
+                superFiltered.Add(item);
+                break;
+            }
+        }
+    });
+
+    combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered).Except(adGuardLines));
+} while (superFiltered.Any());
+logger.LogInformation("Done filtering duplicates");
+
+logger.LogInformation("Start formatting hosts");
+var newLinesList = combined
+    .Select(l => $"||{l}^")
+    .OrderBy(l => l);
+logger.LogInformation("Done formatting hosts");
 
 logger.LogInformation("Start building hosts results");
-var headerLines = new []
-{
-    "# Copyright Henrik Widlund https://github.com/henrikwidlund/HostsParser/blob/main/LICENSE",
-    "# All content below commented lines are based on StevenBlack/hosts and AdGuard DNS filter.",
-    "# It is only modified to work with AdGuard Home and remove duplicates.",
-    $"# StevenBlack/hosts: https://github.com/StevenBlack/hosts/ ({settings.SourceUri})",
-    $"# AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter ({settings.AdGuardUri})",
-    string.Empty
-};
 
-var newLines = new HashSet<string>(headerLines);
-var skipLines = new[]
-{
-    "127.0.0.1 localhost",
-    "127.0.0.1 localhost.localdomain",
-    "127.0.0.1 local",
-    "255.255.255.255 broadcasthost",
-    "::1 localhost",
-    "::1 ip6-localhost",
-    "::1 ip6-loopback",
-    "fe80::1%lo0 localhost",
-    "ff00::0 ip6-localnet",
-    "ff00::0 ip6-mcastprefix",
-    "ff02::1 ip6-allnodes",
-    "ff02::2 ip6-allrouters",
-    "ff02::3 ip6-allhosts"
-};
-
-sourceUris = sourceUris.Except(newLines).Except(skipLines).ToArray();
-
+var newLines = new HashSet<string>(settings.HeaderLines);
 foreach (var item in newLinesList)
     newLines.Add(item);
 
@@ -146,26 +131,3 @@ logger.LogInformation("Done updating settings");
 
 stopWatch.Stop();
 logger.LogInformation($"Execution duration: {stopWatch.Elapsed}");
-
-static string ReplaceSource(ReadOnlySpan<char> item, in int length)
-    => item[length..].ToString();
-
-static string ReplaceAdGuard(ReadOnlySpan<char> item)
-{
-    var originalItem = item.ToString();
-    if (item.StartsWith(Pipe))
-    {
-        var index = item.LastIndexOf(Pipe);
-        item = item[++index..];
-    }
-
-    if (item.EndsWith(Hat))
-    {
-        var index = item.IndexOf(Hat);
-        item = item[..index];
-    }
-
-    return item.ToString();
-}
-
-record Settings(Uri SourceUri, long SourcePreviousUpdateEpoch, Uri AdGuardUri);
