@@ -1,7 +1,7 @@
 ﻿// Copyright Henrik Widlund
 // Apache License 2.0
 
-using Microsoft.Data.Sqlite;
+using HostsParser;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -11,6 +11,7 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Text.Json;
+using System.Threading.Tasks;
 
 using var loggerFactory = LoggerFactory.Create(options =>
 {
@@ -23,21 +24,13 @@ logger.LogInformation("Running...");
 var stopWatch = new Stopwatch();
 stopWatch.Start();
 
-const string Pipe = "|";
-const string Hat = "^";
-const char NewLine = '\n';
-const char ExclamationMark = '!';
-const char AtSign = '@';
-const string IpFilter = "0.0.0.0 ";
-const string LoopbackEntry = "0.0.0.0 0.0.0.0";
-
 var settings = JsonSerializer.Deserialize<Settings>(File.ReadAllBytes("appsettings.json"));
 
 using var httpClient = new HttpClient();
 
 logger.LogInformation("Start get source hosts");
 var sourceUris = (await httpClient.GetStringAsync(settings.SourceUri))
-    .Split(NewLine);
+    .Split(Constants.NewLine);
 logger.LogInformation("Done get source hosts");
 
 var modifiedDateString = sourceUris[..14]
@@ -55,131 +48,69 @@ if (epoch <= settings.SourcePreviousUpdateEpoch)
 
 logger.LogInformation("Start get AdGuard hosts");
 var adGuardLines = (await httpClient.GetStringAsync(settings.AdGuardUri))
-    .Split(NewLine)
-    .Where(l => !string.IsNullOrWhiteSpace(l) && !l.StartsWith(ExclamationMark) && !l.StartsWith(AtSign))
-    .Select(l => ReplaceAdGuard(l))
+    .Split(Constants.NewLine)
+    .Where(l => !string.IsNullOrWhiteSpace(l) && !l.StartsWith(Constants.ExclamationMark) && !l.StartsWith(Constants.AtSign))
+    .Select(l => DnsUtilities.ReplaceAdGuard(l))
     .Where(l => !string.IsNullOrWhiteSpace(l))
     .ToArray();
 logger.LogInformation("Done get AdGuard hosts");
 
-var length = IpFilter.Length;
-var skipLines = new[]
-{
-    "127.0.0.1 localhost",
-    "127.0.0.1 localhost.localdomain",
-    "127.0.0.1 local",
-    "255.255.255.255 broadcasthost",
-    "::1 localhost",
-    "::1 ip6-localhost",
-    "::1 ip6-loopback",
-    "fe80::1%lo0 localhost",
-    "ff00::0 ip6-localnet",
-    "ff00::0 ip6-mcastprefix",
-    "ff02::1 ip6-allnodes",
-    "ff02::2 ip6-allrouters",
-    "ff02::3 ip6-allhosts",
-    "0.0.0.0 0.0.0.0",
-    "0.0.0.0 fe #00::0 ip6-localnet",
-    "0.0.0.0 ff #00::0 ip6-mcastprefix"
-};
-var cleanedLinesArray = sourceUris
-    .Except(skipLines)
-    .Where(l => !l.Equals(LoopbackEntry) && l.StartsWith(IpFilter))
-    .Select(l => ReplaceSource(l, length))
+logger.LogInformation("Start combining host sources");
+var combined = sourceUris
+    .Except(settings.SkipLines)
+    .Where(l => !l.Equals(Constants.LoopbackEntry) && l.StartsWith(Constants.IpFilter))
+    .Select(l => DnsUtilities.ReplaceSource(l, Constants.IpFilterLength))
     .OrderBy(l => l)
-    .ToArray();
-
-var a = cleanedLinesArray.Where(l => l == "fe ").ToList();
-var b = adGuardLines.Where(l => l == "fe ").ToList();
-
-List<string> combined = cleanedLinesArray.Except(adGuardLines).ToList();
+    .Except(adGuardLines)
+    .ToList();
 combined.AddRange(adGuardLines);
-combined = combined.Distinct().OrderBy(l => l.Length).ToList();
+logger.LogInformation("Done combining host sources");
 
-var superFiltered = new List<string>();
-
-using (var connection = new SqliteConnection("Data Source=hosts.db"))
+logger.LogInformation("Start removing www duplicates");
+var wwwOnly = CollectionUtilities.GetWwwOnly(combined);
+var wwwToRemove = new List<string>();
+Parallel.ForEach(wwwOnly, item =>
 {
-    connection.Open();
+    if (combined.Contains(item.WithoutPrefix))
+        wwwToRemove.Add(item.WithPrefix);
+});
+logger.LogInformation("Done removing www duplicates");
 
-    var delTableCmd = connection.CreateCommand();
-    delTableCmd.CommandText = "DROP TABLE IF EXISTS tblHosts";
-    await delTableCmd.ExecuteNonQueryAsync();
+combined = CollectionUtilities.SortDnsList(combined.Except(wwwToRemove));
 
-    var createTableCmd = connection.CreateCommand();
-    createTableCmd.CommandText = @"CREATE TABLE tblHosts(host NVARCHAR(1000));
-                                   CREATE UNIQUE INDEX idx_tblHosts ON tblHosts(host);";
-    await createTableCmd.ExecuteNonQueryAsync();
-
-    using (var transaction = await connection.BeginTransactionAsync())
+logger.LogInformation("Start filtering duplicates");
+var superFiltered = new List<string>(combined.Count);
+var round = 0;
+do
+{
+    superFiltered.Clear();
+    var lookBack = ++round * 250;
+    Parallel.For(0, combined.Count, (i) =>
     {
-        foreach (var item in combined)
+        for (int j = (i < lookBack ? 0 : i - lookBack); j < i; j++)
         {
-            var command = connection.CreateCommand();
-            command.CommandText =
-            "INSERT INTO tblHosts VALUES($host)";
-            command.Parameters.AddWithValue("$host", "." + item);
-            await command.ExecuteNonQueryAsync();
-        }
-
-        await transaction.CommitAsync();
-    }
-
-    try
-    {
-        using var query = connection.CreateCommand();
-        query.CommandText = @"SELECT t.host FROM tblHosts as t
-                            WHERE (SELECT COUNT(1) FROM tblHosts AS t2 WHERE LENGTH(t2.host) < LENGTH(t.host) AND t2.host like '%t.host' LIMIT 1) > 0";
-        await using var reader = await query.ExecuteReaderAsync();
-        {
-            while (await reader.ReadAsync())
+            var item = combined[i];
+            if (item.EndsWith($".{combined[j]}"))
             {
-                var name = reader.GetString(0);
-                superFiltered.Add(name[1..]);
+                superFiltered.Add(item);
+                break;
             }
         }
+    });
 
-    }
-    catch (Exception ex)
-    {
-        logger.LogError(ex, "error");
-        throw;
-    }
-}
+    combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered).Except(adGuardLines));
+} while (superFiltered.Any());
+logger.LogInformation("Done filtering duplicates");
 
-combined = combined.Except(superFiltered).Except(adGuardLines).ToList();
-
-var newLinesList = new List<string>();
-
-logger.LogInformation("Start filtering hosts");
-foreach (var item in combined)
-{
-    newLinesList.Add($"||{item}^");
-}
-
-logger.LogInformation("Done filtering hosts");
-
-logger.LogInformation("Start sorting hosts");
-newLinesList = newLinesList
-    .OrderBy(l => l)
-    .ToList();
-logger.LogInformation("Done sorting hosts");
+logger.LogInformation("Start formatting hosts");
+var newLinesList = combined
+    .Select(l => $"||{l}^")
+    .OrderBy(l => l);
+logger.LogInformation("Done formatting hosts");
 
 logger.LogInformation("Start building hosts results");
-var headerLines = new[]
-{
-    "# Copyright Henrik Widlund https://github.com/henrikwidlund/HostsParser/blob/main/LICENSE",
-    "# All content below commented lines are based on StevenBlack/hosts and AdGuard DNS filter.",
-    "# It is only modified to work with AdGuard Home and remove duplicates.",
-    $"# StevenBlack/hosts: https://github.com/StevenBlack/hosts/ ({settings.SourceUri})",
-    $"# AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter ({settings.AdGuardUri})",
-    string.Empty
-};
 
-var newLines = new HashSet<string>(headerLines);
-
-sourceUris = sourceUris.Except(newLines).Except(skipLines).ToArray();
-
+var newLines = new HashSet<string>(settings.HeaderLines);
 foreach (var item in newLinesList)
     newLines.Add(item);
 
@@ -199,33 +130,3 @@ logger.LogInformation("Done updating settings");
 
 stopWatch.Stop();
 logger.LogInformation($"Execution duration: {stopWatch.Elapsed}");
-
-static string ReplaceSource(ReadOnlySpan<char> item, in int length)
-{
-    var item2 = item[length..];
-    if (item2.Contains("#", StringComparison.Ordinal))
-        item2 = item2[..item2.IndexOf("#")];
-    item2 = item2.Trim();
-    
-    return item2.ToString();
-}
-
-static string ReplaceAdGuard(ReadOnlySpan<char> item)
-{
-    var originalItem = item.ToString();
-    if (item.StartsWith(Pipe))
-    {
-        var index = item.LastIndexOf(Pipe);
-        item = item[++index..];
-    }
-
-    if (item.EndsWith(Hat))
-    {
-        var index = item.IndexOf(Hat);
-        item = item[..index];
-    }
-
-    return item.ToString();
-}
-
-record Settings(Uri SourceUri, long SourcePreviousUpdateEpoch, Uri AdGuardUri);
