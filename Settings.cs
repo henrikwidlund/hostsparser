@@ -7,5 +7,6 @@ namespace HostsParser
         long SourcePreviousUpdateEpoch,
         Uri AdGuardUri,
         string[] SkipLines,
-        string[] HeaderLines);
+        string[] HeaderLines,
+        string[] KnownBadHosts);
 }

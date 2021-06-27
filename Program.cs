@@ -64,6 +64,7 @@ var combined = sourceUris
     .Except(adGuardLines)
     .ToList();
 combined.AddRange(adGuardLines);
+combined.AddRange(settings.KnownBadHosts);
 logger.LogInformation("Done combining host sources");
 
 logger.LogInformation("Start removing www duplicates");
