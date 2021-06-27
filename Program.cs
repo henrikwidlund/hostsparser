@@ -1,6 +1,7 @@
 ﻿// Copyright Henrik Widlund
 // Apache License 2.0
 
+using Microsoft.Data.Sqlite;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,6 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 using var loggerFactory = LoggerFactory.Create(options =>
 {
@@ -63,51 +63,6 @@ var adGuardLines = (await httpClient.GetStringAsync(settings.AdGuardUri))
 logger.LogInformation("Done get AdGuard hosts");
 
 var length = IpFilter.Length;
-var cleanedLines = sourceUris
-    .Where(l =>  !l.Equals(LoopbackEntry) && l.StartsWith(IpFilter))
-    .Select(l => ReplaceSource(l, length))
-    .ToArray();
-
-var newLinesList = new List<string>();
-
-logger.LogInformation("Start filtering hosts");
-Parallel.ForEach(cleanedLines, line =>
-{
-    var contained = false;
-    foreach (var adGuardLine in adGuardLines)
-    {
-        if (line.Contains(adGuardLine))
-        {
-            contained = true;
-            break;
-        }
-    }
-
-    if (contained)
-        return;
-
-    newLinesList.Add($"||{line}^");
-});
-logger.LogInformation("Done filtering hosts");
-
-logger.LogInformation("Start sorting hosts");
-newLinesList = newLinesList
-    .OrderBy(l => l)
-    .ToList();
-logger.LogInformation("Done sorting hosts");
-
-logger.LogInformation("Start building hosts results");
-var headerLines = new []
-{
-    "# Copyright Henrik Widlund https://github.com/henrikwidlund/HostsParser/blob/main/LICENSE",
-    "# All content below commented lines are based on StevenBlack/hosts and AdGuard DNS filter.",
-    "# It is only modified to work with AdGuard Home and remove duplicates.",
-    $"# StevenBlack/hosts: https://github.com/StevenBlack/hosts/ ({settings.SourceUri})",
-    $"# AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter ({settings.AdGuardUri})",
-    string.Empty
-};
-
-var newLines = new HashSet<string>(headerLines);
 var skipLines = new[]
 {
     "127.0.0.1 localhost",
@@ -122,8 +77,106 @@ var skipLines = new[]
     "ff00::0 ip6-mcastprefix",
     "ff02::1 ip6-allnodes",
     "ff02::2 ip6-allrouters",
-    "ff02::3 ip6-allhosts"
+    "ff02::3 ip6-allhosts",
+    "0.0.0.0 0.0.0.0",
+    "0.0.0.0 fe #00::0 ip6-localnet",
+    "0.0.0.0 ff #00::0 ip6-mcastprefix"
 };
+var cleanedLinesArray = sourceUris
+    .Except(skipLines)
+    .Where(l => !l.Equals(LoopbackEntry) && l.StartsWith(IpFilter))
+    .Select(l => ReplaceSource(l, length))
+    .OrderBy(l => l)
+    .ToArray();
+
+var a = cleanedLinesArray.Where(l => l == "fe ").ToList();
+var b = adGuardLines.Where(l => l == "fe ").ToList();
+
+List<string> combined = cleanedLinesArray.Except(adGuardLines).ToList();
+combined.AddRange(adGuardLines);
+combined = combined.Distinct().OrderBy(l => l.Length).ToList();
+
+var superFiltered = new List<string>();
+
+using (var connection = new SqliteConnection("Data Source=hosts.db"))
+{
+    connection.Open();
+
+    var delTableCmd = connection.CreateCommand();
+    delTableCmd.CommandText = "DROP TABLE IF EXISTS tblHosts";
+    await delTableCmd.ExecuteNonQueryAsync();
+
+    var createTableCmd = connection.CreateCommand();
+    createTableCmd.CommandText = @"CREATE TABLE tblHosts(host NVARCHAR(1000));
+                                   CREATE UNIQUE INDEX idx_tblHosts ON tblHosts(host);";
+    await createTableCmd.ExecuteNonQueryAsync();
+
+    using (var transaction = await connection.BeginTransactionAsync())
+    {
+        foreach (var item in combined)
+        {
+            var command = connection.CreateCommand();
+            command.CommandText =
+            "INSERT INTO tblHosts VALUES($host)";
+            command.Parameters.AddWithValue("$host", "." + item);
+            await command.ExecuteNonQueryAsync();
+        }
+
+        await transaction.CommitAsync();
+    }
+
+    try
+    {
+        using var query = connection.CreateCommand();
+        query.CommandText = @"SELECT t.host FROM tblHosts as t
+                            WHERE (SELECT COUNT(1) FROM tblHosts AS t2 WHERE LENGTH(t2.host) < LENGTH(t.host) AND t2.host like '%t.host' LIMIT 1) > 0";
+        await using var reader = await query.ExecuteReaderAsync();
+        {
+            while (await reader.ReadAsync())
+            {
+                var name = reader.GetString(0);
+                superFiltered.Add(name[1..]);
+            }
+        }
+
+    }
+    catch (Exception ex)
+    {
+        logger.LogError(ex, "error");
+        throw;
+    }
+}
+
+combined = combined.Except(superFiltered).Except(adGuardLines).ToList();
+
+var newLinesList = new List<string>();
+
+logger.LogInformation("Start filtering hosts");
+foreach (var item in combined)
+{
+    newLinesList.Add($"||{item}^");
+}
+
+logger.LogInformation("Done filtering hosts");
+
+logger.LogInformation("Start sorting hosts");
+newLinesList = newLinesList
+    .OrderBy(l => l)
+    .ToList();
+logger.LogInformation("Done sorting hosts");
+
+logger.LogInformation("Start building hosts results");
+var headerLines = new[]
+{
+    "# Copyright Henrik Widlund https://github.com/henrikwidlund/HostsParser/blob/main/LICENSE",
+    "# All content below commented lines are based on StevenBlack/hosts and AdGuard DNS filter.",
+    "# It is only modified to work with AdGuard Home and remove duplicates.",
+    $"# StevenBlack/hosts: https://github.com/StevenBlack/hosts/ ({settings.SourceUri})",
+    $"# AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter ({settings.AdGuardUri})",
+    string.Empty
+};
+
+var newLines = new HashSet<string>(headerLines);
 
 sourceUris = sourceUris.Except(newLines).Except(skipLines).ToArray();
 
@@ -148,7 +201,14 @@ stopWatch.Stop();
 logger.LogInformation($"Execution duration: {stopWatch.Elapsed}");
 
 static string ReplaceSource(ReadOnlySpan<char> item, in int length)
-    => item[length..].ToString();
+{
+    var item2 = item[length..];
+    if (item2.Contains("#", StringComparison.Ordinal))
+        item2 = item2[..item2.IndexOf("#")];
+    item2 = item2.Trim();
+    
+    return item2.ToString();
+}
 
 static string ReplaceAdGuard(ReadOnlySpan<char> item)
 {
