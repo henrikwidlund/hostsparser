@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 using var loggerFactory = LoggerFactory.Create(options =>
 {
     options.AddDebug();
-    options.AddConsole();
+    options.AddSimpleConsole(consoleOptions => consoleOptions.TimestampFormat = "yyyy-MM-dd hh:mm:ss ");
 });
 var logger = loggerFactory.CreateLogger("HostsParser");
 
@@ -29,7 +29,7 @@ var settings = JsonSerializer.Deserialize<Settings>(File.ReadAllBytes("appsettin
 using var httpClient = new HttpClient();
 
 logger.LogInformation("Start get source hosts");
-var sourceUris = (await httpClient.GetStringAsync(settings.SourceUri))
+var sourceUris = (await httpClient.GetStringAsync(settings!.SourceUri))
     .Split(Constants.NewLine);
 logger.LogInformation("Done get source hosts");
 
@@ -63,8 +63,10 @@ var combined = sourceUris
     .OrderBy(l => l)
     .Except(adGuardLines)
     .ToList();
+sourceUris = null;
 combined.AddRange(adGuardLines);
 combined.AddRange(settings.KnownBadHosts);
+combined = CollectionUtilities.SortDnsList(combined);
 logger.LogInformation("Done combining host sources");
 
 logger.LogInformation("Start removing www duplicates");
@@ -75,12 +77,14 @@ Parallel.ForEach(wwwOnly, item =>
     if (combined.Contains(item.WithoutPrefix))
         wwwToRemove.Add(item.WithPrefix);
 });
+wwwOnly = null;
+combined = CollectionUtilities.SortDnsList(combined.Except(wwwToRemove));
+wwwToRemove = null;
 logger.LogInformation("Done removing www duplicates");
 
-combined = CollectionUtilities.SortDnsList(combined.Except(wwwToRemove));
-
-logger.LogInformation("Start filtering duplicates");
+logger.LogInformation("Start filtering duplicates - Part 1");
 var superFiltered = new List<string>(combined.Count);
+
 var round = 0;
 do
 {
@@ -88,20 +92,34 @@ do
     var lookBack = ++round * 250;
     Parallel.For(0, combined.Count, (i) =>
     {
-        for (int j = (i < lookBack ? 0 : i - lookBack); j < i; j++)
+        for (var j = (i < lookBack ? 0 : i - lookBack); j < i; j++)
         {
             var item = combined[i];
-            if (item.EndsWith($".{combined[j]}"))
-            {
-                superFiltered.Add(item);
-                break;
-            }
+            if (item.Equals(combined[j])) continue;
+            if (!item.EndsWith($".{combined[j]}")) continue;
+            superFiltered.Add(item);
+            break;
         }
     });
 
     combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered).Except(adGuardLines));
 } while (superFiltered.Any());
-logger.LogInformation("Done filtering duplicates");
+logger.LogInformation("Done filtering duplicates - Part 1");
+
+#if EXTRA_FILTERING
+logger.LogInformation("Start filtering duplicates - Part 2");
+Parallel.ForEach(CollectionUtilities.SortDnsList(adGuardLines), item =>
+{
+    for (var i = 0; i < combined.Count; i++)
+    {
+        var localItem = combined[i];
+        if (localItem.EndsWith($".{item}"))
+            superFiltered.Add(localItem);
+    }
+});
+combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered).Except(adGuardLines));
+logger.LogInformation("Done filtering duplicates - Part 2");
+#endif
 
 logger.LogInformation("Start formatting hosts");
 var newLinesList = combined

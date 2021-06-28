@@ -10,7 +10,7 @@
         internal const char AtSign = '@';
         internal const char HashSign = '#';
         internal const string IpFilter = "0.0.0.0 ";
-        internal static int IpFilterLength = IpFilter.Length;
+        internal static readonly int IpFilterLength = IpFilter.Length;
         internal const string LoopbackEntry = "0.0.0.0 0.0.0.0";
         internal const string WwwPrefix = "www.";
     }

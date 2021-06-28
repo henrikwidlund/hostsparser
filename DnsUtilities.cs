@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace HostsParser
 {
@@ -17,12 +16,11 @@ namespace HostsParser
 
         internal static string ReplaceAdGuard(ReadOnlySpan<char> item)
         {
-            var originalItem = item.ToString();
             if (item.StartsWith(Constants.PipeSign))
                 item = item[(item.LastIndexOf(Constants.PipeSign) + 1)..];
 
             if (item.EndsWith(Constants.HatSign))
-                item = item[0..^1];
+                item = item[..^1];
 
             return item.ToString();
         }
