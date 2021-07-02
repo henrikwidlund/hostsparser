@@ -16,11 +16,14 @@ using System.Threading.Tasks;
 using var loggerFactory = LoggerFactory.Create(options =>
 {
     options.AddDebug();
-    options.AddSimpleConsole(consoleOptions => consoleOptions.TimestampFormat = "yyyy-MM-dd hh:mm:ss ");
+    options.AddSimpleConsole(consoleOptions =>
+    {
+        consoleOptions.SingleLine = true;
+    });
 });
 var logger = loggerFactory.CreateLogger("HostsParser");
 
-logger.LogInformation("Running...");
+logger.LogInformation(WithTimeStamp("Running..."));
 var stopWatch = new Stopwatch();
 stopWatch.Start();
 
@@ -28,10 +31,10 @@ var settings = JsonSerializer.Deserialize<Settings>(File.ReadAllBytes("appsettin
 
 using var httpClient = new HttpClient();
 
-logger.LogInformation("Start get source hosts");
+logger.LogInformation(WithTimeStamp("Start get source hosts"));
 var sourceUris = (await httpClient.GetStringAsync(settings!.SourceUri))
     .Split(Constants.NewLine);
-logger.LogInformation("Done get source hosts");
+logger.LogInformation(WithTimeStamp("Done get source hosts"));
 
 var modifiedDateString = sourceUris[..14]
     .Single(l => l.StartsWith("# Date: "))
@@ -42,20 +45,20 @@ var modifiedDate = DateTime.Parse(modifiedDateString, DateTimeFormatInfo.Invaria
 var epoch = new DateTimeOffset(modifiedDate).ToUnixTimeSeconds();
 if (epoch <= settings.SourcePreviousUpdateEpoch)
 {
-    logger.LogInformation("Source not modified since previous run. Terminating...");
+    logger.LogInformation(WithTimeStamp("Source not modified since previous run. Terminating..."));
     return;
 }
 
-logger.LogInformation("Start get AdGuard hosts");
+logger.LogInformation(WithTimeStamp("Start get AdGuard hosts"));
 var adGuardLines = (await httpClient.GetStringAsync(settings.AdGuardUri))
     .Split(Constants.NewLine)
     .Where(l => !string.IsNullOrWhiteSpace(l) && !l.StartsWith(Constants.ExclamationMark) && !l.StartsWith(Constants.AtSign))
     .Select(l => DnsUtilities.ReplaceAdGuard(l))
     .Where(l => !string.IsNullOrWhiteSpace(l))
     .ToArray();
-logger.LogInformation("Done get AdGuard hosts");
+logger.LogInformation(WithTimeStamp("Done get AdGuard hosts"));
 
-logger.LogInformation("Start combining host sources");
+logger.LogInformation(WithTimeStamp("Start combining host sources"));
 var combined = sourceUris
     .Except(settings.SkipLines)
     .Where(l => !l.Equals(Constants.LoopbackEntry) && l.StartsWith(Constants.IpFilter))
@@ -67,9 +70,9 @@ sourceUris = null;
 combined.AddRange(adGuardLines);
 combined.AddRange(settings.KnownBadHosts);
 combined = CollectionUtilities.SortDnsList(combined);
-logger.LogInformation("Done combining host sources");
+logger.LogInformation(WithTimeStamp("Done combining host sources"));
 
-logger.LogInformation("Start removing www duplicates");
+logger.LogInformation(WithTimeStamp("Start removing www duplicates"));
 var wwwOnly = CollectionUtilities.GetWwwOnly(combined);
 var wwwToRemove = new List<string>();
 Parallel.ForEach(wwwOnly, item =>
@@ -80,9 +83,9 @@ Parallel.ForEach(wwwOnly, item =>
 wwwOnly = null;
 combined = CollectionUtilities.SortDnsList(combined.Except(wwwToRemove));
 wwwToRemove = null;
-logger.LogInformation("Done removing www duplicates");
+logger.LogInformation(WithTimeStamp("Done removing www duplicates"));
 
-logger.LogInformation("Start filtering duplicates - Part 1");
+logger.LogInformation(WithTimeStamp("Start filtering duplicates - Part 1"));
 var superFiltered = new List<string>(combined.Count);
 
 var round = 0;
@@ -104,10 +107,10 @@ do
 
     combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered).Except(adGuardLines));
 } while (superFiltered.Any());
-logger.LogInformation("Done filtering duplicates - Part 1");
+logger.LogInformation(WithTimeStamp("Done filtering duplicates - Part 1"));
 
 #if EXTRA_FILTERING
-logger.LogInformation("Start filtering duplicates - Part 2");
+logger.LogInformation(WithTimeStamp("Start filtering duplicates - Part 2"));
 Parallel.ForEach(CollectionUtilities.SortDnsList(adGuardLines), item =>
 {
     for (var i = 0; i < combined.Count; i++)
@@ -118,34 +121,39 @@ Parallel.ForEach(CollectionUtilities.SortDnsList(adGuardLines), item =>
     }
 });
 combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered).Except(adGuardLines));
-logger.LogInformation("Done filtering duplicates - Part 2");
+logger.LogInformation(WithTimeStamp("Done filtering duplicates - Part 2"));
 #endif
 
-logger.LogInformation("Start formatting hosts");
+logger.LogInformation(WithTimeStamp("Start formatting hosts"));
 var newLinesList = combined
     .Select(l => $"||{l}^")
     .OrderBy(l => l);
-logger.LogInformation("Done formatting hosts");
+logger.LogInformation(WithTimeStamp("Done formatting hosts"));
 
-logger.LogInformation("Start building hosts results");
+logger.LogInformation(WithTimeStamp("Start building hosts results"));
 
 var newLines = new HashSet<string>(settings.HeaderLines);
 foreach (var item in newLinesList)
     newLines.Add(item);
 
-logger.LogInformation("Done building hosts results");
+logger.LogInformation(WithTimeStamp("Done building hosts results"));
 
-logger.LogInformation("Start writing hosts file");
+logger.LogInformation(WithTimeStamp("Start writing hosts file"));
 await File.WriteAllLinesAsync("hosts", newLines);
-logger.LogInformation("Done writing hosts file");
+logger.LogInformation(WithTimeStamp("Done writing hosts file"));
 
-logger.LogInformation("Start updating settings");
+logger.LogInformation(WithTimeStamp("Start updating settings"));
 var newSettings = settings with { SourcePreviousUpdateEpoch = epoch };
 await File.WriteAllTextAsync("appsettings.json", JsonSerializer.Serialize(newSettings, options: new()
 {
     WriteIndented = true
 }));
-logger.LogInformation("Done updating settings");
+logger.LogInformation(WithTimeStamp("Done updating settings"));
 
 stopWatch.Stop();
-logger.LogInformation($"Execution duration: {stopWatch.Elapsed}");
+logger.LogInformation(WithTimeStamp($"Execution duration: {stopWatch.Elapsed}"));
+
+static string WithTimeStamp(string message)
+{
+    return $"{DateTime.Now:yyyy-MM-dd hh:mm:ss} - {message}";
+}
