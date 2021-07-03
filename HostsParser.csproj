@@ -5,6 +5,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <Copyright>Henrik Widlund</Copyright>
     <License>GPL-3.0 License</License>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>

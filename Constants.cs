@@ -1,6 +1,6 @@
 ﻿namespace HostsParser
 {
-    internal static class Constants
+    internal readonly struct Constants
     {
         internal const string PipeSign = "|";
         internal const string HatSign = "^";
@@ -13,5 +13,7 @@
         internal static readonly int IpFilterLength = IpFilter.Length;
         internal const string LoopbackEntry = "0.0.0.0 0.0.0.0";
         internal const string WwwPrefix = "www.";
+        internal const string UseExternalLastRun = "USE_EXTERNAL_LAST_RUN";
+        internal const string ModifiedFile = "MODIFIED.txt";
     }
 }

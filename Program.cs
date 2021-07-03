@@ -28,11 +28,34 @@ var stopWatch = new Stopwatch();
 stopWatch.Start();
 
 var settings = JsonSerializer.Deserialize<Settings>(File.ReadAllBytes("appsettings.json"));
+if (settings == null)
+{
+    logger.LogError("Couldn't load settings. Terminating...");
+    return;
+}
 
 using var httpClient = new HttpClient();
 
+logger.LogInformation(WithTimeStamp("Start checking if external last run should be used"));
+if (settings.LastRunExternalUri != null
+    && bool.TryParse(Environment.GetEnvironmentVariable(Constants.UseExternalLastRun), out var useExternalLastRun)
+    && useExternalLastRun)
+{
+    var httpResponseMessage = await httpClient.GetAsync(settings.LastRunExternalUri);
+    if (httpResponseMessage.IsSuccessStatusCode)
+    {
+        var lastRunString = await httpResponseMessage.Content.ReadAsStringAsync();
+        if (long.TryParse(lastRunString, NumberStyles.Integer, NumberFormatInfo.InvariantInfo, out var lastRun))
+        {
+            settings = settings with { SourcePreviousUpdateEpoch = lastRun };
+            logger.LogInformation(WithTimeStamp($"Using external last run: {lastRunString}"));
+        }
+    }
+}
+logger.LogInformation(WithTimeStamp("Done checking if external last run should be used"));
+
 logger.LogInformation(WithTimeStamp("Start get source hosts"));
-var sourceUris = (await httpClient.GetStringAsync(settings!.SourceUri))
+var sourceUris = (await httpClient.GetStringAsync(settings.SourceUri))
     .Split(Constants.NewLine);
 logger.LogInformation(WithTimeStamp("Done get source hosts"));
 
@@ -42,21 +65,34 @@ var modifiedDateString = sourceUris[..14]
     .Replace(" (UTC)", null);
 
 var modifiedDate = DateTime.Parse(modifiedDateString, DateTimeFormatInfo.InvariantInfo, DateTimeStyles.AssumeUniversal);
-var epoch = new DateTimeOffset(modifiedDate).ToUnixTimeSeconds();
+
+sourceUris = sourceUris
+    .Where(l => !l.StartsWith(Constants.HashSign))
+    .ToArray();
+
+logger.LogInformation(WithTimeStamp("Start get AdGuard hosts"));
+var adGuardLines = (await httpClient.GetStringAsync(settings.AdGuardUri))
+    .Split(Constants.NewLine);
+logger.LogInformation(WithTimeStamp("Done get AdGuard hosts"));
+
+modifiedDateString = adGuardLines[..6]
+    .Single(l => l.StartsWith("! Last modified: "))
+    .Replace("! Last modified: ", null);
+var adGuardModified = DateTime.Parse(modifiedDateString, DateTimeFormatInfo.InvariantInfo);
+
+var epoch = new DateTimeOffset(adGuardModified > modifiedDate ? adGuardModified : modifiedDate).ToUnixTimeSeconds();
+await File.WriteAllTextAsync(Constants.ModifiedFile, epoch.ToString(NumberFormatInfo.InvariantInfo));
 if (epoch <= settings.SourcePreviousUpdateEpoch)
 {
     logger.LogInformation(WithTimeStamp("Source not modified since previous run. Terminating..."));
     return;
 }
 
-logger.LogInformation(WithTimeStamp("Start get AdGuard hosts"));
-var adGuardLines = (await httpClient.GetStringAsync(settings.AdGuardUri))
-    .Split(Constants.NewLine)
+adGuardLines = adGuardLines
     .Where(l => !string.IsNullOrWhiteSpace(l) && !l.StartsWith(Constants.ExclamationMark) && !l.StartsWith(Constants.AtSign))
     .Select(l => DnsUtilities.ReplaceAdGuard(l))
     .Where(l => !string.IsNullOrWhiteSpace(l))
     .ToArray();
-logger.LogInformation(WithTimeStamp("Done get AdGuard hosts"));
 
 logger.LogInformation(WithTimeStamp("Start combining host sources"));
 var combined = sourceUris
@@ -132,7 +168,7 @@ logger.LogInformation(WithTimeStamp("Done formatting hosts"));
 
 logger.LogInformation(WithTimeStamp("Start building hosts results"));
 
-var newLines = new HashSet<string>(settings.HeaderLines);
+var newLines = new HashSet<string>(settings.HeaderLines) { $"! Lst Modified: {DateTime.UtcNow:u}" };
 foreach (var item in newLinesList)
     newLines.Add(item);
 

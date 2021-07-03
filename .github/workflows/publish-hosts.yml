@@ -1,9 +1,11 @@
-name: Build and publish hosts file
+name: Build and Publish
 
 on:
   push:
+    branches:
+      - main
   schedule:
-    - cron: '0 */6 * * *' # Every hour
+    - cron: '0 */6 * * *' # Every 6 hours
 
 jobs:
   build:
@@ -24,23 +26,29 @@ jobs:
       run: dotnet build -c Release --no-restore
     
     - name: Run HostsParser
+      env:
+        USE_EXTERNAL_LAST_RUN: ${{ secrets.USE_EXTERNAL_LAST_RUN }}
       run: |
         cd bin/Release/net5.0
         dotnet HostsParser.dll
 
     - name: Copy hosts to root of branch
       run: |
+        mkdir ./public
         HOSTS=bin/Release/net5.0/hosts
         if test -f "$HOSTS"; then
-            cp $HOSTS .
+            cp $HOSTS ./public
         fi
 
-        APPSETTINGS=bin/Release/net5.0/appsettings.json
-        if test -f "$APPSETTINGS"; then
-            cp $APPSETTINGS .
+        MODIFIED=bin/Release/net5.0/MODIFIED.txt
+        if test -f "$MODIFIED"; then
+            cp $MODIFIED ./public
         fi
 
-    - uses: EndBug/add-and-commit@v7
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main'
       with:
-        message: 'Auto update hosts'
-        add: 'hosts appsettings.json --force'
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+        keep_files: true
