@@ -24,6 +24,8 @@ jobs:
       run: dotnet build -c Release --no-restore
     
     - name: Run HostsParser
+      env:
+        USE_EXTERNAL_LAST_RUN: ${{ secrets.USE_EXTERNAL_LAST_RUN }}
       run: |
         cd bin/Release/net5.0
         dotnet HostsParser.dll
