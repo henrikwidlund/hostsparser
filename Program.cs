@@ -65,7 +65,22 @@ var modifiedDateString = sourceUris[..14]
     .Replace(" (UTC)", null);
 
 var modifiedDate = DateTime.Parse(modifiedDateString, DateTimeFormatInfo.InvariantInfo, DateTimeStyles.AssumeUniversal);
-var epoch = new DateTimeOffset(modifiedDate).ToUnixTimeSeconds();
+
+sourceUris = sourceUris
+    .Where(l => !l.StartsWith(Constants.HashSign))
+    .ToArray();
+
+logger.LogInformation(WithTimeStamp("Start get AdGuard hosts"));
+var adGuardLines = (await httpClient.GetStringAsync(settings.AdGuardUri))
+    .Split(Constants.NewLine);
+logger.LogInformation(WithTimeStamp("Done get AdGuard hosts"));
+
+modifiedDateString = adGuardLines[..6]
+    .Single(l => l.StartsWith("! Last modified: "))
+    .Replace("! Last modified: ", null);
+var adGuardModified = DateTime.Parse(modifiedDateString, DateTimeFormatInfo.InvariantInfo);
+
+var epoch = new DateTimeOffset(adGuardModified > modifiedDate ? adGuardModified : modifiedDate).ToUnixTimeSeconds();
 await File.WriteAllTextAsync(Constants.ModifiedFile, epoch.ToString(NumberFormatInfo.InvariantInfo));
 if (epoch <= settings.SourcePreviousUpdateEpoch)
 {
@@ -73,14 +88,11 @@ if (epoch <= settings.SourcePreviousUpdateEpoch)
     return;
 }
 
-logger.LogInformation(WithTimeStamp("Start get AdGuard hosts"));
-var adGuardLines = (await httpClient.GetStringAsync(settings.AdGuardUri))
-    .Split(Constants.NewLine)
+adGuardLines = adGuardLines
     .Where(l => !string.IsNullOrWhiteSpace(l) && !l.StartsWith(Constants.ExclamationMark) && !l.StartsWith(Constants.AtSign))
     .Select(l => DnsUtilities.ReplaceAdGuard(l))
     .Where(l => !string.IsNullOrWhiteSpace(l))
     .ToArray();
-logger.LogInformation(WithTimeStamp("Done get AdGuard hosts"));
 
 logger.LogInformation(WithTimeStamp("Start combining host sources"));
 var combined = sourceUris
