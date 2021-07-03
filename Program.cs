@@ -41,11 +41,15 @@ if (settings.LastRunExternalUri != null
     && bool.TryParse(Environment.GetEnvironmentVariable(Constants.UseExternalLastRun), out var useExternalLastRun)
     && useExternalLastRun)
 {
-    var lastRunString = await httpClient.GetStringAsync(settings.LastRunExternalUri);
-    if (long.TryParse(lastRunString, NumberStyles.Integer, NumberFormatInfo.InvariantInfo, out var lastRun))
+    var httpResponseMessage = await httpClient.GetAsync(settings.LastRunExternalUri);
+    if (httpResponseMessage.IsSuccessStatusCode)
     {
-        settings = settings with { SourcePreviousUpdateEpoch = lastRun };
-        logger.LogInformation(WithTimeStamp($"Using external last run: {lastRunString}"));
+        var lastRunString = await httpResponseMessage.Content.ReadAsStringAsync();
+        if (long.TryParse(lastRunString, NumberStyles.Integer, NumberFormatInfo.InvariantInfo, out var lastRun))
+        {
+            settings = settings with { SourcePreviousUpdateEpoch = lastRun };
+            logger.LogInformation(WithTimeStamp($"Using external last run: {lastRunString}"));
+        }
     }
 }
 logger.LogInformation(WithTimeStamp("Done checking if external last run should be used"));
