@@ -14,6 +14,6 @@
         internal const string LoopbackEntry = "0.0.0.0 0.0.0.0";
         internal const string WwwPrefix = "www.";
         internal const string UseExternalLastRun = "USE_EXTERNAL_LAST_RUN";
-        internal const string ModifiedFile = "MODIFIED";
+        internal const string ModifiedFile = "MODIFIED2";
     }
 }
