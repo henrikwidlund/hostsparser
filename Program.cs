@@ -28,11 +28,30 @@ var stopWatch = new Stopwatch();
 stopWatch.Start();
 
 var settings = JsonSerializer.Deserialize<Settings>(File.ReadAllBytes("appsettings.json"));
+if (settings == null)
+{
+    logger.LogError("Couldn't load settings. Terminating...");
+    return;
+}
 
 using var httpClient = new HttpClient();
 
+logger.LogInformation(WithTimeStamp("Start checking if external last run should be used"));
+if (settings.LastRunExternalUri != null
+    && bool.TryParse(Environment.GetEnvironmentVariable(Constants.UseExternalLastRun), out var useExternalLastRun)
+    && useExternalLastRun)
+{
+    var lastRunString = await httpClient.GetStringAsync(settings.LastRunExternalUri);
+    if (long.TryParse(lastRunString, NumberStyles.Integer, NumberFormatInfo.InvariantInfo, out var lastRun))
+    {
+        settings = settings with { SourcePreviousUpdateEpoch = lastRun };
+        logger.LogInformation(WithTimeStamp($"Using external last run: {lastRunString}"));
+    }
+}
+logger.LogInformation(WithTimeStamp("Done checking if external last run should be used"));
+
 logger.LogInformation(WithTimeStamp("Start get source hosts"));
-var sourceUris = (await httpClient.GetStringAsync(settings!.SourceUri))
+var sourceUris = (await httpClient.GetStringAsync(settings.SourceUri))
     .Split(Constants.NewLine);
 logger.LogInformation(WithTimeStamp("Done get source hosts"));
 
@@ -43,6 +62,7 @@ var modifiedDateString = sourceUris[..14]
 
 var modifiedDate = DateTime.Parse(modifiedDateString, DateTimeFormatInfo.InvariantInfo, DateTimeStyles.AssumeUniversal);
 var epoch = new DateTimeOffset(modifiedDate).ToUnixTimeSeconds();
+await File.WriteAllTextAsync(Constants.ModifiedFile, epoch.ToString(NumberFormatInfo.InvariantInfo));
 if (epoch <= settings.SourcePreviousUpdateEpoch)
 {
     logger.LogInformation(WithTimeStamp("Source not modified since previous run. Terminating..."));
