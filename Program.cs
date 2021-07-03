@@ -168,7 +168,7 @@ logger.LogInformation(WithTimeStamp("Done formatting hosts"));
 
 logger.LogInformation(WithTimeStamp("Start building hosts results"));
 
-var newLines = new HashSet<string>(settings.HeaderLines);
+var newLines = new HashSet<string>(settings.HeaderLines) { $"! Lst Modified: {DateTime.UtcNow:u}" };
 foreach (var item in newLinesList)
     newLines.Add(item);
 
