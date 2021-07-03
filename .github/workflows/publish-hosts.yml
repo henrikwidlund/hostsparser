@@ -3,7 +3,7 @@ name: Build and publish hosts file
 on:
   push:
   schedule:
-    - cron: '0 */6 * * *' # Every hour
+    - cron: '0 */6 * * *' # Every 6 hours
 
 jobs:
   build:
@@ -38,7 +38,7 @@ jobs:
             cp $HOSTS ./public
         fi
 
-        MODIFIED=bin/Release/net5.0/MODIFIED2
+        MODIFIED=bin/Release/net5.0/MODIFIED.txt
         if test -f "$MODIFIED"; then
             cp $MODIFIED ./public
         fi
