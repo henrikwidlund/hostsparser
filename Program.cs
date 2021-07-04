@@ -91,8 +91,11 @@ do
         for (var j = (i < lookBack ? 0 : i - lookBack); j < i; j++)
         {
             var item = combined[i];
-            if (item.Equals(combined[j])) continue;
-            if (!item.EndsWith($".{combined[j]}")) continue;
+            var otherItem = combined[j];
+            if (otherItem.Length + 1 > item.Length) continue;
+            if (item == otherItem) continue;
+
+            if (!item.EndsWith(string.Concat(Constants.DotSignString, otherItem))) continue;
             superFiltered.Add(item);
             break;
         }

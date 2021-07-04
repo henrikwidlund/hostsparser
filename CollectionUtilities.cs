@@ -11,9 +11,8 @@ namespace HostsParser
             return dnsList.Distinct()
                 .OrderBy(l =>
                 {
-                    var span = l.AsSpan();
-                    var indexes = GetIndexes(span);
-                    return indexes.Count <= 1 ? l : ProcessItem(indexes, span).ToString();
+                    var indexes = GetIndexes(l);
+                    return indexes.Count <= 1 ? l : ProcessItem(indexes, l).ToString();
                 })
                 .ThenBy(l => l.Length)
                 .ToList();
@@ -36,7 +35,7 @@ namespace HostsParser
             return foundIndexes;
         }
 
-        internal static IEnumerable<WwwOnly> GetWwwOnly(List<string> hosts) =>
+        internal static IEnumerable<WwwOnly> GetWwwOnly(IEnumerable<string> hosts) =>
             hosts.Where(l => l.AsSpan().StartsWith(Constants.WwwPrefix))
                 .Select(l => new WwwOnly(l, l[4..]));
 
