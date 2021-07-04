@@ -1,10 +1,10 @@
-# Copyright Henrik Widlund https://github.com/henrikwidlund/HostsParser/blob/main/LICENSE
-# All content below commented lines are based on StevenBlack/hosts and AdGuard DNS filter.
-# It is only modified to work with AdGuard Home and remove duplicates.
-# StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
-# AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
+! Copyright Henrik Widlund https://github.com/henrikwidlund/HostsParser/blob/main/LICENSE
+! All content below commented lines are based on StevenBlack/hosts and AdGuard DNS filter.
+! It is only modified to work with AdGuard Home and remove duplicates.
+! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
+! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
+! Lst Modified: 2021-07-04 14:41:36Z
 
-! Lst Modified: 2021-07-04 12:11:47Z
 ||___id___.c.mystat-in.net^
 ||0.0.0.0.beeglivesex.com^
 ||0.0.0.0.creative.hpyrdr.com^
@@ -12717,6 +12717,7 @@
 ||cdn.avantisvideo.com^
 ||cdn.banner.thumbplay.com^
 ||cdn.banners.scubl.com^
+||cdn.beaconads.com^
 ||cdn.beaconpush.com^
 ||cdn.beginads.com^
 ||cdn.bestssaker.com^
@@ -17860,6 +17861,7 @@
 ||dowarto.com^
 ||dowdenphotography.com^
 ||dowelsobject.com^
+||dowjones-d.openx.net^
 ||dowjones.hb-api.omtrdc.net^
 ||dowjones.hb.omtrdc.net^
 ||dowmarkets.com^
@@ -25993,6 +25995,7 @@
 ||healthfreedom.news^
 ||healthimpactnews.com^
 ||healthknowledge.my^
+||healthline-d.openx.net^
 ||healthlottery.co.uk^
 ||healthrangerapproved.com^
 ||healthrangerscience.com^
@@ -27395,7 +27398,6 @@
 ||iad-2.go.sonobi.com^
 ||iad.anm.co.uk^
 ||iad.g.163.com^
-||iad05-login.dotomi.com^
 ||iadc.qwapi.com^
 ||iadctest.qwapi.com^
 ||iadnet.com^
@@ -62902,6 +62904,9 @@
 ||www.formosahappiness.org^
 ||www.fort-russ.com^
 ||www.forum.ithealth.ru^
+||www.foteczkipl24.mypressonline.com^
+||www.fotki-wersow.mypressonline.com^
+||www.fotki.cleverapps.io^
 ||www.fotoidea.com^
 ||www.fourwinds10.net^
 ||www.fpcpopunder.com^
@@ -63318,7 +63323,6 @@
 ||www.medical-research-books.com^
 ||www.medtargetsystem.com^
 ||www.megacounter.de^
-||www.members.sexroulette.com^
 ||www.merchantapp.com^
 ||www.mercola.com^
 ||www.merijntjeaanderijn.nl^
@@ -63335,12 +63339,10 @@
 ||www.mikaeljigmo.com^
 ||www.mikras.nl^
 ||www.milagredagravidez.online^
-||www.milano.koscian.pl^
 ||www.militianews.com^
 ||www.milky-cat.com^
 ||www.milky.tv^
 ||www.milkyprin.com^
-||www.millionways.duckdns.org^
 ||www.milu-av.com^
 ||www.minimum-av.com^
 ||www.minkyheaven.com^
@@ -63355,8 +63357,6 @@
 ||www.modelzone.org^
 ||www.modernajandek.hu^
 ||www.mofozxxx.com^
-||www.mojekumpele.blogspot.com^
-||www.mojemiasto24.you2.pl^
 ||www.mon-com-net.com^
 ||www.moneyyellow.com^
 ||www.monika.co.il^
