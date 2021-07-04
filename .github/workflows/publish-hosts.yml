@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
   schedule:
     - cron: '0 */6 * * *' # Every 6 hours
 
@@ -26,8 +29,6 @@ jobs:
       run: dotnet build -c Release --no-restore
     
     - name: Run HostsParser
-      env:
-        USE_EXTERNAL_LAST_RUN: ${{ secrets.USE_EXTERNAL_LAST_RUN }}
       run: |
         cd bin/Release/net5.0
         dotnet HostsParser.dll
@@ -40,15 +41,9 @@ jobs:
             cp $HOSTS ./public
         fi
 
-        MODIFIED=bin/Release/net5.0/MODIFIED.txt
-        if test -f "$MODIFIED"; then
-            cp $MODIFIED ./public
-        fi
-
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
-        keep_files: true
