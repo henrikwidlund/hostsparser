@@ -1,12 +1,7 @@
-name: CI
+name: Build
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
 
 jobs:
   build:
@@ -25,8 +20,3 @@ jobs:
 
       - name: Build
         run: dotnet build -c Release --no-restore
-
-      - name: Run HostsParser
-        run: |
-          cd bin/Release/net5.0
-          dotnet HostsParser.dll
