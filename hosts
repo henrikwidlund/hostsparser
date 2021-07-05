@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Lst Modified: 2021-07-05 12:12:15Z
+! Lst Modified: 2021-07-05 18:09:28Z
 
 ||___id___.c.mystat-in.net^
 ||0.0.0.0.beeglivesex.com^
@@ -2651,6 +2651,7 @@
 ||ad3.apx.appier.net^
 ||ad3.banners.ero-advertising.com^
 ||ad3.bb.ru^
+||ad3.checkm8.com^
 ||ad3.depositfiles.com^
 ||ad3.eu^
 ||ad3.fpa.ero-advertising.com^
@@ -3035,7 +3036,6 @@
 ||admin.iad.eclick.vn^
 ||admin.inq.com^
 ||admin.ns3.cl.bellsouth.net.daraz.com^
-||admin1.lavanetwork.net^
 ||adminbezpieczenstwajednostka.moonfruit.com^
 ||adminder.com^
 ||adming.net^
@@ -9241,7 +9241,6 @@
 ||banlv.baidu.com^
 ||banman.nepsecure.co.uk^
 ||bannanarepublic.com^
-||banne3s.ero-advertising.com^
 ||bannedcelebs.com^
 ||bannedsextapes.com^
 ||banner-exchange-24.de^
@@ -9441,7 +9440,6 @@
 ||bannerswap.com^
 ||bannert.ru^
 ||bannertesting.com^
-||bannertrack.net^
 ||bannerus1.axelsfun.com^
 ||bannerus3.axelsfun.com^
 ||bannery.cz^
@@ -11981,7 +11979,6 @@
 ||c16.cdn3x.com^
 ||c17.cdn3x.com^
 ||c18.cdn3x.com^
-||c18.statcounter.com^
 ||c19.cdn3x.com^
 ||c2.clickprotects.com^
 ||c2.outster.com^
@@ -12741,7 +12738,6 @@
 ||cdn.adtradr.com^
 ||cdn.adual.net^
 ||cdn.adviad.com^
-||cdn.alistcloud.com^
 ||cdn.altitudeplatform.com^
 ||cdn.api.fotoable.com^
 ||cdn.appdynamics.com^
@@ -19753,7 +19749,6 @@
 ||epmads.com^
 ||epmclk.com^
 ||epnewswire.com^
-||epoch-times-d.openx.net^
 ||epoczta-interia.com^
 ||epoczta-polska24.com^
 ||epoczta-polska24.org^
@@ -22044,7 +22039,6 @@
 ||fphfdx.partswarehouse.com^
 ||fpo.xxx^
 ||fprnradio.com^
-||fptadtrue-d.openx.net^
 ||fpwtsp.xxxlutz.de^
 ||fpxewa.ilmeteo.it^
 ||fqcqnb.dwr.com^
@@ -23303,8 +23297,6 @@
 ||gcp-prod-md.apptimize.com^
 ||gcuirx.ministryofsupply.com^
 ||gcwubi.happypancake.fi^
-||gd12.doubleclick.net^
-||gd26.doubleclick.net^
 ||gdamour.space^
 ||gdeee.hit.gemius.pl^
 ||gdelt.hit.gemius.pl^
@@ -26345,7 +26337,6 @@
 ||hf5rbejvpwds.com^
 ||hfd.bridgetowermedia.com^
 ||hfgfz.hunteraustin.pw^
-||hg14.hitbox.com^
 ||hg76ytsdas.appspot.com^
 ||hgamecg.com^
 ||hgastation.com^
@@ -29496,6 +29487,7 @@
 ||investo.tech^
 ||investopedia.us.intellitxt.com^
 ||investph.co^
+||invideo.ero-advertising.com^
 ||invitation.opinionbar.com^
 ||invitation.samsungiotcloud.com^
 ||invitefashion.com^
@@ -40330,6 +40322,7 @@
 ||objects.abcvisiteurs.com^
 ||obkzrcclean2.az.pl^
 ||obnrap.neimanmarcus.com^
+||obo.moatads.com^
 ||obongnet.net.daraz.com^
 ||oboobs.ru^
 ||obowiazkipolskie.online^
@@ -48084,7 +48077,6 @@
 ||rqyxdk.myanimelist.net^
 ||rqz4.supdigital.fr^
 ||rr1.outster.com^
-||rr7.xxxcounter.com^
 ||rs-intrad.com^
 ||rs-toolkit.mikestclair.org^
 ||rs-xpromotion.appspot.com^
@@ -55446,7 +55438,6 @@
 ||tab.com.au^
 ||tab.dellrescue.com^
 ||tabex.sopharma.bg^
-||tabforacause-d.openx.net^
 ||tabgold.co.za^
 ||tableterotica.com^
 ||tableterotica.mobi^
@@ -55614,6 +55605,7 @@
 ||tanx.com^
 ||taobaoafp.allyes.cn^
 ||taouxis.gr^
+||tap.rubiconproject.com^
 ||tapair.com^
 ||tapas.net^
 ||tapjoy-com-lb-vpc-332546193.us-east-1.elb.amazonaws.com^
@@ -60820,7 +60812,6 @@
 ||w1.tcr112.tynt.com^
 ||w10.centralmediaserver.com^
 ||w11.centralmediaserver.com^
-||w129.hitbox.com^
 ||w2.techinsights.com^
 ||w2mobile.com^
 ||w3.flatex.at^
@@ -61188,7 +61179,6 @@
 ||web.geomegasoft.net^
 ||web.health.childrenswi.org^
 ||web.healthnews.thechristhospital.com^
-||web.industrybrains.com^
 ||web.info.bonprix.es^
 ||web.info.com^
 ||web.info.yeppon.it^
@@ -64515,7 +64505,6 @@
 ||www3.corelight.com^
 ||www3.counter.bloke.com^
 ||www3.ddns.ms^
-||www3.doubleclick.net^
 ||www3.etic.or.jp^
 ||www3.fetishhitsgallery.com^
 ||www3.haberturk.com^
