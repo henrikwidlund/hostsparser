@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Lst Modified: 2021-07-06 18:09:35Z
+! Lst Modified: 2021-07-07 00:27:21Z
 
 ||___id___.c.mystat-in.net^
 ||0.0.0.0.beeglivesex.com^
@@ -15266,7 +15266,6 @@
 ||create.unity3d.com^
 ||creationskateboards.com^
 ||creative-analytics.crossinstall.io^
-||creative-assets.quantcount.com^
 ||creative-cdn.appgrowth.com^
 ||creative-platform.vrvm.com^
 ||creative.ad121m.com^
@@ -23294,6 +23293,7 @@
 ||gcp-prod-md.apptimize.com^
 ||gcuirx.ministryofsupply.com^
 ||gcwubi.happypancake.fi^
+||gd13.doubleclick.net^
 ||gdamour.space^
 ||gdeee.hit.gemius.pl^
 ||gdelt.hit.gemius.pl^
@@ -33441,7 +33441,6 @@
 ||m3.cn.2mdn.net^
 ||m3.de.2mdn.net^
 ||m3.dk.2mdn.net^
-||m3.doubleclick.net^
 ||m3.es.2mdn.net^
 ||m3.fi.2mdn.net^
 ||m3.fr.2mdn.net^
@@ -39274,6 +39273,7 @@
 ||nobullshitnudes.com^
 ||nobuomo.it^
 ||noc-request.hitbox.com^
+||noc.hitbox.com^
 ||noch.info^
 ||noclegi-kozienice.pl^
 ||noclegnadmorzemgdansk.pl^
@@ -59786,7 +59786,6 @@
 ||v16.56.com^
 ||v1adserver.com^
 ||v2.api.adflex.vn^
-||v2.chartboost.com^
 ||v2.dc.yieldify.com^
 ||v2.stat.ku6.com^
 ||v2profit.com^
@@ -60818,10 +60817,8 @@
 ||w65.pl^
 ||w7.berlin.de^
 ||w832297.open.ge.tt^
-||w86.am15.net^
 ||w88.disney.co.jp^
 ||w88.m.espn.go.com^
-||w90.am15.net^
 ||wa-track.com^
 ||wa.5.p2l.info^
 ||wa.consumentenbond.nl^
