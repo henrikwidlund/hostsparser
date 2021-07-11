@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Lst Modified: 2021-07-11 00:26:57Z
+! Lst Modified: 2021-07-11 06:09:51Z
 
 ||___id___.c.mystat-in.net^
 ||0.0.0.0.beeglivesex.com^
@@ -2661,7 +2661,6 @@
 ||ad3.pamedia.com.au^
 ||ad3.speedbit.com^
 ||ad3.xrea.com^
-||ad37.checkm8.com^
 ||ad4.adfarm1.adition.com^
 ||ad4.api.ero-advertising.com^
 ||ad4.banners.ero-advertising.com^
@@ -33400,6 +33399,7 @@
 ||m1.uk.2mdn.net^
 ||m1.ve.2mdn.net^
 ||m1.webstats.motigo.com^
+||m1.webstats4u.com^
 ||m1.za.2mdn.net^
 ||m10corretora.com.br^
 ||m1700.com^
@@ -46413,6 +46413,7 @@
 ||ptreklamssp.com^
 ||ptreklamssp.net^
 ||pttsite.com^
+||pub-sdk-cfg.criteo.com^
 ||pub.axiatraders.com^
 ||pub.chez.com^
 ||pub.club-internet.fr^
@@ -48421,7 +48422,6 @@
 ||s11.trafficdeposit.com^
 ||s1184.t.eloqua.com^
 ||s12.trafficdeposit.com^
-||s13.j-a-net.jp^
 ||s13.trafficdeposit.com^
 ||s1325.t.eloqua.com^
 ||s14.trafficdeposit.com^
@@ -63498,7 +63498,6 @@
 ||www.offtrackbetting.com^
 ||www.ojrq.net^
 ||www.oktrk.com^
-||www.olx.myowndostawa24.cloud^
 ||www.omegle.com^
 ||www.on2url.com^
 ||www.onair-e-net.com^
