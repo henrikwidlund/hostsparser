@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Lst Modified: 2021-07-11 16:29:55Z
+! Lst Modified: 2021-07-11 18:09:03Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -17001,6 +17001,7 @@
 ||pbg2cs01.doteasy.com^
 ||ads.dothads.com^
 ||adserver.dotmusic.com^
+||sjc06-usadmm.dotomi.com^
 ||ssl.dotpay.club^
 ||dotpay1.pl^
 ||dotsdh.com^
@@ -17014,6 +17015,8 @@
 ||doubleadserve.com^
 ||ad03.doubleadx.com^
 ||doubleclick.de^
+||gd28.doubleclick.net^
+||4923503.fls.doubleclick.net^
 ||coral.doublefine.com^
 ||abc.doublegear.com^
 ||doublepenetrationvids.com^
@@ -24343,7 +24346,6 @@
 ||beacons5.gvt3.com^
 ||gw100-10.com^
 ||gs.gw688.org^
-||rcdna.gwallet.com^
 ||gwbet.com^
 ||gwiazdaswiecicorazjasniej.space^
 ||gwinea.cyou^
@@ -32193,7 +32195,6 @@
 ||luckymeslots.com^
 ||luckyniki.com^
 ||gkjow.luckyofers.net^
-||upload.luckyorange.net^
 ||luckyvirginz.com^
 ||luckywinslots.com^
 ||lucy-v.com^
@@ -49551,6 +49552,7 @@
 ||sitedetoxcaps.com^
 ||sitegiant.info^
 ||domainpark.sitelutions.com^
+||s30.sitemeter.com^
 ||siteonline.stream^
 ||ads.aws.sitepoint.com^
 ||advertpro.sitepoint.com^
@@ -55669,6 +55671,7 @@
 ||tylerreporter.com^
 ||tylko-dla-ciebie.com^
 ||tylkodojdziedosiebie.club^
+||www1.tynt.com^
 ||dys.tyom.ru^
 ||landfowl.typegang.com^
 ||ltc.typoten.com^
@@ -56394,6 +56397,7 @@
 ||ad.jp.ap.valu.com^
 ||cache1.value-domain.com^
 ||metrics.valuecityfurniture.com^
+||fp.valueclick.com^
 ||valuehost.co.uk^
 ||mama128.valuehost.ru^
 ||analytics.valuepotion.com^
@@ -56590,6 +56594,7 @@
 ||te.versiontracker.com^
 ||spinbox.versiontracker.com^
 ||versonsor.xyz^
+||s.vertamedia.com^
 ||bbbihe.vertbaudet.es^
 ||demo.vertexinfo.in^
 ||syn.verticalacuity.com^
@@ -60426,6 +60431,7 @@
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
+||aag.yahooapis.jp^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||counter.yakbucks.com^
 ||counter.yakcash.com^
