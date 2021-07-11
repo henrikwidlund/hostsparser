@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Copyright Henrik Widlund
+// GNU General Public License v3.0
+
+using System;
 
 namespace HostsParser
 {

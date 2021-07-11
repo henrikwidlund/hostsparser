@@ -1,4 +1,7 @@
-﻿namespace HostsParser
+﻿// Copyright Henrik Widlund
+// GNU General Public License v3.0
+
+namespace HostsParser
 {
     internal readonly ref struct Constants
     {
@@ -7,8 +10,6 @@
         internal const char NewLine = '\n';
         internal const char DotSign = '.';
         internal const string DotSignString = ".";
-        internal const char ExclamationMark = '!';
-        internal const char AtSign = '@';
         internal const char HashSign = '#';
         internal const string IpFilter = "0.0.0.0 ";
         internal static readonly int IpFilterLength = IpFilter.Length;
