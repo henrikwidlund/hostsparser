@@ -22,7 +22,11 @@ namespace HostsParser
             
             static ReadOnlySpan<char> ProcessItem(List<int> indexes, ReadOnlySpan<char> l)
             {
-                if (indexes.Count != 2) return l[(indexes[^3] + 1)..];
+                if (indexes.Count != 2)
+                {
+                    var secondTop = l[(indexes[^2] + 1)..];
+                    return secondTop.Length > 3 ? secondTop : l[(indexes[^3] + 1)..];
+                }
             
                 var item = l[(indexes[0] + 1)..indexes[1]];
                 return item.Length <= 3 ? l : l[(indexes[0] + 1)..];

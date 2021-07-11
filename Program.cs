@@ -56,11 +56,12 @@ var combined = sourceUris
     .Except(settings.SkipLines)
     .Where(l => !l.Equals(Constants.LoopbackEntry) && l.StartsWith(Constants.IpFilter))
     .Select(l => DnsUtilities.ReplaceSource(l, Constants.IpFilterLength))
-    .Concat(settings.KnownBadHosts)
     .Except(adGuardLines)
     .ToList();
 sourceUris = null;
 
+combined.RemoveAll(l => settings.KnownBadHosts.Any(s => l.EndsWith("." + s)));
+combined = combined.Concat(settings.KnownBadHosts).ToList();
 var (withPrefix, withoutPrefix) = CollectionUtilities.GetWwwOnly(combined);
 combined = CollectionUtilities.SortDnsList(combined.Except(withPrefix).Concat(withoutPrefix)
     .Concat(adGuardLines));
@@ -111,8 +112,7 @@ logger.LogInformation(WithTimeStamp("Done filtering duplicates - Part 2"));
 
 logger.LogInformation(WithTimeStamp("Start formatting hosts"));
 var newLinesList = combined
-    .Select(l => $"||{l}^")
-    .OrderBy(l => l);
+    .Select(l => $"||{l}^");
 logger.LogInformation(WithTimeStamp("Done formatting hosts"));
 
 logger.LogInformation(WithTimeStamp("Start building hosts results"));
