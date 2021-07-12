@@ -9,9 +9,9 @@ namespace HostsParser
 {
     internal static class CollectionUtilities
     {
-        internal static List<string> SortDnsList(IEnumerable<string> dnsList)
+        internal static List<string> SortDnsList(IEnumerable<string> dnsList, bool distinct)
         {
-            return dnsList.Distinct()
+            return (distinct ? dnsList.Distinct() : dnsList)
                 .OrderBy(l =>
                 {
                     var indexes = GetIndexes(l);

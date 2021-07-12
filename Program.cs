@@ -69,7 +69,7 @@ combined.RemoveAll(l => settings.KnownBadHosts.Any(s =>
 combined = combined.Concat(settings.KnownBadHosts).ToList();
 var (withPrefix, withoutPrefix) = CollectionUtilities.GetWwwOnly(combined);
 combined = CollectionUtilities.SortDnsList(combined.Except(withPrefix).Concat(withoutPrefix)
-    .Concat(adGuardLines));
+    .Concat(adGuardLines), true);
 
 logger.LogInformation(WithTimeStamp("Done combining host sources"));
 
@@ -99,7 +99,7 @@ do
         }
     });
 
-    combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered).Except(adGuardLines));
+    combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered).Except(adGuardLines), false);
 } while (superFiltered.Any());
 logger.LogInformation(WithTimeStamp("Done filtering duplicates - Part 1"));
 
