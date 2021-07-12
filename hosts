@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Lst Modified: 2021-07-12 15:46:52Z
+! Lst Modified: 2021-07-12 18:09:18Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1840,7 +1840,6 @@
 ||xml.adfclick1.com^
 ||static.adfclick1.com^
 ||stat.adfinity.pro^
-||image.static.adflex.vn^
 ||adflight.com^
 ||adfoc.us^
 ||adforati.com^
@@ -2679,6 +2678,7 @@
 ||affrh2023.com^
 ||t.afftrackr.com^
 ||track.msadcenter.afgz.com^
+||t.afi-b.com^
 ||afic.org^
 ||afiliadooculto.com^
 ||afilo.pl^
@@ -13938,7 +13938,6 @@
 ||serviceos.comcast.net^
 ||oascentral.comcast.net^
 ||oascentralnx.comcast.net^
-||bdx.comclick.com^
 ||marketing.comda.com^
 ||smetrics.comdata.com^
 ||doto.comdotcdn.com^
@@ -15952,6 +15951,7 @@
 ||marketing.demagcranes.com^
 ||content.demand-on.com^
 ||go.demandforce.com^
+||bet.demdex.net^
 ||dementia.news^
 ||demetnagement.com^
 ||demible.info^
@@ -17003,7 +17003,6 @@
 ||pbg2cs01.doteasy.com^
 ||ads.dothads.com^
 ||adserver.dotmusic.com^
-||iad02-login-ds.dotomi.com^
 ||ssl.dotpay.club^
 ||dotpay1.pl^
 ||dotsdh.com^
@@ -22847,6 +22846,7 @@
 ||georiot.com^
 ||website-security.geotrust.com^
 ||geovisionpolska.pl^
+||geoloc14.geovisite.com^
 ||marketing.geowarehouse.ca^
 ||geoxpolska.com^
 ||geoxsklep.com^
@@ -30744,6 +30744,7 @@
 ||leadtrack.pl^
 ||leadtrackgo.com^
 ||leady.com^
+||r.leadzu.com^
 ||play.leadzuaf.com^
 ||leadzupc.com^
 ||detnmz.leaf.tv^
@@ -32897,7 +32898,6 @@
 ||preg.marketingvici.com^
 ||minimba.marketingweek.com^
 ||marketium.com^
-||na-sj11.marketo.com^
 ||marketplace-olx.pl^
 ||go.marketplacehomes.com^
 ||marketpluse.com^
@@ -45096,7 +45096,6 @@
 ||puffynetwork.com^
 ||pufisi.com^
 ||go.pugetsoundhomeloansource.com^
-||pl5102.puhtml.com^
 ||pukaczu.pl^
 ||pulaskitimes.com^
 ||pulbsbiznehesu.info^
@@ -54562,7 +54561,6 @@
 ||tracking.shl.com^
 ||tracking.tdk.com^
 ||tracking.ti.com^
-||static.tracking202.com^
 ||tracking22.com^
 ||trackingclick.net^
 ||trackingfestival.com^
