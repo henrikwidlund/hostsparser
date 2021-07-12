@@ -60,7 +60,12 @@ var combined = sourceUris
     .ToList();
 sourceUris = null;
 
-combined.RemoveAll(l => settings.KnownBadHosts.Any(s => l.EndsWith("." + s)));
+var knownBadHostsDictionary = settings.KnownBadHosts.Select(c => new DnsEntry(c))
+    .ToDictionary(c => c.UnPrefixed, doh => doh.Prefixed);
+combined.RemoveAll(l => settings.KnownBadHosts.Any(s =>
+    knownBadHostsDictionary.TryGetValue(s, out var badEntry)
+    && l.EndsWith(badEntry)));
+
 combined = combined.Concat(settings.KnownBadHosts).ToList();
 var (withPrefix, withoutPrefix) = CollectionUtilities.GetWwwOnly(combined);
 combined = CollectionUtilities.SortDnsList(combined.Except(withPrefix).Concat(withoutPrefix)
@@ -72,6 +77,9 @@ logger.LogInformation(WithTimeStamp("Start filtering duplicates - Part 1"));
 var superFiltered = new List<string>(combined.Count);
 
 var round = 0;
+var cachedEntries = combined.Select(c => new DnsEntry(c))
+    .ToDictionary(c => c.UnPrefixed, doh => doh.Prefixed);
+
 do
 {
     superFiltered.Clear();
@@ -85,9 +93,9 @@ do
             if (otherItem.Length + 1 > item.Length) continue;
             if (item == otherItem) continue;
 
-            if (!item.EndsWith(string.Concat(Constants.DotSignString, otherItem))) continue;
-            superFiltered.Add(item);
-            break;
+            if (cachedEntries.TryGetValue(otherItem, out var blah)
+                && item.EndsWith(blah))
+                superFiltered.Add(item);
         }
     });
 
