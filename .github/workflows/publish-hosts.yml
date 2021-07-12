@@ -20,7 +20,8 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 5.0.x
+        dotnet-version: 6.0.x
+        include-prerelease: true
     
     - name: Restore dependencies
       run: dotnet restore
@@ -30,13 +31,13 @@ jobs:
     
     - name: Run HostsParser
       run: |
-        cd bin/Release/net5.0
+        cd bin/Release/net6.0
         dotnet HostsParser.dll
 
     - name: Copy hosts to root of branch
       run: |
         mkdir ./public
-        HOSTS=bin/Release/net5.0/hosts
+        HOSTS=bin/Release/net6.0/hosts
         if test -f "$HOSTS"; then
             cp $HOSTS ./public
         fi
