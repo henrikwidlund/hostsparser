@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Lst Modified: 2021-07-11 18:09:03Z
+! Lst Modified: 2021-07-12 00:27:01Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -17001,7 +17001,6 @@
 ||pbg2cs01.doteasy.com^
 ||ads.dothads.com^
 ||adserver.dotmusic.com^
-||sjc06-usadmm.dotomi.com^
 ||ssl.dotpay.club^
 ||dotpay1.pl^
 ||dotsdh.com^
@@ -17015,8 +17014,6 @@
 ||doubleadserve.com^
 ||ad03.doubleadx.com^
 ||doubleclick.de^
-||gd28.doubleclick.net^
-||4923503.fls.doubleclick.net^
 ||coral.doublefine.com^
 ||abc.doublegear.com^
 ||doublepenetrationvids.com^
@@ -28085,6 +28082,7 @@
 ||ippko.site^
 ||ippko.website^
 ||smetrics.iprimo.jp^
+||iad1.ipromote.com^
 ||stat.ipsoa.it^
 ||tr.cacf-acq.ipsos-surveys.com^
 ||ipstack.com^
@@ -28976,6 +28974,7 @@
 ||stats.jippii.com^
 ||jita.rtk.io^
 ||jitsuroku.kir.jp^
+||traffick.jivox.com^
 ||jiztini.com^
 ||jizz.xxx^
 ||jizzads.com^
@@ -49552,7 +49551,6 @@
 ||sitedetoxcaps.com^
 ||sitegiant.info^
 ||domainpark.sitelutions.com^
-||s30.sitemeter.com^
 ||siteonline.stream^
 ||ads.aws.sitepoint.com^
 ||advertpro.sitepoint.com^
@@ -49905,6 +49903,7 @@
 ||smart4ads.com^
 ||smartaccess.biz^
 ||abp.smartadcheck.de^
+||prg3429.smartadserver.com^
 ||erie.smartage.com^
 ||ngads.smartage.com^
 ||smartarenatrek.com^
@@ -52171,6 +52170,7 @@
 ||taboo-comics.com^
 ||tabooanime.club^
 ||taboojapantube.com^
+||convlatbmp.taboola.com^
 ||taboolasyndication.com^
 ||taboolesbiantube.com^
 ||tabooorgy.com^
@@ -55671,7 +55671,6 @@
 ||tylerreporter.com^
 ||tylko-dla-ciebie.com^
 ||tylkodojdziedosiebie.club^
-||www1.tynt.com^
 ||dys.tyom.ru^
 ||landfowl.typegang.com^
 ||ltc.typoten.com^
@@ -56397,7 +56396,6 @@
 ||ad.jp.ap.valu.com^
 ||cache1.value-domain.com^
 ||metrics.valuecityfurniture.com^
-||fp.valueclick.com^
 ||valuehost.co.uk^
 ||mama128.valuehost.ru^
 ||analytics.valuepotion.com^
@@ -56594,7 +56592,6 @@
 ||te.versiontracker.com^
 ||spinbox.versiontracker.com^
 ||versonsor.xyz^
-||s.vertamedia.com^
 ||bbbihe.vertbaudet.es^
 ||demo.vertexinfo.in^
 ||syn.verticalacuity.com^
