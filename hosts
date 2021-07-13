@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Lst Modified: 2021-07-13 12:12:45Z
+! Lst Modified: 2021-07-13 18:09:27Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1827,6 +1827,7 @@
 ||go.adeccousa.com^
 ||ads.adecosystems.net^
 ||adeimptrck.com^
+||conv.adengage.com^
 ||adengine.rt.ru^
 ||adeptia.pl^
 ||adetracking.com^
@@ -2755,6 +2756,7 @@
 ||metrics.agilent.com^
 ||explore.agilent.com^
 ||agility.cnn.com^
+||api8.agilone.com^
 ||agipasesores.com^
 ||stats.www.agirpourlenvironnement.org^
 ||agisdayra.com^
@@ -11443,6 +11445,7 @@
 ||ads.cjonline.com^
 ||smetrics.cjoy.com^
 ||marketing.cjsassociates.com^
+||jgen20.cjt1.net^
 ||cklipce.xyz^
 ||c0i.ckoi.com^
 ||ckozwx.n11.com^
@@ -14098,6 +14101,7 @@
 ||buy-diazepam.connect.to^
 ||connect.wri.org^
 ||connect5364.com^
+||cdn.connectad.io^
 ||connectcapital.com.br^
 ||connectionlead.com^
 ||connectionzone.com^
@@ -14691,6 +14695,7 @@
 ||crisptic01.net^
 ||banners.crisscross.com^
 ||cristiannlive.com^
+||marketing.criteo.com^
 ||crittercism.com^
 ||crittersbythebay.com^
 ||crllmzsy.top^
@@ -22228,7 +22233,6 @@
 ||oascentral.g4techtv.com^
 ||g6hentai.com^
 ||g7.com.tw^
-||logs.gaana.com^
 ||gabbyquinteros.com^
 ||errdoc.gabia.net^
 ||gabinetnewline.pl^
@@ -32875,7 +32879,6 @@
 ||download2.marketengines.com^
 ||smetrics.marketfor.com^
 ||marketgameland.com^
-||goodsblock.marketgid.com^
 ||marketing-messenger.com^
 ||marketing-rewardpath.com^
 ||marketing.602.cz^
@@ -33505,7 +33508,6 @@
 ||media.888.com^
 ||i.media.cz^
 ||media.fc2.com^
-||cdnaimg-ra.media.net^
 ||biznesoweinfo.media.pl^
 ||media.rtk.io^
 ||mediaarea.eu^
@@ -34124,12 +34126,9 @@
 ||statsfe2.ws.microsoft.com^
 ||sqm.telemetry.microsoft.com^
 ||web.vortex.data.microsoft.com^
-||mobile.pipe.aria.microsoft.com^
-||v10c.events.data.microsoft.com^
 ||watson.telemetry.microsoft.com^
 ||amer.hops.glbdns.microsoft.com^
 ||wes.df.telemetry.microsoft.com^
-||browser.pipe.aria.microsoft.com^
 ||telecommand.telemetry.microsoft.com^
 ||microsoft2010.com^
 ||ns1.microsoftonlines.net^
@@ -45083,7 +45082,6 @@
 ||publicviolations.com^
 ||banner.publisher.to^
 ||analytics.publitas.com^
-||showadsak.pubmatic.com^
 ||pubmax.com.pl^
 ||hotstar.pubnub.net^
 ||rta.pubocean.com^
@@ -47894,7 +47892,6 @@
 ||searching-place.com^
 ||searchingzone.com^
 ||searchinquire.com^
-||track.searchiq.co^
 ||stats.searchles.com^
 ||beacon.searchlinks.com^
 ||go.searchlock.com^
@@ -51158,7 +51155,6 @@
 ||stat-downloads.com^
 ||stat.56.com^
 ||stat.lex.pl^
-||c.statcounter.com^
 ||smetrics.statefarm.com^
 ||statenislandreporter.com^
 ||stateofthenation2012.com^
@@ -58117,6 +58113,7 @@
 ||ads.websiteservices.com^
 ||ads.gigaom.com.php5-12.websitetestlink.com^
 ||websnettechieapp.win^
+||services.webspectator.com^
 ||websponsors.com^
 ||webstats.one^
 ||webstats1.com^
@@ -58139,6 +58136,7 @@
 ||adv.webvariant.com^
 ||mz8gg5.webwave.dev^
 ||webwise.bt.com^
+||c.webwise.net^
 ||webwood.pl^
 ||webxcdn.com^
 ||webyoung.com^
@@ -61332,6 +61330,7 @@
 ||zebrapozyczki.pl^
 ||zebywybielanie.c.pl^
 ||zechsal.pl^
+||d10.zedo.com^
 ||zeepln.io^
 ||zeevex-online.com^
 ||zehnporn.com^
