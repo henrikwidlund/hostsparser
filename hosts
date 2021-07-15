@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Lst Modified: 2021-07-15 00:24:45Z
+! Lst Modified: 2021-07-15 06:10:43Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -15963,7 +15963,6 @@
 ||adebis.demae-can.com^
 ||dkskbu.demae-can.com^
 ||content.demand-on.com^
-||foxnet.demdex.net^
 ||dementia.news^
 ||demetnagement.com^
 ||demible.info^
@@ -17020,8 +17019,7 @@
 ||doubleadserve.com^
 ||ad03.doubleadx.com^
 ||doubleclick.de^
-||gd14.doubleclick.net^
-||ad.ae.doubleclick.net^
+||m8.doubleclick.net^
 ||coral.doublefine.com^
 ||abc.doublegear.com^
 ||doublepenetrationvids.com^
@@ -18437,6 +18435,7 @@
 ||emea.wf.com^
 ||emebo.com^
 ||emebo.io^
+||eas4.emediate.eu^
 ||ssl.o.emedicinehealth.com^
 ||track.msadcenter.emee.com^
 ||emegablog.com^
@@ -18526,6 +18525,7 @@
 ||mautic.emso.vn^
 ||adserver.emulation64.com^
 ||ad1.emule-project.org^
+||cs.emxdgt.com^
 ||emxdigital.com^
 ||t.en25.com^
 ||img.en25.com^
@@ -19530,6 +19530,7 @@
 ||exmsolution.com^
 ||phone-calling-card.exnet.su^
 ||exocams.com^
+||ads.exosrv.com^
 ||exotic4k.com^
 ||exotic4kfan.com^
 ||ads.expat-blog.biz^
@@ -19658,6 +19659,7 @@
 ||ezerdekes.eu^
 ||go.ezfreightfactoring.com^
 ||sponsors.ezgreen.com^
+||server.ezimar.com^
 ||ezl.com^
 ||ezlink.ca^
 ||eznempiti.eu^
@@ -60839,7 +60841,6 @@
 ||gateway.yieldify-production.com^
 ||assets-v2.yieldify-production.com^
 ||nightswatch-go-collector-y2.yieldify-production.com^
-||dc.yieldify.com^
 ||server3.yieldmanaged.com^
 ||server-ssl.yieldmanaged.com^
 ||ads.yieldmedia.net^
