@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Lst Modified: 2021-07-15 12:12:26Z
+! Lst Modified: 2021-07-15 18:09:33Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1779,6 +1779,7 @@
 ||adbuka.com^
 ||adbunker.com^
 ||cgm.adbureau.ne^
+||sol.adbureau.net^
 ||ab163949.adbutler-kaon.com^
 ||ab159015.adbutler-zilon.com^
 ||static.adbutter.net^
@@ -1876,6 +1877,7 @@
 ||adhall.com^
 ||adhaven.com^
 ||adhearus.com^
+||track.roularta.adhese.com^
 ||adhexa.com^
 ||kwserver.adhispanic.com^
 ||aclick.adhoc2.net^
@@ -1946,7 +1948,6 @@
 ||admeridianads.com^
 ||admerize.be^
 ||admex.com^
-||ir.admicro.vn^
 ||admidadsp.com^
 ||admin.inq.com^
 ||adminder.com^
@@ -5495,6 +5496,7 @@
 ||atcofiles.com^
 ||atconnect.npo.nl^
 ||atdmt.com^
+||delivery.atdnetwork.com^
 ||cookiejar.atea.no^
 ||api.ateam-ad.jp^
 ||atedra.com^
@@ -8079,7 +8081,6 @@
 ||blogonews.com^
 ||widget.blogram.jp^
 ||blogranking.fc2.com^
-||blogroll.click^
 ||blogs-list.com^
 ||hir44.blogspot.com^
 ||dysyde.blogspot.com^
@@ -11021,7 +11022,6 @@
 ||charmingmilfs.com^
 ||charmstroy.info^
 ||stg.charoll.org^
-||ssp-events.chartboost.com^
 ||marketing.chartec.net^
 ||media.charter.com^
 ||cnc.chase-zelle.com^
@@ -13210,6 +13210,7 @@
 ||lynx.cognitivlabs.com^
 ||global.cognizant.com^
 ||analytics.cognyte.com^
+||tag.cogocast.net^
 ||coherers.buzz^
 ||coin-ad.com^
 ||coin-and.xyz^
@@ -17021,7 +17022,6 @@
 ||doubleadserve.com^
 ||ad03.doubleadx.com^
 ||doubleclick.de^
-||cm.g.doubleclick.net^
 ||coral.doublefine.com^
 ||abc.doublegear.com^
 ||doublepenetrationvids.com^
@@ -33604,7 +33604,6 @@
 ||ssl.o.medscape.org^
 ||medshop.pl^
 ||medsource.top^
-||medtargetsystem.com^
 ||medtecchina.com^
 ||b.medtronic.com^
 ||els298548211.medtronic.com^
@@ -35080,6 +35079,7 @@
 ||marketing.moodypublishers.com^
 ||smetrics.moodys.com^
 ||moodyz.com^
+||pl-gmtdmp.mookie1.com^
 ||moonangel.com^
 ||moonangelcash.com^
 ||go.mooncklick.com^
@@ -37167,8 +37167,6 @@
 ||netfilxbillingsupport.top^
 ||platnosci-aktualizacja.netfixcenter.online^
 ||netflix-mail.info^
-||nmtracking.netflix.com^
-||presentationtracking.netflix.com^
 ||netflix2021.pl^
 ||netflx.com.pl^
 ||hits.netgeography.net^
@@ -48437,6 +48435,7 @@
 ||serviciovirtual.com.ar^
 ||servicosfcporto.com^
 ||servieckartepayau.com^
+||ds-vn.serving-sys.com^
 ||servingmillions.com^
 ||serviporno.com^
 ||servitemequipos.cl^
@@ -58178,7 +58177,6 @@
 ||tag1.webabacus.com^
 ||webabrufe.de^
 ||financesucceed.webador.com^
-||adserver.webads.nl^
 ||www2.webagesolutions.com^
 ||webalize.net^
 ||webanalyser.net^
@@ -60702,6 +60700,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||launch.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||counter.yakbucks.com^
