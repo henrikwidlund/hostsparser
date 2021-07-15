@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Lst Modified: 2021-07-14 18:09:32Z
+! Lst Modified: 2021-07-15 00:24:45Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2055,7 +2055,6 @@
 ||adrotate.de^
 ||adrotate.net^
 ||adrotator.com^
-||pix.adrta.com^
 ||api.adrtx.net^
 ||cdn.adrtx.net^
 ||adstax-cdn.adrtx.net^
@@ -15964,6 +15963,7 @@
 ||adebis.demae-can.com^
 ||dkskbu.demae-can.com^
 ||content.demand-on.com^
+||foxnet.demdex.net^
 ||dementia.news^
 ||demetnagement.com^
 ||demible.info^
@@ -17020,10 +17020,11 @@
 ||doubleadserve.com^
 ||ad03.doubleadx.com^
 ||doubleclick.de^
+||gd14.doubleclick.net^
+||ad.ae.doubleclick.net^
 ||coral.doublefine.com^
 ||abc.doublegear.com^
 ||doublepenetrationvids.com^
-||engine.phn.doublepimp.com^
 ||api.doubles.click^
 ||doubleteamedteens.com^
 ||doubleviking.com^
@@ -18797,7 +18798,6 @@
 ||ermonmisdirec.xyz^
 ||erne.co^
 ||mtccsun.imtech.ernet.in^
-||xn--adspace-kvg.ero-advertising.com^
 ||ero-games.pw^
 ||ero-love.com^
 ||ero-shame.com^
@@ -29280,7 +29280,6 @@
 ||justparty.com.br^
 ||justporn.link^
 ||justporno.tv^
-||prod.justpremium.com^
 ||justredirect24.com^
 ||justrightheight.com^
 ||bmedia.justservingfiles.net^
@@ -47476,7 +47475,6 @@
 ||saharabet.com^
 ||saharanights.info^
 ||sahathaikasetpan.com^
-||ak.sail-horizon.com^
 ||api.sail-personalize.com^
 ||aws-api.sail-personalize.com^
 ||sailsteam.pl^
@@ -60841,6 +60839,7 @@
 ||gateway.yieldify-production.com^
 ||assets-v2.yieldify-production.com^
 ||nightswatch-go-collector-y2.yieldify-production.com^
+||dc.yieldify.com^
 ||server3.yieldmanaged.com^
 ||server-ssl.yieldmanaged.com^
 ||ads.yieldmedia.net^
