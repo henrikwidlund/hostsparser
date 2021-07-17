@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Lst Modified: 2021-07-16 18:09:25Z
+! Lst Modified: 2021-07-17 00:26:20Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2534,7 +2534,6 @@
 ||advertiseireland.com^
 ||advertising-department.com^
 ||advertising.aol.com^
-||r.ace.advertising.com^
 ||advertisingbanners.com^
 ||advertisingbay.com^
 ||advertisingbox.com^
@@ -17019,8 +17018,6 @@
 ||doubleadserve.com^
 ||ad03.doubleadx.com^
 ||doubleclick.de^
-||iv.doubleclick.net^
-||ad.hu.doubleclick.net^
 ||coral.doublefine.com^
 ||abc.doublegear.com^
 ||doublepenetrationvids.com^
@@ -18797,7 +18794,6 @@
 ||ermonmisdirec.xyz^
 ||erne.co^
 ||mtccsun.imtech.ernet.in^
-||adw.ero-advertising.com^
 ||ero-games.pw^
 ||ero-love.com^
 ||ero-shame.com^
@@ -32718,7 +32714,6 @@
 ||mangelsdesigns.com^
 ||tr.info.mango-mobilites.fr^
 ||qzcxtm.mango.com^
-||anc.mangoads.vn^
 ||adv.mangoadv.com^
 ||mangoangel.com^
 ||server9.mangovideo.pw^
@@ -33020,6 +33015,7 @@
 ||matfi.pl^
 ||mathenea.com^
 ||16ao.mathon.fr^
+||vast-test.mathtag.com^
 ||mathtype.cn^
 ||metrics.mathworks.cn^
 ||smetrics.mathworks.cn^
@@ -35781,7 +35777,6 @@
 ||mydaddy.b0x.com^
 ||mydaddy.cc^
 ||mydamplips.com^
-||bank11.ads.dt.mydas.mobi^
 ||mydate24.ru^
 ||mydates.com^
 ||mydati.com^
@@ -40080,7 +40075,6 @@
 ||fec1.optimhome.com^
 ||optimization-methods.com^
 ||optimizely.com^
-||es.optimost.com^
 ||origin.optimost.io^
 ||metrics.optimum.net^
 ||smetrics.optimum.net^
@@ -46645,7 +46639,6 @@
 ||revolutionlinux.com^
 ||revolutions2040.com^
 ||onghfx.revolve.com^
-||ri.revolvermaps.com^
 ||click.revsharecash.com^
 ||revstats.com^
 ||images.revtrax.com^
@@ -51309,7 +51302,6 @@
 ||stat.56.com^
 ||stat.bdc.ca^
 ||stat.lex.pl^
-||c12.statcounter.com^
 ||smetrics.statefarm.com^
 ||statenislandreporter.com^
 ||stateofthenation2012.com^
@@ -57047,7 +57039,6 @@
 ||vidible.tv^
 ||vidmax.com^
 ||vidnline.com^
-||cpm.vidoomy.com^
 ||vidora.com^
 ||vidplayer.pl^
 ||ads.vidsense.com^
@@ -59868,7 +59859,6 @@
 ||xlgaytube.tv^
 ||cdn1.xlightmedia.com^
 ||xlinkz.to^
-||srt-srv.xlisting.jp^
 ||xlivedoor.com^
 ||xlivehost.com^
 ||xlivetube.com^
@@ -61608,6 +61598,7 @@
 ||zebrapozyczki.pl^
 ||zebywybielanie.c.pl^
 ||zechsal.pl^
+||d2.zedo.com^
 ||zeepln.io^
 ||zeevex-online.com^
 ||zehnporn.com^
