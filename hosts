@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Lst Modified: 2021-07-17 00:26:20Z
+! Lst Modified: 2021-07-17 06:09:16Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -15962,6 +15962,7 @@
 ||adebis.demae-can.com^
 ||dkskbu.demae-can.com^
 ||content.demand-on.com^
+||adobedc.demdex.net^
 ||dementia.news^
 ||demetnagement.com^
 ||demible.info^
@@ -17006,6 +17007,8 @@
 ||pbg2cs01.doteasy.com^
 ||ads.dothads.com^
 ||adserver.dotmusic.com^
+||iad05-login.dotomi.com^
+||iad12-convex.dotomi.com^
 ||ssl.dotpay.club^
 ||dotpay1.pl^
 ||dotsdh.com^
@@ -17018,6 +17021,7 @@
 ||doubleadserve.com^
 ||ad03.doubleadx.com^
 ||doubleclick.de^
+||dfp.doubleclick.net^
 ||coral.doublefine.com^
 ||abc.doublegear.com^
 ||doublepenetrationvids.com^
@@ -22136,6 +22140,7 @@
 ||pokkt.fuse-ad.com^
 ||enjoynet.fuse-ad.com^
 ||fusenz.xyz^
+||adfill.fuseplatform.net^
 ||leanmobi.fusetracking.com^
 ||info.fusfoundation.org^
 ||ww2.fusionacademy.com^
@@ -33015,7 +33020,6 @@
 ||matfi.pl^
 ||mathenea.com^
 ||16ao.mathon.fr^
-||vast-test.mathtag.com^
 ||mathtype.cn^
 ||metrics.mathworks.cn^
 ||smetrics.mathworks.cn^
@@ -51263,6 +51267,7 @@
 ||start.qip.ru^
 ||startapp.com^
 ||c2i-cdn.startappnetwork.com^
+||adimpression.startappservice.com^
 ||startdating-here.com^
 ||startech-rj.com.br^
 ||gangster-angel.startertjes.nl^
@@ -61598,7 +61603,6 @@
 ||zebrapozyczki.pl^
 ||zebywybielanie.c.pl^
 ||zechsal.pl^
-||d2.zedo.com^
 ||zeepln.io^
 ||zeevex-online.com^
 ||zehnporn.com^
