@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Lst Modified: 2021-07-18 06:09:37Z
+! Lst Modified: 2021-07-18 12:11:14Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1662,7 +1662,6 @@
 ||ad-noise.net^
 ||ad-plus.cn^
 ||ad-rotator.com^
-||js.ad-score.com^
 ||www2.ad-server.online^
 ||ad-servicestats.net^
 ||ad-souk.com^
@@ -2264,6 +2263,7 @@
 ||adsrv.ea.com^
 ||adsrv.lua.pl^
 ||adsrvr.com^
+||va6-bid.adsrvr.org^
 ||adsrvus.com^
 ||pixel.adssafeprotected.com^
 ||adsspace.net^
@@ -5928,6 +5928,7 @@
 ||bannerus3.axelsfun.com^
 ||as.axelspringer.com^
 ||axes.co^
+||064bdf.r.axf8.net^
 ||axia-hakusan.com^
 ||library.axial.net^
 ||axiatraders.com^
@@ -9153,7 +9154,6 @@
 ||brakpomysluredakcja.club^
 ||bramka-sms-za-darmo.pl^
 ||bramyioslony.pl^
-||branch.io^
 ||branchguide.com^
 ||sephora-qa.branchstaging.com^
 ||brand-village.com^
@@ -14738,7 +14738,6 @@
 ||crisptic01.net^
 ||banners.crisscross.com^
 ||cristiannlive.com^
-||pub-sdk-cfg.criteo.com^
 ||crittercism.com^
 ||crittersbythebay.com^
 ||crllmzsy.top^
@@ -15771,7 +15770,6 @@
 ||api.decentralize.today^
 ||decentralland.org^
 ||go.dechra-us.com^
-||api.decibelinsight.net^
 ||decimalprovehour1.live^
 ||decimalprovehour10.live^
 ||decimalprovehour11.live^
@@ -21247,6 +21245,7 @@
 ||info.fourkitchens.com^
 ||fourleafsocial.com^
 ||fourwinds10.net^
+||js.fout.jp^
 ||smetrics.foxbusiness.com^
 ||foxcitiesnews.com^
 ||foxcounter.com^
@@ -24969,7 +24968,6 @@
 ||hegrebeauties.com^
 ||hegrehunter.com^
 ||cams.heheparty.com^
-||ads.heias.com^
 ||promo.heidiscandy.com^
 ||app.insight.heidrick.com^
 ||dl.heima8.com^
@@ -45273,7 +45271,6 @@
 ||banner.publisher.to^
 ||insight.publisherdiscovery.com^
 ||analytics.publitas.com^
-||image3.pubmatic.com^
 ||pubmax.com.pl^
 ||hotstar.pubnub.net^
 ||rta.pubocean.com^
@@ -56831,6 +56828,7 @@
 ||te.versiontracker.com^
 ||spinbox.versiontracker.com^
 ||versonsor.xyz^
+||ads16.vertamedia.com^
 ||bbbihe.vertbaudet.es^
 ||demo.vertexinfo.in^
 ||syn.verticalacuity.com^
@@ -58359,6 +58357,7 @@
 ||webtrackerplus.com^
 ||webtracky.com^
 ||webtraxx.de^
+||sapato01.webtrekk.net^
 ||c.webtrends.com^
 ||s.webtrends.com^
 ||dc.webtrends.com^
@@ -60836,7 +60835,6 @@
 ||gateway.yieldify-production.com^
 ||assets-v2.yieldify-production.com^
 ||nightswatch-go-collector-y2.yieldify-production.com^
-||tracking.yieldlove-ad-serving.net^
 ||server3.yieldmanaged.com^
 ||server-ssl.yieldmanaged.com^
 ||ads.yieldmedia.net^
