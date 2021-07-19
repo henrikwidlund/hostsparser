@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Lst Modified: 2021-07-19 00:27:00Z
+! Lst Modified: 2021-07-19 06:10:35Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1865,6 +1865,7 @@
 ||adforati.com^
 ||adforce.com^
 ||adforest.net^
+||asia.adform.net^
 ||adformdsp.net^
 ||dev.adforum.com^
 ||adfox.ru^
@@ -1975,6 +1976,7 @@
 ||admxxx.com^
 ||tdf1.admyjob.com^
 ||ads.adnet.am^
+||ad.adnet.biz^
 ||adnet.com.ua^
 ||adnetinteractive.com^
 ||banners.adnetmedia.lt^
@@ -16592,7 +16594,6 @@
 ||district-0x.io^
 ||district0x.net^
 ||district0x.tech^
-||cdn.districtm.io^
 ||distrilamadrid.com.ar^
 ||analytics.lk.api.ditto.com^
 ||ditvl.net^
@@ -17079,6 +17080,7 @@
 ||doubleadserve.com^
 ||ad03.doubleadx.com^
 ||doubleclick.de^
+||ad.fi.doubleclick.net^
 ||coral.doublefine.com^
 ||abc.doublegear.com^
 ||doublepenetrationvids.com^
@@ -35459,6 +35461,7 @@
 ||mpmbooks.com^
 ||mpmcash.com^
 ||mpmotrk.com^
+||www1.mpnrs.com^
 ||metrics.mpora.com^
 ||mprptrk.com^
 ||adv.mpvc.it^
@@ -45467,7 +45470,6 @@
 ||pulsbifznonesu.info^
 ||pulsbihzdnmnesu.info^
 ||pulsbiznesu24.waw.pl^
-||js.pulseinsights.com^
 ||sync.pulseradius.com^
 ||pulsix.com^
 ||pulsoksymetr1pl.com^
@@ -54425,6 +54427,7 @@
 ||api-log-analytics.cloud.toast.com^
 ||toastertuesdays.com^
 ||tobacconewswire.com^
+||tas-si.toboads.com^
 ||tas2.toboads.si^
 ||tobylodzisranowtvv.cyou^
 ||tobylowczoraj.xyz^
