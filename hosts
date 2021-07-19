@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Lst Modified: 2021-07-19 06:10:35Z
+! Lst Modified: 2021-07-19 12:12:23Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1804,6 +1804,7 @@
 ||adcloud.jp^
 ||adclr.jp^
 ||adcode.ws^
+||rtb.adcolony.com^
 ||servedby.adcombination.com^
 ||adcomplete.com^
 ||adconion.com^
@@ -1865,7 +1866,6 @@
 ||adforati.com^
 ||adforce.com^
 ||adforest.net^
-||asia.adform.net^
 ||adformdsp.net^
 ||dev.adforum.com^
 ||adfox.ru^
@@ -1976,7 +1976,6 @@
 ||admxxx.com^
 ||tdf1.admyjob.com^
 ||ads.adnet.am^
-||ad.adnet.biz^
 ||adnet.com.ua^
 ||adnetinteractive.com^
 ||banners.adnetmedia.lt^
@@ -3572,6 +3571,7 @@
 ||img1-tw.alphaxcdn.com^
 ||img2-ap.alphaxcdn.com^
 ||img3-ap.alphaxcdn.com^
+||krishnaw224.alphonso.tv^
 ||alpimade.pl^
 ||alpinehandlingsystems.com^
 ||scout.alpiniste.fr^
@@ -14647,6 +14647,7 @@
 ||ads.cpxcenter.com^
 ||cpycracker.com^
 ||ad.cq-andc.jp^
+||1ua.cqcounter.com^
 ||config.cqhbkjzx.com^
 ||cqsdjxf.com^
 ||cr-toptom.com^
@@ -17080,7 +17081,6 @@
 ||doubleadserve.com^
 ||ad03.doubleadx.com^
 ||doubleclick.de^
-||ad.fi.doubleclick.net^
 ||coral.doublefine.com^
 ||abc.doublegear.com^
 ||doublepenetrationvids.com^
@@ -31305,6 +31305,7 @@
 ||liin.ml^
 ||stats.liist.io^
 ||liivecams.com^
+||vap.lijit.com^
 ||oszukacruletke.like.pl^
 ||cdn.likeaced.com^
 ||likecams.com^
@@ -33737,6 +33738,7 @@
 ||meetlocals.com^
 ||meetmyfans.com^
 ||meetonlyhot.com^
+||lb5.s400.meetrics.net^
 ||meetsexlady2.com^
 ||meetyour-ladyhere1.com^
 ||meetyourmessenger.co.uk^
@@ -35461,7 +35463,6 @@
 ||mpmbooks.com^
 ||mpmcash.com^
 ||mpmotrk.com^
-||www1.mpnrs.com^
 ||metrics.mpora.com^
 ||mprptrk.com^
 ||adv.mpvc.it^
@@ -44892,6 +44893,7 @@
 ||priiceline.com^
 ||primal.today^
 ||media.primalforce.net^
+||images.primaryads.com^
 ||ads.primaryclick.com^
 ||banners.primaryclick.com^
 ||primaryporntube.com^
@@ -45566,6 +45568,7 @@
 ||api.pushspring.com^
 ||mkt.pushspring.com^
 ||pushtrack.co^
+||wetter.pushwoosh.com^
 ||pushwoosh.g5e.com^
 ||cat.pushworth.com^
 ||pusiaweb.com^
@@ -49889,6 +49892,7 @@
 ||redirect.site50.net^
 ||forum-boost.site50.net^
 ||server.siteamplifier.net^
+||media101.sitebrand.com^
 ||sitecoquin.com^
 ||sitedehentai.com^
 ||sitegiant.info^
@@ -54427,7 +54431,6 @@
 ||api-log-analytics.cloud.toast.com^
 ||toastertuesdays.com^
 ||tobacconewswire.com^
-||tas-si.toboads.com^
 ||tas2.toboads.si^
 ||tobylodzisranowtvv.cyou^
 ||tobylowczoraj.xyz^
@@ -61843,6 +61846,7 @@
 ||zebrapozyczki.pl^
 ||zebywybielanie.c.pl^
 ||zechsal.pl^
+||ss7.zedo.com^
 ||zeepln.io^
 ||zeevex-online.com^
 ||zehnporn.com^
