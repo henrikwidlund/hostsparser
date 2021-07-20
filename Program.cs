@@ -93,8 +93,8 @@ do
             if (otherItem.Length + 1 > item.Length) continue;
             if (item == otherItem) continue;
 
-            if (cachedEntries.TryGetValue(otherItem, out var blah)
-                && item.EndsWith(blah))
+            if (cachedEntries.TryGetValue(otherItem, out var cachedEntry)
+                && item.EndsWith(cachedEntry))
                 superFiltered.Add(item);
         }
     });
@@ -125,7 +125,7 @@ logger.LogInformation(WithTimeStamp("Done formatting hosts"));
 
 logger.LogInformation(WithTimeStamp("Start building hosts results"));
 
-var newLines = new HashSet<string>(settings.HeaderLines) { $"! Lst Modified: {DateTime.UtcNow:u}", string.Empty };
+var newLines = new HashSet<string>(settings.HeaderLines) { $"! Last Modified: {DateTime.UtcNow:u}", string.Empty };
 foreach (var item in newLinesList)
     newLines.Add(item);
 
@@ -136,7 +136,7 @@ await File.WriteAllLinesAsync("hosts", newLines);
 logger.LogInformation(WithTimeStamp("Done writing hosts file"));
 
 stopWatch.Stop();
-logger.LogInformation(WithTimeStamp($"Execution duration: {stopWatch.Elapsed}"));
+logger.LogInformation(WithTimeStamp($"Execution duration - {stopWatch.Elapsed} | Produced {combined.Count} hosts"));
 
 static string WithTimeStamp(string message)
 {
