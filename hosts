@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-07-21 12:11:54Z
+! Last Modified: 2021-07-21 18:09:26Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1861,6 +1861,7 @@
 ||adjmps.com^
 ||prod.adjoe.zone^
 ||fraud.adjoe.zone^
+||img4.cdn.adjuggler.com^
 ||adjust.io^
 ||app.adjust.world^
 ||adjustnetwork.com^
@@ -1889,7 +1890,6 @@
 ||static.admaximize.com^
 ||a.admaxserver.com^
 ||adme-net.com^
-||inline.admedia.com^
 ||ads1.admedia.ro^
 ||admedias.net^
 ||srv2.admedit.me^
@@ -1966,8 +1966,6 @@
 ||adpenguin.biz^
 ||adpepper.dk^
 ||adpepper.nl^
-||nationalpost.adperfect.com^
-||smartlink.adpia.vn^
 ||vip.adpiano.com^
 ||click.adpile.net^
 ||adping.qq.com^
@@ -2253,6 +2251,7 @@
 ||adtgp.com^
 ||adthis.com^
 ||adthor.com^
+||ads.adthrive.com^
 ||adthru.com^
 ||adticker.net^
 ||panel.adtify.pl^
@@ -3522,6 +3521,9 @@
 ||alynews.com^
 ||alyssalynn.com^
 ||alyssamilano.ca.tt^
+||w101.am15.net^
+||w107.am15.net^
+||w108.am15.net^
 ||track.msadcenter.ama.com^
 ||amabitch.com^
 ||campaign.amadeus.com^
@@ -3787,6 +3789,7 @@
 ||banner.ambercoastcasino.com^
 ||smetrics.ambetterhealth.com^
 ||metrics.ambetterhealthnet.com^
+||local-media.m.ambient-platform.com^
 ||te.ambria.de^
 ||info.amcastle.com^
 ||amcleanbookmakers.com^
@@ -8234,7 +8237,6 @@
 ||bluzelle.promo^
 ||bluzelle.site^
 ||blw4-1.com^
-||hosting-source.bm23.com^
 ||benchemail.bmetrack.com^
 ||bmgiventures.com^
 ||images.bmnq.com^
@@ -11101,6 +11103,7 @@
 ||clicklink.jp^
 ||clickmate.io^
 ||clickmedia.ro^
+||sp.clickmedias.info^
 ||clickngamble.ag^
 ||scrooge.clickondetroit.com^
 ||ad.clickotmedia.com^
@@ -13510,7 +13513,6 @@
 ||ads.cpxcenter.com^
 ||cpycracker.com^
 ||ad.cq-andc.jp^
-||1jo.cqcounter.com^
 ||config.cqhbkjzx.com^
 ||cqsdjxf.com^
 ||cr-toptom.com^
@@ -13650,7 +13652,6 @@
 ||crisptic01.net^
 ||banners.crisscross.com^
 ||cristiannlive.com^
-||bidder.criteo.com^
 ||crittercism.com^
 ||crittersbythebay.com^
 ||crllmzsy.top^
@@ -18222,6 +18223,7 @@
 ||extralunchmoney.com^
 ||extremblog.com^
 ||extreme-board.com^
+||u.extreme-dm.com^
 ||extreme-sportsbetting.com^
 ||extreme-vids.net^
 ||reallygoodlink.extreme3d.games^
@@ -32665,6 +32667,7 @@
 ||moodoocrv.com.cn^
 ||marketing.moodypublishers.com^
 ||moodyz.com^
+||vn-gmtdmp.mookie1.com^
 ||moonangel.com^
 ||moonangelcash.com^
 ||go.mooncklick.com^
@@ -34463,6 +34466,7 @@
 ||nederlandseloterij.nl^
 ||nedporno.com^
 ||nedstat.s0.nl^
+||v1.nedstatbasic.net^
 ||cm.need2find.com^
 ||kz.search.need2find.com^
 ||needadvertising.com^
@@ -36115,6 +36119,7 @@
 ||odzeradobiznessu.website^
 ||tracking.oerug.com^
 ||oewa.at^
+||kinowelt.oewabox.at^
 ||shutadds.w.of.pl^
 ||olx.oferda-pl.biz^
 ||olx.oferda-pl.life^
@@ -41003,6 +41008,7 @@
 ||populationcontrol.news^
 ||popunder.com^
 ||popunder.net^
+||saloboy.popunder.ru^
 ||popup.msn.com^
 ||popupad.net^
 ||popupclick.ru^
@@ -46569,7 +46575,7 @@
 ||sitedehentai.com^
 ||sitegiant.info^
 ||domainpark.sitelutions.com^
-||sm3.sitemeter.com^
+||s41.sitemeter.com^
 ||siteonline.stream^
 ||ads.aws.sitepoint.com^
 ||advertpro.sitepoint.com^
@@ -46932,7 +46938,6 @@
 ||smartcontext.pl^
 ||smartcontract.live^
 ||smartcontractlink.com^
-||st.smartconvert.co^
 ||tr.news.smartdeals-transavia-fr.com^
 ||api.smartechmetrics.com^
 ||stats.smartertravel.com^
@@ -47588,6 +47593,7 @@
 ||speedomizer.com^
 ||metrics.speedousa.com^
 ||speedrep.com^
+||aan.speedshiftmedia.com^
 ||speedtestbeta.com^
 ||speedybet.com^
 ||speedyclick.com^
@@ -53255,7 +53261,6 @@
 ||te.versiontracker.com^
 ||spinbox.versiontracker.com^
 ||versonsor.xyz^
-||ads16.vertamedia.com^
 ||bbbihe.vertbaudet.es^
 ||demo.vertexinfo.in^
 ||syn.verticalacuity.com^
