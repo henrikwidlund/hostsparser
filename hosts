@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-07-22 12:11:59Z
+! Last Modified: 2021-07-22 18:09:26Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1924,7 +1924,6 @@
 ||adnetwork.net^
 ||adnetxchange.com^
 ||adnexus.net^
-||crcdn01.adnxs.com^
 ||t.adnxtr.com^
 ||s.adnxtr.com^
 ||adobe-flashplayer.com^
@@ -2201,7 +2200,6 @@
 ||adspics.com^
 ||cpm.adspine.com^
 ||adspiro.pl^
-||d2.adsplay.net^
 ||adspoll.com^
 ||adsponse.de^
 ||adspserving.com^
@@ -2543,6 +2541,7 @@
 ||xml.adxfactory.com^
 ||filter.adxfactory.com^
 ||adxite-ads.com^
+||media.hw.adxpansion.com^
 ||adxvalue.com^
 ||adxwxw.kp.ru^
 ||dw.adyboh.com^
@@ -4032,7 +4031,6 @@
 ||t.andarpersassi.it^
 ||andersondiamonds.com^
 ||andersonreporter.com^
-||lt.andomedia.com^
 ||andpolice.com^
 ||andr.net^
 ||andremaraisbeleggings.co.za^
@@ -10889,7 +10887,6 @@
 ||adobe-secure.cjone.com^
 ||adobe-nonsecure.cjone.com^
 ||ads.cjonline.com^
-||jgen15.cjt1.net^
 ||cklipce.xyz^
 ||c0i.ckoi.com^
 ||ckstatic.com^
@@ -11080,7 +11077,6 @@
 ||tvshowsnow.tvmax.hop.clickbank.net^
 ||8574dnj3yzjace8c8io6zr9u3n.hop.clickbank.net^
 ||clickbankbreakstheinternet.com^
-||publishers.clickbooth.com^
 ||clickbrokers.com^
 ||track.clickcabintracker.com^
 ||clickclick.com^
@@ -15803,8 +15799,6 @@
 ||doubleadserve.com^
 ||ad03.doubleadx.com^
 ||doubleclick.de^
-||ad-emea.doubleclick.net^
-||ad.n2434.doubleclick.net^
 ||coral.doublefine.com^
 ||abc.doublegear.com^
 ||doublepenetrationvids.com^
@@ -20194,6 +20188,7 @@
 ||freeshoppingsource.com^
 ||freesic.eu^
 ||freeskinpics.com^
+||sb.freeskreen.com^
 ||adderallxr.freespaces.com^
 ||konstantin.freespaces.com^
 ||eminemticket.freespaces.com^
@@ -42767,7 +42762,6 @@
 ||quanstamptoken.tk^
 ||quantcast.com^
 ||quantro.xyz^
-||segapi.quantserve.com^
 ||quantslamp.com^
 ||quantsstamps.com^
 ||quantstamp-ico.com^
@@ -49157,7 +49151,6 @@
 ||go.tapp-co.jp^
 ||adserver.tappsgames.com^
 ||tapresearch.com^
-||api.taps.io^
 ||cdnsonata.taptapnetworks.com^
 ||sonata-notifications.taptapnetworks.com^
 ||sonata-notifications-us-east.taptapnetworks.com^
