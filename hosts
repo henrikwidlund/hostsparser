@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-07-22 18:09:26Z
+! Last Modified: 2021-07-23 00:27:41Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1895,6 +1895,7 @@
 ||admeridianads.com^
 ||admerize.be^
 ||admex.com^
+||redmine.admicro.vn^
 ||admidadsp.com^
 ||admin.inq.com^
 ||adminder.com^
@@ -2541,7 +2542,6 @@
 ||xml.adxfactory.com^
 ||filter.adxfactory.com^
 ||adxite-ads.com^
-||media.hw.adxpansion.com^
 ||adxvalue.com^
 ||adxwxw.kp.ru^
 ||dw.adyboh.com^
@@ -3785,6 +3785,7 @@
 ||banner.ambercoastcasino.com^
 ||smetrics.ambetterhealth.com^
 ||metrics.ambetterhealthnet.com^
+||imp.m.ambient-platform.com^
 ||te.ambria.de^
 ||info.amcastle.com^
 ||amcleanbookmakers.com^
@@ -18578,6 +18579,8 @@
 ||fastcash-ad.biz^
 ||fastchecker.pro^
 ||fastclick.com^
+||media77.fastclick.net^
+||media94.fastclick.net^
 ||ads.fastcomgroup.it^
 ||stats.fastcompany.com^
 ||fastcounter.com^
@@ -20188,7 +20191,6 @@
 ||freeshoppingsource.com^
 ||freesic.eu^
 ||freeskinpics.com^
-||sb.freeskreen.com^
 ||adderallxr.freespaces.com^
 ||konstantin.freespaces.com^
 ||eminemticket.freespaces.com^
@@ -27206,6 +27208,7 @@
 ||metrics.juiceplus.com^
 ||juiceteens.com^
 ||juicingwell.com^
+||mobile.juicyads.com^
 ||juicyads.me^
 ||shared.juicybucks.com^
 ||adserver.juicybucks.com^
@@ -57099,6 +57102,7 @@
 ||secure.yirr5frog.com^
 ||vote.yixuecup.com^
 ||yjcontentdelivery.com^
+||ads.yldmgrimg.net^
 ||ylem222.com^
 ||ymk.us^
 ||ymlp111.net^
