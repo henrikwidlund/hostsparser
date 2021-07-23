@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-07-23 06:10:12Z
+! Last Modified: 2021-07-23 12:12:07Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -13041,7 +13041,6 @@
 ||compactbanner.com^
 ||insights.compagnon.com^
 ||companies-catalog.com^
-||segments.company-target.com^
 ||company.com.ph^
 ||computersfd.company.site^
 ||pl.bitcoinbillionarie.companycompany.cash^
@@ -13136,6 +13135,7 @@
 ||connessionedati.com^
 ||connexionsafe.com^
 ||noclick.connexity.com^
+||cc.connextra.com^
 ||a8clk.manage.conoha.jp^
 ||conpewitedes.ga^
 ||conquerorofvirgins.com^
@@ -20613,7 +20613,6 @@
 ||pl.g-pay.me^
 ||g-wizzads.net^
 ||g.3gl.net^
-||g.msn.com^
 ||g0o.cc^
 ||g0o.me^
 ||g0o.org^
@@ -26987,7 +26986,6 @@
 ||stats.jippii.com^
 ||jita.rtk.io^
 ||jitsuroku.kir.jp^
-||assetscdn.jivox.com^
 ||jiztini.com^
 ||jizz.xxx^
 ||jizzads.com^
@@ -32220,6 +32218,7 @@
 ||xmlserving.mobagent.com^
 ||h.mobcells.com^
 ||api.mobcells.com^
+||s.mobclix.com^
 ||feed.mobeek.net^
 ||mobfactory.info^
 ||mobgames.mobi^
@@ -43914,6 +43913,7 @@
 ||rjr-rs.com.br^
 ||rk.com^
 ||rkowalow.pl^
+||cdn.rlcdn.com^
 ||rle.ru^
 ||tags.rllcll.com^
 ||rloddo.olx.bg^
