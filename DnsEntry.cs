@@ -4,7 +4,7 @@ namespace HostsParser
     {
         public DnsEntry(string raw)
         {
-            Prefixed = string.Concat(Constants.DotSign, raw);
+            Prefixed = string.Concat(Constants.DotSignString, raw);
             UnPrefixed = raw;
         }
     
