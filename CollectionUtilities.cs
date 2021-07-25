@@ -42,8 +42,16 @@ namespace HostsParser
         {
             if (indexes.Count != 2)
             {
-                var secondTop = l[(indexes[^2] + 1)..];
-                return secondTop.Length > 3 ? secondTop : l[(indexes[^3] + 1)..];
+                ReadOnlySpan<char> dns;
+                var secondTop = l[(indexes[^2] + 1)..indexes[^1]];
+                if (secondTop.Equals(Constants.TopDomains.Co, StringComparison.Ordinal)
+                    || secondTop.Equals(Constants.TopDomains.Com, StringComparison.Ordinal)
+                    || secondTop.Equals(Constants.TopDomains.Org, StringComparison.Ordinal))
+                    dns = l[(indexes[^3] + 1)..];
+                else
+                    dns = l[(indexes[^2] + 1)..];
+                
+                return dns.Length > 3 ? dns : l[(indexes[^3] + 1)..];
             }
             
             var item = l[(indexes[0] + 1)..indexes[1]];

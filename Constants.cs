@@ -1,6 +1,8 @@
 ﻿// Copyright Henrik Widlund
 // GNU General Public License v3.0
 
+using System;
+
 namespace HostsParser
 {
     internal readonly ref struct Constants
@@ -15,5 +17,12 @@ namespace HostsParser
         internal static readonly int IpFilterLength = IpFilter.Length;
         internal const string LoopbackEntry = "0.0.0.0 0.0.0.0";
         internal const string WwwPrefix = "www.";
+
+        internal readonly ref struct TopDomains
+        {
+            internal static ReadOnlySpan<char> Co => "co".AsSpan();
+            internal static ReadOnlySpan<char> Com => "com".AsSpan();
+            internal static ReadOnlySpan<char> Org => "org".AsSpan();
+        }
     }
 }
