@@ -80,11 +80,28 @@ var round = 0;
 var cachedEntries = combined.Select(c => new DnsEntry(c))
     .ToDictionary(c => c.UnPrefixed, doh => doh.Prefixed);
 
+var dnsGroups = CollectionUtilities.GroupDnsList(combined);
+foreach (var dnsGroup in dnsGroups)
+{
+    if (!cachedEntries.ContainsKey(dnsGroup.Key))
+        continue;
+    
+    foreach (var dnsEntry in dnsGroup)
+    {
+        if (dnsGroup.Key == dnsEntry)
+            continue;
+        
+        superFiltered.Add(dnsEntry);
+    }
+}
+
+combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered), false);
+
 do
 {
     superFiltered.Clear();
     var lookBack = ++round * 250;
-    Parallel.For(0, combined.Count, (i) =>
+    Parallel.For(0, combined.Count, i =>
     {
         for (var j = (i < lookBack ? 0 : i - lookBack); j < i; j++)
         {
@@ -92,31 +109,36 @@ do
             var otherItem = combined[j];
             if (otherItem.Length + 1 > item.Length) continue;
             if (item == otherItem) continue;
-
+    
             if (cachedEntries.TryGetValue(otherItem, out var cachedEntry)
                 && item.EndsWith(cachedEntry))
                 superFiltered.Add(item);
         }
     });
 
-    combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered).Except(adGuardLines), false);
+    combined = CollectionUtilities.SortDnsList(round == 1
+        ? combined.Except(superFiltered).Except(adGuardLines)
+        : combined.Except(superFiltered),
+        false);
 } while (superFiltered.Any());
 logger.LogInformation(WithTimeStamp("Done filtering duplicates - Part 1"));
 
-#if EXTRA_FILTERING
-logger.LogInformation(WithTimeStamp("Start filtering duplicates - Part 2"));
-Parallel.ForEach(CollectionUtilities.SortDnsList(adGuardLines), item =>
+if (settings.ExtraFiltering)
 {
-    for (var i = 0; i < combined.Count; i++)
+    logger.LogInformation(WithTimeStamp("Start filtering duplicates - Part 2"));
+    Parallel.ForEach(CollectionUtilities.SortDnsList(adGuardLines, true), item =>
     {
-        var localItem = combined[i];
-        if (localItem.EndsWith($".{item}"))
-            superFiltered.Add(localItem);
-    }
-});
-combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered).Except(adGuardLines));
-logger.LogInformation(WithTimeStamp("Done filtering duplicates - Part 2"));
-#endif
+        for (var i = 0; i < combined.Count; i++)
+        {
+            var localItem = combined[i];
+            var cachedEntry = cachedEntries[item];
+            if (localItem.EndsWith(cachedEntry))
+                superFiltered.Add(localItem);
+        }
+    });
+    combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered), false);
+    logger.LogInformation(WithTimeStamp("Done filtering duplicates - Part 2"));
+}
 
 logger.LogInformation(WithTimeStamp("Start formatting hosts"));
 var newLinesList = combined

@@ -10,5 +10,6 @@ namespace HostsParser
         Uri AdGuardUri,
         string[] SkipLines,
         string[] HeaderLines,
-        string[] KnownBadHosts);
+        string[] KnownBadHosts,
+        bool ExtraFiltering);
 }

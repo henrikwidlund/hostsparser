@@ -12,25 +12,21 @@ namespace HostsParser
         internal static List<string> SortDnsList(IEnumerable<string> dnsList, bool distinct)
         {
             return (distinct ? dnsList.Distinct() : dnsList)
-                .OrderBy(l =>
-                {
-                    var indexes = GetIndexes(l);
-                    return indexes.Count <= 1 ? l : ProcessItem(indexes, l).ToString();
-                })
+                .OrderBy(l => GetTopMostDns(l).ToString())
                 .ThenBy(l => l.Length)
                 .ToList();
-            
-            static ReadOnlySpan<char> ProcessItem(List<int> indexes, ReadOnlySpan<char> l)
-            {
-                if (indexes.Count != 2)
-                {
-                    var secondTop = l[(indexes[^2] + 1)..];
-                    return secondTop.Length > 3 ? secondTop : l[(indexes[^3] + 1)..];
-                }
-            
-                var item = l[(indexes[0] + 1)..indexes[1]];
-                return item.Length <= 3 ? l : l[(indexes[0] + 1)..];
-            }
+        }
+        
+        internal static IEnumerable<IGrouping<string, string>> GroupDnsList(IEnumerable<string> dnsList)
+        {
+            return dnsList
+                .GroupBy(l => GetTopMostDns(l).ToString());
+        }
+
+        private static ReadOnlySpan<char> GetTopMostDns(ReadOnlySpan<char> item)
+        {
+            var indexes = GetIndexes(item);
+            return indexes.Count <= 1 ? item : ProcessItem(indexes, item);
         }
 
         private static List<int> GetIndexes(ReadOnlySpan<char> item)
@@ -40,6 +36,26 @@ namespace HostsParser
                 foundIndexes.Add(i);
 
             return foundIndexes;
+        }
+        
+        private static ReadOnlySpan<char> ProcessItem(List<int> indexes, ReadOnlySpan<char> l)
+        {
+            if (indexes.Count != 2)
+            {
+                ReadOnlySpan<char> dns;
+                var secondTop = l[(indexes[^2] + 1)..indexes[^1]];
+                if (secondTop.Equals(Constants.TopDomains.Co, StringComparison.Ordinal)
+                    || secondTop.Equals(Constants.TopDomains.Com, StringComparison.Ordinal)
+                    || secondTop.Equals(Constants.TopDomains.Org, StringComparison.Ordinal))
+                    dns = l[(indexes[^3] + 1)..];
+                else
+                    dns = l[(indexes[^2] + 1)..];
+                
+                return dns.Length > 3 ? dns : l[(indexes[^3] + 1)..];
+            }
+            
+            var item = l[(indexes[0] + 1)..indexes[1]];
+            return item.Length <= 3 ? l : l[(indexes[0] + 1)..];
         }
 
         internal static (List<string> withPrefix, List<string> withoutPrefix) GetWwwOnly(IEnumerable<string> hosts)
