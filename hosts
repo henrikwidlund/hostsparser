@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-07-25 06:09:24Z
+! Last Modified: 2021-07-25 12:11:40Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1889,7 +1889,6 @@
 ||static.admaximize.com^
 ||a.admaxserver.com^
 ||adme-net.com^
-||b.admedia.com^
 ||ads1.admedia.ro^
 ||admedias.net^
 ||srv2.admedit.me^
@@ -10557,6 +10556,7 @@
 ||checkbest-deal.life^
 ||checkfreevideos.net^
 ||checking-bestprize-finder.life^
+||ad3digital.checkm8.com^
 ||checkonline-prizebox.life^
 ||karnia-polska.checkout-x.com^
 ||ablink.offers.checkout51.com^
@@ -14816,6 +14816,7 @@
 ||adebis.demae-can.com^
 ||dkskbu.demae-can.com^
 ||content.demand-on.com^
+||mscom.demdex.net^
 ||dementia.news^
 ||demetnagement.com^
 ||demible.info^
@@ -32189,6 +32190,7 @@
 ||moartraffic.com^
 ||track.msadcenter.moas.com^
 ||moat.com^
+||apx.moatads.com^
 ||moatpixel.com^
 ||mob-olx.site^
 ||f.gm.mob.com^
@@ -46442,6 +46444,7 @@
 ||plausible.simplelogin.io^
 ||adsystem.simplemachines.org^
 ||simplenu.com^
+||edge.simplereach.com^
 ||go.simplertrading.com^
 ||simplesharebuttons.com^
 ||simpletexting.com^
@@ -51651,6 +51654,7 @@
 ||trella.com.pl^
 ||erb.tremblant.ca^
 ||tremd-space.com^
+||p4dt2-9fzxj.ads.tremorhub.com^
 ||tremormedia.com^
 ||trend2020.xyz^
 ||trendamateurpics.com^
@@ -51972,6 +51976,7 @@
 ||tubemilf.com^
 ||tubemilfmom.xyz^
 ||tubemilfsex.com^
+||syncf.tubemogul.com^
 ||tubemovies8k.com^
 ||tubemovs8k.com^
 ||tubeon.com^
@@ -53171,7 +53176,6 @@
 ||vegatestsklep.pl^
 ||vegclub.in^
 ||veikkaus.fi^
-||configusa.veinteractive.com^
 ||veirregnant.club^
 ||vejabuty.cc^
 ||vejabuty.com^
@@ -56900,6 +56904,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||es.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -57794,7 +57799,6 @@
 ||zebrapozyczki.pl^
 ||zebywybielanie.c.pl^
 ||zechsal.pl^
-||ss1.zedo.com^
 ||zeepln.io^
 ||zeevex-online.com^
 ||zehnporn.com^
