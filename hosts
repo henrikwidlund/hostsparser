@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-07-26 17:15:30Z
+! Last Modified: 2021-07-26 18:09:15Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2160,6 +2160,7 @@
 ||ads2live.com^
 ||ads345.com^
 ||ads360.com^
+||ads4cheap.com^
 ||ads4homes.com^
 ||ads8.com^
 ||ads80.com^
@@ -29325,6 +29326,7 @@
 ||czarna-lista.m44m.pl^
 ||m4n.nl^
 ||m4ymh0220.tech^
+||ad.m5prod.net^
 ||m8bet.net^
 ||m8poker.com^
 ||facebook.m918kiss.my^
