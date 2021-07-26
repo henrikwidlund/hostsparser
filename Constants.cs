@@ -7,15 +7,16 @@ namespace HostsParser
 {
     internal readonly ref struct Constants
     {
-        internal const string PipeSign = "|";
-        internal const string HatSign = "^";
-        internal const char NewLine = '\n';
+        internal const byte PipeSign = (byte)'|';
+        internal const byte HatSign = (byte)'^';
+        internal const byte NewLine = (byte)'\n';
+        internal const byte Space = (byte)' ';
+        internal const byte Tab = (byte)'\t';
         internal const char DotSign = '.';
         internal const string DotSignString = ".";
-        internal const char HashSign = '#';
-        internal const string IpFilter = "0.0.0.0 ";
-        internal static readonly int IpFilterLength = IpFilter.Length;
-        internal const string LoopbackEntry = "0.0.0.0 0.0.0.0";
+        internal const char HashSignChar = '#';
+        internal const byte HashSign = (byte)HashSignChar;
+        internal static readonly int IpFilterLength = "0.0.0.0 ".Length;
         internal const string WwwPrefix = "www.";
 
         internal readonly ref struct TopDomains
