@@ -9,6 +9,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
+using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
@@ -33,35 +34,31 @@ if (settings == null)
     return;
 }
 
+var decoder = Encoding.UTF8.GetDecoder();
 using var httpClient = new HttpClient();
 
 logger.LogInformation(WithTimeStamp("Start get source hosts"));
-var sourceUris = (await httpClient.GetStringAsync(settings.SourceUri))
-    .Split(Constants.NewLine)
-    .Where(l => !l.StartsWith(Constants.HashSign))
-    .ToArray();
+var bytes = await httpClient.GetByteArrayAsync(settings.SourceUri);
+var sourceUris = HostUtilities.ProcessSource(bytes, settings.SkipLines, decoder);
 logger.LogInformation(WithTimeStamp("Done get source hosts"));
 
 logger.LogInformation(WithTimeStamp("Start get AdGuard hosts"));
-var adGuardLines = (await httpClient.GetStringAsync(settings.AdGuardUri))
-    .Split(Constants.NewLine)
-    .Where(l => l.StartsWith(Constants.PipeSign))
-    .Select(l => DnsUtilities.ReplaceAdGuard(l))
-    .Where(l => !string.IsNullOrWhiteSpace(l))
-    .ToArray();
+bytes = await httpClient.GetByteArrayAsync(settings.AdGuardUri);
+var adGuardLines = HostUtilities.ProcessAdGuard(bytes, decoder);
 logger.LogInformation(WithTimeStamp("Done get AdGuard hosts"));
 
 logger.LogInformation(WithTimeStamp("Start combining host sources"));
 var combined = sourceUris
-    .Except(settings.SkipLines)
-    .Where(l => !l.Equals(Constants.LoopbackEntry) && l.StartsWith(Constants.IpFilter))
-    .Select(l => DnsUtilities.ReplaceSource(l, Constants.IpFilterLength))
     .Except(adGuardLines)
     .ToList();
 sourceUris = null;
 
-var knownBadHostsDictionary = settings.KnownBadHosts.Select(c => new DnsEntry(c))
-    .ToDictionary(c => c.UnPrefixed, doh => doh.Prefixed);
+Dictionary<string, string> knownBadHostsDictionary = new(combined.Count);
+for (var i = 0; i < settings.KnownBadHosts.Length; i++)
+{
+    var dnsEntry = new DnsEntry(settings.KnownBadHosts[i]);
+    knownBadHostsDictionary.Add(dnsEntry.UnPrefixed, dnsEntry.Prefixed);
+}
 combined.RemoveAll(l => settings.KnownBadHosts.Any(s =>
     knownBadHostsDictionary.TryGetValue(s, out var badEntry)
     && l.EndsWith(badEntry)));
@@ -77,8 +74,12 @@ logger.LogInformation(WithTimeStamp("Start filtering duplicates - Part 1"));
 var superFiltered = new List<string>(combined.Count);
 
 var round = 0;
-var cachedEntries = combined.Select(c => new DnsEntry(c))
-    .ToDictionary(c => c.UnPrefixed, doh => doh.Prefixed);
+Dictionary<string, string> cachedEntries = new(combined.Count);
+for (var i = 0; i < combined.Count; i++)
+{
+    var dnsEntry = new DnsEntry(combined[i]);
+    cachedEntries.Add(dnsEntry.UnPrefixed, dnsEntry.Prefixed);
+}
 
 var dnsGroups = CollectionUtilities.GroupDnsList(combined);
 foreach (var dnsGroup in dnsGroups)
