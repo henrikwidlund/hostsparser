@@ -24,21 +24,25 @@ jobs:
         include-prerelease: true
     
     - name: Restore dependencies
-      run: dotnet restore
+      run: |
+        cd HostsParser
+        dotnet restore
     
     - name: Build
-      run: dotnet build -c Release --no-restore
+      run: |
+        cd HostsParser
+        dotnet build -c Release --no-restore
     
     - name: Run HostsParser
       run: |
-        cd bin/Release/net6.0
+        cd HostsParser/bin/Release/net6.0
         dotnet HostsParser.dll
 
     - name: Copy hosts to public directory
       if: github.ref == 'refs/heads/main'
       run: |
         mkdir ./public
-        HOSTS=bin/Release/net6.0/hosts
+        HOSTS=HostsParser/bin/Release/net6.0/hosts
         if test -f "$HOSTS"; then
             cp $HOSTS ./public
         fi
