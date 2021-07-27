@@ -39,7 +39,7 @@ using var httpClient = new HttpClient();
 
 logger.LogInformation(WithTimeStamp("Start get source hosts"));
 var bytes = await httpClient.GetByteArrayAsync(settings.SourceUri);
-var sourceUris = HostUtilities.ProcessSource(bytes, settings.SkipLines, decoder);
+var sourceLines = HostUtilities.ProcessSource(bytes, settings.SkipLinesBytes, decoder);
 logger.LogInformation(WithTimeStamp("Done get source hosts"));
 
 logger.LogInformation(WithTimeStamp("Start get AdGuard hosts"));
@@ -48,10 +48,10 @@ var adGuardLines = HostUtilities.ProcessAdGuard(bytes, decoder);
 logger.LogInformation(WithTimeStamp("Done get AdGuard hosts"));
 
 logger.LogInformation(WithTimeStamp("Start combining host sources"));
-var combined = sourceUris
+var combined = sourceLines
     .Except(adGuardLines)
     .ToList();
-sourceUris = null;
+sourceLines.Clear();
 
 Dictionary<string, string> knownBadHostsDictionary = new(combined.Count);
 for (var i = 0; i < settings.KnownBadHosts.Length; i++)
@@ -63,9 +63,7 @@ combined.RemoveAll(l => settings.KnownBadHosts.Any(s =>
     knownBadHostsDictionary.TryGetValue(s, out var badEntry)
     && l.EndsWith(badEntry)));
 
-combined = combined.Concat(settings.KnownBadHosts).ToList();
-var (withPrefix, withoutPrefix) = CollectionUtilities.GetWwwOnly(combined);
-combined = CollectionUtilities.SortDnsList(combined.Except(withPrefix).Concat(withoutPrefix)
+combined = CollectionUtilities.SortDnsList(combined.Concat(settings.KnownBadHosts)
     .Concat(adGuardLines), true);
 
 logger.LogInformation(WithTimeStamp("Done combining host sources"));

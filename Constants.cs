@@ -2,6 +2,7 @@
 // GNU General Public License v3.0
 
 using System;
+using System.Text;
 
 namespace HostsParser
 {
@@ -14,10 +15,9 @@ namespace HostsParser
         internal const byte Tab = (byte)'\t';
         internal const char DotSign = '.';
         internal const string DotSignString = ".";
-        internal const char HashSignChar = '#';
-        internal const byte HashSign = (byte)HashSignChar;
-        internal static readonly int IpFilterLength = "0.0.0.0 ".Length;
-        internal const string WwwPrefix = "www.";
+        internal const byte HashSign = (byte)'#';
+        internal static readonly byte[] NxIpWithWww = Encoding.UTF8.GetBytes("0.0.0.0 www.");
+        internal static readonly byte[] NxIpWithSpace = Encoding.UTF8.GetBytes("0.0.0.0 ");
 
         internal readonly ref struct TopDomains
         {
