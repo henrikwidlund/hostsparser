@@ -9,9 +9,12 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+
+[assembly:InternalsVisibleTo("HostsParser.Benchmarks")]
 
 using var loggerFactory = LoggerFactory.Create(options =>
 {
@@ -53,16 +56,7 @@ var combined = sourceLines
     .ToList();
 sourceLines.Clear();
 
-Dictionary<string, string> knownBadHostsDictionary = new(combined.Count);
-for (var i = 0; i < settings.KnownBadHosts.Length; i++)
-{
-    var dnsEntry = new DnsEntry(settings.KnownBadHosts[i]);
-    knownBadHostsDictionary.Add(dnsEntry.UnPrefixed, dnsEntry.Prefixed);
-}
-combined.RemoveAll(l => settings.KnownBadHosts.Any(s =>
-    knownBadHostsDictionary.TryGetValue(s, out var badEntry)
-    && l.EndsWith(badEntry)));
-
+combined = HostUtilities.RemoveKnownBadHosts(settings.KnownBadHosts, combined);
 combined = CollectionUtilities.SortDnsList(combined.Concat(settings.KnownBadHosts)
     .Concat(adGuardLines), true);
 
@@ -70,19 +64,12 @@ logger.LogInformation(WithTimeStamp("Done combining host sources"));
 
 logger.LogInformation(WithTimeStamp("Start filtering duplicates - Part 1"));
 var superFiltered = new List<string>(combined.Count);
-
-var round = 0;
-Dictionary<string, string> cachedEntries = new(combined.Count);
-for (var i = 0; i < combined.Count; i++)
-{
-    var dnsEntry = new DnsEntry(combined[i]);
-    cachedEntries.Add(dnsEntry.UnPrefixed, dnsEntry.Prefixed);
-}
+var hashSet = new HashSet<string>(combined);
 
 var dnsGroups = CollectionUtilities.GroupDnsList(combined);
 foreach (var dnsGroup in dnsGroups)
 {
-    if (!cachedEntries.ContainsKey(dnsGroup.Key))
+    if (!hashSet.Contains(dnsGroup.Key))
         continue;
     
     foreach (var dnsEntry in dnsGroup)
@@ -95,7 +82,7 @@ foreach (var dnsGroup in dnsGroups)
 }
 
 combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered), false);
-
+var round = 0;
 do
 {
     superFiltered.Clear();
@@ -108,9 +95,8 @@ do
             var otherItem = combined[j];
             if (otherItem.Length + 1 > item.Length) continue;
             if (item == otherItem) continue;
-    
-            if (cachedEntries.TryGetValue(otherItem, out var cachedEntry)
-                && item.EndsWith(cachedEntry))
+
+            if (HostUtilities.IsSubDomainOf(item, otherItem))
                 superFiltered.Add(item);
         }
     });
@@ -130,8 +116,7 @@ if (settings.ExtraFiltering)
         for (var i = 0; i < combined.Count; i++)
         {
             var localItem = combined[i];
-            var cachedEntry = cachedEntries[item];
-            if (localItem.EndsWith(cachedEntry))
+            if (HostUtilities.IsSubDomainOf(localItem, item))
                 superFiltered.Add(localItem);
         }
     });

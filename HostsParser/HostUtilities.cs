@@ -3,6 +3,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace HostsParser
@@ -31,7 +32,8 @@ namespace HostsParser
                     continue;
 
                 HandleWwwPrefix(ref current);
-                HandleHash(ref current);
+                HandleDelimiter(ref current, Constants.HashSign);
+                
                 decoder.GetChars(current, chars, false);
                 var lineChars = chars[..current.Length];
                 strings.Add(lineChars.Trim().ToString());
@@ -62,8 +64,8 @@ namespace HostsParser
                     continue;
                 
                 HandlePipe(ref current);
-                HandleHat(ref current);
-                    
+                HandleDelimiter(ref current, Constants.HatSign);
+
                 decoder.GetChars(current, chars, false);
                 var lineChars = chars[..current.Length];
                 strings.Add(lineChars.Trim().ToString());
@@ -71,7 +73,41 @@ namespace HostsParser
 
             return strings;
         }
+        
+        internal static List<string> RemoveKnownBadHosts(string[] knownBadHosts, List<string> hosts)
+        {
+            var except = new List<string>(hosts.Count);
+            for (var i = 0; i < hosts.Count; i++)
+            {
+                var host = hosts[i];
+                var found = false;
+                for (var j = 0; j < knownBadHosts.Length; j++)
+                {
+                    if (!IsSubDomainOf(host, knownBadHosts[j])) continue;
+                    found = true;
+                    break;
+                }
+                
+                if(!found)
+                    except.Add(host);
+            }
+            
+            return except;
+        }
+        
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        internal static bool IsSubDomainOf(ReadOnlySpan<char> potentialSubDomain, ReadOnlySpan<char> potentialDomain)
+        {
+            if (potentialDomain.Length < 1
+                || potentialSubDomain.Length < potentialDomain.Length
+                || !potentialSubDomain.EndsWith(potentialDomain)
+                || potentialDomain.Equals(potentialSubDomain, StringComparison.Ordinal))
+                return false;
 
+            return potentialSubDomain[(potentialSubDomain.IndexOf(potentialDomain) - 1)..][0] == Constants.DotSign;
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private static bool HandleStartsWithNewLine(ref ReadOnlySpan<byte> bytes,
             ref int read,
             out int index)
@@ -107,6 +143,7 @@ namespace HostsParser
             return false;
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private static bool AdGuardShouldSkipLine(in ReadOnlySpan<byte> current)
         {
             return current[0] != Constants.PipeSign;
@@ -132,26 +169,20 @@ namespace HostsParser
                 lineBytes = lineBytes[(lastPipe == 0 ? 1 : lastPipe + 1)..];
         }
 
-        private static void HandleHash(ref ReadOnlySpan<byte> lineChars)
+        private static void HandleDelimiter(ref ReadOnlySpan<byte> lineChars,
+            in byte delimiter)
         {
-            var hashIndex = lineChars.IndexOf(Constants.HashSign);
-            if (hashIndex > 0)
-                lineChars = lineChars[..hashIndex];
+            var delimiterIndex = lineChars.IndexOf(delimiter);
+            if (delimiterIndex > 0)
+                lineChars = lineChars[..delimiterIndex];
         }
 
         private static void HandleWwwPrefix(ref ReadOnlySpan<byte> lineBytes)
         {
             if (lineBytes.StartsWith(Constants.NxIpWithWww))
                 lineBytes = lineBytes[Constants.NxIpWithWww.Length..];
-            else if(lineBytes.StartsWith(Constants.NxIpWithSpace))
+            else if (lineBytes.StartsWith(Constants.NxIpWithSpace))
                 lineBytes = lineBytes[Constants.NxIpWithSpace.Length..];
-        }
-        
-        private static void HandleHat(ref ReadOnlySpan<byte> lineBytes)
-        {
-            var hatIndex = lineBytes.IndexOf(Constants.HatSign);
-            if (hatIndex > 0)
-                lineBytes = lineBytes[..hatIndex];
         }
     }
 }
