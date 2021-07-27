@@ -34,7 +34,8 @@ jobs:
         cd bin/Release/net6.0
         dotnet HostsParser.dll
 
-    - name: Copy hosts to root of branch
+    - name: Copy hosts to public directory
+      if: github.ref == 'refs/heads/main'
       run: |
         mkdir ./public
         HOSTS=bin/Release/net6.0/hosts
@@ -42,7 +43,7 @@ jobs:
             cp $HOSTS ./public
         fi
 
-    - name: Deploy
+    - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       if: github.ref == 'refs/heads/main'
       with:
