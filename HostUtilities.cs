@@ -10,7 +10,7 @@ namespace HostsParser
     internal static class HostUtilities
     {
         internal static List<string> ProcessSource(in ReadOnlySpan<byte> bytes,
-            string[] skipLines,
+            byte[][] skipLines,
             Decoder decoder)
         {
             var strings = new List<string>();
@@ -27,22 +27,17 @@ namespace HostsParser
                 current = current[..index];
                 read += current.Length;
 
-                if (StartsWithHash(current))
+                if (SourceShouldSkipLine(current, skipLines))
                     continue;
 
+                HandleWwwPrefix(ref current);
+                HandleHash(ref current);
                 decoder.GetChars(current, chars, false);
                 var lineChars = chars[..current.Length];
-                if (ShouldAddSource(lineChars, skipLines))
-                {
-                    lineChars = lineChars[Constants.IpFilterLength..];
-                    HandleHash(ref lineChars);
-
-                    lineChars = lineChars.Trim();
-                    strings.Add(lineChars.ToString());
-                }
+                strings.Add(lineChars.Trim().ToString());
             }
-        
-            return strings;
+
+            return new List<string>(new HashSet<string>(strings));
         }
         
         internal static List<string> ProcessAdGuard(in ReadOnlySpan<byte> bytes,
@@ -62,16 +57,16 @@ namespace HostsParser
         
                 current = current[..index];
                 read += current.Length;
+
+                if (AdGuardShouldSkipLine(current))
+                    continue;
                 
-                if (ShouldAddAdGuard(current))
-                {
-                    HandlePipe(ref current);
-                    HandleHat(ref current);
+                HandlePipe(ref current);
+                HandleHat(ref current);
                     
-                    decoder.GetChars(current, chars, false);
-                    var lineChars = chars[..current.Length];
-                    strings.Add(lineChars.Trim().ToString());
-                }
+                decoder.GetChars(current, chars, false);
+                var lineChars = chars[..current.Length];
+                strings.Add(lineChars.Trim().ToString());
             }
 
             return strings;
@@ -97,37 +92,26 @@ namespace HostsParser
             
             return bytes.Length >= 1;
         }
-
-        private static bool ShouldAddSource(in ReadOnlySpan<char> current,
-            string[] skipLines)
+        
+        private static bool SourceShouldSkipLine(in ReadOnlySpan<byte> bytes, byte[][] skipLines)
         {
-            if (current.Length == 1
-                && current[0] == Constants.NewLine)
-                return false;
+            if (bytes.TrimStart()[0] == Constants.HashSign)
+                return true;
             
             for (var i = 0; i < skipLines.Length; i++)
             {
-                if (skipLines[i].AsSpan().SequenceEqual(current))
-                    return false;
+                if (bytes.SequenceEqual(skipLines[i]))
+                    return true;
             }
 
-            return true;
+            return false;
         }
-        
-        private static bool ShouldAddAdGuard(in ReadOnlySpan<byte> current)
-        {
-            if (current.Length == 1
-                && current[0] == Constants.NewLine)
-                return false;
 
-            return current[0] == Constants.PipeSign;
-        }
-        
-        private static bool StartsWithHash(in ReadOnlySpan<byte> bytes)
+        private static bool AdGuardShouldSkipLine(in ReadOnlySpan<byte> current)
         {
-            return bytes.TrimStart()[0] == Constants.HashSign;
+            return current[0] != Constants.PipeSign;
         }
-        
+
         private static ReadOnlySpan<byte> TrimStart(this ReadOnlySpan<byte> span)
         {
             var start = 0;
@@ -147,12 +131,20 @@ namespace HostsParser
             if (lastPipe > -1)
                 lineBytes = lineBytes[(lastPipe == 0 ? 1 : lastPipe + 1)..];
         }
-        
-        private static void HandleHash(ref Span<char> lineChars)
+
+        private static void HandleHash(ref ReadOnlySpan<byte> lineChars)
         {
-            var hashIndex = lineChars.IndexOf(Constants.HashSignChar);
+            var hashIndex = lineChars.IndexOf(Constants.HashSign);
             if (hashIndex > 0)
                 lineChars = lineChars[..hashIndex];
+        }
+
+        private static void HandleWwwPrefix(ref ReadOnlySpan<byte> lineBytes)
+        {
+            if (lineBytes.StartsWith(Constants.NxIpWithWww))
+                lineBytes = lineBytes[Constants.NxIpWithWww.Length..];
+            else if(lineBytes.StartsWith(Constants.NxIpWithSpace))
+                lineBytes = lineBytes[Constants.NxIpWithSpace.Length..];
         }
         
         private static void HandleHat(ref ReadOnlySpan<byte> lineBytes)

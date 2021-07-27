@@ -58,22 +58,6 @@ namespace HostsParser
             return item.Length <= 3 ? l : l[(indexes[0] + 1)..];
         }
 
-        internal static (List<string> withPrefix, List<string> withoutPrefix) GetWwwOnly(IEnumerable<string> hosts)
-        {
-            var withPrefix = new List<string>();
-            var withoutPrefix = new List<string>();
-            foreach (var host in hosts)
-            {
-                if (!host.AsSpan().StartsWith(Constants.WwwPrefix))
-                    continue;
-                
-                withPrefix.Add(host);
-                withoutPrefix.Add(host[4..]);
-            }
-
-            return (withPrefix, withoutPrefix);
-        }
-
         private static int IndexOf(this ReadOnlySpan<char> aSpan, char aChar, int startIndex)
         {
             var indexInSlice = aSpan[startIndex..].IndexOf(aChar);
