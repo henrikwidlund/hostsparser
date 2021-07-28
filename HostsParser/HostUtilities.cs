@@ -33,7 +33,7 @@ namespace HostsParser
 
                 HandleWwwPrefix(ref current);
                 HandleDelimiter(ref current, Constants.HashSign);
-                if (current.IsWhiteSpace())
+                if (IsWhiteSpace(current))
                     continue;
                 
                 decoder.GetChars(current, chars, false);
@@ -67,7 +67,7 @@ namespace HostsParser
                 
                 HandlePipe(ref current);
                 HandleDelimiter(ref current, Constants.HatSign);
-                if (current.IsWhiteSpace())
+                if (IsWhiteSpace(current))
                     continue;
                 
                 decoder.GetChars(current, chars, false);
@@ -136,7 +136,7 @@ namespace HostsParser
         
         private static bool SourceShouldSkipLine(in ReadOnlySpan<byte> bytes, byte[][] skipLines)
         {
-            if (bytes.TrimStart()[0] == Constants.HashSign)
+            if (TrimStart(bytes)[0] == Constants.HashSign)
                 return true;
             
             for (var i = 0; i < skipLines.Length; i++)
@@ -154,7 +154,7 @@ namespace HostsParser
             return current[0] != Constants.PipeSign;
         }
 
-        private static ReadOnlySpan<byte> TrimStart(this ReadOnlySpan<byte> span)
+        private static ReadOnlySpan<byte> TrimStart(in ReadOnlySpan<byte> span)
         {
             var start = 0;
             for (; start < span.Length; start++)
@@ -167,7 +167,7 @@ namespace HostsParser
             return span[start..];
         }
         
-        private static bool IsWhiteSpace(this ReadOnlySpan<byte> span)
+        private static bool IsWhiteSpace(in ReadOnlySpan<byte> span)
         {
             var start = 0;
             for (; start < span.Length; start++)
