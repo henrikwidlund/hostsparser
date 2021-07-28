@@ -154,7 +154,7 @@ namespace HostsParser
             return current[0] != Constants.PipeSign;
         }
 
-        private static ReadOnlySpan<byte> TrimStart(in ReadOnlySpan<byte> span)
+        private static ReadOnlySpan<byte> TrimStart(this ReadOnlySpan<byte> span)
         {
             var start = 0;
             for (; start < span.Length; start++)
