@@ -56,18 +56,18 @@ namespace HostsParser
             // logger.LogInformation(WithTimeStamp("Done get AdGuard hosts"));
 
             // logger.LogInformation(WithTimeStamp("Start combining host sources"));
-            var combined = new List<string>(sourceLines.Count);
-            for (var i = 0; i < sourceLines.Count; i++)
-            {
-                if (adGuardLines.Contains(sourceLines[i]))
-                    continue;
-                
-                combined.Add(sourceLines[i]);
-            }
+            // var combined = new List<string>(sourceLines.Count);
+            // for (var i = 0; i < sourceLines.Count; i++)
+            // {
+            //     if (adGuardLines.Contains(sourceLines[i]))
+            //         continue;
+            //     
+            //     combined.Add(sourceLines[i]);
+            // }
             // combined.RemoveAll(s => adGuardLines.Contains(s));
-            // var combined = sourceLines
-            //     .Except(adGuardLines)
-            //     .ToList();
+            var combined = sourceLines
+                .Except(adGuardLines)
+                .ToList();
             // sourceLines.Clear();
 
             combined = HostUtilities.RemoveKnownBadHosts(settings.KnownBadHosts, combined);
