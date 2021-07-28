@@ -3,6 +3,9 @@
 
 Converts [StevenBlack/hosts](https://github.com/StevenBlack/hosts) with fakenews, gambling and porn extensions into the adblock format, optimized for [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome). It also removes duplicates, hosts that are already blocked by [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter) and most comments that are used to indicate different sections in the source.
 
+## Pre-built host
+The hosts file is generated every six hours and is available for download [here](https://henrikwidlund.github.io/HostsParser/hosts).
+
 ## Building
 *You'll need the [dotnet 6 SDK](https://dotnet.microsoft.com/download).*
 
