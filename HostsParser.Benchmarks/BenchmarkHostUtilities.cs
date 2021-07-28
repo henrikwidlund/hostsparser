@@ -19,7 +19,7 @@ namespace HostsParser.Benchmarks
                 BenchmarkTestData.Decoder);
 
         [Benchmark]
-        public List<string> ProcessAdGuard()
+        public HashSet<string> ProcessAdGuard()
             => HostUtilities.ProcessAdGuard(BenchmarkTestData.AdGuardTestBytes, BenchmarkTestData.Decoder);
 
         [Benchmark]

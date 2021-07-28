@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-07-27T12:06:35.936Z
+! Last modified: 2021-07-28T12:06:00.178Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -18,6 +18,14 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||pbprof.com^
+||admost-banner.b-cdn.net^
+||claring-loccelkin.com^
+||auchoons.net^
+||deliberatelycube.com^
+||gardourd.com^
+||mutilatecoast.com^
+||travelingturtleharmonious.com^
 ||gigacpmserv.com^
 ||greeter.me^
 ||300daytravel.com^
@@ -933,7 +941,6 @@
 ||pushisback.com^
 ||popcent.net^
 ||redirect750.us^
-||healmsuoguurd.eu^
 ||protection-phone.club^
 ||digiadzone.com^
 ||cogleapad.com^
@@ -2757,6 +2764,7 @@ www.llllllllllll.net^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
+||ads-dot-fbc-web-2018.uc.r.appspot.com^
 ||awrfds3.pornpapa.com^
 ||d1tpwjufge3qqa.cloudfront.net^
 ||d1ev866ubw90c6.cloudfront.net^
@@ -5178,6 +5186,7 @@ vkcdnservice.appspot.com^
 ||cigarettywu.club^
 ||ciksolre.net^
 ||cilcountee.top^
+||cimg.co^
 ||ciqguphollyj.com^
 ||circuitrestbeds.com^
 ||circumferencefurfavour.com^
@@ -5434,7 +5443,6 @@ vkcdnservice.appspot.com^
 ||connectad.io^
 ||connectignite.com^
 ||connectionads.com^
-||connexity.net^
 ||connexplace.com^
 ||connextra.com^
 ||conqueredcousin.com^
@@ -14981,6 +14989,7 @@ vkcdnservice.appspot.com^
 ||commissionmonster.com^
 ||communicationads.net^
 ||comscore.com^
+||connexity.net^
 ||consumable.com^
 ||contaxe.com^
 ||content-cooperation.com^
@@ -18101,6 +18110,9 @@ vkcdnservice.appspot.com^
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||tag.search.sensefuel.live^
+||api.dataunlocker.com^
+||microanalytics.io^
 ||tracking.sexcash.com^
 ||fastly-insights.com^
 ||restisbench.com^
@@ -22172,6 +22184,11 @@ vkcdnservice.appspot.com^
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/344
 ! Disabled in DNS filter
 !
+||monitoring.youronlinechoices.com^
+||1bw7etm93lf.www.woodbrass.com^
+||t.imgur.com^
+||counter1.fc2.com^
+||analyzer*.fc2.com^
 ||klik.nrc.nl^
 ||uie.data.cbc.ca^
 ||ub.finanzfrage.net^
@@ -22640,7 +22657,6 @@ vkcdnservice.appspot.com^
 ||analytics.wetpaint.me^
 ||analytics.whatculture.com^
 ||analyze.yahooapis.com^
-||analyzer52.fc2.com^
 ||atax.gamespy.com^
 ||atax.gamestats.com^
 ||atax.ign.com^
@@ -24160,6 +24176,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||apxl.io^
 ||bydst.com^
 ||cloudwp.io^
+||e1e.io^
 ||g2377012020.co^
 ||g2575096355.co^
 ||g2773180690.co^
@@ -24196,6 +24213,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||g8715710740.co^
 ||g8913795075.co^
 ||g9111879410.co^
+||ldnlyap.com^
 ||lltrck.com^
 ||loloclicks.biz^
 ||mors22.com^
@@ -24629,6 +24647,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||nmrodam.com^
 ||noibu.com^
 ||northstartravelmedia.com^
+||ns8.com^
 ||ns8ds.com^
 ||nuloox.com^
 ||nyltx.com^
@@ -24752,6 +24771,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||securitytrfx.com^
 ||seeip.org^
 ||seevolution.com^
+||segmetrics.io^
 ||selectmedia.asia^
 ||sellebrity.com^
 ||sellpoint.net^
@@ -24853,6 +24873,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||traffer.net^
 ||trafficfuel.com^
 ||trafficguard.ai^
+||trafficroots.com^
 ||transactionale.com^
 ||traq.li^
 ||traversedlp.com^
@@ -25628,6 +25649,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||geo.q5media.net^
 ||geo.thehindu.com^
 ||geobar.ziffdavisinternational.com^
+||geoip.cookieyes.com^
 ||geoip.nekudo.com^
 ||geolocation.outreach.com^
 ||go.toutapp.com^
@@ -25819,6 +25841,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||snaps.vidiemi.com^
 ||snowplow.swm.digital^
 ||speedtrap.shopdirect.com^
+||ssa.stepstone.com^
 ||ssr.streamrail.net^
 ||st.cdnco.us^
 ||st.linkfire.com^
@@ -31632,7 +31655,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||creatives.gunosy.com^
 !
 ! Fc2.com
-||analyzer*.fc2.com^
 ||media5.fc2.com^
 !
 ! Excite.co.jp
@@ -32103,6 +32125,24 @@ charlestownwyllie.oaklawnnonantum.com^
 ||t.njzrxx.xyz^
 ||yqrta.xyz^
 ||zjgfq.com^
+!
+! Source name: AdGuard Dutch filter ad servers
+! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/DutchFilter/sections/adservers.txt
+!
+!
+! Section contains list of advertising networks
+!
+||pexi.nl^
+||adconfigproxy.azurewebsites.net^
+
+!
+! Source name: AdGuard Dutch filter ad servers first-party
+! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/DutchFilter/sections/adservers_firstparty.txt
+!
+!
+! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
+!
+||content2.nrc.nl^
 !
 ! Source name: EasyList Germany ad servers
 ! Source: https://raw.githubusercontent.com/easylist/easylistgermany/master/easylistgermany/easylistgermany_adservers.txt
@@ -33567,6 +33607,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
+||baidu-image-qqcom.com^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||008844.cc^
@@ -36321,9 +36362,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||201767.cn^
-||xzhcedu.cn^
-||wangmiao.xyz^
+||rtkyvd.xyz^
+||huzhu.group^
+||jwyl.ltd^
+||iwucoz.cn^
 ||01tn.cn^
 ||027whht.com^
 ||0511qsfhknvz.xyz^
@@ -36359,6 +36401,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||199zw.com^
 ||1ug8jn.cn^
 ||200ps.com^
+||201767.cn^
 ||2227q.com^
 ||22qzhao5.cn^
 ||23uuw3.com^
@@ -36986,6 +37029,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||guangweixinxi345.cn^
 ||guannin.com^
 ||guansenff.cn^
+||guideserv.cn^
 ||guiyimq.fun^
 ||guoduand.cn^
 ||guoshihuaiyao.com^
@@ -37939,9 +37983,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||wangkeduo.cn^
 ||wanglc.vip^
 ||wangliqin.top^
+||wangmiao.xyz^
 ||wangmingsort.cn^
 ||wangqilin.xyz^
 ||wangqing7.top^
+||wangtianci.cn^
 ||wangyuekun.xyz^
 ||wangzibo.top^
 ||wannuochongkong.com^
@@ -38097,6 +38143,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||xxzzsj.xyz^
 ||xy98.com.cn^
 ||xywgbms.top^
+||xzhcedu.cn^
 ||xztms.com^
 ||y7o9rh.cn^
 ||yaba.org.cn^
@@ -38358,6 +38405,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||adc.api.nine.com.au^
 ! https://github.com/AdguardTeam/AdguardDNS/issues/52
 ||mobileanalytics.*.amazonaws.com^
+||analyzer52.fc2.com^
 ||clientlog.portal.office.com^
 ||collect.sas.com^
 ||collect2.sas.com^
