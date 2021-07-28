@@ -33,6 +33,8 @@ namespace HostsParser
 
                 HandleWwwPrefix(ref current);
                 HandleDelimiter(ref current, Constants.HashSign);
+                if (current.IsWhiteSpace())
+                    continue;
                 
                 decoder.GetChars(current, chars, false);
                 var lineChars = chars[..current.Length];
@@ -42,10 +44,10 @@ namespace HostsParser
             return new List<string>(new HashSet<string>(strings));
         }
         
-        internal static List<string> ProcessAdGuard(in ReadOnlySpan<byte> bytes,
+        internal static HashSet<string> ProcessAdGuard(in ReadOnlySpan<byte> bytes,
             Decoder decoder)
         {
-            var strings = new List<string>();
+            var strings = new HashSet<string>();
             var read = 0;
             Span<char> chars = stackalloc char[256];
             while (read < bytes.Length)
@@ -65,7 +67,9 @@ namespace HostsParser
                 
                 HandlePipe(ref current);
                 HandleDelimiter(ref current, Constants.HatSign);
-
+                if (current.IsWhiteSpace())
+                    continue;
+                
                 decoder.GetChars(current, chars, false);
                 var lineChars = chars[..current.Length];
                 strings.Add(lineChars.Trim().ToString());
@@ -160,6 +164,19 @@ namespace HostsParser
             }
 
             return span[start..];
+        }
+        
+        private static bool IsWhiteSpace(this ReadOnlySpan<byte> span)
+        {
+            var start = 0;
+            for (; start < span.Length; start++)
+            {
+                if (span[start] != Constants.Space
+                    && span[start] != Constants.Tab)
+                    return false;
+            }
+
+            return true;
         }
 
         private static void HandlePipe(ref ReadOnlySpan<byte> lineBytes)
