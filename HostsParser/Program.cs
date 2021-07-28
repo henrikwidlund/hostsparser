@@ -82,7 +82,23 @@ namespace HostsParser
             // logger.LogInformation(WithTimeStamp("Start filtering duplicates - Part 1"));
             var superFiltered = new List<string>(combined.Count);
 
-            CollectionUtilities.FilterGrouped(combined, ref superFiltered);
+            var hashSet = new HashSet<string>(combined);
+
+            var dnsGroups = CollectionUtilities.GroupDnsList(combined);
+            foreach (var dnsGroup in dnsGroups)
+            {
+                if (!hashSet.Contains(dnsGroup.Key))
+                    continue;
+
+                foreach (var dnsEntry in dnsGroup)
+                {
+                    if (dnsGroup.Key == dnsEntry)
+                        continue;
+
+                    superFiltered.Add(dnsEntry);
+                }
+            }
+            // CollectionUtilities.FilterGrouped(combined, ref superFiltered);
             combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered), false);
 
 //

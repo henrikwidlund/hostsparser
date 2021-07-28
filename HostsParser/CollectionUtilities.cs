@@ -29,48 +29,51 @@ namespace HostsParser
 
         internal static void FilterGrouped(List<string> dnsList, ref List<string> filtered)
         {
-            var hashSet = new HashSet<string>(dnsList);
-        
-            var dnsGroups = GroupDnsList(dnsList);
-            foreach (var (key, value) in dnsGroups)
-            {
-                if (!hashSet.Contains(key)
-                    || value.Count < 2)
-                    continue;
-                
-                for (var index = 0; index < value.Count; index++)
-                {
-                    var current = value[index];
-                    if (key == current)
-                        continue;
-                    
-                    filtered.Add(current);
-                }
-            }
+            // var hashSet = new HashSet<string>(dnsList);
+            //
+            // var dnsGroups = GroupDnsList(dnsList);
+            // foreach (var (key, value) in dnsGroups)
+            // {
+            //     if (!hashSet.Contains(key)
+            //         || value.Count < 2)
+            //         continue;
+            //     
+            //     for (var index = 0; index < value.Count; index++)
+            //     {
+            //         var current = value[index];
+            //         if (key == current)
+            //             continue;
+            //         
+            //         filtered.Add(current);
+            //     }
+            // }
         }
         
-        private static Dictionary<string, List<string>> GroupDnsList(List<string> dnsList)
-        {
-            var dict = new Dictionary<string, List<string>>();
-            foreach (var s in dnsList)
-            {
-                var key = GetTopMostDns(s).ToString();
-                List<string> values;
-                if (!dict.ContainsKey(key))
-                {
-                    values = new List<string>();
-                    dict.Add(key, values);
-                }
-                else
-                {
-                    values = dict[key];
-                }
-                
-                values.Add(s);
-            }
+        // private static Dictionary<string, List<string>> GroupDnsList(List<string> dnsList)
+        // {
+        //     var dict = new Dictionary<string, List<string>>();
+        //     foreach (var s in dnsList)
+        //     {
+        //         var key = GetTopMostDns(s).ToString();
+        //         List<string> values;
+        //         if (!dict.ContainsKey(key))
+        //         {
+        //             values = new List<string>();
+        //             dict.Add(key, values);
+        //         }
+        //         else
+        //         {
+        //             values = dict[key];
+        //         }
+        //         
+        //         values.Add(s);
+        //     }
+        //
+        //     return dict;
+        // }
         
-            return dict;
-        }
+        internal static IEnumerable<IGrouping<string, string>> GroupDnsList(IEnumerable<string> dnsList)
+         => dnsList.GroupBy(l => GetTopMostDns(l).ToString());
         
         // internal static IEnumerable<IGrouping<string, string>> GroupDnsList(List<string> dnsList)
         // {
