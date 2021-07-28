@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json;
@@ -30,29 +31,27 @@ namespace HostsParser
             });
             var logger = loggerFactory.CreateLogger("HostsParser");
 
-            // logger.LogInformation(WithTimeStamp("Running..."));
-            // var stopWatch = new Stopwatch();
-            // stopWatch.Start();
+            logger.LogInformation(WithTimeStamp("Running..."));
+            var stopWatch = new Stopwatch();
+            stopWatch.Start();
 
             var settings = JsonSerializer.Deserialize<Settings>(File.ReadAllBytes("appsettings.json"));
             if (settings == null)
             {
-                // logger.LogError("Couldn't load settings. Terminating...");
+                logger.LogError("Couldn't load settings. Terminating...");
                 return;
             }
 
             var decoder = Encoding.UTF8.GetDecoder();
-// using var httpClient = new HttpClient();
+            using var httpClient = new HttpClient();
 
             // logger.LogInformation(WithTimeStamp("Start get source hosts"));
-// var bytes = await httpClient.GetByteArrayAsync(settings.SourceUri);
-            var bytes = await File.ReadAllBytesAsync("sourcehosts.txt");
+            var bytes = await httpClient.GetByteArrayAsync(settings.SourceUri);
             var sourceLines = HostUtilities.ProcessSource(bytes, settings.SkipLinesBytes, decoder);
             // logger.LogInformation(WithTimeStamp("Done get source hosts"));
 
             // logger.LogInformation(WithTimeStamp("Start get AdGuard hosts"));
-// bytes = await httpClient.GetByteArrayAsync(settings.AdGuardUri);
-            bytes = await File.ReadAllBytesAsync("adguardhosts.txt");
+            bytes = await httpClient.GetByteArrayAsync(settings.AdGuardUri);
             var adGuardLines = HostUtilities.ProcessAdGuard(bytes, decoder);
             // logger.LogInformation(WithTimeStamp("Done get AdGuard hosts"));
 
@@ -153,9 +152,9 @@ namespace HostsParser
             await File.WriteAllLinesAsync("hosts", newLines);
             // logger.LogInformation(WithTimeStamp("Done writing hosts file"));
 
-            // stopWatch.Stop();
-            // logger.LogInformation(WithTimeStamp($"Execution duration - {stopWatch.Elapsed} | Produced {combined.Count} hosts"));
-            logger.LogInformation(WithTimeStamp($"Produced {combined.Count} hosts"));
+            stopWatch.Stop();
+            logger.LogInformation(WithTimeStamp($"Execution duration - {stopWatch.Elapsed} | Produced {combined.Count} hosts"));
+            // logger.LogInformation(WithTimeStamp($"Produced {combined.Count} hosts"));
 
             static string WithTimeStamp(string message)
             {
