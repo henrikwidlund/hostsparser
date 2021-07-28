@@ -33,8 +33,8 @@ namespace HostsParser
 
                 HandleWwwPrefix(ref current);
                 HandleDelimiter(ref current, Constants.HashSign);
-                // if (IsWhiteSpace(current))
-                //     continue;
+                if (IsWhiteSpace(current))
+                    continue;
                 
                 decoder.GetChars(current, chars, false);
                 var lineChars = chars[..current.Length];
@@ -67,8 +67,8 @@ namespace HostsParser
                 
                 HandlePipe(ref current);
                 HandleDelimiter(ref current, Constants.HatSign);
-                // if (IsWhiteSpace(current))
-                //     continue;
+                if (IsWhiteSpace(current))
+                    continue;
                 
                 decoder.GetChars(current, chars, false);
                 var lineChars = chars[..current.Length];
