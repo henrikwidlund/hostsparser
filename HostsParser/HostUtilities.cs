@@ -33,7 +33,7 @@ namespace HostsParser
 
                 HandleWwwPrefix(ref current);
                 HandleDelimiter(ref current, Constants.HashSign);
-                if (current.IsWhiteSpace())
+                if (IsWhiteSpace(current))
                     continue;
                 
                 decoder.GetChars(current, chars, false);
@@ -67,7 +67,7 @@ namespace HostsParser
                 
                 HandlePipe(ref current);
                 HandleDelimiter(ref current, Constants.HatSign);
-                if (current.IsWhiteSpace())
+                if (IsWhiteSpace(current))
                     continue;
                 
                 decoder.GetChars(current, chars, false);
@@ -166,7 +166,7 @@ namespace HostsParser
             return span[start..];
         }
         
-        private static bool IsWhiteSpace(this ReadOnlySpan<byte> span)
+        private static bool IsWhiteSpace(in ReadOnlySpan<byte> span)
         {
             var start = 0;
             for (; start < span.Length; start++)
