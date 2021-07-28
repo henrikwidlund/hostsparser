@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json;
@@ -30,74 +31,87 @@ namespace HostsParser
             });
             var logger = loggerFactory.CreateLogger("HostsParser");
 
-            // logger.LogInformation(WithTimeStamp("Running..."));
-            // var stopWatch = new Stopwatch();
-            // stopWatch.Start();
+            logger.LogInformation(WithTimeStamp("Running..."));
+            var stopWatch = new Stopwatch();
+            stopWatch.Start();
 
-            var settings = JsonSerializer.Deserialize<Settings>(File.ReadAllBytes("appsettings.json"));
+            var settings = JsonSerializer.Deserialize<Settings>(await File.ReadAllBytesAsync("appsettings.json"));
             if (settings == null)
             {
-                // logger.LogError("Couldn't load settings. Terminating...");
+                logger.LogError("Couldn't load settings. Terminating...");
                 return;
             }
 
             var decoder = Encoding.UTF8.GetDecoder();
-// using var httpClient = new HttpClient();
+            using var httpClient = new HttpClient();
 
-            // logger.LogInformation(WithTimeStamp("Start get source hosts"));
-// var bytes = await httpClient.GetByteArrayAsync(settings.SourceUri);
-            var bytes = await File.ReadAllBytesAsync("sourcehosts.txt");
+            var bytes = await httpClient.GetByteArrayAsync(settings.SourceUri);
             var sourceLines = HostUtilities.ProcessSource(bytes, settings.SkipLinesBytes, decoder);
-            // logger.LogInformation(WithTimeStamp("Done get source hosts"));
 
-            // logger.LogInformation(WithTimeStamp("Start get AdGuard hosts"));
-// bytes = await httpClient.GetByteArrayAsync(settings.AdGuardUri);
-            bytes = await File.ReadAllBytesAsync("adguardhosts.txt");
+            bytes = await httpClient.GetByteArrayAsync(settings.AdGuardUri);
             var adGuardLines = HostUtilities.ProcessAdGuard(bytes, decoder);
-            // logger.LogInformation(WithTimeStamp("Done get AdGuard hosts"));
 
-            // logger.LogInformation(WithTimeStamp("Start combining host sources"));
-            var combined = new List<string>(sourceLines.Count);
-            for (var i = 0; i < sourceLines.Count; i++)
-            {
-                if (adGuardLines.Contains(sourceLines[i]))
-                    continue;
-                
-                combined.Add(sourceLines[i]);
-            }
-            // combined.RemoveAll(s => adGuardLines.Contains(s));
-            // var combined = sourceLines
-            //     .Except(adGuardLines)
-            //     .ToList();
-            // sourceLines.Clear();
-
+            var combined = sourceLines;
+            combined.RemoveAll(s => adGuardLines.Contains(s));
             combined = HostUtilities.RemoveKnownBadHosts(settings.KnownBadHosts, combined);
-            // combined.AddRange(settings.KnownBadHosts);
-            // combined.AddRange(adGuardLines);
-            // combined = CollectionUtilities.SortDnsList(combined, true);
             combined = CollectionUtilities.SortDnsList(combined.Concat(settings.KnownBadHosts)
                 .Concat(adGuardLines), true);
 
-            // logger.LogInformation(WithTimeStamp("Done combining host sources"));
+            var filtered = new HashSet<string>(combined.Count);
+            CollectionUtilities.FilterGrouped(combined, ref filtered);
+            combined.RemoveAll(s => filtered.Contains(s));
+            combined = CollectionUtilities.SortDnsList(combined, false);
+            combined = ProcessCombined(filtered, combined, adGuardLines);
 
-            // logger.LogInformation(WithTimeStamp("Start filtering duplicates - Part 1"));
-            var superFiltered = new List<string>(combined.Count);
+            if (settings.ExtraFiltering)
+            {
+                logger.LogInformation(WithTimeStamp("Start extra filtering of duplicates"));
+                combined = ProcessWithExtraFiltering(adGuardLines, combined, filtered);
+                logger.LogInformation(WithTimeStamp("Done extra filtering of duplicates"));
+            }
 
-            CollectionUtilities.FilterGrouped(combined, ref superFiltered);
-            combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered), false);
+            var newLinesList = combined
+                .Select(l => $"||{l}^");
 
-//
-//
-            // CollectionUtilities.FilterGrouped(ref combined);
-//
-//
-            // combined = CollectionUtilities.FilterGrouped2(combined);
-            // combined = CollectionUtilities.SortDnsList(combined, false);
-// combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered), false);
+            var newLines = new HashSet<string>(settings.HeaderLines) { $"! Last Modified: {DateTime.UtcNow:u}", string.Empty };
+            foreach (var item in newLinesList)
+                newLines.Add(item);
+
+            await File.WriteAllLinesAsync("hosts", newLines);
+
+            stopWatch.Stop();
+            logger.LogInformation(WithTimeStamp($"Execution duration - {stopWatch.Elapsed} | Produced {ProducedCount()} hosts"));
+
+            int? ProducedCount() => newLines.Count - settings.HeaderLines.Length - 2;
+            static string WithTimeStamp(string message)
+            {
+                return $"{DateTime.Now:yyyy-MM-dd hh:mm:ss} - {message}";
+            }
+        }
+
+        private static List<string> ProcessWithExtraFiltering(HashSet<string> adGuardLines,
+            List<string> combined,
+            HashSet<string> filtered)
+        {
+            Parallel.ForEach(CollectionUtilities.SortDnsList(adGuardLines, true), item =>
+            {
+                for (var i = 0; i < combined.Count; i++)
+                {
+                    var localItem = combined[i];
+                    if (HostUtilities.IsSubDomainOf(localItem, item))
+                        filtered.Add(localItem);
+                }
+            });
+            combined = CollectionUtilities.SortDnsList(combined.Except(filtered), false);
+            return combined;
+        }
+
+        private static List<string> ProcessCombined(HashSet<string> filtered, List<string> combined, HashSet<string> adGuardLines)
+        {
             var round = 0;
             do
             {
-                superFiltered.Clear();
+                filtered.Clear();
                 var lookBack = ++round * 250;
                 Parallel.For(0, combined.Count, i =>
                 {
@@ -105,62 +119,31 @@ namespace HostsParser
                     {
                         var item = combined[i];
                         var otherItem = combined[j];
-                        if (otherItem.Length + 1 > item.Length) continue;
-                        if (item == otherItem) continue;
-
-                        if (HostUtilities.IsSubDomainOf(item, otherItem))
-                            superFiltered.Add(item);
+                        AddIfSubDomain(filtered, item, otherItem);
                     }
                 });
 
-                combined = CollectionUtilities.SortDnsList(round == 1
-                        ? combined.Except(superFiltered).Except(adGuardLines)
-                        : combined.Except(superFiltered),
-                    false);
-            } while (superFiltered.Any());
-            // logger.LogInformation(WithTimeStamp("Done filtering duplicates - Part 1"));
+                if (round == 1)
+                    combined.RemoveAll(adGuardLines.Contains);
 
-            if (settings.ExtraFiltering)
-            {
-                // logger.LogInformation(WithTimeStamp("Start filtering duplicates - Part 2"));
-                Parallel.ForEach(CollectionUtilities.SortDnsList(adGuardLines, true), item =>
-                {
-                    for (var i = 0; i < combined.Count; i++)
-                    {
-                        var localItem = combined[i];
-                        if (HostUtilities.IsSubDomainOf(localItem, item))
-                            superFiltered.Add(localItem);
-                    }
-                });
-                combined = CollectionUtilities.SortDnsList(combined.Except(superFiltered), false);
-                // logger.LogInformation(WithTimeStamp("Done filtering duplicates - Part 2"));
-            }
+                combined.RemoveAll(filtered.Contains);
+                combined = CollectionUtilities.SortDnsList(combined, false);
+            } while (filtered.Count > 0);
 
-            // logger.LogInformation(WithTimeStamp("Start formatting hosts"));
-            var newLinesList = combined
-                .Select(l => $"||{l}^");
-            // logger.LogInformation(WithTimeStamp("Done formatting hosts"));
+            return combined;
+        }
 
-            // logger.LogInformation(WithTimeStamp("Start building hosts results"));
+        private static void AddIfSubDomain(HashSet<string> filtered, string item, string otherItem)
+        {
+            if (ShouldSkip(otherItem, item)) return;
+            if (HostUtilities.IsSubDomainOf(item, otherItem))
+                filtered.Add(item);
+        }
 
-            var newLines = new HashSet<string>(settings.HeaderLines) { $"! Last Modified: {DateTime.UtcNow:u}", string.Empty };
-            foreach (var item in newLinesList)
-                newLines.Add(item);
-
-            // logger.LogInformation(WithTimeStamp("Done building hosts results"));
-
-            // logger.LogInformation(WithTimeStamp("Start writing hosts file"));
-            await File.WriteAllLinesAsync("hosts", newLines);
-            // logger.LogInformation(WithTimeStamp("Done writing hosts file"));
-
-            // stopWatch.Stop();
-            // logger.LogInformation(WithTimeStamp($"Execution duration - {stopWatch.Elapsed} | Produced {combined.Count} hosts"));
-            logger.LogInformation(WithTimeStamp($"Produced {combined.Count} hosts"));
-
-            static string WithTimeStamp(string message)
-            {
-                return $"{DateTime.Now:yyyy-MM-dd hh:mm:ss} - {message}";
-            }
+        private static bool ShouldSkip(string otherItem, string item)
+        {
+            return otherItem.Length + 1 > item.Length
+                   || item == otherItem;
         }
     }
 }

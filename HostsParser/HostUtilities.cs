@@ -81,6 +81,7 @@ namespace HostsParser
         internal static List<string> RemoveKnownBadHosts(string[] knownBadHosts, List<string> hosts)
         {
             var except = new List<string>(hosts.Count);
+
             for (var i = 0; i < hosts.Count; i++)
             {
                 var host = hosts[i];
