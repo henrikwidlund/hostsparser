@@ -1,3 +1,6 @@
+// Copyright Henrik Widlund
+// GNU General Public License v3.0
+
 using System.Threading.Tasks;
 using BenchmarkDotNet.Attributes;
 

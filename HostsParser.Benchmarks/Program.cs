@@ -1,4 +1,7 @@
-﻿using BenchmarkDotNet.Configs;
+﻿// Copyright Henrik Widlund
+// GNU General Public License v3.0
+
+using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Running;
 
 namespace HostsParser.Benchmarks

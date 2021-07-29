@@ -12,9 +12,10 @@ namespace HostsParser
         internal static List<string> SortDnsList(IEnumerable<string> dnsList, bool distinct)
         {
             return (distinct ? dnsList.Distinct() : dnsList)
-                .OrderBy(l => GetTopMostDns(l).ToString())
-                .ThenBy(l => l.Length)
-                .ToList();
+                .Select(d => new StringSortItem(d))
+                .OrderBy(l => GetTopMostDns(l.RawMemory), ReadOnlyMemoryCharComparer.Default)
+                .ThenBy(l => l.RawMemory.Length)
+                .Select(l => l.Raw).ToList();
         }
 
         internal static void FilterGrouped(List<string> dnsList, ref HashSet<string> filtered)
@@ -38,7 +39,7 @@ namespace HostsParser
                 }
             }
         }
-        
+
         internal static Dictionary<string, List<string>> GroupDnsList(List<string> dnsList)
         {
             var dict = new Dictionary<string, List<string>>();
@@ -68,6 +69,12 @@ namespace HostsParser
             return indexes.Count <= 1 ? item : ProcessItem(indexes, item);
         }
 
+        private static ReadOnlyMemory<char> GetTopMostDns(ReadOnlyMemory<char> item)
+        {
+            var indexes = GetIndexes(item.Span);
+            return indexes.Count <= 1 ? item : ProcessItem(indexes, item);
+        }
+
         private static List<int> GetIndexes(ReadOnlySpan<char> item)
         {
             var foundIndexes = new List<int>();
@@ -76,7 +83,7 @@ namespace HostsParser
 
             return foundIndexes;
         }
-        
+
         private static ReadOnlySpan<char> ProcessItem(List<int> indexes, ReadOnlySpan<char> l)
         {
             if (indexes.Count != 2)
@@ -97,6 +104,26 @@ namespace HostsParser
             return item.Length <= 3 ? l : l[(indexes[0] + 1)..];
         }
 
+        private static ReadOnlyMemory<char> ProcessItem(List<int> indexes, ReadOnlyMemory<char> l)
+        {
+            if (indexes.Count != 2)
+            {
+                ReadOnlyMemory<char> dns;
+                var secondTop = l[(indexes[^2] + 1)..indexes[^1]];
+                if (secondTop.Span.Equals(Constants.TopDomains.Co, StringComparison.Ordinal)
+                    || secondTop.Span.Equals(Constants.TopDomains.Com, StringComparison.Ordinal)
+                    || secondTop.Span.Equals(Constants.TopDomains.Org, StringComparison.Ordinal))
+                    dns = l[(indexes[^3] + 1)..];
+                else
+                    dns = l[(indexes[^2] + 1)..];
+                
+                return dns.Length > 3 ? dns : l[(indexes[^3] + 1)..];
+            }
+            
+            var item = l[(indexes[0] + 1)..indexes[1]];
+            return item.Length <= 3 ? l : l[(indexes[0] + 1)..];
+        }
+
         private static int IndexOf(this ReadOnlySpan<char> aSpan, char aChar, int startIndex)
         {
             var indexInSlice = aSpan[startIndex..].IndexOf(aChar);
@@ -105,6 +132,14 @@ namespace HostsParser
                 return -1;
 
             return startIndex + indexInSlice;
+        }
+
+        private readonly struct StringSortItem
+        {
+            public readonly string Raw;
+            public ReadOnlyMemory<char> RawMemory => Raw.AsMemory();
+
+            public StringSortItem(string raw) => Raw = raw;
         }
     }
 }

@@ -14,7 +14,6 @@ namespace HostsParser
         internal const byte Space = (byte)' ';
         internal const byte Tab = (byte)'\t';
         internal const char DotSign = '.';
-        internal const string DotSignString = ".";
         internal const byte HashSign = (byte)'#';
         internal static readonly byte[] NxIpWithWww = Encoding.UTF8.GetBytes("0.0.0.0 www.");
         internal static readonly byte[] NxIpWithSpace = Encoding.UTF8.GetBytes("0.0.0.0 ");
