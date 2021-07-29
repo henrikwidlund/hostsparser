@@ -87,11 +87,14 @@ namespace HostsParser
         }
 
         
-        private static bool IsPartOfKnownTopDomain(ReadOnlySpan<char> secondTop)
+        private static bool IsSecondLevelTopDomain(ReadOnlySpan<char> secondTop)
         {
             return secondTop.Equals(Constants.TopDomains.Co, StringComparison.Ordinal)
                    || secondTop.Equals(Constants.TopDomains.Com, StringComparison.Ordinal)
-                   || secondTop.Equals(Constants.TopDomains.Org, StringComparison.Ordinal);
+                   || secondTop.Equals(Constants.TopDomains.Org, StringComparison.Ordinal)
+                   || secondTop.Equals(Constants.TopDomains.Ne, StringComparison.Ordinal)
+                   || secondTop.Equals(Constants.TopDomains.Edu, StringComparison.Ordinal)
+                   || secondTop.Equals(Constants.TopDomains.Or, StringComparison.Ordinal);
         }
         
         private static ReadOnlySpan<char> ProcessItem(List<int> indexes,
@@ -100,7 +103,7 @@ namespace HostsParser
             if (indexes.Count != 2)
             {
                 var secondTop = item[(indexes[^2] + 1)..indexes[^1]];
-                var dns = IsPartOfKnownTopDomain(secondTop)
+                var dns = IsSecondLevelTopDomain(secondTop)
                     ? item[(indexes[^3] + 1)..]
                     : item[(indexes[^2] + 1)..];
                 
@@ -117,7 +120,7 @@ namespace HostsParser
             if (indexes.Count != 2)
             {
                 var secondTop = item[(indexes[^2] + 1)..indexes[^1]];
-                var dns = IsPartOfKnownTopDomain(secondTop.Span)
+                var dns = IsSecondLevelTopDomain(secondTop.Span)
                     ? item[(indexes[^3] + 1)..]
                     : item[(indexes[^2] + 1)..];
                 

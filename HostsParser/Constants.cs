@@ -23,6 +23,9 @@ namespace HostsParser
             internal static ReadOnlySpan<char> Co => "co".AsSpan();
             internal static ReadOnlySpan<char> Com => "com".AsSpan();
             internal static ReadOnlySpan<char> Org => "org".AsSpan();
+            internal static ReadOnlySpan<char> Ne => "ne".AsSpan();
+            internal static ReadOnlySpan<char> Edu => "edu".AsSpan();
+            internal static ReadOnlySpan<char> Or => "or".AsSpan();
         }
     }
 }
