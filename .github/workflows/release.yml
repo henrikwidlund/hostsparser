@@ -34,6 +34,7 @@ jobs:
           tag=$(git describe --tags --abbrev=0)
           release_name="HostsParser-$tag-${{ matrix.target }}"
           # Build everything
+          cd HostsParser
           dotnet publish --runtime "${{ matrix.target }}" -c Release -o "$release_name"
           # Pack files
           if [ "${{ matrix.target }}" == "win-x64" ]; then
