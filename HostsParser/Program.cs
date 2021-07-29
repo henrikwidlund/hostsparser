@@ -83,10 +83,7 @@ namespace HostsParser
             logger.LogInformation(WithTimeStamp($"Execution duration - {stopWatch.Elapsed} | Produced {ProducedCount()} hosts"));
 
             int? ProducedCount() => newLines.Count - settings.HeaderLines.Length - 2;
-            static string WithTimeStamp(string message)
-            {
-                return $"{DateTime.Now:yyyy-MM-dd hh:mm:ss} - {message}";
-            }
+            static string WithTimeStamp(string message) => $"{DateTime.Now:yyyy-MM-dd hh:mm:ss} - {message}";
         }
 
         private static List<string> ProcessWithExtraFiltering(HashSet<string> adGuardLines,
@@ -106,7 +103,9 @@ namespace HostsParser
             return combined;
         }
 
-        private static List<string> ProcessCombined(HashSet<string> filtered, List<string> combined, HashSet<string> adGuardLines)
+        private static List<string> ProcessCombined(HashSet<string> filtered,
+            List<string> combined,
+            HashSet<string> adGuardLines)
         {
             var round = 0;
             do
@@ -133,14 +132,17 @@ namespace HostsParser
             return combined;
         }
 
-        private static void AddIfSubDomain(HashSet<string> filtered, string item, string otherItem)
+        private static void AddIfSubDomain(HashSet<string> filtered,
+            string item,
+            string otherItem)
         {
             if (ShouldSkip(otherItem, item)) return;
             if (HostUtilities.IsSubDomainOf(item, otherItem))
                 filtered.Add(item);
         }
 
-        private static bool ShouldSkip(string otherItem, string item)
+        private static bool ShouldSkip(string otherItem,
+            string item)
         {
             return otherItem.Length + 1 > item.Length
                    || item == otherItem;

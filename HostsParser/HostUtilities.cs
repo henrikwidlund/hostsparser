@@ -78,7 +78,8 @@ namespace HostsParser
             return strings;
         }
         
-        internal static List<string> RemoveKnownBadHosts(string[] knownBadHosts, List<string> hosts)
+        internal static List<string> RemoveKnownBadHosts(string[] knownBadHosts,
+            List<string> hosts)
         {
             var except = new List<string>(hosts.Count);
 
@@ -101,7 +102,8 @@ namespace HostsParser
         }
         
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        internal static bool IsSubDomainOf(ReadOnlySpan<char> potentialSubDomain, ReadOnlySpan<char> potentialDomain)
+        internal static bool IsSubDomainOf(ReadOnlySpan<char> potentialSubDomain,
+            ReadOnlySpan<char> potentialDomain)
         {
             if (potentialDomain.Length < 1
                 || potentialSubDomain.Length < potentialDomain.Length
@@ -134,7 +136,8 @@ namespace HostsParser
             return bytes.Length >= 1;
         }
         
-        private static bool SourceShouldSkipLine(in ReadOnlySpan<byte> bytes, byte[][] skipLines)
+        private static bool SourceShouldSkipLine(in ReadOnlySpan<byte> bytes,
+            byte[][] skipLines)
         {
             if (TrimStart(bytes)[0] == Constants.HashSign)
                 return true;
@@ -150,9 +153,7 @@ namespace HostsParser
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private static bool AdGuardShouldSkipLine(in ReadOnlySpan<byte> current)
-        {
-            return current[0] != Constants.PipeSign;
-        }
+            => current[0] != Constants.PipeSign;
 
         private static ReadOnlySpan<byte> TrimStart(this ReadOnlySpan<byte> span)
         {
