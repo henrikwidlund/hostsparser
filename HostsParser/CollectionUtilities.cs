@@ -9,7 +9,8 @@ namespace HostsParser
 {
     internal static class CollectionUtilities
     {
-        internal static List<string> SortDnsList(IEnumerable<string> dnsList, bool distinct)
+        internal static List<string> SortDnsList(IEnumerable<string> dnsList,
+            bool distinct)
         {
             return (distinct ? dnsList.Distinct() : dnsList)
                 .Select(d => new StringSortItem(d))
@@ -18,7 +19,8 @@ namespace HostsParser
                 .Select(l => l.Raw).ToList();
         }
 
-        internal static void FilterGrouped(List<string> dnsList, ref HashSet<string> filtered)
+        internal static void FilterGrouped(List<string> dnsList,
+            ref HashSet<string> filtered)
         {
             var hashSet = new HashSet<string>(dnsList);
         
@@ -84,47 +86,54 @@ namespace HostsParser
             return foundIndexes;
         }
 
-        private static ReadOnlySpan<char> ProcessItem(List<int> indexes, ReadOnlySpan<char> l)
+        
+        private static bool IsSecondLevelTopDomain(ReadOnlySpan<char> secondTop)
+        {
+            return secondTop.Equals(Constants.TopDomains.Co, StringComparison.Ordinal)
+                   || secondTop.Equals(Constants.TopDomains.Com, StringComparison.Ordinal)
+                   || secondTop.Equals(Constants.TopDomains.Org, StringComparison.Ordinal)
+                   || secondTop.Equals(Constants.TopDomains.Ne, StringComparison.Ordinal)
+                   || secondTop.Equals(Constants.TopDomains.Edu, StringComparison.Ordinal)
+                   || secondTop.Equals(Constants.TopDomains.Or, StringComparison.Ordinal);
+        }
+        
+        private static ReadOnlySpan<char> ProcessItem(List<int> indexes,
+            ReadOnlySpan<char> item)
         {
             if (indexes.Count != 2)
             {
-                ReadOnlySpan<char> dns;
-                var secondTop = l[(indexes[^2] + 1)..indexes[^1]];
-                if (secondTop.Equals(Constants.TopDomains.Co, StringComparison.Ordinal)
-                    || secondTop.Equals(Constants.TopDomains.Com, StringComparison.Ordinal)
-                    || secondTop.Equals(Constants.TopDomains.Org, StringComparison.Ordinal))
-                    dns = l[(indexes[^3] + 1)..];
-                else
-                    dns = l[(indexes[^2] + 1)..];
+                var secondTop = item[(indexes[^2] + 1)..indexes[^1]];
+                var dns = IsSecondLevelTopDomain(secondTop)
+                    ? item[(indexes[^3] + 1)..]
+                    : item[(indexes[^2] + 1)..];
                 
-                return dns.Length > 3 ? dns : l[(indexes[^3] + 1)..];
+                return dns.Length > 3 ? dns : item[(indexes[^3] + 1)..];
             }
             
-            var item = l[(indexes[0] + 1)..indexes[1]];
-            return item.Length <= 3 ? l : l[(indexes[0] + 1)..];
+            var slicedItem = item[(indexes[0] + 1)..indexes[1]];
+            return slicedItem.Length <= 3 ? item : item[(indexes[0] + 1)..];
         }
 
-        private static ReadOnlyMemory<char> ProcessItem(List<int> indexes, ReadOnlyMemory<char> l)
+        private static ReadOnlyMemory<char> ProcessItem(List<int> indexes,
+            ReadOnlyMemory<char> item)
         {
             if (indexes.Count != 2)
             {
-                ReadOnlyMemory<char> dns;
-                var secondTop = l[(indexes[^2] + 1)..indexes[^1]];
-                if (secondTop.Span.Equals(Constants.TopDomains.Co, StringComparison.Ordinal)
-                    || secondTop.Span.Equals(Constants.TopDomains.Com, StringComparison.Ordinal)
-                    || secondTop.Span.Equals(Constants.TopDomains.Org, StringComparison.Ordinal))
-                    dns = l[(indexes[^3] + 1)..];
-                else
-                    dns = l[(indexes[^2] + 1)..];
+                var secondTop = item[(indexes[^2] + 1)..indexes[^1]];
+                var dns = IsSecondLevelTopDomain(secondTop.Span)
+                    ? item[(indexes[^3] + 1)..]
+                    : item[(indexes[^2] + 1)..];
                 
-                return dns.Length > 3 ? dns : l[(indexes[^3] + 1)..];
+                return dns.Length > 3 ? dns : item[(indexes[^3] + 1)..];
             }
             
-            var item = l[(indexes[0] + 1)..indexes[1]];
-            return item.Length <= 3 ? l : l[(indexes[0] + 1)..];
+            var slicedItem = item[(indexes[0] + 1)..indexes[1]];
+            return slicedItem.Length <= 3 ? item : item[(indexes[0] + 1)..];
         }
 
-        private static int IndexOf(this ReadOnlySpan<char> aSpan, char aChar, int startIndex)
+        private static int IndexOf(this ReadOnlySpan<char> aSpan,
+            char aChar,
+            int startIndex)
         {
             var indexInSlice = aSpan[startIndex..].IndexOf(aChar);
 
