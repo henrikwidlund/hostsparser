@@ -10,6 +10,7 @@ namespace HostsParser.Benchmarks
     public class BenchmarkProgram
     {
         [Benchmark]
+        [BenchmarkCategory(nameof(Program), nameof(BenchmarkProgram))]
         public async Task Program() => await HostsParser.Program.Main();
     }
 }

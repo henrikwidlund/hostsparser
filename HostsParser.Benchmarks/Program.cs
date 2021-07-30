@@ -8,12 +8,13 @@ namespace HostsParser.Benchmarks
 {
     internal static class Program
     {
-        private static void Main()
+        private static void Main(string[] args)
         {
-            // BenchmarkRunner.Run(typeof(Program).Assembly, ManualConfig.Create(DefaultConfig.Instance)
-            //     .WithOption(ConfigOptions.JoinSummary, true)
-            //     .WithOption(ConfigOptions.DisableLogFile, true));
-            BenchmarkRunner.Run<BenchmarkProgram>();
+            BenchmarkSwitcher
+                    .FromAssembly(typeof(Program).Assembly)
+                    .Run(args, DefaultConfig.Instance
+                        .WithOptions(ConfigOptions.DisableLogFile)
+                        .WithOptions(ConfigOptions.JoinSummary));
         }
     }
 }

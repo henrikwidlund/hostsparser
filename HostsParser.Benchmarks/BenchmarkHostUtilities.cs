@@ -8,10 +8,12 @@ using System.IO.Pipelines;
 using System.Linq;
 using System.Threading.Tasks;
 using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Configs;
 
 namespace HostsParser.Benchmarks
 {
     [MemoryDiagnoser]
+    [GroupBenchmarksBy(BenchmarkLogicalGroupRule.ByCategory)]
     public class BenchmarkHostUtilities
     {
         private Stream _stream;
@@ -38,53 +40,34 @@ namespace HostsParser.Benchmarks
 
             return stream;
         }
-        
-        // public BenchmarkHostUtilities()
-        // {
-        //     MemoryStream = new MemoryStream(null, 0, 0, true, );
-        //     var pipeWriter = PipeWriter.Create(MemoryStream);
-        //     pipeWriter.Write(BenchmarkTestData.SourceTestBytes);
-        // }
-        
+
         [Benchmark]
+        [BenchmarkCategory(nameof(ProcessSource), nameof(BenchmarkHostUtilities))]
         public async Task<List<string>> ProcessSource()
         {
-            // MemoryStream.Position = 0;
-            // await using var stream = new MemoryStream();
-            // var pipeWriter = PipeWriter.Create(stream);
-            // pipeWriter.Write(BenchmarkTestData.SourceTestBytes);
             return await HostUtilities.ProcessSource(_stream,
                 BenchmarkTestData.Settings.SkipLinesBytes,
                 BenchmarkTestData.Decoder);
         }
 
-        // private MemoryStream MemoryStream { get; }
+        [Benchmark]
+        [BenchmarkCategory(nameof(ProcessAdGuard), nameof(BenchmarkHostUtilities))]
+        public async Task<HashSet<string>> ProcessAdGuard()
+            => await HostUtilities.ProcessAdGuard(_stream, BenchmarkTestData.Decoder);
         
-        public IEnumerable<MemoryStream> Source()
-        {
-            var stream = new MemoryStream();
-            var pipeWriter = PipeWriter.Create(stream);
-            pipeWriter.Write(BenchmarkTestData.SourceTestBytes);
-            yield return stream;
-            // yield return HostUtilities
-            //     .ProcessSource(BenchmarkTestData.SourceTestBytes, BenchmarkTestData.Settings.SkipLinesBytes, BenchmarkTestData.Decoder)
-            //     .Concat(HostUtilities.ProcessAdGuard(BenchmarkTestData.SourceTestBytes, BenchmarkTestData.Decoder)).ToList();
-        }
+        [Benchmark]
+        [ArgumentsSource(nameof(Source))]
+        public void RemoveKnownBadHosts(List<string> data)
+            => HostUtilities.RemoveKnownBadHosts(BenchmarkTestData.Settings.KnownBadHosts, data);
 
-        // [Benchmark]
-        // public HashSet<string> ProcessAdGuard()
-        //     => HostUtilities.ProcessAdGuard(BenchmarkTestData.AdGuardTestBytes, BenchmarkTestData.Decoder);
-        //
-        // [Benchmark]
-        // [ArgumentsSource(nameof(Source))]
-        // public void RemoveKnownBadHosts(List<string> data)
-        //     => HostUtilities.RemoveKnownBadHosts(BenchmarkTestData.Settings.KnownBadHosts, data);
-        //
-        // public IEnumerable<List<string>> Source()
-        // {
-        //     yield return HostUtilities
-        //         .ProcessSource(BenchmarkTestData.SourceTestBytes, BenchmarkTestData.Settings.SkipLinesBytes, BenchmarkTestData.Decoder)
-        //         .Concat(HostUtilities.ProcessAdGuard(BenchmarkTestData.SourceTestBytes, BenchmarkTestData.Decoder)).ToList();
-        // }
+        public async IAsyncEnumerable<List<string>> Source()
+        {
+            var source = await HostUtilities
+                .ProcessSource(_stream, BenchmarkTestData.Settings.SkipLinesBytes,
+                    BenchmarkTestData.Decoder);
+            var adGuard = await HostUtilities.ProcessAdGuard(_stream, BenchmarkTestData.Decoder);
+            yield return source
+                .Concat(adGuard).ToList();
+        }
     }
 }
