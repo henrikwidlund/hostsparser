@@ -10,9 +10,10 @@ namespace HostsParser.Benchmarks
     {
         private static void Main()
         {
-            BenchmarkRunner.Run(typeof(Program).Assembly, ManualConfig.Create(DefaultConfig.Instance)
-                .WithOption(ConfigOptions.JoinSummary, true)
-                .WithOption(ConfigOptions.DisableLogFile, true));
+            // BenchmarkRunner.Run(typeof(Program).Assembly, ManualConfig.Create(DefaultConfig.Instance)
+            //     .WithOption(ConfigOptions.JoinSummary, true)
+            //     .WithOption(ConfigOptions.DisableLogFile, true));
+            BenchmarkRunner.Run<BenchmarkProgram>();
         }
     }
 }

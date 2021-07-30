@@ -45,43 +45,45 @@ namespace HostsParser
             var decoder = Encoding.UTF8.GetDecoder();
             using var httpClient = new HttpClient();
 
-            var bytes = await httpClient.GetByteArrayAsync(settings.SourceUri);
-            var sourceLines = HostUtilities.ProcessSource(bytes, settings.SkipLinesBytes, decoder);
+            var bytes = await httpClient.GetStreamAsync(settings.SourceUri);
+            var sourceLines = await HostUtilities.ProcessSource(bytes, settings.SkipLinesBytes, decoder);
+            await bytes.DisposeAsync();
 
-            bytes = await httpClient.GetByteArrayAsync(settings.AdGuardUri);
-            var adGuardLines = HostUtilities.ProcessAdGuard(bytes, decoder);
-
+            bytes = await httpClient.GetStreamAsync(settings.AdGuardUri);
+            var adGuardLines = await HostUtilities.ProcessAdGuard(bytes, decoder);
+            await bytes.DisposeAsync();
+            
             var combined = sourceLines;
             combined.RemoveAll(s => adGuardLines.Contains(s));
             combined = HostUtilities.RemoveKnownBadHosts(settings.KnownBadHosts, combined);
             combined = CollectionUtilities.SortDnsList(combined.Concat(settings.KnownBadHosts)
                 .Concat(adGuardLines), true);
-
+            
             var filtered = new HashSet<string>(combined.Count);
             CollectionUtilities.FilterGrouped(combined, ref filtered);
             combined.RemoveAll(s => filtered.Contains(s));
             combined = CollectionUtilities.SortDnsList(combined, false);
             combined = ProcessCombined(filtered, combined, adGuardLines);
-
+            
             if (settings.ExtraFiltering)
             {
                 logger.LogInformation(WithTimeStamp("Start extra filtering of duplicates"));
                 combined = ProcessWithExtraFiltering(adGuardLines, combined, filtered);
                 logger.LogInformation(WithTimeStamp("Done extra filtering of duplicates"));
             }
-
+            
             var newLinesList = combined
                 .Select(l => $"||{l}^");
-
+            
             var newLines = new HashSet<string>(settings.HeaderLines) { $"! Last Modified: {DateTime.UtcNow:u}", string.Empty };
             foreach (var item in newLinesList)
                 newLines.Add(item);
-
+            
             await File.WriteAllLinesAsync("hosts", newLines);
-
+            
             stopWatch.Stop();
             logger.LogInformation(WithTimeStamp($"Execution duration - {stopWatch.Elapsed} | Produced {ProducedCount()} hosts"));
-
+            
             int? ProducedCount() => newLines.Count - settings.HeaderLines.Length - 2;
             static string WithTimeStamp(string message) => $"{DateTime.Now:yyyy-MM-dd hh:mm:ss} - {message}";
         }
@@ -116,9 +118,17 @@ namespace HostsParser
                 {
                     for (var j = (i < lookBack ? 0 : i - lookBack); j < i; j++)
                     {
-                        var item = combined[i];
-                        var otherItem = combined[j];
-                        AddIfSubDomain(filtered, item, otherItem);
+                        try
+                        {
+                            var item = combined[i];
+                            var otherItem = combined[j];
+                            AddIfSubDomain(filtered, item, otherItem);
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e);
+                            throw;
+                        }
                     }
                 });
 
