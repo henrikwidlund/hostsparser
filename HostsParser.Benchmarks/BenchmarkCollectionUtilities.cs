@@ -4,23 +4,28 @@
 using System.Collections.Generic;
 using System.Linq;
 using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Configs;
 
 namespace HostsParser.Benchmarks
 {
     [MemoryDiagnoser]
+    [GroupBenchmarksBy(BenchmarkLogicalGroupRule.ByCategory)]
     public class BenchmarkCollectionUtilities
     {
         [Benchmark]
+        [BenchmarkCategory(nameof(SortDnsList), nameof(BenchmarkCollectionUtilities))]
         [ArgumentsSource(nameof(SourceWithBool))]
         public List<string> SortDnsList(List<string> data, bool distinct)
             => CollectionUtilities.SortDnsList(data, distinct);
         
         [Benchmark]
+        [BenchmarkCategory(nameof(GroupDnsList), nameof(BenchmarkCollectionUtilities))]
         [ArgumentsSource(nameof(Source))]
         public Dictionary<string, List<string>> GroupDnsList(List<string> data)
             => CollectionUtilities.GroupDnsList(data);
 
         [Benchmark]
+        [BenchmarkCategory(nameof(FilterGrouped), nameof(BenchmarkCollectionUtilities))]
         [ArgumentsSource(nameof(Source))]
         public List<string> FilterGrouped(List<string> data)
         {

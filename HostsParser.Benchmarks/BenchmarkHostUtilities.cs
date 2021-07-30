@@ -4,22 +4,27 @@
 using System.Collections.Generic;
 using System.Linq;
 using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Configs;
 
 namespace HostsParser.Benchmarks
 {
     [MemoryDiagnoser]
+    [GroupBenchmarksBy(BenchmarkLogicalGroupRule.ByCategory)]
     public class BenchmarkHostUtilities
     {
         [Benchmark]
+        [BenchmarkCategory(nameof(ProcessSource), nameof(BenchmarkHostUtilities))]
         public List<string> ProcessSource()
             => HostUtilities.ProcessSource(BenchmarkTestData.SourceTestBytes, BenchmarkTestData.Settings.SkipLinesBytes,
                 BenchmarkTestData.Decoder);
 
         [Benchmark]
+        [BenchmarkCategory(nameof(ProcessAdGuard), nameof(BenchmarkHostUtilities))]
         public HashSet<string> ProcessAdGuard()
             => HostUtilities.ProcessAdGuard(BenchmarkTestData.AdGuardTestBytes, BenchmarkTestData.Decoder);
 
         [Benchmark]
+        [BenchmarkCategory(nameof(RemoveKnownBadHosts), nameof(BenchmarkHostUtilities))]
         [ArgumentsSource(nameof(Source))]
         public void RemoveKnownBadHosts(List<string> data)
             => HostUtilities.RemoveKnownBadHosts(BenchmarkTestData.Settings.KnownBadHosts, data);
