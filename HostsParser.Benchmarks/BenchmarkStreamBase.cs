@@ -11,6 +11,7 @@ namespace HostsParser.Benchmarks
 
             using var sw = new BinaryWriter(stream, Encoding.UTF8, true);
             sw.Write(BenchmarkTestData.SourceTestBytes);
+            sw.Write(BenchmarkTestData.AdGuardTestBytes);
             sw.Flush();
 
             stream.Seek(0, SeekOrigin.Begin);
