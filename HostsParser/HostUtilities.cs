@@ -14,6 +14,63 @@ namespace HostsParser
 {
     internal static class HostUtilities
     {
+        private static readonly Memory<char> Cache = new char[256];
+        
+        internal static async Task<List<string>> ProcessSource(Stream bytes,
+            byte[][] skipLines,
+            Decoder decoder)
+        {
+            var pipeReader = PipeReader.Create(bytes);
+            var dnsList = new HashSet<string>(140_000);
+            await ReadPipeAsync(pipeReader, dnsList, skipLines, decoder);
+            return new List<string>(dnsList);
+        }
+        
+        internal static async Task<HashSet<string>> ProcessAdGuard(Stream bytes,
+            Decoder decoder)
+        {
+            var pipeReader = PipeReader.Create(bytes);
+            var dnsList = new HashSet<string>(50_000);
+            await ReadPipeAsync(pipeReader, dnsList, null, decoder);
+            return dnsList;
+        }
+        
+        internal static List<string> RemoveKnownBadHosts(string[] knownBadHosts,
+            List<string> hosts)
+        {
+            var except = new List<string>(hosts.Count);
+
+            for (var i = 0; i < hosts.Count; i++)
+            {
+                var host = hosts[i];
+                var found = false;
+                for (var j = 0; j < knownBadHosts.Length; j++)
+                {
+                    if (!IsSubDomainOf(host, knownBadHosts[j])) continue;
+                    found = true;
+                    break;
+                }
+                
+                if(!found)
+                    except.Add(host);
+            }
+            
+            return except;
+        }
+        
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        internal static bool IsSubDomainOf(in ReadOnlySpan<char> potentialSubDomain,
+            in ReadOnlySpan<char> potentialDomain)
+        {
+            if (potentialDomain.Length < 1
+                || potentialSubDomain.Length < potentialDomain.Length
+                || !potentialSubDomain.EndsWith(potentialDomain)
+                || potentialDomain.Equals(potentialSubDomain, StringComparison.Ordinal))
+                return false;
+
+            return potentialSubDomain[(potentialSubDomain.IndexOf(potentialDomain) - 1)..][0] == Constants.DotSign;
+        }
+        
         private static async Task ReadPipeAsync(PipeReader reader,
             ICollection<string> resultCollection,
             byte[][]? skipLines,
@@ -103,63 +160,6 @@ namespace HostsParser
 
             decoder.GetChars(realSlice, Cache.Span, false);
             resultCollection.Add(Cache.Span[..realSlice.Length].ToString());
-        }
-
-        private static readonly Memory<char> Cache = new char[256];
-        
-        internal static async Task<List<string>> ProcessSource(Stream bytes,
-            byte[][] skipLines,
-            Decoder decoder)
-        {
-            var pipeReader = PipeReader.Create(bytes);
-            var dnsList = new HashSet<string>(140_000);
-            await ReadPipeAsync(pipeReader, dnsList, skipLines, decoder);
-            return new List<string>(dnsList);
-        }
-        
-        internal static async Task<HashSet<string>> ProcessAdGuard(Stream bytes,
-            Decoder decoder)
-        {
-            var pipeReader = PipeReader.Create(bytes);
-            var dnsList = new HashSet<string>(50_000);
-            await ReadPipeAsync(pipeReader, dnsList, null, decoder);
-            return dnsList;
-        }
-        
-        internal static List<string> RemoveKnownBadHosts(string[] knownBadHosts,
-            List<string> hosts)
-        {
-            var except = new List<string>(hosts.Count);
-
-            for (var i = 0; i < hosts.Count; i++)
-            {
-                var host = hosts[i];
-                var found = false;
-                for (var j = 0; j < knownBadHosts.Length; j++)
-                {
-                    if (!IsSubDomainOf(host, knownBadHosts[j])) continue;
-                    found = true;
-                    break;
-                }
-                
-                if(!found)
-                    except.Add(host);
-            }
-            
-            return except;
-        }
-        
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        internal static bool IsSubDomainOf(in ReadOnlySpan<char> potentialSubDomain,
-            in ReadOnlySpan<char> potentialDomain)
-        {
-            if (potentialDomain.Length < 1
-                || potentialSubDomain.Length < potentialDomain.Length
-                || !potentialSubDomain.EndsWith(potentialDomain)
-                || potentialDomain.Equals(potentialSubDomain, StringComparison.Ordinal))
-                return false;
-
-            return potentialSubDomain[(potentialSubDomain.IndexOf(potentialDomain) - 1)..][0] == Constants.DotSign;
         }
 
         private static bool SourceShouldSkipLine(in ReadOnlySpan<byte> bytes,
