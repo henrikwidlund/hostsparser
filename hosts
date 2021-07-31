@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-07-31 06:09:18Z
+! Last Modified: 2021-07-31 12:11:48Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14948,6 +14948,7 @@
 ||desrem.in^
 ||destgrena.at^
 ||api.destinationrewards.com^
+||destinationurl.com^
 ||prx6.destinia.ch^
 ||msz3.destinia.cn^
 ||bpe2.destinia.co.il^
@@ -55914,6 +55915,7 @@
 ||create.unity.com^
 ||eloqua-trackings.unity.com^
 ||create.unity3d.com^
+||pge.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
