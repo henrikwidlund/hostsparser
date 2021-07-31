@@ -45,13 +45,13 @@ namespace HostsParser
             var decoder = Encoding.UTF8.GetDecoder();
             using var httpClient = new HttpClient();
 
-            var bytes = await httpClient.GetStreamAsync(settings.SourceUri);
-            var sourceLines = await HostUtilities.ProcessSource(bytes, settings.SkipLinesBytes, decoder);
-            await bytes.DisposeAsync();
+            var stream = await httpClient.GetStreamAsync(settings.SourceUri);
+            var sourceLines = await HostUtilities.ProcessSource(stream, settings.SkipLinesBytes, decoder);
+            await stream.DisposeAsync();
 
-            bytes = await httpClient.GetStreamAsync(settings.AdGuardUri);
-            var adGuardLines = await HostUtilities.ProcessAdGuard(bytes, decoder);
-            await bytes.DisposeAsync();
+            stream = await httpClient.GetStreamAsync(settings.AdGuardUri);
+            var adGuardLines = await HostUtilities.ProcessAdGuard(stream, decoder);
+            await stream.DisposeAsync();
             
             var combined = sourceLines;
             combined.RemoveAll(s => adGuardLines.Contains(s));
