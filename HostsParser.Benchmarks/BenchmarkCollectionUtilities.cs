@@ -4,28 +4,57 @@
 using System.Collections.Generic;
 using System.Linq;
 using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Configs;
 
 namespace HostsParser.Benchmarks
 {
     [MemoryDiagnoser]
-    [GroupBenchmarksBy(BenchmarkLogicalGroupRule.ByCategory)]
-    public class BenchmarkCollectionUtilities
+    [BenchmarkCategory(nameof(CollectionUtilities))]
+    public class BenchmarkSortDnsList : BenchmarkCollectionUtilitiesBase
     {
         [Benchmark]
-        [BenchmarkCategory(nameof(SortDnsList), nameof(BenchmarkCollectionUtilities))]
+        [BenchmarkCategory(nameof(SortDnsList), nameof(CollectionUtilities))]
         [ArgumentsSource(nameof(SourceWithBool))]
         public List<string> SortDnsList(List<string> data, bool distinct)
             => CollectionUtilities.SortDnsList(data, distinct);
         
+        public IEnumerable<object[]> SourceWithBool()
+        {
+            var list = GetSource();
+            yield return new object[]
+            {
+                list,
+                true
+            };
+            yield return new object[]
+            {
+                list,
+                false
+            };
+        }
+    }
+
+    [MemoryDiagnoser]
+    [BenchmarkCategory(nameof(CollectionUtilities))]
+    public class BenchmarkGroupDnsList : BenchmarkCollectionUtilitiesBase
+    {
         [Benchmark]
-        [BenchmarkCategory(nameof(GroupDnsList), nameof(BenchmarkCollectionUtilities))]
+        [BenchmarkCategory(nameof(GroupDnsList), nameof(CollectionUtilities))]
         [ArgumentsSource(nameof(Source))]
         public Dictionary<string, List<string>> GroupDnsList(List<string> data)
             => CollectionUtilities.GroupDnsList(data);
-
+        
+        public IEnumerable<List<string>> Source()
+        {
+            yield return GetSource();
+        }
+    }
+    
+    [MemoryDiagnoser]
+    [BenchmarkCategory(nameof(CollectionUtilities))]
+    public class BenchmarkFilterGrouped : BenchmarkCollectionUtilitiesBase
+    {
         [Benchmark]
-        [BenchmarkCategory(nameof(FilterGrouped), nameof(BenchmarkCollectionUtilities))]
+        [BenchmarkCategory(nameof(FilterGrouped), nameof(CollectionUtilities))]
         [ArgumentsSource(nameof(Source))]
         public List<string> FilterGrouped(List<string> data)
         {
@@ -35,33 +64,28 @@ namespace HostsParser.Benchmarks
             return data;
         }
         
-        public IEnumerable<object[]> SourceWithBool()
-        {
-            yield return new object[]
-            {
-                HostUtilities
-                    .ProcessSource(BenchmarkTestData.SourceTestBytes, BenchmarkTestData.Settings.SkipLinesBytes,
-                        BenchmarkTestData.Decoder)
-                    .Concat(HostUtilities.ProcessAdGuard(BenchmarkTestData.SourceTestBytes, BenchmarkTestData.Decoder))
-                    .ToList(),
-                true
-            };
-            yield return new object[]
-            {
-                HostUtilities
-                    .ProcessSource(BenchmarkTestData.SourceTestBytes, BenchmarkTestData.Settings.SkipLinesBytes,
-                        BenchmarkTestData.Decoder)
-                    .Concat(HostUtilities.ProcessAdGuard(BenchmarkTestData.SourceTestBytes, BenchmarkTestData.Decoder))
-                    .ToList(),
-                false
-            };
-        }
-
         public IEnumerable<List<string>> Source()
         {
-            yield return HostUtilities
-                .ProcessSource(BenchmarkTestData.SourceTestBytes, BenchmarkTestData.Settings.SkipLinesBytes, BenchmarkTestData.Decoder)
-                .Concat(HostUtilities.ProcessAdGuard(BenchmarkTestData.SourceTestBytes, BenchmarkTestData.Decoder)).ToList();
+            yield return GetSource();
+        }
+    }
+    
+    public abstract class BenchmarkCollectionUtilitiesBase : BenchmarkStreamBase
+    {
+        protected static List<string> GetSource()
+        {
+            var stream = PrepareStream();
+            var source = HostUtilities
+                .ProcessSource(stream, BenchmarkTestData.Settings.SkipLinesBytes,
+                    BenchmarkTestData.Decoder).GetAwaiter().GetResult();
+
+            stream = PrepareStream();
+            var adGuard = HostUtilities.ProcessAdGuard(stream, BenchmarkTestData.Decoder)
+                .GetAwaiter().GetResult();
+            
+            stream.Dispose();
+
+            return source.Concat(adGuard).ToList();
         }
     }
 }
