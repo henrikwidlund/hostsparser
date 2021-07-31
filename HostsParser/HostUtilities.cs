@@ -111,19 +111,19 @@ namespace HostsParser
             byte[][] skipLines,
             Decoder decoder)
         {
-            var strings = new HashSet<string>(140_000);
             var pipeReader = PipeReader.Create(bytes);
-            await ReadPipeAsync(pipeReader, strings, skipLines, decoder);
-            return new List<string>(strings);
+            var dnsList = new HashSet<string>(140_000);
+            await ReadPipeAsync(pipeReader, dnsList, skipLines, decoder);
+            return new List<string>(dnsList);
         }
         
         internal static async Task<HashSet<string>> ProcessAdGuard(Stream bytes,
             Decoder decoder)
         {
-            var strings = new HashSet<string>(50_000);
             var pipeReader = PipeReader.Create(bytes);
-            await ReadPipeAsync(pipeReader, strings, null, decoder);
-            return strings;
+            var dnsList = new HashSet<string>(50_000);
+            await ReadPipeAsync(pipeReader, dnsList, null, decoder);
+            return dnsList;
         }
         
         internal static List<string> RemoveKnownBadHosts(string[] knownBadHosts,
