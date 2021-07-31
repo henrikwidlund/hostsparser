@@ -60,7 +60,7 @@ namespace HostsParser
                 .Concat(adGuardLines), true);
             
             var filtered = new HashSet<string>(combined.Count);
-            CollectionUtilities.FilterGrouped(combined, ref filtered);
+            CollectionUtilities.FilterGrouped(combined, filtered);
             combined.RemoveAll(s => filtered.Contains(s));
             combined = CollectionUtilities.SortDnsList(combined, false);
             combined = ProcessCombined(filtered, combined, adGuardLines);

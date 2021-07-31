@@ -58,8 +58,8 @@ namespace HostsParser.Benchmarks
         [ArgumentsSource(nameof(Source))]
         public List<string> FilterGrouped(List<string> data)
         {
-            var filtered = new HashSet<string>();
-            CollectionUtilities.FilterGrouped(data, ref filtered);
+            var filtered = new HashSet<string>(data.Count);
+            CollectionUtilities.FilterGrouped(data, filtered);
             data.RemoveAll(s => filtered.Contains(s));
             return data;
         }

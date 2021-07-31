@@ -21,7 +21,7 @@ namespace HostsParser
         }
 
         internal static void FilterGrouped(List<string> dnsList,
-            ref HashSet<string> filtered)
+            HashSet<string> filtered)
         {
             var hashSet = new HashSet<string>(dnsList);
         
