@@ -32,7 +32,7 @@ namespace HostsParser
 
                     if (position == null) continue;
                     
-                    ProcessLine(buffer.Slice(0, position.Value), ref resultCollection, skipLines, decoder);
+                    ProcessLine(buffer.Slice(0, position.Value), resultCollection, skipLines, decoder);
                     buffer = buffer.Slice(buffer.GetPosition(1, position.Value));
                 }
                 while (position != null);
@@ -47,18 +47,18 @@ namespace HostsParser
         }
 
         private static void ProcessLine(in ReadOnlySequence<byte> slice,
-            ref ICollection<string> resultCollection,
+            ICollection<string> resultCollection,
             byte[][]? skipLines,
             Decoder decoder)
         {
             if (skipLines == null)
-                ProcessAdGuardLine(slice, ref resultCollection, decoder);
+                ProcessAdGuardLine(slice, resultCollection, decoder);
             else
-                ProcessSourceLine(slice, ref resultCollection, skipLines, decoder);
+                ProcessSourceLine(slice, resultCollection, skipLines, decoder);
         }
         
         private static void ProcessSourceLine(in ReadOnlySequence<byte> slice,
-            ref ICollection<string> resultCollection,
+            ICollection<string> resultCollection,
             byte[][] skipLines,
             Decoder decoder)
         {
@@ -84,7 +84,7 @@ namespace HostsParser
         }
         
         private static void ProcessAdGuardLine(in ReadOnlySequence<byte> slice,
-            ref ICollection<string> resultCollection,
+            ICollection<string> resultCollection,
             Decoder decoder)
         {
             var realSlice = slice.IsSingleSegment
