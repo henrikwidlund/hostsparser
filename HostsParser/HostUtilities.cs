@@ -89,9 +89,15 @@ namespace HostsParser
                 return;
 
             decoder.GetChars(tmp, cache, false);
-            var s = cache[..tmp.Length].ToString();
-            if (s != null)
-                resultCollection.Add(s);
+            var c = string.Create(tmp.Length, cache[..tmp.Length], (a, b) =>
+            {
+                for (var i = 0; i < b.Length; i++)
+                {
+                    a[i] = b[i];
+                }
+            });
+
+            resultCollection.Add(c);
         }
         
         private static void ProcessAdGuardLine(in ReadOnlySequence<byte> slice,
@@ -114,9 +120,16 @@ namespace HostsParser
                 return;
 
             decoder.GetChars(tmp, cache, false);
-            var s = cache[..tmp.Length].ToString();
-            if (s != null)
-                resultCollection.Add(s);
+
+            var c = string.Create(tmp.Length, cache[..tmp.Length], (a, b) =>
+            {
+                for (var i = 0; i < b.Length; i++)
+                {
+                    a[i] = b[i];
+                }
+            });
+
+            resultCollection.Add(c);
         }
         
         internal static async Task<List<string>> ProcessSource(Stream bytes,
