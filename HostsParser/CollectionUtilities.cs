@@ -65,19 +65,19 @@ namespace HostsParser
             return dict;
         }
 
-        private static ReadOnlySpan<char> GetTopMostDns(ReadOnlySpan<char> item)
+        private static ReadOnlySpan<char> GetTopMostDns(in ReadOnlySpan<char> item)
         {
             var indexes = GetIndexes(item);
             return indexes.Count <= 1 ? item : ProcessItem(indexes, item);
         }
 
-        private static ReadOnlyMemory<char> GetTopMostDns(ReadOnlyMemory<char> item)
+        private static ReadOnlyMemory<char> GetTopMostDns(in ReadOnlyMemory<char> item)
         {
             var indexes = GetIndexes(item.Span);
             return indexes.Count <= 1 ? item : ProcessItem(indexes, item);
         }
 
-        private static List<int> GetIndexes(ReadOnlySpan<char> item)
+        private static List<int> GetIndexes(in ReadOnlySpan<char> item)
         {
             var foundIndexes = new List<int>();
             for (var i = item.IndexOf(Constants.DotSign); i > -1; i = item.IndexOf(Constants.DotSign, i +1))
@@ -85,9 +85,8 @@ namespace HostsParser
 
             return foundIndexes;
         }
-
         
-        private static bool IsSecondLevelTopDomain(ReadOnlySpan<char> secondTop)
+        private static bool IsSecondLevelTopDomain(in ReadOnlySpan<char> secondTop)
         {
             return secondTop.Equals(Constants.TopDomains.Co, StringComparison.Ordinal)
                    || secondTop.Equals(Constants.TopDomains.Com, StringComparison.Ordinal)
@@ -98,7 +97,7 @@ namespace HostsParser
         }
         
         private static ReadOnlySpan<char> ProcessItem(List<int> indexes,
-            ReadOnlySpan<char> item)
+            in ReadOnlySpan<char> item)
         {
             if (indexes.Count != 2)
             {
@@ -115,7 +114,7 @@ namespace HostsParser
         }
 
         private static ReadOnlyMemory<char> ProcessItem(List<int> indexes,
-            ReadOnlyMemory<char> item)
+            in ReadOnlyMemory<char> item)
         {
             if (indexes.Count != 2)
             {
@@ -131,9 +130,9 @@ namespace HostsParser
             return slicedItem.Length <= 3 ? item : item[(indexes[0] + 1)..];
         }
 
-        private static int IndexOf(this ReadOnlySpan<char> aSpan,
-            char aChar,
-            int startIndex)
+        private static int IndexOf(in this ReadOnlySpan<char> aSpan,
+            in char aChar,
+            in int startIndex)
         {
             var indexInSlice = aSpan[startIndex..].IndexOf(aChar);
 

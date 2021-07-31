@@ -150,8 +150,8 @@ namespace HostsParser
         }
         
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        internal static bool IsSubDomainOf(ReadOnlySpan<char> potentialSubDomain,
-            ReadOnlySpan<char> potentialDomain)
+        internal static bool IsSubDomainOf(in ReadOnlySpan<char> potentialSubDomain,
+            in ReadOnlySpan<char> potentialDomain)
         {
             if (potentialDomain.Length < 1
                 || potentialSubDomain.Length < potentialDomain.Length
@@ -207,7 +207,7 @@ namespace HostsParser
             return true;
         }
 
-        private static ReadOnlySpan<byte> HandlePipe(ReadOnlySpan<byte> lineBytes)
+        private static ReadOnlySpan<byte> HandlePipe(in ReadOnlySpan<byte> lineBytes)
         {
             var lastPipe = lineBytes.LastIndexOf(Constants.PipeSign);
             if (lastPipe > -1)
@@ -223,7 +223,7 @@ namespace HostsParser
                 lineChars = lineChars[..delimiterIndex];
         }
 
-        private static ReadOnlySpan<byte> HandleWwwPrefix(ReadOnlySpan<byte> lineBytes)
+        private static ReadOnlySpan<byte> HandleWwwPrefix(in ReadOnlySpan<byte> lineBytes)
         {
             if (lineBytes.StartsWith(Constants.NxIpWithWww))
                 return lineBytes[Constants.NxIpWithWww.Length..];
