@@ -4,6 +4,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 
 namespace HostsParser
 {
@@ -86,6 +87,7 @@ namespace HostsParser
             return foundIndexes;
         }
         
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private static bool IsSecondLevelTopDomain(in ReadOnlySpan<char> secondTop)
         {
             return secondTop.Equals(Constants.TopDomains.Co, StringComparison.Ordinal)
