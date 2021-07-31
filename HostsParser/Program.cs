@@ -85,7 +85,7 @@ namespace HostsParser
             logger.LogInformation(WithTimeStamp($"Execution duration - {stopWatch.Elapsed} | Produced {ProducedCount()} hosts"));
             
             int? ProducedCount() => newLines.Count - settings.HeaderLines.Length - 2;
-            static string WithTimeStamp(string message) => $"{DateTime.Now:yyyy-MM-dd hh:mm:ss} - {message}";
+            static string WithTimeStamp(string message) => $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}";
         }
 
         private static List<string> ProcessWithExtraFiltering(HashSet<string> adGuardLines,
