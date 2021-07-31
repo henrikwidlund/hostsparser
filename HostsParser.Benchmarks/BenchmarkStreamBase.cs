@@ -1,3 +1,6 @@
+// Copyright Henrik Widlund
+// GNU General Public License v3.0
+
 using System.IO;
 using System.Text;
 

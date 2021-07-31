@@ -15,7 +15,7 @@ namespace HostsParser
     internal static class HostUtilities
     {
         private static readonly Memory<char> Cache = new char[256];
-        
+
         internal static async Task<List<string>> ProcessSource(Stream bytes,
             byte[][] skipLines,
             Decoder decoder)
@@ -25,7 +25,7 @@ namespace HostsParser
             await ReadPipeAsync(pipeReader, dnsList, skipLines, decoder);
             return new List<string>(dnsList);
         }
-        
+
         internal static async Task<HashSet<string>> ProcessAdGuard(Stream bytes,
             Decoder decoder)
         {
@@ -34,7 +34,7 @@ namespace HostsParser
             await ReadPipeAsync(pipeReader, dnsList, null, decoder);
             return dnsList;
         }
-        
+
         internal static List<string> RemoveKnownBadHosts(string[] knownBadHosts,
             List<string> hosts)
         {
@@ -50,14 +50,14 @@ namespace HostsParser
                     found = true;
                     break;
                 }
-                
-                if(!found)
+
+                if (!found)
                     except.Add(host);
             }
-            
+
             return except;
         }
-        
+
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         internal static bool IsSubDomainOf(in ReadOnlySpan<char> potentialSubDomain,
             in ReadOnlySpan<char> potentialDomain)
@@ -70,7 +70,7 @@ namespace HostsParser
 
             return potentialSubDomain[(potentialSubDomain.IndexOf(potentialDomain) - 1)..][0] == Constants.DotSign;
         }
-        
+
         private static async Task ReadPipeAsync(PipeReader reader,
             ICollection<string> resultCollection,
             byte[][]? skipLines,
@@ -88,7 +88,7 @@ namespace HostsParser
                     position = buffer.PositionOf(Constants.NewLine);
 
                     if (position == null) continue;
-                    
+
                     ProcessLine(buffer.Slice(0, position.Value), resultCollection, skipLines, decoder);
                     buffer = buffer.Slice(buffer.GetPosition(1, position.Value));
                 }
@@ -113,7 +113,7 @@ namespace HostsParser
             else
                 ProcessSourceLine(slice, resultCollection, skipLines, decoder);
         }
-        
+
         private static void ProcessSourceLine(in ReadOnlySequence<byte> slice,
             ICollection<string> resultCollection,
             byte[][] skipLines,
@@ -127,10 +127,10 @@ namespace HostsParser
 
             if (realSlice[0] == Constants.HashSign)
                 return;
-            
+
             if (SourceShouldSkipLine(realSlice, skipLines))
                 return;
-            
+
             realSlice = HandleWwwPrefix(realSlice);
             HandleDelimiter(ref realSlice, Constants.HashSign);
             if (IsWhiteSpace(realSlice))
@@ -139,7 +139,7 @@ namespace HostsParser
             decoder.GetChars(realSlice, Cache.Span, false);
             resultCollection.Add(Cache.Span[..realSlice.Length].Trim().ToString());
         }
-        
+
         private static void ProcessAdGuardLine(in ReadOnlySequence<byte> slice,
             ICollection<string> resultCollection,
             Decoder decoder)
@@ -167,7 +167,7 @@ namespace HostsParser
         {
             if (TrimStart(bytes)[0] == Constants.HashSign)
                 return true;
-            
+
             for (var i = 0; i < skipLines.Length; i++)
             {
                 if (bytes.SequenceEqual(skipLines[i]))
@@ -193,7 +193,7 @@ namespace HostsParser
 
             return span[start..];
         }
-        
+
         private static bool IsWhiteSpace(in ReadOnlySpan<byte> span)
         {
             var start = 0;
@@ -227,7 +227,7 @@ namespace HostsParser
         {
             if (lineBytes.StartsWith(Constants.NxIpWithWww))
                 return lineBytes[Constants.NxIpWithWww.Length..];
-            
+
             if (lineBytes.StartsWith(Constants.NxIpWithSpace))
                 return lineBytes[Constants.NxIpWithSpace.Length..];
 

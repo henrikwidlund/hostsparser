@@ -16,7 +16,7 @@ namespace HostsParser.Benchmarks
         [ArgumentsSource(nameof(SourceWithBool))]
         public List<string> SortDnsList(List<string> data, bool distinct)
             => CollectionUtilities.SortDnsList(data, distinct);
-        
+
         public IEnumerable<object[]> SourceWithBool()
         {
             var list = GetSource();
@@ -42,13 +42,13 @@ namespace HostsParser.Benchmarks
         [ArgumentsSource(nameof(Source))]
         public Dictionary<string, List<string>> GroupDnsList(List<string> data)
             => CollectionUtilities.GroupDnsList(data);
-        
+
         public IEnumerable<List<string>> Source()
         {
             yield return GetSource();
         }
     }
-    
+
     [MemoryDiagnoser]
     [BenchmarkCategory(nameof(CollectionUtilities))]
     public class BenchmarkFilterGrouped : BenchmarkCollectionUtilitiesBase
@@ -63,13 +63,13 @@ namespace HostsParser.Benchmarks
             data.RemoveAll(s => filtered.Contains(s));
             return data;
         }
-        
+
         public IEnumerable<List<string>> Source()
         {
             yield return GetSource();
         }
     }
-    
+
     public abstract class BenchmarkCollectionUtilitiesBase : BenchmarkStreamBase
     {
         protected static List<string> GetSource()
@@ -82,7 +82,7 @@ namespace HostsParser.Benchmarks
             stream = PrepareStream();
             var adGuard = HostUtilities.ProcessAdGuard(stream, BenchmarkTestData.Decoder)
                 .GetAwaiter().GetResult();
-            
+
             stream.Dispose();
 
             return source.Concat(adGuard).ToList();

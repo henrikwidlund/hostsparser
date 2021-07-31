@@ -24,20 +24,20 @@ namespace HostsParser
             HashSet<string> filtered)
         {
             var hashSet = new HashSet<string>(dnsList);
-        
+
             var dnsGroups = GroupDnsList(dnsList);
             foreach (var (key, value) in dnsGroups)
             {
                 if (!hashSet.Contains(key)
                     || value.Count < 2)
                     continue;
-                
+
                 for (var index = 0; index < value.Count; index++)
                 {
                     var current = value[index];
                     if (key == current)
                         continue;
-                    
+
                     filtered.Add(current);
                 }
             }
@@ -59,10 +59,10 @@ namespace HostsParser
                 {
                     values = dict[key];
                 }
-                
+
                 values.Add(s);
             }
-        
+
             return dict;
         }
 
@@ -86,7 +86,7 @@ namespace HostsParser
 
             return foundIndexes;
         }
-        
+
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private static bool IsSecondLevelTopDomain(in ReadOnlySpan<char> secondTop)
         {
@@ -97,7 +97,7 @@ namespace HostsParser
                    || secondTop.Equals(Constants.TopDomains.Edu, StringComparison.Ordinal)
                    || secondTop.Equals(Constants.TopDomains.Or, StringComparison.Ordinal);
         }
-        
+
         private static ReadOnlySpan<char> ProcessItem(List<int> indexes,
             in ReadOnlySpan<char> item)
         {
@@ -107,10 +107,10 @@ namespace HostsParser
                 var dns = IsSecondLevelTopDomain(secondTop)
                     ? item[(indexes[^3] + 1)..]
                     : item[(indexes[^2] + 1)..];
-                
+
                 return dns.Length > 3 ? dns : item[(indexes[^3] + 1)..];
             }
-            
+
             var slicedItem = item[(indexes[0] + 1)..indexes[1]];
             return slicedItem.Length <= 3 ? item : item[(indexes[0] + 1)..];
         }
@@ -124,7 +124,7 @@ namespace HostsParser
                 var dns = IsSecondLevelTopDomain(secondTop.Span)
                     ? item[(indexes[^3] + 1)..]
                     : item[(indexes[^2] + 1)..];
-                
+
                 return dns.Length > 3 ? dns : item[(indexes[^3] + 1)..];
             }
             
