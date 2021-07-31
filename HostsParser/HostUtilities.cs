@@ -2,82 +2,39 @@
 // GNU General Public License v3.0
 
 using System;
+using System.Buffers;
 using System.Collections.Generic;
+using System.IO;
+using System.IO.Pipelines;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace HostsParser
 {
     internal static class HostUtilities
     {
-        internal static List<string> ProcessSource(in ReadOnlySpan<byte> bytes,
+        private static readonly Memory<char> Cache = new char[256];
+
+        internal static async Task<List<string>> ProcessSource(Stream bytes,
             byte[][] skipLines,
             Decoder decoder)
         {
-            var strings = new List<string>();
-            var read = 0;
-            Span<char> chars = stackalloc char[256];
-            while (read < bytes.Length)
-            {
-                var current = bytes[read..];
-                if (!HandleStartsWithNewLine(ref current,
-                    ref read,
-                    out var index))
-                    continue;
-                
-                current = current[..index];
-                read += current.Length;
-
-                if (SourceShouldSkipLine(current, skipLines))
-                    continue;
-
-                HandleWwwPrefix(ref current);
-                HandleDelimiter(ref current, Constants.HashSign);
-                if (IsWhiteSpace(current))
-                    continue;
-                
-                decoder.GetChars(current, chars, false);
-                var lineChars = chars[..current.Length];
-                strings.Add(lineChars.Trim().ToString());
-            }
-
-            return new List<string>(new HashSet<string>(strings));
+            var pipeReader = PipeReader.Create(bytes);
+            var dnsList = new HashSet<string>(140_000);
+            await ReadPipeAsync(pipeReader, dnsList, skipLines, decoder);
+            return new List<string>(dnsList);
         }
-        
-        internal static HashSet<string> ProcessAdGuard(in ReadOnlySpan<byte> bytes,
+
+        internal static async Task<HashSet<string>> ProcessAdGuard(Stream bytes,
             Decoder decoder)
         {
-            var strings = new HashSet<string>();
-            var read = 0;
-            Span<char> chars = stackalloc char[256];
-            while (read < bytes.Length)
-            {
-                var current = bytes[read..];
-                
-                if (!HandleStartsWithNewLine(ref current,
-                    ref read,
-                    out var index))
-                    continue;
-        
-                current = current[..index];
-                read += current.Length;
-
-                if (AdGuardShouldSkipLine(current))
-                    continue;
-                
-                HandlePipe(ref current);
-                HandleDelimiter(ref current, Constants.HatSign);
-                if (IsWhiteSpace(current))
-                    continue;
-                
-                decoder.GetChars(current, chars, false);
-                var lineChars = chars[..current.Length];
-                strings.Add(lineChars.Trim().ToString());
-            }
-
-            return strings;
+            var pipeReader = PipeReader.Create(bytes);
+            var dnsList = new HashSet<string>(50_000);
+            await ReadPipeAsync(pipeReader, dnsList, null, decoder);
+            return dnsList;
         }
-        
+
         internal static List<string> RemoveKnownBadHosts(string[] knownBadHosts,
             List<string> hosts)
         {
@@ -93,17 +50,17 @@ namespace HostsParser
                     found = true;
                     break;
                 }
-                
-                if(!found)
+
+                if (!found)
                     except.Add(host);
             }
-            
+
             return except;
         }
-        
+
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        internal static bool IsSubDomainOf(ReadOnlySpan<char> potentialSubDomain,
-            ReadOnlySpan<char> potentialDomain)
+        internal static bool IsSubDomainOf(in ReadOnlySpan<char> potentialSubDomain,
+            in ReadOnlySpan<char> potentialDomain)
         {
             if (potentialDomain.Length < 1
                 || potentialSubDomain.Length < potentialDomain.Length
@@ -114,34 +71,103 @@ namespace HostsParser
             return potentialSubDomain[(potentialSubDomain.IndexOf(potentialDomain) - 1)..][0] == Constants.DotSign;
         }
 
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        private static bool HandleStartsWithNewLine(ref ReadOnlySpan<byte> bytes,
-            ref int read,
-            out int index)
+        private static async Task ReadPipeAsync(PipeReader reader,
+            ICollection<string> resultCollection,
+            byte[][]? skipLines,
+            Decoder decoder)
         {
-            if (bytes.Length < 1)
+            while (true)
             {
-                index = 0;
-                return false;
+                var result = await reader.ReadAsync();
+
+                var buffer = result.Buffer;
+                SequencePosition? position;
+
+                do
+                {
+                    position = buffer.PositionOf(Constants.NewLine);
+
+                    if (position == null) continue;
+
+                    ProcessLine(buffer.Slice(0, position.Value), resultCollection, skipLines, decoder);
+                    buffer = buffer.Slice(buffer.GetPosition(1, position.Value));
+                }
+                while (position != null);
+
+                reader.AdvanceTo(buffer.Start, buffer.End);
+
+                if (result.IsCompleted)
+                    break;
             }
-                
-            index = bytes.IndexOf(Constants.NewLine);
-            while (index == 0)
-            {
-                bytes = bytes[1..];
-                index = bytes.IndexOf(Constants.NewLine);
-                ++read;
-            }
-            
-            return bytes.Length >= 1;
+
+            await reader.CompleteAsync();
         }
-        
+
+        private static void ProcessLine(in ReadOnlySequence<byte> slice,
+            ICollection<string> resultCollection,
+            byte[][]? skipLines,
+            Decoder decoder)
+        {
+            if (skipLines == null)
+                ProcessAdGuardLine(slice, resultCollection, decoder);
+            else
+                ProcessSourceLine(slice, resultCollection, skipLines, decoder);
+        }
+
+        private static void ProcessSourceLine(in ReadOnlySequence<byte> slice,
+            ICollection<string> resultCollection,
+            byte[][] skipLines,
+            Decoder decoder)
+        {
+            var realSlice = slice.IsSingleSegment
+                ? slice.FirstSpan
+                : slice.ToArray().AsSpan();
+            if (realSlice.IsEmpty)
+                return;
+
+            if (realSlice[0] == Constants.HashSign)
+                return;
+
+            if (SourceShouldSkipLine(realSlice, skipLines))
+                return;
+
+            realSlice = HandleWwwPrefix(realSlice);
+            HandleDelimiter(ref realSlice, Constants.HashSign);
+            if (IsWhiteSpace(realSlice))
+                return;
+
+            decoder.GetChars(realSlice, Cache.Span, false);
+            resultCollection.Add(Cache.Span[..realSlice.Length].Trim().ToString());
+        }
+
+        private static void ProcessAdGuardLine(in ReadOnlySequence<byte> slice,
+            ICollection<string> resultCollection,
+            Decoder decoder)
+        {
+            var realSlice = slice.IsSingleSegment
+                ? slice.FirstSpan
+                : slice.ToArray().AsSpan();
+            if (realSlice.IsEmpty)
+                return;
+
+            if (AdGuardShouldSkipLine(realSlice))
+                return;
+
+            realSlice = HandlePipe(realSlice);
+            HandleDelimiter(ref realSlice, Constants.HatSign);
+            if (IsWhiteSpace(realSlice))
+                return;
+
+            decoder.GetChars(realSlice, Cache.Span, false);
+            resultCollection.Add(Cache.Span[..realSlice.Length].ToString());
+        }
+
         private static bool SourceShouldSkipLine(in ReadOnlySpan<byte> bytes,
             byte[][] skipLines)
         {
             if (TrimStart(bytes)[0] == Constants.HashSign)
                 return true;
-            
+
             for (var i = 0; i < skipLines.Length; i++)
             {
                 if (bytes.SequenceEqual(skipLines[i]))
@@ -155,7 +181,7 @@ namespace HostsParser
         private static bool AdGuardShouldSkipLine(in ReadOnlySpan<byte> current)
             => current[0] != Constants.PipeSign;
 
-        private static ReadOnlySpan<byte> TrimStart(this ReadOnlySpan<byte> span)
+        private static ReadOnlySpan<byte> TrimStart(in this ReadOnlySpan<byte> span)
         {
             var start = 0;
             for (; start < span.Length; start++)
@@ -167,7 +193,7 @@ namespace HostsParser
 
             return span[start..];
         }
-        
+
         private static bool IsWhiteSpace(in ReadOnlySpan<byte> span)
         {
             var start = 0;
@@ -181,11 +207,12 @@ namespace HostsParser
             return true;
         }
 
-        private static void HandlePipe(ref ReadOnlySpan<byte> lineBytes)
+        private static ReadOnlySpan<byte> HandlePipe(in ReadOnlySpan<byte> lineBytes)
         {
             var lastPipe = lineBytes.LastIndexOf(Constants.PipeSign);
             if (lastPipe > -1)
-                lineBytes = lineBytes[(lastPipe == 0 ? 1 : lastPipe + 1)..];
+                return lineBytes[(lastPipe == 0 ? 1 : lastPipe + 1)..];
+            return lineBytes;
         }
 
         private static void HandleDelimiter(ref ReadOnlySpan<byte> lineChars,
@@ -196,12 +223,15 @@ namespace HostsParser
                 lineChars = lineChars[..delimiterIndex];
         }
 
-        private static void HandleWwwPrefix(ref ReadOnlySpan<byte> lineBytes)
+        private static ReadOnlySpan<byte> HandleWwwPrefix(in ReadOnlySpan<byte> lineBytes)
         {
             if (lineBytes.StartsWith(Constants.NxIpWithWww))
-                lineBytes = lineBytes[Constants.NxIpWithWww.Length..];
-            else if (lineBytes.StartsWith(Constants.NxIpWithSpace))
-                lineBytes = lineBytes[Constants.NxIpWithSpace.Length..];
+                return lineBytes[Constants.NxIpWithWww.Length..];
+
+            if (lineBytes.StartsWith(Constants.NxIpWithSpace))
+                return lineBytes[Constants.NxIpWithSpace.Length..];
+
+            return lineBytes;
         }
     }
 }

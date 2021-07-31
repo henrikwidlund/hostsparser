@@ -4,6 +4,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 
 namespace HostsParser
 {
@@ -20,23 +21,23 @@ namespace HostsParser
         }
 
         internal static void FilterGrouped(List<string> dnsList,
-            ref HashSet<string> filtered)
+            HashSet<string> filtered)
         {
             var hashSet = new HashSet<string>(dnsList);
-        
+
             var dnsGroups = GroupDnsList(dnsList);
             foreach (var (key, value) in dnsGroups)
             {
                 if (!hashSet.Contains(key)
                     || value.Count < 2)
                     continue;
-                
+
                 for (var index = 0; index < value.Count; index++)
                 {
                     var current = value[index];
                     if (key == current)
                         continue;
-                    
+
                     filtered.Add(current);
                 }
             }
@@ -44,7 +45,7 @@ namespace HostsParser
 
         internal static Dictionary<string, List<string>> GroupDnsList(List<string> dnsList)
         {
-            var dict = new Dictionary<string, List<string>>();
+            var dict = new Dictionary<string, List<string>>(dnsList.Count);
             foreach (var s in dnsList)
             {
                 var key = GetTopMostDns(s).ToString();
@@ -58,36 +59,36 @@ namespace HostsParser
                 {
                     values = dict[key];
                 }
-                
+
                 values.Add(s);
             }
-        
+
             return dict;
         }
 
-        private static ReadOnlySpan<char> GetTopMostDns(ReadOnlySpan<char> item)
+        private static ReadOnlySpan<char> GetTopMostDns(in ReadOnlySpan<char> item)
         {
             var indexes = GetIndexes(item);
             return indexes.Count <= 1 ? item : ProcessItem(indexes, item);
         }
 
-        private static ReadOnlyMemory<char> GetTopMostDns(ReadOnlyMemory<char> item)
+        private static ReadOnlyMemory<char> GetTopMostDns(in ReadOnlyMemory<char> item)
         {
             var indexes = GetIndexes(item.Span);
             return indexes.Count <= 1 ? item : ProcessItem(indexes, item);
         }
 
-        private static List<int> GetIndexes(ReadOnlySpan<char> item)
+        private static List<int> GetIndexes(in ReadOnlySpan<char> item)
         {
             var foundIndexes = new List<int>();
-            for (var i = item.IndexOf(Constants.DotSign); i > -1; i = item.IndexOf(Constants.DotSign, i +1))
+            for (var i = item.IndexOf(Constants.DotSign); i > -1; i = item.IndexOf(Constants.DotSign, i + 1))
                 foundIndexes.Add(i);
 
             return foundIndexes;
         }
 
-        
-        private static bool IsSecondLevelTopDomain(ReadOnlySpan<char> secondTop)
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        private static bool IsSecondLevelTopDomain(in ReadOnlySpan<char> secondTop)
         {
             return secondTop.Equals(Constants.TopDomains.Co, StringComparison.Ordinal)
                    || secondTop.Equals(Constants.TopDomains.Com, StringComparison.Ordinal)
@@ -96,9 +97,9 @@ namespace HostsParser
                    || secondTop.Equals(Constants.TopDomains.Edu, StringComparison.Ordinal)
                    || secondTop.Equals(Constants.TopDomains.Or, StringComparison.Ordinal);
         }
-        
+
         private static ReadOnlySpan<char> ProcessItem(List<int> indexes,
-            ReadOnlySpan<char> item)
+            in ReadOnlySpan<char> item)
         {
             if (indexes.Count != 2)
             {
@@ -106,16 +107,16 @@ namespace HostsParser
                 var dns = IsSecondLevelTopDomain(secondTop)
                     ? item[(indexes[^3] + 1)..]
                     : item[(indexes[^2] + 1)..];
-                
+
                 return dns.Length > 3 ? dns : item[(indexes[^3] + 1)..];
             }
-            
+
             var slicedItem = item[(indexes[0] + 1)..indexes[1]];
             return slicedItem.Length <= 3 ? item : item[(indexes[0] + 1)..];
         }
 
         private static ReadOnlyMemory<char> ProcessItem(List<int> indexes,
-            ReadOnlyMemory<char> item)
+            in ReadOnlyMemory<char> item)
         {
             if (indexes.Count != 2)
             {
@@ -123,7 +124,7 @@ namespace HostsParser
                 var dns = IsSecondLevelTopDomain(secondTop.Span)
                     ? item[(indexes[^3] + 1)..]
                     : item[(indexes[^2] + 1)..];
-                
+
                 return dns.Length > 3 ? dns : item[(indexes[^3] + 1)..];
             }
             
@@ -131,9 +132,9 @@ namespace HostsParser
             return slicedItem.Length <= 3 ? item : item[(indexes[0] + 1)..];
         }
 
-        private static int IndexOf(this ReadOnlySpan<char> aSpan,
-            char aChar,
-            int startIndex)
+        private static int IndexOf(in this ReadOnlySpan<char> aSpan,
+            in char aChar,
+            in int startIndex)
         {
             var indexInSlice = aSpan[startIndex..].IndexOf(aChar);
 

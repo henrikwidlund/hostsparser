@@ -12,6 +12,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0-preview.6.21352.12" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="6.0.0-preview.6.21352.12" />
+    <PackageReference Include="System.IO.Pipelines" Version="6.0.0-preview.6.21352.12" />
   </ItemGroup>
 
   <ItemGroup>

@@ -45,11 +45,13 @@ namespace HostsParser
             var decoder = Encoding.UTF8.GetDecoder();
             using var httpClient = new HttpClient();
 
-            var bytes = await httpClient.GetByteArrayAsync(settings.SourceUri);
-            var sourceLines = HostUtilities.ProcessSource(bytes, settings.SkipLinesBytes, decoder);
+            var stream = await httpClient.GetStreamAsync(settings.SourceUri);
+            var sourceLines = await HostUtilities.ProcessSource(stream, settings.SkipLinesBytes, decoder);
+            await stream.DisposeAsync();
 
-            bytes = await httpClient.GetByteArrayAsync(settings.AdGuardUri);
-            var adGuardLines = HostUtilities.ProcessAdGuard(bytes, decoder);
+            stream = await httpClient.GetStreamAsync(settings.AdGuardUri);
+            var adGuardLines = await HostUtilities.ProcessAdGuard(stream, decoder);
+            await stream.DisposeAsync();
 
             var combined = sourceLines;
             combined.RemoveAll(s => adGuardLines.Contains(s));
@@ -58,7 +60,7 @@ namespace HostsParser
                 .Concat(adGuardLines), true);
 
             var filtered = new HashSet<string>(combined.Count);
-            CollectionUtilities.FilterGrouped(combined, ref filtered);
+            CollectionUtilities.FilterGrouped(combined, filtered);
             combined.RemoveAll(s => filtered.Contains(s));
             combined = CollectionUtilities.SortDnsList(combined, false);
             combined = ProcessCombined(filtered, combined, adGuardLines);
@@ -83,7 +85,7 @@ namespace HostsParser
             logger.LogInformation(WithTimeStamp($"Execution duration - {stopWatch.Elapsed} | Produced {ProducedCount()} hosts"));
 
             int? ProducedCount() => newLines.Count - settings.HeaderLines.Length - 2;
-            static string WithTimeStamp(string message) => $"{DateTime.Now:yyyy-MM-dd hh:mm:ss} - {message}";
+            static string WithTimeStamp(string message) => $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}";
         }
 
         private static List<string> ProcessWithExtraFiltering(HashSet<string> adGuardLines,
