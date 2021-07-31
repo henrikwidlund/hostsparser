@@ -74,13 +74,13 @@ namespace HostsParser
             if (SourceShouldSkipLine(realSlice, skipLines))
                 return;
             
-            var tmp = HandleWwwPrefix(realSlice);
-            HandleDelimiter(ref tmp, Constants.HashSign);
-            if (IsWhiteSpace(tmp))
+            realSlice = HandleWwwPrefix(realSlice);
+            HandleDelimiter(ref realSlice, Constants.HashSign);
+            if (IsWhiteSpace(realSlice))
                 return;
 
-            decoder.GetChars(tmp, Cache.Span, false);
-            resultCollection.Add(Cache.Span[..tmp.Length].Trim().ToString());
+            decoder.GetChars(realSlice, Cache.Span, false);
+            resultCollection.Add(Cache.Span[..realSlice.Length].Trim().ToString());
         }
         
         private static void ProcessAdGuardLine(in ReadOnlySequence<byte> slice,
@@ -96,13 +96,13 @@ namespace HostsParser
             if (AdGuardShouldSkipLine(realSlice))
                 return;
 
-            var tmp = HandlePipe(realSlice);
-            HandleDelimiter(ref tmp, Constants.HatSign);
-            if (IsWhiteSpace(tmp))
+            realSlice = HandlePipe(realSlice);
+            HandleDelimiter(ref realSlice, Constants.HatSign);
+            if (IsWhiteSpace(realSlice))
                 return;
 
-            decoder.GetChars(tmp, Cache.Span, false);
-            resultCollection.Add(Cache.Span[..tmp.Length].ToString());
+            decoder.GetChars(realSlice, Cache.Span, false);
+            resultCollection.Add(Cache.Span[..realSlice.Length].ToString());
         }
 
         private static readonly Memory<char> Cache = new char[256];
