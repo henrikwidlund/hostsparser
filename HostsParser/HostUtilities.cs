@@ -19,36 +19,28 @@ namespace HostsParser
             byte[][]? skipLines,
             Decoder decoder)
         {
-            var cache = ArrayPool<char>.Shared.Rent(256);
-            try
+            while (true)
             {
-                while (true)
+                var result = await reader.ReadAsync();
+
+                var buffer = result.Buffer;
+                SequencePosition? position;
+
+                do
                 {
-                    var result = await reader.ReadAsync();
+                    position = buffer.PositionOf(Constants.NewLine);
 
-                    var buffer = result.Buffer;
-                    SequencePosition? position;
-
-                    do 
-                    {
-                        position = buffer.PositionOf(Constants.NewLine);
-
-                        if (position == null) continue;
+                    if (position == null) continue;
                     
-                        ProcessLine(buffer.Slice(0, position.Value), ref resultCollection, skipLines, decoder, cache);
-                        buffer = buffer.Slice(buffer.GetPosition(1, position.Value));
-                    }
-                    while (position != null);
-
-                    reader.AdvanceTo(buffer.Start, buffer.End);
-
-                    if (result.IsCompleted)
-                        break;
+                    ProcessLine(buffer.Slice(0, position.Value), ref resultCollection, skipLines, decoder);
+                    buffer = buffer.Slice(buffer.GetPosition(1, position.Value));
                 }
-            }
-            finally
-            {
-                ArrayPool<char>.Shared.Return(cache);
+                while (position != null);
+
+                reader.AdvanceTo(buffer.Start, buffer.End);
+
+                if (result.IsCompleted)
+                    break;
             }
 
             await reader.CompleteAsync();
@@ -57,19 +49,18 @@ namespace HostsParser
         private static void ProcessLine(in ReadOnlySequence<byte> slice,
             ref ICollection<string> resultCollection,
             byte[][]? skipLines,
-            Decoder decoder, char[] cache)
+            Decoder decoder)
         {
             if (skipLines == null)
-                ProcessAdGuardLine(slice, ref resultCollection, decoder, cache);
+                ProcessAdGuardLine(slice, ref resultCollection, decoder);
             else
-                ProcessSourceLine(slice, ref resultCollection, skipLines, decoder, cache);
+                ProcessSourceLine(slice, ref resultCollection, skipLines, decoder);
         }
         
         private static void ProcessSourceLine(in ReadOnlySequence<byte> slice,
             ref ICollection<string> resultCollection,
             byte[][] skipLines,
-            Decoder decoder,
-            char[] cache)
+            Decoder decoder)
         {
             var realSlice = slice.IsSingleSegment
                 ? slice.FirstSpan
@@ -88,22 +79,13 @@ namespace HostsParser
             if (IsWhiteSpace(tmp))
                 return;
 
-            decoder.GetChars(tmp, cache, false);
-            var c = string.Create(tmp.Length, cache[..tmp.Length], (a, b) =>
-            {
-                for (var i = 0; i < b.Length; i++)
-                {
-                    a[i] = b[i];
-                }
-            });
-
-            resultCollection.Add(c);
+            decoder.GetChars(tmp, Cache.Span, false);
+            resultCollection.Add(Cache.Span[..tmp.Length].ToString());
         }
         
         private static void ProcessAdGuardLine(in ReadOnlySequence<byte> slice,
             ref ICollection<string> resultCollection,
-            Decoder decoder,
-            char[] cache)
+            Decoder decoder)
         {
             var realSlice = slice.IsSingleSegment
                 ? slice.FirstSpan
@@ -119,33 +101,26 @@ namespace HostsParser
             if (IsWhiteSpace(tmp))
                 return;
 
-            decoder.GetChars(tmp, cache, false);
-
-            var c = string.Create(tmp.Length, cache[..tmp.Length], (a, b) =>
-            {
-                for (var i = 0; i < b.Length; i++)
-                {
-                    a[i] = b[i];
-                }
-            });
-
-            resultCollection.Add(c);
+            decoder.GetChars(tmp, Cache.Span, false);
+            resultCollection.Add(Cache.Span[..tmp.Length].ToString());
         }
+
+        private static readonly Memory<char> Cache = new char[256];
         
         internal static async Task<List<string>> ProcessSource(Stream bytes,
             byte[][] skipLines,
             Decoder decoder)
         {
-            var strings = new List<string>();
+            var strings = new HashSet<string>(140_000);
             var pipeReader = PipeReader.Create(bytes);
             await ReadPipeAsync(pipeReader, strings, skipLines, decoder);
-            return new List<string>(new HashSet<string>(strings));
+            return new List<string>(strings);
         }
         
         internal static async Task<HashSet<string>> ProcessAdGuard(Stream bytes,
             Decoder decoder)
         {
-            var strings = new HashSet<string>();
+            var strings = new HashSet<string>(50_000);
             var pipeReader = PipeReader.Create(bytes);
             await ReadPipeAsync(pipeReader, strings, null, decoder);
             return strings;
