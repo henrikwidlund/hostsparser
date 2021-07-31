@@ -181,7 +181,7 @@ namespace HostsParser
         private static bool AdGuardShouldSkipLine(in ReadOnlySpan<byte> current)
             => current[0] != Constants.PipeSign;
 
-        private static ReadOnlySpan<byte> TrimStart(this ReadOnlySpan<byte> span)
+        private static ReadOnlySpan<byte> TrimStart(in this ReadOnlySpan<byte> span)
         {
             var start = 0;
             for (; start < span.Length; start++)
