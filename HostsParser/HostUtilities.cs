@@ -80,7 +80,7 @@ namespace HostsParser
                 return;
 
             decoder.GetChars(tmp, Cache.Span, false);
-            resultCollection.Add(Cache.Span[..tmp.Length].ToString());
+            resultCollection.Add(Cache.Span[..tmp.Length].Trim().ToString());
         }
         
         private static void ProcessAdGuardLine(in ReadOnlySequence<byte> slice,
