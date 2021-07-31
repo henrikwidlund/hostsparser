@@ -44,7 +44,7 @@ namespace HostsParser
 
         internal static Dictionary<string, List<string>> GroupDnsList(List<string> dnsList)
         {
-            var dict = new Dictionary<string, List<string>>();
+            var dict = new Dictionary<string, List<string>>(dnsList.Count);
             foreach (var s in dnsList)
             {
                 var key = GetTopMostDns(s).ToString();
@@ -80,7 +80,7 @@ namespace HostsParser
         private static List<int> GetIndexes(in ReadOnlySpan<char> item)
         {
             var foundIndexes = new List<int>();
-            for (var i = item.IndexOf(Constants.DotSign); i > -1; i = item.IndexOf(Constants.DotSign, i +1))
+            for (var i = item.IndexOf(Constants.DotSign); i > -1; i = item.IndexOf(Constants.DotSign, i + 1))
                 foundIndexes.Add(i);
 
             return foundIndexes;
