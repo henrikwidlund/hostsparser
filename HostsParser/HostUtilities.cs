@@ -19,28 +19,36 @@ namespace HostsParser
             byte[][]? skipLines,
             Decoder decoder)
         {
-            while (true)
+            var cache = ArrayPool<char>.Shared.Rent(256);
+            try
             {
-                var result = await reader.ReadAsync();
-
-                var buffer = result.Buffer;
-                SequencePosition? position;
-
-                do 
+                while (true)
                 {
-                    position = buffer.PositionOf(Constants.NewLine);
+                    var result = await reader.ReadAsync();
 
-                    if (position == null) continue;
+                    var buffer = result.Buffer;
+                    SequencePosition? position;
+
+                    do 
+                    {
+                        position = buffer.PositionOf(Constants.NewLine);
+
+                        if (position == null) continue;
                     
-                    ProcessLine(buffer.Slice(0, position.Value), ref resultCollection, skipLines, decoder);
-                    buffer = buffer.Slice(buffer.GetPosition(1, position.Value));
+                        ProcessLine(buffer.Slice(0, position.Value), ref resultCollection, skipLines, decoder, cache);
+                        buffer = buffer.Slice(buffer.GetPosition(1, position.Value));
+                    }
+                    while (position != null);
+
+                    reader.AdvanceTo(buffer.Start, buffer.End);
+
+                    if (result.IsCompleted)
+                        break;
                 }
-                while (position != null);
-
-                reader.AdvanceTo(buffer.Start, buffer.End);
-
-                if (result.IsCompleted)
-                    break;
+            }
+            finally
+            {
+                ArrayPool<char>.Shared.Return(cache);
             }
 
             await reader.CompleteAsync();
@@ -49,20 +57,23 @@ namespace HostsParser
         private static void ProcessLine(in ReadOnlySequence<byte> slice,
             ref ICollection<string> resultCollection,
             byte[][]? skipLines,
-            Decoder decoder)
+            Decoder decoder, char[] cache)
         {
             if (skipLines == null)
-                ProcessAdGuardLine(slice, ref resultCollection, decoder);
+                ProcessAdGuardLine(slice, ref resultCollection, decoder, cache);
             else
-                ProcessSourceLine(slice, ref resultCollection, skipLines, decoder);
+                ProcessSourceLine(slice, ref resultCollection, skipLines, decoder, cache);
         }
         
         private static void ProcessSourceLine(in ReadOnlySequence<byte> slice,
             ref ICollection<string> resultCollection,
             byte[][] skipLines,
-            Decoder decoder)
+            Decoder decoder,
+            char[] cache)
         {
-            var realSlice = slice.IsSingleSegment ? slice.FirstSpan : slice.ToArray().AsSpan();
+            var realSlice = slice.IsSingleSegment
+                ? slice.FirstSpan
+                : slice.ToArray().AsSpan();
             if (realSlice.IsEmpty)
                 return;
 
@@ -76,16 +87,21 @@ namespace HostsParser
             HandleDelimiter(ref tmp, Constants.HashSign);
             if (IsWhiteSpace(tmp))
                 return;
-            
-            decoder.GetChars(tmp, Cache.Span, false);
-            resultCollection.Add(Cache.Span[..tmp.Length].ToString());
+
+            decoder.GetChars(tmp, cache, false);
+            var s = cache[..tmp.Length].ToString();
+            if (s != null)
+                resultCollection.Add(s);
         }
         
         private static void ProcessAdGuardLine(in ReadOnlySequence<byte> slice,
             ref ICollection<string> resultCollection,
-            Decoder decoder)
+            Decoder decoder,
+            char[] cache)
         {
-            var realSlice = slice.IsSingleSegment ? slice.FirstSpan : slice.ToArray().AsSpan();
+            var realSlice = slice.IsSingleSegment
+                ? slice.FirstSpan
+                : slice.ToArray().AsSpan();
             if (realSlice.IsEmpty)
                 return;
 
@@ -96,13 +112,13 @@ namespace HostsParser
             HandleDelimiter(ref tmp, Constants.HatSign);
             if (IsWhiteSpace(tmp))
                 return;
-            
-            decoder.GetChars(tmp, Cache.Span, false);
-            resultCollection.Add(Cache.Span[..tmp.Length].ToString());
+
+            decoder.GetChars(tmp, cache, false);
+            var s = cache[..tmp.Length].ToString();
+            if (s != null)
+                resultCollection.Add(s);
         }
-
-        private static readonly Memory<char> Cache = new char[256];
-
+        
         internal static async Task<List<string>> ProcessSource(Stream bytes,
             byte[][] skipLines,
             Decoder decoder)
@@ -158,28 +174,6 @@ namespace HostsParser
             return potentialSubDomain[(potentialSubDomain.IndexOf(potentialDomain) - 1)..][0] == Constants.DotSign;
         }
 
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        private static bool HandleStartsWithNewLine(ref ReadOnlySpan<byte> bytes,
-            ref int read,
-            out int index)
-        {
-            if (bytes.Length < 1)
-            {
-                index = 0;
-                return false;
-            }
-                
-            index = bytes.IndexOf(Constants.NewLine);
-            while (index == 0)
-            {
-                bytes = bytes[1..];
-                index = bytes.IndexOf(Constants.NewLine);
-                ++read;
-            }
-            
-            return bytes.Length >= 1;
-        }
-        
         private static bool SourceShouldSkipLine(in ReadOnlySpan<byte> bytes,
             byte[][] skipLines)
         {
@@ -225,13 +219,6 @@ namespace HostsParser
             return true;
         }
 
-        private static void HandlePipe(ref ReadOnlySpan<byte> lineBytes)
-        {
-            var lastPipe = lineBytes.LastIndexOf(Constants.PipeSign);
-            if (lastPipe > -1)
-                lineBytes = lineBytes[(lastPipe == 0 ? 1 : lastPipe + 1)..];
-        }
-        
         private static ReadOnlySpan<byte> HandlePipe(ReadOnlySpan<byte> lineBytes)
         {
             var lastPipe = lineBytes.LastIndexOf(Constants.PipeSign);
@@ -252,7 +239,8 @@ namespace HostsParser
         {
             if (lineBytes.StartsWith(Constants.NxIpWithWww))
                 return lineBytes[Constants.NxIpWithWww.Length..];
-            else if (lineBytes.StartsWith(Constants.NxIpWithSpace))
+            
+            if (lineBytes.StartsWith(Constants.NxIpWithSpace))
                 return lineBytes[Constants.NxIpWithSpace.Length..];
 
             return lineBytes;
