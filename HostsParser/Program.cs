@@ -118,17 +118,9 @@ namespace HostsParser
                 {
                     for (var j = (i < lookBack ? 0 : i - lookBack); j < i; j++)
                     {
-                        try
-                        {
-                            var item = combined[i];
-                            var otherItem = combined[j];
-                            AddIfSubDomain(filtered, item, otherItem);
-                        }
-                        catch (Exception e)
-                        {
-                            Console.WriteLine(e);
-                            throw;
-                        }
+                        var item = combined[i];
+                        var otherItem = combined[j];
+                        AddIfSubDomain(filtered, item, otherItem);
                     }
                 });
 
