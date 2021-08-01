@@ -16,14 +16,14 @@ namespace HostsParser
     {
         private static readonly Memory<char> Cache = new char[256];
 
-        internal static async Task<List<string>> ProcessSource(Stream bytes,
+        internal static async Task<HashSet<string>> ProcessSource(Stream bytes,
             byte[][] skipLines,
             Decoder decoder)
         {
             var pipeReader = PipeReader.Create(bytes);
             var dnsList = new HashSet<string>(140_000);
             await ReadPipeAsync(pipeReader, dnsList, skipLines, decoder);
-            return new List<string>(dnsList);
+            return dnsList;
         }
 
         internal static async Task<HashSet<string>> ProcessAdGuard(Stream bytes,
@@ -35,14 +35,13 @@ namespace HostsParser
             return dnsList;
         }
 
-        internal static List<string> RemoveKnownBadHosts(string[] knownBadHosts,
-            List<string> hosts)
+        internal static HashSet<string> RemoveKnownBadHosts(string[] knownBadHosts,
+            HashSet<string> hosts)
         {
             var except = new List<string>(hosts.Count);
 
-            for (var i = 0; i < hosts.Count; i++)
+            foreach (var host in hosts)
             {
-                var host = hosts[i];
                 var found = false;
                 for (var j = 0; j < knownBadHosts.Length; j++)
                 {
@@ -51,11 +50,12 @@ namespace HostsParser
                     break;
                 }
 
-                if (!found)
+                if (found)
                     except.Add(host);
             }
 
-            return except;
+            hosts.ExceptWith(except);
+            return hosts;
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]

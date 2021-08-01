@@ -14,8 +14,8 @@ namespace HostsParser.Benchmarks
         [Benchmark]
         [BenchmarkCategory(nameof(SortDnsList), nameof(CollectionUtilities))]
         [ArgumentsSource(nameof(SourceWithBool))]
-        public List<string> SortDnsList(List<string> data, bool distinct)
-            => CollectionUtilities.SortDnsList(data, distinct);
+        public List<string> SortDnsList(HashSet<string> data, bool distinct)
+            => CollectionUtilities.SortDnsList(data);
 
         public IEnumerable<object[]> SourceWithBool()
         {
@@ -40,10 +40,10 @@ namespace HostsParser.Benchmarks
         [Benchmark]
         [BenchmarkCategory(nameof(GroupDnsList), nameof(CollectionUtilities))]
         [ArgumentsSource(nameof(Source))]
-        public Dictionary<int, List<string>> GroupDnsList(List<string> data)
+        public Dictionary<int, List<string>> GroupDnsList(HashSet<string> data)
             => CollectionUtilities.GroupDnsList(data);
 
-        public IEnumerable<List<string>> Source()
+        public IEnumerable<HashSet<string>> Source()
         {
             yield return GetSource();
         }
@@ -56,15 +56,13 @@ namespace HostsParser.Benchmarks
         [Benchmark]
         [BenchmarkCategory(nameof(FilterGrouped), nameof(CollectionUtilities))]
         [ArgumentsSource(nameof(Source))]
-        public List<string> FilterGrouped(List<string> data)
+        public HashSet<string> FilterGrouped(HashSet<string> data)
         {
-            var filtered = new HashSet<string>(data.Count);
-            CollectionUtilities.FilterGrouped(data, filtered);
-            data.RemoveAll(s => filtered.Contains(s));
+            CollectionUtilities.FilterGrouped(data);
             return data;
         }
 
-        public IEnumerable<List<string>> Source()
+        public IEnumerable<HashSet<string>> Source()
         {
             yield return GetSource();
         }
@@ -72,7 +70,7 @@ namespace HostsParser.Benchmarks
 
     public abstract class BenchmarkCollectionUtilitiesBase : BenchmarkStreamBase
     {
-        protected static List<string> GetSource()
+        protected static HashSet<string> GetSource()
         {
             var stream = PrepareStream();
             var source = HostUtilities
@@ -85,7 +83,9 @@ namespace HostsParser.Benchmarks
 
             stream.Dispose();
 
-            return source.Concat(adGuard).ToList();
+            source.UnionWith(adGuard);
+
+            return source;
         }
     }
 }

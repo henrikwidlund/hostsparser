@@ -23,7 +23,7 @@ namespace HostsParser.Benchmarks
 
         [Benchmark]
         [BenchmarkCategory(nameof(ProcessSource), nameof(HostUtilities))]
-        public async Task<List<string>> ProcessSource()
+        public async Task<HashSet<string>> ProcessSource()
         {
             return await HostUtilities.ProcessSource(_stream,
                 BenchmarkTestData.Settings.SkipLinesBytes,
@@ -56,10 +56,10 @@ namespace HostsParser.Benchmarks
         [Benchmark]
         [BenchmarkCategory(nameof(RemoveKnownBadHosts), nameof(HostUtilities))]
         [ArgumentsSource(nameof(Source))]
-        public void RemoveKnownBadHosts(List<string> data)
+        public void RemoveKnownBadHosts(HashSet<string> data)
             => HostUtilities.RemoveKnownBadHosts(BenchmarkTestData.Settings.KnownBadHosts, data);
 
-        public IEnumerable<List<string>> Source()
+        public IEnumerable<HashSet<string>> Source()
         {
             var stream = PrepareStream();
             var source = HostUtilities
@@ -72,7 +72,8 @@ namespace HostsParser.Benchmarks
 
             stream.Dispose();
 
-            yield return source.Concat(adGuard).ToList();
+            source.UnionWith(adGuard);
+            yield return source;
         }
     }
 }
