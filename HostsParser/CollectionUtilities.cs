@@ -13,28 +13,24 @@ namespace HostsParser
         internal static List<string> SortDnsList(ICollection<string> dnsList)
         {
             List<string> list = new(dnsList.Count);
-            list.AddRange((dnsList
+            list.AddRange(dnsList
                 .Select(d => new StringSortItem(d))
                 .OrderBy(l => GetTopMostDns(l.RawMemory), ReadOnlyMemoryCharComparer.Default)
                 .ThenBy(l => l.RawMemory.Length)
-                .Select(l => l.Raw)));
-            
+                .Select(l => l.Raw));
+
             return list;
         }
 
         internal static void FilterGrouped(HashSet<string> dnsList)
         {
-            var hashSet = new HashSet<int>(dnsList.Count);
-            foreach (var s in dnsList)
-            {
-                hashSet.Add(s.GetHashCode());
-            }
-            
+            var cacheHashSet = CreateCacheHashSet(dnsList);
+
             var dnsGroups = GroupDnsList(dnsList);
-            HashSet<string> filtered = new HashSet<string>(dnsList.Count);
+            HashSet<string> filtered = new(dnsList.Count);
             foreach (var (key, value) in dnsGroups)
             {
-                if (!hashSet.Contains(key)
+                if (!cacheHashSet.Contains(key)
                     || value.Count < 2)
                     continue;
 
@@ -71,6 +67,14 @@ namespace HostsParser
             }
 
             return dict;
+        }
+
+        private static HashSet<int> CreateCacheHashSet(HashSet<string> dnsList)
+        {
+            var hashSet = new HashSet<int>(dnsList.Count);
+            foreach (var s in dnsList) hashSet.Add(s.GetHashCode());
+
+            return hashSet;
         }
 
         private static ReadOnlySpan<char> GetTopMostDns(in ReadOnlySpan<char> item)

@@ -2,7 +2,6 @@
 // GNU General Public License v3.0
 
 using System.Collections.Generic;
-using System.Linq;
 using BenchmarkDotNet.Attributes;
 
 namespace HostsParser.Benchmarks
@@ -13,24 +12,9 @@ namespace HostsParser.Benchmarks
     {
         [Benchmark]
         [BenchmarkCategory(nameof(SortDnsList), nameof(CollectionUtilities))]
-        [ArgumentsSource(nameof(SourceWithBool))]
-        public List<string> SortDnsList(HashSet<string> data, bool distinct)
+        [ArgumentsSource(nameof(Source))]
+        public List<string> SortDnsList(HashSet<string> data)
             => CollectionUtilities.SortDnsList(data);
-
-        public IEnumerable<object[]> SourceWithBool()
-        {
-            var list = GetSource();
-            yield return new object[]
-            {
-                list,
-                true
-            };
-            yield return new object[]
-            {
-                list,
-                false
-            };
-        }
     }
 
     [MemoryDiagnoser]
@@ -42,11 +26,6 @@ namespace HostsParser.Benchmarks
         [ArgumentsSource(nameof(Source))]
         public Dictionary<int, List<string>> GroupDnsList(HashSet<string> data)
             => CollectionUtilities.GroupDnsList(data);
-
-        public IEnumerable<HashSet<string>> Source()
-        {
-            yield return GetSource();
-        }
     }
 
     [MemoryDiagnoser]
@@ -61,16 +40,11 @@ namespace HostsParser.Benchmarks
             CollectionUtilities.FilterGrouped(data);
             return data;
         }
-
-        public IEnumerable<HashSet<string>> Source()
-        {
-            yield return GetSource();
-        }
     }
 
     public abstract class BenchmarkCollectionUtilitiesBase : BenchmarkStreamBase
     {
-        protected static HashSet<string> GetSource()
+        public IEnumerable<HashSet<string>> Source()
         {
             var stream = PrepareStream();
             var source = HostUtilities
@@ -84,8 +58,8 @@ namespace HostsParser.Benchmarks
             stream.Dispose();
 
             source.UnionWith(adGuard);
-
-            return source;
+            
+            yield return source;
         }
     }
 }

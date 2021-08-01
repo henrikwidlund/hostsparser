@@ -58,31 +58,31 @@ namespace HostsParser
             combined.UnionWith(settings.KnownBadHosts);
             combined.UnionWith(adGuardLines);
             CollectionUtilities.FilterGrouped(combined);
-            
+
             var sortedDnsList = CollectionUtilities.SortDnsList(combined);
             HashSet<string> filtered = new(combined.Count);
             sortedDnsList = ProcessCombined(sortedDnsList, adGuardLines, filtered);
-            
+
             if (settings.ExtraFiltering)
             {
                 logger.LogInformation(WithTimeStamp("Start extra filtering of duplicates"));
                 sortedDnsList = ProcessWithExtraFiltering(adGuardLines, sortedDnsList, filtered);
                 logger.LogInformation(WithTimeStamp("Done extra filtering of duplicates"));
             }
-            
-            await using StreamWriter wr = new("hosts", false);
-            for (var i = 0; i < settings.HeaderLines.Length; i++)
-                await wr.WriteLineAsync(settings.HeaderLines[i]);
 
-            await wr.WriteLineAsync($"! Last Modified: {DateTime.UtcNow:u}");
-            
+            await using StreamWriter streamWriter = new("hosts", false);
+            for (var i = 0; i < settings.HeaderLines.Length; i++)
+                await streamWriter.WriteLineAsync(settings.HeaderLines[i]);
+
+            await streamWriter.WriteLineAsync($"! Last Modified: {DateTime.UtcNow:u}");
+
             foreach (var s in sortedDnsList)
             {
-                await wr.WriteLineAsync();
-                await wr.WriteAsync((char)Constants.PipeSign);
-                await wr.WriteAsync((char)Constants.PipeSign);
-                await wr.WriteAsync(s);
-                await wr.WriteAsync((char)Constants.HatSign);
+                await streamWriter.WriteLineAsync();
+                await streamWriter.WriteAsync((char)Constants.PipeSign);
+                await streamWriter.WriteAsync((char)Constants.PipeSign);
+                await streamWriter.WriteAsync(s);
+                await streamWriter.WriteAsync((char)Constants.HatSign);
             }
 
             stopWatch.Stop();
@@ -128,14 +128,14 @@ namespace HostsParser
                         AddIfSubDomain(filtered, item, otherItem);
                     }
                 });
-        
+
                 if (round == 1)
                     combined.RemoveAll(adGuardLines.Contains);
-        
+
                 combined.RemoveAll(filtered.Contains);
                 combined = CollectionUtilities.SortDnsList(combined);
             } while (filtered.Count > 0);
-        
+
             return combined;
         }
 

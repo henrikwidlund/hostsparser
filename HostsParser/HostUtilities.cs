@@ -16,20 +16,20 @@ namespace HostsParser
     {
         private static readonly Memory<char> Cache = new char[256];
 
-        internal static async Task<HashSet<string>> ProcessSource(Stream bytes,
+        internal static async Task<HashSet<string>> ProcessSource(Stream stream,
             byte[][] skipLines,
             Decoder decoder)
         {
-            var pipeReader = PipeReader.Create(bytes);
+            var pipeReader = PipeReader.Create(stream);
             var dnsList = new HashSet<string>(140_000);
             await ReadPipeAsync(pipeReader, dnsList, skipLines, decoder);
             return dnsList;
         }
 
-        internal static async Task<HashSet<string>> ProcessAdGuard(Stream bytes,
+        internal static async Task<HashSet<string>> ProcessAdGuard(Stream stream,
             Decoder decoder)
         {
-            var pipeReader = PipeReader.Create(bytes);
+            var pipeReader = PipeReader.Create(stream);
             var dnsList = new HashSet<string>(50_000);
             await ReadPipeAsync(pipeReader, dnsList, null, decoder);
             return dnsList;
