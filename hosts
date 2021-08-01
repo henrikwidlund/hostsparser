@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-01 15:49:11Z
+! Last Modified: 2021-08-01 18:08:52Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2009,6 +2009,7 @@
 ||app.adjust.world^
 ||adjustnetwork.com^
 ||adkontekst.pl^
+||adlandpro.com^
 ||adlantis.jp^
 ||adtrack.adleadevent.com^
 ||adledge.com^
@@ -3564,6 +3565,7 @@
 ||allpornimages.com^
 ||allpornotgp.com^
 ||tracking.allposters.com^
+||affiliates.allposters.com^
 ||allprivatebabes.com^
 ||allpro.eu^
 ||allrealgay.com^
@@ -16675,6 +16677,7 @@
 ||ebalovo.mobi^
 ||blogads.ebanner.nl^
 ||ebaumsworld.com^
+||adn.ebay.com^
 ||banners.ebay.com^
 ||www2.export.ebay.com^
 ||ebayadvertising.com^
@@ -30824,6 +30827,7 @@
 ||liveshemalewebcams.com^
 ||liveshow.com^
 ||liveshow01.com^
+||a.livesportmedia.eu^
 ||advert.livesportmedia.eu^
 ||livesports.ag^
 ||livestrip.com^
@@ -55918,6 +55922,7 @@
 ||create.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
+||auction-load.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||unitymaineguide.com^
@@ -56360,6 +56365,7 @@
 ||valtrex.7h.com^
 ||ad.jp.ap.valu.com^
 ||cache1.value-domain.com^
+||ad.valuecalling.com^
 ||valuehost.co.uk^
 ||mama128.valuehost.ru^
 ||analytics.valuepotion.com^
@@ -60572,6 +60578,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sg.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
