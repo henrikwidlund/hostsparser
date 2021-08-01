@@ -23,7 +23,11 @@ namespace HostsParser
         internal static void FilterGrouped(List<string> dnsList,
             HashSet<string> filtered)
         {
-            var hashSet = new HashSet<string>(dnsList);
+            var hashSet = new HashSet<int>(dnsList.Count);
+            for (var i = 0; i < dnsList.Count; i++)
+            {
+                hashSet.Add(dnsList[i].GetHashCode());
+            }
 
             var dnsGroups = GroupDnsList(dnsList);
             foreach (var (key, value) in dnsGroups)
@@ -34,21 +38,20 @@ namespace HostsParser
 
                 for (var index = 0; index < value.Count; index++)
                 {
-                    var current = value[index];
-                    if (key == current)
+                    if (key == value[index].GetHashCode())
                         continue;
 
-                    filtered.Add(current);
+                    filtered.Add(value[index]);
                 }
             }
         }
 
-        internal static Dictionary<string, List<string>> GroupDnsList(List<string> dnsList)
+        internal static Dictionary<int, List<string>> GroupDnsList(List<string> dnsList)
         {
-            var dict = new Dictionary<string, List<string>>(dnsList.Count);
+            var dict = new Dictionary<int, List<string>>(dnsList.Count);
             foreach (var s in dnsList)
             {
-                var key = GetTopMostDns(s).ToString();
+                var key = string.GetHashCode(GetTopMostDns(s));
                 List<string> values;
                 if (!dict.ContainsKey(key))
                 {

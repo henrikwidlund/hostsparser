@@ -40,7 +40,7 @@ namespace HostsParser.Benchmarks
         [Benchmark]
         [BenchmarkCategory(nameof(GroupDnsList), nameof(CollectionUtilities))]
         [ArgumentsSource(nameof(Source))]
-        public Dictionary<string, List<string>> GroupDnsList(List<string> data)
+        public Dictionary<int, List<string>> GroupDnsList(List<string> data)
             => CollectionUtilities.GroupDnsList(data);
 
         public IEnumerable<List<string>> Source()
