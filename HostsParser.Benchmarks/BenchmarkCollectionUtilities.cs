@@ -2,7 +2,6 @@
 // GNU General Public License v3.0
 
 using System.Collections.Generic;
-using System.Linq;
 using BenchmarkDotNet.Attributes;
 
 namespace HostsParser.Benchmarks
@@ -13,24 +12,9 @@ namespace HostsParser.Benchmarks
     {
         [Benchmark]
         [BenchmarkCategory(nameof(SortDnsList), nameof(CollectionUtilities))]
-        [ArgumentsSource(nameof(SourceWithBool))]
-        public List<string> SortDnsList(List<string> data, bool distinct)
-            => CollectionUtilities.SortDnsList(data, distinct);
-
-        public IEnumerable<object[]> SourceWithBool()
-        {
-            var list = GetSource();
-            yield return new object[]
-            {
-                list,
-                true
-            };
-            yield return new object[]
-            {
-                list,
-                false
-            };
-        }
+        [ArgumentsSource(nameof(Source))]
+        public List<string> SortDnsList(HashSet<string> data)
+            => CollectionUtilities.SortDnsList(data);
     }
 
     [MemoryDiagnoser]
@@ -40,13 +24,8 @@ namespace HostsParser.Benchmarks
         [Benchmark]
         [BenchmarkCategory(nameof(GroupDnsList), nameof(CollectionUtilities))]
         [ArgumentsSource(nameof(Source))]
-        public Dictionary<string, List<string>> GroupDnsList(List<string> data)
+        public Dictionary<int, List<string>> GroupDnsList(HashSet<string> data)
             => CollectionUtilities.GroupDnsList(data);
-
-        public IEnumerable<List<string>> Source()
-        {
-            yield return GetSource();
-        }
     }
 
     [MemoryDiagnoser]
@@ -56,23 +35,16 @@ namespace HostsParser.Benchmarks
         [Benchmark]
         [BenchmarkCategory(nameof(FilterGrouped), nameof(CollectionUtilities))]
         [ArgumentsSource(nameof(Source))]
-        public List<string> FilterGrouped(List<string> data)
+        public HashSet<string> FilterGrouped(HashSet<string> data)
         {
-            var filtered = new HashSet<string>(data.Count);
-            CollectionUtilities.FilterGrouped(data, filtered);
-            data.RemoveAll(s => filtered.Contains(s));
+            CollectionUtilities.FilterGrouped(data);
             return data;
-        }
-
-        public IEnumerable<List<string>> Source()
-        {
-            yield return GetSource();
         }
     }
 
     public abstract class BenchmarkCollectionUtilitiesBase : BenchmarkStreamBase
     {
-        protected static List<string> GetSource()
+        public IEnumerable<HashSet<string>> Source()
         {
             var stream = PrepareStream();
             var source = HostUtilities
@@ -85,7 +57,9 @@ namespace HostsParser.Benchmarks
 
             stream.Dispose();
 
-            return source.Concat(adGuard).ToList();
+            source.UnionWith(adGuard);
+            
+            yield return source;
         }
     }
 }

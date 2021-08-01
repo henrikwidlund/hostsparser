@@ -10,45 +10,48 @@ namespace HostsParser
 {
     internal static class CollectionUtilities
     {
-        internal static List<string> SortDnsList(IEnumerable<string> dnsList,
-            bool distinct)
+        internal static List<string> SortDnsList(ICollection<string> dnsList)
         {
-            return (distinct ? dnsList.Distinct() : dnsList)
+            List<string> list = new(dnsList.Count);
+            list.AddRange(dnsList
                 .Select(d => new StringSortItem(d))
                 .OrderBy(l => GetTopMostDns(l.RawMemory), ReadOnlyMemoryCharComparer.Default)
                 .ThenBy(l => l.RawMemory.Length)
-                .Select(l => l.Raw).ToList();
+                .Select(l => l.Raw));
+
+            return list;
         }
 
-        internal static void FilterGrouped(List<string> dnsList,
-            HashSet<string> filtered)
+        internal static void FilterGrouped(HashSet<string> dnsList)
         {
-            var hashSet = new HashSet<string>(dnsList);
+            var cacheHashSet = CreateCacheHashSet(dnsList);
 
             var dnsGroups = GroupDnsList(dnsList);
+            HashSet<string> filtered = new(dnsList.Count);
             foreach (var (key, value) in dnsGroups)
             {
-                if (!hashSet.Contains(key)
+                if (!cacheHashSet.Contains(key)
                     || value.Count < 2)
                     continue;
 
                 for (var index = 0; index < value.Count; index++)
                 {
-                    var current = value[index];
-                    if (key == current)
+                    if (key == value[index].GetHashCode())
                         continue;
 
-                    filtered.Add(current);
+                    filtered.Add(value[index]);
                 }
             }
+
+            dnsList.ExceptWith(filtered);
         }
 
-        internal static Dictionary<string, List<string>> GroupDnsList(List<string> dnsList)
+        internal static Dictionary<int, List<string>> GroupDnsList(HashSet<string> dnsList)
         {
-            var dict = new Dictionary<string, List<string>>(dnsList.Count);
+            var dict = new Dictionary<int, List<string>>(dnsList.Count);
             foreach (var s in dnsList)
             {
-                var key = GetTopMostDns(s).ToString();
+                var key = string.GetHashCode(GetTopMostDns(s));
                 List<string> values;
                 if (!dict.ContainsKey(key))
                 {
@@ -64,6 +67,14 @@ namespace HostsParser
             }
 
             return dict;
+        }
+
+        private static HashSet<int> CreateCacheHashSet(HashSet<string> dnsList)
+        {
+            var hashSet = new HashSet<int>(dnsList.Count);
+            foreach (var s in dnsList) hashSet.Add(s.GetHashCode());
+
+            return hashSet;
         }
 
         private static ReadOnlySpan<char> GetTopMostDns(in ReadOnlySpan<char> item)

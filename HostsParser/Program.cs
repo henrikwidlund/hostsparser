@@ -5,7 +5,6 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
 using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -54,37 +53,41 @@ namespace HostsParser
             await stream.DisposeAsync();
 
             var combined = sourceLines;
-            combined.RemoveAll(s => adGuardLines.Contains(s));
+            combined.ExceptWith(adGuardLines);
             combined = HostUtilities.RemoveKnownBadHosts(settings.KnownBadHosts, combined);
-            combined = CollectionUtilities.SortDnsList(combined.Concat(settings.KnownBadHosts)
-                .Concat(adGuardLines), true);
+            combined.UnionWith(settings.KnownBadHosts);
+            combined.UnionWith(adGuardLines);
+            CollectionUtilities.FilterGrouped(combined);
 
-            var filtered = new HashSet<string>(combined.Count);
-            CollectionUtilities.FilterGrouped(combined, filtered);
-            combined.RemoveAll(s => filtered.Contains(s));
-            combined = CollectionUtilities.SortDnsList(combined, false);
-            combined = ProcessCombined(filtered, combined, adGuardLines);
+            var sortedDnsList = CollectionUtilities.SortDnsList(combined);
+            HashSet<string> filtered = new(combined.Count);
+            sortedDnsList = ProcessCombined(sortedDnsList, adGuardLines, filtered);
 
             if (settings.ExtraFiltering)
             {
                 logger.LogInformation(WithTimeStamp("Start extra filtering of duplicates"));
-                combined = ProcessWithExtraFiltering(adGuardLines, combined, filtered);
+                sortedDnsList = ProcessWithExtraFiltering(adGuardLines, sortedDnsList, filtered);
                 logger.LogInformation(WithTimeStamp("Done extra filtering of duplicates"));
             }
 
-            var newLinesList = combined
-                .Select(l => $"||{l}^");
+            await using StreamWriter streamWriter = new("hosts", false);
+            for (var i = 0; i < settings.HeaderLines.Length; i++)
+                await streamWriter.WriteLineAsync(settings.HeaderLines[i]);
 
-            var newLines = new HashSet<string>(settings.HeaderLines) { $"! Last Modified: {DateTime.UtcNow:u}", string.Empty };
-            foreach (var item in newLinesList)
-                newLines.Add(item);
+            await streamWriter.WriteLineAsync($"! Last Modified: {DateTime.UtcNow:u}");
 
-            await File.WriteAllLinesAsync("hosts", newLines);
+            foreach (var s in sortedDnsList)
+            {
+                await streamWriter.WriteLineAsync();
+                await streamWriter.WriteAsync((char)Constants.PipeSign);
+                await streamWriter.WriteAsync((char)Constants.PipeSign);
+                await streamWriter.WriteAsync(s);
+                await streamWriter.WriteAsync((char)Constants.HatSign);
+            }
 
             stopWatch.Stop();
-            logger.LogInformation(WithTimeStamp($"Execution duration - {stopWatch.Elapsed} | Produced {ProducedCount()} hosts"));
+            logger.LogInformation(WithTimeStamp($"Execution duration - {stopWatch.Elapsed} | Produced {sortedDnsList.Count} hosts"));
 
-            int? ProducedCount() => newLines.Count - settings.HeaderLines.Length - 2;
             static string WithTimeStamp(string message) => $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}";
         }
 
@@ -92,7 +95,7 @@ namespace HostsParser
             List<string> combined,
             HashSet<string> filtered)
         {
-            Parallel.ForEach(CollectionUtilities.SortDnsList(adGuardLines, true), item =>
+            Parallel.ForEach(CollectionUtilities.SortDnsList(adGuardLines), item =>
             {
                 for (var i = 0; i < combined.Count; i++)
                 {
@@ -101,13 +104,15 @@ namespace HostsParser
                         filtered.Add(localItem);
                 }
             });
-            combined = CollectionUtilities.SortDnsList(combined.Except(filtered), false);
+            combined.RemoveAll(filtered.Contains);
+            combined = CollectionUtilities.SortDnsList(combined);
             return combined;
         }
 
-        private static List<string> ProcessCombined(HashSet<string> filtered,
+        private static List<string> ProcessCombined(
             List<string> combined,
-            HashSet<string> adGuardLines)
+            HashSet<string> adGuardLines,
+            HashSet<string> filtered)
         {
             var round = 0;
             do
@@ -128,7 +133,7 @@ namespace HostsParser
                     combined.RemoveAll(adGuardLines.Contains);
 
                 combined.RemoveAll(filtered.Contains);
-                combined = CollectionUtilities.SortDnsList(combined, false);
+                combined = CollectionUtilities.SortDnsList(combined);
             } while (filtered.Count > 0);
 
             return combined;
