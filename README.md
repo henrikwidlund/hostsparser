@@ -1,20 +1,65 @@
 # HostsParser
 [![Build/Publish](https://github.com/henrikwidlund/HostsParser/actions/workflows/publish-hosts.yml/badge.svg)](https://github.com/henrikwidlund/HostsParser/actions/workflows/publish-hosts.yml)
 
-Converts [StevenBlack/hosts](https://github.com/StevenBlack/hosts) with fakenews, gambling and porn extensions into the adblock format, optimized for [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome). It also removes duplicates, hosts that are already blocked by [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter) and most comments that are used to indicate different sections in the source.
+Converts a `hosts` ([`HostsBased`](#hostsbased)) based file into a `AdBlock` formatted file, optimized for [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome).
+It also removes duplicates, comments as well as hosts that are already blocked by a different `AdBlock` ([`AdBlockBased`](#adblockbased)) based file.
 
-## Pre-built host
+By default [StevenBlack/hosts](https://github.com/StevenBlack/hosts) with fakenews, gambling and porn extensions is processed to exclude entries already covered by [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter).
+
+## Using in AdGuard Home
+1. Make sure that `AdAway Default Blocklist` (or any custom `AdBlock` formatted file referenced when running the program) is active in DNS blocklists for your AdGuard Home instance.
+2. Copy the link to the [Pre-built host](#pre-built-host) and add it to your DNS blocklists as a custom list in your AdGuard Home instance.
+
+Please refer to the [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) repository for further instructions on how to use DNS blocklists.
+
+**Note** If you've generated your own file, the Pre-built host link should be replaced by the address to where you're hosting it.
+
+### Pre-built host
 The hosts file is generated every six hours and is available for download [here](https://henrikwidlund.github.io/HostsParser/hosts).
 
 ## Building
-*You'll need the [dotnet 6 SDK](https://dotnet.microsoft.com/download).*
+### Prerequisites
+[dotnet 6 SDK](https://dotnet.microsoft.com/download).
 
-Run `dotnet build --configuration Release` from the directory you cloned the repository to.
+Run the following from the directory you cloned the repository to:
+```sh
+cd HostsParser
+dotnet build --configuration Release
+```
 
 ## Running
-*You'll need the [dotnet 6 runtime](https://dotnet.microsoft.com/download).*
+### Prerequisites
+1. [dotnet 6 runtime](https://dotnet.microsoft.com/download).
+2. Downloaded binaries or binaries built from source.
 
-Run `dotnet HostsParser.dll`. Program creates a `hosts` file in the same directory.
+Run the following (if you built from source, this will be in `HostsParser/bin/Release/net6.0`):
+```sh
+dotnet HostsParser.dll
+```
+
+The program creates a `hosts` file in the same directory.
+
+## Configuration
+You may adjust the configuration of the application by modifying the `appsettings.json` file.
+
+| Property | Type | Required | Description |
+|---|---|---|---|
+|[`HostsBased`](#hostsbased)|`object`|`true`|Settings used for processing a hosts formatted source.|
+|[`AdBlockBased`](#adblockbased)|`object`|`true`|Settings used for processing a AdBlock formatted source.|
+|`ExtraFiltering`|`bool`|`true`|Setting to indicate if extra filtering should be performed.<br>If `true`, the program will check each element in the result against each other and remove any entry that would be blocked by a more general entry.|
+|`HeaderLines`|`string[]`|`true`|Defines a set of lines that will be inserted at the top of the generated file, for example copyright.|
+|`KnownBadHosts`|`string[]`|`true`|Array of unwanted hosts. These entries will be added to the result if they're not covered by the `AdBlockBased` entries.<br>You can also add generalized hosts to reduce the number of entries in final results.<br>For example: `HostsBased` results might contain `a.baddomain.com` and `b.baddomain.com`, adding `baddomain.com` will remove the sub domain entries and block `baddomain.com` and all of its subdomains.|
+
+### <a name="hostsbased"></a>`HostsBased`
+| Property | Type | Required | Description |
+|---|---|---|---|
+|`SourceUri`|`Uri`|`true`|URI to the hosts based file|
+|`SkipLines`|`string[]`|`true`|Array of strings that, if present in the result from `SourceUri` will be filtered out.|
+
+### <a name="adblockbased"></a>`AdBlockBased`
+| Property | Type | Required | Description |
+|---|---|---|---|
+|`SourceUri`|`Uri`|`true`|URI to the AdBlock based file|
 
 ## Licenses
 - [License](LICENSE)
