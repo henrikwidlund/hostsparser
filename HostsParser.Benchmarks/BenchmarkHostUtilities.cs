@@ -10,7 +10,7 @@ namespace HostsParser.Benchmarks
 {
     [MemoryDiagnoser]
     [BenchmarkCategory(nameof(HostUtilities))]
-    public class BenchmarkProcessSource : BenchmarkStreamBase
+    public class BenchmarkProcessHostsBased : BenchmarkStreamBase
     {
         private Stream _stream;
 
@@ -21,18 +21,18 @@ namespace HostsParser.Benchmarks
         public void IterationCleanup() => _stream?.Dispose();
 
         [Benchmark]
-        [BenchmarkCategory(nameof(ProcessSource), nameof(HostUtilities))]
-        public async Task<HashSet<string>> ProcessSource()
+        [BenchmarkCategory(nameof(ProcessHostsBased), nameof(HostUtilities))]
+        public async Task<HashSet<string>> ProcessHostsBased()
         {
-            return await HostUtilities.ProcessSource(_stream,
-                BenchmarkTestData.Settings.SkipLinesBytes,
+            return await HostUtilities.ProcessHostsBased(_stream,
+                BenchmarkTestData.Settings.HostsBased.SkipLinesBytes,
                 BenchmarkTestData.Decoder);
         }
     }
 
     [MemoryDiagnoser]
     [BenchmarkCategory(nameof(HostUtilities))]
-    public class BenchmarkProcessAdGuard : BenchmarkStreamBase
+    public class BenchmarkProcessAdBlockBased : BenchmarkStreamBase
     {
         private Stream _stream;
 
@@ -43,9 +43,9 @@ namespace HostsParser.Benchmarks
         public void IterationCleanup() => _stream?.Dispose();
 
         [Benchmark]
-        [BenchmarkCategory(nameof(ProcessAdGuard), nameof(HostUtilities))]
-        public async Task<HashSet<string>> ProcessAdGuard()
-            => await HostUtilities.ProcessAdGuard(_stream, BenchmarkTestData.Decoder);
+        [BenchmarkCategory(nameof(ProcessAdBlockBased), nameof(HostUtilities))]
+        public async Task<HashSet<string>> ProcessAdBlockBased()
+            => await HostUtilities.ProcessAdBlockBased(_stream, BenchmarkTestData.Decoder);
     }
 
     [MemoryDiagnoser]
@@ -61,18 +61,18 @@ namespace HostsParser.Benchmarks
         public IEnumerable<HashSet<string>> Source()
         {
             var stream = PrepareStream();
-            var source = HostUtilities
-                .ProcessSource(stream, BenchmarkTestData.Settings.SkipLinesBytes,
+            var hostsBasedLines = HostUtilities
+                .ProcessHostsBased(stream, BenchmarkTestData.Settings.HostsBased.SkipLinesBytes,
                     BenchmarkTestData.Decoder).GetAwaiter().GetResult();
 
             stream = PrepareStream();
-            var adGuard = HostUtilities.ProcessAdGuard(stream, BenchmarkTestData.Decoder)
+            var adBlockBasedLines = HostUtilities.ProcessAdBlockBased(stream, BenchmarkTestData.Decoder)
                 .GetAwaiter().GetResult();
 
             stream.Dispose();
 
-            source.UnionWith(adGuard);
-            yield return source;
+            hostsBasedLines.UnionWith(adBlockBasedLines);
+            yield return hostsBasedLines;
         }
     }
 }

@@ -13,8 +13,8 @@ namespace HostsParser.Benchmarks
             var stream = new MemoryStream();
 
             using var sw = new BinaryWriter(stream, Encoding.UTF8, true);
-            sw.Write(BenchmarkTestData.SourceTestBytes);
-            sw.Write(BenchmarkTestData.AdGuardTestBytes);
+            sw.Write(BenchmarkTestData.HostsBasedTestBytes);
+            sw.Write(BenchmarkTestData.AdBlockBasedTestBytes);
             sw.Flush();
 
             stream.Seek(0, SeekOrigin.Begin);

@@ -44,29 +44,29 @@ namespace HostsParser
             var decoder = Encoding.UTF8.GetDecoder();
             using var httpClient = new HttpClient();
 
-            var stream = await httpClient.GetStreamAsync(settings.SourceUri);
-            var sourceLines = await HostUtilities.ProcessSource(stream, settings.SkipLinesBytes, decoder);
+            var stream = await httpClient.GetStreamAsync(settings.HostsBased.SourceUri);
+            var hostsBasedLines = await HostUtilities.ProcessHostsBased(stream, settings.HostsBased.SkipLinesBytes, decoder);
             await stream.DisposeAsync();
 
-            stream = await httpClient.GetStreamAsync(settings.AdGuardUri);
-            var adGuardLines = await HostUtilities.ProcessAdGuard(stream, decoder);
+            stream = await httpClient.GetStreamAsync(settings.AdBlockBased.SourceUri);
+            var adBlockBasedLines = await HostUtilities.ProcessAdBlockBased(stream, decoder);
             await stream.DisposeAsync();
 
-            var combined = sourceLines;
-            combined.ExceptWith(adGuardLines);
+            var combined = hostsBasedLines;
+            combined.ExceptWith(adBlockBasedLines);
             combined = HostUtilities.RemoveKnownBadHosts(settings.KnownBadHosts, combined);
             combined.UnionWith(settings.KnownBadHosts);
-            combined.UnionWith(adGuardLines);
+            combined.UnionWith(adBlockBasedLines);
             CollectionUtilities.FilterGrouped(combined);
 
             var sortedDnsList = CollectionUtilities.SortDnsList(combined);
             HashSet<string> filtered = new(combined.Count);
-            sortedDnsList = ProcessCombined(sortedDnsList, adGuardLines, filtered);
+            sortedDnsList = ProcessCombined(sortedDnsList, adBlockBasedLines, filtered);
 
             if (settings.ExtraFiltering)
             {
                 logger.LogInformation(WithTimeStamp("Start extra filtering of duplicates"));
-                sortedDnsList = ProcessWithExtraFiltering(adGuardLines, sortedDnsList, filtered);
+                sortedDnsList = ProcessWithExtraFiltering(adBlockBasedLines, sortedDnsList, filtered);
                 logger.LogInformation(WithTimeStamp("Done extra filtering of duplicates"));
             }
 
@@ -91,11 +91,11 @@ namespace HostsParser
             static string WithTimeStamp(string message) => $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}";
         }
 
-        private static List<string> ProcessWithExtraFiltering(HashSet<string> adGuardLines,
+        private static List<string> ProcessWithExtraFiltering(HashSet<string> adBlockBasedLines,
             List<string> combined,
             HashSet<string> filtered)
         {
-            Parallel.ForEach(CollectionUtilities.SortDnsList(adGuardLines), item =>
+            Parallel.ForEach(CollectionUtilities.SortDnsList(adBlockBasedLines), item =>
             {
                 for (var i = 0; i < combined.Count; i++)
                 {
@@ -111,7 +111,7 @@ namespace HostsParser
 
         private static List<string> ProcessCombined(
             List<string> combined,
-            HashSet<string> adGuardLines,
+            HashSet<string> adBlockBasedLines,
             HashSet<string> filtered)
         {
             var round = 0;
@@ -130,7 +130,7 @@ namespace HostsParser
                 });
 
                 if (round == 1)
-                    combined.RemoveAll(adGuardLines.Contains);
+                    combined.RemoveAll(adBlockBasedLines.Contains);
 
                 combined.RemoveAll(filtered.Contains);
                 combined = CollectionUtilities.SortDnsList(combined);

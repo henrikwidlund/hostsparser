@@ -7,14 +7,17 @@ using System.Text;
 
 namespace HostsParser
 {
-    internal record Settings(
-        Uri SourceUri,
-        Uri AdGuardUri,
-        string[] SkipLines,
+    internal sealed record Settings(
+        SourceEntry HostsBased,
+        SourceEntry AdBlockBased,
         string[] HeaderLines,
         string[] KnownBadHosts,
-        bool ExtraFiltering)
+        bool ExtraFiltering);
+
+    internal sealed record SourceEntry(
+        Uri SourceUri,
+        string[]? SkipLines)
     {
-        internal byte[][] SkipLinesBytes = SkipLines.Select(s => Encoding.UTF8.GetBytes(s)).ToArray();
+        internal byte[][]? SkipLinesBytes = SkipLines?.Select(s => Encoding.UTF8.GetBytes(s)).ToArray();
     }
 }
