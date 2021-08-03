@@ -16,25 +16,43 @@ namespace HostsParser
     {
         private static readonly Memory<char> Cache = new char[256];
 
+        /// <summary>
+        /// Reads the <paramref name="stream"/> and returns a collection based on the items in it.
+        /// </summary>
+        /// <param name="stream">The <see cref="Stream"/> to process.</param>
+        /// <param name="skipLines">The lines that should be excluded from the returned result.</param>
+        /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
         internal static async Task<HashSet<string>> ProcessHostsBased(Stream stream,
             byte[][]? skipLines,
             Decoder decoder)
         {
             var pipeReader = PipeReader.Create(stream);
+            // Assumed length to reduce allocations
             var dnsList = new HashSet<string>(140_000);
             await ReadPipeAsync(pipeReader, dnsList, skipLines, decoder);
             return dnsList;
         }
 
+        /// <summary>
+        /// Reads the <paramref name="stream"/> and returns a collection based on the items in it.
+        /// </summary>
+        /// <param name="stream">The <see cref="Stream"/> to process.</param>
+        /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
         internal static async Task<HashSet<string>> ProcessAdBlockBased(Stream stream,
             Decoder decoder)
         {
             var pipeReader = PipeReader.Create(stream);
+            // Assumed length to reduce allocations
             var dnsList = new HashSet<string>(50_000);
             await ReadPipeAsync(pipeReader, dnsList, null, decoder);
             return dnsList;
         }
 
+        /// <summary>
+        /// Removes all sub domains to the entries in <paramref name="knownBadHosts"/> from the <paramref name="hosts"/>.
+        /// </summary>
+        /// <param name="knownBadHosts">Array of hosts used for removing sub domains.</param>
+        /// <param name="hosts">The collection of hosts that sub domains should be removed from.</param>
         internal static HashSet<string> RemoveKnownBadHosts(string[] knownBadHosts,
             HashSet<string> hosts)
         {
@@ -58,6 +76,11 @@ namespace HostsParser
             return hosts;
         }
 
+        /// <summary>
+        /// Checks if <paramref name="potentialSubDomain"/> is a sub domain of <paramref name="potentialDomain"/>.
+        /// </summary>
+        /// <param name="potentialSubDomain">The potential sub domain.</param>
+        /// <param name="potentialDomain">The potential domain.</param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         internal static bool IsSubDomainOf(in ReadOnlySpan<char> potentialSubDomain,
             in ReadOnlySpan<char> potentialDomain)

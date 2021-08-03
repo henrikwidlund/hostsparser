@@ -10,10 +10,14 @@ namespace HostsParser
 {
     internal static class CollectionUtilities
     {
-        internal static List<string> SortDnsList(ICollection<string> dnsList)
+        /// <summary>
+        /// Sorts <paramref name="dnsCollection"/> by domain and length.
+        /// </summary>
+        /// <param name="dnsCollection">The collection to sort.</param>
+        internal static List<string> SortDnsList(ICollection<string> dnsCollection)
         {
-            List<string> list = new(dnsList.Count);
-            list.AddRange(dnsList
+            List<string> list = new(dnsCollection.Count);
+            list.AddRange(dnsCollection
                 .Select(d => new StringSortItem(d))
                 .OrderBy(l => GetTopMostDns(l.RawMemory), ReadOnlyMemoryCharComparer.Default)
                 .ThenBy(l => l.RawMemory.Length)
@@ -22,12 +26,15 @@ namespace HostsParser
             return list;
         }
 
-        internal static void FilterGrouped(HashSet<string> dnsList)
+        /// <summary>
+        /// Filters out all sub domains from <paramref name="dnsCollection"/> for which a domain is contained.
+        /// </summary>
+        internal static void FilterGrouped(HashSet<string> dnsCollection)
         {
-            var cacheHashSet = CreateCacheHashSet(dnsList);
+            var cacheHashSet = CreateCacheHashSet(dnsCollection);
 
-            var dnsGroups = GroupDnsList(dnsList);
-            HashSet<string> filtered = new(dnsList.Count);
+            var dnsGroups = GroupDnsList(dnsCollection);
+            HashSet<string> filtered = new(dnsCollection.Count);
             foreach (var (key, value) in dnsGroups)
             {
                 if (!cacheHashSet.Contains(key)
@@ -43,13 +50,19 @@ namespace HostsParser
                 }
             }
 
-            dnsList.ExceptWith(filtered);
+            dnsCollection.ExceptWith(filtered);
         }
 
-        internal static Dictionary<int, List<string>> GroupDnsList(HashSet<string> dnsList)
+        /// <summary>
+        /// Groups <paramref name="dnsCollection"/> into a dictionary where the key is the main domain
+        /// and value is a list of found sub domains.
+        /// </summary>
+        /// <param name="dnsCollection">The collection used for grouping.</param>
+        /// <returns></returns>
+        internal static Dictionary<int, List<string>> GroupDnsList(HashSet<string> dnsCollection)
         {
-            var dict = new Dictionary<int, List<string>>(dnsList.Count);
-            foreach (var s in dnsList)
+            var dict = new Dictionary<int, List<string>>(dnsCollection.Count);
+            foreach (var s in dnsCollection)
             {
                 var key = string.GetHashCode(GetTopMostDns(s));
                 List<string> values;
