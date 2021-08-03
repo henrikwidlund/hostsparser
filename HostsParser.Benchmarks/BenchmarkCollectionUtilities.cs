@@ -47,19 +47,19 @@ namespace HostsParser.Benchmarks
         public IEnumerable<HashSet<string>> Source()
         {
             var stream = PrepareStream();
-            var source = HostUtilities
-                .ProcessSource(stream, BenchmarkTestData.Settings.SkipLinesBytes,
+            var hostsBasedLines = HostUtilities
+                .ProcessHostsBased(stream, BenchmarkTestData.Settings.HostsBased.SkipLinesBytes,
                     BenchmarkTestData.Decoder).GetAwaiter().GetResult();
 
             stream = PrepareStream();
-            var adGuard = HostUtilities.ProcessAdGuard(stream, BenchmarkTestData.Decoder)
+            var adBlockBasedLines = HostUtilities.ProcessAdBlockBased(stream, BenchmarkTestData.Decoder)
                 .GetAwaiter().GetResult();
 
             stream.Dispose();
 
-            source.UnionWith(adGuard);
+            hostsBasedLines.UnionWith(adBlockBasedLines);
             
-            yield return source;
+            yield return hostsBasedLines;
         }
     }
 }

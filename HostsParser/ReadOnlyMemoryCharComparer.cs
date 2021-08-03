@@ -6,8 +6,14 @@ using System.Collections.Generic;
 
 namespace HostsParser
 {
+    /// <summary>
+    /// Comparer for <see cref="char"/>-based <see cref="ReadOnlyMemory{T}"/>.
+    /// </summary>
     public sealed class ReadOnlyMemoryCharComparer : IComparer<ReadOnlyMemory<char>>
     {
+        /// <summary>
+        /// Default instance of <see cref="ReadOnlyMemoryCharComparer"/>.
+        /// </summary>
         public static readonly ReadOnlyMemoryCharComparer Default = new();
 
         public int Compare(ReadOnlyMemory<char> x, ReadOnlyMemory<char> y)

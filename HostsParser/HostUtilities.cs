@@ -16,25 +16,43 @@ namespace HostsParser
     {
         private static readonly Memory<char> Cache = new char[256];
 
-        internal static async Task<HashSet<string>> ProcessSource(Stream stream,
-            byte[][] skipLines,
+        /// <summary>
+        /// Reads the <paramref name="stream"/> and returns a collection based on the items in it.
+        /// </summary>
+        /// <param name="stream">The <see cref="Stream"/> to process.</param>
+        /// <param name="skipLines">The lines that should be excluded from the returned result.</param>
+        /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
+        internal static async Task<HashSet<string>> ProcessHostsBased(Stream stream,
+            byte[][]? skipLines,
             Decoder decoder)
         {
             var pipeReader = PipeReader.Create(stream);
+            // Assumed length to reduce allocations
             var dnsList = new HashSet<string>(140_000);
             await ReadPipeAsync(pipeReader, dnsList, skipLines, decoder);
             return dnsList;
         }
 
-        internal static async Task<HashSet<string>> ProcessAdGuard(Stream stream,
+        /// <summary>
+        /// Reads the <paramref name="stream"/> and returns a collection based on the items in it.
+        /// </summary>
+        /// <param name="stream">The <see cref="Stream"/> to process.</param>
+        /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
+        internal static async Task<HashSet<string>> ProcessAdBlockBased(Stream stream,
             Decoder decoder)
         {
             var pipeReader = PipeReader.Create(stream);
+            // Assumed length to reduce allocations
             var dnsList = new HashSet<string>(50_000);
             await ReadPipeAsync(pipeReader, dnsList, null, decoder);
             return dnsList;
         }
 
+        /// <summary>
+        /// Removes all sub domains to the entries in <paramref name="knownBadHosts"/> from the <paramref name="hosts"/>.
+        /// </summary>
+        /// <param name="knownBadHosts">Array of hosts used for removing sub domains.</param>
+        /// <param name="hosts">The collection of hosts that sub domains should be removed from.</param>
         internal static HashSet<string> RemoveKnownBadHosts(string[] knownBadHosts,
             HashSet<string> hosts)
         {
@@ -58,6 +76,11 @@ namespace HostsParser
             return hosts;
         }
 
+        /// <summary>
+        /// Checks if <paramref name="potentialSubDomain"/> is a sub domain of <paramref name="potentialDomain"/>.
+        /// </summary>
+        /// <param name="potentialSubDomain">The potential sub domain.</param>
+        /// <param name="potentialDomain">The potential domain.</param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         internal static bool IsSubDomainOf(in ReadOnlySpan<char> potentialSubDomain,
             in ReadOnlySpan<char> potentialDomain)
@@ -109,12 +132,12 @@ namespace HostsParser
             Decoder decoder)
         {
             if (skipLines == null)
-                ProcessAdGuardLine(slice, resultCollection, decoder);
+                ProcessAdBlockBasedLine(slice, resultCollection, decoder);
             else
-                ProcessSourceLine(slice, resultCollection, skipLines, decoder);
+                ProcessHostsBasedLine(slice, resultCollection, skipLines, decoder);
         }
 
-        private static void ProcessSourceLine(in ReadOnlySequence<byte> slice,
+        private static void ProcessHostsBasedLine(in ReadOnlySequence<byte> slice,
             ICollection<string> resultCollection,
             byte[][] skipLines,
             Decoder decoder)
@@ -128,7 +151,7 @@ namespace HostsParser
             if (realSlice[0] == Constants.HashSign)
                 return;
 
-            if (SourceShouldSkipLine(realSlice, skipLines))
+            if (HostsBasedShouldSkipLine(realSlice, skipLines))
                 return;
 
             realSlice = HandleWwwPrefix(realSlice);
@@ -140,7 +163,7 @@ namespace HostsParser
             resultCollection.Add(Cache.Span[..realSlice.Length].Trim().ToString());
         }
 
-        private static void ProcessAdGuardLine(in ReadOnlySequence<byte> slice,
+        private static void ProcessAdBlockBasedLine(in ReadOnlySequence<byte> slice,
             ICollection<string> resultCollection,
             Decoder decoder)
         {
@@ -150,7 +173,7 @@ namespace HostsParser
             if (realSlice.IsEmpty)
                 return;
 
-            if (AdGuardShouldSkipLine(realSlice))
+            if (AdBlockBasedShouldSkipLine(realSlice))
                 return;
 
             realSlice = HandlePipe(realSlice);
@@ -162,7 +185,7 @@ namespace HostsParser
             resultCollection.Add(Cache.Span[..realSlice.Length].ToString());
         }
 
-        private static bool SourceShouldSkipLine(in ReadOnlySpan<byte> bytes,
+        private static bool HostsBasedShouldSkipLine(in ReadOnlySpan<byte> bytes,
             byte[][] skipLines)
         {
             if (TrimStart(bytes)[0] == Constants.HashSign)
@@ -178,7 +201,7 @@ namespace HostsParser
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        private static bool AdGuardShouldSkipLine(in ReadOnlySpan<byte> current)
+        private static bool AdBlockBasedShouldSkipLine(in ReadOnlySpan<byte> current)
             => current[0] != Constants.PipeSign;
 
         private static ReadOnlySpan<byte> TrimStart(in this ReadOnlySpan<byte> span)

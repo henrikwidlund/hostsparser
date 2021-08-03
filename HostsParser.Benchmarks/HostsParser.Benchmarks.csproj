@@ -14,10 +14,10 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="adguardhosts.txt">
+      <None Update="adbockbased.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
-      <None Update="sourcehosts.txt">
+      <None Update="hostsbased.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
       <None Update="appsettings.json">
