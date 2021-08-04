@@ -43,7 +43,7 @@ jobs:
       run: |
         mkdir ./public
         FILTER=HostsParser/bin/Release/net6.0/filter.txt
-        cp FILTER ./public
+        cp $FILTER ./public
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
