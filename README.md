@@ -4,18 +4,21 @@
 Converts a `hosts` ([`HostsBased`](#hostsbased)) based file into a `AdBlock` formatted file, optimized for [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome).
 It also removes duplicates, comments as well as hosts that are already blocked by a different `AdBlock` ([`AdBlockBased`](#adblockbased)) based file.
 
-By default [StevenBlack/hosts](https://github.com/StevenBlack/hosts) with fakenews, gambling and porn extensions is processed to exclude entries already covered by [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter).
+By default [StevenBlack/hosts](https://github.com/StevenBlack/hosts) 
+[with fakenews, gambling and porn extensions](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
+is processed to exclude entries already covered by the [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter)
+[file](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt).
 
-## Using in AdGuard Home
-1. Make sure that `AdAway Default Blocklist` (or any custom `AdBlock` formatted file referenced when running the program) is active in DNS blocklists for your AdGuard Home instance.
-2. Copy the link to the [Pre-built host](#pre-built-host) and add it to your DNS blocklists as a custom list in your AdGuard Home instance.
+## How to use with AdGuard Home
+1. Make sure that `AdGuard DNS filter` (or the custom `AdBlock` formatted file referenced when running the program) is active in DNS blocklists for your AdGuard Home instance.
+2. Copy the link to the [Pre-built filter](#pre-built-filter) and add it to your DNS blocklists as a custom list in your AdGuard Home instance.
 
 Please refer to the [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) repository for further instructions on how to use DNS blocklists.
 
-**Note** If you've generated your own file, the Pre-built host link should be replaced by the address to where you're hosting it.
+**Note** If you've generated your own file, the Pre-built filter link should be replaced by the address to where you host your generated file.
 
-### Pre-built host
-The hosts file is generated every six hours and is available for download [here](https://henrikwidlund.github.io/HostsParser/hosts).
+### Pre-built filter
+The filter file is generated every six hours and is available for download [here](https://henrikwidlund.github.io/HostsParser/filters.txt).
 
 ## Building
 ### Prerequisites
@@ -37,7 +40,7 @@ Run the following (if you built from source, this will be in `HostsParser/bin/Re
 dotnet HostsParser.dll
 ```
 
-The program creates a `hosts` file in the same directory.
+The program creates the `filter.txt` file in the same directory.
 
 ## Configuration
 You may adjust the configuration of the application by modifying the `appsettings.json` file.
