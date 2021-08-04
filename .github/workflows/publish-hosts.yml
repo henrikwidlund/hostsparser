@@ -43,13 +43,11 @@ jobs:
       run: |
         mkdir ./public
         FILTER=HostsParser/bin/Release/net6.0/filter.txt
-        if test -f "FILTER"; then
-            cp FILTER ./public
-        fi
+        cp FILTER ./public
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main'
+#      if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
