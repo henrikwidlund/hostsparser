@@ -9,6 +9,8 @@ By default [StevenBlack/hosts](https://github.com/StevenBlack/hosts)
 is processed to exclude entries already covered by the [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter)
 [file](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt).
 
+**Note** this can't be used as a regular hosts file, it must be used with a system that supports the `AdBlock` format.
+
 ## How to use with AdGuard Home
 1. Make sure that `AdGuard DNS filter` (or the custom `AdBlock` formatted file referenced when running the program) is active in DNS blocklists for your AdGuard Home instance.
 2. Copy the link to the [Pre-built filter](#pre-built-filter) and add it to your DNS blocklists as a custom list in your AdGuard Home instance.
