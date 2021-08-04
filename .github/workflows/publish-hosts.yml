@@ -38,13 +38,13 @@ jobs:
         cd HostsParser/bin/Release/net6.0
         dotnet HostsParser.dll
 
-    - name: Copy hosts to public directory
+    - name: Copy filter to public directory
       if: github.ref == 'refs/heads/main'
       run: |
         mkdir ./public
-        HOSTS=HostsParser/bin/Release/net6.0/hosts
-        if test -f "$HOSTS"; then
-            cp $HOSTS ./public
+        FILTER=HostsParser/bin/Release/net6.0/filter.txt
+        if test -f "FILTER"; then
+            cp FILTER ./public
         fi
 
     - name: Deploy to GitHub Pages
