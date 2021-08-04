@@ -37,7 +37,7 @@ jobs:
         mkdir ./public
         FILTER=./publish/filter.txt
         cp $FILTER ./public
-        cp hosts.html ./public
+        cp $FILTER ./public/hosts
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
@@ -45,3 +45,6 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
+        commit_message: ${{ github.event.head_commit.message }}
