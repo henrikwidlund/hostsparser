@@ -20,7 +20,7 @@ Please refer to the [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) r
 **Note** If you've generated your own file, the Pre-built filter link should be replaced by the address to where you host your generated file.
 
 ### Pre-built filter
-The filter file is generated every six hours and is available for download [here](https://henrikwidlund.github.io/HostsParser/filters.txt).
+The filter file is generated every six hours and is available for download [here](https://henrikwidlund.github.io/HostsParser/filter.txt).
 
 ## Building
 ### Prerequisites
