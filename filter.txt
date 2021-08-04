@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-04 10:03:36Z
+! Last Modified: 2021-08-04 10:06:52Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1663,6 +1663,7 @@
 ||acrh.be^
 ||www2.acrolinx.com^
 ||acrowiswhite.com^
+||acs.56.com^
 ||access.acspubs.org^
 ||pubstr.acspubs.org^
 ||connect.acspubs.org^
@@ -2767,6 +2768,7 @@
 ||quickbooks.aeymotors.com^
 ||af-ad.co.uk^
 ||af-mark.jp^
+||af4a.adj.st^
 ||afantispy.com^
 ||afarsex.co.il^
 ||afcebook.com^
@@ -11232,6 +11234,7 @@
 ||jo2f.cheque-cadhoc.fr^
 ||pqn7.cheque-dejeuner.fr^
 ||pol3.cheque-domicile.fr^
+||ponyo.cheriefm.fr^
 ||cherries.jp^
 ||cherrycasino.com^
 ||cherryemoore.com^
@@ -25666,6 +25669,7 @@
 ||hussiemodels.com^
 ||hustlaz.com^
 ||hustler.com^
+||hustlercash.hit.bg^
 ||scrollingads.hustlermegapass.com^
 ||go.hustlerturf.com^
 ||hustlervip.net^
@@ -34314,7 +34318,11 @@
 ||mob-olx.site^
 ||f.gm.mob.com^
 ||l.gm.mob.com^
+||s.mic.mob.com^
 ||api.df.mob.com^
+||aw.mic.mob.com^
+||df.mic.mob.com^
+||dfe.mic.mob.com^
 ||p.share.mob.com^
 ||sdk.push.mob.com^
 ||tcp.push.mob.com^
@@ -61332,7 +61340,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||eu-pn2.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||counter.yakbucks.com^
