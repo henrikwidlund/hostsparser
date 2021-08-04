@@ -137,7 +137,9 @@ namespace HostsParser
             }
 
             var slicedItem = item[(indexes[0] + 1)..indexes[1]];
-            return slicedItem.Length <= 3 ? item : item[(indexes[0] + 1)..];
+            // Check domains ending with x.y where x is shorter than 4 char against known second level top domains.
+            // If false, treat x.y as a domain so that any found sub domain will be sorted under it.
+            return IsSecondLevelTopDomain(slicedItem) ? item : item[(indexes[0] + 1)..];
         }
 
         private static ReadOnlyMemory<char> ProcessItem(List<int> indexes,
