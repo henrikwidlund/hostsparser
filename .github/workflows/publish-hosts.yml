@@ -39,7 +39,7 @@ jobs:
         dotnet HostsParser.dll
 
     - name: Copy filter to public directory
-      if: github.ref == 'refs/heads/main'
+      #if: github.ref == 'refs/heads/main'
       run: |
         mkdir ./public
         FILTER=HostsParser/bin/Release/net6.0/filter.txt
