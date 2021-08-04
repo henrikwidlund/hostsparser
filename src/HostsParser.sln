@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8F5D3585-726C-4EC9-8EBB-01644EA34365}"
+ProjectSection(SolutionItems) = preProject
+	..\LICENSE = ..\LICENSE
+	..\README.md = ..\README.md
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gh-actions", "gh-actions", "{3C7AEF49-BBA6-4BDE-B869-A4A4DAEED012}"
+ProjectSection(SolutionItems) = preProject
+	..\.github\workflows\publish-hosts.yml = ..\.github\workflows\publish-hosts.yml
+	..\.github\workflows\release.yml = ..\.github\workflows\release.yml
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{4BF4C761-8D8D-4A91-BDA1-9105DD95ACBB}"
+ProjectSection(SolutionItems) = preProject
+	..\publish.sh = ..\publish.sh
+	..\publish.cmd = ..\publish.cmd
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C8626041-386F-4FCE-AD4D-4B2DB45E0177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostsParser", "HostsParser\HostsParser.csproj", "{0FB07A81-2391-4DFD-9737-5B68D0999ADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostsParser.Benchmarks", "HostsParser.Benchmarks\HostsParser.Benchmarks.csproj", "{D60925E8-9123-4CCB-8CC0-40A649092772}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FB07A81-2391-4DFD-9737-5B68D0999ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB07A81-2391-4DFD-9737-5B68D0999ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB07A81-2391-4DFD-9737-5B68D0999ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB07A81-2391-4DFD-9737-5B68D0999ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60925E8-9123-4CCB-8CC0-40A649092772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60925E8-9123-4CCB-8CC0-40A649092772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60925E8-9123-4CCB-8CC0-40A649092772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60925E8-9123-4CCB-8CC0-40A649092772}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FB07A81-2391-4DFD-9737-5B68D0999ADB} = {C8626041-386F-4FCE-AD4D-4B2DB45E0177}
+		{D60925E8-9123-4CCB-8CC0-40A649092772} = {C8626041-386F-4FCE-AD4D-4B2DB45E0177}
+	EndGlobalSection
+EndGlobal
