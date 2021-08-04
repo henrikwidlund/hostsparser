@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-04 00:25:32Z
+! Last Modified: 2021-08-04 06:10:02Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -60446,7 +60446,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -61337,6 +61336,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||es.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -61921,6 +61921,7 @@
 ||youretro.com^
 ||update4now.yourfine2updatesgo.best^
 ||yourfitway.com^
+||stats.yourfone.de^
 ||testupgrade.yourforcontentsplaysystems.icu^
 ||ads.yourfreedvds.com^
 ||yourfreegascard.com^
