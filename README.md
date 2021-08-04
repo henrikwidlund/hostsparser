@@ -27,21 +27,23 @@ The filter file is generated every six hours and is available for download [here
 [dotnet 6 SDK](https://dotnet.microsoft.com/download).
 
 Run the following from the directory you cloned the repository to:
+
+Linux/macOS
 ```sh
 ./publish.sh
 ```
-or
+Windows
 ````cmd
 publish.cmd
 ````
-The built files will be put in `./publish`
+The built files will be put in the `publish` directory, in the root of the repository.
 
 ## Running
 ### Prerequisites
 1. [dotnet 6 runtime](https://dotnet.microsoft.com/download).
 2. Downloaded binaries or binaries built from source.
 
-Run the following (if you built from source, this will be in `./publish`):
+Run the following (if you built from source, this will be in `publish` directory, in the root of the repository):
 ```sh
 dotnet HostsParser.dll
 ```
