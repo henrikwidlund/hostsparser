@@ -22,22 +22,28 @@ Please refer to the [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) r
 ### Pre-built filter
 The filter file is generated every six hours and is available for download [here](https://henrikwidlund.github.io/HostsParser/filter.txt).
 
-## Building
+## Building from source
 ### Prerequisites
 [dotnet 6 SDK](https://dotnet.microsoft.com/download).
 
 Run the following from the directory you cloned the repository to:
+
+Linux/macOS
 ```sh
-cd HostsParser
-dotnet build --configuration Release
+./publish.sh
 ```
+Windows
+````cmd
+publish.cmd
+````
+The built files will be put in the `publish` directory, in the root of the repository.
 
 ## Running
 ### Prerequisites
 1. [dotnet 6 runtime](https://dotnet.microsoft.com/download).
 2. Downloaded binaries or binaries built from source.
 
-Run the following (if you built from source, this will be in `HostsParser/bin/Release/net6.0`):
+Run the following (if you built from source, this will be in `publish` directory, in the root of the repository):
 ```sh
 dotnet HostsParser.dll
 ```

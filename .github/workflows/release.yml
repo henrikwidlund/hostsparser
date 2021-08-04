@@ -9,11 +9,14 @@ jobs:
     name: Release
     strategy:
       matrix:
-        kind: ['linux', 'windows']
+        kind: ['linux', 'macos', 'windows']
         include:
           - kind: linux
             os: ubuntu-latest
             target: linux-x64
+          - kind: macos
+            os: macos-latest
+            target: osx-x64
           - kind: windows
             os: windows-latest
             target: win-x64
@@ -34,23 +37,21 @@ jobs:
           tag=$(git describe --tags --abbrev=0)
           release_name="HostsParser-$tag-${{ matrix.target }}"
           # Build everything
-          cd HostsParser
-          dotnet publish --runtime "${{ matrix.target }}" -c Release -o "$release_name"
+          ./publish.sh
           # Pack files
           if [ "${{ matrix.target }}" == "win-x64" ]; then
             # Pack to zip for Windows
-            7z a -tzip "${release_name}.zip" "./${release_name}/HostsParser*" "./${release_name}/appsettings.json"
+            7z a -tzip "${release_name}.zip" "./publish/*"
           else
-          (cd "$release_name" && tar czvf "${release_name}.tar.gz" HostsParser*.dll HostsParser*.pdb HostsParser*.json appsettings.json)
-          cp "${release_name}/${release_name}.tar.gz" .
+          (cd ./publish && tar czvf "../${release_name}.tar.gz" .)
           fi
           # Delete output directory
-          rm -r "$release_name"
+          rm -r "./publish"
       - name: Publish
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            HostsParser/*.zip
-            HostsParser/*.tar.gz
+            HostsParser*.zip
+            HostsParser*.tar.gz
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
