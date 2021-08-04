@@ -22,23 +22,12 @@ jobs:
       with:
         dotnet-version: 6.0.x
         include-prerelease: true
-    
-#    - name: Restore dependencies
-#      run: |
-#        cd HostsParser
-#        dotnet restore
-#    
-#    - name: Build
-#      run: |
-#        cd HostsParser
-#        dotnet build -c Release --no-restore
 
     - name: Run publish.sh
       run: ./publish.sh
  
     - name: Run HostsParser
       run: |
-#        cd HostsParser/bin/Release/net6.0
         cd ./publish
         dotnet HostsParser.dll
 
@@ -46,7 +35,6 @@ jobs:
       if: github.ref == 'refs/heads/main'
       run: |
         mkdir ./public
-#        FILTER=HostsParser/bin/Release/net6.0/filter.txt
         FILTER=./publish/filter.txt
         cp $FILTER ./public
         cp hosts.html ./public
