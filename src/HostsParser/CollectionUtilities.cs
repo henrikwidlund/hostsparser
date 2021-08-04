@@ -118,6 +118,7 @@ namespace HostsParser
                    || secondTop.Equals(Constants.TopDomains.Com, StringComparison.Ordinal)
                    || secondTop.Equals(Constants.TopDomains.Org, StringComparison.Ordinal)
                    || secondTop.Equals(Constants.TopDomains.Ne, StringComparison.Ordinal)
+                   || secondTop.Equals(Constants.TopDomains.Net, StringComparison.Ordinal)
                    || secondTop.Equals(Constants.TopDomains.Edu, StringComparison.Ordinal)
                    || secondTop.Equals(Constants.TopDomains.Or, StringComparison.Ordinal);
         }
@@ -153,7 +154,9 @@ namespace HostsParser
             }
             
             var slicedItem = item[(indexes[0] + 1)..indexes[1]];
-            return slicedItem.Length <= 3 ? item : item[(indexes[0] + 1)..];
+            // Check domains ending with x.y where x is shorter than 4 char against known second level top domains.
+            // If false, treat x.y as a domain so that any found sub domain will be sorted under it.
+            return IsSecondLevelTopDomain(slicedItem.Span) ? item : item[(indexes[0] + 1)..];
         }
 
         private static int IndexOf(in this ReadOnlySpan<char> aSpan,
