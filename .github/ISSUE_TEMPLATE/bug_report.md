@@ -7,6 +7,8 @@ assignees: ''
 
 ---
 
+Please fill out the sections below to the best of your ability.
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
