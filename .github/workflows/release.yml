@@ -38,13 +38,14 @@ jobs:
           release_name="HostsParser-$tag-${{ matrix.target }}"
           # Build everything
           ASSEMBLY_VERSION="${tag//v}"
-          dotnet publish "./src/HostsParser/HostsParser.csproj" -c Release -o release /p:Version=$ASSEMBLY_VERSION
-          # Pack files
           if [ "${{ matrix.target }}" == "win-x64" ]; then
+            dotnet publish "./src/HostsParser/HostsParser.csproj" -c Release -o release //p:Version="$ASSEMBLY_VERSION"
             # Pack to zip for Windows
             7z a -tzip "${release_name}.zip" "./release/*"
           else
-          (cd ./release && tar czvf "../${release_name}.tar.gz" .)
+            dotnet publish "./src/HostsParser/HostsParser.csproj" -c Release -o release /p:Version="$ASSEMBLY_VERSION"
+            # Pack tar.gz for non-Windows
+            (cd ./release && tar czvf "../${release_name}.tar.gz" .)
           fi
           # Delete output directory
           rm -r "./release"
