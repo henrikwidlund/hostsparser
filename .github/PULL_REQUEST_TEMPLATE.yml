@@ -1,8 +1,3 @@
-name: Pull Request
-description: Create a PR to contribute code to the project
-title: "PR: "
-labels:
-# This template is inspired by templates in https://github.com/dotnet/runtime
 body:
   - type: markdown
     attributes:
