@@ -37,8 +37,8 @@ jobs:
           tag=$(git describe --tags --abbrev=0)
           release_name="HostsParser-$tag-${{ matrix.target }}"
           # Build everything
-          ASSEMPLY_VERSION="${tag//v}"
-          dotnet publish "./src/HostsParser/HostsParser.csproj" -c Release -o release /p:Version=$ASSEMPLY_VERSION
+          ASSEMBLY_VERSION="${tag//v}"
+          dotnet publish "./src/HostsParser/HostsParser.csproj" -c Release -o release /p:Version=$ASSEMBLY_VERSION
           # Pack files
           if [ "${{ matrix.target }}" == "win-x64" ]; then
             # Pack to zip for Windows
