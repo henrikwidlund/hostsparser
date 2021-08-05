@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-05 00:28:28Z
+! Last Modified: 2021-08-05 06:10:10Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -27461,7 +27461,6 @@
 ||irotradex.com^
 ||irpost.net^
 ||irr.ru^
-||irs01.com^
 ||irs01.net^
 ||unlimited.movies.and.series.netflix.irsa-art.ir^
 ||saa.irvinecompanyapartments.com^
@@ -41915,6 +41914,7 @@
 ||olx.pl-expresspay.cyou^
 ||olx.pl-expresspay.icu^
 ||olx.pl-expresspay.xyz^
+||olx.pl-expresspays.cyou^
 ||olx.pl-expresspays.icu^
 ||olx.pl-expresspays.xyz^
 ||pl-fakt24.pl^
@@ -61010,6 +61010,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
