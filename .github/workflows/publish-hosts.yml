@@ -23,19 +23,19 @@ jobs:
         dotnet-version: 6.0.x
         include-prerelease: true
 
-    - name: Run publish.sh
-      run: ./publish.sh
+    - name: Run build.sh
+      run: ./build.sh
  
     - name: Run HostsParser
       run: |
-        cd ./publish
+        cd ./artifacts
         dotnet HostsParser.dll
 
     - name: Copy filter to public directory
       if: github.ref == 'refs/heads/main'
       run: |
         mkdir ./public
-        FILTER=./publish/filter.txt
+        FILTER=./artifacts/filter.txt
         cp $FILTER ./public
         cp $FILTER ./public/hosts
 

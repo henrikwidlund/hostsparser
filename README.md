@@ -30,20 +30,20 @@ Run the following from the directory you cloned the repository to:
 
 Linux/macOS
 ```sh
-./publish.sh
+./build.sh
 ```
 Windows
 ````cmd
-publish.cmd
+build.cmd
 ````
-The built files will be put in the `publish` directory, in the root of the repository.
+The built files will be put in the `artifacts` directory, in the root of the repository.
 
 ## Running
 ### Prerequisites
 1. [dotnet 6 runtime](https://dotnet.microsoft.com/download).
 2. Downloaded binaries or binaries built from source.
 
-Run the following (if you built from source, this will be in `publish` directory, in the root of the repository):
+Run the following (if you built from source, this will be in `artifacts` directory, in the root of the repository):
 ```sh
 dotnet HostsParser.dll
 ```

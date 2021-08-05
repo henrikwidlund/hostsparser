@@ -15,8 +15,8 @@ EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{4BF4C761-8D8D-4A91-BDA1-9105DD95ACBB}"
 ProjectSection(SolutionItems) = preProject
-	..\publish.sh = ..\publish.sh
-	..\publish.cmd = ..\publish.cmd
+	..\build.cmd = ..\build.cmd
+	..\build.sh = ..\build.sh
 EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C8626041-386F-4FCE-AD4D-4B2DB45E0177}"
