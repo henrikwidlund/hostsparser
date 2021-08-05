@@ -37,16 +37,17 @@ jobs:
           tag=$(git describe --tags --abbrev=0)
           release_name="HostsParser-$tag-${{ matrix.target }}"
           # Build everything
-          ./publish.sh
+          ASSEMPLY_VERSION="${tag//v}"
+          dotnet publish "./src/HostsParser/HostsParser.csproj" -c Release -o release /p:Version=$ASSEMPLY_VERSION
           # Pack files
           if [ "${{ matrix.target }}" == "win-x64" ]; then
             # Pack to zip for Windows
-            7z a -tzip "${release_name}.zip" "./publish/*"
+            7z a -tzip "${release_name}.zip" "./release/*"
           else
-          (cd ./publish && tar czvf "../${release_name}.tar.gz" .)
+          (cd ./release && tar czvf "../${release_name}.tar.gz" .)
           fi
           # Delete output directory
-          rm -r "./publish"
+          rm -r "./release"
       - name: Publish
         uses: softprops/action-gh-release@v1
         with:
