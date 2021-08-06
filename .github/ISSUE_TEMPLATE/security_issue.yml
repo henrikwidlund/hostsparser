@@ -1,0 +1,40 @@
+name: Security Issue / Vulnerability
+description: Report a security issue or vulnarability
+title: "Security/Vulnerability: "
+labels: [security,vulnerability]
+# This template is inspired by templates in https://github.com/dotnet/runtime
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for investing your time on improving this project! Please fill out the forms below to the best of your ability.
+  - type: textarea
+    id: description
+    attributes:
+      label: Security Issue / Vulnerability
+      description: Describe the problem you've found, and if possible, how to reproduce it.
+      placeholder: A clear and concise description of what the problem is.
+    validations:
+      required: true
+  - type: textarea
+    id: cve
+    attributes:
+      label: CVE ID
+      description: Please provide any related CVE IDs
+    validations:
+      required: false
+  - type: textarea
+    id: fixes
+    attributes:
+      label: Known Solutions
+      description: Are there any known fixes for the issue?
+      placeholder: A clear and concise description of how the issue might be mitigated.
+    validations:
+      required: false
+  - type: textarea
+    id: additionals
+    attributes:
+      label: Additional Context
+      description: Add any other context or screenshots about the feature request here.
+      placeholder: Additional context
+    validations:
+      required: false
