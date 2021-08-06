@@ -1,9 +1,7 @@
 name: Security Issue / Vulnerability
 description: Report a security issue or vulnarability
 title: "Security/Vulnerability: "
-labels: 
-  - security
-  - vulnerability
+labels: ['security','vulnerability']
 # This template is inspired by templates in https://github.com/dotnet/runtime
 body:
   - type: markdown
