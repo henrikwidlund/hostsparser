@@ -3,6 +3,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -43,6 +44,9 @@ namespace HostsParser
                 return;
             }
 
+            const string connectionString =
+                "Persist Security Info=False;User ID=*****;Password=*****;Initial Catalog=AdventureWorks;Server=MySqlServer";
+            await using var connection = new SqlConnection(connectionString);
             using var sha1 = SHA1.Create();
             var hash = sha1.ComputeHash(settings.HostsBased.SkipLinesBytes![0]);
             logger.LogInformation(string.Concat(hash.Select(b => b.ToString("x2"))));
