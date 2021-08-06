@@ -5,8 +5,10 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Net.Http;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -40,6 +42,10 @@ namespace HostsParser
                 logger.LogError("Couldn't load settings. Terminating...");
                 return;
             }
+
+            using var sha1 = SHA1.Create();
+            var hash = sha1.ComputeHash(settings.HostsBased.SkipLinesBytes![0]);
+            logger.LogInformation(string.Concat(hash.Select(b => b.ToString("x2"))));
 
             var decoder = Encoding.UTF8.GetDecoder();
             using var httpClient = new HttpClient();
