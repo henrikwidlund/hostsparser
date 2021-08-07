@@ -59,9 +59,8 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement by mentioning
-one of them where the inappropriate behavior occurred, you do not need to describe
-the complaint if you're not comfortable in doing so.
+reported to the community leaders responsible for enforcement at
+hares_eyelet_0s@icloud.com.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
