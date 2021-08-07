@@ -4,6 +4,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 ProjectSection(SolutionItems) = preProject
 	..\LICENSE = ..\LICENSE
 	..\README.md = ..\README.md
+	..\.editorconfig = ..\.editorconfig
 EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gh-actions", "gh-actions", "{3C7AEF49-BBA6-4BDE-B869-A4A4DAEED012}"
