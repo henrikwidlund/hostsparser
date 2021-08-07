@@ -40,6 +40,6 @@ namespace HostsParser
         Uri SourceUri,
         string[]? SkipLines)
     {
-        internal byte[][]? SkipLinesBytes = SkipLines?.Select(s => Encoding.UTF8.GetBytes(s)).ToArray();
+        internal readonly byte[][]? SkipLinesBytes = SkipLines?.Select(s => Encoding.UTF8.GetBytes(s)).ToArray();
     }
 }
