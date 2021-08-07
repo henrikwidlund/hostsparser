@@ -83,12 +83,6 @@ Fix #42
 
 Also do your best to factor commits appropriately, not too large with unrelated things in the same commit, and not too small with the same small change applied N times in N different commits.
 
-## Contributor License Agreement
-
-You must sign a CLA before your PR will be merged. This is a one-time requirement. You can read more about [Contribution License Agreements (CLA)](http://en.wikipedia.org/wiki/Contributor_License_Agreement) on Wikipedia.
-
-You don't have to do this up-front. You can simply clone, fork, and submit your pull-request as usual. When your pull-request is created, you will be prompted to sign the CLA if you haven't already signed it.
-
 ## File Headers
 
 The following file header is the used for .NET Core. Please use it for new files.
@@ -100,7 +94,7 @@ The following file header is the used for .NET Core. Please use it for new files
 
 ## PR - CI Process
 
-The  Continuous Integration (CI) system will automatically perform the required builds and verifications (including the ones you are expected to run) for PRs.
+The Continuous Integration (CI) system will automatically perform the required builds and verifications (including the ones you are expected to run) for PRs.
 
 If the CI build fails for any reason, you are expected to make adjustments to your changes in order for it to work, or ask a community member for assistance.
 
