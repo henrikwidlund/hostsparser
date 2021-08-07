@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-07 09:31:43Z
+! Last Modified: 2021-08-07 10:30:27Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -51910,8 +51910,6 @@
 ||tracker.swedish.org^
 ||support.sweepstakes.com^
 ||sweet-angels.com^
-||my.sweet-angels.net^
-||sweet.sweet-angels.net^
 ||sweet-diet.com^
 ||sweet-localhookup.com^
 ||sweet-maturewomen.com^
@@ -61005,7 +61003,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ae.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
