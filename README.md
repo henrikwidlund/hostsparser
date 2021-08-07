@@ -33,9 +33,9 @@ Linux/macOS
 ./build.sh
 ```
 Windows
-````cmd
+```cmd
 build.cmd
-````
+```
 The built files will be put in the `artifacts` directory, in the root of the repository.
 
 ## Running
@@ -49,6 +49,26 @@ dotnet HostsParser.dll
 ```
 
 The program creates the `filter.txt` file in the same directory.
+
+## Docker
+You can build and run the program with Docker.
+
+### Build
+```sh
+docker build ./src/HostsParser
+```
+### Run
+There are currently no published Docker images.
+If you want to run the program via Docker, the repository must first be cloned.
+```sh
+IMAGE_ID=$(docker build ./src/HostsParser -q) \
+    && docker create --name hostsparser $IMAGE_ID \
+    && docker start hostsparser \
+    && docker wait hostsparser \
+    && docker cp hostsparser:/app/filter.txt ./artifacts \
+    && docker rm -f hostsparser
+```
+The `filter.txt` file will be put into the `artifacts` directory in the root of the repository.
 
 ## Configuration
 You may adjust the configuration of the application by modifying the `appsettings.json` file.
