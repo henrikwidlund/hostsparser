@@ -119,11 +119,20 @@ namespace HostsParser
 
                 reader.AdvanceTo(buffer.Start, buffer.End);
 
-                if (result.IsCompleted)
-                    break;
+                if (!result.IsCompleted) continue;
+                ProcessLastChunk(resultCollection, skipLines, decoder, buffer);
+
+                break;
             }
 
             await reader.CompleteAsync();
+        }
+
+        private static void ProcessLastChunk(ICollection<string> resultCollection, byte[][]? skipLines, Decoder decoder,
+            ReadOnlySequence<byte> buffer)
+        {
+            if (buffer.IsEmpty) return;
+            ProcessLine(buffer, resultCollection, skipLines, decoder);
         }
 
         private static void ProcessLine(in ReadOnlySequence<byte> slice,
