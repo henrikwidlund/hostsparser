@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-08 12:51:04Z
+! Last Modified: 2021-08-08 13:32:39Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -11730,6 +11730,10 @@
 ||climatedepot.com^
 ||sisdtb.climatempo.com.br^
 ||climatesciencenews.com^
+||cdn.clinch.co^
+||trk.clinch.co^
+||img-cdn.clinch.co^
+||realtime.clinch.co^
 ||clinexcel.com^
 ||info.clinic-mail.net^
 ||test.cliniconnect.com.au^
@@ -16654,7 +16658,6 @@
 ||banners.easydns.com^
 ||easydownload.pl^
 ||newalways.easyfetmoredonefasterbysubmiting.download^
-||mautic.easygroup.vn^
 ||easymatchprediction.com^
 ||easymetal.it^
 ||easypdfcombine.com^
