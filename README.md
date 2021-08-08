@@ -58,17 +58,30 @@ You can build and run the program with Docker.
 docker build ./src/HostsParser
 ```
 ### Run
-There are currently no published Docker images.
-If you want to run the program via Docker, the repository must first be cloned.
+#### Docker Hub
+Images are available on [Docker Hub](https://hub.docker.com/r/henrikwidlund/hostsparser).
+```sh
+docker pull henrikwidlund/hostsparser \
+    && docker create --name hostsparser henrikwidlund/hostsparser \
+    && docker start hostsparser \
+    && docker wait hostsparser \
+    && docker cp hostsparser:/app/filter.txt . \
+    && docker rm -f hostsparser
+```
+The `filter.txt` file will be put into the current directory.
+
+#### Run from source
+If you'd rather build and run from source, execute the following from the repository root:
 ```sh
 IMAGE_ID=$(docker build ./src/HostsParser -q) \
+docker pull henrikwidlund/hostsparser
     && docker create --name hostsparser $IMAGE_ID \
     && docker start hostsparser \
     && docker wait hostsparser \
-    && docker cp hostsparser:/app/filter.txt ./artifacts \
+    && docker cp hostsparser:/app/filter.txt . \
     && docker rm -f hostsparser
 ```
-The `filter.txt` file will be put into the `artifacts` directory in the root of the repository.
+The `filter.txt` file will be put into the repository root.
 
 ## Configuration
 You may adjust the configuration of the application by modifying the `appsettings.json` file.
