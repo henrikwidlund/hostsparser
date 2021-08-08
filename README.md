@@ -11,7 +11,7 @@ By default [StevenBlack/hosts](https://github.com/StevenBlack/hosts)
 is processed to exclude entries already covered by the [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter)
 [file](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt).
 
-**Note** The file the program prodces can't be used as a regular hosts file, it must be used with a system that supports the `AdBlock` format.
+**Note** The file the program prodces can't be used as a regular `hosts` file, it must be used with a system that supports the `AdBlock` format.
 
 ## How to use with AdGuard Home
 1. Make sure that `AdGuard DNS filter` (or the custom `AdBlock` formatted file referenced when running the program) is active in DNS blocklists for your AdGuard Home instance.
@@ -19,7 +19,7 @@ is processed to exclude entries already covered by the [AdGuard DNS Filter](http
 
 Please refer to the [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) repository for further instructions on how to use DNS blocklists.
 
-**Note** If you've generated your own file, the Pre-built filter link should be replaced by the address to where you host your generated file.
+**Note** If you've generated your own file, the [`Pre-built filter`](#pre-built-filter) link should be replaced by the address to where you host your generated file.
 
 ### Pre-built filter
 The filter file is generated every six hours and is available for download [here](https://henrikwidlund.github.io/HostsParser/filter.txt).
