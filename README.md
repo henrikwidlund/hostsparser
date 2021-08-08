@@ -76,7 +76,6 @@ The `filter.txt` file will be put into the current directory.
 If you'd rather build and run from source, execute the following from the repository root:
 ```sh
 IMAGE_ID=$(docker build ./src/HostsParser -q) \
-docker pull henrikwidlund/hostsparser
     && docker create --name hostsparser $IMAGE_ID \
     && docker start hostsparser \
     && docker wait hostsparser \
