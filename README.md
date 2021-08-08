@@ -1,5 +1,7 @@
 # HostsParser
-[![Build/Publish](https://github.com/henrikwidlund/HostsParser/actions/workflows/publish-hosts.yml/badge.svg)](https://github.com/henrikwidlund/HostsParser/actions/workflows/publish-hosts.yml) [![CodeQL](https://github.com/henrikwidlund/HostsParser/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/henrikwidlund/HostsParser/actions/workflows/codeql-analysis.yml)
+[![Build/Publish](https://github.com/henrikwidlund/HostsParser/actions/workflows/publish-hosts.yml/badge.svg)](https://github.com/henrikwidlund/HostsParser/actions/workflows/publish-hosts.yml)
+[![Docker](https://github.com/henrikwidlund/HostsParser/actions/workflows/docker.yml/badge.svg)](https://github.com/henrikwidlund/HostsParser/actions/workflows/docker.yml)
+[![CodeQL](https://github.com/henrikwidlund/HostsParser/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/henrikwidlund/HostsParser/actions/workflows/codeql-analysis.yml)
 
 Converts a `hosts` ([`HostsBased`](#hostsbased)) based file into a `AdBlock` formatted file, optimized for [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome).
 It also removes duplicates, comments as well as hosts that are already blocked by a different `AdBlock` ([`AdBlockBased`](#adblockbased)) based file.
