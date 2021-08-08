@@ -10,9 +10,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gh-actions", "gh-actions", "{3C7AEF49-BBA6-4BDE-B869-A4A4DAEED012}"
 ProjectSection(SolutionItems) = preProject
 	..\.github\workflows\publish-hosts.yml = ..\.github\workflows\publish-hosts.yml
-	..\.github\workflows\release.yml = ..\.github\workflows\release.yml
 	..\.github\workflows\codeql-analysis.yml = ..\.github\workflows\codeql-analysis.yml
 	..\.github\workflows\docker-ci.yml = ..\.github\workflows\docker-ci.yml
+	..\.github\workflows\github-release.yml = ..\.github\workflows\github-release.yml
+	..\.github\workflows\docker-release.yml = ..\.github\workflows\docker-release.yml
 EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{4BF4C761-8D8D-4A91-BDA1-9105DD95ACBB}"
