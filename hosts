@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-08 00:27:39Z
+! Last Modified: 2021-08-08 06:09:17Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -13114,7 +13114,6 @@
 ||cws-sjc2.conviva.com^
 ||cws-usw2.conviva.com^
 ||cws-us-east.conviva.com^
-||e12872de91aaca7a39095801bdf5f168d87912fa.cws.conviva.com^
 ||conviviocm.pt^
 ||conviviox.com^
 ||iterable.convoy.com^
