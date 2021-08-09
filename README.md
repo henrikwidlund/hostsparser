@@ -1,7 +1,10 @@
 # HostsParser
-[![Build/Publish](https://github.com/henrikwidlund/HostsParser/actions/workflows/publish-hosts.yml/badge.svg)](https://github.com/henrikwidlund/HostsParser/actions/workflows/publish-hosts.yml)
-[![Docker](https://github.com/henrikwidlund/HostsParser/actions/workflows/docker.yml/badge.svg)](https://github.com/henrikwidlund/HostsParser/actions/workflows/docker.yml)
-[![CodeQL](https://github.com/henrikwidlund/HostsParser/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/henrikwidlund/HostsParser/actions/workflows/codeql-analysis.yml)
+
+[![Publish Filter](https://img.shields.io/github/workflow/status/henrikwidlund/hostsparser/Publish%20Filter?label=Publish%20Filter&logo=github)](https://github.com/henrikwidlund/hostsparser/actions/workflows/publish-filter.yml)
+[![CI](https://img.shields.io/github/workflow/status/henrikwidlund/hostsparser/Build%20and%20Test?label=CI&logo=github)](https://github.com/henrikwidlund/hostsparser/actions/workflows/ci.yml)
+[![CodeQL](https://img.shields.io/github/workflow/status/henrikwidlund/hostsparser/CodeQL?label=CodeQL&logo=github)](https://github.com/henrikwidlund/hostsparser/actions/workflows/codeql-analysis.yml)
+[![Docker](https://img.shields.io/github/workflow/status/henrikwidlund/hostsparser/Docker?label=Docker&logo=docker)](https://github.com/henrikwidlund/hostsparser/actions/workflows/docker.yml)
+[![codecov.io](https://img.shields.io/codecov/c/gh/henrikwidlund/hostsparser?label=codecov&logo=codecov)](https://codecov.io/gh/henrikwidlund/hostsparser)
 
 Tool that converts a `hosts` ([`HostsBased`](#hostsbased)) based file into a `AdBlock` formatted file, optimized for [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome).
 It also removes duplicates, comments as well as hosts that are already blocked by a different `AdBlock` ([`AdBlockBased`](#adblockbased)) based file.
@@ -22,7 +25,7 @@ Please refer to the [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) r
 **Note** If you've generated your own file, the [`Pre-built filter`](#pre-built-filter) link should be replaced by the address to where you host your generated file.
 
 ### Pre-built filter
-The filter file is generated every six hours and is available for download [here](https://henrikwidlund.github.io/HostsParser/filter.txt).
+The filter file is generated every six hours and is available for download [here](https://henrikwidlund.github.io/hostsparser/filter.txt).
 
 ## Building from source
 ### Prerequisites

@@ -1,10 +1,7 @@
-name: Build / Publish Hosts
+name: Publish Filter
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
     branches:
       - main
   schedule:

@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
 [assembly:InternalsVisibleTo("HostsParser.Benchmarks")]
+[assembly:InternalsVisibleTo("HostsParser.Tests")]
 
 namespace HostsParser
 {

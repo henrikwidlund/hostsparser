@@ -19,6 +19,7 @@ Please do:
 
 - **DO** follow our code styling as defined in `.editorconfig`.
 - **DO** give priority to the current style of the project or file you're changing even if it diverges from the general guidelines.
+- **DO** include tests when adding new features. When fixing bugs, make sure there's a specific test that covers what's fixed.
 - **DO** keep the discussions focused. When a new or related topic comes up
 it's often better to create new issue than to side track the discussion.
 
@@ -52,9 +53,11 @@ We use and recommend the following workflow:
 4. Make and commit your changes to your branch.
     - [Building from source](README.md#building-from-source) explains how to build.
     - Please follow our [Commit Messages](#commit-messages) guidance.
-5. Build the repository with your changes.
+5. Add new tests corresponding to your change, if applicable.
+6. Build the repository with your changes.
     - Make sure that the builds are clean.
-6. Create a pull request (PR) against the HostsParser repository's **main** branch.
+    - Make sure that the tests are all passing, including your new tests.
+7. Create a pull request (PR) against the HostsParser repository's **main** branch.
     - State in the description what issue or improvement your change is addressing, type of change and linked issues (if applicable).
     - Check if all the Continuous Integration checks are passing.
 8. Wait for feedback or approval of your changes from the owners.
@@ -96,7 +99,7 @@ The following file header is the used for .NET Core. Please use it for new files
 
 ## PR - CI Process
 
-The Continuous Integration (CI) system will automatically perform the required builds and verifications (including the ones you are expected to run) for PRs.
+The Continuous Integration (CI) system will automatically perform the required builds, tests and verifications (including the ones you are expected to run) for PRs. Builds and test runs must be clean.
 
 If the CI build fails for any reason, you are expected to make adjustments to your changes in order for it to work, or ask a community member for assistance.
 
