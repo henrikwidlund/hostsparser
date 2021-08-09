@@ -3,7 +3,7 @@
 [![Docker](https://github.com/henrikwidlund/HostsParser/actions/workflows/docker.yml/badge.svg)](https://github.com/henrikwidlund/HostsParser/actions/workflows/docker.yml)
 [![CodeQL](https://github.com/henrikwidlund/HostsParser/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/henrikwidlund/HostsParser/actions/workflows/codeql-analysis.yml)
 [![codecov.io](https://codecov.io/gh/henrikwidlund/hostsparser/coverage.svg?style=social&logo=appveyor&branch=henrikwidlund/feat-unit_tests)](https://codecov.io/gh/henrikwidlund/hostsparser/coverage.svg?branch=henrikwidlund/feat-unit_tests)
-[![codecov.io](https://img.shields.io/codecov/c/gh/henrikwidlund/hostsparser?style=flat-square)](https://codecov.io/gh/henrikwidlund/hostsparser/coverage.svg?branch=henrikwidlund/feat-unit_tests)
+[![codecov.io](https://img.shields.io/codecov/c/gh/henrikwidlund/hostsparser?style=flat)](https://codecov.io/gh/henrikwidlund/hostsparser/coverage.svg?branch=henrikwidlund/feat-unit_tests)
 
 
 Tool that converts a `hosts` ([`HostsBased`](#hostsbased)) based file into a `AdBlock` formatted file, optimized for [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome).
