@@ -1,0 +1,42 @@
+name: Build and Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x
+          include-prerelease: true
+
+      - name: Restore dependencies
+        run: dotnet restore ./src
+
+      - name: Build
+        run: dotnet build ./src --no-restore
+
+      - name: Test
+        run: dotnet test ./src --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+
+      - name: Run HostsParser
+        run: dotnet ./src/HostsParser/bin/Debug/net6.0/HostsParser.dll
+
+      - uses: codecov/codecov-action@v2
+        with:
+#          files: ./coverage1.xml,./coverage2.xml # optional
+#          flags: unittests # optional
+#          name: codecov-umbrella # optional
+          fail_ci_if_error: true # optional (default = false)
+          verbose: true # optional (default = false)
