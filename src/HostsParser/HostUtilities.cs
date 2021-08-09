@@ -129,7 +129,7 @@ namespace HostsParser
         }
 
         private static void ProcessLastChunk(ICollection<string> resultCollection, byte[][]? skipLines, Decoder decoder,
-            ReadOnlySequence<byte> buffer)
+            in ReadOnlySequence<byte> buffer)
         {
             if (buffer.IsEmpty) return;
             ProcessLine(buffer, resultCollection, skipLines, decoder);
