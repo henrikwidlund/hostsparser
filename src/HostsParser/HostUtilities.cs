@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace HostsParser
 {
-    internal static class HostUtilities
+    public static class HostUtilities
     {
         private static readonly Memory<char> Cache = new char[256];
 
@@ -22,7 +22,7 @@ namespace HostsParser
         /// <param name="stream">The <see cref="Stream"/> to process.</param>
         /// <param name="skipLines">The lines that should be excluded from the returned result.</param>
         /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
-        internal static async Task<HashSet<string>> ProcessHostsBased(Stream stream,
+        public static async Task<HashSet<string>> ProcessHostsBased(Stream stream,
             byte[][]? skipLines,
             Decoder decoder)
         {
@@ -38,7 +38,7 @@ namespace HostsParser
         /// </summary>
         /// <param name="stream">The <see cref="Stream"/> to process.</param>
         /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
-        internal static async Task<HashSet<string>> ProcessAdBlockBased(Stream stream,
+        public static async Task<HashSet<string>> ProcessAdBlockBased(Stream stream,
             Decoder decoder)
         {
             var pipeReader = PipeReader.Create(stream);
@@ -53,7 +53,7 @@ namespace HostsParser
         /// </summary>
         /// <param name="knownBadHosts">Array of hosts used for removing sub domains.</param>
         /// <param name="hosts">The collection of hosts that sub domains should be removed from.</param>
-        internal static HashSet<string> RemoveKnownBadHosts(string[] knownBadHosts,
+        public static HashSet<string> RemoveKnownBadHosts(string[] knownBadHosts,
             HashSet<string> hosts)
         {
             var except = new List<string>(hosts.Count);
@@ -82,7 +82,7 @@ namespace HostsParser
         /// <param name="potentialSubDomain">The potential sub domain.</param>
         /// <param name="potentialDomain">The potential domain.</param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        internal static bool IsSubDomainOf(in ReadOnlySpan<char> potentialSubDomain,
+        public static bool IsSubDomainOf(in ReadOnlySpan<char> potentialSubDomain,
             in ReadOnlySpan<char> potentialDomain)
         {
             if (potentialDomain.Length < 1
