@@ -1,8 +1,9 @@
 name: GitHub Release
 
 on:
-  release:
-    types: [published]
+  push:
+    tags:
+      - "v*.*.*"
 
 jobs:
   release:
