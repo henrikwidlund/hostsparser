@@ -21,22 +21,22 @@ jobs:
           dotnet-version: 6.0.x
           include-prerelease: true
 
-      - name: Restore dependencies
+      - name: Restore Dependencies
         run: dotnet restore ./src
 
       - name: Build
         run: dotnet build ./src --no-restore
 
-      - name: Test
+      - name: Run Unit Tests
         run: dotnet test ./src --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
-
-      - name: Run HostsParser
-        run: |
-          ./build.sh
-          cd ./artifacts
-          dotnet HostsParser.dll
 
       - uses: codecov/codecov-action@v2
         with:
           flags: unittests
           fail_ci_if_error: true
+
+      - name: Run Integration Tests
+        run: |
+          ./build.sh
+          cd ./artifacts
+          dotnet HostsParser.dll
