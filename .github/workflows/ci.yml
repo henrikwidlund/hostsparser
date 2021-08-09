@@ -25,14 +25,14 @@ jobs:
         run: dotnet restore ./src
 
       - name: Build
-        run: dotnet build ./src --no-restore
+        run: dotnet build ./src -c Release --no-restore
 
       - name: Test
-        run: dotnet test ./src --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+        run: dotnet test ./src -c Release --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
 
       - name: Run HostsParser
         run: |
-          cd ./src/HostsParser/bin/Debug/net6.0/
+          cd ./src/HostsParser/bin/Release/net6.0/
           dotnet HostsParser.dll
 
       - uses: codecov/codecov-action@v2
