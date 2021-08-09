@@ -33,7 +33,8 @@ jobs:
       - name: Run HostsParser
         run: |
           ./build.sh
-          dotnet ./artifacts/HostsParser.dll
+          cd ./artifacts
+          dotnet HostsParser.dll
 
       - uses: codecov/codecov-action@v2
         with:
