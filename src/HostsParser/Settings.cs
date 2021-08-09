@@ -24,7 +24,7 @@ namespace HostsParser
     /// <example>HostsBased results might contain a.baddomain.com and b.baddomain.com, adding baddomain.com
     /// will remove the sub domain entries and block baddomain.com and all of its subdomains.</example>
     /// </param>
-    internal sealed record Settings(
+    public sealed record Settings(
         SourceEntry HostsBased,
         SourceEntry AdBlockBased,
         string[] HeaderLines,
@@ -36,10 +36,10 @@ namespace HostsParser
     /// </summary>
     /// <param name="SourceUri">The <see cref="Uri"/> containing the hosts.</param>
     /// <param name="SkipLines">Array of strings that, if present in the result from <see cref="SourceUri"/> will be filtered out.</param>
-    internal sealed record SourceEntry(
+    public sealed record SourceEntry(
         Uri SourceUri,
         string[]? SkipLines)
     {
-        internal readonly byte[][]? SkipLinesBytes = SkipLines?.Select(s => Encoding.UTF8.GetBytes(s)).ToArray();
+        public readonly byte[][]? SkipLinesBytes = SkipLines?.Select(s => Encoding.UTF8.GetBytes(s)).ToArray();
     }
 }

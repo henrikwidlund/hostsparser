@@ -8,13 +8,13 @@ using System.Runtime.CompilerServices;
 
 namespace HostsParser
 {
-    internal static class CollectionUtilities
+    public static class CollectionUtilities
     {
         /// <summary>
         /// Sorts <paramref name="dnsCollection"/> by domain and length.
         /// </summary>
         /// <param name="dnsCollection">The collection to sort.</param>
-        internal static List<string> SortDnsList(ICollection<string> dnsCollection)
+        public static List<string> SortDnsList(ICollection<string> dnsCollection)
         {
             List<string> list = new(dnsCollection.Count);
             list.AddRange(dnsCollection
@@ -29,7 +29,8 @@ namespace HostsParser
         /// <summary>
         /// Filters out all sub domains from <paramref name="dnsCollection"/> for which a domain is contained.
         /// </summary>
-        internal static void FilterGrouped(HashSet<string> dnsCollection)
+        /// <param name="dnsCollection">The collection that will be filtered.</param>
+        public static void FilterGrouped(HashSet<string> dnsCollection)
         {
             var cacheHashSet = CreateCacheHashSet(dnsCollection);
 
@@ -58,8 +59,7 @@ namespace HostsParser
         /// and value is a list of found sub domains.
         /// </summary>
         /// <param name="dnsCollection">The collection used for grouping.</param>
-        /// <returns></returns>
-        internal static Dictionary<int, List<string>> GroupDnsList(HashSet<string> dnsCollection)
+        public static Dictionary<int, List<string>> GroupDnsList(HashSet<string> dnsCollection)
         {
             var dict = new Dictionary<int, List<string>>(dnsCollection.Count);
             foreach (var s in dnsCollection)

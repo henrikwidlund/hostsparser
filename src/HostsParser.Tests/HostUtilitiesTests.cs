@@ -60,7 +60,7 @@ namespace HostsParser.Tests
             dnsCollection.Should().HaveSameCount(expected);
             dnsCollection.Should().OnlyContain(s => expected.Contains(s));
         }
-        
+
         [Fact]
         public async Task ProcessAdBlockBased_Should_Only_Return_Dns_Entries()
         {
@@ -77,6 +77,7 @@ namespace HostsParser.Tests
                                        + "\n"
                                        + "||dns-c.com^ #Comment"
                                        + "\n";
+
             var expected = new HashSet<string> { "dns-a.com", "dns-b.com", "dns-c.com" };
             await using var memoryStream = new MemoryStream();
             await using var streamWriter = new StreamWriter(memoryStream);
@@ -94,7 +95,7 @@ namespace HostsParser.Tests
             dnsCollection.Should().HaveSameCount(expected);
             dnsCollection.Should().OnlyContain(s => expected.Contains(s));
         }
-        
+
         [Fact]
         public void RemoveKnownBadHosts_Should_Remove_All_SubDomain_Entries_Of_Known_Bad_Hosts()
         {
@@ -119,7 +120,7 @@ namespace HostsParser.Tests
             dnsCollection.Should().HaveSameCount(expected);
             dnsCollection.Should().OnlyContain(s => expected.Contains(s));
         }
-        
+
         [Theory]
         [InlineData("subdomain.domain.com", "domain.com", true)]
         [InlineData("a.subdomain.domain.com", "domain.com", true)]
