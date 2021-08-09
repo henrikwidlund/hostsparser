@@ -50,7 +50,7 @@ jobs:
           # Delete output directory
           rm -r "./release"
       - name: Publish
-        uses: softprops/action-gh-release@v0.1.11
+        uses: softprops/action-gh-release@v0.1.8
         with:
           files: |
             HostsParser*.zip
