@@ -37,8 +37,5 @@ jobs:
 
       - uses: codecov/codecov-action@v2
         with:
-#          token: ${{ secrets.CODECOV_TOKEN }}
-#          files: ./src/HostsParser.Tests/coverage.opencover.xml
           flags: unittests
           fail_ci_if_error: true
-          verbose: true
