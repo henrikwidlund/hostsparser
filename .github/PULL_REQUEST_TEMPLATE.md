@@ -15,6 +15,7 @@
 - [ ] Code style optimization
 - [ ] Unit tests
 - [ ] Branch merge
+- [ ] Docs
 - [ ] Other (please describe in description)
 
 ## Fixes Issue(s)
