@@ -258,7 +258,7 @@ dotnet_style_allow_statement_immediately_after_block_experimental = false
 # IDE0011: Add braces
 csharp_prefer_braces = false:suggestion
 # NOTE: We need the below severity entry for Add Braces due to https://github.com/dotnet/roslyn/issues/44201
-dotnet_diagnostic.IDE0011.severity = false
+dotnet_diagnostic.IDE0011.severity = suggestion
 
 # IDE0040: Add accessibility modifiers
 dotnet_diagnostic.IDE0040.severity = warning
