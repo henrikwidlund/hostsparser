@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-10 00:52:51Z
+! Last Modified: 2021-08-10 06:19:32Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -15767,6 +15767,7 @@
 ||digitalplayground.com^
 ||ads.digitalpoint.com^
 ||geo.digitalpoint.com^
+||display.digitalriver.com^
 ||ntbanner.digitalriver.com^
 ||affiliates.digitalriver.com^
 ||digitals-space.com^
@@ -17463,7 +17464,6 @@
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ma156-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -29250,9 +29250,6 @@
 ||ads.jpost.com^
 ||official.jpreturns.com^
 ||gallery.jpsex-xxx.com^
-||s.jpush.cn^
-||im64.jpush.cn^
-||stats.jpush.cn^
 ||sis.jpush.io^
 ||jpwoodfordco.com^
 ||jpxxx.tv^
@@ -41977,7 +41974,6 @@
 ||t-s.perjeta.com^
 ||metrics.perjeta.com^
 ||smetrics.perjeta.com^
-||perk0mean.com^
 ||info.perkinelmer.com^
 ||perkybabe.com^
 ||perlaibracia.pl^
@@ -57356,6 +57352,7 @@
 ||upgradeexplorer.com^
 ||relaxsearch.uphero.com^
 ||oascentral.upi.com^
+||eblastengine.upickem.net^
 ||upicsz.com^
 ||uploadyourporn.com^
 ||uplooti.com^
