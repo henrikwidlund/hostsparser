@@ -48,7 +48,7 @@ We use and recommend the following workflow:
     - Clearly state that you are going to take on implementing it, if that's the case. You can request that the issue be assigned to you. Note: The issue filer and the implementer don't have to be the same person.
 2. Create a personal fork of the repository on GitHub (if you don't already have one).
 3. In your fork, create a branch off of main (`git checkout -b mybranch`).
-    - Name the branch so that it clearly communicates your intentions, such as githubhandle-bug-description, githubhandle-feat-issue_id or githubhandle-sec-issue_id-description.
+    - Name the branch so that it clearly communicates your intentions, such as githubhandle/bug-description, githubhandle/feat-issue_id or githubhandle/sec-issue_id-description.
     - Branches are useful since they isolate your changes from incoming changes from upstream. They also enable you to create multiple PRs from the same fork.
 4. Make and commit your changes to your branch.
     - [Building from source](README.md#building-from-source) explains how to build.
