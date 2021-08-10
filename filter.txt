@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-10 09:57:04Z
+! Last Modified: 2021-08-10 11:30:39Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -46986,7 +46986,6 @@
 ||redixxmen.com^
 ||redkings.com^
 ||go.redkite.org.au^
-||smetrics.redletterdays.co.uk^
 ||redlight.com^
 ||redlightcenter.com^
 ||redlog.cl^
@@ -57234,6 +57233,8 @@
 ||eloqua-trackings.unity.com^
 ||salesforce.unity.edu^
 ||create.unity3d.com^
+||auction.unityads.unity3d.com^
+||webview.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
