@@ -100,7 +100,7 @@ namespace HostsParser.Tests
         public void RemoveKnownBadHosts_Should_Remove_All_SubDomain_Entries_Of_Known_Bad_Hosts()
         {
             // Arrange
-            var knownBadHosts = new [] { "bad-dns.com", "another-bad-dns.co.com" };
+            var knownBadHosts = new[] { "bad-dns.com", "another-bad-dns.co.com" };
             var dnsCollection = new HashSet<string>
             {
                 "a.bad-dns.com",

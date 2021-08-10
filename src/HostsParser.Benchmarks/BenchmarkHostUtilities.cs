@@ -58,7 +58,9 @@ namespace HostsParser.Benchmarks
         public void RemoveKnownBadHosts(HashSet<string> data)
             => HostUtilities.RemoveKnownBadHosts(BenchmarkTestData.Settings.KnownBadHosts, data);
 
+#pragma warning disable CA1822 // Mark members as static
         public IEnumerable<HashSet<string>> Source()
+#pragma warning restore CA1822 // Mark members as static
         {
             var stream = PrepareStream();
             var hostsBasedLines = HostUtilities

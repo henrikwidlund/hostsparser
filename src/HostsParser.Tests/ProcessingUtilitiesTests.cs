@@ -38,7 +38,7 @@ namespace HostsParser.Tests
             sortedDnsList.Should().HaveSameCount(expected);
             sortedDnsList.Should().OnlyContain(s => expected.Contains(s));
         }
-        
+
         [Fact]
         public void ProcessWithExtraFiltering_Should_Remove_All_Matching_SubDomains()
         {

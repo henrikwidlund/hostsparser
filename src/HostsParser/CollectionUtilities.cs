@@ -1,4 +1,4 @@
-﻿// Copyright Henrik Widlund
+// Copyright Henrik Widlund
 // GNU General Public License v3.0
 
 using System;
@@ -154,7 +154,7 @@ namespace HostsParser
 
                 return dns.Length > 3 ? dns : item[(indexes[^3] + 1)..];
             }
-            
+
             var slicedItem = item[(indexes[0] + 1)..indexes[1]];
             // Check domains ending with x.y where x is shorter than 4 char against known second level top domains.
             // If false, treat x.y as a domain so that any found sub domain will be sorted under it.

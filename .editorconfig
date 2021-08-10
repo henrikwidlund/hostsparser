@@ -46,10 +46,10 @@ dotnet_diagnostic.IDE0055.severity = warning
 dotnet_sort_system_directives_first = true
 dotnet_separate_import_directive_groups = false
 # Avoid "this." and "Me." if not necessary
-dotnet_style_qualification_for_field = false:refactoring
-dotnet_style_qualification_for_property = false:refactoring
-dotnet_style_qualification_for_method = false:refactoring
-dotnet_style_qualification_for_event = false:refactoring
+dotnet_style_qualification_for_field =false:error
+dotnet_style_qualification_for_property =false:error
+dotnet_style_qualification_for_method =false:error
+dotnet_style_qualification_for_event =false:error
 
 # Use language keywords instead of framework type names for type references
 dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
@@ -165,6 +165,16 @@ dotnet_diagnostic.IDE0044.severity = warning
 
 # RS0016: Only enable if API files are present
 dotnet_public_api_analyzer.require_api_files = true
+end_of_line=lf
+dotnet_style_prefer_is_null_check_over_reference_equality_method=true:warning
+dotnet_code_quality_unused_parameters=all:warning
+dotnet_diagnostic.CA1068.severity=warning
+dotnet_diagnostic.CA1829.severity=error
+dotnet_diagnostic.CA1847.severity=warning
+dotnet_diagnostic.CA2007.severity=silent
+dotnet_diagnostic.CA5351.severity=warning
+dotnet_diagnostic.CA5350.severity=warning
+dotnet_diagnostic.CA2201.severity=suggestion
 
 # CSharp code style settings:
 [*.cs]
@@ -246,9 +256,9 @@ csharp_preserve_single_line_statements = true
 dotnet_style_allow_statement_immediately_after_block_experimental = false
 
 # IDE0011: Add braces
-csharp_prefer_braces = when_multiline:warning
+csharp_prefer_braces = false:suggestion
 # NOTE: We need the below severity entry for Add Braces due to https://github.com/dotnet/roslyn/issues/44201
-dotnet_diagnostic.IDE0011.severity = warning
+dotnet_diagnostic.IDE0011.severity = false
 
 # IDE0040: Add accessibility modifiers
 dotnet_diagnostic.IDE0040.severity = warning
@@ -271,6 +281,11 @@ dotnet_diagnostic.CA1012.severity = warning
 
 # CA1822: Make member static
 dotnet_diagnostic.CA1822.severity = warning
+csharp_using_directive_placement=outside_namespace:error
+csharp_prefer_simple_default_expression=true:error
+csharp_style_unused_value_assignment_preference=discard_variable:warning
+dotnet_diagnostic.CA1507.severity=warning
+dotnet_diagnostic.CA1805.severity=suggestion
 
 [src/HostsParser.Benchmarks/**.cs]
 dotnet_diagnostic.CA1822.severity = suggestion
