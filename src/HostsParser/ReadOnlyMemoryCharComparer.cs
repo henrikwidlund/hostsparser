@@ -16,6 +16,9 @@ namespace HostsParser
         /// </summary>
         public static readonly ReadOnlyMemoryCharComparer Default = new();
 
+        /// <summary>
+        /// Compares <paramref name="x"/> against <paramref name="y"/> using <see cref="StringComparison.Ordinal"/>.
+        /// </summary>
         public int Compare(ReadOnlyMemory<char> x, ReadOnlyMemory<char> y)
             => x.Span.CompareTo(y.Span, StringComparison.Ordinal);
     }

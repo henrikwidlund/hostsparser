@@ -1,4 +1,4 @@
-﻿// Copyright Henrik Widlund
+// Copyright Henrik Widlund
 // GNU General Public License v3.0
 
 using System;
