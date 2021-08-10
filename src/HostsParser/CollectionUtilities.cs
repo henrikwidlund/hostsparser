@@ -39,7 +39,7 @@ namespace HostsParser
             foreach (var (key, value) in dnsGroups)
             {
                 if (!cacheHashSet.Contains(key)
-                   || value.Count < 2)
+                    || value.Count < 2)
                     continue;
 
                 for (var index = 0; index < value.Count; index++)
