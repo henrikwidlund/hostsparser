@@ -17,15 +17,21 @@ is processed to exclude entries already covered by the [AdGuard DNS Filter](http
 **Note** The file the program prodces can't be used as a regular `hosts` file, it must be used with a system that supports the `AdBlock` format.
 
 ## How to use with AdGuard Home
-1. Make sure that `AdGuard DNS filter` (or the custom `AdBlock` formatted file referenced when running the program) is active in DNS blocklists for your AdGuard Home instance.
-2. Copy the link to the [Pre-built filter](#pre-built-filter) and add it to your DNS blocklists as a custom list in your AdGuard Home instance.
-
-Please refer to the [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) repository for further instructions on how to use DNS blocklists.
-
-**Note** If you've generated your own file, the [`Pre-built filter`](#pre-built-filter) link should be replaced by the address to where you host your generated file.
-
 ### Pre-built filter
 The filter file is generated every six hours and is available for download [here](https://henrikwidlund.github.io/hostsparser/filter.txt).
+
+### Adding the filter
+1. Make sure that `AdGuard DNS filter` (or the custom `AdBlock` formatted file referenced when running the program) is active in DNS blocklists for your AdGuard Home instance.
+![image](https://user-images.githubusercontent.com/4659350/129019696-98c7549a-b0ba-49a3-abf8-154b2e8fa762.png)
+If it's not active, scroll down to the bottom of the page and click on `Add blocklist`<br><img width="345" src="https://user-images.githubusercontent.com/4659350/129022788-286b3a8f-d88b-404b-996e-27c69226a977.png"><br>
+Select `Choose from the list`<br>
+<img width="487" src="https://user-images.githubusercontent.com/4659350/129023895-81ec866e-05e7-4519-ba00-2f181ab20983.png"><br>And finally select `AdGuard DNS filter` and click `Save`<br><img width="487" src="https://user-images.githubusercontent.com/4659350/129022979-b0f8b76c-2ed7-43fb-9e28-a668e693ddd2.png">
+
+2. Copy the link to the [Pre-built filter](#pre-built-filter) and add it to your DNS blocklists as a custom list in your AdGuard Home instance by repeating the previous step, except choose `Add a custom list` instead of `Choose from the list`. In the dialog that appears, enter a name of your choosing and the URL as instructed. Click on `Save`.<img width="487" src="https://user-images.githubusercontent.com/4659350/129023436-be65ff8a-acc6-47ef-ba05-23074f96fd73.png">
+
+Please refer to the [AdGuard Home Wiki](https://github.com/AdguardTeam/AdGuardHome/wiki) for further details on DNS blocklists.
+
+**Note** If you've generated your own file, the [`Pre-built filter`](#pre-built-filter) link should be replaced by the address to where you host your generated file.
 
 ## Building from source
 ### Prerequisites
