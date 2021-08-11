@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-11 15:28:49Z
+! Last Modified: 2021-08-11 18:19:06Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -57234,6 +57234,7 @@
 ||eloqua-trackings.unity.com^
 ||salesforce.unity.edu^
 ||create.unity3d.com^
+||auction.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -63145,7 +63146,6 @@
 ||zina-boutique.com^
 ||tes.zindap.com^
 ||vietnam.zing.photos^
-||app.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||ziololecznictwo.pl^
 ||tc.zionsbank.com^
@@ -63164,6 +63164,7 @@
 ||zishy.com^
 ||trk.zkai.co.jp^
 ||ebis01.zkai.co.jp^
+||samc.zkb.ch^
 ||s.zkcdn.net^
 ||zkotami.pl^
 ||zlatski.pl^
