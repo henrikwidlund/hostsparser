@@ -14,18 +14,45 @@ By default [StevenBlack/hosts](https://github.com/StevenBlack/hosts)
 is processed to exclude entries already covered by the [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter)
 [file](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt).
 
-**Note** The file the program prodces can't be used as a regular `hosts` file, it must be used with a system that supports the `AdBlock` format.
+**Note** The file the program produces can't be used as a regular `hosts` file, it must be used with a system that supports the `AdBlock` format.
 
 ## How to use with AdGuard Home
-1. Make sure that `AdGuard DNS filter` (or the custom `AdBlock` formatted file referenced when running the program) is active in DNS blocklists for your AdGuard Home instance.
-2. Copy the link to the [Pre-built filter](#pre-built-filter) and add it to your DNS blocklists as a custom list in your AdGuard Home instance.
-
-Please refer to the [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) repository for further instructions on how to use DNS blocklists.
-
-**Note** If you've generated your own file, the [`Pre-built filter`](#pre-built-filter) link should be replaced by the address to where you host your generated file.
-
 ### Pre-built filter
 The filter file is generated every six hours and is available for download [here](https://henrikwidlund.github.io/hostsparser/filter.txt).
+
+### Adding the filters via UI
+![Adding the filter](https://user-images.githubusercontent.com/4659350/129190970-bf26b383-b28d-4783-882b-372a9fe3afb8.gif)
+1. Make sure that `AdGuard DNS filter` (or the custom `AdBlock` formatted file referenced when running the program) is enabled in DNS blocklists for your AdGuard Home instance.
+  * If the filter isn't added, scroll down to the bottom of the page and click on `Add blocklist`.
+  * Select `Choose from the list`.
+  * Finally select `AdGuard DNS filter` and click `Save`.
+2. Copy the link to the [Pre-built filter](#pre-built-filter) and add it to your DNS blocklists as a custom list in your AdGuard Home instance by repeating the instructions in step 1, except this time, choose `Add a custom list` instead of `Choose from the list`. In the dialog that appears, enter a name of your choosing and the URL to it. Click on `Save`.
+
+### Adding the filters via YAML
+Open and edit the `AdGuardHome.yaml` file, scroll down to the section `filters`.
+1. Make sure that the `AdGuard DNS filter` is enabled (or the custom `AdBlock` formatted file referenced when running the program)
+```yaml
+filters:
+- enabled: true
+  url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+  name: AdGuard DNS filter
+  id: 1
+```
+2. Add the [Pre-built filter](#pre-built-filter), replace the `id` value with [Unix Time](https://en.wikipedia.org/wiki/Unix_time).
+```yaml
+filters:
+...
+- enabled: true
+  url: https://henrikwidlund.github.io/hostsparser/filter.txt
+  name: HostsParser
+  id: 1621690654
+...
+```
+3. Restart the service.
+
+Please refer to the [AdGuard Home Wiki](https://github.com/AdguardTeam/AdGuardHome/wiki) for further details on DNS blocklists.
+
+**Note** If you've generated your own file, the [`Pre-built filter`](#pre-built-filter) link should be replaced by the address to where you host your generated file.
 
 ## Building from source
 ### Prerequisites
@@ -96,7 +123,7 @@ You may adjust the configuration of the application by modifying the `appsetting
 |[`AdBlockBased`](#adblockbased)|`object`|`true`|Settings used for processing a AdBlock formatted source.|
 |`ExtraFiltering`|`bool`|`true`|Setting to indicate if extra filtering should be performed.<br>If `true`, the program will check each element in the result against each other and remove any entry that would be blocked by a more general entry.|
 |`HeaderLines`|`string[]`|`true`|Defines a set of lines that will be inserted at the top of the generated file, for example copyright.|
-|`KnownBadHosts`|`string[]`|`true`|Array of unwanted hosts. These entries will be added to the result if they're not covered by the `AdBlockBased` entries.<br>You can also add generalized hosts to reduce the number of entries in final results.<br>For example: `HostsBased` results might contain `a.baddomain.com` and `b.baddomain.com`, adding `baddomain.com` will remove the sub domain entries and block `baddomain.com` and all of its subdomains.|
+|`KnownBadHosts`|`string[]`|`true`|Array of unwanted hosts. These entries will be added to the result if they're not covered by the `AdBlockBased` entries.<br>You can also add generalized hosts to reduce the number of entries in the final results.<br>For example: `HostsBased` results might contain `a.baddomain.com` and `b.baddomain.com`, adding `baddomain.com` will remove the sub domain entries and block `baddomain.com` and all of its subdomains.|
 
 ### <a name="hostsbased"></a>`HostsBased`
 | Property | Type | Required | Description |
