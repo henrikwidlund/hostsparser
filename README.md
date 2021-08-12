@@ -20,13 +20,35 @@ is processed to exclude entries already covered by the [AdGuard DNS Filter](http
 ### Pre-built filter
 The filter file is generated every six hours and is available for download [here](https://henrikwidlund.github.io/hostsparser/filter.txt).
 
-### Adding the filter
+### Adding the filters via UI
 ![Adding the filter](https://user-images.githubusercontent.com/4659350/129190970-bf26b383-b28d-4783-882b-372a9fe3afb8.gif)
 1. Make sure that `AdGuard DNS filter` (or the custom `AdBlock` formatted file referenced when running the program) is enabled in DNS blocklists for your AdGuard Home instance.
   * If the filter isn't added, scroll down to the bottom of the page and click on `Add blocklist`.
   * Select `Choose from the list`.
   * Finally select `AdGuard DNS filter` and click `Save`.
 2. Copy the link to the [Pre-built filter](#pre-built-filter) and add it to your DNS blocklists as a custom list in your AdGuard Home instance by repeating the instructions in step 1, except this time, choose `Add a custom list` instead of `Choose from the list`. In the dialog that appears, enter a name of your choosing and the URL to it. Click on `Save`.
+
+### Adding the filters via YAML
+Open and edit the `AdGuardHome.yaml` file, scroll down to the section `filters`.
+1. Make sure that the `AdGuard DNS filter` is enabled (or the custom `AdBlock` formatted file referenced when running the program)
+```yaml
+filters:
+- enabled: true
+  url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+  name: AdGuard DNS filter
+  id: 1
+```
+2. Add the [Pre-built filter](#pre-built-filter), replace the `id` value with [Unix Time](https://en.wikipedia.org/wiki/Unix_time).
+```yaml
+filters:
+...
+- enabled: true
+  url: https://henrikwidlund.github.io/hostsparser/filter.txt
+  name: HostsParser
+  id: 1621690654
+...
+```
+3. Restart the service.
 
 Please refer to the [AdGuard Home Wiki](https://github.com/AdguardTeam/AdGuardHome/wiki) for further details on DNS blocklists.
 
