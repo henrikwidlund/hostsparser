@@ -56,7 +56,7 @@ Please refer to the [AdGuard Home Wiki](https://github.com/AdguardTeam/AdGuardHo
 
 ## Building from source
 ### Prerequisites
-[dotnet 6 SDK](https://dotnet.microsoft.com/download).
+[dotnet 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0).
 
 Run the following from the directory you cloned the repository to:
 
@@ -72,7 +72,7 @@ The built files will be put in the `artifacts` directory, in the root of the rep
 
 ## Running
 ### Prerequisites
-1. [dotnet 6 runtime](https://dotnet.microsoft.com/download).
+1. [dotnet 6 runtime](https://dotnet.microsoft.com/download/dotnet/6.0).
 2. Downloaded binaries or binaries built from source.
 
 Run the following (if you built from source, this will be in `artifacts` directory, in the root of the repository):
@@ -105,7 +105,7 @@ The `filter.txt` file will be put into the current directory.
 #### Run from source
 If you'd rather build and run from source, execute the following from the repository root:
 ```sh
-IMAGE_ID=$(docker build ./src/HostsParser -q) \
+IMAGE_ID=$(docker build ./src/HostsParser -q -t 'hostsparser') \
     && docker create --name hostsparser $IMAGE_ID \
     && docker start hostsparser \
     && docker wait hostsparser \
