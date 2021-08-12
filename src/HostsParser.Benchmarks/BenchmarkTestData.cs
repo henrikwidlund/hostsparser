@@ -13,7 +13,7 @@ namespace HostsParser.Benchmarks
         public static readonly byte[] AdBlockBasedTestBytes = File.ReadAllBytes("adbockbased.txt");
 
         public static readonly Settings Settings =
-            JsonSerializer.Deserialize<Settings>(File.ReadAllBytes("appsettings.json"));
+            JsonSerializer.Deserialize<Settings>(File.ReadAllBytes("appsettings.json"))!;
 
         public static readonly Decoder Decoder = Encoding.UTF8.GetDecoder();
     }
