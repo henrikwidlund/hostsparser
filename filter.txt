@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-13 06:19:41Z
+! Last Modified: 2021-08-13 12:24:22Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -5273,7 +5273,6 @@
 ||etrack.ext.arubainstanton.com^
 ||etrack.ext.arubanetworks.com^
 ||connecttest.arubanetworks.com^
-||analytics.arunraghavan.net^
 ||go.aruplab.com^
 ||lp-info.arval.it^
 ||affiliates.arvixe.com^
@@ -31136,6 +31135,7 @@
 ||www2.lenoxsoft.com^
 ||a8.lens-labo.com^
 ||smetrics.lenscrafters.ca^
+||next.lenzmx.com^
 ||leo.cz^
 ||ads.leo.org^
 ||advert.leo.org^
