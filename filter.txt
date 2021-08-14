@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-14 12:23:30Z
+! Last Modified: 2021-08-14 18:18:18Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -45619,7 +45619,6 @@
 ||content.progroep.nl^
 ||img.prohardver.hu^
 ||186943.prohoster.biz^
-||armanix.white.prohosting.com^
 ||project1content.com^
 ||site-api.project1service.com^
 ||narwhal.projectf.io^
@@ -49257,6 +49256,7 @@
 ||secure167.servconfig.com^
 ||servedby-buysellads.com^
 ||roomsvc.servegate.kr^
+||secure-payuser01.serveirc.com^
 ||hotchix.servepics.com^
 ||www9.servequake.com^
 ||assyoulike.servequake.com^
@@ -62099,7 +62099,6 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
