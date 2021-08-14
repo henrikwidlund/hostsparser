@@ -24,12 +24,16 @@ namespace HostsParser
     /// <para>If <see langword="true"/>, the program will check each element in the result against each other
     /// and remove any entry that would be blocked by a more general entry.</para>
     /// </param>
+    /// <param name="MultiPassFilter">If set to <see langword="true" /> the final results will be scanned
+    /// multiple times until no duplicates are found. Default behaviour assumes duplicates are removed after
+    /// one iteration.</param>
     public sealed record Settings(
         SourceEntry HostsBased,
         SourceEntry AdBlockBased,
         string[] HeaderLines,
         string[] KnownBadHosts,
-        bool ExtraFiltering);
+        bool ExtraFiltering,
+        bool MultiPassFilter);
 
     /// <summary>
     /// Settings used for processing a hosts or AdBlock formatted source.
