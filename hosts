@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-14 00:46:39Z
+! Last Modified: 2021-08-14 06:18:56Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2029,6 +2029,7 @@
 ||adidaspolskasklep.com^
 ||adidaspromocje.com^
 ||adidaspromodel.pl^
+||cdn.adigniter.org^
 ||adimg.com.com^
 ||adimg.net^
 ||click.adimmix.com^
@@ -27095,7 +27096,6 @@
 ||immorallive.com^
 ||advertisements.immowebapi.be^
 ||eghrbf.immowelt.at^
-||azlyta.immowelt.de^
 ||stats.immunefi.com^
 ||immunization.news^
 ||imnpost.net^
@@ -41052,6 +41052,7 @@
 ||paddypower.com^
 ||onlineschool.padhegabharat.com^
 ||deeplinks.padmapper.com^
+||padsdel.com^
 ||marketing.paducah.travel^
 ||paf.com^
 ||pagapau.com^
@@ -57556,6 +57557,7 @@
 ||adserv.usps.com^
 ||my.usq.edu.au^
 ||usslibertyveterans.org^
+||usswrite.com^
 ||mbainfo.ust.hk^
 ||ustawtogdziekolwiek.site^
 ||usualgirls.com^
@@ -59025,6 +59027,7 @@
 ||info.walkingclassroom.org^
 ||go.walkme.com^
 ||marketing.walkme.com^
+||ks.walkq.com^
 ||walkthedinosaur.com^
 ||clicks.walla.co.il^
 ||wallet-ethereum.com^
@@ -62094,6 +62097,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
