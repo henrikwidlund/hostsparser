@@ -1,7 +1,6 @@
 // Copyright Henrik Widlund
 // GNU General Public License v3.0
 
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -80,12 +79,6 @@ namespace HostsParser
                         var sortedItem = sortedDnsList[j];
                         AddIfSubDomain(filteredCache, sortedItem, item);
                     }
-                    // for (var j = (i < lookBack ? 0 : i - lookBack); j < i; j++)
-                    // {
-                    //     var item = sortedDnsList[i];
-                    //     var otherItem = sortedDnsList[j];
-                    //     AddIfSubDomain(filteredCache, item, otherItem);
-                    // }
                 });
 
                 // We only need to check for domains/sub domains covered by AdBlock based file
