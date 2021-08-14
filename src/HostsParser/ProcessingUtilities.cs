@@ -70,14 +70,11 @@ namespace HostsParser
                 var lookBack = ++round * 250;
                 Parallel.For(0, sortedDnsList.Count, i =>
                 {
-                    var item = sortedDnsList[i];
-                    var lookUpCount = i + lookBack;
-                    if (lookUpCount > sortedDnsList.Count)
-                        lookUpCount = sortedDnsList.Count;
-                    for (var j = i + 1; j < lookUpCount; j++)
+                    for (var j = (i < lookBack ? 0 : i - lookBack); j < i; j++)
                     {
-                        var sortedItem = sortedDnsList[j];
-                        AddIfSubDomain(filteredCache, sortedItem, item);
+                        var item = sortedDnsList[i];
+                        var otherItem = sortedDnsList[j];
+                        AddIfSubDomain(filteredCache, item, otherItem);
                     }
                 });
 
