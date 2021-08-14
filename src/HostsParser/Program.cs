@@ -58,7 +58,9 @@ namespace HostsParser
 
             var sortedDnsList = CollectionUtilities.SortDnsList(combined);
             HashSet<string> filteredCache = new(combined.Count);
-            sortedDnsList = ProcessingUtilities.ProcessCombined(sortedDnsList, adBlockBasedLines, filteredCache);
+            sortedDnsList = settings.MultiPassFilter
+                ? ProcessingUtilities.ProcessCombinedWithMultipleRounds(sortedDnsList, adBlockBasedLines, filteredCache)
+                : ProcessingUtilities.ProcessCombined(sortedDnsList, adBlockBasedLines, filteredCache);
 
             if (settings.ExtraFiltering)
             {

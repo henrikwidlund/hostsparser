@@ -38,6 +38,36 @@ namespace HostsParser.Tests
             sortedDnsList.Should().HaveSameCount(expected);
             sortedDnsList.Should().OnlyContain(s => expected.Contains(s));
         }
+        
+        [Fact]
+        public void ProcessCombinedWithMultipleRounds_Should_Remove_Redundant_Entries()
+        {
+            // Arrange
+            var sortedDnsList = new List<string>
+            {
+                "dns.com",
+                "first.com",
+                "a.first.com",
+                "bb.first.com",
+                "second.co.jp",
+                "2.second.co.jp",
+                "1.2.second.co.jp"
+            };
+
+            var adBlockBasedLines = new HashSet<string> { "first.com" };
+            var filteredCache = new HashSet<string>();
+            var expected = new List<string> { "dns.com", "second.co.jp" };
+
+            // Act
+            sortedDnsList = ProcessingUtilities.ProcessCombinedWithMultipleRounds(sortedDnsList,
+                adBlockBasedLines,
+                filteredCache);
+
+            // Assert
+            sortedDnsList.Should().NotBeEmpty();
+            sortedDnsList.Should().HaveSameCount(expected);
+            sortedDnsList.Should().OnlyContain(s => expected.Contains(s));
+        }
 
         [Fact]
         public void ProcessWithExtraFiltering_Should_Remove_All_Matching_SubDomains()
