@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-14 06:18:56Z
+! Last Modified: 2021-08-14 11:40:06Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -8039,7 +8039,6 @@
 ||www2.bizsolution-docomo.jp^
 ||bizstandardnews.com^
 ||biztbulnuofakul.tk^
-||tr.bizzquotes.co.uk^
 ||bj04.com^
 ||bbs.bjchun.com^
 ||bjhdrx.com^
@@ -27096,6 +27095,7 @@
 ||immorallive.com^
 ||advertisements.immowebapi.be^
 ||eghrbf.immowelt.at^
+||azlyta.immowelt.de^
 ||stats.immunefi.com^
 ||immunization.news^
 ||imnpost.net^
@@ -62097,7 +62097,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
