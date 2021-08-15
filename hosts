@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-14 18:18:18Z
+! Last Modified: 2021-08-15 00:50:07Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -45619,6 +45619,7 @@
 ||content.progroep.nl^
 ||img.prohardver.hu^
 ||186943.prohoster.biz^
+||armanix.white.prohosting.com^
 ||project1content.com^
 ||site-api.project1service.com^
 ||narwhal.projectf.io^
@@ -46497,11 +46498,6 @@
 ||rakietowaliga.pl^
 ||woblvo.raksul.com^
 ||rakuprop.net^
-||rd.rakuten.co.jp^
-||ba.afl.rakuten.co.jp^
-||dynamic.rakuten.co.jp^
-||api.ranking.rakuten.co.jp^
-||shopapi.ranking.rakuten.co.jp^
 ||s-bid.rmp.rakuten.com^
 ||s-imp.rmp.rakuten.com^
 ||brc.emails.rakuten.com^
