@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-17 12:24:41Z
+! Last Modified: 2021-08-17 18:19:17Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14542,7 +14542,6 @@
 ||ficken-ficken-ficken.cxa.de^
 ||cxense.com^
 ||cxfakes.com^
-||csm.cxpublic.com^
 ||content-thumbnail.cxpublic.com^
 ||track.msadcenter.cxtv.com^
 ||cyber-ad01.cc^
@@ -17481,7 +17480,6 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
-||cdn-store-icons-akamai-prd.unityads.unity3d.com.edgekey.net^
 ||deep.edgequery.io^
 ||c6.edgesuite.net^
 ||ads.hulu.com.edgesuite.net^
@@ -37828,6 +37826,8 @@
 ||newsweeks.xyz^
 ||newswire-24.com^
 ||newswithviews.com^
+||images.newsx.cc^
+||collector.newsx.cc^
 ||newsy-ben24.ml^
 ||facebook.com-group-85937753175139875813857813751-post-3758137865768137.newsypolska.pl^
 ||newsywroclaw.xyz^
@@ -44048,7 +44048,6 @@
 ||pokicotodzialaiok.cyou^
 ||analytics.pokki.com^
 ||pokkt.com^
-||pokoran.com^
 ||pokrakowice.digital^
 ||polakczytellnik.cyou^
 ||polaki.shop^
