@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-18 18:18:54Z
+! Last Modified: 2021-08-19 00:43:33Z
 
 ||0-24bpautomentes.hu^
 ||00021.net^
@@ -20421,6 +20421,7 @@
 ||finlay.capital^
 ||finlay.live^
 ||finlay.world^
+||finley.finleyusa.com^
 ||finmaxfx.com^
 ||banner.finn.no^
 ||metrics.finn.no^
@@ -45780,6 +45781,7 @@
 ||l.qq.com^
 ||ad.qq.com^
 ||fw.qq.com^
+||p.l.qq.com^
 ||rs1.qq.com^
 ||rs2.qq.com^
 ||msdk.qq.com^
@@ -59857,6 +59859,8 @@
 ||engage.windows.com^
 ||open8video.blob.core.windows.net^
 ||prodxnews1blob.blob.core.windows.net^
+||ns1.windowsdefende.com^
+||ns2.windowsdefende.com^
 ||windowserror7.tech^
 ||sdc.windowsmarketplace.com^
 ||windpl.org^
