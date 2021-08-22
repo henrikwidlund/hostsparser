@@ -22,6 +22,7 @@ namespace HostsParser.Tests
             // Assert
             settings.Should().NotBeNull();
             settings!.AdBlockBased.Should().NotBeNull();
+            settings.AdBlockBased.SourceUris.Should().NotBeNullOrEmpty();
             settings.AdBlockBased.SkipLines.Should().BeNull();
             settings.AdBlockBased.SkipLinesBytes.Should().BeNull();
             settings.ExtraFiltering.Should().BeTrue();
@@ -31,7 +32,7 @@ namespace HostsParser.Tests
             settings.HostsBased.SkipLines.Should().ContainSingle();
             settings.HostsBased.SkipLinesBytes.Should().NotBeNull();
             settings.HostsBased.SkipLinesBytes.Should().ContainSingle();
-            settings.HostsBased.SourceUri.Should().NotBeNull();
+            settings.HostsBased.SourceUris.Should().NotBeNullOrEmpty();
             settings.KnownBadHosts.Should().NotBeNull();
             settings.KnownBadHosts.Should().ContainSingle();
         }

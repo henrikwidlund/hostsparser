@@ -10,8 +10,8 @@ namespace HostsParser
     /// <summary>
     /// Object used at runtime to represent settings specified in appsettings.json.
     /// </summary>
-    /// <param name="HostsBased">Settings used for processing a hosts formatted source.</param>
-    /// <param name="AdBlockBased">Settings used for processing a AdBlock formatted source.</param>
+    /// <param name="HostsBased">Settings used for processing hosts formatted sources.</param>
+    /// <param name="AdBlockBased">Settings used for processing AdBlock formatted sources.</param>
     /// <param name="HeaderLines">Defines a set of lines that will be inserted at
     /// the top of the generated file, for example copyright.</param>
     /// <param name="KnownBadHosts">Array of unwanted hosts. These entries will be added to the result
@@ -38,10 +38,10 @@ namespace HostsParser
     /// <summary>
     /// Settings used for processing a hosts or AdBlock formatted source.
     /// </summary>
-    /// <param name="SourceUri">The <see cref="Uri"/> containing the hosts.</param>
+    /// <param name="SourceUris">The <see cref="Uri"/>s containing the hosts.</param>
     /// <param name="SkipLines">Array of strings that, if present in the result from <see cref="SourceUri"/> will be filtered out.</param>
     public sealed record SourceEntry(
-        Uri SourceUri,
+        Uri[] SourceUris,
         string[]? SkipLines)
     {
         public readonly byte[][]? SkipLinesBytes = SkipLines?.Select(s => Encoding.UTF8.GetBytes(s)).ToArray();

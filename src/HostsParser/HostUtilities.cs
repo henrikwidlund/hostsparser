@@ -19,33 +19,33 @@ namespace HostsParser
         /// <summary>
         /// Reads the <paramref name="stream"/> and returns a collection based on the items in it.
         /// </summary>
+        /// <param name="dnsHashSet">The <see cref="HashSet{T}"/> that results are added to.</param>
         /// <param name="stream">The <see cref="Stream"/> to process.</param>
         /// <param name="skipLines">The lines that should be excluded from the returned result.</param>
         /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
-        public static async Task<HashSet<string>> ProcessHostsBased(Stream stream,
+        public static async Task<HashSet<string>> ProcessHostsBased(HashSet<string> dnsHashSet,
+            Stream stream,
             byte[][]? skipLines,
             Decoder decoder)
         {
             var pipeReader = PipeReader.Create(stream);
-            // Assumed length to reduce allocations
-            var dnsList = new HashSet<string>(140_000);
-            await ReadPipeAsync(pipeReader, dnsList, skipLines, decoder);
-            return dnsList;
+            await ReadPipeAsync(pipeReader, dnsHashSet, skipLines, decoder);
+            return dnsHashSet;
         }
 
         /// <summary>
         /// Reads the <paramref name="stream"/> and returns a collection based on the items in it.
         /// </summary>
+        /// <param name="dnsHashSet">The <see cref="HashSet{T}"/> that results are added to.</param>
         /// <param name="stream">The <see cref="Stream"/> to process.</param>
         /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
-        public static async Task<HashSet<string>> ProcessAdBlockBased(Stream stream,
+        public static async Task<HashSet<string>> ProcessAdBlockBased(HashSet<string> dnsHashSet,
+            Stream stream,
             Decoder decoder)
         {
             var pipeReader = PipeReader.Create(stream);
-            // Assumed length to reduce allocations
-            var dnsList = new HashSet<string>(50_000);
-            await ReadPipeAsync(pipeReader, dnsList, null, decoder);
-            return dnsList;
+            await ReadPipeAsync(pipeReader, dnsHashSet, null, decoder);
+            return dnsHashSet;
         }
 
         /// <summary>
