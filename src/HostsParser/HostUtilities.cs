@@ -23,14 +23,13 @@ namespace HostsParser
         /// <param name="stream">The <see cref="Stream"/> to process.</param>
         /// <param name="skipLines">The lines that should be excluded from the returned result.</param>
         /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
-        public static async Task<HashSet<string>> ProcessHostsBased(HashSet<string> dnsHashSet,
+        public static Task ProcessHostsBased(HashSet<string> dnsHashSet,
             Stream stream,
             byte[][]? skipLines,
             Decoder decoder)
         {
             var pipeReader = PipeReader.Create(stream);
-            await ReadPipeAsync(pipeReader, dnsHashSet, skipLines, decoder);
-            return dnsHashSet;
+            return ReadPipeAsync(pipeReader, dnsHashSet, skipLines, decoder);
         }
 
         /// <summary>
@@ -39,13 +38,12 @@ namespace HostsParser
         /// <param name="dnsHashSet">The <see cref="HashSet{T}"/> that results are added to.</param>
         /// <param name="stream">The <see cref="Stream"/> to process.</param>
         /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
-        public static async Task<HashSet<string>> ProcessAdBlockBased(HashSet<string> dnsHashSet,
+        public static Task ProcessAdBlockBased(HashSet<string> dnsHashSet,
             Stream stream,
             Decoder decoder)
         {
             var pipeReader = PipeReader.Create(stream);
-            await ReadPipeAsync(pipeReader, dnsHashSet, null, decoder);
-            return dnsHashSet;
+            return ReadPipeAsync(pipeReader, dnsHashSet, null, decoder);
         }
 
         /// <summary>

@@ -22,13 +22,11 @@ namespace HostsParser.Benchmarks
 
         [Benchmark]
         [BenchmarkCategory(nameof(ProcessHostsBased), nameof(HostUtilities))]
-        public async Task<HashSet<string>> ProcessHostsBased()
-        {
-            return await HostUtilities.ProcessHostsBased(new HashSet<string>(140_000),
+        public async Task ProcessHostsBased()
+            => await HostUtilities.ProcessHostsBased(new HashSet<string>(140_000),
                 _stream!,
                 BenchmarkTestData.Settings.HostsBased.SkipLinesBytes,
                 BenchmarkTestData.Decoder);
-        }
     }
 
     [MemoryDiagnoser]
@@ -45,7 +43,7 @@ namespace HostsParser.Benchmarks
 
         [Benchmark]
         [BenchmarkCategory(nameof(ProcessAdBlockBased), nameof(HostUtilities))]
-        public async Task<HashSet<string>> ProcessAdBlockBased()
+        public async Task ProcessAdBlockBased()
             => await HostUtilities.ProcessAdBlockBased(new HashSet<string>(50_000),
                 _stream!,
                 BenchmarkTestData.Decoder);
