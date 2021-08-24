@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-24 12:23:58Z
+! Last Modified: 2021-08-24 18:18:00Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -32338,6 +32338,7 @@
 ||blog.livedooor.info^
 ||livedoor-plus.com^
 ||image.click.livedoor.com^
+||blogroll.livedoor.net^
 ||liveforothers804.bar^
 ||livefree.sex^
 ||livefreecamx.com^
@@ -48106,6 +48107,7 @@
 ||delta.rspcdn.com^
 ||rsptrack.com^
 ||banners.rspworldwide.com^
+||rss-loader.com^
 ||rss141.com^
 ||rstmir.com^
 ||rsvpcatering.pl^
@@ -61484,6 +61486,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -62376,7 +62379,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
