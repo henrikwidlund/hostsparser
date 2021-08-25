@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-25 00:49:48Z
+! Last Modified: 2021-08-25 06:18:37Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -23457,7 +23457,6 @@
 ||gls-dk-security.icu^
 ||gls-parcel.com^
 ||glssp.jp^
-||glssp.net^
 ||glt-app.net^
 ||iqtestuj.glt.pl^
 ||viewerfb.glt.pl^
@@ -57452,6 +57451,7 @@
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
+||ads-game-configuration.unityads.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
 ||unitymaineguide.com^
