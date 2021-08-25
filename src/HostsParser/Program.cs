@@ -53,7 +53,7 @@ namespace HostsParser
             var adBlockBasedLines = new HashSet<string>(50_000);
             for (var i = 0; i < settings.AdBlockBased.SourceUris.Length; i++)
             {
-                await using var stream = await httpClient.GetStreamAsync(settings.HostsBased.SourceUris[i]);
+                await using var stream = await httpClient.GetStreamAsync(settings.AdBlockBased.SourceUris[i]);
                 await HostUtilities.ProcessAdBlockBased(adBlockBasedLines, stream, decoder);
             }
 
