@@ -49,12 +49,19 @@ namespace HostsParser.Benchmarks
 #pragma warning restore CA1822 // Mark members as static
         {
             var stream = PrepareStream();
-            var hostsBasedLines = HostUtilities
-                .ProcessHostsBased(stream, BenchmarkTestData.Settings.HostsBased.SkipLinesBytes,
-                    BenchmarkTestData.Decoder).GetAwaiter().GetResult();
+            var hostsBasedLines = new HashSet<string>(140_000);
+            HostUtilities
+                .ProcessHostsBased(hostsBasedLines,
+                    stream,
+                    BenchmarkTestData.Settings.HostsBased.SkipLinesBytes,
+                    BenchmarkTestData.Decoder)
+                .GetAwaiter().GetResult();
 
             stream = PrepareStream();
-            var adBlockBasedLines = HostUtilities.ProcessAdBlockBased(stream, BenchmarkTestData.Decoder)
+            var adBlockBasedLines = new HashSet<string>(50_000);
+            HostUtilities.ProcessAdBlockBased(adBlockBasedLines,
+                    stream,
+                    BenchmarkTestData.Decoder)
                 .GetAwaiter().GetResult();
 
             stream.Dispose();

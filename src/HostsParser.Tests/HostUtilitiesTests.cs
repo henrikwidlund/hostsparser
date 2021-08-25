@@ -51,9 +51,10 @@ namespace HostsParser.Tests
             memoryStream.Seek(0, SeekOrigin.Begin);
 
             var decoder = Encoding.UTF8.GetDecoder();
+            var dnsCollection = new HashSet<string>();
 
             // Act
-            var dnsCollection = await HostUtilities.ProcessHostsBased(memoryStream, skipLines, decoder);
+            await HostUtilities.ProcessHostsBased(dnsCollection, memoryStream, skipLines, decoder);
 
             // Assert
             dnsCollection.Should().NotBeEmpty();
@@ -86,9 +87,10 @@ namespace HostsParser.Tests
             memoryStream.Seek(0, SeekOrigin.Begin);
 
             var decoder = Encoding.UTF8.GetDecoder();
+            var dnsCollection = new HashSet<string>();
 
             // Act
-            var dnsCollection = await HostUtilities.ProcessAdBlockBased(memoryStream, decoder);
+            await HostUtilities.ProcessAdBlockBased(dnsCollection, memoryStream, decoder);
 
             // Assert
             dnsCollection.Should().NotBeEmpty();

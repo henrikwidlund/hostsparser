@@ -6,8 +6,8 @@
 [![Docker](https://img.shields.io/github/workflow/status/henrikwidlund/hostsparser/Docker?label=Docker&logo=docker)](https://github.com/henrikwidlund/hostsparser/actions/workflows/docker.yml)
 [![codecov.io](https://img.shields.io/codecov/c/gh/henrikwidlund/hostsparser?label=codecov&logo=codecov)](https://codecov.io/gh/henrikwidlund/hostsparser)
 
-Tool that converts a `hosts` ([`HostsBased`](#hostsbased)) based file into a `AdBlock` formatted file, optimized for [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome).
-It also removes duplicates, comments as well as hosts that are already blocked by a different `AdBlock` ([`AdBlockBased`](#adblockbased)) based file.
+Tool that converts `hosts` ([`HostsBased`](#hostsbased)) based files into a `AdBlock` formatted file, optimized for [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome).
+It also removes duplicates, comments as well as hosts that are already blocked by a different `AdBlock` ([`AdBlockBased`](#adblockbased)) based files.
 
 By default [StevenBlack/hosts](https://github.com/StevenBlack/hosts) 
 [with fakenews, gambling and porn extensions](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
@@ -119,8 +119,8 @@ You may adjust the configuration of the application by modifying the `appsetting
 
 | Property | Type | Required | Description |
 |---|---|---|---|
-|[`HostsBased`](#hostsbased)|`object`|`true`|Settings used for processing a hosts formatted source.|
-|[`AdBlockBased`](#adblockbased)|`object`|`true`|Settings used for processing a AdBlock formatted source.|
+|[`HostsBased`](#hostsbased)|`object`|`true`|Settings used for processing hosts formatted sources.|
+|[`AdBlockBased`](#adblockbased)|`object`|`true`|Settings used for processing AdBlock formatted sources.|
 |`ExtraFiltering`|`bool`|`true`|Setting to indicate if extra filtering should be performed.<br>If `true`, the program will check each element in the result against each other and remove any entry that would be blocked by a more general entry.|
 |`MultiPassFilter`|`bool`|`true`|If set to `true` the final results will be scanned multiple times until no duplicates are found. Default behaviour assumes duplicates are removed after one iteration.|
 |`HeaderLines`|`string[]`|`true`|Defines a set of lines that will be inserted at the top of the generated file, for example copyright.|
@@ -129,13 +129,13 @@ You may adjust the configuration of the application by modifying the `appsetting
 ### <a name="hostsbased"></a>`HostsBased`
 | Property | Type | Required | Description |
 |---|---|---|---|
-|`SourceUri`|`Uri`|`true`|URI to the hosts based file|
+|`SourceUris`|`Uri[]`|`true`|URIs to the hosts based files|
 |`SkipLines`|`string[]`|`true`|Array of strings that, if present in the result from `SourceUri` will be filtered out.|
 
 ### <a name="adblockbased"></a>`AdBlockBased`
 | Property | Type | Required | Description |
 |---|---|---|---|
-|`SourceUri`|`Uri`|`true`|URI to the AdBlock based file|
+|`SourceUris`|`Uri[]`|`true`|URI to the AdBlock based files|
 
 ## Licenses
 - [License](LICENSE)

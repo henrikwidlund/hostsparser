@@ -22,12 +22,11 @@ namespace HostsParser.Benchmarks
 
         [Benchmark]
         [BenchmarkCategory(nameof(ProcessHostsBased), nameof(HostUtilities))]
-        public async Task<HashSet<string>> ProcessHostsBased()
-        {
-            return await HostUtilities.ProcessHostsBased(_stream!,
+        public async Task ProcessHostsBased()
+            => await HostUtilities.ProcessHostsBased(new HashSet<string>(140_000),
+                _stream!,
                 BenchmarkTestData.Settings.HostsBased.SkipLinesBytes,
                 BenchmarkTestData.Decoder);
-        }
     }
 
     [MemoryDiagnoser]
@@ -44,8 +43,10 @@ namespace HostsParser.Benchmarks
 
         [Benchmark]
         [BenchmarkCategory(nameof(ProcessAdBlockBased), nameof(HostUtilities))]
-        public async Task<HashSet<string>> ProcessAdBlockBased()
-            => await HostUtilities.ProcessAdBlockBased(_stream!, BenchmarkTestData.Decoder);
+        public async Task ProcessAdBlockBased()
+            => await HostUtilities.ProcessAdBlockBased(new HashSet<string>(50_000),
+                _stream!,
+                BenchmarkTestData.Decoder);
     }
 
     [MemoryDiagnoser]
@@ -63,12 +64,19 @@ namespace HostsParser.Benchmarks
 #pragma warning restore CA1822 // Mark members as static
         {
             var stream = PrepareStream();
-            var hostsBasedLines = HostUtilities
-                .ProcessHostsBased(stream, BenchmarkTestData.Settings.HostsBased.SkipLinesBytes,
-                    BenchmarkTestData.Decoder).GetAwaiter().GetResult();
+            var hostsBasedLines = new HashSet<string>(140_000);
+            HostUtilities
+                .ProcessHostsBased(hostsBasedLines,
+                    stream,
+                    BenchmarkTestData.Settings.HostsBased.SkipLinesBytes,
+                    BenchmarkTestData.Decoder)
+                .GetAwaiter().GetResult();
 
             stream = PrepareStream();
-            var adBlockBasedLines = HostUtilities.ProcessAdBlockBased(stream, BenchmarkTestData.Decoder)
+            var adBlockBasedLines = new HashSet<string>(50_000);
+            HostUtilities.ProcessAdBlockBased(adBlockBasedLines,
+                    stream,
+                    BenchmarkTestData.Decoder)
                 .GetAwaiter().GetResult();
 
             stream.Dispose();

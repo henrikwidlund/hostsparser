@@ -41,13 +41,21 @@ namespace HostsParser
             var decoder = Encoding.UTF8.GetDecoder();
             using var httpClient = new HttpClient();
 
-            var stream = await httpClient.GetStreamAsync(settings.HostsBased.SourceUri);
-            var hostsBasedLines = await HostUtilities.ProcessHostsBased(stream, settings.HostsBased.SkipLinesBytes, decoder);
-            await stream.DisposeAsync();
+            // Assumed length to reduce allocations
+            var hostsBasedLines = new HashSet<string>(140_000);
+            for (var i = 0; i < settings.HostsBased.SourceUris.Length; i++)
+            {
+                await using var stream = await httpClient.GetStreamAsync(settings.HostsBased.SourceUris[i]);
+                await HostUtilities.ProcessHostsBased(hostsBasedLines, stream, settings.HostsBased.SkipLinesBytes, decoder);
+            }
 
-            stream = await httpClient.GetStreamAsync(settings.AdBlockBased.SourceUri);
-            var adBlockBasedLines = await HostUtilities.ProcessAdBlockBased(stream, decoder);
-            await stream.DisposeAsync();
+            // Assumed length to reduce allocations
+            var adBlockBasedLines = new HashSet<string>(50_000);
+            for (var i = 0; i < settings.AdBlockBased.SourceUris.Length; i++)
+            {
+                await using var stream = await httpClient.GetStreamAsync(settings.HostsBased.SourceUris[i]);
+                await HostUtilities.ProcessAdBlockBased(adBlockBasedLines, stream, decoder);
+            }
 
             var combined = hostsBasedLines;
             combined.ExceptWith(adBlockBasedLines);
