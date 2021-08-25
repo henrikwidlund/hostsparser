@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-24 18:18:00Z
+! Last Modified: 2021-08-25 00:49:48Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2050,8 +2050,6 @@
 ||prod.adjoe.zone^
 ||fraud.adjoe.zone^
 ||adjust.io^
-||app.adjust.net.in^
-||app.adjust.world^
 ||adjustnetwork.com^
 ||adkontekst.pl^
 ||adlandpro.com^
@@ -28797,20 +28795,6 @@
 ||ismalltits.com^
 ||aas.ismet.kz^
 ||info.isnetworld.com^
-||dm.isnssdk.com^
-||h5.isnssdk.com^
-||log.isnssdk.com^
-||mon.isnssdk.com^
-||open.isnssdk.com^
-||i16-tb.isnssdk.com^
-||log-tb.isnssdk.com^
-||ichannel.isnssdk.com^
-||imapi-sg.isnssdk.com^
-||hotapi-va.isnssdk.com^
-||pangolin16.isnssdk.com^
-||ichannel-tb.isnssdk.com^
-||tnc16-alisg.isnssdk.com^
-||tnc16-useast1a.isnssdk.com^
 ||olx-pl.iso-pay.net.ru^
 ||banner2.isobarturkiye.net^
 ||isoftibest.com^
@@ -61486,7 +61470,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
