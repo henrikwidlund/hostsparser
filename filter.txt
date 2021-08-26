@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-26 00:48:04Z
+! Last Modified: 2021-08-26 06:18:22Z
 
 ||0-24bpautomentes.hu^
 ||00021.net^
@@ -18500,16 +18500,14 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
-||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
-||dsum.casalemedia.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
-||s-static.innovid.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
+||wildcard.marketo.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||scorecardresearch.com.edgekey.net^
@@ -57788,6 +57786,7 @@
 ||marketing.tourismpg.com^
 ||marketing.tourismrichmond.com^
 ||marketing.tourismsaskatoon.com^
+||oascentral.tourismvancouver.com^
 ||marketing.tourismwinnipeg.com^
 ||touristvaca.com^
 ||takigx.tourneau.com^
