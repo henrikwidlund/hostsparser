@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-27 12:24:49Z
+! Last Modified: 2021-08-27 18:17:58Z
 
 ||0-24bpautomentes.hu^
 ||00021.net^
@@ -18093,6 +18093,8 @@
 ||dynamicyield.com^
 ||beacon.rum.dynapis.info^
 ||dlt-beacon.dynatrace-managed.com^
+||js-cdn.dynatrace.com^
+||bf20578xco.bf.dynatrace.com^
 ||x8x.dyndns.dk^
 ||cxoadfarm.dyndns.info^
 ||dns-info.dyndns.pro^
@@ -37971,7 +37973,6 @@
 ||arc1.msn.com^
 ||popup.msn.com^
 ||rmads.msn.com^
-||a.rad.msn.com^
 ||ads.eu.msn.com^
 ||c.latam.msn.com^
 ||preview.msn.com^
@@ -64966,7 +64967,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
