@@ -1,7 +1,7 @@
 {
   "HostsBased": {
     "SourceUris": [
-      "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts"
+      "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts"
     ],
     "SkipLines": [
       "127.0.0.1 localhost",
@@ -33,7 +33,7 @@
     "! Copyright Henrik Widlund https://github.com/henrikwidlund/hostsparser/blob/main/LICENSE",
     "! All content below commented lines are based on StevenBlack/hosts and AdGuard DNS filter.",
     "! It is only modified to work with AdGuard Home and remove duplicates.",
-    "! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)",
+    "! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts)",
     "! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)"
   ],
   "KnownBadHosts": [
@@ -49,9 +49,7 @@
     "ad.tomshardware.com",
     "adtech.fr",
     "adtech.us",
-    "angelcities.com",
     "bcvcdn.com",
-    "bongacams.org",
     "booru.org",
     "bravenet.com",
     "carte-gr.total.fr",
@@ -59,17 +57,13 @@
     "daraz.com",
     "dditscdn.com",
     "ddns.name",
-    "exmasters.com",
     "free.fr",
     "hitbox.com",
     "impact-ad.jp",
     "intellitxt.com",
     "p2l.info",
     "petrovka.info",
-    "sextracker.be",
-    "sextracker.de",
-    "shengen.ru",
     "trafficdeposit.com"
   ],
-  "OutputFileName": "filter.txt"
+  "OutputFileName": "fakenews-gambling-social.txt"
 }

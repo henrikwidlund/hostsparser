@@ -28,13 +28,27 @@ jobs:
         cd ./artifacts
         dotnet HostsParser.dll
 
+    - name: Create public directory
+      if: github.ref == 'refs/heads/main'
+      run: mkdir ./public
+
     - name: Copy filter to public directory
       if: github.ref == 'refs/heads/main'
       run: |
-        mkdir ./public
         FILTER=./artifacts/filter.txt
         cp $FILTER ./public
         cp $FILTER ./public/hosts
+
+    - name: Create and copy alternates
+      if: github.ref == 'refs/heads/main'
+      run: |
+        cd ./artifacts
+        for filename in ../config/*.json; do
+            cp $filename ../artifacts/appsettings.json
+            dotnet HostsParser.dll
+            CONFIG=${$(echo "$filename" | cut -d'/' -f 3)//json/txt}
+            cp $CONFIG ../public/$CONFIG
+        done
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3

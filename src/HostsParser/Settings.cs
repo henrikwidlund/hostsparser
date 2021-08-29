@@ -27,13 +27,15 @@ namespace HostsParser
     /// <param name="MultiPassFilter">If set to <see langword="true" /> the final results will be scanned
     /// multiple times until no duplicates are found. Default behaviour assumes duplicates are removed after
     /// one iteration.</param>
+    /// <param name="OutputFileName">Defines the name of the file produced by the program. Defaults to filter.txt.</param>
     public sealed record Settings(
         SourceEntry HostsBased,
         SourceEntry AdBlockBased,
         string[] HeaderLines,
         string[] KnownBadHosts,
         bool ExtraFiltering,
-        bool MultiPassFilter);
+        bool MultiPassFilter,
+        string OutputFileName = "filter.txt");
 
     /// <summary>
     /// Settings used for processing a hosts or AdBlock formatted source.

@@ -32,6 +32,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostsParser.Tests", "HostsP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostsParser.IntegrationTests", "HostsParser.IntegrationTests\HostsParser.IntegrationTests.csproj", "{F7942780-9AEC-4160-AC91-BCC33345F797}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{056DB08C-D3C7-4FFD-9A74-CC2F5C78F46D}"
+ProjectSection(SolutionItems) = preProject
+	..\config\adware-malware.json = ..\config\adware-malware.json
+	..\config\fakenews-gambling-social.json = ..\config\fakenews-gambling-social.json
+	..\config\fakenews-gambling-porn-social.json = ..\config\fakenews-gambling-porn-social.json
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

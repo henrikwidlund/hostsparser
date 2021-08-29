@@ -17,8 +17,15 @@ is processed to exclude entries already covered by the [AdGuard DNS Filter](http
 **Note** The file the program produces can't be used as a regular `hosts` file, it must be used with a system that supports the `AdBlock` format.
 
 ## How to use with AdGuard Home
-### Pre-built filter
-The filter file is generated every six hours and is available for download [here](https://henrikwidlund.github.io/hostsparser/filter.txt).
+### Pre-built filters
+The filter files are generated every six hours and are available for download in the table below. You are welcome to create a feature request should you want more pre-built filters.
+
+| Filter | Link |
+|---|---|
+|Unified hosts = (adware + malware)|[link](https://henrikwidlund.github.io/hostsparser/adware-malware.txt)|
+|Unified hosts + fakenews + gambling + porn|[link](https://henrikwidlund.github.io/hostsparser/filter.txt)|
+|Unified hosts + fakenews + gambling + porn + social|[link](https://henrikwidlund.github.io/hostsparser/fakenews-gambling-porn-social.txt)|
+|Unified hosts + fakenews + gambling + social|[link](https://henrikwidlund.github.io/hostsparser/fakenews-gambling-social.txt)|
 
 ### Adding the filters via UI
 ![Adding the filter](https://user-images.githubusercontent.com/4659350/129190970-bf26b383-b28d-4783-882b-372a9fe3afb8.gif)
@@ -125,6 +132,7 @@ You may adjust the configuration of the application by modifying the `appsetting
 |`MultiPassFilter`|`bool`|`true`|If set to `true` the final results will be scanned multiple times until no duplicates are found. Default behaviour assumes duplicates are removed after one iteration.|
 |`HeaderLines`|`string[]`|`true`|Defines a set of lines that will be inserted at the top of the generated file, for example copyright.|
 |`KnownBadHosts`|`string[]`|`true`|Array of unwanted hosts. These entries will be added to the result if they're not covered by the `AdBlockBased` entries.<br>You can also add generalized hosts to reduce the number of entries in the final results.<br>For example: `HostsBased` results might contain `a.baddomain.com` and `b.baddomain.com`, adding `baddomain.com` will remove the sub domain entries and block `baddomain.com` and all of its subdomains.|
+|`OutputFileName`|`string[]`|`false`|Defines the name of the file produced by the program. Defaults to `filter.txt`.|
 
 ### <a name="hostsbased"></a>`HostsBased`
 | Property | Type | Required | Description |
