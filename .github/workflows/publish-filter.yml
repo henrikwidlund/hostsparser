@@ -49,7 +49,7 @@ jobs:
             cp $filename ../artifacts/appsettings.json
             dotnet HostsParser.dll
             echo $filename
-            CONFIG=${$(echo "$filename" | cut -d'/' -f 3)//json/txt}
+            CONFIG=${$(echo "$filename" | cut -d'/' -f 2)//json/txt}
             cp $CONFIG ../public/$CONFIG
         done
 
