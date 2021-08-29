@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-29 13:44:50Z
+! Last Modified: 2021-08-29 18:17:23Z
 
 ||0-24bpautomentes.hu^
 ||00021.net^
@@ -6458,6 +6458,7 @@
 ||metrics.babycenter.com^
 ||smetrics.babycenter.com^
 ||smetrics.babycenter.de^
+||smetrics.babycenter.fr^
 ||metrics.babycentre.co.uk^
 ||smetrics.babycentre.co.uk^
 ||babyelephant.com.pl^
@@ -64968,6 +64969,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

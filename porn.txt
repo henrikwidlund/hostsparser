@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-29 13:45:12Z
+! Last Modified: 2021-08-29 18:17:42Z
 
 ||0-24bpautomentes.hu^
 ||00021.net^
@@ -13256,8 +13256,6 @@
 ||clubwinnerz.com^
 ||ads.clubzone.com^
 ||clue6load.com^
-||cas.cluep.com^
-||dev-as.cluep.com^
 ||adserver.clundressed.com^
 ||cluni.xyz^
 ||clxcaf.com^
@@ -17625,6 +17623,7 @@
 ||marketo.com.edgekey.net^
 ||mathtag.com.edgekey.net^
 ||mookie1.com.edgekey.net^
+||san.push.io.edgekey.net^
 ||marketo.net.edgekey.net^
 ||owneriq.net.edgekey.net^
 ||taboola.com.edgekey.net^
@@ -17649,7 +17648,6 @@
 ||stickyadstv.com.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
-||tags.bluekai.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
@@ -17657,6 +17655,7 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||wildcard.betrad.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -17667,6 +17666,7 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
+||secure.flashtalking.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -27179,7 +27179,6 @@
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
 ||keyserver.ijinshan.com^
-||sdk.mobad.ijinshan.com^
 ||ikakiti.com^
 ||icas.ikea.com^
 ||sicas.ikea.com^
@@ -62645,7 +62644,6 @@
 ||go.zimperium.com^
 ||tes.zindap.com^
 ||vietnam.zing.photos^
-||campaign.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||ziololecznictwo.pl^
 ||tc.zionsbank.com^
