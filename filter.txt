@@ -3,7 +3,7 @@
 ! It is only modified to work with AdGuard Home and remove duplicates.
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-29 10:17:07Z
+! Last Modified: 2021-08-29 10:23:38Z
 
 ||0-24bpautomentes.hu^
 ||00021.net^
@@ -64068,7 +64068,6 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
-||data.mistat.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||url8807.global.passport.xiaomi.com^
@@ -64973,7 +64972,9 @@
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
+||in.advertising.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||counter.yakbucks.com^
