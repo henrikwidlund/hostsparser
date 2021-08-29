@@ -31,18 +31,18 @@ jobs:
         dotnet HostsParser.dll
 
     - name: Create public directory
-      if: github.ref == 'refs/heads/main'
+#      if: github.ref == 'refs/heads/main'
       run: mkdir ./public
 
     - name: Copy filter to public directory
-      if: github.ref == 'refs/heads/main'
+#      if: github.ref == 'refs/heads/main'
       run: |
         FILTER=./artifacts/filter.txt
         cp $FILTER ./public
         cp $FILTER ./public/hosts
 
     - name: Create and copy alternates
-      if: github.ref == 'refs/heads/main'
+#      if: github.ref == 'refs/heads/main'
       run: |
         cd ./artifacts
         for filename in ../config/*.json; do
