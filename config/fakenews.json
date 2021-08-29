@@ -1,7 +1,7 @@
 {
   "HostsBased": {
     "SourceUris": [
-      "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts"
+      "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts"
     ],
     "SkipLines": [
       "127.0.0.1 localhost",
@@ -33,8 +33,8 @@
     "! Copyright Henrik Widlund https://github.com/henrikwidlund/hostsparser/blob/main/LICENSE",
     "! All content below commented lines are based on StevenBlack/hosts and AdGuard DNS filter.",
     "! It is only modified to work with AdGuard Home and remove duplicates.",
-    "! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)",
-    "! Filters: adware + malware + fakenews + gambling + social",
+    "! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)",
+    "! Filters: adware + malware + fakenews",
     "! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)"
   ],
   "KnownBadHosts": [
@@ -66,5 +66,5 @@
     "petrovka.info",
     "trafficdeposit.com"
   ],
-  "OutputFileName": "fakenews-gambling-social.txt"
+  "OutputFileName": "fakenews.txt"
 }
