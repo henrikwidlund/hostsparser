@@ -132,7 +132,7 @@ You may adjust the configuration of the application by modifying the `appsetting
 |`MultiPassFilter`|`bool`|`true`|If set to `true` the final results will be scanned multiple times until no duplicates are found. Default behaviour assumes duplicates are removed after one iteration.|
 |`HeaderLines`|`string[]`|`true`|Defines a set of lines that will be inserted at the top of the generated file, for example copyright.|
 |`KnownBadHosts`|`string[]`|`true`|Array of unwanted hosts. These entries will be added to the result if they're not covered by the `AdBlockBased` entries.<br>You can also add generalized hosts to reduce the number of entries in the final results.<br>For example: `HostsBased` results might contain `a.baddomain.com` and `b.baddomain.com`, adding `baddomain.com` will remove the sub domain entries and block `baddomain.com` and all of its subdomains.|
-|`OutputFileName`|`string[]`|`false`|Defines the name of the file produced by the program. Defaults to `filter.txt`.|
+|`OutputFileName`|`string`|`false`|Defines the name of the file produced by the program. Defaults to `filter.txt`.|
 
 ### <a name="hostsbased"></a>`HostsBased`
 | Property | Type | Required | Description |
