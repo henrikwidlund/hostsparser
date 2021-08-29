@@ -42,7 +42,7 @@ jobs:
         cp $FILTER ./public/hosts
 
     - name: Create and copy alternates
-      if: github.ref == 'refs/heads/main'
+      #if: github.ref == 'refs/heads/main'
       run: |
         cd ./artifacts
         for filename in ../config/*.json; do
