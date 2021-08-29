@@ -37,6 +37,18 @@ ProjectSection(SolutionItems) = preProject
 	..\config\adware-malware.json = ..\config\adware-malware.json
 	..\config\fakenews-gambling-social.json = ..\config\fakenews-gambling-social.json
 	..\config\fakenews-gambling-porn-social.json = ..\config\fakenews-gambling-porn-social.json
+	..\config\fakenews.json = ..\config\fakenews.json
+	..\config\gambling.json = ..\config\gambling.json
+	..\config\porn.json = ..\config\porn.json
+	..\config\fakenews-gambling.json = ..\config\fakenews-gambling.json
+	..\config\fakenews-porn-social.json = ..\config\fakenews-porn-social.json
+	..\config\fakenews-porn.json = ..\config\fakenews-porn.json
+	..\config\fakenews-social.json = ..\config\fakenews-social.json
+	..\config\gambling-porn-social.json = ..\config\gambling-porn-social.json
+	..\config\gambling-porn.json = ..\config\gambling-porn.json
+	..\config\gambling-social.json = ..\config\gambling-social.json
+	..\config\porn-social.json = ..\config\porn-social.json
+	..\config\social.json = ..\config\social.json
 EndProjectSection
 EndProject
 Global

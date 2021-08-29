@@ -22,10 +22,22 @@ The filter files are generated every six hours and are available for download in
 
 | Filter | Link |
 |---|---|
-|Unified hosts = (adware + malware)|[link](https://henrikwidlund.github.io/hostsparser/adware-malware.txt)|
-|Unified hosts + fakenews + gambling + porn|[link](https://henrikwidlund.github.io/hostsparser/filter.txt)|
-|Unified hosts + fakenews + gambling + porn + social|[link](https://henrikwidlund.github.io/hostsparser/fakenews-gambling-porn-social.txt)|
-|Unified hosts + fakenews + gambling + social|[link](https://henrikwidlund.github.io/hostsparser/fakenews-gambling-social.txt)|
+|`Unified hosts` = `adware` + `malware`|[link](https://henrikwidlund.github.io/hostsparser/adware-malware.txt)|
+|`Unified hosts` + `fakenews`|[link](https://henrikwidlund.github.io/hostsparser/fakenews.txt)|
+|`Unified hosts` + `fakenews` + `gambling`|[link](https://henrikwidlund.github.io/hostsparser/fakenews-gambling.txt)|
+|`Unified hosts` + `fakenews` + `gambling` + `porn`|[link](https://henrikwidlund.github.io/hostsparser/filter.txt)|
+|`Unified hosts` + `fakenews` + `gambling` + `porn` + `social`|[link](https://henrikwidlund.github.io/hostsparser/fakenews-gambling-porn-social.txt)|
+|`Unified hosts` + `fakenews` + `gambling` + `social`|[link](https://henrikwidlund.github.io/hostsparser/fakenews-gambling-social.txt)|
+|`Unified hosts` + `fakenews` + `porn`|[link](https://henrikwidlund.github.io/hostsparser/fakenews-porn.txt)|
+|`Unified hosts` + `fakenews` + `porn` + `social`|[link](https://henrikwidlund.github.io/hostsparser/fakenews-porn-social.txt)|
+|`Unified hosts` + `fakenews` + `social`|[link](https://henrikwidlund.github.io/hostsparser/fakenews-social.txt)|
+|`Unified hosts` + `gambling`|[link](https://henrikwidlund.github.io/hostsparser/gambling.txt)|
+|`Unified hosts` + `gambling` + `porn`|[link](https://henrikwidlund.github.io/hostsparser/gambling-porn.txt)|
+|`Unified hosts` + `gambling` + `porn` + `social`|[link](https://henrikwidlund.github.io/hostsparser/gambling-porn-social.txt)|
+|`Unified hosts` + `gambling` + `social`|[link](https://henrikwidlund.github.io/hostsparser/gambling-social.txt)|
+|`Unified hosts` + `porn`|[link](https://henrikwidlund.github.io/hostsparser/porn.txt)|
+|`Unified hosts` + `porn` + `social`|[link](https://henrikwidlund.github.io/hostsparser/porn-social.txt)|
+|`Unified hosts` + `social`|[link](https://henrikwidlund.github.io/hostsparser/social.txt)|
 
 ### Adding the filters via UI
 ![Adding the filter](https://user-images.githubusercontent.com/4659350/129190970-bf26b383-b28d-4783-882b-372a9fe3afb8.gif)
