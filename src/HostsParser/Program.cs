@@ -77,7 +77,7 @@ namespace HostsParser
                 logger.LogInformation(WithTimeStamp("Done extra filtering of duplicates"));
             }
 
-            await using StreamWriter streamWriter = new("filter.txt", false);
+            await using StreamWriter streamWriter = new(settings.OutputFileName, false);
             for (var i = 0; i < settings.HeaderLines.Length; i++)
                 await streamWriter.WriteLineAsync(settings.HeaderLines[i]);
 
