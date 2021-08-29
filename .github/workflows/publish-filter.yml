@@ -25,21 +25,21 @@ jobs:
     - name: Run build.sh
       run: ./build.sh
  
-    - name: Run HostsParser
-      run: |
-        cd ./artifacts
-        dotnet HostsParser.dll
+#    - name: Run HostsParser
+#      run: |
+#        cd ./artifacts
+#        dotnet HostsParser.dll
 
     - name: Create public directory
 #      if: github.ref == 'refs/heads/main'
       run: mkdir ./public
 
-    - name: Copy filter to public directory
+#    - name: Copy filter to public directory
 #      if: github.ref == 'refs/heads/main'
-      run: |
-        FILTER=./artifacts/filter.txt
-        cp $FILTER ./public
-        cp $FILTER ./public/hosts
+#      run: |
+#        FILTER=./artifacts/filter.txt
+#        cp $FILTER ./public
+#        cp $FILTER ./public/hosts
 
     - name: Create and copy alternates
       #if: github.ref == 'refs/heads/main'
@@ -49,6 +49,7 @@ jobs:
             cp $filename ../artifacts/appsettings.json
             dotnet HostsParser.dll
             echo $filename
+            echo $filename | cut -d'/' -f 2
             CONFIG=${$(echo "$filename" | cut -d'/' -f 2)//json/txt}
             cp $CONFIG ../public/$CONFIG
         done
