@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches: [ main ]
   schedule:
     - cron: '0 */6 * * *' # Every 6 hours
 
@@ -29,11 +31,11 @@ jobs:
         dotnet HostsParser.dll
 
     - name: Create public directory
-      if: github.ref == 'refs/heads/main'
+#      if: github.ref == 'refs/heads/main'
       run: mkdir ./public
 
     - name: Copy filter to public directory
-      if: github.ref == 'refs/heads/main'
+#      if: github.ref == 'refs/heads/main'
       run: |
         FILTER=./artifacts/filter.txt
         cp $FILTER ./public
@@ -46,16 +48,17 @@ jobs:
         for filename in ../config/*.json; do
             cp $filename ../artifacts/appsettings.json
             dotnet HostsParser.dll
+            echo $filename
             CONFIG=${$(echo "$filename" | cut -d'/' -f 3)//json/txt}
             cp $CONFIG ../public/$CONFIG
         done
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main'
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-        user_name: 'github-actions[bot]'
-        user_email: 'github-actions[bot]@users.noreply.github.com'
-        commit_message: ${{ github.event.head_commit.message }}
+#    - name: Deploy to GitHub Pages
+#      uses: peaceiris/actions-gh-pages@v3
+#      if: github.ref == 'refs/heads/main'
+#      with:
+#        github_token: ${{ secrets.GITHUB_TOKEN }}
+#        publish_dir: ./public
+#        user_name: 'github-actions[bot]'
+#        user_email: 'github-actions[bot]@users.noreply.github.com'
+#        commit_message: ${{ github.event.head_commit.message }}
