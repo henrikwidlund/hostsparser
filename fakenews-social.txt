@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-30 12:24:35Z
+! Last Modified: 2021-08-30 18:18:19Z
 
 ||0-24bpautomentes.hu^
 ||00021.net^
@@ -14656,7 +14656,6 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
-||secure.flashtalking.com.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
@@ -41074,7 +41073,6 @@
 ||solocanarie.it^
 ||marketing.solomononline.com^
 ||solonix.pl^
-||alleenwerker.soloprotect.com^
 ||adserver.soloserver.com^
 ||solutionscore.com^
 ||mkt.solutiontree.com^
@@ -49784,8 +49782,8 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
+||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -50576,6 +50574,7 @@
 ||zilliaq.com^
 ||go.zillowgroup.com^
 ||mjp.zimad.com^
+||j.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||tes.zindap.com^
