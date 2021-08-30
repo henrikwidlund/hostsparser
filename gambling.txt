@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-30 06:19:03Z
+! Last Modified: 2021-08-30 12:24:43Z
 
 ||0-24bpautomentes.hu^
 ||00021.net^
@@ -1590,6 +1590,7 @@
 ||servedby.adcombination.com^
 ||adcomplete.com^
 ||adconion.com^
+||adconnect.vn^
 ||adcontrolsolutions.net^
 ||ads.adcorps.com^
 ||oascentreal.adcritic.com^
@@ -48398,6 +48399,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
