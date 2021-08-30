@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-29 18:17:33Z
+! Last Modified: 2021-08-30 00:49:07Z
 
 ||0-24bpautomentes.hu^
 ||00021.net^
@@ -39759,6 +39759,7 @@
 ||settings-liverez.com^
 ||weblink.settrade.com^
 ||www2.settypesoftaflash.icu^
+||node.setupad.com^
 ||prebid-stag.setupad.net^
 ||setupbrokerage.com^
 ||setwincities.com^
@@ -48671,7 +48672,6 @@
 ||winprizesapp.com^
 ||winscholarship.com^
 ||stats.winsim.de^
-||ads.winsite.com^
 ||winstonsalemtimes.com^
 ||winsupportit.club^
 ||marketing.wintechnology.com^

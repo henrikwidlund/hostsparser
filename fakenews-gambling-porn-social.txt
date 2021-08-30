@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-29 18:17:25Z
+! Last Modified: 2021-08-30 00:48:59Z
 
 ||0-24bpautomentes.hu^
 ||00021.net^
@@ -18692,6 +18692,7 @@
 ||pinterest.com.edgekey.net^
 ||optimizely.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
+||ms.applovin.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||exacttarget.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -51696,6 +51697,7 @@
 ||settings-liverez.com^
 ||weblink.settrade.com^
 ||www2.settypesoftaflash.icu^
+||node.setupad.com^
 ||prebid-stag.setupad.net^
 ||setupbrokerage.com^
 ||setwincities.com^
@@ -65312,7 +65314,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -65525,6 +65526,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst9.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||resources-us.yinzcam.com^
 ||cards-sea-nfl.yinzcam.com^
@@ -65548,7 +65550,6 @@
 ||ymxpb.com^
 ||mdws.yncu.com^
 ||ads.ynot.com^
-||flexpod.ynsecureserver.net^
 ||ynw0871.com^
 ||yo-sex.com^
 ||adv.yo.cz^

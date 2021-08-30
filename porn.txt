@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-29 18:17:42Z
+! Last Modified: 2021-08-30 00:49:18Z
 
 ||0-24bpautomentes.hu^
 ||00021.net^
@@ -13256,6 +13256,8 @@
 ||clubwinnerz.com^
 ||ads.clubzone.com^
 ||clue6load.com^
+||cas.cluep.com^
+||dev-as.cluep.com^
 ||adserver.clundressed.com^
 ||cluni.xyz^
 ||clxcaf.com^
@@ -17623,7 +17625,6 @@
 ||marketo.com.edgekey.net^
 ||mathtag.com.edgekey.net^
 ||mookie1.com.edgekey.net^
-||san.push.io.edgekey.net^
 ||marketo.net.edgekey.net^
 ||owneriq.net.edgekey.net^
 ||taboola.com.edgekey.net^
@@ -17655,7 +17656,6 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
-||wildcard.betrad.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -17666,7 +17666,6 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
-||secure.flashtalking.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -35151,6 +35150,7 @@
 ||applink.mob.com^
 ||moblink.mob.com^
 ||sentinel.mob.com^
+||api.verify.mob.com^
 ||track.mob193.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
@@ -47803,7 +47803,6 @@
 ||b.rwjf.org^
 ||go.rworks.jp^
 ||rwpads.net^
-||olx.rwpay.ru^
 ||rwspanking.com^
 ||ssl.o.rxlist.com^
 ||rxnasklola.com^
@@ -48958,6 +48957,7 @@
 ||settings-liverez.com^
 ||weblink.settrade.com^
 ||www2.settypesoftaflash.icu^
+||node.setupad.com^
 ||prebid-stag.setupad.net^
 ||setupbrokerage.com^
 ||seuhentai.com^
@@ -50994,6 +50994,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
 ||metrics.sonyericsson.com^
@@ -61565,6 +61566,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-29 18:17:34Z
+! Last Modified: 2021-08-30 00:49:08Z
 
 ||0-24bpautomentes.hu^
 ||00021.net^
@@ -38784,6 +38784,7 @@
 ||erroldelmonte.samarleyte.co^
 ||ads.samba.tv^
 ||events.cid.samba.tv^
+||pages2.samcotech.com^
 ||analytics.samdd.me^
 ||same-old.net^
 ||worden.samenresultaat.nl^
@@ -39648,6 +39649,7 @@
 ||settings-liverez.com^
 ||weblink.settrade.com^
 ||www2.settypesoftaflash.icu^
+||node.setupad.com^
 ||prebid-stag.setupad.net^
 ||setupbrokerage.com^
 ||setwincities.com^
