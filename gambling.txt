@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-31 06:18:45Z
+! Last Modified: 2021-08-31 12:24:46Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -11479,7 +11479,6 @@
 ||go.crassone.jp^
 ||metric.crateandbarrel.com^
 ||metrics.crateandbarrel.com^
-||cratecamera.com^
 ||cdn.assets.craveonline.com^
 ||crawlability.com^
 ||ads.crawler.com^
@@ -21226,6 +21225,7 @@
 ||10.im.cz^
 ||adverts.im4ges.com^
 ||ad.imad.co.kr^
+||imad24.com^
 ||d.image-ad.jp^
 ||i.image-ad.jp^
 ||j.image-ad.jp^
@@ -35201,6 +35201,7 @@
 ||businessmaking.progress.com^
 ||click.e.progressive.com^
 ||go.progyny.com^
+||img.prohardver.hu^
 ||armanix.white.prohosting.com^
 ||dg.proigrnv.xyz^
 ||proislak.com^
@@ -47336,7 +47337,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

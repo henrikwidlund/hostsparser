@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-31 06:18:37Z
+! Last Modified: 2021-08-31 12:24:37Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2472,7 +2472,6 @@
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
-||pixel-eu.rubiconproject.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
 ||marketing.akaes.com^
@@ -10584,7 +10583,6 @@
 ||cmgfeeds.cmgdigital.com^
 ||appconfig.cmgdigital.com^
 ||www1.cmitsolutions.com^
-||zzzyyzzzyyyzyyzyyyzzyyzyzzzzzzzzyyzzyyyyyzyzyyzzyzpol7196.cmkaarten.nl^
 ||newads.cmpnet.com^
 ||cookies.cmpnet.com^
 ||cmrpolice.com^
@@ -11515,7 +11513,6 @@
 ||go.crassone.jp^
 ||metric.crateandbarrel.com^
 ||metrics.crateandbarrel.com^
-||cratecamera.com^
 ||cdn.assets.craveonline.com^
 ||crawfordcountytimes.com^
 ||crawfordtimes.com^
@@ -21445,6 +21442,7 @@
 ||10.im.cz^
 ||adverts.im4ges.com^
 ||ad.imad.co.kr^
+||imad24.com^
 ||d.image-ad.jp^
 ||i.image-ad.jp^
 ||j.image-ad.jp^
@@ -48728,7 +48726,6 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

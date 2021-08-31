@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-31 06:18:26Z
+! Last Modified: 2021-08-31 12:24:26Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14831,7 +14831,6 @@
 ||go.crassone.jp^
 ||metric.crateandbarrel.com^
 ||metrics.crateandbarrel.com^
-||cratecamera.com^
 ||cravebabes.com^
 ||cdn.assets.craveonline.com^
 ||promo.cravingcarmen.com^
@@ -27761,7 +27760,6 @@
 ||icopywriter.pl^
 ||smetrics.icorner.ch^
 ||icoselfkey.org^
-||stat-ssl.icotto.jp^
 ||wthbuh.icover.ru^
 ||adcycle.icpeurope.net^
 ||icptrack.com^
@@ -28213,6 +28211,7 @@
 ||10.im.cz^
 ||adverts.im4ges.com^
 ||ad.imad.co.kr^
+||imad24.com^
 ||d.image-ad.jp^
 ||i.image-ad.jp^
 ||j.image-ad.jp^
@@ -63971,6 +63970,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ca.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

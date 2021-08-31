@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-31 06:18:35Z
+! Last Modified: 2021-08-31 12:24:36Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1633,6 +1633,9 @@
 ||cdn.accengage.com^
 ||pingapi.accengage.com^
 ||hukhiz.accentjobs.be^
+||somni.accenture.com^
+||trackingmms.accenture.com^
+||trackingcareers.accenture.com^
 ||go.accertify.com^
 ||bannieres.acces-contenu.com^
 ||ea.access-moto.com^
@@ -14463,7 +14466,6 @@
 ||go.crassone.jp^
 ||metric.crateandbarrel.com^
 ||metrics.crateandbarrel.com^
-||cratecamera.com^
 ||cravebabes.com^
 ||cdn.assets.craveonline.com^
 ||promo.cravingcarmen.com^
@@ -27579,6 +27581,7 @@
 ||10.im.cz^
 ||adverts.im4ges.com^
 ||ad.imad.co.kr^
+||imad24.com^
 ||d.image-ad.jp^
 ||i.image-ad.jp^
 ||j.image-ad.jp^
@@ -37725,6 +37728,7 @@
 ||nationonenews.com^
 ||smetrics.nationwide.co.uk^
 ||sstats.nationwidechildrens.org^
+||go.nationwideplatforms.co.uk^
 ||nativead.tech^
 ||ads.nativeinstruments.de^
 ||widget.nativly.com^
@@ -62710,12 +62714,14 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
+||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -63801,6 +63807,7 @@
 ||go.zimperium.com^
 ||tes.zindap.com^
 ||vietnam.zing.photos^
+||banner.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||ziololecznictwo.pl^
 ||tc.zionsbank.com^

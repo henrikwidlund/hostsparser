@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-31 06:18:34Z
+! Last Modified: 2021-08-31 12:24:34Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14518,7 +14518,6 @@
 ||go.crassone.jp^
 ||metric.crateandbarrel.com^
 ||metrics.crateandbarrel.com^
-||cratecamera.com^
 ||cravebabes.com^
 ||cdn.assets.craveonline.com^
 ||promo.cravingcarmen.com^
@@ -18022,6 +18021,7 @@
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
+||ipv6-wildcard.applovin.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -27671,6 +27671,7 @@
 ||10.im.cz^
 ||adverts.im4ges.com^
 ||ad.imad.co.kr^
+||imad24.com^
 ||d.image-ad.jp^
 ||i.image-ad.jp^
 ||j.image-ad.jp^
@@ -34348,7 +34349,6 @@
 ||device.maxmind.com^
 ||maxmusics.com^
 ||ifa.maxpornlive.com^
-||saa.maxpreps.com^
 ||maxregistrycleaner.com^
 ||maxregistrycleaner.net^
 ||maxretroporn.com^
@@ -63062,7 +63062,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
