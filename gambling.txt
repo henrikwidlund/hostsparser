@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-31 00:52:23Z
+! Last Modified: 2021-08-31 06:18:45Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -35201,7 +35201,6 @@
 ||businessmaking.progress.com^
 ||click.e.progressive.com^
 ||go.progyny.com^
-||img.prohardver.hu^
 ||armanix.white.prohosting.com^
 ||dg.proigrnv.xyz^
 ||proislak.com^
@@ -47337,6 +47336,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-31 00:52:09Z
+! Last Modified: 2021-08-31 06:18:30Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14937,7 +14937,6 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
-||consentcdn.cookiebot.com-v1.edgekey.net^
 ||deep.edgequery.io^
 ||somniture.edgestar.com^
 ||c6.edgesuite.net^
