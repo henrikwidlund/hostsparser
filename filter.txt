@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-01 06:25:08Z
+! Last Modified: 2021-09-01 12:24:17Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -52841,6 +52841,7 @@
 ||ads.sonital.com^
 ||go.sonnenbatterie.de^
 ||sonorousporn.com^
+||click.email.sonos.com^
 ||secure.sonosite.com^
 ||sonovivi.com^
 ||tradedoubler.sonvideopro.com^
