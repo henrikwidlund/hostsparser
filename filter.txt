@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-31 18:17:58Z
+! Last Modified: 2021-09-01 00:55:45Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -18450,7 +18450,6 @@
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
-||eus.rubiconproject.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
@@ -59056,6 +59055,8 @@
 ||cdn.wg.uproxx.com^
 ||profile.uproxx.com^
 ||adserver.uproxx.com^
+||metrics.ups.com^
+||smetrics.ups.com^
 ||upsellit.com^
 ||upshare.org^
 ||tally.upsideout.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-08-31 18:18:22Z
+! Last Modified: 2021-09-01 00:56:09Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -11911,7 +11911,6 @@
 ||datum.sale^
 ||ad.g.daum.net^
 ||track.tiara.daum.net^
-||analytics.ad.daum.net^
 ||adimg.daumcdn.net^
 ||daumcdnf.com^
 ||daumcdnr.com^
@@ -27424,6 +27423,7 @@
 ||ssc.mtv.com^
 ||addserver.mtv.com.tr^
 ||sc.mtv.de^
+||sc.mtvi.com^
 ||mtvnlatservices.com^
 ||liosix.mtvuutiset.fi^
 ||glenm.mtxcapital.com^
