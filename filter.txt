@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-01 12:24:17Z
+! Last Modified: 2021-09-01 18:18:12Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -22288,7 +22288,6 @@
 ||freejav.us^
 ||cdn.freejaw.com^
 ||cdn.freejax.com^
-||cdn.freejlo.com^
 ||freejpgseries.com^
 ||freejuicywebcams.com^
 ||ostatniachwila.freekru.pl^
@@ -63975,6 +63974,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||global.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||counter.yakbucks.com^
