@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-02 00:50:43Z
+! Last Modified: 2021-09-02 06:18:47Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14922,6 +14922,7 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||htlb.casalemedia.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -43079,6 +43080,7 @@
 ||cdnsonata.taptapnetworks.com^
 ||sonata-notifications.taptapnetworks.com^
 ||sonata-notifications-us-east.taptapnetworks.com^
+||castiron.tapthetent.com^
 ||ad.tapthislink.com^
 ||taptica.com^
 ||tapwater.news^
@@ -49975,6 +49977,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||br.adserver.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

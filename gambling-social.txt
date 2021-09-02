@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-02 00:50:57Z
+! Last Modified: 2021-09-02 06:19:00Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -44927,6 +44927,7 @@
 ||ads.videoadvertising.com^
 ||videoamp.com^
 ||videobox.com^
+||log.videocampaign.co^
 ||videoconverterhd.com^
 ||videocop.com^
 ||oascentral.videodome.com^

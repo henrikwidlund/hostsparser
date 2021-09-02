@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-02 00:50:41Z
+! Last Modified: 2021-09-02 06:18:46Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -26273,6 +26273,7 @@
 ||analytics.readcube.com.herokudns.com^
 ||production.wootric.com.herokudns.com^
 ||event-logger.tagboard.com.herokudns.com^
+||ios-quinoa-personal-identify-prod.sense360eng.com.herokudns.com^
 ||ads.heroldonline.com^
 ||herotoken.co^
 ||herotokens.io^
