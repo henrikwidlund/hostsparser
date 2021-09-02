@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-01 18:18:26Z
+! Last Modified: 2021-09-02 00:50:55Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -57242,6 +57242,7 @@
 ||usearchx.com^
 ||cdn.usebutton.com^
 ||mobileapi.usebutton.com^
+||app-796db8a17c48a13b.mobileapi.usebutton.com^
 ||stats.useeffect.dev^
 ||img3.usefathom.com^
 ||uselessjunk.com^
