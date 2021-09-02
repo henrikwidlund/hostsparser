@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-02 06:18:54Z
+! Last Modified: 2021-09-02 12:24:44Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2447,8 +2447,6 @@
 ||track.msadcenter.ajfy.com^
 ||smetrics.ajinomoto.co.jp^
 ||ajpharmaholding.com^
-||ac.ajur.info^
-||openx.ajur.info^
 ||cattle.ajyd.org.au^
 ||go.ak4.jp^
 ||aka-root.com^
@@ -6766,6 +6764,7 @@
 ||marketing.bouldercoloradousa.com^
 ||boulderleader.com^
 ||bounceads.net^
+||www99.bounceme.net^
 ||boundbystarlight.co.uk^
 ||info.boundtree.com^
 ||go2.bounteous.com^
@@ -14415,6 +14414,7 @@
 ||go-mpulse.net.edgekey.net^
 ||pinterest.com.edgekey.net^
 ||optimizely.com.edgekey.net^
+||api.vungle.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||exacttarget.com.edgekey.net^
@@ -16650,7 +16650,6 @@
 ||explore.firstnet.com^
 ||firstnotchtrading.com^
 ||mdws.firstontariocu.com^
-||t.firstpromoter.com^
 ||app-clicks.firstrepublic.com^
 ||firststatetimes.com^
 ||firsttus.com^
@@ -17654,7 +17653,6 @@
 ||futuresbtcoffersnew.com^
 ||futuresciencenews.com^
 ||track.futureshop.ca^
-||futuristicapparatus.com^
 ||analytics.futuro360.com^
 ||sanalytics.futuro360.com^
 ||ef.futuroscope.mobi^
@@ -19031,7 +19029,6 @@
 ||unknown.counsellor.gov.cn^
 ||petra.nic.gov.jo^
 ||tacloban.gov.ph^
-||mailhub.minaffet.gov.rw^
 ||info.edb.gov.sg^
 ||event.edb.gov.sg^
 ||smetrics.edb.gov.sg^
