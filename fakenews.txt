@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-03 00:50:29Z
+! Last Modified: 2021-09-03 06:18:50Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -8017,7 +8017,6 @@
 ||ccudl.com^
 ||mdws.ccunl.ca^
 ||cd-ads.com^
-||cd8iw9mh.cricket^
 ||cda-bez-limitu.pl^
 ||cda-edb.pl^
 ||cda-flix.pl^
@@ -14512,7 +14511,6 @@
 ||outbrainimg.com.edgekey.net^
 ||serving-sys.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
-||wildcard.ntv.io.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
@@ -14527,7 +14525,6 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
-||criteo-sync.teads.tv.edgekey.net^
 ||scorecardresearch.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -27797,7 +27794,6 @@
 ||mlove.space^
 ||mloves.space^
 ||mltrk.io^
-||mlvc4zzw.space^
 ||service.mm-r-prop-11-16-2.com^
 ||mm26.com^
 ||mmaaxx.com^
@@ -45756,6 +45752,7 @@
 ||spinbox.versiontracker.com^
 ||versonsor.xyz^
 ||bbbihe.vertbaudet.es^
+||grtmpr.vertbaudet.fr^
 ||demo.vertexinfo.in^
 ||syn.verticalacuity.com^
 ||scripts.verticalacuity.com^
