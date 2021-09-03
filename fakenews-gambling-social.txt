@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-03 06:18:44Z
+! Last Modified: 2021-09-03 12:24:39Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -138,6 +138,7 @@
 ||10tide.com^
 ||11-15.net^
 ||soft.110route.com^
+||uf2aasn.111adfueo.us^
 ||1120.com.tw^
 ||info.112bhv.nl^
 ||1.114central.com^
@@ -50528,7 +50529,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
