@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-04 00:51:16Z
+! Last Modified: 2021-09-04 06:18:26Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -6791,8 +6791,6 @@
 ||bedziemy-zawsze.pl^
 ||trk.bee-data.com^
 ||froling.bee.pl^
-||ads.beeb.com^
-||adimages.beeb.com^
 ||smetrics.beefeater.co.uk^
 ||beeg.com^
 ||beeg.family^
@@ -10480,6 +10478,7 @@
 ||ccudl.com^
 ||mdws.ccunl.ca^
 ||cd-ads.com^
+||cd8iw9mh.cricket^
 ||cda-bez-limitu.pl^
 ||cda-edb.pl^
 ||cda-flix.pl^
@@ -34759,6 +34758,7 @@
 ||mlove.space^
 ||mloves.space^
 ||mltrk.io^
+||mlvc4zzw.space^
 ||service.mm-r-prop-11-16-2.com^
 ||mm26.com^
 ||mmaaxx.com^
@@ -46480,7 +46480,6 @@
 ||reebokwarsaw.com^
 ||p.reed.co.uk^
 ||adcontent.reedbusiness.com^
-||statistics.reedbusiness.nl^
 ||reelgalleries.com^
 ||ads.reembed.com^
 ||rees.games^
@@ -50676,6 +50675,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||sonyalpha.pl^
 ||metrics.sonyericsson.com^
 ||adserver1.sonymusiceurope.com^
@@ -61140,7 +61140,9 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
