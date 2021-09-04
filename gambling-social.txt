@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-03 12:24:51Z
+! Last Modified: 2021-09-04 00:51:11Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -38384,7 +38384,6 @@
 ||sdk.scopely.io^
 ||aprod.scopely.io^
 ||collector.scopely.io^
-||register.collector.scopely.io^
 ||score99.net^
 ||scorecardresearch.com^
 ||info.scorecardrewards.com^

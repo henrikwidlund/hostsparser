@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-03 12:24:34Z
+! Last Modified: 2021-09-04 00:50:53Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -5980,6 +5980,7 @@
 ||adobe.autoscout24.nl^
 ||adobe.autoscout24.pl^
 ||adobe.autoscout24.ro^
+||adobe.autoscout24.ru^
 ||adobe.autoscout24.se^
 ||anblzv.autospot.ru^
 ||autosurfpro.com^
@@ -57538,7 +57539,6 @@
 ||smetrics.toofab.com^
 ||toofanshadid.com^
 ||tookcheckout.com^
-||ea.tool-fitness.com^
 ||toolbarbest.biz^
 ||toolbarbucks.biz^
 ||toolbarcool.biz^
@@ -63639,6 +63639,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||zeus.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
