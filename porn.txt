@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-04 12:23:43Z
+! Last Modified: 2021-09-04 18:17:44Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -17585,6 +17585,7 @@
 ||everestjs.net.edgekey.net^
 ||go-mpulse.net.edgekey.net^
 ||optimizely.com.edgekey.net^
+||api.vungle.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||exacttarget.com.edgekey.net^
@@ -51721,6 +51722,7 @@
 ||jdgtgb.stylevamp.de^
 ||stylovemeble.pl^
 ||stylowoimodnie.pl^
+||smart.styria-digital.com^
 ||static.styria-digital.com^
 ||suaibsan.id^
 ||suaposales.com^
@@ -59795,6 +59797,7 @@
 ||wstrzymana-paczka-paczkomat.xyz^
 ||wstrzymana-paczka.xyz^
 ||wsw.cool^
+||piwik.wsws.org^
 ||wszczecinie.xyz^
 ||wszedzie-jestesmy.pl^
 ||wszedziejestesmy.pl^
@@ -60242,7 +60245,6 @@
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
-||sdkconfig.ad.intl.xiaomi.com^
 ||url8807.global.passport.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^

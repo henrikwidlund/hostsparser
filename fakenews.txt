@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-04 12:23:32Z
+! Last Modified: 2021-09-04 18:17:35Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -5966,8 +5966,6 @@
 ||blingbucks.com^
 ||somnit.blinkfitness.com^
 ||www2.blinkist.com^
-||licensing.blinkreceipt.com^
-||sdk-resources.blinkreceipt.com^
 ||bbtv.blinkx.com^
 ||pings.blip.tv^
 ||ads.static.blip.tv^
@@ -41640,6 +41638,7 @@
 ||jdgtgb.stylevamp.de^
 ||stylovemeble.pl^
 ||stylowoimodnie.pl^
+||smart.styria-digital.com^
 ||static.styria-digital.com^
 ||suaibsan.id^
 ||suaposales.com^
