@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-04 06:18:20Z
+! Last Modified: 2021-09-04 12:23:36Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -16904,6 +16904,7 @@
 ||mail.dolce-gusto.co.nz^
 ||mail.dolce-gusto.com.au^
 ||mail.dolce-gusto.com.my^
+||mail.dolce-gusto.com.sg^
 ||mail.dolce-gusto.com.tw^
 ||mail.dolce-gusto.de^
 ||mail.dolce-gusto.dk^
@@ -62393,6 +62394,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||it.adserver.yahoo.com^
+||ae.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

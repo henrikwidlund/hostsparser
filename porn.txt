@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-04 06:18:26Z
+! Last Modified: 2021-09-04 12:23:43Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -6791,6 +6791,8 @@
 ||bedziemy-zawsze.pl^
 ||trk.bee-data.com^
 ||froling.bee.pl^
+||ads.beeb.com^
+||adimages.beeb.com^
 ||smetrics.beefeater.co.uk^
 ||beeg.com^
 ||beeg.family^
@@ -46480,6 +46482,7 @@
 ||reebokwarsaw.com^
 ||p.reed.co.uk^
 ||adcontent.reedbusiness.com^
+||statistics.reedbusiness.nl^
 ||reelgalleries.com^
 ||ads.reembed.com^
 ||rees.games^
@@ -50675,7 +50678,6 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
-||j.newssuite.sony.net^
 ||sonyalpha.pl^
 ||metrics.sonyericsson.com^
 ||adserver1.sonymusiceurope.com^
@@ -59793,7 +59795,6 @@
 ||wstrzymana-paczka-paczkomat.xyz^
 ||wstrzymana-paczka.xyz^
 ||wsw.cool^
-||piwik.wsws.org^
 ||wszczecinie.xyz^
 ||wszedzie-jestesmy.pl^
 ||wszedziejestesmy.pl^
@@ -60241,6 +60242,7 @@
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
 ||url8807.global.passport.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
@@ -61140,9 +61142,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

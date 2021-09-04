@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-04 06:18:03Z
+! Last Modified: 2021-09-04 12:23:18Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -18576,7 +18576,6 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||go-mpulse.net.edgekey.net^
-||cdn.cxense.com.edgekey.net^
 ||optimizely.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
@@ -31400,6 +31399,7 @@
 ||kin-klk.com^
 ||stat-ssl.kinarino-mall.jp^
 ||stat-ssl.kinarino.jp^
+||supplychain.kinaxis.com^
 ||kindads.com^
 ||kindgirls.com^
 ||mdws.kindredcu.com^
