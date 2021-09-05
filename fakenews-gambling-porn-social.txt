@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-05 06:18:13Z
+! Last Modified: 2021-09-05 12:24:10Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -17923,19 +17923,8 @@
 ||somni.dsw.com^
 ||dsw44z5igdmmbo.com^
 ||ap.dt.gl^
-||mg.dt00.net^
-||img.dt00.net^
-||jsn.dt00.net^
-||imgn.dt00.net^
-||nbimg.dt00.net^
-||aa.newsblock.dt00.net^
 ||dt01.co.jp^
 ||imgn.dt07.com^
-||jsg.dt07.net^
-||jsc.dt07.net^
-||jsn.dt07.net^
-||imgg.dt07.net^
-||counter.dt07.net^
 ||dt1blog.com^
 ||sinfo.dtcidev.co^
 ||dtech.host^
@@ -60358,8 +60347,6 @@
 ||metrics.venclextahcp.com^
 ||counters.vendio.com^
 ||info.vendorpedia.com^
-||om.venere.com^
-||oms.venere.com^
 ||vensostred.site^
 ||ventanasyaluminios.com.mx^
 ||ea.vente-unique.be^

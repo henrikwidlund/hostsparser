@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-05 06:18:15Z
+! Last Modified: 2021-09-05 12:24:11Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14415,18 +14415,7 @@
 ||somni.dsw.com^
 ||dsw44z5igdmmbo.com^
 ||ap.dt.gl^
-||mg.dt00.net^
-||img.dt00.net^
-||jsn.dt00.net^
-||imgn.dt00.net^
-||nbimg.dt00.net^
-||aa.newsblock.dt00.net^
 ||imgn.dt07.com^
-||jsg.dt07.net^
-||jsc.dt07.net^
-||jsn.dt07.net^
-||imgg.dt07.net^
-||counter.dt07.net^
 ||dt1blog.com^
 ||sinfo.dtcidev.co^
 ||dtech.host^
@@ -14890,10 +14879,6 @@
 ||go.ecall.ch^
 ||ecampuskbds.com^
 ||ecard4all.com^
-||ffconf.ecbsn.com^
-||apituner.ecbsn.com^
-||api.engager.ecbsn.com^
-||events.engager.ecbsn.com^
 ||ads.eccentrix.com^
 ||ecco-pl.com^
 ||ecco-polska.pl^
@@ -35047,6 +35032,8 @@
 ||pgeplinvpge-1pl.info^
 ||pgeplprect.info^
 ||pgeplprojeltinv1-west.info^
+||tracking.pgi.com^
+||imeetcentral.pgi.com^
 ||pgiinvest.com^
 ||pgl.example^
 ||plausible.pgmustard.com^
@@ -50526,9 +50513,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
-||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

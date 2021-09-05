@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-05 06:18:33Z
+! Last Modified: 2021-09-05 12:24:27Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -17004,19 +17004,8 @@
 ||somni.dsw.com^
 ||dsw44z5igdmmbo.com^
 ||ap.dt.gl^
-||mg.dt00.net^
-||img.dt00.net^
-||jsn.dt00.net^
-||imgn.dt00.net^
-||nbimg.dt00.net^
-||aa.newsblock.dt00.net^
 ||dt01.co.jp^
 ||imgn.dt07.com^
-||jsg.dt07.net^
-||jsc.dt07.net^
-||jsn.dt07.net^
-||imgg.dt07.net^
-||counter.dt07.net^
 ||dt1blog.com^
 ||sinfo.dtcidev.co^
 ||dtech.host^
@@ -58314,6 +58303,7 @@
 ||waarschijnlijk7.live^
 ||waarschijnlijk8.live^
 ||waarschijnlijk9.live^
+||go.wabco-auto.com^
 ||wabicoin.co^
 ||wabitoken.com^
 ||wabs.pl^
@@ -60583,9 +60573,12 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||test.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
+||diagnosis.ad.intl.xiaomi.com^
 ||url8807.global.passport.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^

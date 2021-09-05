@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-05 06:18:19Z
+! Last Modified: 2021-09-05 12:24:14Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -17444,19 +17444,8 @@
 ||somni.dsw.com^
 ||dsw44z5igdmmbo.com^
 ||ap.dt.gl^
-||mg.dt00.net^
-||img.dt00.net^
-||jsn.dt00.net^
-||imgn.dt00.net^
-||nbimg.dt00.net^
-||aa.newsblock.dt00.net^
 ||dt01.co.jp^
 ||imgn.dt07.com^
-||jsg.dt07.net^
-||jsc.dt07.net^
-||jsn.dt07.net^
-||imgg.dt07.net^
-||counter.dt07.net^
 ||dt1blog.com^
 ||sinfo.dtcidev.co^
 ||dtech.host^
@@ -63640,8 +63629,10 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||tw2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
@@ -63848,6 +63839,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst8.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||resources-us.yinzcam.com^
 ||cards-sea-nfl.yinzcam.com^
