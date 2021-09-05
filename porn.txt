@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-05 12:24:28Z
+! Last Modified: 2021-09-05 18:17:32Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -17596,6 +17596,7 @@
 ||unityads.unity3d.com.edgekey.net^
 ||scorecardresearch.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
+||cdn-dsa.clicktale.net.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
