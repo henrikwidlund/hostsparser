@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-06 12:25:02Z
+! Last Modified: 2021-09-06 18:17:54Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -24657,7 +24657,6 @@
 ||smsulx.kijijiautos.ca^
 ||adb.kijk.nl^
 ||adb-secured.kijk.nl^
-||adserve.kikizo.com^
 ||kin.kikpro.co^
 ||kikuku.net^
 ||adserver.killeraces.com^
@@ -35287,6 +35286,7 @@
 ||marketing.pinkerton.com^
 ||pinkies.pl^
 ||pinkladiesfrisoere.com^
+||metrics.pinkribbonbottle.com^
 ||pinkstar.pl^
 ||pinkvod.pl^
 ||pinkypants.top^
@@ -37584,6 +37584,9 @@
 ||ws.push-notifs.com^
 ||push7.jp^
 ||pushazer.com^
+||cdn.pushcrew.com^
+||dacdn.pushcrew.com^
+||tracking.pushcrew.com^
 ||tracking.email-mandrill.pushd.com^
 ||pushedwebnews.com^
 ||nowgetsoft.pushingnewforcontentsafeload.download^
