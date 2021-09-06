@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-05 18:17:21Z
+! Last Modified: 2021-09-06 00:56:08Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1127,8 +1127,6 @@
 ||6sms.xyz^
 ||6solo.biz^
 ||6stuff.com^
-||clicks.6thstreet.com^
-||bskblt.6thstreet.com^
 ||7-12-1b.fun^
 ||7-12-6a.fun^
 ||7-7-7-partner.org^
@@ -60023,7 +60021,6 @@
 ||smetrics.vwfs.co.uk^
 ||smetrics.vwfs.com.br^
 ||smetrics.vwfs.de^
-||smetrics.vwfs.es^
 ||smetrics.vwfs.gr^
 ||smetrics.vwfs.ie^
 ||smetrics.vwfs.it^
@@ -63289,6 +63286,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

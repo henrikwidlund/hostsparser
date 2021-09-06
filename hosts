@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-05 18:17:12Z
+! Last Modified: 2021-09-06 00:55:58Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -16724,6 +16724,9 @@
 ||dibarbado.com^
 ||dicamba.news^
 ||dicarlotrack.com^
+||click.dice.com^
+||stats.dice.com^
+||insights.dice.com^
 ||links.dice.fm^
 ||dicestrike.com^
 ||dichvuvesinhhanoi.com^
@@ -63629,6 +63632,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||zeus.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -64539,6 +64543,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||europe.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||counter.yakbucks.com^
