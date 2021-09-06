@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-06 06:19:08Z
+! Last Modified: 2021-09-06 12:25:20Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -8463,7 +8463,6 @@
 ||engagemetrics.cisco.com^
 ||partnersuccess.cisco.com^
 ||partnersuccessmetrics.cisco.com^
-||learn.cisecurity.org^
 ||cisie.pl^
 ||cision.com^
 ||smetrics.cisnfm.com^
@@ -26421,7 +26420,6 @@
 ||melissapoland.com^
 ||melissapolska.com^
 ||communications.melitaltd.com^
-||marketing.melitta.com^
 ||melodiakielce.pl^
 ||melodyandmoves.com^
 ||app.meltwater.com^
@@ -47291,6 +47289,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
