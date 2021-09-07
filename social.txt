@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-06 18:18:09Z
+! Last Modified: 2021-09-07 00:49:40Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14131,6 +14131,7 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
+||t.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -36321,8 +36322,6 @@
 ||restore-pc.com^
 ||restricted.pl^
 ||restybnoy.site^
-||sdk.resu.io^
-||sdk1.resu.io^
 ||banners.resultonline.com^
 ||resultplus.jp^
 ||results-house.net^
@@ -42531,7 +42530,6 @@
 ||torrenty--org.pl^
 ||torrenty-org.pl^
 ||ads.torrpedo.net^
-||toru0vane.com^
 ||torun-catering.pl^
 ||toryburchoutlet.info^
 ||torysmeble.pl^
@@ -46881,6 +46879,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||data.mistat.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||url8807.global.passport.xiaomi.com^
@@ -47291,6 +47290,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

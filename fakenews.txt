@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-06 18:17:59Z
+! Last Modified: 2021-09-07 00:49:29Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2072,7 +2072,6 @@
 ||api.advertly.com^
 ||advertmarket.com^
 ||advertmedia.de^
-||tdc.advertorials.dk^
 ||advertpro.com^
 ||advertwizard.com^
 ||adserver.adverty.com^
@@ -12949,6 +12948,7 @@
 ||uktgg.dev-tester.com^
 ||stats.deva.guru^
 ||devata.icu^
+||st.devcodin.com^
 ||ads.developershed.com^
 ||zeus.developershed.com^
 ||otto-images.developershed.com^
@@ -44070,7 +44070,6 @@
 ||torrenty--org.pl^
 ||torrenty-org.pl^
 ||ads.torrpedo.net^
-||toru0vane.com^
 ||torun-catering.pl^
 ||toryburchoutlet.info^
 ||torysmeble.pl^
