@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-07 00:49:20Z
+! Last Modified: 2021-09-07 06:18:47Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -18840,17 +18840,16 @@
 ||stickyadstv.com.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
+||tags.bluekai.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||ma193-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
-||wildcard.aniview.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -27789,8 +27788,6 @@
 ||hqhairypictures.com^
 ||hqhentai.com.br^
 ||hqhole.com^
-||403.hqhost.net^
-||404.hqhost.net^
 ||hqhotmilf.com^
 ||hqjapanesegirls.com^
 ||hqlesbiansextube.com^
@@ -36072,7 +36069,6 @@
 ||sadobeanalytics.medline.com^
 ||tracking.medpagetoday.com^
 ||marketing.medprostaffing.com^
-||bi.medscape.com^
 ||as.medscape.com^
 ||adv.medscape.com^
 ||ssl.o.medscape.com^
@@ -62966,7 +62962,6 @@
 ||weneedhelpnow442.club^
 ||weneedhelpnow442.work^
 ||weneedyou970.club^
-||weownthetraffic.com^
 ||weplay-cw.pro^
 ||weplay-events.pro^
 ||wepower.vision^
@@ -63147,8 +63142,6 @@
 ||wgliwicach.xyz^
 ||wgoo.xyz^
 ||smetrics.wgu.edu^
-||whaleads.com^
-||whalecashads.com^
 ||whalegaming.co.uk^
 ||whataporn.com^
 ||whatboyswant.com^
@@ -63477,7 +63470,6 @@
 ||wildlesbianvideos.com^
 ||cads.wildlifestudios.com^
 ||exchange.wildlifestudios.com^
-||wildmatch.com^
 ||wildmaturemoms.com^
 ||wildmaturetube.com^
 ||wildmilfs.net^
@@ -64424,7 +64416,6 @@
 ||xchatz.com^
 ||gsmqez.xcite.com^
 ||qmoyfh.xcite.com.sa^
-||xclicks.net^
 ||xcnn.com^
 ||rvvpbf.xcom-shop.ru^
 ||xconfessions.com^
@@ -64478,7 +64469,6 @@
 ||serviceo.xfinity.com^
 ||xfreehd.com^
 ||xfreeservice.com^
-||xfuckbook.com^
 ||xg4ken.com^
 ||xgallsx.com^
 ||xgames-04.com^
@@ -64526,9 +64516,9 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||abtest.mistat.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||url8807.global.passport.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -65166,7 +65156,6 @@
 ||xxxbabespics.com^
 ||xxxban.com^
 ||xxxbanjo.com^
-||xxxbannerswap.com^
 ||xxxbbs.cc^
 ||xxxbdsm.org^
 ||xxxbdsmfuck.com^
@@ -65275,17 +65264,14 @@
 ||xxxmoviehub.com^
 ||xxxmovies.pro^
 ||xxxmoviesdownloads.com^
-||xxxmyself.com^
 ||xxxn.club^
 ||xxxnakedpics.com^
 ||xxxnations.com^
-||media.xxxnavy.com^
 ||xxxndx.net^
 ||xxxneoncity.com^
 ||xxxnightly.com^
 ||xxxnode.com^
 ||click.xxxofferz.com^
-||xxxoh.com^
 ||xxxonxxx.com^
 ||xxxopenload.com^
 ||xxxpasswordsite.com^
@@ -65384,7 +65370,6 @@
 ||xxxvintagevideo.com^
 ||xxxvirtualworld.com^
 ||xxxvogue.net^
-||xxxwebtraffic.com^
 ||xxxxamateur.com^
 ||xxxxdb.com^
 ||xxxxporn.net^
@@ -65559,7 +65544,6 @@
 ||yesimright.com^
 ||counter.yesky.com^
 ||ifwry.yeslaptop.win^
-||yesmessenger.com^
 ||yesmessenger.eu^
 ||yesmessenger.hu^
 ||yesporn.co^
@@ -66166,7 +66150,6 @@
 ||yoyosneaker.pl^
 ||logger.yp.ca^
 ||metric.yp.com^
-||ypmadserver.com^
 ||ypmate.com^
 ||ev.ypncdn.com^
 ||fs.ypncdn.com^
@@ -66447,7 +66430,6 @@
 ||zenitbet.com^
 ||zenj.xyz^
 ||business.zenjob.com^
-||zenkreka.com^
 ||prod.zenkube.com^
 ||ads-bi.zenkube.com^
 ||word-bi.zenkube.com^
@@ -66628,11 +66610,6 @@
 ||zofia-f.com^
 ||zofia-f.shop^
 ||zofiabutik.com^
-||b.zog.link^
-||in.zog.link^
-||in8.zog.link^
-||in3.zog.link^
-||in4.zog.link^
 ||zognia.pl^
 ||almuradtiles.zohosites.com^
 ||server.zoiets.be^

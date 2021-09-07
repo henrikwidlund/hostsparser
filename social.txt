@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-07 00:49:40Z
+! Last Modified: 2021-09-07 06:19:08Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14131,7 +14131,6 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
-||t.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -26328,7 +26327,6 @@
 ||sadobeanalytics.medline.com^
 ||tracking.medpagetoday.com^
 ||marketing.medprostaffing.com^
-||bi.medscape.com^
 ||as.medscape.com^
 ||adv.medscape.com^
 ||ssl.o.medscape.com^
@@ -36322,6 +36320,8 @@
 ||restore-pc.com^
 ||restricted.pl^
 ||restybnoy.site^
+||sdk.resu.io^
+||sdk1.resu.io^
 ||banners.resultonline.com^
 ||resultplus.jp^
 ||results-house.net^
@@ -45744,7 +45744,6 @@
 ||weneedhelpnow442.club^
 ||weneedhelpnow442.work^
 ||weneedyou970.club^
-||weownthetraffic.com^
 ||weplay-cw.pro^
 ||weplay-events.pro^
 ||wepower.vision^
@@ -45843,8 +45842,6 @@
 ||wgliwicach.xyz^
 ||wgoo.xyz^
 ||smetrics.wgu.edu^
-||whaleads.com^
-||whalecashads.com^
 ||whatcanidowithbirds.com^
 ||whateyeweight8.live^
 ||go.whatfix.com^
@@ -46098,7 +46095,6 @@
 ||parrotfish.wilderworld.com^
 ||cads.wildlifestudios.com^
 ||exchange.wildlifestudios.com^
-||pcash.wildmatch.com^
 ||wileprefgurad.net^
 ||sdata.wiley.com^
 ||secure.wiley.com^
@@ -46837,7 +46833,6 @@
 ||xchangetrak.com^
 ||gsmqez.xcite.com^
 ||qmoyfh.xcite.com.sa^
-||xclicks.net^
 ||xcnn.com^
 ||rvvpbf.xcom-shop.ru^
 ||mink.xconfessions.com^
@@ -46879,7 +46874,6 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
-||data.mistat.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||url8807.global.passport.xiaomi.com^
@@ -47235,7 +47229,6 @@
 ||xxx-hot-dating1.com^
 ||xxx-r.com^
 ||track.msadcenter.xxx.com^
-||xxxbannerswap.com^
 ||ard.xxxblackbook.com^
 ||geo.xxxblackbook.com^
 ||tour.xxxblackbook.com^
@@ -47245,15 +47238,12 @@
 ||stats.xxxkey.com^
 ||fpwtsp.xxxlutz.de^
 ||textad.xxxmatch.com^
-||xxxmyself.com^
 ||xxxnations.com^
-||media.xxxnavy.com^
 ||xxxnightly.com^
 ||xxxreactor.com^
 ||stats.xxxrewards.com^
 ||xxxtoolbar.com^
 ||bannerlink.xxxtreams.com^
-||xxxwebtraffic.com^
 ||404.xxxymovies.com^
 ||xy7track.com^
 ||b.xyzgame.cc^
@@ -47290,7 +47280,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -47378,9 +47367,6 @@
 ||ads.yeshanews.com^
 ||counter.yesky.com^
 ||ifwry.yeslaptop.win^
-||media.yesmessenger.com^
-||outils.yesmessenger.com^
-||download.yesmessenger.com^
 ||mapp.yesstyle.com^
 ||app.yesware.com^
 ||landing.yetiapp.ec^
@@ -47738,7 +47724,6 @@
 ||yoyosneaker.pl^
 ||logger.yp.ca^
 ||metric.yp.com^
-||ypmadserver.com^
 ||ypmate.com^
 ||get.ypulse.com^
 ||yrals.com^
@@ -47980,7 +47965,6 @@
 ||advertising.zenit.org^
 ||zenj.xyz^
 ||business.zenjob.com^
-||zenkreka.com^
 ||prod.zenkube.com^
 ||ads-bi.zenkube.com^
 ||word-bi.zenkube.com^
@@ -48142,11 +48126,6 @@
 ||zofia-f.com^
 ||zofia-f.shop^
 ||zofiabutik.com^
-||b.zog.link^
-||in.zog.link^
-||in8.zog.link^
-||in3.zog.link^
-||in4.zog.link^
 ||zognia.pl^
 ||almuradtiles.zohosites.com^
 ||server.zoiets.be^
