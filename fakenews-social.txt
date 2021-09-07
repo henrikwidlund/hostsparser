@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-07 06:18:55Z
+! Last Modified: 2021-09-07 12:24:16Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -33526,6 +33526,7 @@
 ||olx.pay-id183413.company^
 ||olx-pl.pay-id74553.me^
 ||olx.pl.pay-information.com^
+||pl.pay-mentos.online^
 ||pay-olx.cf^
 ||pay-olx.gq^
 ||pay-olxdostawa.pl^
@@ -37940,7 +37941,6 @@
 ||zebra.rightly.co.uk^
 ||rightmedia.com^
 ||rightmedia.net^
-||content.rightsourcemarketing.com^
 ||righttriangle.net^
 ||rightwingnews.com^
 ||secure.rigi9bury.com^
@@ -41150,8 +41150,6 @@
 ||speisa.com^
 ||spektrapay.com^
 ||go.spellingcity.com^
-||metric.spencersonline.com^
-||metrics.spencersonline.com^
 ||spensa.co^
 ||spent.com.pl^
 ||sperrypolska.com^
