@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-08 06:18:47Z
+! Last Modified: 2021-09-08 12:24:53Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -32684,9 +32684,6 @@
 ||go.openspacetrust.org^
 ||www2.openstax.org^
 ||piwik.openstreetmap.org^
-||ads.opensubtitles.org^
-||ads1.opensubtitles.org^
-||ads2.opensubtitles.org^
 ||o.opentable.co.uk^
 ||so.opentable.co.uk^
 ||o.opentable.com^
