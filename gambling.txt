@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-08 12:24:53Z
+! Last Modified: 2021-09-08 18:20:19Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1038,7 +1038,6 @@
 ||metrics.client-eng.a2z.com^
 ||analytics.console.aws.a2z.com^
 ||notify.bugsnag.appstore.a2z.com^
-||prod.cm.publishers.advertising.a2z.com^
 ||global.telemetry.insights.video.a2z.com^
 ||us-east-1.telemetry.insights.video.a2z.com^
 ||a2zgroup.in^
@@ -23434,7 +23433,6 @@
 ||k.jacadi.de^
 ||k.jacadi.es^
 ||k.jacadi.fr^
-||k.jacadi.it^
 ||k.jacadi.us^
 ||offer.q8fe7jh2d79fg9n.jacazma.ir^
 ||jacbridge.com^
@@ -32684,6 +32682,9 @@
 ||go.openspacetrust.org^
 ||www2.openstax.org^
 ||piwik.openstreetmap.org^
+||ads.opensubtitles.org^
+||ads1.opensubtitles.org^
+||ads2.opensubtitles.org^
 ||o.opentable.co.uk^
 ||so.opentable.co.uk^
 ||o.opentable.com^
@@ -49231,7 +49232,10 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
+||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
