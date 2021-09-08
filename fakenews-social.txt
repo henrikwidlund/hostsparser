@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-08 00:50:30Z
+! Last Modified: 2021-09-08 06:18:40Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -39414,6 +39414,7 @@
 ||safedownloadcenter.com^
 ||safedownloadsrus166.com^
 ||safehubsecurity.ca^
+||analytics.safelinking.net^
 ||geo.safelinktracker.com^
 ||info.safelogic.com^
 ||safemobilelink.com^
@@ -40952,6 +40953,7 @@
 ||msfvwi.sieuthiyte.com.vn^
 ||communications.siffron.com^
 ||prod.sift.co^
+||vabid.prod.sift.co^
 ||sift-campaign-creatives.sift.co^
 ||ads.sift.co.uk^
 ||dc.sify.com^
@@ -50626,6 +50628,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||counter.yakbucks.com^
