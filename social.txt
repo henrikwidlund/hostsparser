@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-07 18:18:28Z
+! Last Modified: 2021-09-08 00:50:44Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2083,6 +2083,19 @@
 ||adserver.adverty.com^
 ||advertyz.com^
 ||oasis2.advfn.com^
+||ads.adviad.com^
+||api.adviad.com^
+||cdn.adviad.com^
+||dmp.adviad.com^
+||app.adviad.com^
+||dsp.adviad.com^
+||ssp.adviad.com^
+||ads2.adviad.com^
+||ads3.adviad.com^
+||ads4.adviad.com^
+||sync.adviad.com^
+||cdnuz.adviad.com^
+||report.adviad.com^
 ||marketing.advicemedia.com^
 ||advicevideoline.com^
 ||banners.advidi.com^
@@ -48456,7 +48469,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ae.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

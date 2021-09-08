@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-07 18:18:11Z
+! Last Modified: 2021-09-08 00:50:25Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -21533,6 +21533,7 @@
 ||sc.hm.com^
 ||metrics.hm.com^
 ||mobile.api.hmageo.com^
+||www2.hmarkets.com^
 ||adbsmetrics.ep.hmc.co.kr^
 ||mdws.hmecu.com^
 ||ma.hmhco.com^
@@ -41548,7 +41549,6 @@
 ||share-bnb.com^
 ||share-clouds.com^
 ||share-downloading.com^
-||rovauy.share-now.com^
 ||share-stores.com^
 ||static.share-videos.se^
 ||stats.share.link^

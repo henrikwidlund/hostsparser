@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-07 18:18:10Z
+! Last Modified: 2021-09-08 00:50:23Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -31179,10 +31179,6 @@
 ||nationale-loterij.be^
 ||nationalenquirer.com^
 ||info.nationalfoodgroup.com^
-||w88.nationalgeographic.com^
-||sw88.nationalgeographic.com^
-||www3.nationalgeographic.com^
-||metric.nationalgeographic.com^
 ||smetrics.nationalgrid.com^
 ||smetrics.nationalgrideso.com^
 ||nationalinsiderpolitics.com^
@@ -48745,6 +48741,7 @@
 ||vie-en-islam.com^
 ||viedechretien.org^
 ||marvpo.viedemerde.fr^
+||smetrics.viega.com^
 ||smetrics.viega.de^
 ||vierklee.com^
 ||conimicutlighthouse.viessmann-us.com^
