@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-09 06:18:56Z
+! Last Modified: 2021-09-09 12:24:55Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1475,7 +1475,6 @@
 ||ad.net^
 ||voordeel.ad.nl^
 ||banner.ad.nu^
-||cdn.ad.plus^
 ||ad001.ru^
 ||cdn.ad1-click.com^
 ||s.ad121m.com^
@@ -50621,10 +50620,12 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
+||tw.adserver.yahoo.com^
+||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
