@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-09 00:54:13Z
+! Last Modified: 2021-09-09 06:19:09Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -8908,6 +8908,7 @@
 ||sanalytics.boomerang-tv.ro^
 ||sanalytics.boomerang.asia^
 ||sanalytics.boomeranghq.net^
+||sanalytics.boomerangla.com^
 ||sanalytics.boomerangmena.com^
 ||analytics.boomerangtv.co.uk^
 ||sanalytics.boomerangtv.co.uk^
@@ -61954,7 +61955,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -62866,8 +62866,8 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
-||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

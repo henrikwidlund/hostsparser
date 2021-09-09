@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-09 00:54:02Z
+! Last Modified: 2021-09-09 06:18:58Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -29308,7 +29308,6 @@
 ||arc1.msn.com^
 ||popup.msn.com^
 ||rmads.msn.com^
-||b.rad.msn.com^
 ||ads.eu.msn.com^
 ||c.latam.msn.com^
 ||preview.msn.com^
@@ -50138,6 +50137,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
