@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-10 12:24:37Z
+! Last Modified: 2021-09-10 18:18:05Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -24006,6 +24006,7 @@
 ||joyschema3.live^
 ||jp-microsoft-store.com^
 ||moncler.onlineshop.jp.net^
+||jpassport.jp^
 ||pbstats.jpmorgan.com^
 ||ads.jpost.com^
 ||sis.jpush.io^
@@ -50141,6 +50142,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||counter.yakbucks.com^

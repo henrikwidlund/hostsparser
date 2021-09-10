@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-10 12:24:42Z
+! Last Modified: 2021-09-10 18:18:09Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14955,7 +14955,6 @@
 ||spotxcdn.com.edgekey.net^
 ||yieldlab.net.edgekey.net^
 ||secure-adnxs.edgekey.net^
-||cdn.teads.tv.edgekey.net^
 ||i.pinimg.com.edgekey.net^
 ||s.pinimg.com.edgekey.net^
 ||v.pinimg.com.edgekey.net^
@@ -23951,6 +23950,7 @@
 ||joyschema3.live^
 ||jp-microsoft-store.com^
 ||moncler.onlineshop.jp.net^
+||jpassport.jp^
 ||pbstats.jpmorgan.com^
 ||ads.jpost.com^
 ||sis.jpush.io^
