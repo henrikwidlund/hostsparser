@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-09 18:18:08Z
+! Last Modified: 2021-09-10 00:55:08Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -10786,6 +10786,7 @@
 ||go.capsilon.com^
 ||captainbicycle.com^
 ||captainstabbin.com^
+||ads.captifymedia.com^
 ||captiveangels.com^
 ||capturedcovers.com^
 ||car-truck-boat-bonuspath.com^
@@ -53651,7 +53652,6 @@
 ||shoutmostface4.live^
 ||shoutmostface7.live^
 ||shoutmostface8.live^
-||stats.shoutout.so^
 ||shovavon.co.il^
 ||ads.shovtvnet.com^
 ||www2.showa-jutaku.co.jp^

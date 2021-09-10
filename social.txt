@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-09 18:18:31Z
+! Last Modified: 2021-09-10 00:55:34Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -3705,6 +3705,7 @@
 ||netflix.apple-green.net^
 ||apple-protection.info^
 ||metrics.apple.com^
+||cf.iadsdk.apple.com^
 ||securemetrics.apple.com^
 ||banners.itunes.apple.com^
 ||securemetrics.apple.com.cn^
@@ -7695,6 +7696,7 @@
 ||marketing.capsahealthcare.com^
 ||go.capsilon.com^
 ||captainbicycle.com^
+||ads.captifymedia.com^
 ||capturedcovers.com^
 ||car-truck-boat-bonuspath.com^
 ||car-truck-boat-premiumblvd.com^
