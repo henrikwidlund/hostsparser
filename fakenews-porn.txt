@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-10 00:55:19Z
+! Last Modified: 2021-09-10 06:18:47Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -57352,7 +57352,6 @@
 ||thoughtplus.in^
 ||sponsors.thoughtsmedia.com^
 ||go.thoughtspot.com^
-||smetrics.thoughtworks.com^
 ||thozhilvarthalatest.com^
 ||thputr.pro^
 ||go.threadcheck.com^
@@ -64110,6 +64109,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||url8807.global.passport.xiaomi.com^
 ||moe.xiaomitq.com^
