@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-11 00:50:22Z
+! Last Modified: 2021-09-11 06:18:18Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -36341,6 +36341,8 @@
 ||smetrics.preautorizacionfs.com^
 ||ma.preciofishbone.se^
 ||adopt.precisead.com^
+||rc.precisely.com^
+||tracking.precisely.com^
 ||precisionattention.info^
 ||info.precisionlens.net^
 ||go.precor.com^
@@ -49718,6 +49720,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ca.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

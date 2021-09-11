@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-11 00:50:17Z
+! Last Modified: 2021-09-11 06:18:13Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -3886,6 +3886,7 @@
 ||aragon.im^
 ||aragonproject.io^
 ||marketing.aragonresearch.com^
+||a8cv.araiba.net^
 ||info.aramex.com^
 ||aran9midi.com^
 ||arank.com^
@@ -18122,7 +18123,6 @@
 ||fromthetrenchesworldreport.com^
 ||fromtj.com^
 ||fromwhereigo.com^
-||toad.frontendmentor.io^
 ||metrics.frontier.com^
 ||smetrics.frontier.com^
 ||metrics.frontline.com^
@@ -41702,6 +41702,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
 ||metrics.sonyericsson.com^
@@ -50137,6 +50138,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
