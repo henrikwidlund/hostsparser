@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-11 18:17:23Z
+! Last Modified: 2021-09-12 00:53:45Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -475,6 +475,7 @@
 ||33-trk-srv.com^
 ||34.gs^
 ||34q22.cn^
+||ads.359group.com^
 ||g.s.360.cn^
 ||p.s.360.cn^
 ||hao.360.cn^
@@ -32648,8 +32649,6 @@
 ||numerai-token.com^
 ||numerai.tech^
 ||tr.communication.numericable.fr^
-||5363316.marketing.numi.com^
-||ablinks.marketing.numi.com^
 ||plausible.nuqu.org^
 ||smr.nuro.jp^
 ||ssmr.nuro.jp^
