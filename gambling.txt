@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-12 18:17:34Z
+! Last Modified: 2021-09-13 00:54:07Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -13561,7 +13561,6 @@
 ||ads.digitalcaramel.com^
 ||marketing.digitalcurrent.com^
 ||fhg.digitaldesire.com^
-||digitaldsp.com^
 ||metrics.digitaleditions.com.au^
 ||dap.digitalgov.gov^
 ||ads.digitalhealthcare.com^
@@ -36007,6 +36006,11 @@
 ||polska-poczta.top^
 ||polska-raport.ml^
 ||polska-tv.pl^
+||pl-olx.polska24-dostawa24.shop^
+||inpost.polska24-dostawa24.shop^
+||i-inpost.polska24-dostawa24.shop^
+||pl-inpost.polska24-dostawa24.shop^
+||polskapoczta-pl.polska24-dostawa24.shop^
 ||inpost.polska24-dostawa24.xyz^
 ||polska24.com.pl^
 ||polskabieda.com^
@@ -49472,7 +49476,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

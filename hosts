@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-12 18:17:15Z
+! Last Modified: 2021-09-13 00:53:49Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -17419,7 +17419,6 @@
 ||digitalcunts.com^
 ||marketing.digitalcurrent.com^
 ||digitaldesire.com^
-||digitaldsp.com^
 ||metrics.digitaleditions.com.au^
 ||dap.digitalgov.gov^
 ||ads.digitalhealthcare.com^
@@ -19249,7 +19248,6 @@
 ||spotxcdn.com.edgekey.net^
 ||yieldlab.net.edgekey.net^
 ||secure-adnxs.edgekey.net^
-||cdn.teads.tv.edgekey.net^
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
@@ -19270,6 +19268,7 @@
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
+||s-static.innovid.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
@@ -36669,7 +36668,6 @@
 ||meblecilam.pl^
 ||meblegiete.pl^
 ||meblomonter.pl^
-||inpost.pl.mebuyit.pw^
 ||smetrics.meccabingo.com^
 ||banners.meccahoo.com^
 ||mechanicaljoke.com^
@@ -62309,6 +62307,7 @@
 ||mtvbrazil-services.vimn.com^
 ||ojufuk.vincecamuto.com^
 ||vincenzodellavecchia.xyz^
+||adtracking.vinden.nl^
 ||i4eg76.vindicated-shelter.space^
 ||vindoegat.se^
 ||mmm.vindy.com^
@@ -66515,6 +66514,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
+||fr.adserver.yahoo.com^
+||uk.adserver.yahoo.com^
+||es.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
