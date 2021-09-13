@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-13 06:19:01Z
+! Last Modified: 2021-09-13 12:27:22Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -38687,6 +38687,7 @@
 ||netcatkit.com^
 ||post.netchina.com.cn^
 ||netcommunities.com^
+||images.netcomvad.com^
 ||go.netcore.in^
 ||go.netcorecloud.com^
 ||banners.netcraft.com^
@@ -63454,6 +63455,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||se.adserver.yahoo.com^
+||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
