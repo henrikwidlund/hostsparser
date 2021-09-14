@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-14 06:18:31Z
+! Last Modified: 2021-09-14 12:24:41Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -15078,7 +15078,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
-||ma312-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -33642,6 +33641,7 @@
 ||marketing.pac.com^
 ||hi.pacehillel.org^
 ||programs.pacificbiosciences.com^
+||saa.pacificdentalservices.com^
 ||pacificinvestmentsltd.com^
 ||pd.pacificlegal.org^
 ||pacificnet.host^
@@ -49065,6 +49065,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||cdn.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-14 06:18:33Z
+! Last Modified: 2021-09-14 12:24:43Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -3085,6 +3085,7 @@
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
+||dts.innovid.com.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
@@ -46254,6 +46255,7 @@
 ||stat-ssl.priceprice.com^
 ||ads.pricescan.com^
 ||colinde.pricesne.com^
+||stats.pricewell.io^
 ||pride-industry.com^
 ||pride-industry.net^
 ||pridematures.com^
@@ -62543,8 +62545,6 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
-||data.mistat.xiaomi.com^
-||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||url8807.global.passport.xiaomi.com^
@@ -63459,6 +63459,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||europe.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||counter.yakbucks.com^
