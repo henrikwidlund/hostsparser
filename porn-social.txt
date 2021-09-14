@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-14 00:56:22Z
+! Last Modified: 2021-09-14 06:18:33Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -28011,7 +28011,6 @@
 ||secure.analytics.ihg.com^
 ||adserer.ihigh.com^
 ||adsrv2.ihlassondakika.com^
-||ihogaetw.com^
 ||ihookup.com^
 ||ihpc.info^
 ||owss.ihs.com^
@@ -46255,7 +46254,6 @@
 ||stat-ssl.priceprice.com^
 ||ads.pricescan.com^
 ||colinde.pricesne.com^
-||stats.pricewell.io^
 ||pride-industry.com^
 ||pride-industry.net^
 ||pridematures.com^
@@ -62545,6 +62543,8 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||data.mistat.xiaomi.com^
+||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||url8807.global.passport.xiaomi.com^

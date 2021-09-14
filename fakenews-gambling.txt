@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-14 00:56:06Z
+! Last Modified: 2021-09-14 06:18:20Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -7329,10 +7329,7 @@
 ||iad-06.braze.com^
 ||iad-08.braze.com^
 ||sdk.iad-02.braze.com^
-||rest.iad-01.braze.com^
 ||gudja.iad-02.braze.com^
-||birigum.iad-03.braze.com^
-||inferna.iad-03.braze.com^
 ||cdn.braze.eu^
 ||fra-01.braze.eu^
 ||ads.brazzers.com^
@@ -15588,6 +15585,7 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||wildcard.aniview.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -22930,7 +22928,6 @@
 ||secure.analytics.ihg.com^
 ||adserer.ihigh.com^
 ||adsrv2.ihlassondakika.com^
-||ihogaetw.com^
 ||owss.ihs.com^
 ||wass.ihsmarkit.com^
 ||premium.ihuh.pl^

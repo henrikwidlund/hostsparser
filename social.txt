@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-14 00:56:26Z
+! Last Modified: 2021-09-14 06:18:35Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -21629,7 +21629,6 @@
 ||secure.analytics.ihg.com^
 ||adserer.ihigh.com^
 ||adsrv2.ihlassondakika.com^
-||ihogaetw.com^
 ||owss.ihs.com^
 ||wass.ihsmarkit.com^
 ||premium.ihuh.pl^
@@ -46053,13 +46052,11 @@
 ||onrt-stsdk.vivo.com.cn^
 ||pnrt-stsdk.vivo.com.cn^
 ||picanalysis.vivo.com.cn^
-||brort.stsdk.vivo.com.cn^
 ||monitor-stsdk.vivo.com.cn^
 ||vcardsdkservice.vivo.com.cn^
 ||ads-marketing-vivofs.vivo.com.cn^
 ||vivobarefootpoiska.com^
 ||stsdk.vivoglobal.com^
-||ort.stsdk.vivoglobal.com^
 ||asia-stsdk.vivoglobal.com^
 ||onrt-stsdk.vivoglobal.com^
 ||asia-ort-stsdk.vivoglobal.com^
@@ -48715,8 +48712,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sg.adserver.yahoo.com^
-||ca.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

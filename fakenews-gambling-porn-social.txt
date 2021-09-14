@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-14 00:56:02Z
+! Last Modified: 2021-09-14 06:18:17Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -6080,6 +6080,7 @@
 ||austrian-angels.at^
 ||autcus.org^
 ||auth-google.site^
+||whitefish.autharmor.com^
 ||authedmine.com^
 ||authenticangry.com^
 ||authenticated-origin.com^
@@ -29397,7 +29398,6 @@
 ||secure.analytics.ihg.com^
 ||adserer.ihigh.com^
 ||adsrv2.ihlassondakika.com^
-||ihogaetw.com^
 ||ihookup.com^
 ||ihpc.info^
 ||owss.ihs.com^
