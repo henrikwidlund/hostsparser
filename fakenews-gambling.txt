@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-14 12:24:29Z
+! Last Modified: 2021-09-14 18:17:09Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2593,6 +2593,7 @@
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
+||sync-usva.tidaltv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -22958,6 +22959,7 @@
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
 ||keyserver.ijinshan.com^
+||cdndownload.liehu.ijinshan.com^
 ||icas.ikea.com^
 ||sicas.ikea.com^
 ||metrics.ikea.com^
@@ -35683,6 +35685,7 @@
 ||rss.pazudora-friend.com^
 ||pb7dg.cn^
 ||lp.pbhs.com^
+||go.pbisrewards.com^
 ||go1.pbmedia.org^
 ||pbndswdswyhdjfn.com^
 ||pbnkcnjfnikjserv.org^
@@ -35920,7 +35923,6 @@
 ||permissionresearch.com^
 ||embknh.perriconemd.com^
 ||persecutes.com^
-||b2b.persgroep.digital^
 ||ads.persgroep.net^
 ||images.persgroepadvertising.be^
 ||persgroepadvertising.nl^
