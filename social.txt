@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-14 18:17:27Z
+! Last Modified: 2021-09-15 00:52:01Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14650,7 +14650,6 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
-||wildcard.betrad.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -40003,6 +40002,7 @@
 ||smart-m-system.com^
 ||sprzedaz.smart-posrednik.xyz^
 ||smart-scripts.com^
+||smart-traffik.com^
 ||smart-traffik.io^
 ||sanalytics.smart.com^
 ||smart.link^
