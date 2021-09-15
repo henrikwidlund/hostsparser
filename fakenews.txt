@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-15 00:51:46Z
+! Last Modified: 2021-09-15 06:18:42Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -28622,7 +28622,6 @@
 ||go.missingkids.org^
 ||meerkat.missinglettr.com^
 ||missionpark100.com^
-||s.mississauga.com^
 ||599.stats.misstrends.com^
 ||602.stats.misstrends.com^
 ||604.stats.misstrends.com^
@@ -41054,6 +41053,8 @@
 ||tracking.sierrawireless.com^
 ||msfvwi.sieuthiyte.com.vn^
 ||communications.siffron.com^
+||prod.sift.co^
+||sift-campaign-creatives.sift.co^
 ||ads.sift.co.uk^
 ||dc.sify.com^
 ||ads.sify.com^
