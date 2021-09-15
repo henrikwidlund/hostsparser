@@ -9,8 +9,9 @@ COPY . .
 WORKDIR "/src"
 RUN dotnet build "HostsParser.csproj" -c Release -o /app/build
 
+ARG ASSEMBLY_VERSION=1.0.0
 FROM build AS publish
-RUN dotnet publish "HostsParser.csproj" -c Release -o /app/publish
+RUN dotnet publish "HostsParser.csproj" -c Release -o /app/publish /p:Version="$ASSEMBLY_VERSION"
 
 FROM base AS final
 WORKDIR /app
