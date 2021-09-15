@@ -4,6 +4,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Globalization;
 using System.IO;
 using System.Net.Http;
 using System.Text;
@@ -23,11 +24,13 @@ namespace HostsParser
                 options.AddSimpleConsole(consoleOptions =>
                 {
                     consoleOptions.SingleLine = true;
+                    consoleOptions.TimestampFormat = CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern + " " +
+                                                     CultureInfo.CurrentCulture.DateTimeFormat.LongTimePattern + " ";
                 });
             });
             var logger = loggerFactory.CreateLogger("HostsParser");
 
-            logger.LogInformation(WithTimeStamp("Running..."));
+            logger.LogInformation("Running...");
             var stopWatch = new Stopwatch();
             stopWatch.Start();
 
@@ -72,9 +75,9 @@ namespace HostsParser
 
             if (settings.ExtraFiltering)
             {
-                logger.LogInformation(WithTimeStamp("Start extra filtering of duplicates"));
+                logger.LogInformation("Start extra filtering of duplicates");
                 sortedDnsList = ProcessingUtilities.ProcessWithExtraFiltering(sortedDnsList, adBlockBasedLines, filteredCache);
-                logger.LogInformation(WithTimeStamp("Done extra filtering of duplicates"));
+                logger.LogInformation("Done extra filtering of duplicates");
             }
 
             await using StreamWriter streamWriter = new(settings.OutputFileName, false);
@@ -93,9 +96,7 @@ namespace HostsParser
             }
 
             stopWatch.Stop();
-            logger.LogInformation(WithTimeStamp($"Execution duration - {stopWatch.Elapsed} | Produced {sortedDnsList.Count} hosts"));
-
-            static string WithTimeStamp(string message) => $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}";
+            logger.LogInformation("Execution duration - {elapsed} | Produced {count} hosts", stopWatch.Elapsed, sortedDnsList.Count);
         }
     }
 }
