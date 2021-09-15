@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-15 18:17:57Z
+! Last Modified: 2021-09-15 20:30:29Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -15947,9 +15947,6 @@
 ||elkepeszto.net^
 ||elkharttimes.com^
 ||elkhornguide.com^
-||przucu.elkjop.no^
-||metrics.elkjop.no^
-||smetrics.elkjop.no^
 ||ellads.com^
 ||metrics.elle.co.jp^
 ||metrics.elle.com^
@@ -19969,6 +19966,7 @@
 ||adcounter.globeandmail.com^
 ||ads.globescale.com^
 ||cursor.kvada.globescale.com^
+||stats.globesports.com^
 ||globetrotting-culture.ru^
 ||globetworld.com^
 ||globire.info^

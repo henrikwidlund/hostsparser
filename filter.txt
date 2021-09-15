@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-15 18:17:52Z
+! Last Modified: 2021-09-15 20:30:23Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -19271,7 +19271,6 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
-||wildcard.outbrain.com.edgekey.net^
 ||scorecardresearch.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -36008,9 +36007,6 @@
 ||marketaff.com^
 ||marketbull.co.uk^
 ||marketcfd.com^
-||secure.marketengines.com^
-||secure3.marketengines.com^
-||download2.marketengines.com^
 ||m.marketfinance.com^
 ||smetrics.marketfor.com^
 ||marketgameland.com^
@@ -66518,6 +66514,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
