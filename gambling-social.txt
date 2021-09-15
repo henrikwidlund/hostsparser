@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-15 12:26:06Z
+! Last Modified: 2021-09-15 18:18:06Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -31067,8 +31067,6 @@
 ||stats2.newyorker.com^
 ||st.newyorklife.com^
 ||tracking.newyorklifeinvestments.com^
-||sutra.newzfind.com^
-||rotor6.newzfind.com^
 ||newzia.jp^
 ||strack.newzit.com^
 ||go.nexamp.com^
@@ -49964,7 +49962,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

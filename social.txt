@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-15 12:26:12Z
+! Last Modified: 2021-09-15 18:18:11Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14616,6 +14616,7 @@
 ||marketo.com.edgekey.net^
 ||mathtag.com.edgekey.net^
 ||mookie1.com.edgekey.net^
+||san.push.io.edgekey.net^
 ||marketo.net.edgekey.net^
 ||owneriq.net.edgekey.net^
 ||taboola.com.edgekey.net^
@@ -48713,7 +48714,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
