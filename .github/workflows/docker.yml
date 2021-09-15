@@ -58,7 +58,7 @@ jobs:
         id: set_version
         with:
           script: |
-            const tag = context.ref
+            const tag = ${{ git describe --tags --abbrev=0 }}
             const no_v = tag.replace('v', '')
             const dash_index = no_v.lastIndexOf('-')
             const no_dash = (dash_index > -1) ?  no_v.substring(0, dash_index) : no_v
