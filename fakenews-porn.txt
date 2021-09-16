@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-16 12:25:32Z
+! Last Modified: 2021-09-16 18:18:13Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -18773,6 +18773,7 @@
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ds-www.addthis.com.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -47893,6 +47894,7 @@
 ||promocjavan.com^
 ||promoda-sklep.com.pl^
 ||promoda-sklep.pl^
+||aff.promodeals.nl^
 ||cp.promoisland.net^
 ||local.promoisland.net^
 ||content.promoisland.net^
