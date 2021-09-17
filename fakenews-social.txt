@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-17 00:57:34Z
+! Last Modified: 2021-09-17 06:18:39Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -45109,8 +45109,6 @@
 ||ads.thrillsaffiliates.com^
 ||metrics.thrivent.com^
 ||smetrics.thrivent.com^
-||content.thrixxx.com^
-||affiliates.thrixxx.com^
 ||throtle.io^
 ||toplist.throughput.de^
 ||throwacupcake.com^
@@ -50866,7 +50864,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
