@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-17 06:18:38Z
+! Last Modified: 2021-09-17 12:25:16Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14385,6 +14385,8 @@
 ||colorsoflife.online^
 ||coloryee.com^
 ||dsp.colpirio.com^
+||data.colruyt.be^
+||securedata.colruyt.be^
 ||data.colruytgroup.com^
 ||securedata.colruytgroup.com^
 ||coltoos.site^
@@ -45444,7 +45446,6 @@
 ||inpost-order.pl-id40145678.xyz^
 ||allegro-order.pl-id40322514.xyz^
 ||inpost-order.pl-id40845711.xyz^
-||booking.pl-id40980649.xyz^
 ||olx.pl-id41286412.net^
 ||olx.pl-id41464578.com^
 ||olx.pl-id423678123.net^
@@ -53905,6 +53906,7 @@
 ||somuchrain.com^
 ||sonandmature.com^
 ||sonasea-phuquoc.com^
+||ads.sonataplatform.com^
 ||sonatns.sonatrach.dz^
 ||act.soneticscorp.com^
 ||songbird.fr^
@@ -65263,7 +65265,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ca.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

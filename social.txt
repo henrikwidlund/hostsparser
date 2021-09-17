@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-17 06:18:53Z
+! Last Modified: 2021-09-17 12:25:31Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -46050,7 +46050,6 @@
 ||stnetsdk.vivo.com.cn^
 ||ort-stsdk.vivo.com.cn^
 ||prt-stsdk.vivo.com.cn^
-||ort.stsdk.vivo.com.cn^
 ||onrt-stsdk.vivo.com.cn^
 ||pnrt-stsdk.vivo.com.cn^
 ||picanalysis.vivo.com.cn^
@@ -46061,7 +46060,6 @@
 ||stsdk.vivoglobal.com^
 ||asia-stsdk.vivoglobal.com^
 ||onrt-stsdk.vivoglobal.com^
-||pnrt.stsdk.vivoglobal.com^
 ||asia-ort-stsdk.vivoglobal.com^
 ||asia-prt-stsdk.vivoglobal.com^
 ||asia-onrt-stsdk.vivoglobal.com^
