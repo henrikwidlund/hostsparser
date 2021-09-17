@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-16 18:18:08Z
+! Last Modified: 2021-09-17 00:57:27Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -48969,6 +48969,7 @@
 ||cs.videowalldirect.com^
 ||ssp.videowalldirect.com^
 ||vider-image.com^
+||jkwdsl.videt.ro^
 ||vidible.tv^
 ||vidnline.com^
 ||vidora.com^
@@ -52117,6 +52118,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
