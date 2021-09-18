@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-17 18:17:22Z
+! Last Modified: 2021-09-18 00:51:04Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -44255,7 +44255,6 @@
 ||the-news-spy.info^
 ||the-newspapers.com^
 ||the-only-way-out.com^
-||the-ozone-project.com^
 ||the-path-gateway.com^
 ||the-prize-space.life^
 ||ns1.the-sinner.net^
@@ -46527,6 +46526,7 @@
 ||eloqua-trackings.unity.com^
 ||salesforce.unity.edu^
 ||create.unity3d.com^
+||config.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
