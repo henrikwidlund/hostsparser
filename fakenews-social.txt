@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-18 00:51:04Z
+! Last Modified: 2021-09-18 06:18:02Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2499,6 +2499,7 @@
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
+||beacon-nf.rubiconproject.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
 ||akaflieg-sb.de^
@@ -8971,6 +8972,7 @@
 ||clayreporter.com^
 ||clck-now.com^
 ||clckcloud.com^
+||ca.clcknads.pro^
 ||s.clcktrax.com^
 ||cld4r.com^
 ||cle.kr^
@@ -46526,7 +46528,6 @@
 ||eloqua-trackings.unity.com^
 ||salesforce.unity.edu^
 ||create.unity3d.com^
-||config.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -50409,6 +50410,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||counter.yakbucks.com^
