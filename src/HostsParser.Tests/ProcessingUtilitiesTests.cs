@@ -38,7 +38,7 @@ namespace HostsParser.Tests
             sortedDnsList.Should().HaveSameCount(expected);
             sortedDnsList.Should().OnlyContain(s => expected.Contains(s));
         }
-        
+
         [Fact]
         public void ProcessCombinedWithMultipleRounds_Should_Remove_Redundant_Entries()
         {

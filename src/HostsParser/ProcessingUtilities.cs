@@ -47,7 +47,7 @@ namespace HostsParser
 
             return sortedDnsList;
         }
-        
+
         /// <summary>
         /// Attempts to remove all sub domain entries in <paramref name="sortedDnsList"/>
         /// that are otherwise covered by a main domain in the same collection.
