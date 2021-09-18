@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-18 14:12:22Z
+! Last Modified: 2021-09-18 18:17:40Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -37961,6 +37961,7 @@
 ||prostagroup.host^
 ||prostasytuacjadlawas.website^
 ||prostozpolski365.pl^
+||trax.prostrax.com^
 ||prosupport.cl^
 ||marketing.protapes.com^
 ||protechasia.com^
@@ -51168,7 +51169,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||br.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

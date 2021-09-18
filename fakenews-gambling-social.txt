@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-18 14:12:20Z
+! Last Modified: 2021-09-18 18:17:39Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -12848,6 +12848,7 @@
 ||pardot.cydas.com^
 ||cydoor.com^
 ||cyfrowepotwory.pl^
+||omotenashi.cygames.jp^
 ||cylenceprotect.com^
 ||openapi.cymera.com^
 ||cookie.cynch.com^
@@ -30051,8 +30052,6 @@
 ||mr-mahmoud-hassan.com^
 ||mr-mondial.com^
 ||mr.bet^
-||r.mradx.net^
-||r0.mradx.net^
 ||smetrics.mrappliance.com^
 ||mratin.se^
 ||info.mrc.org^
