@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-19 06:18:01Z
+! Last Modified: 2021-09-19 12:23:52Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -11097,6 +11097,7 @@
 ||info.century-21net.co.jp^
 ||go.century21.fr^
 ||metrics.centurylink.com^
+||smetrics.centurylink.com^
 ||fundraising.centuryresources.com^
 ||at.ceofreehost.com^
 ||z.ceotrk.com^
@@ -50781,6 +50782,7 @@
 ||secmetrics.schaefer-shop.at^
 ||secmetrics.schaefer-shop.ch^
 ||secmetrics.schaefer-shop.de^
+||secmetrics.schaefer-shop.nl^
 ||schalke04rss.de^
 ||scharfe-pornos.com^
 ||schedmemory.com^

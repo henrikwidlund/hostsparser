@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-19 06:17:57Z
+! Last Modified: 2021-09-19 12:23:48Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -8660,6 +8660,7 @@
 ||info.century-21net.co.jp^
 ||go.century21.fr^
 ||metrics.centurylink.com^
+||smetrics.centurylink.com^
 ||fundraising.centuryresources.com^
 ||at.ceofreehost.com^
 ||z.ceotrk.com^
@@ -22501,6 +22502,7 @@
 ||col.idealista.it^
 ||col.idealista.pt^
 ||idealnybuty.top^
+||net.idealo-partner.com^
 ||idealtits.net^
 ||ideamaster.com.my^
 ||ideas-telcel.com.mx^
@@ -51165,7 +51167,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
