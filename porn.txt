@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-19 00:53:14Z
+! Last Modified: 2021-09-19 06:18:16Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -5877,6 +5877,7 @@
 ||mmwlwm.autoscout24.pl^
 ||adobe.autoscout24.ro^
 ||adobe.autoscout24.ru^
+||adobe.autoscout24.se^
 ||anblzv.autospot.ru^
 ||autosurfpro.com^
 ||metrics.autotrader.co.uk^
@@ -25463,10 +25464,6 @@
 ||hello.hearingchoices.com.au^
 ||hearsmugglergarden.com^
 ||marketing.hearstmagazines.nl^
-||li.hearstmags.com^
-||ads.hearstmags.com^
-||services.hearstmags.com^
-||subscribe.hearstmags.com^
 ||aps.hearstnp.com^
 ||heartbreakers.gallery^
 ||heartfeltangels.com^
@@ -37371,6 +37368,7 @@
 ||delb.myspace.com^
 ||demr.myspace.com^
 ||delb2.myspace.com^
+||fimserve.myspace.com^
 ||smetrics.myspringfield.com^
 ||mystarlets.com^
 ||mystat.pl^
@@ -38274,7 +38272,6 @@
 ||get.netprotections.com^
 ||offers.netpulse.com^
 ||view.netrams.com^
-||media2.netrefer.com^
 ||web1b.netreflector.com^
 ||ad2.netriota.hu^
 ||revive.netriota.hu^
@@ -62640,6 +62637,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
