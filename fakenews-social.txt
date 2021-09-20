@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-20 06:19:01Z
+! Last Modified: 2021-09-20 12:25:45Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -29307,6 +29307,7 @@
 ||arc1.msn.com^
 ||popup.msn.com^
 ||rmads.msn.com^
+||b.rad.msn.com^
 ||ads.eu.msn.com^
 ||c.latam.msn.com^
 ||preview.msn.com^
