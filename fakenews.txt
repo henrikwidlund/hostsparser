@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-19 18:17:27Z
+! Last Modified: 2021-09-20 00:55:53Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14915,6 +14915,7 @@
 ||marketo.com.edgekey.net^
 ||mathtag.com.edgekey.net^
 ||mookie1.com.edgekey.net^
+||san.push.io.edgekey.net^
 ||marketo.net.edgekey.net^
 ||owneriq.net.edgekey.net^
 ||taboola.com.edgekey.net^
@@ -18281,7 +18282,6 @@
 ||fwdservice.com^
 ||fwitter.com^
 ||fwmrm.net^
-||plausible.fwouts.com^
 ||frbmdx.fwrd.com^
 ||fwupdating.com^
 ||stat-ssl.fx-rashinban.com^
