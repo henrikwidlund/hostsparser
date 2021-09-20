@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-20 12:25:57Z
+! Last Modified: 2021-09-20 18:18:40Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -6783,10 +6783,8 @@
 ||iad-03.braze.com^
 ||iad-06.braze.com^
 ||iad-08.braze.com^
-||sdk.iad-01.braze.com^
 ||sdk.iad-02.braze.com^
 ||gudja.iad-02.braze.com^
-||atlas.iad-03.braze.com^
 ||cdn.braze.eu^
 ||fra-01.braze.eu^
 ||ads.brazzers.com^
@@ -34358,7 +34356,6 @@
 ||plecakfjallravenkanken.com^
 ||go.plecto.com^
 ||pledland.com^
-||go.pleiades-agent.com^
 ||www4.plenainclusion.org^
 ||trustwallet.busy-burnell.143-198-165-133.plesk.page^
 ||pletyka.eu^
