@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-20 00:56:08Z
+! Last Modified: 2021-09-20 06:19:13Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14483,7 +14483,9 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||cdn2.teads.tv.edgekey.net^
 ||pinterest.com.edgekey.net^
+||wl.aniview.com.edgekey.net^
 ||optimizely.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
@@ -37629,6 +37631,7 @@
 ||rundsp.com^
 ||advert.runescape.com^
 ||gz.runew3.xyz^
+||rungrinh.vn^
 ||sstats.runnersneed.com^
 ||runningpad.pl^
 ||sanalytics.runpath.com^
