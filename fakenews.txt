@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-21 12:25:05Z
+! Last Modified: 2021-09-21 18:18:32Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -18431,6 +18431,7 @@
 ||gamefllp.com^
 ||phpadsnew.gamefolk.de^
 ||gamehouse.com^
+||ads.gameinformer.com^
 ||gameinstallfiles.com^
 ||www2.gamelearn.net^
 ||gamelights.ru^
@@ -21999,6 +22000,7 @@
 ||adserver.ign.com^
 ||ignitad.com^
 ||peacelist.ignorelist.com^
+||10870841.collect.igodigital.com^
 ||kpoils.igooods.ru^
 ||cira.login.cqr.ssl.igotmyloverback.com^
 ||ea.igraal.com^
@@ -41552,6 +41554,7 @@
 ||omn.sonypictures.com^
 ||somn.sonypictures.com^
 ||metrics.jp.sonystyle.com^
+||ssc.sonystyle.com.cn^
 ||cfhjqg.sonyunara.jp^
 ||assets.soom.la^
 ||highway2.soom.la^

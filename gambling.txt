@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-21 12:25:12Z
+! Last Modified: 2021-09-21 18:18:38Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14921,6 +14921,7 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||optimizely.com.edgekey.net^
+||api.vungle.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -14932,6 +14933,7 @@
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma1275-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -37000,6 +37002,7 @@
 ||siteintercept.qualtrics.com^
 ||siteinterceptco1.qualtrics.com^
 ||quamtstamp.com^
+||vj.quanjingpay.com^
 ||quanstamptoken.tk^
 ||quantcast.com^
 ||go.quanterix.com^
