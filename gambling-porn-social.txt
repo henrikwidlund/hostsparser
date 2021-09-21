@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-21 00:53:37Z
+! Last Modified: 2021-09-21 06:18:56Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2280,12 +2280,16 @@
 ||ads.com.com^
 ||ads.dk^
 ||ads.gold^
+||ads1-adnow.com^
 ||ads180.com^
+||ads2-adnow.com^
 ||ads234.com^
 ||ads24.net^
 ||ads24h.net^
 ||ads280dummy2.com^
+||ads2ads.net^
 ||ads2live.com^
+||ads2srv.com^
 ||ads345.com^
 ||ads360.com^
 ||ads4cheap.com^
@@ -28360,7 +28364,6 @@
 ||adsrv2.ihlassondakika.com^
 ||ihookup.com^
 ||ihpc.info^
-||marketing.ihrdc.com^
 ||owss.ihs.com^
 ||wass.ihsmarkit.com^
 ||premium.ihuh.pl^
@@ -48021,6 +48024,10 @@
 ||access.rachelaziani.com^
 ||racingandclassic.com^
 ||racingkrakow.pl^
+||32e1dff65ea4eb3627ed-f1ecc94c86a56d3e42e512fcfd192886.r6.cf1.rackcdn.com^
+||6b8a953b2bf7788063d5-6e453f33ecbb90f11a62a5c376375af3.r71.cf5.rackcdn.com^
+||97b1c56132dfcdd90f93-0c5c8388c0a5897e648f883e2c86dc72.r54.cf5.rackcdn.com^
+||829331534d183e7d1f6a-8d91cc88b27b979d0ea53a10ce8855ec.r96.cf5.rackcdn.com^
 ||go.rackhouseroundtable.com^
 ||smetrics.rackroomshoes.com^
 ||enter.racksandblacks.com^

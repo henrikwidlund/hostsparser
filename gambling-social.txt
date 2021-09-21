@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-21 00:53:41Z
+! Last Modified: 2021-09-21 06:18:59Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1872,12 +1872,16 @@
 ||ads.com.com^
 ||ads.dk^
 ||ads.gold^
+||ads1-adnow.com^
 ||ads180.com^
+||ads2-adnow.com^
 ||ads234.com^
 ||ads24.net^
 ||ads24h.net^
 ||ads280dummy2.com^
+||ads2ads.net^
 ||ads2live.com^
+||ads2srv.com^
 ||ads345.com^
 ||ads360.com^
 ||ads4cheap.com^
@@ -44220,6 +44224,7 @@
 ||ads.tiscali.fr^
 ||ss.tiscali.it^
 ||ads.tiscali.it^
+||metrics.tiscover.com^
 ||tisls.com^
 ||tissl.lk^
 ||tissler.se^

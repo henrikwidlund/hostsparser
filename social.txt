@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-21 00:53:47Z
+! Last Modified: 2021-09-21 06:19:05Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1816,12 +1816,16 @@
 ||ads.com.com^
 ||ads.dk^
 ||ads.gold^
+||ads1-adnow.com^
 ||ads180.com^
+||ads2-adnow.com^
 ||ads234.com^
 ||ads24.net^
 ||ads24h.net^
 ||ads280dummy2.com^
+||ads2ads.net^
 ||ads2live.com^
+||ads2srv.com^
 ||ads345.com^
 ||ads360.com^
 ||ads4cheap.com^
@@ -18339,6 +18343,7 @@
 ||getlink-service.com^
 ||getlink.pw^
 ||getloan.com^
+||ads.getlucky.com^
 ||getmailcounter.com^
 ||link.getmailspring.com^
 ||getmainprize2.life^
@@ -35916,6 +35921,7 @@
 ||webt.pure.com^
 ||pureadexchange.com^
 ||b2bleadgen.pureb2b.com^
+||thor.pureelectric.se^
 ||go.purefinancial.com^
 ||contents.purelovers.com^
 ||purething.pl^
