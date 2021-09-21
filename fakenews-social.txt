@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-20 18:18:27Z
+! Last Modified: 2021-09-21 00:53:34Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -12681,7 +12681,6 @@
 ||link.datatrics.com^
 ||api03.datatrics.com^
 ||api04.datatrics.com^
-||tr-op.datatrics.com^
 ||tr-v2.datatrics.com^
 ||images.datatrics.com^
 ||mautic.datatrics.com^
@@ -37521,6 +37520,7 @@
 ||tgw-masdk.3g.qq.com^
 ||tgw-sasdk.3g.qq.com^
 ||analytics.map.qq.com^
+||pagespeed.report.qq.com^
 ||qq8.ag^
 ||qqhr2008.com^
 ||qqsms.in^

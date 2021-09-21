@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-20 18:18:30Z
+! Last Modified: 2021-09-21 00:53:37Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -16056,7 +16056,6 @@
 ||link.datatrics.com^
 ||api03.datatrics.com^
 ||api04.datatrics.com^
-||tr-op.datatrics.com^
 ||tr-v2.datatrics.com^
 ||images.datatrics.com^
 ||mautic.datatrics.com^
@@ -48022,10 +48021,6 @@
 ||access.rachelaziani.com^
 ||racingandclassic.com^
 ||racingkrakow.pl^
-||32e1dff65ea4eb3627ed-f1ecc94c86a56d3e42e512fcfd192886.r6.cf1.rackcdn.com^
-||6b8a953b2bf7788063d5-6e453f33ecbb90f11a62a5c376375af3.r71.cf5.rackcdn.com^
-||97b1c56132dfcdd90f93-0c5c8388c0a5897e648f883e2c86dc72.r54.cf5.rackcdn.com^
-||829331534d183e7d1f6a-8d91cc88b27b979d0ea53a10ce8855ec.r96.cf5.rackcdn.com^
 ||go.rackhouseroundtable.com^
 ||smetrics.rackroomshoes.com^
 ||enter.racksandblacks.com^
@@ -56617,6 +56612,7 @@
 ||oascentral.theonionavclub.com^
 ||theoremreach.com^
 ||theotime.net^
+||metrics.theoutnet.com^
 ||thepacifica-group.com^
 ||thepacificagroup.com^
 ||marketing.thepalmbeaches.com^
@@ -64237,10 +64233,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-20 18:18:32Z
+! Last Modified: 2021-09-21 00:53:39Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -16004,7 +16004,6 @@
 ||link.datatrics.com^
 ||api03.datatrics.com^
 ||api04.datatrics.com^
-||tr-op.datatrics.com^
 ||tr-v2.datatrics.com^
 ||images.datatrics.com^
 ||mautic.datatrics.com^
@@ -18634,11 +18633,9 @@
 ||hosted.stats.com.edgesuite.net^
 ||ads.nwsource.com.edgesuite.net^
 ||m1.emea.2mdn.net.edgesuite.net^
-||ma312-r.analytics.edgesuite.net^
 ||adinterax.cnet.com.edgesuite.net^
 ||ads.pro-market.net.edgesuite.net^
 ||ads.bridgetrack.com.edgesuite.net^
-||csma95349.analytics.edgesuite.net^
 ||citi.bridgetrack.com.edgesuite.net^
 ||mail.edi.edu.cn^
 ||anuncios.edicaoms.com.br^

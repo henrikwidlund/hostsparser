@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-20 18:18:23Z
+! Last Modified: 2021-09-21 00:53:30Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -13084,7 +13084,6 @@
 ||link.datatrics.com^
 ||api03.datatrics.com^
 ||api04.datatrics.com^
-||tr-op.datatrics.com^
 ||tr-v2.datatrics.com^
 ||images.datatrics.com^
 ||mautic.datatrics.com^
@@ -15435,6 +15434,7 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||san-www.adobetag.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -48444,6 +48444,7 @@
 ||vivobarefootpoiska.com^
 ||vivobarefootsklep.pl^
 ||stsdk.vivoglobal.com^
+||prt.stsdk.vivoglobal.com^
 ||asia-stsdk.vivoglobal.com^
 ||onrt-stsdk.vivoglobal.com^
 ||asia-ort-stsdk.vivoglobal.com^
@@ -52093,6 +52094,8 @@
 ||dii2.zooplus.es^
 ||marketing.net.zooplus.es^
 ||dii2.zooplus.fi^
+||dii2.zooplus.fr^
+||marketing.net.zooplus.fr^
 ||dii2.zooplus.gr^
 ||dii2.zooplus.hr^
 ||dii2.zooplus.hu^

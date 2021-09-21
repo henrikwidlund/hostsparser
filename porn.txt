@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-20 18:18:38Z
+! Last Modified: 2021-09-21 00:53:45Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -15549,7 +15549,6 @@
 ||link.datatrics.com^
 ||api03.datatrics.com^
 ||api04.datatrics.com^
-||tr-op.datatrics.com^
 ||tr-v2.datatrics.com^
 ||images.datatrics.com^
 ||mautic.datatrics.com^
@@ -57701,6 +57700,7 @@
 ||create.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
+||cdn-webview-pge.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^

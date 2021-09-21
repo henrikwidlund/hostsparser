@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-20 18:18:35Z
+! Last Modified: 2021-09-21 00:53:42Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -7236,8 +7236,6 @@
 ||buckandbutler.com^
 ||bud1budimexinv1new.info^
 ||budapest1873.net^
-||plauplauplau.budg.co^
-||plauplauplau.app.budg.co^
 ||secureanalytics.budget.dk^
 ||secureanalytics.budget.es^
 ||secureanalytics.budget.fr^
@@ -12701,7 +12699,6 @@
 ||link.datatrics.com^
 ||api03.datatrics.com^
 ||api04.datatrics.com^
-||tr-op.datatrics.com^
 ||tr-v2.datatrics.com^
 ||images.datatrics.com^
 ||mautic.datatrics.com^
