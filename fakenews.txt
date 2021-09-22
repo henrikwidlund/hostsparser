@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-22 12:26:12Z
+! Last Modified: 2021-09-22 18:18:00Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -599,6 +599,7 @@
 ||engage.3mrussia.ru^
 ||engageru.3mrussia.ru^
 ||engageru2.3mrussia.ru^
+||engage.3mschweiz.ch^
 ||engage.3mslovensko.sk^
 ||engage.3msuomi.fi^
 ||engage.3msverige.se^
@@ -33652,6 +33653,7 @@
 ||paclitor.com^
 ||go.pacsci.org^
 ||pacseanet.com^
+||smetrics.pacsun.com^
 ||pacwebdesigns.com^
 ||pacyfka99.pl^
 ||paczinfo.com^
