@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-21 18:18:24Z
+! Last Modified: 2021-09-22 00:55:04Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -22849,6 +22849,8 @@
 ||marketing.imagexmedia.com^
 ||marketing.imagination.com^
 ||sdkv2.imaginationunwired.com^
+||califia.imaginemedia.com^
+||maximumpcads.imaginemedia.com^
 ||ads.imagistica.com^
 ||connect.imam-us.org^
 ||mail.imamu.edu.sa^
@@ -29430,6 +29432,7 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
+||dfe.mic.mob.com^
 ||moblink.mob.com^
 ||track.mob193.com^
 ||ad.mobadme.jp^
