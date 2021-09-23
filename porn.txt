@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-23 06:19:07Z
+! Last Modified: 2021-09-23 12:27:27Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -11685,8 +11685,6 @@
 ||clic-douaisis.fr^
 ||stat.cliche.se^
 ||click-find-save.com^
-||www3.click-fr.com^
-||www6.click-fr.com^
 ||click-see-save.com^
 ||marketing.click.co.uk^
 ||click10.com^
@@ -62649,6 +62647,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
