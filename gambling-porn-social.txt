@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-23 00:56:58Z
+! Last Modified: 2021-09-23 06:18:59Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -52892,6 +52892,7 @@
 ||snohmtegam.xyz^
 ||b.snow.com^
 ||c.snow.com^
+||sstats.snowandrock.com^
 ||ads.snowball.com^
 ||adserver.snowball.com^
 ||snoweverywhere.com^
@@ -53114,7 +53115,6 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
-||j.newssuite.sony.net^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
 ||metrics.sonyericsson.com^
@@ -64241,7 +64241,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

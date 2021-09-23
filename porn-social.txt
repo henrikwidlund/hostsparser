@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-23 00:57:04Z
+! Last Modified: 2021-09-23 06:19:06Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -16651,6 +16651,10 @@
 ||displaybrowser.com^
 ||pardot-tracker.displayr.com^
 ||displaytag.net^
+||links.services.disqus.com^
+||glitter.services.disqus.com^
+||tempest.services.disqus.com^
+||juggler.services.disqus.com^
 ||content.distium.com^
 ||smetrics.distrelec.ch^
 ||distribuidoraderetentores.com.br^
@@ -62986,6 +62990,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
