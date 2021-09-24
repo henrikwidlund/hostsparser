@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-24 00:53:47Z
+! Last Modified: 2021-09-24 06:18:38Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -490,6 +490,7 @@
 ||20centimes.info^
 ||20felezyab.com^
 ||20minutenews.com^
+||a.20minutes.fr^
 ||20pascals.nl^
 ||20teentube.com^
 ||tracking.21-a4652-bi.co.uk^
@@ -2283,11 +2284,6 @@
 ||adrotate.de^
 ||adrotate.net^
 ||adrotator.com^
-||api.adrtx.net^
-||cdn.adrtx.net^
-||adstax-cdn.adrtx.net^
-||adstax-match.adrtx.net^
-||adstax-match-proxy.adrtx.net^
 ||ads-click.com^
 ||ads-fb.co^
 ||ads-i2i.jp^
@@ -3141,7 +3137,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||ag.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
@@ -51997,7 +51992,6 @@
 ||seabet.com^
 ||woodpecker.seabits.com^
 ||oascentral.seacoastonline.com^
-||seadform.net^
 ||nbg.seagate.com^
 ||metrics.seagate.com^
 ||sealaskanews.com^

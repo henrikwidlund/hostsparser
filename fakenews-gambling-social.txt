@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-24 00:53:51Z
+! Last Modified: 2021-09-24 06:18:42Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1876,11 +1876,6 @@
 ||adrotate.de^
 ||adrotate.net^
 ||adrotator.com^
-||api.adrtx.net^
-||cdn.adrtx.net^
-||adstax-cdn.adrtx.net^
-||adstax-match.adrtx.net^
-||adstax-match-proxy.adrtx.net^
 ||ads-click.com^
 ||ads-fb.co^
 ||ads-i2i.jp^
@@ -40871,7 +40866,6 @@
 ||seabet.com^
 ||woodpecker.seabits.com^
 ||oascentral.seacoastonline.com^
-||seadform.net^
 ||nbg.seagate.com^
 ||metrics.seagate.com^
 ||sealaskanews.com^
@@ -51657,6 +51651,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

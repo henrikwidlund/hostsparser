@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-24 00:54:10Z
+! Last Modified: 2021-09-24 06:19:01Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2207,11 +2207,6 @@
 ||adrotate.de^
 ||adrotate.net^
 ||adrotator.com^
-||api.adrtx.net^
-||cdn.adrtx.net^
-||adstax-cdn.adrtx.net^
-||adstax-match.adrtx.net^
-||adstax-match-proxy.adrtx.net^
 ||ads-click.com^
 ||ads-fb.co^
 ||ads-i2i.jp^
@@ -49409,7 +49404,6 @@
 ||sea-angels.ru^
 ||woodpecker.seabits.com^
 ||oascentral.seacoastonline.com^
-||seadform.net^
 ||nbg.seagate.com^
 ||metrics.seagate.com^
 ||go.sealevel.com^

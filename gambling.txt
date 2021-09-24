@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-24 00:54:06Z
+! Last Modified: 2021-09-24 06:18:58Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1855,11 +1855,6 @@
 ||adrotate.de^
 ||adrotate.net^
 ||adrotator.com^
-||api.adrtx.net^
-||cdn.adrtx.net^
-||adstax-cdn.adrtx.net^
-||adstax-match.adrtx.net^
-||adstax-match-proxy.adrtx.net^
 ||ads-click.com^
 ||ads-fb.co^
 ||ads-i2i.jp^
@@ -4266,7 +4261,6 @@
 ||audacity.it^
 ||audacity.pl^
 ||ablink.your.audacy.com^
-||smetrics.audi.co.uk^
 ||dc.audi.com^
 ||dcs.audi.com^
 ||audia6.com^
@@ -39209,7 +39203,6 @@
 ||seabet.com^
 ||woodpecker.seabits.com^
 ||oascentral.seacoastonline.com^
-||seadform.net^
 ||nbg.seagate.com^
 ||metrics.seagate.com^
 ||go.sealevel.com^
