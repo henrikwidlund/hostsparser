@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-24 12:24:50Z
+! Last Modified: 2021-09-24 18:18:32Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -13520,6 +13520,7 @@
 ||adserver.directcorp.de^
 ||stats.directexpose.com^
 ||adserver.directforce.com^
+||adserver.directforce.net^
 ||sstats.directgeneral.com^
 ||directgrowthhormone.com^
 ||marketing6.directimpactinc.com^
@@ -15950,7 +15951,6 @@
 ||tr.redaction.essentiel-sante-magazine.fr^
 ||essereessenza.it^
 ||essonne11.com^
-||www2.est-aegis.com^
 ||connect.est.org.uk^
 ||5.estasiatica.com^
 ||estatearea.net^
@@ -21549,6 +21549,7 @@
 ||tracking-thirdparty.i2w.io^
 ||ads.i33.com^
 ||i4track.net^
+||www2.iaccessportal.com^
 ||marketing.iaclarington.com^
 ||iadnet.com^
 ||lc.iadvize.com^

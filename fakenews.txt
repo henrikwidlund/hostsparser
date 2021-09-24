@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-24 12:24:45Z
+! Last Modified: 2021-09-24 18:18:26Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2483,6 +2483,7 @@
 ||vungle.akadns.net^
 ||turn.com.akadns.net^
 ||comscore.akadns.net^
+||d.turn.com.akadns.net^
 ||eyeblaster.akadns.net^
 ||lb1.www.ms.akadns.net^
 ||innovid.com.akadns.net^
@@ -2491,6 +2492,7 @@
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
+||sync.tidaltv.com.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
@@ -33489,13 +33491,6 @@
 ||s.ourwindsor.ca^
 ||adserver.hk.outblaze.com^
 ||outbrain.com^
-||log.outbrain.org^
-||sadc1.outbrain.org^
-||alldcs.outbrain.org^
-||chidc2.outbrain.org^
-||images.outbrain.org^
-||nychi2.outbrain.org^
-||zemanta-ny.outbrain.org^
 ||zem.outbrainimg.com^
 ||images.outbrainimg.com^
 ||outbreak.news^
@@ -35224,6 +35219,8 @@
 ||olx-order.pl-id63435071.xyz^
 ||olx.pl-id6379662.info^
 ||inpost-order.pl-id63923641.xyz^
+||olx-order.pl-id64279287.xyz^
+||inpost-order.pl-id64279287.xyz^
 ||inpost-order.pl-id64446895.xyz^
 ||booking.pl-id65321784.xyz^
 ||olx-order.pl-id65886064.xyz^

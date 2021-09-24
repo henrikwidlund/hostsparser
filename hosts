@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-24 12:24:31Z
+! Last Modified: 2021-09-24 18:18:15Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -19112,6 +19112,7 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||wildcard.evidon.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -41076,8 +41077,6 @@
 ||marketing.nopec.org^
 ||nopixeljaps.com^
 ||nora7nice.com^
-||xwsbxv.noracora.com^
-||links.edm.noracora.com^
 ||norcalrecord.com^
 ||www2.nordcloud.com^
 ||ads.nordcurrent.com^
@@ -60842,6 +60841,7 @@
 ||eloqua-trackings.unity.com^
 ||salesforce.unity.edu^
 ||create.unity3d.com^
+||config.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -66046,6 +66046,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||gr.adserver.yahoo.com^
+||ae.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
