@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-25 00:52:07Z
+! Last Modified: 2021-09-25 06:18:17Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -933,6 +933,7 @@
 ||44-trk-srv.com^
 ||adv.440net.com^
 ||adv.440network.com^
+||448ff4fcfcd199a.com^
 ||44chan.me^
 ||44tele-infra.com^
 ||tracking.45-fe6b6-aah.co.uk^
@@ -14715,6 +14716,7 @@
 ||server.connecto.io^
 ||connessionedati.com^
 ||connexionsafe.com^
+||geo.connexionsecure.com^
 ||noclick.connexity.com^
 ||a8clk.manage.conoha.jp^
 ||kakuzitsu.conohawing.com^
@@ -15813,7 +15815,6 @@
 ||cyppolice.com^
 ||go.cypress.com^
 ||cyprosoft.eu^
-||cyrasi.com^
 ||jrxytj.cyrela.com.br^
 ||mbdtrack.cyrilshroff.com^
 ||smetrics.cytivalifesciences.com^
@@ -17693,6 +17694,7 @@
 ||dominawebcams.com^
 ||dominicford.com^
 ||go.domino-printing.com^
+||dominoad.com^
 ||b.prod1.youroffers.dominos.ca^
 ||metrics.dominos.com^
 ||smetrics.dominos.com^
@@ -25187,6 +25189,7 @@
 ||adservice.google.com.mt^
 ||adservice.google.com.tr^
 ||adservice.google.com.ua^
+||adservice.google.com.vn^
 ||adservice.google.cz^
 ||adservice.google.de^
 ||adservice.google.ie^
@@ -26684,7 +26687,6 @@
 ||collect.helsana.ch^
 ||smetrics.helvetia.com^
 ||zfzhwz.hema.nl^
-||log.hemera.com.vn^
 ||metrics.hemlibra.com^
 ||hempscience.news^
 ||hen-tie.net^
@@ -31530,6 +31532,7 @@
 ||www2.jwnenergy.com^
 ||info.jwpepper.com^
 ||info.jwplayer.com^
+||entitlements.jwplayer.com^
 ||g.jwpsrv.com^
 ||ads.jwtt3.com^
 ||jxliu.com^
@@ -31893,7 +31896,6 @@
 ||keykong.eu^
 ||www2.keyloop.com^
 ||info.keymarkinc.com^
-||au.res.keymedia.com^
 ||keymedia.hu^
 ||tj.keymob.com^
 ||keynotepalm.com^
@@ -44288,7 +44290,6 @@
 ||paxful.com.ng^
 ||ads.paxnet.co.kr^
 ||paxono4.com^
-||paxtro.com^
 ||pay-city.com^
 ||olx.pay-id183413.company^
 ||olx-pl.pay-id74553.me^
@@ -46176,7 +46177,6 @@
 ||plantsandpots.com^
 ||ads.plantyours.com^
 ||planujswojezycieibiznes.space^
-||plardi.com^
 ||plarium.com^
 ||plashporn.com^
 ||plasmatv4free.com^
@@ -59674,6 +59674,7 @@
 ||build.trusscore.com^
 ||analytics.trust.page^
 ||choices.trustarc.com^
+||choices.truste.com^
 ||preferences.truste.com^
 ||trusted-invest.com^
 ||trustedmaccleaner.com^

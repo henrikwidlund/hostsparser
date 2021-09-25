@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-25 00:52:03Z
+! Last Modified: 2021-09-25 06:18:12Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -681,6 +681,7 @@
 ||adv.440net.com^
 ||adv.440network.com^
 ||444sports.com^
+||448ff4fcfcd199a.com^
 ||44chan.me^
 ||44tele-infra.com^
 ||tracking.45-fe6b6-aah.co.uk^
@@ -9516,6 +9517,7 @@
 ||email.clearscore.co.za^
 ||email.clearscore.com^
 ||email.clearscore.com.au^
+||track.clearsender.com^
 ||clearshieldredirect.com^
 ||bin.clearspring.com^
 ||a8clk.www.cledepeau-beaute.com^
@@ -12008,6 +12010,7 @@
 ||server.connecto.io^
 ||connessionedati.com^
 ||connexionsafe.com^
+||geo.connexionsecure.com^
 ||noclick.connexity.com^
 ||a8clk.manage.conoha.jp^
 ||kakuzitsu.conohawing.com^
@@ -13018,7 +13021,6 @@
 ||video.cynogage.com^
 ||cyppolice.com^
 ||go.cypress.com^
-||cyrasi.com^
 ||jrxytj.cyrela.com.br^
 ||mbdtrack.cyrilshroff.com^
 ||smetrics.cytivalifesciences.com^
@@ -14610,6 +14612,7 @@
 ||domgoralskispa.pl^
 ||jhbqhp.domicad.com.ua^
 ||go.domino-printing.com^
+||dominoad.com^
 ||b.prod1.youroffers.dominos.ca^
 ||metrics.dominos.com^
 ||smetrics.dominos.com^
@@ -20470,6 +20473,7 @@
 ||adservice.google.com.mt^
 ||adservice.google.com.tr^
 ||adservice.google.com.ua^
+||adservice.google.com.vn^
 ||adservice.google.cz^
 ||adservice.google.de^
 ||adservice.google.ie^
@@ -21507,7 +21511,6 @@
 ||collect.helsana.ch^
 ||smetrics.helvetia.com^
 ||zfzhwz.hema.nl^
-||log.hemera.com.vn^
 ||metrics.hemlibra.com^
 ||hempscience.news^
 ||k.hencoder.com^
@@ -25137,6 +25140,7 @@
 ||www2.jwnenergy.com^
 ||info.jwpepper.com^
 ||info.jwplayer.com^
+||entitlements.jwplayer.com^
 ||g.jwpsrv.com^
 ||ads.jwtt3.com^
 ||jxliu.com^
@@ -35374,6 +35378,7 @@
 ||banner.passion.com^
 ||banners.passion.com^
 ||adserver.passion.com^
+||geobanner.passion.com^
 ||promo.passioncams.com^
 ||textad.passionsearch.com^
 ||passivetrading.co.uk^
@@ -35440,7 +35445,6 @@
 ||paxful.com.ng^
 ||ads.paxnet.co.kr^
 ||paxono4.com^
-||paxtro.com^
 ||pay-city.com^
 ||olx.pay-id183413.company^
 ||olx-pl.pay-id74553.me^
@@ -37097,7 +37101,6 @@
 ||plantsandpots.com^
 ||ads.plantyours.com^
 ||planujswojezycieibiznes.space^
-||plardi.com^
 ||plarium.com^
 ||plasmatv4free.com^
 ||plasmatvreward.com^
@@ -43308,6 +43311,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
@@ -47714,6 +47718,7 @@
 ||build.trusscore.com^
 ||analytics.trust.page^
 ||choices.trustarc.com^
+||choices.truste.com^
 ||preferences.truste.com^
 ||trusted-invest.com^
 ||trustedmaccleaner.com^
@@ -52404,6 +52409,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -52576,7 +52582,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst4.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
