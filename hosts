@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-25 12:23:24Z
+! Last Modified: 2021-09-25 18:17:21Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -42605,6 +42605,15 @@
 ||hnacare.objectsdev.com^
 ||objetivosaludable.com^
 ||oblodno.xyz^
+||nyp.se.oblyapp.com^
+||moveme.se.oblyapp.com^
+||mratin.se.oblyapp.com^
+||myidoll.se.oblyapp.com^
+||kulturkurs.se.oblyapp.com^
+||laneskolan.se.oblyapp.com^
+||openstretch.se.oblyapp.com^
+||kbdemolering.se.oblyapp.com^
+||klockren-marketing.se.oblyapp.com^
 ||oboe3broo.com^
 ||oboobs.ru^
 ||obowiazkipolskie.online^
@@ -67247,6 +67256,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sg.adserver.yahoo.com^
+||cn.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

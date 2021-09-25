@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-25 12:23:42Z
+! Last Modified: 2021-09-25 18:17:36Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -28721,7 +28721,6 @@
 ||promo.mobile.de^
 ||cqishr.mobile.de^
 ||xknhwv.mobile01.com^
-||k1.mobileadsserver.com^
 ||avowtech.mobileadstrk.com^
 ||tracking.mobileadstrk.com^
 ||track-east.mobileadtrading.com^
@@ -46960,7 +46959,6 @@
 ||vinted.cc^
 ||vinyljazzrecords.com^
 ||violinstop.com^
-||go.vion.com^
 ||dormcorp.viosoria-das.ml^
 ||vip-dates-herenow3.com^
 ||vip-datingfield.com^
@@ -49347,8 +49345,10 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||test.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||url8807.global.passport.xiaomi.com^
 ||dental.xiaoxiao.media^
