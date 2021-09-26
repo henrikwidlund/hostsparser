@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-26 12:24:09Z
+! Last Modified: 2021-09-26 18:17:24Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -21976,6 +21976,7 @@
 ||tracking.fdm.dk^
 ||a.fdmedia.io^
 ||fdn-en.net^
+||www99.fdns.net^
 ||feaecebook.com^
 ||fear7calk.com^
 ||fearea.ru^
@@ -37940,6 +37941,7 @@
 ||miralo-rapidamente.com^
 ||miranda-sklep.pl^
 ||mirangelov.com^
+||info.mirantis.com^
 ||te.mirapodo.de^
 ||tp.mirapodo.de^
 ||mirapol-zavlahy.cz^
@@ -41973,7 +41975,6 @@
 ||notifyday.com^
 ||beaconin2.notinote.me^
 ||pig.notion.chat^
-||analytics.pgncs.notion.so^
 ||notisms.net^
 ||stork.notlessbutbetter.com^
 ||notmygrandpa.com^
@@ -67601,7 +67602,6 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

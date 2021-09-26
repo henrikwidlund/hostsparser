@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-26 12:24:06Z
+! Last Modified: 2021-09-26 18:17:21Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -37995,6 +37995,8 @@
 ||mkenorth.com^
 ||mkesouth.com^
 ||go.mki.co.jp^
+||adtracker.mkjigsaw.com^
+||advert.puzzles.mkjigsaw.com^
 ||mkls.pl^
 ||mkontakt.az^
 ||mkp-ecom.com^
@@ -41874,7 +41876,6 @@
 ||notifyday.com^
 ||beaconin2.notinote.me^
 ||pig.notion.chat^
-||analytics.pgncs.notion.so^
 ||notisms.net^
 ||stork.notlessbutbetter.com^
 ||notmygrandpa.com^
@@ -67259,6 +67260,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
