@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-26 06:18:14Z
+! Last Modified: 2021-09-26 12:24:24Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -6749,6 +6749,7 @@
 ||cache.blozoo.info^
 ||bx6.blrf.net^
 ||affiliate.blucigs.com^
+||bluhostedbanners.blucigs.com^
 ||click.blueapron.com^
 ||links.blueapron.com^
 ||links.i.blueapron.com^
@@ -46893,6 +46894,7 @@
 ||mdws.valleyfirst.com^
 ||marketing.valleyforge.org^
 ||www2.valmet.com^
+||asiakas.valokuitunen.fi^
 ||valsgaard-kofod.dk^
 ||ad.jp.ap.valu.com^
 ||cache1.value-domain.com^
@@ -50257,6 +50259,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sg3.beap.gemini.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||counter.yakbucks.com^

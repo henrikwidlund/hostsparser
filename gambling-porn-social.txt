@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-26 06:18:11Z
+! Last Modified: 2021-09-26 12:24:21Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -8989,6 +8989,7 @@
 ||blphoto.net^
 ||bx6.blrf.net^
 ||affiliate.blucigs.com^
+||bluhostedbanners.blucigs.com^
 ||blueangel.nl^
 ||click.blueapron.com^
 ||links.blueapron.com^
@@ -19141,7 +19142,6 @@
 ||smartbroker.efscle.com^
 ||schwaebischhall.efscle.com^
 ||renaultbankdirekt.efscle.com^
-||eloqua.eft.com^
 ||efukt.com^
 ||efukt.me^
 ||efvrgb12.com^
@@ -65448,7 +65448,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
