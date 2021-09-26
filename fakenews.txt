@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-26 00:54:36Z
+! Last Modified: 2021-09-26 06:18:09Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -20773,6 +20773,8 @@
 ||ussdns01.heketwe.com^
 ||ussdns04.heketwe.com^
 ||78276.ussdns02.heketwe.com^
+||stopcham.hekko24.pl^
+||infoswiat.hekko24.pl^
 ||fdedcz.helenkirchhofer.ch^
 ||info.helens.se^
 ||helianthus.com.pl^

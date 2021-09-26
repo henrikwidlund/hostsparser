@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-26 00:54:25Z
+! Last Modified: 2021-09-26 06:17:58Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -3186,7 +3186,6 @@
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
-||pixel.rubiconproject.net.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
@@ -19684,7 +19683,6 @@
 ||egeszsegespont.hu^
 ||eggheadspooled.info^
 ||eggporncomics.com^
-||pop.egi.biz^
 ||elq.egi.co.uk^
 ||eglobalcentral.pl^
 ||ad.egloos.com^
@@ -33131,6 +33129,9 @@
 ||metrics.kone.ch^
 ||metrics.kone.co.il^
 ||smetrics.kone.co.il^
+||www2.kone.com^
+||metrics.kone.com^
+||smetrics.kone.com^
 ||metrics.kone.cz^
 ||smetrics.kone.cz^
 ||metrics.kone.dk^
@@ -57724,7 +57725,6 @@
 ||tahoesup.com^
 ||ads.tahono.com^
 ||taicheetee.com^
-||ferret.tailgraph.com^
 ||tailormate.se^
 ||tailsweep.se^
 ||click.taincash.com^
