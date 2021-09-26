@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-25 18:17:34Z
+! Last Modified: 2021-09-26 00:54:40Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -18944,11 +18944,13 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
+||r.casalemedia.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||dsum.casalemedia.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -40073,6 +40075,7 @@
 ||rotor6.newzfind.com^
 ||newzia.jp^
 ||strack.newzit.com^
+||nex8.net^
 ||ads1.nexdra.com^
 ||smetrics.nexgard.com.ar^
 ||smetrics.nexgard.com.au^
