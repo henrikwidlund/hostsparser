@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-27 00:52:45Z
+! Last Modified: 2021-09-27 06:19:24Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -3148,6 +3148,7 @@
 ||turn.com.akadns.net^
 ||comscore.akadns.net^
 ||eyeblaster.akadns.net^
+||r.turn.com.akadns.net^
 ||lb1.www.ms.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
@@ -18959,6 +18960,7 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
+||ssum-sec.casalemedia.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -48817,7 +48819,6 @@
 ||radiopaigham.pk^
 ||radiorage.com^
 ||radiorodzinnypolska.site^
-||metrics.radissonhotels.com^
 ||metrics.radissonhotelsamericas.com^
 ||proximitykit.radiusnetworks.com^
 ||radix-net.com^
@@ -55955,7 +55956,6 @@
 ||adashx4ae.ut.taobao.com^
 ||h-adashx4ae.ut.taobao.com^
 ||taouxis.gr^
-||cdn-stg.tapad.app^
 ||tapair.com^
 ||tapas.net^
 ||log.tapatalk.com^
@@ -64138,6 +64138,7 @@
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
 ||url8807.global.passport.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
