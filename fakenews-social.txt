@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-28 00:53:49Z
+! Last Modified: 2021-09-28 06:18:46Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -15235,7 +15235,6 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
-||wl.aniview.com.edgekey.net^
 ||optimizely.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
@@ -24081,6 +24080,7 @@
 ||info.jensenhughes.com^
 ||www2.jenseninvestment.com^
 ||jenxsw21lb.com^
+||go.jeolusa.com^
 ||metrics.jeppesen.com^
 ||jerichoplay.com^
 ||stats.jerickson.net^
