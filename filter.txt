@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-28 12:25:28Z
+! Last Modified: 2021-09-28 18:17:50Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -24027,6 +24027,7 @@
 ||track.futureshop.ca^
 ||analytics.futuro360.com^
 ||sanalytics.futuro360.com^
+||ef.futuroscope.mobi^
 ||futurouomo.it^
 ||futurum.com.au^
 ||fuuze.net^
@@ -66275,11 +66276,9 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||track.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
-||sdkconfig.ad.intl.xiaomi.com^
 ||url8807.global.passport.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^

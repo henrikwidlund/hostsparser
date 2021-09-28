@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-28 12:25:32Z
+! Last Modified: 2021-09-28 18:17:55Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2585,6 +2585,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||ingest.vungle.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
@@ -14860,7 +14861,6 @@
 ||dougmlee.com^
 ||api.doumob.com^
 ||smetrics.dounaru-dm.jp^
-||bjfesdk.douyucdn.cn^
 ||engage.dovetailinsurance.com^
 ||saat.dow.com^
 ||oiat.dow.com^
@@ -20666,7 +20666,6 @@
 ||smetrics.grandandtoy.com^
 ||grandcanyontimes.com^
 ||grandcapital.net^
-||download.grandcloud.cn^
 ||marketing.grandecheese.com^
 ||grandesalmacenesenlineas.xyz^
 ||grandeweddings.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-28 12:25:39Z
+! Last Modified: 2021-09-28 18:18:04Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -7066,7 +7066,6 @@
 ||iad-08.braze.com^
 ||sdk.iad-02.braze.com^
 ||gudja.iad-02.braze.com^
-||wahacondrax.iad-03.braze.com^
 ||cdn.braze.eu^
 ||fra-01.braze.eu^
 ||ads.brazzers.com^
@@ -50664,7 +50663,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||cn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^

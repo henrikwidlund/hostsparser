@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-28 12:25:47Z
+! Last Modified: 2021-09-28 18:18:14Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -35783,6 +35783,9 @@
 ||telecommand.telemetry.microsoft.com^
 ||microsoft2010.com^
 ||microsoftcommunityxbox.com^
+||ns1.microsoftonlines.net^
+||ns2.microsoftonlines.net^
+||update.microsoftonlines.net^
 ||login.microsoftorline.com^
 ||microsoftsecurity-experts7565.xyz^
 ||microsoftsupport.xyz^
@@ -36325,6 +36328,7 @@
 ||verify.mob.com^
 ||applink.mob.com^
 ||moblink.mob.com^
+||udp.push.mob.com^
 ||track.mob193.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
