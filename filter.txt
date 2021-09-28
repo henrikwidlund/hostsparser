@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-27 18:18:06Z
+! Last Modified: 2021-09-28 00:53:39Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -19433,6 +19433,7 @@
 ||spotxcdn.com.edgekey.net^
 ||yieldlab.net.edgekey.net^
 ||secure-adnxs.edgekey.net^
+||cdn.teads.tv.edgekey.net^
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
@@ -19448,6 +19449,7 @@
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma1498-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -19460,9 +19462,7 @@
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
-||eus.rubiconproject.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
-||ds-api-public.addthis.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -22500,7 +22500,6 @@
 ||widget.fitanalytics.com^
 ||links.fitbod.me^
 ||as.fitbook.de^
-||fitcenterz.com^
 ||fitch-av.com^
 ||fitchciapara.com^
 ||eu.fiteuril.xyz^
@@ -23096,7 +23095,6 @@
 ||logger.foxitcloud.com^
 ||go.foxitinfo.com^
 ||marketing.foxitsoftware1.com^
-||ad.foxnetworks.com^
 ||ads.foxnetworks.com^
 ||ads.foxnews.com^
 ||oas.foxnews.com^
