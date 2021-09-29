@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-29 12:25:01Z
+! Last Modified: 2021-09-29 18:18:05Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2521,7 +2521,6 @@
 ||lb1.www.ms.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
-||sd.turn.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
@@ -15203,6 +15202,7 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
+||video-ads.rubiconproject.com-v1.edgekey.net^
 ||deep.edgequery.io^
 ||c6.edgesuite.net^
 ||ads.hulu.com.edgesuite.net^
@@ -49690,6 +49690,7 @@
 ||wonkie.com^
 ||ade.wooboo.com.cn^
 ||static.wooboo.com.cn^
+||1bw7etm93lf.www.woodbrass.com^
 ||www2.woodfriends.jp^
 ||woodhome4u.com^
 ||go.woodmac.com^
@@ -51482,6 +51483,7 @@
 ||zilliaq.com^
 ||go.zillowgroup.com^
 ||mjp.zimad.com^
+||j.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||tes.zindap.com^

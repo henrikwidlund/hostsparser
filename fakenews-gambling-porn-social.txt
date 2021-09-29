@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-29 12:24:50Z
+! Last Modified: 2021-09-29 18:17:56Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -19489,7 +19489,6 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
-||cdn.cxense.com.edgekey.net^
 ||optimizely.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
@@ -19517,7 +19516,6 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
-||dsum-sec.casalemedia.com.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
@@ -52872,6 +52870,7 @@
 ||smetrics.scotts.com^
 ||butterfly.scottspence.com^
 ||ads.scottusa.com^
+||spider.scottw.com^
 ||saa.scout.com^
 ||scout69.com^
 ||scpanews.com^
@@ -56274,7 +56273,6 @@
 ||srv1010elan.com^
 ||srv2020real.com^
 ||srv2trking.com^
-||stats.srvasnet.info^
 ||srvkcnyhd.org^
 ||srvmath.com^
 ||srvtrkxx2.com^
@@ -56560,6 +56558,7 @@
 ||steamcontent.info^
 ||steammcomunjty.com^
 ||steamnitro.com^
+||centent.steamplay.me^
 ||steampoweredtrade.com^
 ||images.steamray.com^
 ||steamtraffic.com^
@@ -65883,6 +65882,7 @@
 ||pic2.wonporn.net^
 ||ade.wooboo.com.cn^
 ||static.wooboo.com.cn^
+||1bw7etm93lf.www.woodbrass.com^
 ||www2.woodfriends.jp^
 ||woodhome4u.com^
 ||go.woodmac.com^
@@ -67586,6 +67586,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
