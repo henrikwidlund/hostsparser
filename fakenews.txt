@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-29 06:18:56Z
+! Last Modified: 2021-09-29 12:25:01Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2521,6 +2521,7 @@
 ||lb1.www.ms.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
+||sd.turn.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
@@ -22036,6 +22037,12 @@
 ||inpost-hhke.id-4365.me^
 ||inpost-pl-ta.id-4365.me^
 ||allegro-ajk.id-4391.me^
+||olx-g.id-43980.me^
+||olx-j.id-43980.me^
+||olx-n.id-43980.me^
+||inpost-a.id-43980.me^
+||inpost-g.id-43980.me^
+||olx-pl-zff.id-43980.me^
 ||booking-com.id-462123.pw^
 ||olx.pl.id-48134138.com^
 ||dpd-e.id-4989980.me^
@@ -50656,12 +50663,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||in.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||pn1.adserver.yahoo.com^
-||tw2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
