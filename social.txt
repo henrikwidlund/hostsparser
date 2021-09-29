@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-29 00:51:32Z
+! Last Modified: 2021-09-29 06:19:08Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -11890,6 +11890,7 @@
 ||step-service.crossinstall.io^
 ||creative-analytics.crossinstall.io^
 ||crosslocated.net^
+||tracking.crossovertech.asia^
 ||crosspartners.net^
 ||outreach.crossref.org^
 ||crowd1.com^
@@ -48995,6 +48996,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||europe.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||counter.yakbucks.com^

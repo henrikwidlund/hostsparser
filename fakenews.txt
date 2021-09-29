@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-29 00:51:20Z
+! Last Modified: 2021-09-29 06:18:56Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -15033,6 +15033,7 @@
 ||xnt4.ece.fr^
 ||ecgeorgianews.com^
 ||marketing.ecgmc.com^
+||adserver.echdk.pl^
 ||echo-nomic.com^
 ||ecindiananews.com^
 ||eciowanews.com^
@@ -22035,12 +22036,6 @@
 ||inpost-hhke.id-4365.me^
 ||inpost-pl-ta.id-4365.me^
 ||allegro-ajk.id-4391.me^
-||olx-g.id-43980.me^
-||olx-j.id-43980.me^
-||olx-n.id-43980.me^
-||inpost-a.id-43980.me^
-||inpost-g.id-43980.me^
-||olx-pl-zff.id-43980.me^
 ||booking-com.id-462123.pw^
 ||olx.pl.id-48134138.com^
 ||dpd-e.id-4989980.me^
@@ -35684,6 +35679,9 @@
 ||olx-order.pl-id65886064.xyz^
 ||booking.pl-id66758212.xyz^
 ||inpost-order.pl-id66758212.xyz^
+||vinted.pl-id66882833.xyz^
+||booking.pl-id66882833.xyz^
+||allegro-order.pl-id66882833.xyz^
 ||booking.pl-id67405568.xyz^
 ||olx-order.pl-id67405568.xyz^
 ||inpost-order.pl-id67405568.xyz^
@@ -43604,6 +43602,7 @@
 ||syds588.cn^
 ||somni.syf.com^
 ||link.syfy-channel.com^
+||tr.gestion.sygmabnpparibas-pf.com^
 ||tr.notification-gdpr.sygmabybnpparibas-pf.com^
 ||sylicomservicios.com^
 ||info.sylvania.com^
@@ -50657,8 +50656,12 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||in.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn1.adserver.yahoo.com^
+||tw2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
