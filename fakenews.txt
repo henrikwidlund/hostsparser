@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-28 18:18:04Z
+! Last Modified: 2021-09-29 00:51:20Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -15033,7 +15033,6 @@
 ||xnt4.ece.fr^
 ||ecgeorgianews.com^
 ||marketing.ecgmc.com^
-||adserver.echdk.pl^
 ||echo-nomic.com^
 ||ecindiananews.com^
 ||eciowanews.com^
@@ -35685,9 +35684,6 @@
 ||olx-order.pl-id65886064.xyz^
 ||booking.pl-id66758212.xyz^
 ||inpost-order.pl-id66758212.xyz^
-||vinted.pl-id66882833.xyz^
-||booking.pl-id66882833.xyz^
-||allegro-order.pl-id66882833.xyz^
 ||booking.pl-id67405568.xyz^
 ||olx-order.pl-id67405568.xyz^
 ||inpost-order.pl-id67405568.xyz^
@@ -43608,7 +43604,6 @@
 ||syds588.cn^
 ||somni.syf.com^
 ||link.syfy-channel.com^
-||tr.gestion.sygmabnpparibas-pf.com^
 ||tr.notification-gdpr.sygmabybnpparibas-pf.com^
 ||sylicomservicios.com^
 ||info.sylvania.com^
