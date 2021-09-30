@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-30 12:25:25Z
+! Last Modified: 2021-09-30 18:18:05Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -19448,6 +19448,7 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||ssum.casalemedia.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -26372,6 +26373,7 @@
 ||gtrtimes.com^
 ||balanced.gtsadsdistributed.com^
 ||cxrfns.gu-global.com^
+||phar.gu-web.net^
 ||guaikavideo.cn^
 ||srepdata.guampdn.com^
 ||guaranteedsexdate.com^
@@ -66277,7 +66279,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^

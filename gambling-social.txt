@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-30 12:25:44Z
+! Last Modified: 2021-09-30 18:18:24Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -16541,9 +16541,6 @@
 ||plausible.executeprogram.com^
 ||exelate.com^
 ||exeos.ws^
-||assets1.exgfnetwork.com^
-||adserver.exgfnetwork.com^
-||adserver2.exgfnetwork.com^
 ||ads.exhedra.com^
 ||ads2.exhedra.com^
 ||exhibenfrance.com^
@@ -20241,6 +20238,7 @@
 ||gtorb.com^
 ||gtradersoft.com^
 ||cxrfns.gu-global.com^
+||phar.gu-web.net^
 ||guaikavideo.cn^
 ||srepdata.guampdn.com^
 ||guaranty.com.cn^
@@ -51058,7 +51056,7 @@
 ||go.zimperium.com^
 ||tes.zindap.com^
 ||vietnam.zing.photos^
-||stc.interactive.brand.zing.vn^
+||campaign.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||analytics.zingerwebdesign.com^
 ||zinmedia.ro^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-30 12:25:35Z
+! Last Modified: 2021-09-30 18:18:15Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -6854,8 +6854,6 @@
 ||marketing.basyspro.com^
 ||ad.batanga.net^
 ||tracking.batanga.net^
-||ws.batch.com^
-||via.batch.com^
 ||aa.bathandbodyworks.com^
 ||tr.batiweb.co^
 ||ac.batmobi.net^
@@ -25783,6 +25781,7 @@
 ||gtrtimes.com^
 ||balanced.gtsadsdistributed.com^
 ||cxrfns.gu-global.com^
+||phar.gu-web.net^
 ||guaikavideo.cn^
 ||srepdata.guampdn.com^
 ||guaranteedsexdate.com^
@@ -37234,7 +37233,6 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
-||jp.f.gm.mob.com^
 ||moblink.mob.com^
 ||track.mob193.com^
 ||ad.mobadme.jp^
@@ -65998,6 +65996,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -67135,7 +67134,6 @@
 ||go.zimperium.com^
 ||tes.zindap.com^
 ||vietnam.zing.photos^
-||notify.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||analytics.zingerwebdesign.com^
 ||zingyporntube.com^

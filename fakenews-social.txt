@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-30 12:25:37Z
+! Last Modified: 2021-09-30 18:18:17Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1999,6 +1999,7 @@
 ||cdn.adtradr.com^
 ||adtradradservices.com^
 ||adtrak.net^
+||tag.adtrendmedia.net^
 ||adtriplex.com^
 ||ads.adtrustmedia.com^
 ||adturtle.biz^
@@ -20336,6 +20337,7 @@
 ||gtradersoft.com^
 ||gtrtimes.com^
 ||cxrfns.gu-global.com^
+||phar.gu-web.net^
 ||guaikavideo.cn^
 ||srepdata.guampdn.com^
 ||guaranty.com.cn^
@@ -27358,7 +27360,6 @@
 ||mahindrainsurance.com^
 ||mahjongline.com^
 ||cdn.mahmukhach.info^
-||ad2.maho.jp^
 ||mai-friss.com^
 ||mai-hirek.net^
 ||maicomoneytransfer.com^

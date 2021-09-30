@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-30 12:25:46Z
+! Last Modified: 2021-09-30 18:18:26Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2477,8 +2477,6 @@
 ||airbet88.co^
 ||api.airbrake.io^
 ||pix.airbusgroup.com^
-||smetrics.aircanada.com^
-||oascentral.aircanada.com^
 ||aircovid19virus.com^
 ||aircraftsxhibition.com^
 ||smetrics.aireserv.com^
@@ -11181,6 +11179,7 @@
 ||cname3.com^
 ||cname5.com^
 ||cname6.com^
+||smetrics.cnb.com^
 ||blog.cnbhu.com^
 ||cnbnews.com^
 ||mails.cneic.com.cn^
@@ -13178,7 +13177,6 @@
 ||olx.delliverry.biz^
 ||olx.delliverry.info^
 ||olx.delliverry.name^
-||olx.delliverry.org^
 ||olx.delliverry.su^
 ||dellivers-olxpl.net^
 ||olx.dellivers.info^
@@ -20152,6 +20150,7 @@
 ||gtorb.com^
 ||gtradersoft.com^
 ||cxrfns.gu-global.com^
+||phar.gu-web.net^
 ||guaikavideo.cn^
 ||srepdata.guampdn.com^
 ||guaranty.com.cn^
@@ -49757,7 +49756,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
