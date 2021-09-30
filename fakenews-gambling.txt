@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-30 00:57:32Z
+! Last Modified: 2021-09-30 06:18:57Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -26344,6 +26344,7 @@
 ||lasthr.info^
 ||lastimaners.ug^
 ||metrics.lastminute.ch^
+||mtx.lastminute.com.au^
 ||lasvegasrecord.com^
 ||lasvegassportsbetting.com^
 ||latamdcs.com^
@@ -28524,10 +28525,6 @@
 ||mathtype.cn^
 ||metrics.mathworks.cn^
 ||smetrics.mathworks.cn^
-||go2.mathworks.com^
-||metrics.mathworks.com^
-||smetrics.mathworks.com^
-||tracking.mathworks.com^
 ||metrics.matlab.com^
 ||smetrics.matlab.com^
 ||metrics.matlabexpo.com^

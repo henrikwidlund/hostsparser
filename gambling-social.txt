@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-30 00:57:45Z
+! Last Modified: 2021-09-30 06:19:10Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -42850,8 +42850,6 @@
 ||adidm.supermedia.pl^
 ||supermocna-tasma-klejaca-pl.com^
 ||supernaturalart.com^
-||app-stats.supernotes.app^
-||site-stats.supernotes.app^
 ||superoferta.store^
 ||ads.superonline.com^
 ||metric.superpages.com^
@@ -45983,6 +45981,7 @@
 ||smetrics.tv2.dk^
 ||ad.tv2.no^
 ||ana.tv5unis.ca^
+||px.tvadsync.com^
 ||adserver.tvcatchup.com^
 ||aa.tvguide.com^
 ||saa.tvguide.com^
@@ -50246,6 +50245,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||counter.yakbucks.com^
