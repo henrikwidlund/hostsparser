@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-29 18:18:05Z
+! Last Modified: 2021-09-30 00:57:39Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -11200,6 +11200,7 @@
 ||email.cobsbread.com^
 ||cobusinessdaily.com^
 ||msg.cocamobile.com^
+||display.qc.coccoc.com^
 ||cocinaeljibarazo.com^
 ||cocoad.jp^
 ||aa-metrics.cocokarada.jp^
@@ -15202,7 +15203,6 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
-||video-ads.rubiconproject.com-v1.edgekey.net^
 ||deep.edgequery.io^
 ||c6.edgesuite.net^
 ||ads.hulu.com.edgesuite.net^
@@ -51483,7 +51483,6 @@
 ||zilliaq.com^
 ||go.zillowgroup.com^
 ||mjp.zimad.com^
-||j.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||tes.zindap.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-29 18:18:09Z
+! Last Modified: 2021-09-30 00:57:45Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -26990,6 +26990,7 @@
 ||tr.group-hr.lvmh.fr^
 ||tr.lvmhappening.lvmh.fr^
 ||tr.communication.lvmh.fr^
+||tr.mailing.lvmhappening.com^
 ||lvnkad.com^
 ||protection.lvpolice.com^
 ||lvulugfiwuhr.fun^
@@ -45982,7 +45983,6 @@
 ||smetrics.tv2.dk^
 ||ad.tv2.no^
 ||ana.tv5unis.ca^
-||px.tvadsync.com^
 ||adserver.tvcatchup.com^
 ||aa.tvguide.com^
 ||saa.tvguide.com^
@@ -47493,6 +47493,7 @@
 ||vitalib5.com^
 ||vitalitycs.net^
 ||www2.vitalitygroup.com^
+||ssl.o.vitals.com^
 ||smetrics.vitamix.com^
 ||vitemadose.fr^
 ||plausible.viteshot.com^

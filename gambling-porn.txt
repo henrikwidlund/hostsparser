@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-29 18:18:08Z
+! Last Modified: 2021-09-30 00:57:43Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -974,6 +974,8 @@
 ||4beast.com^
 ||4biogas.de^
 ||4bqs.com^
+||static.4chan-ads.org^
+||engine.4chan-ads.org^
 ||4chan.com^
 ||4chan.org^
 ||adserver.4clicks.org^
@@ -66219,6 +66221,7 @@
 ||go.zimperium.com^
 ||tes.zindap.com^
 ||vietnam.zing.photos^
+||app.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||analytics.zingerwebdesign.com^
 ||zingyporntube.com^
