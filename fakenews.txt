@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-30 06:19:05Z
+! Last Modified: 2021-09-30 12:25:39Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -8545,7 +8545,6 @@
 ||webtracking.chamberlain.edu^
 ||championclub.pl^
 ||championsklep.com^
-||ads.champs-elysees.com^
 ||sanl.champssports.com^
 ||chancefordates3.com^
 ||chanekee.ga^
@@ -51486,6 +51485,7 @@
 ||go.zimperium.com^
 ||tes.zindap.com^
 ||vietnam.zing.photos^
+||zevent.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||analytics.zingerwebdesign.com^
 ||zinmedia.ro^
