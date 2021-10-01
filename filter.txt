@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-01 06:18:52Z
+! Last Modified: 2021-10-01 12:24:50Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -9195,10 +9195,6 @@
 ||iad-08.braze.com^
 ||sdk.iad-02.braze.com^
 ||gudja.iad-02.braze.com^
-||rotanev.iad-03.braze.com^
-||seginus.iad-03.braze.com^
-||taukibreez.iad-03.braze.com^
-||phillateemis.iad-03.braze.com^
 ||cdn.braze.eu^
 ||fra-01.braze.eu^
 ||brazilvirgin.com^
@@ -65446,7 +65442,6 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
-||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^
@@ -65666,7 +65661,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst0.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
