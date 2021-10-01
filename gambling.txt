@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-30 18:18:26Z
+! Last Modified: 2021-10-01 00:57:31Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2477,6 +2477,8 @@
 ||airbet88.co^
 ||api.airbrake.io^
 ||pix.airbusgroup.com^
+||smetrics.aircanada.com^
+||oascentral.aircanada.com^
 ||aircovid19virus.com^
 ||aircraftsxhibition.com^
 ||smetrics.aireserv.com^
@@ -13177,6 +13179,7 @@
 ||olx.delliverry.biz^
 ||olx.delliverry.info^
 ||olx.delliverry.name^
+||olx.delliverry.org^
 ||olx.delliverry.su^
 ||dellivers-olxpl.net^
 ||olx.dellivers.info^

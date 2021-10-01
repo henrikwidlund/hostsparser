@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-09-30 18:18:24Z
+! Last Modified: 2021-10-01 00:57:29Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -15243,6 +15243,7 @@
 ||connect.facebook.net.edgekey.net^
 ||scorecardresearch.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
+||cdn-dsa.clicktale.net.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
@@ -16541,6 +16542,9 @@
 ||plausible.executeprogram.com^
 ||exelate.com^
 ||exeos.ws^
+||assets1.exgfnetwork.com^
+||adserver.exgfnetwork.com^
+||adserver2.exgfnetwork.com^
 ||ads.exhedra.com^
 ||ads2.exhedra.com^
 ||exhibenfrance.com^
@@ -19913,7 +19917,6 @@
 ||gotraffic.net^
 ||gotwebsite1.com^
 ||goucjk.com^
-||bass.goulet.dev^
 ||stats2.gourmet.com^
 ||tr.informations.dila.gouv.fr^
 ||tr.email.securite-routiere.gouv.fr^
@@ -40902,7 +40905,6 @@
 ||oascentral.sina.com.hk^
 ||s3.pfp.sina.net^
 ||pubstatus.sinaapp.com^
-||newspush.sinajs.cn^
 ||sincentre.info^
 ||go.sinch.com^
 ||go.sincrodigital.com^
@@ -51056,7 +51058,6 @@
 ||go.zimperium.com^
 ||tes.zindap.com^
 ||vietnam.zing.photos^
-||campaign.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||analytics.zingerwebdesign.com^
 ||zinmedia.ro^
