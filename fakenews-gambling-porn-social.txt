@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-01 12:24:53Z
+! Last Modified: 2021-10-01 18:18:04Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -64861,6 +64861,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||data.mistat.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -65832,7 +65833,6 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-01 12:25:02Z
+! Last Modified: 2021-10-01 18:18:15Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -4693,6 +4693,39 @@
 ||donkey.bahr.dev^
 ||bahrainsms.co^
 ||bahrajn.icu^
+||a.baidu.com^
+||c.baidu.com^
+||e.baidu.com^
+||s.baidu.com^
+||hc.baidu.com^
+||ma.baidu.com^
+||tk.baidu.com^
+||wm.baidu.com^
+||adm.baidu.com^
+||bar.baidu.com^
+||dzl.baidu.com^
+||utk.baidu.com^
+||cjhq.baidu.com^
+||gimg.baidu.com^
+||ulic.baidu.com^
+||banlv.baidu.com^
+||iebar.baidu.com^
+||sobar.baidu.com^
+||tkweb.baidu.com^
+||union.baidu.com^
+||ikcode.baidu.com^
+||tongji.baidu.com^
+||ucstat.baidu.com^
+||unstat.baidu.com^
+||baidutv.baidu.com^
+||guanjia.baidu.com^
+||neirong.baidu.com^
+||nsclick.baidu.com^
+||toolbar.baidu.com^
+||tracker.baidu.com^
+||utility.baidu.com^
+||sobartop.baidu.com^
+||wangmeng.baidu.com^
 ||msg.simeji.baidu.jp^
 ||baiduccdn.org^
 ||baiducdn.org^
@@ -46200,6 +46233,7 @@
 ||victorvalleytimes.com^
 ||victuallers.info^
 ||ablink.info.vida.com^
+||ad.vidaroo.com^
 ||adbmetrics.vidasolidaria.com^
 ||wjtekf.vidaxl.bg^
 ||usgzei.vidaxl.ch^
@@ -49200,7 +49234,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahyas.info^
