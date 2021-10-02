@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-02 00:52:56Z
+! Last Modified: 2021-10-02 06:18:04Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -7483,6 +7483,7 @@
 ||fzu4.bysidecar.com^
 ||adssea.byspotify.com^
 ||med.bystolic.com^
+||med.bystolichcp.com^
 ||med.bystolicsavings.com^
 ||dm.bytedance.com^
 ||mon.byteoversea.com^
@@ -9088,7 +9089,6 @@
 ||clooinfor.cf^
 ||clorlife.info^
 ||clorworld.info^
-||www2.closeassetfinanceandleasing.co.uk^
 ||closefly.com^
 ||info.closemotorfinance.co.uk^
 ||closeoutproductsreview.com^
