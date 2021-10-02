@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-01 18:18:22Z
+! Last Modified: 2021-10-02 00:53:04Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -8766,6 +8766,7 @@
 ||metrics1.citi.com^
 ||content22.online.citi.com^
 ||smetrics.citibank.ae^
+||smetrics.citibank.co.id^
 ||smetrics.citibank.co.th^
 ||metrics.citibank.com^
 ||metrics1.citibank.com^
@@ -36245,7 +36246,6 @@
 ||rta.pubocean.com^
 ||pubpress.net^
 ||ads.pubsqrd.com^
-||pubwes.com^
 ||puffyteddybear.com^
 ||pukaczu.pl^
 ||pulbsbiznehesu.info^
@@ -41424,7 +41424,6 @@
 ||sunidaytravel.co.uk^
 ||sunishandresmi.com^
 ||ads.sunjournal.com^
-||smetrics.sunlife.ca^
 ||smetrics.sunlife.com^
 ||sunlight.com^
 ||sunmaker.com^
@@ -43473,7 +43472,6 @@
 ||topcasino.com^
 ||topcatsports.ag^
 ||topceny.pl^
-||sadbmetrics.topcomparativas.com^
 ||go.topconhealthcare.com^
 ||topconsumergifts.com^
 ||topcontactco.com^
