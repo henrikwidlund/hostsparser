@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-03 00:58:26Z
+! Last Modified: 2021-10-03 06:18:45Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -3095,6 +3095,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||ingest.vungle.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
@@ -59690,6 +59691,7 @@
 ||stats.tubecalculator.co.uk^
 ||tubecharm.com^
 ||xnxx.tubechip.com^
+||out.tubecorporate.com^
 ||st.tubecup.org^
 ||native.tubecup.org^
 ||tubecup.xxx^
