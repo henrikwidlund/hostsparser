@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-02 18:17:51Z
+! Last Modified: 2021-10-03 00:58:39Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -51377,7 +51377,6 @@
 ||silkengirl.net^
 ||silkyangels.com^
 ||silkymood.com^
-||sillyflowermachine.com^
 ||ferret.siloam.ch^
 ||silstop.pl^
 ||go.silvaco.com^
@@ -55904,6 +55903,10 @@
 ||smetrics.ticket.se^
 ||info.ticketbud.com^
 ||ads.as4x.tmcs.ticketmaster.ca^
+||metrics.ticketmaster.com^
+||smetrics.ticketmaster.com^
+||click2.email.ticketmaster.com^
+||ads.as4x.tmcs.ticketmaster.com^
 ||smetrics.ticketsatwork.com^
 ||cat.ticketshifu.com^
 ||ticksel.com^
