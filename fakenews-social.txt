@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-03 06:18:54Z
+! Last Modified: 2021-10-03 12:23:47Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -6939,6 +6939,7 @@
 ||iad-08.braze.com^
 ||sdk.iad-02.braze.com^
 ||gudja.iad-02.braze.com^
+||nashira.iad-06.braze.com^
 ||cdn.braze.eu^
 ||fra-01.braze.eu^
 ||ads.brazzers.com^
@@ -21724,6 +21725,7 @@
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
 ||keyserver.ijinshan.com^
+||lbdata.tj.ijinshan.com^
 ||icas.ikea.com^
 ||sicas.ikea.com^
 ||metrics.ikea.com^

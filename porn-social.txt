@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-03 06:19:05Z
+! Last Modified: 2021-10-03 12:23:58Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -37401,6 +37401,7 @@
 ||server969249.nazwa.pl^
 ||server973203.nazwa.pl^
 ||server560960.nazwa.pl^
+||cache.server560960.nazwa.pl^
 ||nazwa5.pl^
 ||nb-sklep.com^
 ||gdyn.nba.com^
