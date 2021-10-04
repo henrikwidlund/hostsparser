@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-03 18:17:37Z
+! Last Modified: 2021-10-04 00:58:21Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -5750,6 +5750,7 @@
 ||atdmt.com^
 ||cookiejar.atea.no^
 ||api.ateam-ad.jp^
+||atech.ne.jp^
 ||atedra.com^
 ||ateenporn.net^
 ||ateentube.tv^
@@ -46840,6 +46841,7 @@
 ||prsitecheck.com^
 ||prtawe.com^
 ||prtc.net^
+||ads.pruc.org^
 ||sdc.prudential.com^
 ||pruszkow2019.pl^
 ||ad.prv.pl^
@@ -54565,7 +54567,6 @@
 ||stat-ssl.tasclap.jp^
 ||tasectan.se^
 ||stat-counter.tass-online.ru^
-||metrics.taste.com.au^
 ||tastebuddy.se^
 ||omtrkpix.tasteofhome.com^
 ||tasty-gossip.com^

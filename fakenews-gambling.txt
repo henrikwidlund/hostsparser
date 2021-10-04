@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-03 18:17:28Z
+! Last Modified: 2021-10-04 00:58:13Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -4235,6 +4235,7 @@
 ||atdmt.com^
 ||cookiejar.atea.no^
 ||api.ateam-ad.jp^
+||atech.ne.jp^
 ||atedra.com^
 ||toucan.ateliermilky.com^
 ||marketing.aten.com^

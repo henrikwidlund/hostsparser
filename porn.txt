@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-03 18:17:46Z
+! Last Modified: 2021-10-04 00:58:29Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -5625,6 +5625,7 @@
 ||atdmt.com^
 ||cookiejar.atea.no^
 ||api.ateam-ad.jp^
+||atech.ne.jp^
 ||atedra.com^
 ||ateenporn.net^
 ||ateentube.tv^
@@ -63878,8 +63879,8 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||tw2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
