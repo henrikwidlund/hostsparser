@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-04 06:19:28Z
+! Last Modified: 2021-10-04 12:25:02Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -21840,8 +21840,6 @@
 ||fromtj.com^
 ||fromwhereigo.com^
 ||toad.frontendmentor.io^
-||metrics.frontier.com^
-||smetrics.frontier.com^
 ||metrics.frontline.com^
 ||smetrics.frontline.com^
 ||smetrics.frontline.ru^
@@ -32722,7 +32720,6 @@
 ||hexusads.fluent.ltd.uk^
 ||adserver4.fluent.ltd.uk^
 ||smetrics.ltdcommodities.com^
-||stats.ltdhunt.com^
 ||go.ltgplc.com^
 ||ltk.pw^
 ||stats.ltodrivingschools.org^
@@ -49313,6 +49310,7 @@
 ||sensualradar.com^
 ||sensualwriter.com^
 ||go.sentara.edu^
+||api.sentiance.com^
 ||marketing.sentinelgroup.com^
 ||sentrol.cl^
 ||owl.sentrydiscord.dev^
@@ -51470,7 +51468,6 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
-||j.newssuite.sony.net^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
@@ -62531,7 +62528,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

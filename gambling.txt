@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-04 06:19:26Z
+! Last Modified: 2021-10-04 12:25:00Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2486,7 +2486,6 @@
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
-||sync-usva.tidaltv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -14767,9 +14766,11 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
+||pixel.mathtag.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
+||cdn.optimizely.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
@@ -35781,7 +35782,6 @@
 ||priiceline.com^
 ||prikektfirstpl.info^
 ||prikol-girls.com^
-||media.primalforce.net^
 ||ads.primaryclick.com^
 ||banners.primaryclick.com^
 ||primarystrike.net^
@@ -45214,7 +45214,6 @@
 ||validview.com^
 ||valigia.com.br^
 ||su.valley.ne.jp^
-||mdws.valleycreditunion.com^
 ||mdws.valleyfirst.com^
 ||asiakas.valokuitunen.fi^
 ||valsgaard-kofod.dk^
