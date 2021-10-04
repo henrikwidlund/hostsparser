@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-04 12:24:44Z
+! Last Modified: 2021-10-04 18:18:26Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -7224,6 +7224,7 @@
 ||iad-06.braze.com^
 ||iad-08.braze.com^
 ||sdk.iad-02.braze.com^
+||sdk.iad-08.braze.com^
 ||gudja.iad-02.braze.com^
 ||cdn.braze.eu^
 ||fra-01.braze.eu^

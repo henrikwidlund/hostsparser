@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-04 12:25:02Z
+! Last Modified: 2021-10-04 18:18:42Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -188,7 +188,6 @@
 ||12cams.be^
 ||mollusk.12grados.com^
 ||12masterov.com^
-||ywrcqa.12news.com^
 ||12research.com^
 ||12u.info^
 ||12xhardcore.com^
@@ -21840,6 +21839,8 @@
 ||fromtj.com^
 ||fromwhereigo.com^
 ||toad.frontendmentor.io^
+||metrics.frontier.com^
+||smetrics.frontier.com^
 ||metrics.frontline.com^
 ||smetrics.frontline.com^
 ||smetrics.frontline.ru^
@@ -32720,6 +32721,7 @@
 ||hexusads.fluent.ltd.uk^
 ||adserver4.fluent.ltd.uk^
 ||smetrics.ltdcommodities.com^
+||stats.ltdhunt.com^
 ||go.ltgplc.com^
 ||ltk.pw^
 ||stats.ltodrivingschools.org^
@@ -62528,6 +62530,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

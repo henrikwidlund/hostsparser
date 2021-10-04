@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-04 12:25:05Z
+! Last Modified: 2021-10-04 18:18:46Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2425,7 +2425,6 @@
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
-||pixel.rubiconproject.net.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
@@ -6883,6 +6882,7 @@
 ||shows.broadwayacrossamerica.com^
 ||banners.broadwayworld.com^
 ||metrics.brocade.com^
+||wprixk.brocard.ua^
 ||brocmans.xyz^
 ||stats.broddin.be^
 ||brohoof.pl^
@@ -47649,13 +47649,13 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
+||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
