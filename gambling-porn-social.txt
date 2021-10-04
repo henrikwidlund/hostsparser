@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-04 00:58:21Z
+! Last Modified: 2021-10-04 06:19:20Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -18688,10 +18688,6 @@
 ||elzaservis.cz^
 ||em-car.pl^
 ||emadesign.net^
-||lb.quote01.email-allstate.com^
-||lb.billing01.email-allstate.com^
-||lb.service01.email-allstate.com^
-||lb.marketing01.email-allstate.com^
 ||tr.smtp1.email-mediapost.fr^
 ||email-plans.com^
 ||click.email-stubhub.com^
@@ -54567,6 +54563,7 @@
 ||stat-ssl.tasclap.jp^
 ||tasectan.se^
 ||stat-counter.tass-online.ru^
+||metrics.taste.com.au^
 ||tastebuddy.se^
 ||omtrkpix.tasteofhome.com^
 ||tasty-gossip.com^

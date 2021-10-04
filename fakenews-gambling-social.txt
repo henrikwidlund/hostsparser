@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-04 00:58:11Z
+! Last Modified: 2021-10-04 06:19:10Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -15341,7 +15341,6 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
-||esd-secure.taboola.com.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
@@ -17824,6 +17823,7 @@
 ||fluoride.news^
 ||t.flux.com^
 ||ad.flux.com^
+||sa.flux.community^
 ||mlinks.fluz.app^
 ||url7542.fluz.app^
 ||k3vzn.flx10.com^
@@ -43962,7 +43962,6 @@
 ||tdcv3.talkingdata.net^
 ||gaandroid.talkingdata.net^
 ||snowplowcollector.talkspace.com^
-||eloqua.talktalkbusiness.co.uk^
 ||talktalkchu.com^
 ||gcirm.tallahassee.com^
 ||sxjfhh.tallahassee.com^
