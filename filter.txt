@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-05 12:24:54Z
+! Last Modified: 2021-10-05 18:17:59Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -29426,6 +29426,8 @@
 ||elqtrk.intel.com.tw^
 ||www91.intel.de^
 ||elqtrk.intel.de^
+||www91.intel.es^
+||elqtrk.intel.es^
 ||www91.intel.fr^
 ||elqtrk.intel.fr^
 ||www91.intel.in^
@@ -66073,7 +66075,6 @@
 ||x-phentermine.info^
 ||x-preview.com^
 ||x-pronet.com^
-||rt.x-show.tv^
 ||x-terrarium.com^
 ||x-videos.su^
 ||x-videoz.org^
@@ -67279,6 +67280,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -67492,6 +67494,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst0.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
