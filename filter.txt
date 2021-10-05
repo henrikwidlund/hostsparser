@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-05 06:18:49Z
+! Last Modified: 2021-10-05 12:24:54Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -16997,6 +16997,7 @@
 ||go.emails.discoveryplus.com^
 ||ssa.discoveryplus.in^
 ||ssa.discoveryrise.org^
+||ads.discreetad.com^
 ||discreetangels.net^
 ||discriminationnun.info^
 ||discsplay.com^
@@ -29425,8 +29426,6 @@
 ||elqtrk.intel.com.tw^
 ||www91.intel.de^
 ||elqtrk.intel.de^
-||www91.intel.es^
-||elqtrk.intel.es^
 ||www91.intel.fr^
 ||elqtrk.intel.fr^
 ||www91.intel.in^
@@ -65494,7 +65493,6 @@
 ||track.msadcenter.wmd.com^
 ||metrics.wmg.com^
 ||smetrics.wmg.com^
-||analytics.wmgroup.us^
 ||wmiesciedziejesie.pl^
 ||wmiesciewazne.pl^
 ||wmiesciewazne24.pl^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-05 06:19:12Z
+! Last Modified: 2021-10-05 12:25:16Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -3249,6 +3249,15 @@
 ||analytics.algoepico.net^
 ||algofgain.com^
 ||algorix.co^
+||img.alibaba.com^
+||p3p.alibaba.com^
+||hydra.alibaba.com^
+||offer.alibaba.com^
+||click.alibaba.com^
+||dmtracking.alibaba.com^
+||cmweb.ilike.alibaba.com^
+||survey.china.alibaba.com^
+||p4psearch.china.alibaba.com^
 ||alibabaslots.com^
 ||alibestsale.com^
 ||li.alibris.com^
@@ -13393,7 +13402,6 @@
 ||k.cocooncenter.es^
 ||cocoopt.com^
 ||linux.cocoss2d.com^
-||go.codat.io^
 ||stats.code-it-studio.de^
 ||explore.code3esg.com^
 ||codeads.com^
@@ -60770,7 +60778,6 @@
 ||track.msadcenter.wmd.com^
 ||metrics.wmg.com^
 ||smetrics.wmg.com^
-||analytics.wmgroup.us^
 ||wmiesciedziejesie.pl^
 ||wmiesciewazne.pl^
 ||wmiesciewazne24.pl^
@@ -62522,7 +62529,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||in.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

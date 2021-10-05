@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-05 06:18:54Z
+! Last Modified: 2021-10-05 12:24:58Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -15330,6 +15330,7 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||wildcard.aaxads.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -20866,6 +20867,7 @@
 ||app.insight.heidrick.com^
 ||dl.heima8.com^
 ||fotoseiten.heimat.eu^
+||te.heine-shop.nl^
 ||te.heine.at^
 ||tp.heine.at^
 ||te.heine.ch^
@@ -50014,7 +50016,6 @@
 ||track.msadcenter.wmd.com^
 ||metrics.wmg.com^
 ||smetrics.wmg.com^
-||analytics.wmgroup.us^
 ||wmiesciedziejesie.pl^
 ||wmiesciewazne.pl^
 ||wmiesciewazne24.pl^
@@ -50157,7 +50158,6 @@
 ||smetrics.worldbank.org^
 ||links.worldbannerexchange.com^
 ||an.worldbaseballclassic.com^
-||go.worldbook.com^
 ||metric.worldcat.org^
 ||adultdatingtest.worlddatingforum.com^
 ||worldeducationtranscript.com^
