@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-05 00:53:16Z
+! Last Modified: 2021-10-05 06:19:12Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -3249,15 +3249,6 @@
 ||analytics.algoepico.net^
 ||algofgain.com^
 ||algorix.co^
-||img.alibaba.com^
-||p3p.alibaba.com^
-||hydra.alibaba.com^
-||offer.alibaba.com^
-||click.alibaba.com^
-||dmtracking.alibaba.com^
-||cmweb.ilike.alibaba.com^
-||survey.china.alibaba.com^
-||p4psearch.china.alibaba.com^
 ||alibabaslots.com^
 ||alibestsale.com^
 ||li.alibris.com^
@@ -40683,6 +40674,7 @@
 ||ad.oret.jp^
 ||oreware.com^
 ||trust.lew.orfininfo.xyz^
+||go.orgain.com^
 ||organic-harmony.com^
 ||pdupdate.organiccrap.com^
 ||organicdiamonds.net^
@@ -62530,6 +62522,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||in.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

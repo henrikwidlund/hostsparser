@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-05 00:53:01Z
+! Last Modified: 2021-10-05 06:18:54Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -5169,6 +5169,7 @@
 ||comadverts.bcmpweb.co.nz^
 ||ads.bcnewsgroup.com^
 ||bcoininv3.space^
+||pardot.bcorporation.net^
 ||community.bcpp.org^
 ||bcrg.co.za^
 ||bcservice.it^
@@ -20865,7 +20866,6 @@
 ||app.insight.heidrick.com^
 ||dl.heima8.com^
 ||fotoseiten.heimat.eu^
-||te.heine-shop.nl^
 ||te.heine.at^
 ||tp.heine.at^
 ||te.heine.ch^
@@ -42875,6 +42875,7 @@
 ||startnewtab.com^
 ||startnow.com^
 ||startrainst.com^
+||saa.startrek.com^
 ||oas.startribune.com^
 ||tste.startribune.com^
 ||metrics.startribune.com^

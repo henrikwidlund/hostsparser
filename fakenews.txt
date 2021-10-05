@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-05 00:53:09Z
+! Last Modified: 2021-10-05 06:19:03Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -31483,6 +31483,8 @@
 ||partner01.oingo.com^
 ||partner02.oingo.com^
 ||partner03.oingo.com^
+||da.oipzyrzffum.ovh^
+||vda.oipzyrzffum.ovh^
 ||oiseau-perdu.fr^
 ||oita4bali.com^
 ||oiuoiup-71.ga^

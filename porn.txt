@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-05 00:53:18Z
+! Last Modified: 2021-10-05 06:19:14Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -44040,8 +44040,6 @@
 ||olx.polska-oferd.casa^
 ||olx.polska-oferdo.biz^
 ||inpost.polska-oferdo.biz^
-||olx.polska-oferdo.cc^
-||inpost.polska-oferdo.cc^
 ||olx.polska-oferdo.design^
 ||inpost.polska-oferdo.design^
 ||olx.polska-oferdo.fit^
@@ -63878,7 +63876,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||tw2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
