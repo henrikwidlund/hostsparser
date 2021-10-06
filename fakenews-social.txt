@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-06 12:25:21Z
+! Last Modified: 2021-10-06 18:18:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31485,6 +31485,8 @@
 ||nsoqa.com^
 ||nsrecord.org^
 ||www2.nssf.org^
+||mechaonik.nsx.pl^
+||temporary.nsx.pl^
 ||ads.ntadvice.com^
 ||ntaryan.com^
 ||ntdesk.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-06 12:25:30Z
+! Last Modified: 2021-10-06 18:18:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19572,6 +19572,9 @@
 ||goucjk.com^
 ||bass.goulet.dev^
 ||stats2.gourmet.com^
+||tr.informations.dila.gouv.fr^
+||tr.email.securite-routiere.gouv.fr^
+||tr.infolettre.securite-routiere.gouv.fr^
 ||analytics.mhpod.gov.au^
 ||business.campbelltown.nsw.gov.au^
 ||edu.pmvanini.rs.gov.br^
@@ -25709,6 +25712,7 @@
 ||banner.linksynergy.com^
 ||linktarget.com^
 ||info.linkties.com^
+||ads.linktracking.net^
 ||adserver.linktrader.co.uk^
 ||linkz.it^
 ||api.linkz.net^
@@ -47934,7 +47938,6 @@
 ||winsorfx.com^
 ||winsupportit.club^
 ||winter-balance.com^
-||analytics.winter.ink^
 ||winterencourage.com^
 ||winteroff.pl^
 ||wintertimes.co^
@@ -49813,7 +49816,6 @@
 ||smetrics.zimmerbiomet.com^
 ||go.zimperium.com^
 ||vietnam.zing.photos^
-||interactive.brand.zing.vn^
 ||analytics.zingerwebdesign.com^
 ||ziololecznictwo.pl^
 ||tc.zionsbank.com^
