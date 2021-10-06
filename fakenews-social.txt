@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-05 18:18:10Z
+! Last Modified: 2021-10-06 00:55:15Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -26766,8 +26766,6 @@
 ||marantaillegible.info^
 ||marathasamrajya.com^
 ||contact.marathon-sports-ec.com^
-||anapixel.marca.com^
-||pixelcounter.marca.com^
 ||marcatecnologia.com^
 ||blackbird.marcelgil.com^
 ||marcellopiliego.it^
@@ -49810,6 +49808,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn1.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
@@ -49978,6 +49977,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst4.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

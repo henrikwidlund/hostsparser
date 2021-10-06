@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-05 18:18:22Z
+! Last Modified: 2021-10-06 00:55:29Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -20056,8 +20056,6 @@
 ||stats.homerdixon.com^
 ||dzszbb.homes.co.jp^
 ||inquiry.homes.co.jp^
-||metrics.homes.com^
-||smetrics.homes.com^
 ||go.homestars.com^
 ||smetrics.homestatehealth.com^
 ||stats.homestead.com^
@@ -47654,6 +47652,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -47925,7 +47924,6 @@
 ||youintelligence.com^
 ||ifa.youjizzlive.com^
 ||lstat.youku.com^
-||valc.atm.youku.com^
 ||youliehow.com^
 ||younglust.to^
 ||younglustforum.pw^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-05 18:18:12Z
+! Last Modified: 2021-10-06 00:55:18Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -362,6 +362,7 @@
 ||1ashemaletube.com^
 ||1bet.com^
 ||1bet2bet.com^
+||tracking.1betternetwork.com^
 ||1bg.net^
 ||1by-day.com^
 ||1cam.webcam^
@@ -63780,7 +63781,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
