@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-07 12:26:24Z
+! Last Modified: 2021-10-07 18:18:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29412,7 +29412,6 @@
 ||mobilefuse.com^
 ||config.mobilegamestats.com^
 ||mobilejmp.com^
-||ads.mobilemarketer.com^
 ||static.mobilemonkey.com^
 ||mola77.mobilenobo.com^
 ||info.mobileodt.com^
@@ -51729,7 +51728,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -52012,7 +52010,6 @@
 ||youintelligence.com^
 ||ifa.youjizzlive.com^
 ||lstat.youku.com^
-||urchin.lstat.youku.com^
 ||youliehow.com^
 ||youngcons.com^
 ||www2.youngimpact.nl^
