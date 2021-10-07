@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-06 18:18:11Z
+! Last Modified: 2021-10-07 00:55:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2524,7 +2524,6 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||tvx.adgrx.com.tech.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -4077,6 +4076,7 @@
 ||artoken.co^
 ||moth.artsmia.org^
 ||ads.artsopolis.com^
+||koi.artsvp.co^
 ||adserver.arttoday.com^
 ||artykul-online.pl^
 ||scambiobanner.aruba.it^
@@ -15457,7 +15457,6 @@
 ||stickyadstv.com.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
-||tags.bluekai.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
@@ -43498,7 +43497,6 @@
 ||stiffnetwork.com^
 ||stihl-pl.com^
 ||tracking.stihl.de^
-||ads.stileproject.com^
 ||stillval.com^
 ||go.stirshakead.com^
 ||stjoebentonharbor.com^
@@ -50823,6 +50821,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^

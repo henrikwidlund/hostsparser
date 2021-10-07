@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-06 18:18:15Z
+! Last Modified: 2021-10-07 00:55:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28442,8 +28442,6 @@
 ||bpeml.mlb.com^
 ||go.mlexmarketinsight.com^
 ||mlinktracker.com^
-||ads.mlive.com^
-||metrics.mlive.com^
 ||mlm.de^
 ||mlntracker.com^
 ||mltrk.io^
@@ -38400,7 +38398,6 @@
 ||remox.com^
 ||smetrics.remserv.com.au^
 ||insights.renasantbank.com^
-||go2.renault.co.nz^
 ||rencontreavenue.com^
 ||pan.render.com^
 ||ltaoei.rendez-vous.ru^
