@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-07 00:55:42Z
+! Last Modified: 2021-10-07 06:18:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36864,6 +36864,8 @@
 ||inpost-pl.reigjoytobuy.pw^
 ||reeokx.reima.com^
 ||reimageplus.com^
+||tools.reimclub.com^
+||community.reimclub.com^
 ||banner.reinstil.de^
 ||stats.reisemobil.pro^
 ||aazmiw.reisenthel.com^
@@ -48319,7 +48321,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||uk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
