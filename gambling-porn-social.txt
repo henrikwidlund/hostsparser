@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-07 06:18:37Z
+! Last Modified: 2021-10-07 12:26:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51859,6 +51859,7 @@
 ||tracking.shl.com^
 ||shleep.it^
 ||shlick.it^
+||olx-pliqzb.shlnk.cc^
 ||metrics.shmeeb.net^
 ||smetrics.sho.com^
 ||shockcounter.com^
@@ -53085,7 +53086,6 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
-||j.newssuite.sony.net^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
@@ -63477,6 +63477,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -64451,7 +64452,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
+||ca.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -64664,6 +64665,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst9.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
