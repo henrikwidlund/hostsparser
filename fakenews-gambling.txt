@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-07 18:18:06Z
+! Last Modified: 2021-10-08 00:57:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7667,10 +7667,6 @@
 ||businesssupportme.com^
 ||track.businesstrenders.com^
 ||track.businessunionorg.com^
-||om.businessweek.com^
-||te.businessweek.com^
-||ads.businessweek.com^
-||oascentral.businessweek.com^
 ||oascentral.businessweeks.com^
 ||businnews.space^
 ||businnewsnow.site^
@@ -13399,6 +13395,7 @@
 ||compass-errors.deliverimp.com^
 ||compass-events.deliverimp.com^
 ||compass-allbids.deliverimp.com^
+||go.deliveroo.com^
 ||inpost-pl.deliverorder.pw^
 ||deliverry-safe.biz^
 ||deliverry-safe.com^
@@ -46550,6 +46547,7 @@
 ||tricikli.com^
 ||tricitiesguardian.com^
 ||tricitiesreporter.com^
+||ads.tricityherald.com^
 ||tricitysun.com^
 ||x8x.trickip.net^
 ||www9.trickip.org^

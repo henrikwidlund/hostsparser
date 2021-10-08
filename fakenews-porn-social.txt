@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-07 18:18:07Z
+! Last Modified: 2021-10-08 00:57:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25167,7 +25167,6 @@
 ||grundyguide.com^
 ||grundyreporter.com^
 ||grupalotos.club^
-||marketing.grupo-sm.com^
 ||www2.grupoacre.es^
 ||smetrics.extranetperu.grupobbva.pe^
 ||grupoeq.com^
@@ -65348,10 +65347,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
-||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||pn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
