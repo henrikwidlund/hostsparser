@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-08 00:57:27Z
+! Last Modified: 2021-10-08 06:18:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -33817,11 +33817,6 @@
 ||pasozyt.icu^
 ||e.passfolio.us^
 ||passiacnews.com^
-||ads.passion.com^
-||banner.passion.com^
-||banners.passion.com^
-||adserver.passion.com^
-||geobanner.passion.com^
 ||promo.passioncams.com^
 ||textad.passionsearch.com^
 ||passivetrading.co.uk^
@@ -49573,7 +49568,10 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
+||diagnosis.ad.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
 ||ns2.xidian.edu.cn^
@@ -49993,6 +49991,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -50164,7 +50163,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst4.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-08 00:57:30Z
+! Last Modified: 2021-10-08 06:18:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10149,6 +10149,7 @@
 ||confessionangel.canalblog.com^
 ||tr.emailing.canalplus-afrique.com^
 ||tr.emailing.canalplus-caledonie.com^
+||tr.emailing.canalplus-caraibes.com^
 ||tr.emailing.canalplus-reunion.com^
 ||tr.emailing.canalplus.ch^
 ||snr4.canalplus.com^
@@ -50500,8 +50501,6 @@
 ||ads.seattletimes.com^
 ||oascentral.seattleweekly.com^
 ||seavirgin.com^
-||metrics.seawheeze.com^
-||smetrics.seawheeze.com^
 ||www2.seawindcats.com^
 ||smetrics.seb.ee^
 ||smetrics.seb.lt^
@@ -63165,7 +63164,6 @@
 ||webprotector.co^
 ||webprotocol.net^
 ||ad.webprovider.com^
-||api.webpush.jp^
 ||exits1.webquest.net^
 ||exits2.webquest.net^
 ||webreseau.com^
