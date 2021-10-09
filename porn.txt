@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-08 18:17:41Z
+! Last Modified: 2021-10-09 00:51:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3022,7 +3022,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||sgcp-hlb.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
@@ -41817,7 +41816,6 @@
 ||smetrics.panasonic.jp^
 ||smetrics.panasonic.net^
 ||sites.pancommunications.com^
-||channelwatcher.panda.tech^
 ||pandamovie.eu^
 ||pandamovie.net^
 ||pandamovie.pw^
@@ -64545,6 +64543,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||tw2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^

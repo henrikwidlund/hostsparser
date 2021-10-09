@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-08 18:17:43Z
+! Last Modified: 2021-10-09 00:52:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32343,6 +32343,7 @@
 ||pagesecureonline-official.com^
 ||at.pagesjaunes.fr^
 ||sbx.pagesjaunes.fr^
+||logs1257.at.pagesjaunes.fr^
 ||pageupdate.co^
 ||go.pageuppeople.com^
 ||metrics.pagoda.com^
