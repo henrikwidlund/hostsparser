@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-09 00:51:35Z
+! Last Modified: 2021-10-09 06:17:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9294,6 +9294,7 @@
 ||iad-06.braze.com^
 ||iad-08.braze.com^
 ||sdk.iad-02.braze.com^
+||sdk.iad-08.braze.com^
 ||gudja.iad-02.braze.com^
 ||cdn.braze.eu^
 ||fra-01.braze.eu^
@@ -50132,8 +50133,6 @@
 ||rehabretie.com^
 ||go.rehmann.com^
 ||experience.rehmann.com^
-||omni.rei.com^
-||somni.rei.com^
 ||go.reico.com^
 ||reifefrauen-date.com^
 ||reifenquick.de^
@@ -51591,6 +51590,8 @@
 ||saon6harz.com^
 ||smetrics.sap.com^
 ||sapapartamenty.pl^
+||med.saphris.com^
+||meds.saphris.com^
 ||med.saphrishcp.com^
 ||www2.saplinghr.com^
 ||pub.web.sapo.io^
@@ -66969,9 +66970,11 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||zeus.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
 ||ns2.xidian.edu.cn^

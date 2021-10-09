@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-09 00:51:55Z
+! Last Modified: 2021-10-09 06:18:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4237,6 +4237,8 @@
 ||atriumset.com^
 ||stats.atrl.co^
 ||atrorema.com^
+||psorias.atspace.com^
+||arthritis.atspace.com^
 ||att-download.com^
 ||site.att.com^
 ||pages.att.com^
@@ -49093,6 +49095,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||launch.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
