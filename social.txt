@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-09 06:18:24Z
+! Last Modified: 2021-10-09 12:23:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4968,6 +4968,7 @@
 ||go.bayshoresystems.com^
 ||xewihp.bayut.com^
 ||mdws.bayviewnb.com^
+||apps.nexus.bazaarvoice.com^
 ||bazafilm.pl^
 ||bazalt-gracze.pl^
 ||bazandegan.com^
@@ -8607,7 +8608,6 @@
 ||circultural.com^
 ||circus666.com^
 ||circusonline777.com^
-||elq.cirium.com^
 ||cirptopsgrup.com^
 ||journey.cisco.com^
 ||smetrics.cisco.com^
@@ -42065,7 +42065,6 @@
 ||tetra-invest.world^
 ||go.tetrapak.com^
 ||elqtracking1.tetrapak.com^
-||wbtrkk.teufel.ch^
 ||wbtrkk.teufel.de^
 ||wbtrkk.teufelaudio.at^
 ||wbtrkk.teufelaudio.be^
