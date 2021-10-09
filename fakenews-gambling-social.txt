@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-09 12:23:37Z
+! Last Modified: 2021-10-09 18:17:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2793,6 +2793,8 @@
 ||marketing.alkhaleej.com.sa^
 ||alkily.com^
 ||all-4you.pl^
+||adv.all-free-download.com^
+||ads.all-free-download.com^
 ||data.all-in.de^
 ||all-internet-security.com^
 ||a8cv.all-plan.co.jp^
@@ -47740,7 +47742,6 @@
 ||create.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
-||admediator.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-09 12:23:56Z
+! Last Modified: 2021-10-09 18:17:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3025,6 +3025,7 @@
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
+||sync.tidaltv.com.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
@@ -64542,13 +64543,11 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||europe.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -65588,6 +65587,12 @@
 ||ziololecznictwo.pl^
 ||tc.zionsbank.com^
 ||ziounique.com^
+||ablink.my.zip.co^
+||ablink.edm.zip.co^
+||ablink.go1.zip.co^
+||ablink.go2.zip.co^
+||ablink.go3.zip.co^
+||ablink.account.zip.co^
 ||track.zipalerts.com^
 ||click.zipcodez.com^
 ||zipitfast.com^
