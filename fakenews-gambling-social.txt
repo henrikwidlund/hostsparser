@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-10 00:55:12Z
+! Last Modified: 2021-10-10 06:18:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2524,7 +2524,6 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||tps-wlb-uswest.dvgtm.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -15506,6 +15505,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||sync.teads.tv.edgekey.net^
 ||pinterest.com.edgekey.net^
 ||optimizely.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
@@ -35962,6 +35962,7 @@
 ||pizzatoyourplace.com^
 ||pk-pl.website^
 ||track.msadcenter.pka.com^
+||pkmkkjwknvf.com^
 ||pknlpl.com^
 ||pknpl.com^
 ||pko-bp.pl^
@@ -51305,6 +51306,7 @@
 ||shell.xhhow4.com^
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
+||e.ad.xiaomi.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
@@ -51730,7 +51732,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -51784,6 +51785,7 @@
 ||yatrk.xyz^
 ||yavapainews.com^
 ||track.msadcenter.yaz.com^
+||cdn.yb0t.com^
 ||ybex.com^
 ||track.msadcenter.ybi.com^
 ||metrics.ybs.co.uk^

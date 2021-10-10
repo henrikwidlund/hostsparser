@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-10 00:55:13Z
+! Last Modified: 2021-10-10 06:18:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15449,7 +15449,6 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||perf.teads.tv.edgekey.net^
 ||optimizely.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
@@ -35862,6 +35861,7 @@
 ||pizzatoyourplace.com^
 ||pk-pl.website^
 ||track.msadcenter.pka.com^
+||pkmkkjwknvf.com^
 ||pknlpl.com^
 ||pknpl.com^
 ||pko-bp.pl^
@@ -40620,7 +40620,6 @@
 ||abo.schibsted.no^
 ||schington.com^
 ||s.schlachter.tech^
-||mktg.schlage.com^
 ||ads.schmoozecom.net^
 ||edu-us.schneider-electric.com^
 ||links.schnucks.com^
@@ -51247,6 +51246,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ca.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -51300,6 +51300,7 @@
 ||yatrk.xyz^
 ||yavapainews.com^
 ||track.msadcenter.yaz.com^
+||cdn.yb0t.com^
 ||ybex.com^
 ||track.msadcenter.ybi.com^
 ||metrics.ybs.co.uk^

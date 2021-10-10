@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-10 00:55:08Z
+! Last Modified: 2021-10-10 06:18:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -45639,6 +45639,7 @@
 ||pk-pl.website^
 ||pk5.net^
 ||track.msadcenter.pka.com^
+||pkmkkjwknvf.com^
 ||pknlpl.com^
 ||pknpl.com^
 ||pko-bp.pl^
@@ -62606,8 +62607,6 @@
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
 ||create.unity3d.com^
-||adsx.unityads.unity3d.com^
-||auiopt.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -67949,11 +67948,9 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||pn1.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||launch.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -68015,6 +68012,7 @@
 ||yavapainews.com^
 ||track.msadcenter.yaz.com^
 ||yazum.com^
+||cdn.yb0t.com^
 ||ybex.com^
 ||track.msadcenter.ybi.com^
 ||yboys.net^
