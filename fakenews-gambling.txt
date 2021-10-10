@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-09 18:17:29Z
+! Last Modified: 2021-10-10 00:55:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15449,6 +15449,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||perf.teads.tv.edgekey.net^
 ||optimizely.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
@@ -26657,7 +26658,6 @@
 ||lirehub.com^
 ||smetrics.lissage.jp^
 ||ads.list-universe.com^
-||da.ce.bd.a9.top.list.ru^
 ||list1holp.com^
 ||listaglawo.com^
 ||listcontrolsite.com^
@@ -46359,6 +46359,7 @@
 ||trafficresults.com^
 ||trafficrouter.io^
 ||trafficstrategies.com^
+||adserver.trafficsyndicate.com^
 ||traffictraders.com^
 ||ads.traffikings.com^
 ||stage.traffiliate.com^
