@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-11 06:19:08Z
+! Last Modified: 2021-10-11 12:25:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1574,7 +1574,6 @@
 ||adfalcon.com^
 ||xml.adfclick1.com^
 ||static.adfclick1.com^
-||stat.adfinity.pro^
 ||adfiptv.com^
 ||go.adflegal.org^
 ||adflight.com^

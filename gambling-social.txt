@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-11 06:19:15Z
+! Last Modified: 2021-10-11 12:25:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1420,6 +1420,7 @@
 ||actulite.com^
 ||tr.actupremium.com^
 ||actus.org.pl^
+||openx.actvtech.com^
 ||actvtrack.com^
 ||acuio.org^
 ||acuityads.com^
@@ -1607,7 +1608,6 @@
 ||adfalcon.com^
 ||xml.adfclick1.com^
 ||static.adfclick1.com^
-||stat.adfinity.pro^
 ||adfiptv.com^
 ||go.adflegal.org^
 ||adflight.com^

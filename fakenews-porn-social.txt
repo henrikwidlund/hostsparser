@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-11 06:19:05Z
+! Last Modified: 2021-10-11 12:25:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1984,7 +1984,6 @@
 ||adfalcon.com^
 ||xml.adfclick1.com^
 ||static.adfclick1.com^
-||stat.adfinity.pro^
 ||adfiptv.com^
 ||go.adflegal.org^
 ||adflight.com^
@@ -18404,10 +18403,12 @@
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
+||r.casalemedia.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||hotapi.sgsnssdk.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -36551,6 +36552,7 @@
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
+||aw.mic.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
 ||moblink.mob.com^
