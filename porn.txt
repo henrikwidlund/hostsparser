@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-11 00:55:51Z
+! Last Modified: 2021-10-11 06:19:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2056,7 +2056,6 @@
 ||ads.admaximize.com^
 ||static.admaximize.com^
 ||a.admaxserver.com^
-||adme-net.com^
 ||ads1.admedia.ro^
 ||admedias.net^
 ||srv2.admedit.me^
@@ -3022,6 +3021,8 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||cdn-lb.vungle.akadns.net^
+||ingest.vungle.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
@@ -22019,7 +22020,6 @@
 ||frothedinbreedings.info^
 ||protection.frpolice.com^
 ||frprn.com^
-||frtya.com^
 ||frtyb.com^
 ||t.frtyg.com^
 ||frtyj.com^
