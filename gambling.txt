@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-11 18:18:08Z
+! Last Modified: 2021-10-12 00:58:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2092,19 +2092,6 @@
 ||adserver.adverty.com^
 ||advertyz.com^
 ||oasis2.advfn.com^
-||ads.adviad.com^
-||api.adviad.com^
-||cdn.adviad.com^
-||dmp.adviad.com^
-||app.adviad.com^
-||dsp.adviad.com^
-||ssp.adviad.com^
-||ads2.adviad.com^
-||ads3.adviad.com^
-||ads4.adviad.com^
-||sync.adviad.com^
-||cdnuz.adviad.com^
-||report.adviad.com^
 ||banners.advidi.com^
 ||adview.cn^
 ||adview.com^
@@ -18928,6 +18915,10 @@
 ||gigazine.asia^
 ||gigdnetwork.com^
 ||oascentral.gigex.com^
+||cdn.gigya.com^
+||counters.gigya.com^
+||gscounters.eu1.gigya.com^
+||gscounters.us1.gigya.com^
 ||ghostpanel.giize.com^
 ||gikon.pl^
 ||tools.gikotena.net^
@@ -49086,7 +49077,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

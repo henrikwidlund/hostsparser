@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-11 18:18:09Z
+! Last Modified: 2021-10-12 00:58:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11217,6 +11217,7 @@
 ||metrics1.citibank.com^
 ||vendorweb.citibank.com^
 ||smetrics.citibank.com.au^
+||smetrics.citibank.com.hk^
 ||smetrics.citibank.com.my^
 ||smetrics.citibank.com.ph^
 ||smetrics.citibank.com.sg^
@@ -34486,6 +34487,7 @@
 ||media-playerz.com^
 ||touch.media-serving.com^
 ||banner.media-system.de^
+||i.media.cz^
 ||biznesoweinfo.media.pl^
 ||mediaarea.eu^
 ||mediabank.co.jp^

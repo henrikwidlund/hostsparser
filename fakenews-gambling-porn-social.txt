@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-11 18:17:53Z
+! Last Modified: 2021-10-12 00:57:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -61161,6 +61161,7 @@
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
 ||create.unity3d.com^
+||cdn.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -63610,8 +63611,6 @@
 ||mabanque-bnpparibas-ref-34-fr.web.app^
 ||postmaster-serveremail-update.web.app^
 ||a9sda-s02ksdf0sd324-ad324aw3-a.web.app^
-||ads.web.de^
-||lotto.web.de^
 ||service.pizmedia.web.id^
 ||phorm.web.tr^
 ||aciklise.web.tr^
@@ -66603,6 +66602,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||eu-pn4.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -66817,6 +66817,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst7.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

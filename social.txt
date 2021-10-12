@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-11 18:18:12Z
+! Last Modified: 2021-10-12 00:58:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18688,6 +18688,8 @@
 ||smetrics.glucerna.com.vn^
 ||metrics.glucerna.net^
 ||secure.glue1lazy.com^
+||revid.centech.glulive.com^
+||personalization.centech.glulive.com^
 ||glxgroup.com^
 ||gmagazyn.pl^
 ||gmai.com^
