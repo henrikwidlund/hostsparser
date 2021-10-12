@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-12 12:25:37Z
+! Last Modified: 2021-10-12 18:18:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28108,7 +28108,6 @@
 ||smetric.ads.microsoft.com^
 ||statsfe2.ws.microsoft.com^
 ||sqm.telemetry.microsoft.com^
-||web.vortex.data.microsoft.com^
 ||v10c.events.data.microsoft.com^
 ||watson.telemetry.microsoft.com^
 ||amer.hops.glbdns.microsoft.com^
@@ -43007,6 +43006,7 @@
 ||swbluegrassnews.com^
 ||swcoloradonews.com^
 ||swconnnews.com^
+||swcs.jp^
 ||swdallasnews.com^
 ||sweaty.dk^
 ||tracker.swedish.org^
@@ -50475,7 +50475,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
