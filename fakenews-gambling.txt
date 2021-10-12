@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-12 06:18:33Z
+! Last Modified: 2021-10-12 12:25:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2517,9 +2517,9 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||cdn-lb.vungle.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
+||bssg.eyeblaster.akadns.net^
 ||track-apmebf.cj.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -11907,6 +11907,8 @@
 ||constitutivelystertors.info^
 ||constrainthead.info^
 ||track.construclique.com^
+||success.construction.com^
+||oascentral.construction.com^
 ||constructionzone1.com^
 ||construfuturo.com.mx^
 ||construmac.com.mx^
@@ -51987,6 +51989,7 @@
 ||smetrics.zimmerbiomet.com^
 ||go.zimperium.com^
 ||vietnam.zing.photos^
+||banner.brand.zing.vn^
 ||analytics.zingerwebdesign.com^
 ||ziololecznictwo.pl^
 ||tc.zionsbank.com^

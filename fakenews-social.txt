@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-12 06:18:38Z
+! Last Modified: 2021-10-12 12:25:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -45453,6 +45453,7 @@
 ||slog.trackingio.com^
 ||trackingsoft.com^
 ||trackingstatalytics.com^
+||ads.trackitdown.net^
 ||tracklead.net^
 ||tracklink-tel.de^
 ||trackmail3345.com^
@@ -50474,6 +50475,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
