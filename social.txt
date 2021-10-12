@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-12 00:58:12Z
+! Last Modified: 2021-10-12 06:18:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17309,8 +17309,6 @@
 ||sw88.foxplay.com^
 ||a.foxsports.com^
 ||b.foxsports.com^
-||metrics.foxsports.com.au^
-||ablinks.e.foxsports.com.au^
 ||foxstarup.com^
 ||aff.foxtab.com^
 ||static.aff-landing-tmp.foxtab.com^
@@ -33472,8 +33470,6 @@
 ||go.pico.net^
 ||adsdk.picooapps.com^
 ||nvpbip.picooc.ru^
-||ablinks.picsart.com^
-||analytics.picsart.com^
 ||picslab.co.za^
 ||go.pictet.co.jp^
 ||picture-uploads.com^

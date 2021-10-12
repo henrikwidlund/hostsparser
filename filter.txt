@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-12 00:57:47Z
+! Last Modified: 2021-10-12 06:18:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -40687,6 +40687,8 @@
 ||lgyvfv.nix-wie-weg.de^
 ||banner.nixnet.cz^
 ||window.nixnet.cz^
+||ads.nj.com^
+||metrics.nj.com^
 ||njb-gmbh.com^
 ||njbusinessdaily.com^
 ||go.njit.edu^
@@ -67936,6 +67938,7 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
+||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^
