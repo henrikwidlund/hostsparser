@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-13 06:19:05Z
+! Last Modified: 2021-10-13 11:26:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -27622,6 +27622,7 @@
 ||cdn.imgtty.com^
 ||e.imguol.com^
 ||ads.imguol.com^
+||ads.imgur.com^
 ||imgwallet.com^
 ||imhaage.com^
 ||imhentai.com^
@@ -48658,6 +48659,7 @@
 ||rocket-inc.net^
 ||rocket-it.com.au^
 ||somni.rocketaccount.com^
+||somni.rocketcompanies.com^
 ||rocketees.com^
 ||somni.rockethomes.com^
 ||somni.rockethq.com^
@@ -51430,6 +51432,8 @@
 ||analytic.simplyhealth.co.uk^
 ||analytics.simplyhealth.co.uk^
 ||simplyhelper.com^
+||ads.simplyhired.com^
+||customers.simplyhired.com^
 ||simplytech.pl^
 ||stats.simplytel.de^
 ||metrics.simpsonmillar.co.uk^
@@ -63517,7 +63521,6 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -64546,7 +64549,6 @@
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||vietnam.zing.photos^
-||interactive.brand.zing.vn^
 ||analytics.zingerwebdesign.com^
 ||zingyporntube.com^
 ||ziololecznictwo.pl^

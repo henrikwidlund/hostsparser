@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-13 06:19:06Z
+! Last Modified: 2021-10-13 11:26:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21212,6 +21212,8 @@
 ||analyticsssl.forcepoint.com^
 ||forcetowerinvestors.com^
 ||smetrics.ford.ca^
+||metrics.ford.com^
+||smetrics.ford.com^
 ||go.fordhaminstitute.org^
 ||foreclousure.com^
 ||foreclousures.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-13 06:18:53Z
+! Last Modified: 2021-10-13 11:26:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34947,6 +34947,15 @@
 ||affiliates.pinnaclesports.com^
 ||stats.pinoymusicstation.com^
 ||pinpey.net^
+||cm.pinsightmedia.com^
+||v8push.pinsightmedia.com^
+||pushpin.pinsightmedia.com^
+||trackdat.pinsightmedia.com^
+||v8engine.pinsightmedia.com^
+||v8.analytics.pinsightmedia.com^
+||topapps-func.pinsightmedia.com^
+||fusion-files-cf.pinsightmedia.com^
+||intelligence-head.pinsightmedia.com^
 ||pinspey.net^
 ||pinterest.ch^
 ||pinterest.com^
@@ -50788,7 +50797,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||fr.adserver.yahoo.com^
+||es.adserver.yahoo.com^
+||au.adserver.yahoo.com^
+||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
