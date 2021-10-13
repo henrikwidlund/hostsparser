@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-13 12:25:27Z
+! Last Modified: 2021-10-13 18:18:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23493,6 +23493,7 @@
 ||pciokm.glamuse.com^
 ||ads.glasove.com^
 ||glassesofwine.com^
+||stats.glassmountains.co.uk^
 ||glasstaken.com^
 ||glavmatures.com^
 ||glayz.co.jp^
@@ -63518,7 +63519,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ca.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
