@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-12 18:18:26Z
+! Last Modified: 2021-10-13 00:54:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5873,7 +5873,6 @@
 ||bito.com.pk^
 ||stats.bitpost.app^
 ||bitqt.org^
-||analytics.bitrix.info^
 ||b24-0fwdtd.bitrix24.site^
 ||b24-1ftqhc.bitrix24.site^
 ||b24-13p85y.bitrix24.site^
