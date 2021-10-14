@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-14 00:53:09Z
+! Last Modified: 2021-10-14 06:19:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21631,6 +21631,7 @@
 ||sygic-api.infinario.com^
 ||skypicker-api.infinario.com^
 ||adserver.infinit.net^
+||smeasurement.infiniti.ca^
 ||pod.infinitypersonals.com^
 ||cashmaster.infinitypl.xyz^
 ||infinitytest.site^
