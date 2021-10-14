@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-14 06:18:42Z
+! Last Modified: 2021-10-14 12:24:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -596,8 +596,6 @@
 ||2gay.net^
 ||2gayboys.com^
 ||2gfx.com^
-||tour.2girls1camera.com^
-||register.2girls1camera.com^
 ||2girls1cumshot.com^
 ||2girls1cup-free.com^
 ||2girls1cup.cc^
@@ -18890,7 +18888,6 @@
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
-||eus.rubiconproject.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^

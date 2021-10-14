@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-14 06:18:49Z
+! Last Modified: 2021-10-14 12:25:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20930,6 +20930,7 @@
 ||protection.hnpolice.com^
 ||hnskorea.co.kr^
 ||track.msadcenter.hnsl.com^
+||scsmetrics.ho-mobile.it^
 ||hoax.news^
 ||hobbitowa.pl^
 ||inwtef.hobbygames.ru^
