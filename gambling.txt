@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-13 18:18:28Z
+! Last Modified: 2021-10-14 00:53:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14889,6 +14889,73 @@
 ||www2.edenred.com.tr^
 ||www2.edenred.fi^
 ||ww2.edenredprepagos.com.br^
+||ntv.io.edgekey.net^
+||push.io.edgekey.net^
+||dable.io.edgekey.net^
+||pubmatic.edgekey.net^
+||teads.tv.edgekey.net^
+||bkrtx.com.edgekey.net^
+||akstat.io.edgekey.net^
+||onetag.io.edgekey.net^
+||pangle.io.edgekey.net^
+||aaxads.com.edgekey.net^
+||adroll.com.edgekey.net^
+||betrad.com.edgekey.net^
+||cxense.com.edgekey.net^
+||evidon.com.edgekey.net^
+||vungle.com.edgekey.net^
+||moatpixel1.edgekey.net^
+||applovinres.edgekey.net^
+||addthis.com.edgekey.net^
+||aniview.com.edgekey.net^
+||bluekai.com.edgekey.net^
+||innovid.com.edgekey.net^
+||marketo.com.edgekey.net^
+||mathtag.com.edgekey.net^
+||mookie1.com.edgekey.net^
+||marketo.net.edgekey.net^
+||owneriq.net.edgekey.net^
+||taboola.com.edgekey.net^
+||adobetag.com.edgekey.net^
+||applovin.com.edgekey.net^
+||apis.ihg.com.edgekey.net^
+||outbrain.com.edgekey.net^
+||sgsnssdk.com.edgekey.net^
+||spotxcdn.com.edgekey.net^
+||yieldlab.net.edgekey.net^
+||secure-adnxs.edgekey.net^
+||adservrs.com.edgekey.net^
+||api.agoda.com.edgekey.net^
+||clicktale.net.edgekey.net^
+||everestjs.net.edgekey.net^
+||optimizely.com.edgekey.net^
+||typekit.net-v3.edgekey.net^
+||casalemedia.com.edgekey.net^
+||outbrainimg.com.edgekey.net^
+||serving-sys.com.edgekey.net^
+||stickyadstv.com.edgekey.net^
+||cdn-inner-active.edgekey.net^
+||smetrics.att.com.edgekey.net^
+||doubleverify.com.edgekey.net^
+||flashtalking.com.edgekey.net^
+||cookiebot.com-v1.edgekey.net^
+||oracleinfinity.io.edgekey.net^
+||v1.addthisedge.com.edgekey.net^
+||i16-tb.isnssdk.com.edgekey.net^
+||rubiconproject.com.edgekey.net^
+||ds-m.addthisedge.com.edgekey.net^
+||metrics.fidelity.com.edgekey.net^
+||insightexpressai.com.edgekey.net^
+||stats.mediaforge.com.edgekey.net^
+||unityads.unity3d.com.edgekey.net^
+||scorecardresearch.com.edgekey.net^
+||rubiconproject.com-v1.edgekey.net^
+||convertexperiments.com.edgekey.net^
+||metrics.hackerrank.com.edgekey.net^
+||v6analytics.htmedia.in.edgekey.net^
+||tracking.admarketplace.net.edgekey.net^
+||analytics.libertymutual.com.edgekey.net^
+||marketingassets.staples.com.edgekey.net^
 ||deep.edgequery.io^
 ||c6.edgesuite.net^
 ||ads.hulu.com.edgesuite.net^
@@ -48921,9 +48988,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||api.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
-||data.mistat.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||moe.xiaomitq.com^
