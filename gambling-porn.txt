@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-15 12:25:37Z
+! Last Modified: 2021-10-15 18:18:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2366,6 +2366,8 @@
 ||adswizz.com^
 ||adsynergy.com^
 ||adszooks.com^
+||metrics.adt.com^
+||smetrics.adt.com^
 ||adtactics.com^
 ||adtcp.ru^
 ||adserver1.adtech.com.tr^
@@ -9254,6 +9256,7 @@
 ||banners.brinkin.com^
 ||2.brinkshome.com^
 ||smetrics.brinksprepaidmastercard.com^
+||marketing.brinsea.com^
 ||sige.brisainformatica.com.br^
 ||stats.briskoda.net^
 ||bristollair.com^
@@ -19866,8 +19869,6 @@
 ||online.euromoney.com^
 ||bankingfinance.euromoney.com^
 ||tr.europa-organisation.com^
-||banner.europacasino.com^
-||cachewww.europacasino.com^
 ||smetrics.europafm.com^
 ||europan.pl^
 ||europcareer.com^
@@ -66565,7 +66566,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
