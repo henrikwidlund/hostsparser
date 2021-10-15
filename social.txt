@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-15 06:19:14Z
+! Last Modified: 2021-10-15 12:25:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -830,7 +830,6 @@
 ||7demka24h7.live^
 ||7dot.cn^
 ||mcafee-home.7eer.net^
-||smetrics.7eleven.com.au^
 ||7fb.ru^
 ||7gfs.com^
 ||contents.7gogo.jp^
@@ -6910,6 +6909,7 @@
 ||iad-08.braze.com^
 ||sdk.iad-02.braze.com^
 ||gudja.iad-02.braze.com^
+||ceres.iad-03.braze.com^
 ||cdn.braze.eu^
 ||fra-01.braze.eu^
 ||ads.brazzers.com^
@@ -49087,7 +49087,6 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
-||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^
