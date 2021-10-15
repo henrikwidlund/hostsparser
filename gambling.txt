@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-15 00:57:09Z
+! Last Modified: 2021-10-15 06:19:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34705,6 +34705,7 @@
 ||aydtkb.pikabu.ru^
 ||pikakasino.com^
 ||pikasho.com^
+||dqsfil.pikolinos.com^
 ||pills-home.com^
 ||pillsmoney.com^
 ||pillsselect.com^
@@ -46878,7 +46879,6 @@
 ||smetrics.viasat.com^
 ||pm.em.viatrisconnect.com^
 ||pm.eu.viatrisconnect.com^
-||horse.vibecreativemarketing.com^
 ||ads.viber.com^
 ||ads-d.viber.com^
 ||ads.aws.viber.com^

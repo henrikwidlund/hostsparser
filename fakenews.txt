@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-15 00:57:01Z
+! Last Modified: 2021-10-15 06:19:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3285,6 +3285,7 @@
 ||amplo.xyz^
 ||amposts.com^
 ||ampower.me^
+||analytics-digit-in.cdn.ampproject.org^
 ||amracessoria.com^
 ||amren.com^
 ||amsterdambrewboys.nl^
@@ -7181,6 +7182,8 @@
 ||c0012.brsimg.com^
 ||brudne-tajemnice.eu^
 ||brudne-tajemnice.pl^
+||mc.bruker.com^
+||mbns.bruker.com^
 ||brunga.at^
 ||beaver.brush.ninja^
 ||core.bruynzeelkeukens.nl^
