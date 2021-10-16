@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-15 18:18:36Z
+! Last Modified: 2021-10-16 00:58:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6625,7 +6625,6 @@
 ||wa.bol.com^
 ||swa.bol.com^
 ||partnerprogramma.bol.com^
-||banners.bol.com.br^
 ||banners.bol.se^
 ||bolard-sklep.pl^
 ||vms.boldchat.com^
@@ -16827,8 +16826,6 @@
 ||fingermilkorgan7.live^
 ||fingermilkorgan8.live^
 ||fingermilkorgan9.live^
-||ads.fingersoft.net^
-||ads3.fingersoft.net^
 ||metrics.finishline.com^
 ||smetrics.finishline.com^
 ||finlay.capital^
