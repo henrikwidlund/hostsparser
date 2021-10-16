@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-16 06:18:47Z
+! Last Modified: 2021-10-16 12:24:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17942,10 +17942,12 @@
 ||spotxcdn.com.edgekey.net^
 ||yieldlab.net.edgekey.net^
 ||secure-adnxs.edgekey.net^
+||cdn.teads.tv.edgekey.net^
 ||adservrs.com.edgekey.net^
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||wl.aniview.com.edgekey.net^
 ||optimizely.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
@@ -31554,13 +31556,6 @@
 ||olspyo.laredoute.co.uk^
 ||tagcommander.laredoute.co.uk^
 ||k.laredoute.es^
-||k.laredoute.fr^
-||tdf1.laredoute.fr^
-||rdtcnt.laredoute.fr^
-||rdtdlv.laredoute.fr^
-||metrics.laredoute.fr^
-||smetrics.laredoute.fr^
-||tracking.laredoute.fr^
 ||k.laredoute.nl^
 ||k.laredoute.ru^
 ||gcirm.laregionalonline.com^
@@ -55651,7 +55646,6 @@
 ||scrooge.thedenverchannel.com^
 ||gcirm.thedesertsun.com^
 ||thedevilgay.com^
-||advertising.thediabetesnetwork.com^
 ||thedigitalmarketingcompany.com^
 ||thedigitaltimes.com^
 ||thediscoveryrun.com^
@@ -65315,6 +65309,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -66354,7 +66349,6 @@
 ||mjp.zimad.com^
 ||zimb.space^
 ||zimbio.com^
-||j.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||vietnam.zing.photos^

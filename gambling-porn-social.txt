@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-16 06:18:38Z
+! Last Modified: 2021-10-16 12:24:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3079,7 +3079,6 @@
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
-||prebid-server-perf.rubiconproject.net.akadns.net^
 ||akaflieg-sb.de^
 ||akama.com^
 ||a50.g2.akamai.net^
@@ -64248,7 +64247,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||api.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -66272,6 +66270,8 @@
 ||mjp.zimad.com^
 ||zimb.space^
 ||zimbio.com^
+||j.zucks.net.zimg.jp^
+||static.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||vietnam.zing.photos^
