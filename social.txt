@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-16 12:24:26Z
+! Last Modified: 2021-10-16 18:18:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2420,7 +2420,6 @@
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
-||sync-apsg.tidaltv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -4202,8 +4201,6 @@
 ||atriumset.com^
 ||stats.atrl.co^
 ||atrorema.com^
-||psorias.atspace.com^
-||arthritis.atspace.com^
 ||att-download.com^
 ||pages.att.com^
 ||digital.att.com^
@@ -45343,6 +45340,7 @@
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
+||ads-game-configuration.unityads.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
 ||linux.unitys3d.com^

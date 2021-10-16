@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-16 12:24:14Z
+! Last Modified: 2021-10-16 18:18:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3695,6 +3695,7 @@
 ||netflix.apple-green.net^
 ||apple-protection.info^
 ||metrics.apple.com^
+||ca.iadsdk.apple.com^
 ||securemetrics.apple.com^
 ||banners.itunes.apple.com^
 ||securemetrics.apple.com.cn^
@@ -50765,7 +50766,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -51377,6 +51377,7 @@
 ||zechsal.pl^
 ||zedlab.it^
 ||zednewszm.com^
+||sbdhdq.zeeman.com^
 ||zeepln.io^
 ||zeevex-online.com^
 ||smetrics.zehrs.ca^

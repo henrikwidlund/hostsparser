@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-16 12:24:02Z
+! Last Modified: 2021-10-16 18:17:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19020,6 +19020,7 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
+||consentcdn.cookiebot.com-v1.edgekey.net^
 ||deep.edgequery.io^
 ||c6.edgesuite.net^
 ||ads.hulu.com.edgesuite.net^
@@ -46474,6 +46475,9 @@
 ||booking.pl-id67594295.xyz^
 ||uber-order.pl-id67594295.xyz^
 ||olx-agtd.pl-id67915328.xyz^
+||booking.pl-id67928021.xyz^
+||olx-order.pl-id67928021.xyz^
+||uber-order.pl-id67928021.xyz^
 ||olx-igmr.pl-id67945558.xyz^
 ||allegro-agtd.pl-id67945558.xyz^
 ||allegro-igmr.pl-id67945558.xyz^
@@ -67369,7 +67373,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
