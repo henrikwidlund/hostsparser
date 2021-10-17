@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-17 00:55:01Z
+! Last Modified: 2021-10-17 06:18:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3003,6 +3003,7 @@
 ||lb1.www.ms.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
+||ad.turn.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
@@ -21812,6 +21813,7 @@
 ||freedesignerhandbagreviews.com^
 ||freedinnersource.com^
 ||freedl.org^
+||spinbox.freedom.com^
 ||oascentral.freedom.com^
 ||freedomart.cz^
 ||smetrics.freedomfordsales.ca^
@@ -37538,6 +37540,8 @@
 ||myway.com^
 ||events.mywd.com^
 ||mywebcam-model.com^
+||prywatne-fotki.mywebcommunity.org^
+||gift-token-events.mywebcommunity.org^
 ||mywebgirls.tv^
 ||mywebsearch.com^
 ||adserv.mywebtimes.com^
@@ -52972,6 +52976,7 @@
 ||go.speedqueeninvestor.com^
 ||speedrep.com^
 ||speedservicenow.com^
+||speedshiftmedia.com^
 ||speedtestbeta.com^
 ||speedyclick.com^
 ||speedynewsclips.com^
@@ -63967,7 +63972,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

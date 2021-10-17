@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-17 00:54:45Z
+! Last Modified: 2021-10-17 06:18:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18699,6 +18699,7 @@
 ||freedailydownload.com^
 ||freedesignerhandbagreviews.com^
 ||freedinnersource.com^
+||spinbox.freedom.com^
 ||oascentral.freedom.com^
 ||freedom.news^
 ||freedomart.cz^
@@ -43719,6 +43720,7 @@
 ||go.speedqueeninvestor.com^
 ||speedrep.com^
 ||speedservicenow.com^
+||speedshiftmedia.com^
 ||speedtestbeta.com^
 ||speedybet.com^
 ||speedyclick.com^
@@ -44194,7 +44196,6 @@
 ||starzmemorabilia.com^
 ||stashola.com^
 ||stat-downloads.com^
-||www2.stata-france.com^
 ||smetrics.statefarm.com^
 ||statenislandreporter.com^
 ||stateofthenation2012.com^
@@ -52505,6 +52506,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||eu-pn2.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

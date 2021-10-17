@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-17 00:54:51Z
+! Last Modified: 2021-10-17 06:18:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2437,6 +2437,7 @@
 ||lb1.www.ms.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
+||ad.turn.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
@@ -18159,6 +18160,7 @@
 ||freedailydownload.com^
 ||freedesignerhandbagreviews.com^
 ||freedinnersource.com^
+||spinbox.freedom.com^
 ||oascentral.freedom.com^
 ||freedom.news^
 ||freedomart.cz^
@@ -42646,6 +42648,7 @@
 ||go.speedqueeninvestor.com^
 ||speedrep.com^
 ||speedservicenow.com^
+||speedshiftmedia.com^
 ||speedtestbeta.com^
 ||speedyclick.com^
 ||speedynewsclips.com^
@@ -50823,7 +50826,6 @@
 ||shell.xhhow4.com^
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
-||e.ad.xiaomi.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
