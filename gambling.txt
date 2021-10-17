@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-17 06:18:55Z
+! Last Modified: 2021-10-17 12:24:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2488,7 +2488,6 @@
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
-||prebid-server.rubiconproject.net.akadns.net^
 ||akaflieg-sb.de^
 ||akama.com^
 ||a50.g2.akamai.net^
@@ -9083,7 +9082,6 @@
 ||clashmediausa.com^
 ||ads.clasificadox.com^
 ||classic-furnitures.com^
-||cdn.classicdanube.info^
 ||classicjack.com^
 ||classifieds1000.com^
 ||classifiedsking.co.za^
@@ -15069,6 +15067,7 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||wildcard.aaxads.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -37631,7 +37630,6 @@
 ||l.qq.com^
 ||ad.qq.com^
 ||fw.qq.com^
-||c.l.qq.com^
 ||rs1.qq.com^
 ||rs2.qq.com^
 ||msdk.qq.com^
