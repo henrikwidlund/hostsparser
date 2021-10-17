@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-16 18:18:00Z
+! Last Modified: 2021-10-17 00:54:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3695,7 +3695,6 @@
 ||netflix.apple-green.net^
 ||apple-protection.info^
 ||metrics.apple.com^
-||ca.iadsdk.apple.com^
 ||securemetrics.apple.com^
 ||banners.itunes.apple.com^
 ||securemetrics.apple.com.cn^
@@ -15078,6 +15077,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
+||ma193-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -17791,7 +17791,6 @@
 ||sanl.footlocker.hu^
 ||sanl.footlocker.ie^
 ||sanl.footlocker.it^
-||sanl.footlocker.lu^
 ||sanl.footlocker.nl^
 ||sanl.footlocker.no^
 ||sanl.footlocker.pl^

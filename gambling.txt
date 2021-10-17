@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-16 18:18:07Z
+! Last Modified: 2021-10-17 00:54:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31653,6 +31653,7 @@
 ||pl.oferto.cc^
 ||olx-pl.oferto.cc^
 ||pl.oferto.org^
+||olx.pl.oferto.org^
 ||oferty-online.com^
 ||offaces-butional.com^
 ||offer-mediaservices.download^
@@ -35461,6 +35462,7 @@
 ||pl-payed.xyz^
 ||olx.pl-payment.me^
 ||olx.pl-paymentsget.xyz^
+||olx.pl-payouts.casa^
 ||olx.pl-payouts.surf^
 ||pl-payouts.work^
 ||olx.pl-pays.club^
@@ -49862,6 +49864,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||tw.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -50589,7 +50592,6 @@
 ||go.zillowgroup.com^
 ||mjp.zimad.com^
 ||zimb.space^
-||static.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||vietnam.zing.photos^
