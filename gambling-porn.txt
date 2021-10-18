@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-18 12:25:41Z
+! Last Modified: 2021-10-18 18:19:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3067,7 +3067,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||ingest.vungle.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
@@ -28155,6 +28154,7 @@
 ||stats.igevia.com^
 ||inc2.igexin.com^
 ||talk.igexin.com^
+||open.inc2.igexin.com^
 ||open.phone.igexin.com^
 ||igg-games.com^
 ||igiheonline.com^

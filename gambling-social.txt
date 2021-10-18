@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-18 12:25:43Z
+! Last Modified: 2021-10-18 18:19:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20322,7 +20322,6 @@
 ||oascentral.hamptoroads.com^
 ||hampuswestman.se^
 ||hamsterbet.com^
-||ads.hamtonroads.com^
 ||oascentral.hamtoroads.com^
 ||hanabishi.net^
 ||kasumikarate.hanagasumi.net^
@@ -49029,7 +49028,6 @@
 ||wiadomostka979.site^
 ||as.wiahoas581.pw^
 ||toolbar.wibiya.com^
-||widget.wickedreports.com^
 ||geo.widdit.com^
 ||tilalre.widelab.co^
 ||widelec.icu^
@@ -50350,6 +50348,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
