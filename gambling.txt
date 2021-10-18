@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-18 06:19:34Z
+! Last Modified: 2021-10-18 12:25:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26715,6 +26715,7 @@
 ||lvnkad.com^
 ||protection.lvpolice.com^
 ||adserv.lwmn.net^
+||go.lwtears.com^
 ||metrics.lww.com^
 ||smetrics.lww.com^
 ||lyconet.com^
@@ -45023,6 +45024,9 @@
 ||ads.totallyfreestuff.com^
 ||smetrics.totalwine.com^
 ||info.totate.com^
+||clicks.toteme.com^
+||banners.toteme.com^
+||cachebanners.toteme.com^
 ||totesport.com^
 ||toto.bg^
 ||toto2.com^
