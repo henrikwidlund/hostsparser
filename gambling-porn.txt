@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-17 18:17:42Z
+! Last Modified: 2021-10-18 00:56:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18127,6 +18127,7 @@
 ||eastbabes.com^
 ||sanl.eastbay.com^
 ||oascentral.eastbayexpress.com^
+||mdws.eastcoastcu.ca^
 ||metrics.eastdane.com^
 ||smetrics.eastdane.com^
 ||0koryu0.easter.ne.jp^
@@ -18462,7 +18463,6 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
-||cdn-3.convertexperiments.com.edgekey.net^
 ||deep.edgequery.io^
 ||c6.edgesuite.net^
 ||ads.hulu.com.edgesuite.net^

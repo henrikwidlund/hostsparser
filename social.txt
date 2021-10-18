@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-17 18:17:48Z
+! Last Modified: 2021-10-18 00:56:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -37044,7 +37044,6 @@
 ||dynamic.rakuten.co.jp^
 ||api.ranking.rakuten.co.jp^
 ||shopapi.ranking.rakuten.co.jp^
-||static.affiliate.rakuten.co.jp^
 ||s-bid.rmp.rakuten.com^
 ||s-imp.rmp.rakuten.com^
 ||brc.emails.rakuten.com^
