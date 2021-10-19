@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-19 00:58:01Z
+! Last Modified: 2021-10-19 06:19:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15104,7 +15104,6 @@
 ||marketo.com.edgekey.net^
 ||mathtag.com.edgekey.net^
 ||mookie1.com.edgekey.net^
-||san.push.io.edgekey.net^
 ||marketo.net.edgekey.net^
 ||owneriq.net.edgekey.net^
 ||taboola.com.edgekey.net^
