@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-19 12:25:41Z
+! Last Modified: 2021-10-19 18:18:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21286,7 +21286,6 @@
 ||honestsun.top^
 ||cgi.honesty.com^
 ||counters.honesty.com^
-||echidna.honeybadger.io^
 ||honeymoonworld.com^
 ||nljjem.honeys-onlineshop.com^
 ||25voj20abod.honeyswap.org^
@@ -27185,6 +27184,7 @@
 ||top.mail.ru^
 ||top5.mail.ru^
 ||1l-view.mail.ru^
+||core0.node12.top.mail.ru^
 ||ads.mail3x.com^
 ||mailappzone.com^
 ||sats.mailbrew.com^

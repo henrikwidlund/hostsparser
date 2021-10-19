@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-19 12:25:43Z
+! Last Modified: 2021-10-19 18:18:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15707,7 +15707,6 @@
 ||englishvalleyguide.com^
 ||app-config.enhance.co^
 ||data-location.enhance.co^
-||marketing.enhancedvision.com^
 ||enigma-tokens.co^
 ||enigmasoftware.com^
 ||enigmatoken.com^

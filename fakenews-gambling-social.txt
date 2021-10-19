@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-19 12:25:35Z
+! Last Modified: 2021-10-19 18:18:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46483,6 +46483,7 @@
 ||ads.thestranger.com^
 ||banners.thestranger.com^
 ||addelivery.thestreet.com^
+||iguana.thesubtimes.com^
 ||ngd.thesun.co.uk^
 ||hvrhgt.thesun.co.uk^
 ||thesunonsunday.com^
@@ -52501,6 +52502,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

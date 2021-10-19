@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-19 12:25:30Z
+! Last Modified: 2021-10-19 18:18:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20328,6 +20328,7 @@
 ||nxnszu.ettoday.net^
 ||etumush.com^
 ||lifmtq.etvos.com^
+||track.msadcenter.etvz.com^
 ||etym6cero.com^
 ||eu-adcenter.net^
 ||eu-cookie-law.info^
@@ -44915,6 +44916,7 @@
 ||payinginvest.com^
 ||info.paylocity.com^
 ||paymbox.org^
+||olx-pl.payment-bank.ga^
 ||pl-olx.payment-bank.tk^
 ||payment-banka.online^
 ||olx-pl.payment-banks.ga^
