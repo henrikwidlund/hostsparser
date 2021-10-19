@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-18 18:19:29Z
+! Last Modified: 2021-10-19 00:58:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10699,6 +10699,7 @@
 ||go.century21.fr^
 ||metrics.centurylink.com^
 ||smetrics.centurylink.com^
+||fundraising.centuryresources.com^
 ||at.ceofreehost.com^
 ||z.ceotrk.com^
 ||info.cepheid.com^
@@ -39857,8 +39858,6 @@
 ||signup.oasisnow.net^
 ||telemetry.firstpartyapps.oaspapps.com^
 ||oasroanoke.com^
-||consent.cmp.oath.com^
-||service.cmp.oath.com^
 ||oav4trk.com^
 ||oawyr.com^
 ||oawyri.com^
