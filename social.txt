@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-20 06:19:23Z
+! Last Modified: 2021-10-20 12:25:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11502,6 +11502,7 @@
 ||contatoonline1.com^
 ||contaxe.de^
 ||contbox.org^
+||vole.contemporaryartlibrary.org^
 ||content-blocking.net^
 ||contentcleaner.com^
 ||contentlockingnetworks.com^
@@ -12544,6 +12545,7 @@
 ||databasemeans.net^
 ||databerries.com^
 ||prebid.datablocks.net^
+||ads.databrainz.com^
 ||trk.datacenterknowledge.com^
 ||comms.datacom.com^
 ||comms.datacomgroup.net^
