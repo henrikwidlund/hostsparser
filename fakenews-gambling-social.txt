@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-20 12:25:33Z
+! Last Modified: 2021-10-20 18:18:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13581,7 +13581,6 @@
 ||decathlon-pl.site^
 ||data.decathlon.de^
 ||data.decathlon.es^
-||data.decathlon.fr^
 ||data.decathlon.it^
 ||icxmlt.decathlon.ru^
 ||decaturtimes.com^
@@ -15765,7 +15764,6 @@
 ||spotxcdn.com.edgekey.net^
 ||yieldlab.net.edgekey.net^
 ||secure-adnxs.edgekey.net^
-||cdn.teads.tv.edgekey.net^
 ||adservrs.com.edgekey.net^
 ||i.pinimg.com.edgekey.net^
 ||s.pinimg.com.edgekey.net^
