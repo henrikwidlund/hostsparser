@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-21 00:59:09Z
+! Last Modified: 2021-10-21 06:19:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32289,7 +32289,6 @@
 ||ww3.nexmo.com^
 ||metrics.nexmo.com^
 ||smetrics.nexmo.com^
-||ccpa.psg.nexstardigital.net^
 ||segment.psg.nexstardigital.net^
 ||next-channel.xyz^
 ||adq.nextag.com^
@@ -53044,7 +53043,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

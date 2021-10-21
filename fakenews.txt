@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-21 00:59:19Z
+! Last Modified: 2021-10-21 06:19:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15234,6 +15234,7 @@
 ||stickyadstv.com.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
+||tags.bluekai.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
@@ -15243,6 +15244,7 @@
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
+||s-static.innovid.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
@@ -15985,6 +15987,7 @@
 ||eos.ac^
 ||www2.eos.info^
 ||epa.news^
+||www4.epac.to^
 ||epaka.club^
 ||go.eparajoo.com^
 ||eparki.com^
@@ -31305,7 +31308,6 @@
 ||ww3.nexmo.com^
 ||metrics.nexmo.com^
 ||smetrics.nexmo.com^
-||ccpa.psg.nexstardigital.net^
 ||segment.psg.nexstardigital.net^
 ||next-channel.xyz^
 ||adq.nextag.com^

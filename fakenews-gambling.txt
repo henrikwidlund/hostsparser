@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-21 00:59:11Z
+! Last Modified: 2021-10-21 06:19:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4232,6 +4232,7 @@
 ||asininelyrespot.com^
 ||ask-coder.com^
 ||ask-gps.ru^
+||askads.ask.com^
 ||go.askattest.com^
 ||askbot.com^
 ||banners.askmecca.com^
@@ -32191,7 +32192,6 @@
 ||ww3.nexmo.com^
 ||metrics.nexmo.com^
 ||smetrics.nexmo.com^
-||ccpa.psg.nexstardigital.net^
 ||segment.psg.nexstardigital.net^
 ||next-channel.xyz^
 ||adq.nextag.com^
