@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-21 12:26:33Z
+! Last Modified: 2021-10-21 18:19:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6555,6 +6555,7 @@
 ||bloomshakra.com^
 ||blossomtel.com^
 ||cookiecontainer.blox.pl^
+||js.blozoo.info^
 ||cache.blozoo.info^
 ||bx6.blrf.net^
 ||affiliate.blucigs.com^
@@ -13219,6 +13220,8 @@
 ||begin.digitabook.net^
 ||ads.digital-digest.com^
 ||info.digital-marketing.jp^
+||ads.digitalacre.com^
+||admin.digitalacre.com^
 ||eu.track.digitaladsystems.com^
 ||ads.digitalalchemy.tv^
 ||b.digitalartsonline.co.uk^
@@ -26565,7 +26568,6 @@
 ||wapster.malutki.pl^
 ||malware-live-pro-scanv1.com^
 ||udgrbq.malwarebytes.com^
-||telemetry.malwarebytes.com^
 ||malybrzuszek.pl^
 ||mamabearcoffee.com^
 ||mamalindos.com^

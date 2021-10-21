@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-21 12:26:31Z
+! Last Modified: 2021-10-21 18:19:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8352,6 +8352,7 @@
 ||blowingkisses.net^
 ||blowxxxtube.com^
 ||cookiecontainer.blox.pl^
+||js.blozoo.info^
 ||cache.blozoo.info^
 ||blphoto.net^
 ||bx6.blrf.net^
@@ -34015,7 +34016,6 @@
 ||wapster.malutki.pl^
 ||malware-live-pro-scanv1.com^
 ||udgrbq.malwarebytes.com^
-||telemetry.malwarebytes.com^
 ||malybrzuszek.pl^
 ||mamabearcoffee.com^
 ||mamaerotica.com^
@@ -64915,6 +64915,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -65887,6 +65888,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

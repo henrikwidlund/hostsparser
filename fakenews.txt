@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-21 12:26:21Z
+! Last Modified: 2021-10-21 18:18:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6664,6 +6664,7 @@
 ||bloomshakra.com^
 ||blossomtel.com^
 ||cookiecontainer.blox.pl^
+||js.blozoo.info^
 ||cache.blozoo.info^
 ||bx6.blrf.net^
 ||affiliate.blucigs.com^
@@ -27417,7 +27418,6 @@
 ||wapster.malutki.pl^
 ||malware-live-pro-scanv1.com^
 ||udgrbq.malwarebytes.com^
-||telemetry.malwarebytes.com^
 ||malybrzuszek.pl^
 ||mamabearcoffee.com^
 ||mamalindos.com^

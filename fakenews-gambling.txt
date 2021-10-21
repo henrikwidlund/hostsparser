@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-21 12:26:14Z
+! Last Modified: 2021-10-21 18:18:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6930,6 +6930,7 @@
 ||bloomshakra.com^
 ||blossomtel.com^
 ||cookiecontainer.blox.pl^
+||js.blozoo.info^
 ||cache.blozoo.info^
 ||bx6.blrf.net^
 ||affiliate.blucigs.com^
@@ -28224,7 +28225,6 @@
 ||wapster.malutki.pl^
 ||malware-live-pro-scanv1.com^
 ||udgrbq.malwarebytes.com^
-||telemetry.malwarebytes.com^
 ||malybrzuszek.pl^
 ||mamabearcoffee.com^
 ||mamalindos.com^
@@ -45959,7 +45959,6 @@
 ||telemediaa.pl^
 ||ijaabm.telemundo.com^
 ||aamt.newsapp.telemundo.com^
-||lpbhnv.telemundopr.com^
 ||metrics.telenet.be^
 ||smetrics.telenet.be^
 ||webtrends.telenet.be^
@@ -52140,6 +52139,7 @@
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
+||diagnosis.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -52560,6 +52560,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-21 12:26:30Z
+! Last Modified: 2021-10-21 18:18:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4775,8 +4775,6 @@
 ||answerhub.com^
 ||a.answers.com^
 ||snip.answers.com^
-||engage.ansys.com^
-||smetrics.ansys.com^
 ||ant.com^
 ||antalya.ru^
 ||antares.trade^
@@ -8397,6 +8395,7 @@
 ||blowingkisses.net^
 ||blowxxxtube.com^
 ||cookiecontainer.blox.pl^
+||js.blozoo.info^
 ||cache.blozoo.info^
 ||blphoto.net^
 ||bx6.blrf.net^
@@ -34110,7 +34109,6 @@
 ||wapster.malutki.pl^
 ||malware-live-pro-scanv1.com^
 ||udgrbq.malwarebytes.com^
-||telemetry.malwarebytes.com^
 ||malybrzuszek.pl^
 ||mamabearcoffee.com^
 ||mamaerotica.com^
@@ -64543,8 +64541,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sg.adserver.yahoo.com^
-||br.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -64759,6 +64755,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst9.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
