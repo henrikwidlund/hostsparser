@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-21 06:19:29Z
+! Last Modified: 2021-10-21 12:26:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24883,6 +24883,7 @@
 ||go.goroost.com^
 ||goroskop.co^
 ||goryhotel.pl^
+||tv.gorzow.pl^
 ||srepdata.gosanangelo.com^
 ||gosexpod.com^
 ||click.gospect.com^
@@ -58016,6 +58017,7 @@
 ||seo.tkc110.jp^
 ||tkdami.net^
 ||protection.tkpolice.com^
+||tkqlhce.com^
 ||tlanddissipate.at^
 ||tlavideo.com^
 ||ssa.tlc.com^
@@ -67140,9 +67142,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||dk.adserver.yahoo.com^
-||fr.adserver.yahoo.com^
-||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
