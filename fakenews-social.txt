@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-22 01:00:39Z
+! Last Modified: 2021-10-22 06:19:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -517,6 +517,7 @@
 ||engage.3m.co.rs^
 ||engage.3m.co.th^
 ||engage.3m.co.uk^
+||engage.3m.co.za^
 ||metrics.3m.com^
 ||smetrics.3m.com^
 ||engage.3m.com.ar^
@@ -15299,6 +15300,7 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||wildcard.aaxads.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^

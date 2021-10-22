@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-22 01:00:40Z
+! Last Modified: 2021-10-22 06:19:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7862,7 +7862,6 @@
 ||cdnads.cam4.com^
 ||cam4.fr^
 ||one.cam4ads.com^
-||track.cam4tracking.com^
 ||camaleonshopping.com^
 ||go.cambiumnetworks.com^
 ||cambodiaoutsourcing.com^
@@ -15242,7 +15241,6 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
-||wildcard.aaxads.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -22335,6 +22333,7 @@
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
 ||keyserver.ijinshan.com^
+||sdk.mobad.ijinshan.com^
 ||info.ijungo.com^
 ||icas.ikea.com^
 ||sicas.ikea.com^
