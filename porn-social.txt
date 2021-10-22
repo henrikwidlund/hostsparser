@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-21 18:18:58Z
+! Last Modified: 2021-10-22 01:00:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4775,6 +4775,8 @@
 ||answerhub.com^
 ||a.answers.com^
 ||snip.answers.com^
+||engage.ansys.com^
+||smetrics.ansys.com^
 ||ant.com^
 ||antalya.ru^
 ||antares.trade^
@@ -64755,7 +64757,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst9.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
