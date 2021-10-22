@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-22 06:19:24Z
+! Last Modified: 2021-10-22 12:25:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18437,6 +18437,7 @@
 ||freshsaladtoday.com^
 ||events-eu.freshsuccess.com^
 ||events-us.freshsuccess.com^
+||ads.fresnobee.com^
 ||metrics.fressnapf.at^
 ||metrics.fressnapf.de^
 ||email.fretello.com^
@@ -29524,7 +29525,6 @@
 ||mobileleads.msn.com^
 ||adsyndication.msn.com^
 ||advertising.jp.msn.com^
-||web.vortex.data.msn.com^
 ||tracking.msadcenter.msn.com^
 ||msnbot-65-55-108-23.search.msn.com^
 ||msn1.com^
@@ -51269,6 +51269,7 @@
 ||yrwap.cn^
 ||ysbaojia.com^
 ||ysloutletbags.com^
+||cv.online.ysroad.co.jp^
 ||yt-adblocker.com^
 ||track.msadcenter.ytbp.com^
 ||ytdownloader.com^

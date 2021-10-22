@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-22 06:19:28Z
+! Last Modified: 2021-10-22 12:25:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18182,6 +18182,7 @@
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
+||ma312-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -36983,7 +36984,6 @@
 ||mobileleads.msn.com^
 ||adsyndication.msn.com^
 ||advertising.jp.msn.com^
-||web.vortex.data.msn.com^
 ||tracking.msadcenter.msn.com^
 ||msnbot-65-55-108-23.search.msn.com^
 ||msn1.com^

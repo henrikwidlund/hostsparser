@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-22 06:19:11Z
+! Last Modified: 2021-10-22 12:25:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25630,7 +25630,6 @@
 ||gospodarstwo-rolne.com.pl^
 ||gossip-round.com^
 ||gossipbingo.com^
-||adserve.gossipgirls.com^
 ||adtools.gossipkings.com^
 ||gossipsbollywoods.com^
 ||gostatspro.com^
@@ -38875,7 +38874,6 @@
 ||mobileleads.msn.com^
 ||adsyndication.msn.com^
 ||advertising.jp.msn.com^
-||web.vortex.data.msn.com^
 ||tracking.msadcenter.msn.com^
 ||msnbot-65-55-108-23.search.msn.com^
 ||msn1.com^
@@ -62425,7 +62423,6 @@
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
-||cdn-creatives-highwinds-prd.unityads.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
 ||unitymaineguide.com^
@@ -67947,12 +67944,12 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-22 06:19:08Z
+! Last Modified: 2021-10-22 12:25:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19120,7 +19120,6 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
-||wildcard.outbrain.com.edgekey.net^
 ||scorecardresearch.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -38778,7 +38777,6 @@
 ||mobileleads.msn.com^
 ||adsyndication.msn.com^
 ||advertising.jp.msn.com^
-||web.vortex.data.msn.com^
 ||tracking.msadcenter.msn.com^
 ||msnbot-65-55-108-23.search.msn.com^
 ||msn1.com^
@@ -55236,9 +55234,6 @@
 ||sliite.com^
 ||secure.slim2disc.com^
 ||slimak-pozyczki.pl^
-||pl.slimg0ji-berry.com^
-||pl1.slimg0ji-berry.com^
-||pl2.slimg0ji-berry.com^
 ||www2.slimpay.com^
 ||slimythief.com^
 ||smetrics.sling.com^
