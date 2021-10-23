@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-23 00:56:35Z
+! Last Modified: 2021-10-23 06:18:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1592,7 +1592,6 @@
 ||api.adgrowth.jp^
 ||adgtracker.com^
 ||adhall.com^
-||adhaven.com^
 ||adhearus.com^
 ||adhesivecapsulitispedia.com^
 ||adhexa.com^
@@ -3710,7 +3709,6 @@
 ||zgcslam.apnet.pl^
 ||info.apnic.net^
 ||apnionlinedukan.store^
-||apolloprogram.io^
 ||apoolcondo.com^
 ||apopkatimes.com^
 ||adv.aport.ru^
@@ -11418,7 +11416,6 @@
 ||log.cognex.com^
 ||connect.cognex.com^
 ||cognitiv.ai^
-||lynx.cognitivlabs.com^
 ||go.cognitomedia.com^
 ||global.cognizant.com^
 ||analytics.cognyte.com^
@@ -15295,6 +15292,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
+||deluxe.onetag.io.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
@@ -23615,9 +23613,6 @@
 ||vpdyyz.iqair.com^
 ||iqdigitalmarket.com^
 ||iqko.xyz^
-||pxl.iqm.com^
-||win.iqm.com^
-||postback.iqm.com^
 ||iqoption.com^
 ||protection.iqpolice.com^
 ||iqqos.com^
@@ -25114,7 +25109,6 @@
 ||knightstemplarinternational.com^
 ||go.knime.com^
 ||track.knlob.com^
-||knorex.com^
 ||knowingfun.com^
 ||knowinteractive.com^
 ||knowseminar.com^
@@ -28150,7 +28144,6 @@
 ||adserver2.mediainsight.de^
 ||ad2.pl.mediainter.net^
 ||ad2.tr.mediainter.net^
-||mediaiqdigital.com^
 ||server2.mediajmp.com^
 ||dev.medialogistics2020.ca^
 ||medialytics.com^
@@ -29883,6 +29876,8 @@
 ||my-uq.com^
 ||my-zaprasza.online^
 ||my-zolushka.ru^
+||123movies.my.id^
+||follow-service-your-account-pages.my.id^
 ||compdate.my03.com^
 ||faktinvestmetns.mya5.ru^
 ||go.myacn.com^
@@ -41996,7 +41991,6 @@
 ||simuladordeempresa.com^
 ||info.simutechmultimedia.com^
 ||sstats.simzdarma.cz^
-||log.sina.cn^
 ||sax.sina.cn^
 ||wbapp.mobile.sina.cn^
 ||sdkapp.mobile.sina.cn^
@@ -42007,7 +42001,6 @@
 ||d3.sina.com.cn^
 ||adbox.sina.com.cn^
 ||dcads.sina.com.cn^
-||sbeacon.sina.com.cn^
 ||emarketing.sina.com.cn^
 ||oascentral.sina.com.hk^
 ||s3.pfp.sina.net^
@@ -49806,7 +49799,6 @@
 ||webmoblink.com^
 ||webnavegador.com^
 ||webnavegador.com.br^
-||weborama.com^
 ||banners.weboverdrive.com^
 ||webpagetest.net^
 ||webpageupdate.co^
