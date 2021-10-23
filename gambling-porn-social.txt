@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-22 18:18:39Z
+! Last Modified: 2021-10-23 00:56:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39663,6 +39663,7 @@
 ||www3.neuropeakpro.com^
 ||neurorehabtraining.com^
 ||wpm.neustar.biz^
+||rum-collector.wpm.neustar.biz^
 ||neutralpages.com^
 ||bwntyd.neuve-a.net^
 ||nevadaescorts.us^
@@ -54270,6 +54271,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||sonyalpha.pl^
 ||metrics.sonyericsson.com^
 ||adserver1.sonymusiceurope.com^
@@ -64821,6 +64823,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -65796,7 +65799,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sp.analytics.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
