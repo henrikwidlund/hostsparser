@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-23 06:18:20Z
+! Last Modified: 2021-10-23 12:24:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18247,6 +18247,7 @@
 ||file2.api.driftqa.com^
 ||customer2.api.driftqa.com^
 ||conversation2.api.driftqa.com^
+||js.driftt.com^
 ||go.drillinginfo.com^
 ||stats.drillisch-online.de^
 ||alp1.drimki.fr^
@@ -31587,8 +31588,6 @@
 ||johnnyrobish.com^
 ||johnslots.com^
 ||johnsoncitytimes.com^
-||connect.johnsoncontrols.com^
-||security.johnsoncontrols.com^
 ||info.johnsonpropertygroup.com.au^
 ||johnstonreporter.com^
 ||johnstontimes.com^
@@ -69253,6 +69252,7 @@
 ||arcade.ya.com^
 ||adserver.ya.com^
 ||advertpro.ya.com^
+||indetiske.ya.ru^
 ||ya.sv^
 ||yabet.com^
 ||yablinasto.com^

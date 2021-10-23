@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-23 06:18:39Z
+! Last Modified: 2021-10-23 12:24:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7978,7 +7978,6 @@
 ||dc.bizjournals.com^
 ||metric.bizjournals.com^
 ||metrics.bizjournals.com^
-||adserver.bizland-inc.net^
 ||counter.bizland.com^
 ||bizneed.com^
 ||biznesdowygrania.cyou^
@@ -45565,31 +45564,6 @@
 ||polsko-oferta.shop^
 ||polsriardrtoihizis.info^
 ||los.polss.xyz^
-||hydro.polybuild.ru^
-||valium.polybuild.ru^
-||viagra.polybuild.ru^
-||buyvalium.polybuild.ru^
-||buyviagra.polybuild.ru^
-||buy-valium.polybuild.ru^
-||buy-viagra.polybuild.ru^
-||free-viagra.polybuild.ru^
-||phentermine.polybuild.ru^
-||carisoprodol.polybuild.ru^
-||cheap-valium.polybuild.ru^
-||cheap-viagra.polybuild.ru^
-||order-valium.polybuild.ru^
-||myphentermine.polybuild.ru^
-||gocarisoprodol.polybuild.ru^
-||buy-hydrocodone.polybuild.ru^
-||buy-phentermine.polybuild.ru^
-||gen-hydrocodone.polybuild.ru^
-||getcarisoprodol.polybuild.ru^
-||buy-carisoprodol.polybuild.ru^
-||cheap-hydrocodone.polybuild.ru^
-||cheap-phentermine.polybuild.ru^
-||order-hydrocodone.polybuild.ru^
-||order-phentermine.polybuild.ru^
-||cheap-carisoprodol.polybuild.ru^
 ||metrics.polycom.com^
 ||cephalopod.polymath.net^
 ||pomagaj-my.pl^
@@ -64901,7 +64875,9 @@
 ||xhwebsite.com^
 ||xhypnotube.com^
 ||xianyujc.com^
+||e.ad.xiaomi.com^
 ||api.d.xiaomi.com^
+||log.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -65876,7 +65852,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

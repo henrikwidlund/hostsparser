@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-23 06:18:25Z
+! Last Modified: 2021-10-23 12:24:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42687,7 +42687,6 @@
 ||ompxs.shopbop.com^
 ||metrics.shopbop.com^
 ||smetrics.shopbop.com^
-||slaunch.shopcanopy.com^
 ||ox1.shopcool.com.tw^
 ||cp.shopcounter.jp^
 ||sw88.shopdisney.co.uk^
