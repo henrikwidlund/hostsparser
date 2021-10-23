@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-23 12:24:28Z
+! Last Modified: 2021-10-23 18:18:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9055,7 +9055,6 @@
 ||analytics-eu.clickdimensions.com^
 ||ad.clickdistrict.com^
 ||clickedyclick.com^
-||images.clickfinders.com^
 ||nowinstallupgrade.clickforultimateandbest2updatingpc.top^
 ||clickhereforcellphones.com^
 ||clickhouse.com^
@@ -15846,7 +15845,6 @@
 ||etherzero.promo^
 ||etherzeroclaim.com^
 ||ethewallet.com^
-||eloqua.ethicalcorp.com^
 ||sswmetrics.ethiopianairlines.com^
 ||ethnicafrique.com^
 ||ethnicking.com^
@@ -41145,6 +41143,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||sonyalpha.pl^
 ||metrics.sonyericsson.com^
 ||adserver1.sonymusiceurope.com^
@@ -48448,7 +48447,6 @@
 ||windyone.net^
 ||links.e.wine.com^
 ||links.t.wine.com^
-||banner-server.winecountry.com^
 ||visitors.winecountrygiftbaskets.com^
 ||ads.wineenthusiast.com^
 ||winfactory.pl^
@@ -49623,6 +49621,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
