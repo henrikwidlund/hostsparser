@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-24 06:18:29Z
+! Last Modified: 2021-10-24 12:24:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6125,8 +6125,6 @@
 ||connect.audalianexia.com^
 ||audazweb.com^
 ||smetrics.audi.co.uk^
-||dc.audi.com^
-||dcs.audi.com^
 ||audia6.com^
 ||audicat.net^
 ||audience.media^

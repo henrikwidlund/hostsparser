@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-24 06:18:45Z
+! Last Modified: 2021-10-24 12:24:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36060,6 +36060,7 @@
 ||inpost.pl-savepaid.cyou^
 ||olx.pl-savepay.club^
 ||inpost.pl-savepay.club^
+||inpost.pl-savepayout.work^
 ||olx.pl-savepayouts.shop^
 ||inpost.pl-savepayouts.shop^
 ||pl-savepost.xyz^
@@ -38236,6 +38237,7 @@
 ||quartexindustries.com^
 ||quartier-midi.be^
 ||quartog.com^
+||ads.quasaraffiliates.com^
 ||qubble.com^
 ||opentag-stats.qubit.com^
 ||qubit.life^
@@ -43390,7 +43392,6 @@
 ||sunrise-brink.net^
 ||sunrisedvdrentals.com^
 ||sunsetdnsnow.com^
-||mdws.sunshineccu.com^
 ||smetrics.sunshinehealth.com^
 ||a8clk.shop.sunsorit.co.jp^
 ||te.sunspot.net^
@@ -50927,7 +50928,9 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
+||br.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
