@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-24 00:54:47Z
+! Last Modified: 2021-10-24 06:18:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4644,6 +4644,7 @@
 ||az27.pl^
 ||fdkeip.azafashions.com^
 ||azawebspace.com^
+||news.azcapitoltimes.com^
 ||st.azcardinals.com^
 ||q.azcentral.com^
 ||sxjfhh.azcentral.com^
@@ -45291,6 +45292,8 @@
 ||mail.tsinghua.edu.cn^
 ||ultra2.tsinghua.edu.cn^
 ||web-ccfr.tsinghua.edu.cn^
+||metric.tsite.jp^
+||smetric.tsite.jp^
 ||tsl-github.com^
 ||prof.tsla-coin.xyz^
 ||maximum.tslax.site^

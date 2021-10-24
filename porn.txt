@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-24 00:54:45Z
+! Last Modified: 2021-10-24 06:18:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3490,6 +3490,7 @@
 ||dc.allianz.de^
 ||sdc.allianz.de^
 ||wz.allianz.fr^
+||collect.allianzcinema.ch^
 ||collect.allianzdriveincinema.ch^
 ||allianzmarket.biz^
 ||allianzmarket.com^
@@ -6816,8 +6817,6 @@
 ||baskidunyasi.net^
 ||info.baslerweb.com^
 ||basnogorach.pl^
-||omni.basspro.com^
-||omnis.basspro.com^
 ||bastardo.xyz^
 ||ad.batanga.net^
 ||tracking.batanga.net^

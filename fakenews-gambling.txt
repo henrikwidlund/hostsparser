@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-24 00:54:30Z
+! Last Modified: 2021-10-24 06:18:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25590,7 +25590,6 @@
 ||a.0day.kiev.ua^
 ||kifafrica.store^
 ||kiip.me^
-||sqdljj.kijiji.ca^
 ||adb.kijk.nl^
 ||adb-secured.kijk.nl^
 ||adserve.kikizo.com^
@@ -52601,6 +52600,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
