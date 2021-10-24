@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-24 12:24:32Z
+! Last Modified: 2021-10-24 18:17:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2467,6 +2467,7 @@
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
+||sync.tidaltv.com.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
@@ -35347,8 +35348,6 @@
 ||pfsbankgroup.com^
 ||pgalvaoteles.pt^
 ||branch.pgatour-mail.com^
-||analytics.pgatour.com^
-||swebanalytics.pgatour.com^
 ||pge-dystrybucja.net^
 ||pge-energyproj.info^
 ||pge-energyproject.info^
