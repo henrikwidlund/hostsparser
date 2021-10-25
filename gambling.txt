@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-25 12:26:01Z
+! Last Modified: 2021-10-25 18:18:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36374,8 +36374,6 @@
 ||pobytu-gov.pl^
 ||pochowanaprawda.quest^
 ||pochta-info.com^
-||rbqip.pochta.ru^
-||samsclub33.pochta.ru^
 ||fahmta.pocket-lint.com^
 ||pocketdonation.com^
 ||pocketing.site^
@@ -38052,6 +38050,7 @@
 ||ysdk.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
+||mi.gdt.qq.com^
 ||logsdk.qq.com^
 ||omgmta.qq.com^
 ||pingjs.qq.com^
@@ -50454,6 +50453,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

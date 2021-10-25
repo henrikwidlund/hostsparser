@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-25 12:25:42Z
+! Last Modified: 2021-10-25 18:18:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46791,6 +46791,8 @@
 ||olx-igmr.pl-id52492109.xyz^
 ||booking.pl-id52665606.xyz^
 ||uber-order.pl-id52665606.xyz^
+||booking.pl-id53061369.xyz^
+||httpbooking.pl-id53061369.xyz^
 ||uber.pl-id53182964.xyz^
 ||booking.pl-id53182964.xyz^
 ||uber-igmr.pl-id53182964.xyz^
@@ -69442,6 +69444,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
+||tw.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

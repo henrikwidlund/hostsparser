@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-25 12:26:00Z
+! Last Modified: 2021-10-25 18:18:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11378,6 +11378,11 @@
 ||mails.cneic.com.cn^
 ||cnej4912jks.com^
 ||om.cnet.co.uk^
+||aa.cnet.com^
+||saa.cnet.com^
+||mads.cnet.com^
+||remotead.cnet.com^
+||ad.download.cnet.com^
 ||gserv.cneteu.net^
 ||ads.cnixon.com^
 ||chechla.cnixon.com^
@@ -14436,8 +14441,6 @@
 ||olx.pl-safe.dostawa-safety.casa^
 ||olx.pl-safety.dostawa-safety.casa^
 ||inpost.pl.safe.dostawa-safety.casa^
-||dpd.dostawa-safety.club^
-||inpost.dostawa-safety.club^
 ||dostawa-safety.com^
 ||olx.dostawa-safety.digital^
 ||vinted.dostawa-safety.digital^
@@ -50930,7 +50933,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

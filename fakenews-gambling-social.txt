@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-25 12:25:46Z
+! Last Modified: 2021-10-25 18:18:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15831,7 +15831,6 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
-||cdn.cxense.com.edgekey.net^
 ||optimizely.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
@@ -28746,7 +28745,6 @@
 ||metrics.mathworks.com^
 ||smetrics.mathworks.com^
 ||tracking.mathworks.com^
-||metrics.matlab.com^
 ||metrics.matlabexpo.com^
 ||matomy.com^
 ||matong47.com^
@@ -29873,6 +29871,7 @@
 ||verify.mob.com^
 ||applink.mob.com^
 ||moblink.mob.com^
+||sdk.guard.mob.com^
 ||track.mob193.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
@@ -53372,7 +53371,6 @@
 ||youintelligence.com^
 ||ifa.youjizzlive.com^
 ||lstat.youku.com^
-||speed.lstat.youku.com^
 ||youliehow.com^
 ||youmighthelp582.club^
 ||youngcons.com^
