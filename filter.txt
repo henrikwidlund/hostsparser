@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-25 06:19:34Z
+! Last Modified: 2021-10-25 12:25:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46791,8 +46791,6 @@
 ||olx-igmr.pl-id52492109.xyz^
 ||booking.pl-id52665606.xyz^
 ||uber-order.pl-id52665606.xyz^
-||booking.pl-id53061369.xyz^
-||httpbooking.pl-id53061369.xyz^
 ||uber.pl-id53182964.xyz^
 ||booking.pl-id53182964.xyz^
 ||uber-igmr.pl-id53182964.xyz^
@@ -68463,10 +68461,8 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||log.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||abtest.mistat.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
@@ -69450,7 +69446,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||europe.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
