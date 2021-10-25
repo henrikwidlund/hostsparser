@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-24 18:17:51Z
+! Last Modified: 2021-10-25 00:55:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1025,6 +1025,11 @@
 ||a2multimedia.pl^
 ||a2sex.com^
 ||a2uu36g43l.download^
+||metrics.client-eng.a2z.com^
+||analytics.console.aws.a2z.com^
+||notify.bugsnag.appstore.a2z.com^
+||global.telemetry.insights.video.a2z.com^
+||us-east-1.telemetry.insights.video.a2z.com^
 ||a2zgroup.in^
 ||segment.a3cloud.net^
 ||affiliate.a4dtracker.com^
@@ -15832,6 +15837,7 @@
 ||outbrainimg.com.edgekey.net^
 ||serving-sys.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
+||wildcard.ntv.io.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
@@ -50057,8 +50063,6 @@
 ||marketing.visitannarbor.org^
 ||visitbox.de^
 ||marketing.visitchesapeake.com^
-||pages.visitdubai.com^
-||tracking.visitdubai.com^
 ||a.visitefoz.com.br^
 ||marketing.visitgreaterpalmsprings.com^
 ||marketing.visitgreenvillesc.com^
