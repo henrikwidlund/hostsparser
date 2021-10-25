@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-25 00:56:02Z
+! Last Modified: 2021-10-25 06:20:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39885,6 +39885,7 @@
 ||sexopia.pl^
 ||sexpartnerx.com^
 ||sexpixbox.com^
+||ard.sexplaycam.com^
 ||members.sexroulette.com^
 ||wt.sexsearch.com^
 ||pod.sexsearch.com^
@@ -49680,8 +49681,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||fr.adserver.yahoo.com^
-||uk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
