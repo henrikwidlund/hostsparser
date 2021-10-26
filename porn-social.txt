@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-26 12:25:48Z
+! Last Modified: 2021-10-26 18:18:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6638,7 +6638,6 @@
 ||utility.baidu.com^
 ||sobartop.baidu.com^
 ||wangmeng.baidu.com^
-||msg.simeji.baidu.jp^
 ||baiduccdn.org^
 ||baiducdn.org^
 ||ubmcmm.baidustatic.com^
@@ -18316,7 +18315,6 @@
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
-||cdn.flashtalking.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
@@ -41791,7 +41789,6 @@
 ||optictodaynews.com^
 ||optiker-michelmann.de^
 ||optimaconsulting.com.au^
-||communications.optimagfx.com^
 ||optimalbox.pl^
 ||optimalpoland.pl^
 ||def1.optimhome-recrutement.com^
@@ -49615,6 +49612,7 @@
 ||ads.rohea.com^
 ||badger.roidi.gr^
 ||roifmd.info^
+||ads.roiserver.com^
 ||rok-tuwima.pl^
 ||rok.com.com^
 ||dinoadserver1.roka.net^

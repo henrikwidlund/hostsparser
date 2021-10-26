@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-26 12:25:45Z
+! Last Modified: 2021-10-26 18:18:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4916,7 +4916,6 @@
 ||utility.baidu.com^
 ||sobartop.baidu.com^
 ||wangmeng.baidu.com^
-||msg.simeji.baidu.jp^
 ||baiduccdn.org^
 ||baiducdn.org^
 ||ubmcmm.baidustatic.com^
@@ -50936,7 +50935,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

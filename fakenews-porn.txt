@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-26 12:25:38Z
+! Last Modified: 2021-10-26 18:18:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6696,7 +6696,6 @@
 ||utility.baidu.com^
 ||sobartop.baidu.com^
 ||wangmeng.baidu.com^
-||msg.simeji.baidu.jp^
 ||baiduccdn.org^
 ||baiducdn.org^
 ||ubmcmm.baidustatic.com^
@@ -35882,7 +35881,6 @@
 ||smetrics.mcdpromotion.ca^
 ||mcel-update.com^
 ||mcel.info^
-||go.mcewen.co.nz^
 ||mcforum.net^
 ||mcgarden.org^
 ||connect.mchdata.com^
