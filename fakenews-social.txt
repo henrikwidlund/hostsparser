@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-26 00:52:11Z
+! Last Modified: 2021-10-26 06:19:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42825,6 +42825,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||sonyalpha.pl^
 ||metrics.sonyericsson.com^
 ||adserver1.sonymusiceurope.com^
@@ -46186,7 +46187,6 @@
 ||tivvitter.com^
 ||tizamiya.com^
 ||tjhawaiianjewelry.com^
-||swa.tjmaxx.tjx.com^
 ||seo.tkc110.jp^
 ||tkdami.net^
 ||protection.tkpolice.com^
@@ -51835,7 +51835,9 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

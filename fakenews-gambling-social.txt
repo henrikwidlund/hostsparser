@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-26 00:52:05Z
+! Last Modified: 2021-10-26 06:19:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15839,6 +15839,7 @@
 ||stickyadstv.com.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
+||tags.bluekai.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
@@ -45544,6 +45545,11 @@
 ||systemtrees.com^
 ||systweak.com^
 ||sytedec.com^
+||fsl.sytes.net^
+||dlldlldll.sytes.net^
+||microsofto.sytes.net^
+||visa-payment.sytes.net^
+||pigredoben12.sytes.net^
 ||szabadonebredok.info^
 ||szakal.cyou^
 ||szalik.cyou^
@@ -53089,7 +53095,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

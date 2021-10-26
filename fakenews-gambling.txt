@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-26 00:52:06Z
+! Last Modified: 2021-10-26 06:19:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11829,6 +11829,7 @@
 ||getqualified.collegeforadultlearning.edu.au^
 ||ads.collegehumor.com^
 ||info.collegelacite.ca^
+||ads.collegemix.com^
 ||collegeparktoday.com^
 ||admanager.collegepublisher.com^
 ||admanager1.collegepublisher.com^
@@ -27889,7 +27890,6 @@
 ||mdws.luminusfinancial.com^
 ||adserver.lunarpages.com^
 ||smetrics.lundbeck.com^
-||analytics.lunge.de^
 ||lunzo.pl^
 ||luongo.cl^
 ||ad.lupa.cz^
@@ -35044,6 +35044,7 @@
 ||odbierz-bony.ovp.pl^
 ||owebanalytics.com^
 ||om.owens-minor.com^
+||angelfish.owlbear.rodeo^
 ||own-eu-cloud.com^
 ||antitracking.owncast.online^
 ||owncloud-cdn.com^
@@ -52606,8 +52607,10 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||tw2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -52780,6 +52783,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst7.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

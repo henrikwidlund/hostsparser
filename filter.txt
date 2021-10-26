@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-26 00:52:00Z
+! Last Modified: 2021-10-26 06:19:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -33122,6 +33122,7 @@
 ||cmdts.ksmobile.com^
 ||helpbatteryov1.ksmobile.com^
 ||ups.ksmobile.net^
+||event.ksosoft.com^
 ||kspm33.com^
 ||jdgtgb.ksta.de^
 ||sanalytics.ksta.de^
@@ -34140,7 +34141,6 @@
 ||agnes.scloud.lfengmobile.com^
 ||control.scloud.lfengmobile.com^
 ||xfeedback.scloud.lfengmobile.com^
-||lincolnfinancialgroup.lfg.com^
 ||lfkommersiella.se^
 ||lfscpttracking.com^
 ||lg-tv.tk^
@@ -69443,6 +69443,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-26 00:52:08Z
+! Last Modified: 2021-10-26 06:19:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25633,6 +25633,8 @@
 ||grpericias.com.br^
 ||protection.grpolice.com^
 ||t.grtyb.com^
+||ablink.c.grubhub.com^
+||ablinksuni.a.grubhub.com^
 ||metrics.grundfos.com^
 ||smetrics.grundfos.com^
 ||grundyguide.com^

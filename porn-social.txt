@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-26 00:52:21Z
+! Last Modified: 2021-10-26 06:19:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -65747,6 +65747,8 @@
 ||mjp.zimad.com^
 ||zimb.space^
 ||zimbio.com^
+||j.zucks.net.zimg.jp^
+||static.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||raven.zimristats.com^
