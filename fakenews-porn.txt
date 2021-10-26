@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-25 18:18:42Z
+! Last Modified: 2021-10-26 00:52:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23282,6 +23282,8 @@
 ||funnytvclips.com^
 ||funoct.eu^
 ||go.funoflife.co.jp^
+||ad.funpic.de^
+||media.funpic.de^
 ||funpic.hu^
 ||funshemale.com^
 ||adm.funshion.com^
@@ -64823,7 +64825,6 @@
 ||warezaccess.com^
 ||wareziak.pl^
 ||warezkeeper.com^
-||iipcld.wargaming.net^
 ||warioland.com^
 ||warlog.info^
 ||warmlesbianporn.com^
@@ -67209,7 +67210,9 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -67746,6 +67749,7 @@
 ||xtoplists.com^
 ||xtorjack.com^
 ||xtporntube.com^
+||ads.xtra.ca^
 ||ads.xtra.co.nz^
 ||xtrafic.ro^
 ||xtrajuicy.com^
@@ -68186,7 +68190,12 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
+||de.adserver.yahoo.com^
+||it.adserver.yahoo.com^
+||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
