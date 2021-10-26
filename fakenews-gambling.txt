@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-26 06:19:22Z
+! Last Modified: 2021-10-26 12:25:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2533,6 +2533,7 @@
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
+||rtr.innovid.com.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
@@ -12698,6 +12699,7 @@
 ||crocspolandsklep.com^
 ||crocspolska.cc^
 ||crocsxpl.com^
+||croissed.info^
 ||smetrics.croma.com^
 ||wallaby.cron.help^
 ||cronicadeportiva.com^
@@ -27890,6 +27892,7 @@
 ||mdws.luminusfinancial.com^
 ||adserver.lunarpages.com^
 ||smetrics.lundbeck.com^
+||analytics.lunge.de^
 ||lunzo.pl^
 ||luongo.cl^
 ||ad.lupa.cz^
@@ -52607,10 +52610,8 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||tw2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -52783,7 +52784,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst7.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
