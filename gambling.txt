@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-27 06:19:27Z
+! Last Modified: 2021-10-27 12:26:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2507,7 +2507,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||bs-geo.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
@@ -29060,7 +29059,6 @@
 ||adserver.a.in.monster.com^
 ||mein.monster.de^
 ||nuwerk.monsterboard.nl^
-||jobs.nuwerk.monsterboard.nl^
 ||monsterpops.com^
 ||adserver.monstersandcritics.com^
 ||faceboook-replyei0ki.montadalitihad.com^
@@ -40001,8 +39999,6 @@
 ||lp.europe.business.samsung.com^
 ||tracking.europe.business.samsung.com^
 ||samsungacr.com^
-||oempprd.samsungcloudsolution.com^
-||vdterms.samsungcloudsolution.com^
 ||lcprd1.samsungcloudsolution.net^
 ||lcprd2.samsungcloudsolution.net^
 ||oempprd.samsungcloudsolution.net^
@@ -50454,6 +50450,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
