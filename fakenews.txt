@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-27 00:51:51Z
+! Last Modified: 2021-10-27 06:19:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2498,7 +2498,6 @@
 ||dyn-beacon.akamaized.net^
 ||appsflyer.com.akamaized.net^
 ||ma85-r-analytics.akamaized.net^
-||fvalid.appsflyer.com.akamaized.net^
 ||statics-marketingsites-eus-ms-com.akamaized.net^
 ||akariyer.com^
 ||akashdayalgroups.com^
@@ -46995,6 +46994,7 @@
 ||go.tuv.com^
 ||gcn.tuv.com^
 ||statistics.tuv.com^
+||descargas2.tuvideogratis.com^
 ||track.msadcenter.tux.com^
 ||tv-maniak.pl^
 ||aa.tv.com^
@@ -49460,11 +49460,6 @@
 ||weblover.info^
 ||weblucker.com^
 ||ads.webmasterpoint.org^
-||as.webmd.com^
-||adv.webmd.com^
-||ads.webmd.com^
-||ssl.o.webmd.com^
-||std.o.webmd.com^
 ||stat.webmedia.pl^
 ||counter.webmedia.pl^
 ||banner.webmersion.com^

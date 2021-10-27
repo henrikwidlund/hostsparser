@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-27 00:51:58Z
+! Last Modified: 2021-10-27 06:19:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2507,6 +2507,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||bs-geo.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
@@ -29059,6 +29060,7 @@
 ||adserver.a.in.monster.com^
 ||mein.monster.de^
 ||nuwerk.monsterboard.nl^
+||jobs.nuwerk.monsterboard.nl^
 ||monsterpops.com^
 ||adserver.monstersandcritics.com^
 ||faceboook-replyei0ki.montadalitihad.com^
@@ -39882,6 +39884,7 @@
 ||www2.plastics.saint-gobain.com^
 ||go.saintleo.edu^
 ||connect.saintlukeskc.org^
+||apps.saintsoporte.com^
 ||sainzim.co.za^
 ||sitecatalysts.saisoncard.co.jp^
 ||fxmdjr.saita-puls.com^
