@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-26 18:18:37Z
+! Last Modified: 2021-10-27 00:51:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19300,7 +19300,6 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
-||wildcard.betrad.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -42592,6 +42591,7 @@
 ||tracking.oceaneering.com^
 ||oceanstatetoday.com^
 ||tracking.oceantidemedia.com^
+||go.ocearch.org^
 ||ocelote.icu^
 ||oceniaj-wygranego.eu^
 ||oceniam.to^
@@ -61735,7 +61735,6 @@
 ||tsmtrk.com^
 ||tsp2002.com^
 ||tsplayground.com^
-||contact.tsr-net.co.jp^
 ||tsseduction.com^
 ||tst16infra.com^
 ||tstubexxx.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-26 18:18:39Z
+! Last Modified: 2021-10-27 00:51:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42106,6 +42106,7 @@
 ||marketing.seattlesouthside.com^
 ||ads.seattletimes.com^
 ||oascentral.seattleweekly.com^
+||metrics.seawheeze.com^
 ||smetrics.seb.ee^
 ||smetrics.seb.lt^
 ||smetrics.seb.lv^
@@ -53847,6 +53848,7 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||banner.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||analytics.zingerwebdesign.com^
 ||ziololecznictwo.pl^

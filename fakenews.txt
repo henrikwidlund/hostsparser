@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-26 18:18:45Z
+! Last Modified: 2021-10-27 00:51:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2498,6 +2498,7 @@
 ||dyn-beacon.akamaized.net^
 ||appsflyer.com.akamaized.net^
 ||ma85-r-analytics.akamaized.net^
+||fvalid.appsflyer.com.akamaized.net^
 ||statics-marketingsites-eus-ms-com.akamaized.net^
 ||akariyer.com^
 ||akashdayalgroups.com^
@@ -26295,6 +26296,7 @@
 ||liivecams.com^
 ||like-the-rest.com^
 ||oszukacruletke.like.pl^
+||cdn.likeaced.com^
 ||en.likefever.org^
 ||likeivu.com^
 ||likekopi.com^
@@ -46993,7 +46995,6 @@
 ||go.tuv.com^
 ||gcn.tuv.com^
 ||statistics.tuv.com^
-||descargas2.tuvideogratis.com^
 ||track.msadcenter.tux.com^
 ||tv-maniak.pl^
 ||aa.tv.com^
@@ -47735,6 +47736,7 @@
 ||apply.usc.edu^
 ||go.marshall.usc.edu^
 ||www2.online.usc.edu^
+||go.uscad.com^
 ||uscarefusedshi.info^
 ||uschronicle.com^
 ||data.nal.usda.gov^
