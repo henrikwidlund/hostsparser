@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-28 00:52:39Z
+! Last Modified: 2021-10-28 06:19:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -48585,6 +48585,7 @@
 ||q1connect.com^
 ||qaintqa.com^
 ||qaleel.com^
+||smtc.qantas.com^
 ||smtc.qantas.com.au^
 ||qaoffers.net^
 ||internet-cleaning-tool.capital-software.qarchive.org^
@@ -66069,7 +66070,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||log.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -68119,6 +68119,7 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||app.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||analytics.zingerwebdesign.com^
 ||zingyporntube.com^
