@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-28 12:26:01Z
+! Last Modified: 2021-10-28 18:19:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15354,6 +15354,7 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
+||a.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -25383,6 +25384,7 @@
 ||kproject.pl^
 ||track.msadcenter.kpuo.com^
 ||kpzkaj.pl^
+||kqzyfj.com^
 ||kra.center^
 ||kangaroo.kraenk.de^
 ||explore.kraftheinzingredients.com^
@@ -27428,7 +27430,6 @@
 ||wttd.madeleine.co.uk^
 ||wttd.madeleine.com^
 ||wttd.madeleine.de^
-||wttd.madeleine.fr^
 ||wttd.madeleine.gr^
 ||madeleinekrook.nl^
 ||skink.madewithlove.com^
@@ -29771,6 +29772,7 @@
 ||emea.rel.msn.com^
 ||analytics.msn.com^
 ||c.prodigy.msn.com^
+||live.rads.msn.com^
 ||mobileleads.msn.com^
 ||adsyndication.msn.com^
 ||advertising.jp.msn.com^
@@ -50237,7 +50239,6 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

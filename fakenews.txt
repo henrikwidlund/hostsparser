@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-28 12:25:54Z
+! Last Modified: 2021-10-28 18:19:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25523,6 +25523,7 @@
 ||kproject.pl^
 ||track.msadcenter.kpuo.com^
 ||kpzkaj.pl^
+||kqzyfj.com^
 ||kra.center^
 ||kangaroo.kraenk.de^
 ||explore.kraftheinzingredients.com^
@@ -26792,7 +26793,6 @@
 ||server.iad.liveperson.net^
 ||ads.livepromotools.com^
 ||media.livepromotools.com^
-||udr9.livera.nl^
 ||ad.livere.co.kr^
 ||hiuplq.livescore.in^
 ||a.livesportmedia.eu^
@@ -51138,13 +51138,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ae.adserver.yahoo.com^
-||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
