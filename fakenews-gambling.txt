@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-28 06:19:22Z
+! Last Modified: 2021-10-28 07:45:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32111,6 +32111,7 @@
 ||platnosci-app.netafixpl.live^
 ||platnosci.netafixu.live^
 ||ver-twojakonto.netafixu.live^
+||aktualizacja-platnosci.netafixx.info^
 ||konto-updateplat.netaflixtu.live^
 ||zaktualizacja-platnosci.netaflixu.life^
 ||acc-update.netafuxu.club^
@@ -44620,8 +44621,6 @@
 ||streaminterface.com^
 ||ad.mynetreklam.com.streamprovider.net^
 ||sdk.streamrail.com^
-||ssp.streamrail.net^
-||events.streamrail.net^
 ||graphics.streamray.com^
 ||affiliates.streamray.com^
 ||free.content.streamray.com^

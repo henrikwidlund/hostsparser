@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-28 06:19:36Z
+! Last Modified: 2021-10-28 07:46:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2464,6 +2464,7 @@
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
+||bs-wlb-sg.dvgtm.akadns.net^
 ||track-apmebf.cj.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -28867,8 +28868,6 @@
 ||mozeslyszales24polska.xyz^
 ||mozeszosiagnacwszystko.cyou^
 ||mozeszsiedoczekac.cyou^
-||ostats.mozilla.com^
-||sostats.mozilla.com^
 ||incoming.telemetry.mozilla.org^
 ||mozillaname.com^
 ||mozliwosc-firmy.sbs^
@@ -30268,6 +30267,7 @@
 ||nethir.eu^
 ||nethit-free.nl^
 ||imonitor.nethost.cz^
+||kodu.neti.ee^
 ||netincap.com^
 ||sdc.netiq.com^
 ||tracker.netklix.com^
