@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-28 07:45:55Z
+! Last Modified: 2021-10-28 12:25:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24383,8 +24383,6 @@
 ||iog-in-id.icu^
 ||126898.iogowanie.xyz^
 ||ads.iol.co.il^
-||adsrv.iol.co.za^
-||tracking.iol.co.za^
 ||web.comunicazioni.iol.it^
 ||track.ionicmedia.com^
 ||metrics.ionos.at^
@@ -29858,7 +29856,6 @@
 ||miroslawklos.pl^
 ||cdn.mirror-codes.net^
 ||mirror-pl.website^
-||stats.mirrorfootball.co.uk^
 ||mirrorgossip.com^
 ||mirrors-pl.website^
 ||go.mirusbio.com^
@@ -44621,6 +44618,8 @@
 ||streaminterface.com^
 ||ad.mynetreklam.com.streamprovider.net^
 ||sdk.streamrail.com^
+||ssp.streamrail.net^
+||events.streamrail.net^
 ||graphics.streamray.com^
 ||affiliates.streamray.com^
 ||free.content.streamray.com^
@@ -52388,6 +52387,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
+||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
