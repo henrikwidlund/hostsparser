@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-28 18:18:58Z
+! Last Modified: 2021-10-29 00:50:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9144,7 +9144,6 @@
 ||wa.bol.com^
 ||swa.bol.com^
 ||partnerprogramma.bol.com^
-||banners.bol.com.br^
 ||banners.bol.se^
 ||bola88.com^
 ||fudezz.bolasport.com^
@@ -20112,8 +20111,6 @@
 ||energy-infoinv.com^
 ||energy-oilproject.info^
 ||energy-pgeproj.info^
-||ads.energy-torrent.com^
-||baner.energy-torrent.com^
 ||metrics.energyaustralia.com.au^
 ||smetrics.energyaustralia.com.au^
 ||pardot.energyavenue.com^
@@ -62346,9 +62343,7 @@
 ||email.everyonesocial.unity.com^
 ||create.unity3d.com^
 ||eloqua-trackings.unity3d.com^
-||httpkafka.unityads.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
-||auction-load.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
@@ -67856,7 +67851,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ar.adserver.yahoo.com^
+||fr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

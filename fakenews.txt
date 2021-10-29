@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-28 18:19:07Z
+! Last Modified: 2021-10-29 00:51:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26793,6 +26793,7 @@
 ||server.iad.liveperson.net^
 ||ads.livepromotools.com^
 ||media.livepromotools.com^
+||udr9.livera.nl^
 ||ad.livere.co.kr^
 ||hiuplq.livescore.in^
 ||a.livesportmedia.eu^

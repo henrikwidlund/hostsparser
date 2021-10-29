@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-28 18:18:59Z
+! Last Modified: 2021-10-29 00:51:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12393,6 +12393,7 @@
 ||cooknfit.com^
 ||cookonsea.com^
 ||a.cookpad-ads.com^
+||go.pardot.cookpad.com^
 ||ad.cooks.com^
 ||ad2.cooks.com^
 ||lp.cooktracking.com^
@@ -15962,7 +15963,6 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
-||akacdn.doubleverify.com.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
