@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-29 00:51:05Z
+! Last Modified: 2021-10-29 06:19:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -62083,7 +62083,6 @@
 ||tvpage.com^
 ||videos-bleepingcomputers-com.tvpagecdn.com^
 ||tvpassport.com^
-||pl.tvplusnewtab.com^
 ||tvporn.cc^
 ||tvservicingcenter.com^
 ||tvshowcusting.com^
@@ -67947,6 +67946,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||fr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-29 00:51:03Z
+! Last Modified: 2021-10-29 06:19:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18899,6 +18899,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||perf.teads.tv.edgekey.net^
 ||pinterest.com.edgekey.net^
 ||optimizely.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
@@ -29392,10 +29393,6 @@
 ||indiaonclick.com^
 ||indiapornvids.com^
 ||indiasexhd.com^
-||ads.indiatimes.com^
-||adstil.indiatimes.com^
-||mobileads.indiatimes.com^
-||netspiderads2.indiatimes.com^
 ||pls.indiemakers.fr^
 ||indienudes.com^
 ||indies-av.co.jp^
