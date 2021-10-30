@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-30 06:18:46Z
+! Last Modified: 2021-10-30 12:24:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29897,6 +29897,8 @@
 ||inv1pl-budimnew.info^
 ||info.invacare.com.au^
 ||info.invast.jp^
+||ads.inven.co.kr^
+||yrrudp.inven.co.kr^
 ||invest-educ.site^
 ||invest-flow.io^
 ||invest-moment.com^
@@ -67047,6 +67049,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||fr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -68124,12 +68127,6 @@
 ||ziololecznictwo.pl^
 ||ajoo.zioncityonline.net^
 ||tc.zionsbank.com^
-||ablink.my.zip.co^
-||ablink.edm.zip.co^
-||ablink.go1.zip.co^
-||ablink.go2.zip.co^
-||ablink.go3.zip.co^
-||ablink.account.zip.co^
 ||track.zipalerts.com^
 ||click.zipcodez.com^
 ||zipitfast.com^
