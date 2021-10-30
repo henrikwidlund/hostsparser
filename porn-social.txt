@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-29 18:19:02Z
+! Last Modified: 2021-10-30 00:51:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18395,6 +18395,7 @@
 ||spotxcdn.com.edgekey.net^
 ||yieldlab.net.edgekey.net^
 ||secure-adnxs.edgekey.net^
+||cdn.teads.tv.edgekey.net^
 ||adservrs.com.edgekey.net^
 ||i.pinimg.com.edgekey.net^
 ||s.pinimg.com.edgekey.net^
@@ -18402,6 +18403,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||perf.teads.tv.edgekey.net^
 ||pinterest.com.edgekey.net^
 ||optimizely.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
@@ -29938,6 +29940,8 @@
 ||jackwolfskinpl.com^
 ||jackwolfskinpolska.com^
 ||jackwolfskinsklep.com^
+||ad.jacotei.com.br^
+||adserver.jacotei.com.br^
 ||jacpuz.pl^
 ||jacquieetmichel.net^
 ||jacquieetmicheltv.net^
@@ -64450,6 +64454,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||es.adserver.yahoo.com^
+||ae.adserver.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -65665,6 +65672,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||csr11.net.zooplus.de^
 ||dii2.zooplus.dk^
 ||dii2.zooplus.es^
 ||car40.net.zooplus.es^

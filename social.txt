@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-29 18:19:06Z
+! Last Modified: 2021-10-30 00:51:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14850,16 +14850,6 @@
 ||go.econoco.com^
 ||marketing.econolite.com^
 ||economic-news.co^
-||cnad.economicoutlook.net^
-||cnad1.economicoutlook.net^
-||cnad2.economicoutlook.net^
-||cnad3.economicoutlook.net^
-||cnad4.economicoutlook.net^
-||cnad5.economicoutlook.net^
-||cnad6.economicoutlook.net^
-||cnad7.economicoutlook.net^
-||cnad8.economicoutlook.net^
-||cnad9.economicoutlook.net^
 ||ads.economist.com^
 ||stats.economist.com^
 ||sstats.economist.com^
@@ -40358,7 +40348,6 @@
 ||skategirlchina.com^
 ||skattabrain.com^
 ||skbpolska24.net^
-||a.skcript.com^
 ||yjlhep.skechers.co.nz^
 ||xtcpby.skechers.com^
 ||skechersbuty.com^
@@ -49467,8 +49456,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||tw.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
