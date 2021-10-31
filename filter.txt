@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-31 12:24:21Z
+! Last Modified: 2021-10-31 18:17:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19357,6 +19357,7 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
+||ds-api-public.addthis.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -23750,7 +23751,6 @@
 ||openads.friendfinder.com^
 ||adserver.friendfinder.com^
 ||graphics.friendfinder.com^
-||geobanner.friendfinder.com^
 ||friendgreetings.com^
 ||friendgreetings.net^
 ||friendlystorewyo.com^
@@ -28501,7 +28501,6 @@
 ||houmathibodauxnews.com^
 ||click.email.houndapp.com^
 ||go.houndify.com^
-||clickstatsview.hourfreeplaycasinos.com^
 ||housatonicvalleynews.com^
 ||house.porn^
 ||housedman.com^
@@ -70285,7 +70284,6 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
-||media.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||analytics.zingerwebdesign.com^
 ||zingyporntube.com^

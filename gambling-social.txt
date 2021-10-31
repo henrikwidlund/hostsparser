@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-31 12:24:40Z
+! Last Modified: 2021-10-31 18:18:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2531,6 +2531,7 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||dotomi.weighted.com.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -18688,7 +18689,6 @@
 ||banners.friendfinder.com^
 ||openads.friendfinder.com^
 ||adserver.friendfinder.com^
-||geobanner.friendfinder.com^
 ||friendgreetings.com^
 ||friendgreetings.net^
 ||friendlystorewyo.com^
@@ -36012,7 +36012,6 @@
 ||plfanbudim1inv.info^
 ||plgaz-invnews.com^
 ||plgroup-pge.info^
-||adserver.plhb.com^
 ||plik-pobierz.pl^
 ||pliki.pw^
 ||pliks.pl^
@@ -50719,6 +50718,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

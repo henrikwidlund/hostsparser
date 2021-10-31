@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-31 12:24:46Z
+! Last Modified: 2021-10-31 18:18:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18147,7 +18147,6 @@
 ||banners.friendfinder.com^
 ||openads.friendfinder.com^
 ||adserver.friendfinder.com^
-||geobanner.friendfinder.com^
 ||friendgreetings.com^
 ||friendgreetings.net^
 ||friendlystorewyo.com^
@@ -49466,6 +49465,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
