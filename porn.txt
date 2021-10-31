@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-31 00:55:10Z
+! Last Modified: 2021-10-31 06:20:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29128,7 +29128,6 @@
 ||inteligentna-bransoletka-pl.com^
 ||intelliads.com^
 ||ads.intellicast.com^
-||intellipopup.com^
 ||intellismut.com^
 ||intellisuggest.com^
 ||elqtrk.intelrealsense.com^
@@ -64821,7 +64820,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||a.stat.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -65798,10 +65796,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ar.adserver.yahoo.com^
+||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -67014,6 +67013,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||c.ns.emailvision.net.zooplus.de^
 ||dii2.zooplus.dk^
 ||dii2.zooplus.es^
 ||car40.net.zooplus.es^

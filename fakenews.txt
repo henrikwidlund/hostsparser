@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-31 00:55:01Z
+! Last Modified: 2021-10-31 06:20:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2489,6 +2489,7 @@
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
+||bssg.eyeblaster.akadns.net^
 ||track-apmebf.cj.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -15401,7 +15402,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
-||ma479-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -37158,8 +37158,6 @@
 ||metrics.postoffice.co.uk^
 ||postol.fr^
 ||vidamsag.postr.hu^
-||api.postscript.io^
-||sdk.postscript.io^
 ||posturenursery.info^
 ||poszukiwac063.rest^
 ||poszukiwac304.rest^

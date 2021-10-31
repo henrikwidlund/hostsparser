@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-10-31 00:54:47Z
+! Last Modified: 2021-10-31 06:20:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7267,6 +7267,7 @@
 ||metrics.beatsbydre.com^
 ||smetrics.beatsbydre.com^
 ||beatthebook.eu^
+||mdws.beaubear.ca^
 ||info.beaumont.org^
 ||beautiful-bodies.com^
 ||beautiful-girl-sex.com^
@@ -30536,7 +30537,6 @@
 ||intelliads.com^
 ||ads.intellicast.com^
 ||intellihub.com^
-||intellipopup.com^
 ||intellismut.com^
 ||intellisuggest.com^
 ||elqtrk.intelrealsense.com^
@@ -46918,6 +46918,8 @@
 ||olx.pl-payouts.casa^
 ||olx.pl-payouts.surf^
 ||pl-payouts.work^
+||olx.pl-pays.cyou^
+||inpost.pl-pays.cyou^
 ||olx.pl-pays.icu^
 ||inpost.pl-pays.icu^
 ||olx.pl-payx.site^
@@ -69196,7 +69198,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
