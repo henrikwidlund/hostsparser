@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-01 06:19:47Z
+! Last Modified: 2021-11-01 12:26:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15377,6 +15377,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||cdn2.teads.tv.edgekey.net^
 ||optimizely.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
@@ -26081,7 +26082,6 @@
 ||leleader.org^
 ||leminet.co.ke^
 ||lemmatechnologies.com^
-||buf.lemonde.fr^
 ||lemonparty.biz^
 ||lemonparty.org^
 ||log.lemonpi.io^

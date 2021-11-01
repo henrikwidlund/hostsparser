@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-01 06:19:40Z
+! Last Modified: 2021-11-01 12:26:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18888,6 +18888,7 @@
 ||pd1.funnyhost.com^
 ||funnyreign.com^
 ||funnytvclips.com^
+||go.funoflife.co.jp^
 ||ad.funpic.de^
 ||media.funpic.de^
 ||adm.funshion.com^
@@ -26338,7 +26339,6 @@
 ||leleader.org^
 ||leminet.co.ke^
 ||lemmatechnologies.com^
-||buf.lemonde.fr^
 ||lemonparty.biz^
 ||lemonparty.org^
 ||log.lemonpi.io^
