@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-01 00:55:26Z
+! Last Modified: 2021-11-01 06:19:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -59943,8 +59943,6 @@
 ||tracker.vgame.us^
 ||ads.vgchartz.com^
 ||vgdny.com^
-||sc.vh1.com^
-||ssc.vh1.com^
 ||wt.vhb.de^
 ||vhguyeu.ml^
 ||vhowland.co.uk^
@@ -64451,7 +64449,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||cn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
