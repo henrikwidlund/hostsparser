@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-01 12:26:27Z
+! Last Modified: 2021-11-01 18:19:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3057,10 +3057,8 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||cacp-hlb.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
-||bs-wlb-sg.dvgtm.akadns.net^
 ||track-apmebf.cj.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -28877,6 +28875,7 @@
 ||www3s.ing.be^
 ||metric.ing.es^
 ||metrics.ing.es^
+||enter.ingangwebang.com^
 ||ingbkpl.com^
 ||metric.ingdirect.es^
 ||metrics.ingdirect.es^
@@ -53930,6 +53929,7 @@
 ||stepnation.com^
 ||steponmyballs.com^
 ||stepsiblings.com^
+||data-ssl.stepstone.at^
 ||data.stepstone.be^
 ||data-ssl.stepstone.be^
 ||zgumwv.stepstone.de^
@@ -59201,7 +59201,6 @@
 ||email.everyonesocial.unity.com^
 ||create.unity3d.com^
 ||eloqua-trackings.unity3d.com^
-||dsp-vast.unityads.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
@@ -63389,7 +63388,6 @@
 ||track.msadcenter.xda.com^
 ||xdating.com^
 ||xdiablox.com^
-||ad.xdomain.ne.jp^
 ||xdooz.com^
 ||counter.xeanon.com^
 ||xecce.com^
@@ -65340,12 +65338,6 @@
 ||zddbw.com^
 ||zdjecie942.rest^
 ||zdjecieciownia.net^
-||saa.zdnet.com^
-||ads.zdnet.com^
-||ads1.zdnet.com^
-||ads2.zdnet.com^
-||ads3.zdnet.com^
-||chkpt.zdnet.com^
 ||zdolny.cyou^
 ||usrkrz.zdravcity.ru^
 ||zdrowasfera.pl^
@@ -65509,7 +65501,6 @@
 ||mjp.zimad.com^
 ||zimb.space^
 ||zimbio.com^
-||j.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||raven.zimristats.com^
@@ -65664,6 +65655,7 @@
 ||dii2.zooplus.co.uk^
 ||net.zooplus.com^
 ||dii2.zooplus.com^
+||ns1.viviotech.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
 ||dii2.zooplus.dk^

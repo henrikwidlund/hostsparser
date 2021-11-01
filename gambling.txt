@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-01 12:26:26Z
+! Last Modified: 2021-11-01 18:19:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15377,7 +15377,6 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||cdn2.teads.tv.edgekey.net^
 ||optimizely.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
@@ -49782,7 +49781,6 @@
 ||xcuvo.com^
 ||bz.xcv6.cn^
 ||track.msadcenter.xda.com^
-||ad.xdomain.ne.jp^
 ||counter.xeanon.com^
 ||xed.pl^
 ||xediatel.com^
@@ -50234,6 +50232,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
