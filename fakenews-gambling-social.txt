@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-02 00:56:24Z
+! Last Modified: 2021-11-02 06:19:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14232,8 +14232,6 @@
 ||dianaridha.com^
 ||diansu8.com^
 ||adserver.diariodosertao.com.br^
-||adbmetrics.diariosur.es^
-||sadbmetrics.diariosur.es^
 ||adbmetrics.diariovasco.com^
 ||sadbmetrics.diariovasco.com^
 ||diaspora-news.com^
@@ -22222,6 +22220,7 @@
 ||smetrics.hollandamerica.com^
 ||rxqqaq.hollandandbarrett.com^
 ||hollandreporter.com^
+||ads.hollandsentinel.com^
 ||hollister-sklep.com^
 ||smetrics.hollisterco.cn^
 ||smetrics.hollisterco.com^
@@ -48385,7 +48384,6 @@
 ||twierdza-wroclaw.pl^
 ||twiitter.com.mx^
 ||twilighttents.com^
-||sdkgw.us1.twilio.com^
 ||g.twimg.com^
 ||o.twimg.com^
 ||p.twimg.com^
@@ -52869,7 +52867,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

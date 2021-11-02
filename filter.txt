@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-02 00:56:20Z
+! Last Modified: 2021-11-02 06:19:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -60968,7 +60968,6 @@
 ||trofeum-zdobywamy.eu^
 ||bannerexchange.troglod.com^
 ||adserver.trojaner-info.de^
-||adverts.trojanpublishing.net^
 ||ads.tromaville.com^
 ||tron-labs.com^
 ||tron-wallet.info^
@@ -70282,6 +70281,8 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||zevent.brand.zing.vn^
+||campaign.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||analytics.zingerwebdesign.com^
 ||zingyporntube.com^
