@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-02 06:19:28Z
+! Last Modified: 2021-11-02 12:25:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3873,7 +3873,6 @@
 ||apponic.com^
 ||api.appota.com^
 ||ads.appota.com^
-||tk.apprentis-auteuil.org^
 ||mobile-ws.apprissmobile.com^
 ||cdn.apprope.com^
 ||cdn.appround.biz^

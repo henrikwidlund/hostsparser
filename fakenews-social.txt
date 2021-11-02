@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-02 06:19:34Z
+! Last Modified: 2021-11-02 12:25:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19898,7 +19898,6 @@
 ||glthubs.com^
 ||glthubs.net^
 ||glthubse.info^
-||metrics.glucerna.net^
 ||secure.glue1lazy.com^
 ||revid.centech.glulive.com^
 ||personalization.centech.glulive.com^
@@ -42601,6 +42600,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||sonyalpha.pl^
 ||metrics.sonyericsson.com^
 ||adserver1.sonymusiceurope.com^
@@ -51619,6 +51619,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -51795,6 +51796,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst3.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

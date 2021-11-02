@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-02 06:19:39Z
+! Last Modified: 2021-11-02 12:26:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26759,9 +26759,6 @@
 ||metrics.herbalife.com^
 ||smetrics.herbalife.com^
 ||herbalife.pl^
-||t.herceptin.com^
-||t-s.herceptin.com^
-||metrics.herceptin.com^
 ||metrics.herceptinhylecta.com^
 ||smetrics.herceptinhylecta.com^
 ||hercock.net^
@@ -48686,6 +48683,7 @@
 ||tgw-masdk.3g.qq.com^
 ||tgw-sasdk.3g.qq.com^
 ||analytics.map.qq.com^
+||pagespeed.report.qq.com^
 ||qq8.ag^
 ||qqhr2008.com^
 ||qqqporn.com^
@@ -52558,6 +52556,23 @@
 ||sharespoint-en.com^
 ||ww2.sharespost.com^
 ||sharethatboy.com^
+||s.sharethis.com^
+||w.sharethis.com^
+||pd.sharethis.com^
+||sd.sharethis.com^
+||wd.sharethis.com^
+||ws.sharethis.com^
+||ad.sharethis.com^
+||al1.sharethis.com^
+||ead.sharethis.com^
+||sad.sharethis.com^
+||edge.sharethis.com^
+||sync.sharethis.com^
+||wd-edge.sharethis.com^
+||count-server.sharethis.com^
+||platform-api.sharethis.com^
+||platform-cdn.sharethis.com^
+||buttons-config.sharethis.com^
 ||stats.shareup.app^
 ||adserver.sharewareonline.com^
 ||sharkyporn.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-02 06:19:27Z
+! Last Modified: 2021-11-02 12:25:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -741,7 +741,6 @@
 ||hmyjoj.5-fifth.com^
 ||d.5.to^
 ||50centstreetkingimmortal.com^
-||xtazfx.50factory.com^
 ||banner.50megs.com^
 ||janezk.50webs.co^
 ||search4you.50webs.com^
@@ -14232,6 +14231,8 @@
 ||dianaridha.com^
 ||diansu8.com^
 ||adserver.diariodosertao.com.br^
+||adbmetrics.diariosur.es^
+||sadbmetrics.diariosur.es^
 ||adbmetrics.diariovasco.com^
 ||sadbmetrics.diariovasco.com^
 ||diaspora-news.com^
@@ -48384,6 +48385,7 @@
 ||twierdza-wroclaw.pl^
 ||twiitter.com.mx^
 ||twilighttents.com^
+||sdkgw.us1.twilio.com^
 ||g.twimg.com^
 ||o.twimg.com^
 ||p.twimg.com^

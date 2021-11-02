@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-02 06:19:47Z
+! Last Modified: 2021-11-02 12:26:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8144,7 +8144,6 @@
 ||cashpartner.com^
 ||cashreportz.com^
 ||cashstaging.me^
-||go.cashstar.com^
 ||cashthat.com^
 ||cashtowebmail.com^
 ||fb.cashtraffic.com^
@@ -49464,6 +49463,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
