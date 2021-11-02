@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-02 12:26:02Z
+! Last Modified: 2021-11-02 18:18:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26759,6 +26759,9 @@
 ||metrics.herbalife.com^
 ||smetrics.herbalife.com^
 ||herbalife.pl^
+||t.herceptin.com^
+||t-s.herceptin.com^
+||metrics.herceptin.com^
 ||metrics.herceptinhylecta.com^
 ||smetrics.herceptinhylecta.com^
 ||hercock.net^
@@ -48683,7 +48686,6 @@
 ||tgw-masdk.3g.qq.com^
 ||tgw-sasdk.3g.qq.com^
 ||analytics.map.qq.com^
-||pagespeed.report.qq.com^
 ||qq8.ag^
 ||qqhr2008.com^
 ||qqqporn.com^
@@ -68114,6 +68116,7 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||banner.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||analytics.zingerwebdesign.com^
 ||zingyporntube.com^

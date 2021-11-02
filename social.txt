@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-02 12:26:09Z
+! Last Modified: 2021-11-02 18:19:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7654,7 +7654,6 @@
 ||abtest-va-tiktok.byteoversea.com^
 ||sgali3.l.byteoversea.net^
 ||scorpion.byteside.com^
-||badger.bytesized.xyz^
 ||bytlo.com^
 ||germany-news.bytom.pl^
 ||byu.name^
@@ -8144,6 +8143,7 @@
 ||cashpartner.com^
 ||cashreportz.com^
 ||cashstaging.me^
+||go.cashstar.com^
 ||cashthat.com^
 ||cashtowebmail.com^
 ||fb.cashtraffic.com^
@@ -49463,7 +49463,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
