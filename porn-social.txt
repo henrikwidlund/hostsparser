@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-03 06:19:30Z
+! Last Modified: 2021-11-03 12:25:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24454,6 +24454,7 @@
 ||goggl.com^
 ||goggle.com^
 ||gogirls18.com^
+||events.gogoair.com^
 ||gogoangels.com^
 ||gogofun.top^
 ||wat.gogoinflight.com^
@@ -52708,7 +52709,6 @@
 ||stat-ssl.smbc.co.jp^
 ||metrics.smbcnikko.co.jp^
 ||smetrics.smbcnikko.co.jp^
-||api.smbeat.jp^
 ||control.smbeat.jp^
 ||abort-count.smbeat.jp^
 ||openx.smcaen.fr^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-03 06:19:24Z
+! Last Modified: 2021-11-03 12:25:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1396,6 +1396,11 @@
 ||a2multimedia.pl^
 ||a2sex.com^
 ||a2uu36g43l.download^
+||metrics.client-eng.a2z.com^
+||analytics.console.aws.a2z.com^
+||notify.bugsnag.appstore.a2z.com^
+||global.telemetry.insights.video.a2z.com^
+||us-east-1.telemetry.insights.video.a2z.com^
 ||a2zgroup.in^
 ||a2ztools.in^
 ||segment.a3cloud.net^
@@ -34307,7 +34312,6 @@
 ||lockeddeal.com^
 ||lockercpa.pl^
 ||nra.locktonaffinity.net^
-||biz.locoguide.co.jp^
 ||locpub.com^
 ||api.locuslabs.com^
 ||assets.locuslabs.com^
@@ -53774,7 +53778,6 @@
 ||stat-ssl.smbc.co.jp^
 ||metrics.smbcnikko.co.jp^
 ||smetrics.smbcnikko.co.jp^
-||api.smbeat.jp^
 ||control.smbeat.jp^
 ||abort-count.smbeat.jp^
 ||openx.smcaen.fr^
@@ -60391,6 +60394,7 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||create.unity3d.com^
+||config.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -65695,6 +65699,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
