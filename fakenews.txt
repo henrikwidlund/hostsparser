@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-03 12:25:47Z
+! Last Modified: 2021-11-03 18:19:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7207,6 +7207,7 @@
 ||iad-06.braze.com^
 ||iad-08.braze.com^
 ||sdk.iad-02.braze.com^
+||sdk.iad-06.braze.com^
 ||gudja.iad-02.braze.com^
 ||cdn.braze.eu^
 ||fra-01.braze.eu^
@@ -17053,8 +17054,6 @@
 ||fdimages.fairfax.com.au^
 ||fairfieldreporter.com^
 ||fairfieldreview.com^
-||stats.fairmont.com^
-||sstats.fairmont.com^
 ||fairnessestallis.info^
 ||p.fairspot.host^
 ||experience.faiu.com^
@@ -51136,6 +51135,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn1.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^

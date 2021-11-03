@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-03 12:25:51Z
+! Last Modified: 2021-11-03 18:19:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16545,6 +16545,9 @@
 ||m.delltechnologies.com^
 ||stat.delo.ua^
 ||preferences.deloitte.ca^
+||stats.deloitte.com^
+||sstats.deloitte.com^
+||perspectivas.deloitte.com^
 ||deloitteca.com^
 ||eventos.lp.deloittecomunicacao.com.br^
 ||conteudos.lp.deloittecomunicacao.com.br^
@@ -52994,7 +52997,6 @@
 ||za1.sierra-fox.com^
 ||tracking.sierrawireless.com^
 ||cp.sietedelnueve.es^
-||d.t.sieu-viet.com^
 ||sieumup.net^
 ||sifazen.com^
 ||communications.siffron.com^
