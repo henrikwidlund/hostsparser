@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-04 06:19:36Z
+! Last Modified: 2021-11-04 12:25:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18919,6 +18919,7 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
+||secure.flashtalking.com.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
@@ -55344,7 +55345,6 @@
 ||styczen.net.pl^
 ||go.style--plus.jp^
 ||styleart.jp^
-||as.stylebook.de^
 ||styleja.com^
 ||stats.styletechnology.me^
 ||stylovemeble.pl^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-04 06:19:34Z
+! Last Modified: 2021-11-04 12:25:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26274,6 +26274,7 @@
 ||sadbmetrics.leonoticias.com^
 ||gpiyhj.leopalace21.com^
 ||leostay.com^
+||ads.leovegas.com^
 ||ty.lepiejodpocznij.rest^
 ||rsc.lepoint.fr^
 ||fsegfy.lepoint.fr^
@@ -51135,6 +51136,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn1.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
