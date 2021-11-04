@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-04 12:26:01Z
+! Last Modified: 2021-11-04 18:19:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3057,6 +3057,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||bs.eyeblaster.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
@@ -31220,7 +31221,6 @@
 ||kepzavar.info^
 ||kergaukr.com^
 ||campaign.kermi.de^
-||kesmatic.com^
 ||information.kestrafinancial.com^
 ||ketodietnd.com^
 ||ketofitpatches.com^
@@ -59500,6 +59500,7 @@
 ||usatravel-specials.net^
 ||smetrics.usbank.com^
 ||out.usbla.net^
+||sdk.out.usbla.net^
 ||go.marshall.usc.edu^
 ||www2.annenberg.usc.edu^
 ||go.uscad.com^

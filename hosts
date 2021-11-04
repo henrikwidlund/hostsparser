@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-04 12:25:37Z
+! Last Modified: 2021-11-04 18:18:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32640,7 +32640,6 @@
 ||kergaukr.com^
 ||campaign.kermi.de^
 ||kerncountytimes.com^
-||kesmatic.com^
 ||information.kestrafinancial.com^
 ||ketodietnd.com^
 ||ketofitpatches.com^
@@ -68215,7 +68214,10 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||zeus.ad.xiaomi.com^
+||track.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -69195,6 +69197,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||cn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^

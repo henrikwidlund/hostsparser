@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-04 12:25:51Z
+! Last Modified: 2021-11-04 18:19:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25021,7 +25021,6 @@
 ||kergaukr.com^
 ||campaign.kermi.de^
 ||kerncountytimes.com^
-||kesmatic.com^
 ||information.kestrafinancial.com^
 ||ketodietnd.com^
 ||ketofitpatches.com^
@@ -51136,7 +51135,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||pn1.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
