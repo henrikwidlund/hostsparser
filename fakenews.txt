@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-04 00:53:16Z
+! Last Modified: 2021-11-04 06:19:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15412,7 +15412,6 @@
 ||unityads.unity3d.com.edgekey.net^
 ||scorecardresearch.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
-||cdn-dsa.clicktale.net.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
@@ -26275,7 +26274,6 @@
 ||sadbmetrics.leonoticias.com^
 ||gpiyhj.leopalace21.com^
 ||leostay.com^
-||ads.leovegas.com^
 ||ty.lepiejodpocznij.rest^
 ||rsc.lepoint.fr^
 ||fsegfy.lepoint.fr^
@@ -51140,7 +51138,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||europe.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

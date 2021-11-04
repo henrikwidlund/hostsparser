@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-04 00:53:15Z
+! Last Modified: 2021-11-04 06:19:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19388,7 +19388,6 @@
 ||parkkolay.gelistirirken.com^
 ||gelleta.com^
 ||med.gelnique.com^
-||home.gelsennet.de^
 ||gem.pl^
 ||www6.gemalto.com^
 ||m2m-communication.gemalto.com^
@@ -51618,6 +51617,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

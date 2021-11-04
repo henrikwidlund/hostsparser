@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-04 00:53:29Z
+! Last Modified: 2021-11-04 06:19:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2468,6 +2468,7 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||ads.stickyadstv.com.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -26344,6 +26345,7 @@
 ||smetrics.louisianahealthconnect.com^
 ||loutam.xyz^
 ||louyanx.pl^
+||x4.lov3.net^
 ||lovare.xyz^
 ||y3dx36f6.love6d.com^
 ||loveaholics.com^
