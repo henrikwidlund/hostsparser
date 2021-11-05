@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-05 06:19:40Z
+! Last Modified: 2021-11-05 12:25:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51364,7 +51364,6 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
-||notify.brand.zing.vn^
 ||analytics.zingerwebdesign.com^
 ||ziololecznictwo.pl^
 ||tc.zionsbank.com^
@@ -51477,6 +51476,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||a52.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^

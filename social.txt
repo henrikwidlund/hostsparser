@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-05 06:19:47Z
+! Last Modified: 2021-11-05 12:25:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36794,6 +36794,9 @@
 ||qitrck.com^
 ||afp.qiyi.com^
 ||qksrv.com^
+||starlix.ql.st^
+||florineff.ql.st^
+||micardiss.ql.st^
 ||qlink-ico.com^
 ||qlzn6i1l.com^
 ||qmsled.com^
@@ -49380,6 +49383,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||br.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
