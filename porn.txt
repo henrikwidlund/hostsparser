@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-05 12:25:57Z
+! Last Modified: 2021-11-05 18:19:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -47529,6 +47529,7 @@
 ||l.qq.com^
 ||ad.qq.com^
 ||fw.qq.com^
+||rh.qq.com^
 ||rs1.qq.com^
 ||rs2.qq.com^
 ||msdk.qq.com^
@@ -65995,6 +65996,7 @@
 ||yotafiles.com^
 ||yotefiles.com^
 ||go.yotsuyaotsuka.com^
+||campaigns.yotta.com^
 ||yotube.com^
 ||yotubesexo.com^
 ||you-and-me.pl^

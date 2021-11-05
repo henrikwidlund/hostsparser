@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-05 12:25:47Z
+! Last Modified: 2021-11-05 18:18:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38150,6 +38150,7 @@
 ||l.qq.com^
 ||ad.qq.com^
 ||fw.qq.com^
+||rh.qq.com^
 ||rs1.qq.com^
 ||rs2.qq.com^
 ||msdk.qq.com^
@@ -51221,6 +51222,8 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst2.ec.yimg.com^
+||ac.ybinst7.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
@@ -51902,6 +51905,14 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||ci.net.zooplus.de^
+||car21.net.zooplus.de^
+||static.net.zooplus.de^
+||api.old.net.zooplus.de^
+||stg.php.net.zooplus.de^
+||appskube.net.zooplus.de^
+||server-data.net.zooplus.de^
+||api.cloudfront.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^
