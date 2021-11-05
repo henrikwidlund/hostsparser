@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-05 00:52:29Z
+! Last Modified: 2021-11-05 06:19:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15363,11 +15363,6 @@
 ||dwzacisze.com.pl^
 ||somni.dxc.technology^
 ||track.msadcenter.dxr.com^
-||u.dxsvr.com^
-||ak.dxsvr.com^
-||nrc.dxsvr.com^
-||rts.dxsvr.com^
-||tls.dxsvr.com^
 ||dxxxxs.com^
 ||dyarchyproles.com^
 ||dyfuzor-do-aromaterapii-pl.com^
@@ -52794,6 +52789,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

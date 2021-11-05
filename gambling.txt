@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-05 00:52:45Z
+! Last Modified: 2021-11-05 06:19:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2551,6 +2551,7 @@
 ||vungle.akadns.net^
 ||turn.com.akadns.net^
 ||comscore.akadns.net^
+||d.turn.com.akadns.net^
 ||eyeblaster.akadns.net^
 ||lb1.www.ms.akadns.net^
 ||innovid.com.akadns.net^

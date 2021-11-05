@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-05 00:52:43Z
+! Last Modified: 2021-11-05 06:19:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -48250,6 +48250,9 @@
 ||link.watchbravotv.com^
 ||click.watchjmp.com^
 ||stats.watchmygf.com^
+||ads.watchmygf.net^
+||openx.watchmygf.net^
+||adimages.watchmygf.net^
 ||link.watchoxygen.com^
 ||waterdiepattern1.live^
 ||waterdiepattern10.live^
@@ -51361,6 +51364,7 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||notify.brand.zing.vn^
 ||analytics.zingerwebdesign.com^
 ||ziololecznictwo.pl^
 ||tc.zionsbank.com^
