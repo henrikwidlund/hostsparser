@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-06 12:24:17Z
+! Last Modified: 2021-11-06 18:18:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -41444,7 +41444,6 @@
 ||mailgate.sbell.com.cn^
 ||sbgglobal.eu^
 ||sbisl.sbi-sociallending.co.jp^
-||somni.sbicard.com^
 ||somni.sbimobility.com^
 ||ad2.sbisec.co.jp^
 ||smetrics.sbisec.co.jp^
@@ -52794,11 +52793,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||dk.adserver.yahoo.com^
-||de.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

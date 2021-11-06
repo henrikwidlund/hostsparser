@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-06 12:24:16Z
+! Last Modified: 2021-11-06 18:18:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3183,6 +3183,7 @@
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
+||sync-apsg.tidaltv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -22689,6 +22690,8 @@
 ||fleshlightreviews.net^
 ||fletushkaonline.com^
 ||zkc5.fleurancenature.fr^
+||support.flex.com^
+||support2.flex.com^
 ||8p0kiyq5mq1d.flex.team^
 ||flexbanner.com^
 ||elqtracking.flexera.com^
@@ -68984,6 +68987,9 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||lax-v1.net.zooplus.de^
+||cgi.tpe.net.zooplus.de^
+||ingress.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^

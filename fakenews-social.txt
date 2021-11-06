@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-06 12:24:23Z
+! Last Modified: 2021-11-06 18:18:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1227,6 +1227,8 @@
 ||yu.ac.kr^
 ||mail.hallym.ac.kr^
 ||track.auckland.ac.nz^
+||jur.unn.ac.ru^
+||mail.ioc.ac.ru^
 ||pn.ac.th^
 ||mantata.ac.ug^
 ||matisaas.ac.ug^
@@ -11700,6 +11702,7 @@
 ||apple.com-webbrowsing-security.site^
 ||com.com^
 ||beldiplomcom.75.com1.ru^
+||bittrex.com11648724328774.cf^
 ||bittrex.com1987465798.ga^
 ||com2err.xyz^
 ||comairairlines.com^
@@ -31408,6 +31411,7 @@
 ||netpoll.nl^
 ||get.netprotections.com^
 ||offers.netpulse.com^
+||view.netrams.com^
 ||web1b.netreflector.com^
 ||ad2.netriota.hu^
 ||revive.netriota.hu^
