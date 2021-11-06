@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-06 00:51:02Z
+! Last Modified: 2021-11-06 06:18:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9736,7 +9736,6 @@
 ||broshairy.com^
 ||broszka097.site^
 ||brothelangelsladies.com^
-||ism.brother.com^
 ||brothercrush.com^
 ||brotherselectricco.com^
 ||files.brothersoft.com^
@@ -63878,6 +63877,7 @@
 ||bs.url.tw^
 ||chienhung.url.tw^
 ||url2all.net^
+||v2.urlads.net^
 ||urlconfig.net^
 ||urlconnection.net^
 ||urlcut.net^
@@ -65248,7 +65248,6 @@
 ||sdk.voiceads.cn^
 ||post.voiceads.cn^
 ||post1.voiceads.cn^
-||bj.imp.voiceads.cn^
 ||voicehentai.com^
 ||adtrack.voicestar.com^
 ||cqpmvc.voici.fr^
@@ -69117,12 +69116,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||au.adserver.yahoo.com^
+||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -70334,6 +70331,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||ciadmindata.net.zooplus.de^
+||data.mobile.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^

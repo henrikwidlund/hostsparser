@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-06 00:51:05Z
+! Last Modified: 2021-11-06 06:18:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18571,7 +18571,6 @@
 ||druga-rzeczpospolitapolska.pl^
 ||metrics.drugpricinglaw.com^
 ||smetrics.drugpricinglaw.com^
-||ads.drugs.com^
 ||drugsofficial.com^
 ||stats.drugstore.com^
 ||drukmarket.eu^
@@ -62435,6 +62434,7 @@
 ||bs.url.tw^
 ||chienhung.url.tw^
 ||url2all.net^
+||v2.urlads.net^
 ||urlconfig.net^
 ||urlconnection.net^
 ||urlcut.net^

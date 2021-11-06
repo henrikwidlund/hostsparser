@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-06 00:51:11Z
+! Last Modified: 2021-11-06 06:19:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7799,7 +7799,6 @@
 ||bhclicks.com^
 ||metrics.bhg.com^
 ||stats.bholmes.dev^
-||affiliates.bhphotovideo.com^
 ||bhpipoz.pl^
 ||bhpkowalex.pl^
 ||bhraman.com^
@@ -18901,7 +18900,6 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
-||cdn-store-icons-akamai-prd.unityads.unity3d.com.edgekey.net^
 ||deep.edgequery.io^
 ||somniture.edgestar.com^
 ||c6.edgesuite.net^
@@ -61238,6 +61236,7 @@
 ||bs.url.tw^
 ||chienhung.url.tw^
 ||url2all.net^
+||v2.urlads.net^
 ||urlconfig.net^
 ||urlconnection.net^
 ||urlcut.net^
@@ -67723,9 +67722,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||vstg.mgmt.net.zooplus.de^
-||appsportal.net.zooplus.de^
-||node.stg.mgmt.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^
