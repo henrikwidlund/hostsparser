@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-06 06:19:17Z
+! Last Modified: 2021-11-06 12:24:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -49270,6 +49270,8 @@
 ||ads.roiserver.com^
 ||rok-tuwima.pl^
 ||rok.com.com^
+||dinoadserver1.roka.net^
+||dinoadserver2.roka.net^
 ||info.advertising.roku.com^
 ||rokus-tgy.hu^
 ||imagine.rolanddg.co.jp^
@@ -65403,7 +65405,6 @@
 ||mjp.zimad.com^
 ||zimb.space^
 ||zimbio.com^
-||static.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||raven.zimristats.com^
@@ -65555,9 +65556,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||adminassets.net.zooplus.de^
-||disabledapac.net.zooplus.de^
-||support.api.hw.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^

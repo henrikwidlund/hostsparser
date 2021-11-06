@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-06 06:18:54Z
+! Last Modified: 2021-11-06 12:24:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9736,6 +9736,7 @@
 ||broshairy.com^
 ||broszka097.site^
 ||brothelangelsladies.com^
+||ism.brother.com^
 ||brothercrush.com^
 ||brotherselectricco.com^
 ||files.brothersoft.com^
@@ -51525,7 +51526,6 @@
 ||river-store.com^
 ||riverbed.pl^
 ||riverbendtimes.com^
-||oascentral.riverfronttimes.com^
 ||riverislandpl.com^
 ||rivermarketcyclery.com^
 ||riverparishnews.com^
@@ -69116,7 +69116,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -70331,8 +70330,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||ciadmindata.net.zooplus.de^
-||data.mobile.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^

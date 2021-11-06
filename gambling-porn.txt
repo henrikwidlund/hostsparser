@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-06 06:19:12Z
+! Last Modified: 2021-11-06 12:24:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -45593,7 +45593,6 @@
 ||planetwin365.com^
 ||planitearthcreative.com^
 ||go.planmeca.com^
-||profiling.plannja.com^
 ||go.planpartners.com.au^
 ||go.wm.plantemoran.com^
 ||plantsandpots.com^
@@ -56790,7 +56789,6 @@
 ||teslax-invest.website^
 ||teslax.shop^
 ||tesler.today^
-||orlen.pl.teslinvests.site^
 ||syst.tesprograam.xyz^
 ||pl.tesprogram3.xyz^
 ||com.tesprogram5.xyz^
@@ -66967,7 +66965,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -68165,6 +68162,9 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||application.net.zooplus.de^
+||php.disabled.net.zooplus.de^
+||stg.mgmt.php.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^

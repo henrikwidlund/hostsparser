@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-06 06:19:01Z
+! Last Modified: 2021-11-06 12:24:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -40433,7 +40433,6 @@
 ||metrics.rituxan.com^
 ||smetrics.rituxan.com^
 ||metrics.rituxanforgpampa-hcp.com^
-||metrics.rituxanforpv.com^
 ||metrics.rituxanhycela.com^
 ||rivafinancialsystems.com^
 ||rivalcsgo.com^
@@ -43385,6 +43384,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
@@ -49588,6 +49588,7 @@
 ||www2.voxco.com^
 ||yf5.voyage-prive.at^
 ||vbe.voyage-prive.be^
+||ea.voyage-prive.co.uk^
 ||ek8.voyage-prive.com^
 ||eulerian.voyage-prive.com^
 ||ea.voyage-prive.es^
@@ -52310,6 +52311,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
