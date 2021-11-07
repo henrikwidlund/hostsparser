@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-06 18:18:04Z
+! Last Modified: 2021-11-07 00:54:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2581,6 +2581,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||ag.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
@@ -15865,7 +15866,6 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
-||wildcard.betrad.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -15873,6 +15873,7 @@
 ||unityads.unity3d.com.edgekey.net^
 ||scorecardresearch.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
+||cdn-dsa.clicktale.net.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
@@ -20347,6 +20348,7 @@
 ||m.globus-tours.net^
 ||globusdate.com^
 ||www2.globusgroup.com^
+||futurepay.globway.eu^
 ||gloos-ves.com^
 ||glopages.ru^
 ||ppl-puls.gloryft.com^
@@ -24649,7 +24651,6 @@
 ||images.itchydawg.com^
 ||itcompany.com^
 ||reseller.itechbrasil.com^
-||campaign.item-china.cn^
 ||itemagic.net^
 ||olx.pl.itemcheck-gn.pw^
 ||api.iterable.com^

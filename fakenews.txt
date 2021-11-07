@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-06 18:18:09Z
+! Last Modified: 2021-11-07 00:54:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21192,6 +21192,7 @@
 ||analytics.readcube.com.herokudns.com^
 ||production.wootric.com.herokudns.com^
 ||event-logger.tagboard.com.herokudns.com^
+||ios-quinoa-personal-identify-prod.sense360eng.com.herokudns.com^
 ||ads.heroldonline.com^
 ||herotoken.co^
 ||herotokens.io^
@@ -51904,6 +51905,9 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||lax-mgmt.net.zooplus.de^
+||mgmt.k8s.net.zooplus.de^
+||cloud-data.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^

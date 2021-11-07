@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-06 18:18:02Z
+! Last Modified: 2021-11-07 00:54:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3182,8 +3182,8 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||dotomi.weighted.com.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
-||sync-apsg.tidaltv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -22830,7 +22830,6 @@
 ||fnatic-lol.club^
 ||mdws.fnbc.ca^
 ||analytics.fnbfremont.com^
-||sanalytics.fnbo.com^
 ||sanalytics.fnbodirect.com^
 ||fncash.com^
 ||giraffe.fnd.info^
@@ -50052,6 +50051,7 @@
 ||ad.qq.com^
 ||fw.qq.com^
 ||rh.qq.com^
+||c.l.qq.com^
 ||rs1.qq.com^
 ||rs2.qq.com^
 ||msdk.qq.com^
@@ -67772,6 +67772,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -68987,9 +68988,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||lax-v1.net.zooplus.de^
-||cgi.tpe.net.zooplus.de^
-||ingress.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^
