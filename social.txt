@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-07 06:19:31Z
+! Last Modified: 2021-11-07 12:24:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28374,9 +28374,6 @@
 ||mobscan.info^
 ||mobsfun.com^
 ||play.mobsfun.net^
-||adv.mobsmart.net^
-||tags.mobsmart.net^
-||prebid.mobsmart.net^
 ||adserver.mobsmith.com^
 ||cdn.mobsocmedia.com^
 ||mobstarr.com^
@@ -50215,8 +50212,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||ebs.api.admins.net.zooplus.de^
-||testerlax-mgmt.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^
