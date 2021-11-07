@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-07 12:24:45Z
+! Last Modified: 2021-11-07 18:18:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17495,8 +17495,6 @@
 ||sleeper-sofa.dreamhoster.com^
 ||patio-furniture.dreamhoster.com^
 ||smetrics.dreamlabdata.com^
-||data.dreamland.be^
-||securedata.dreamland.be^
 ||dreamlist.top^
 ||dreammovies.com^
 ||dreams-business.info^
@@ -44106,7 +44104,6 @@
 ||pills-home.com^
 ||pillsmoney.com^
 ||pillsselect.com^
-||upi6.pillsstore-c.com^
 ||pilltabletsrxbargain.net^
 ||pillyways.xyz^
 ||pilnosc117.rest^
@@ -65713,8 +65710,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||tw.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||tw2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
