@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-07 00:54:50Z
+! Last Modified: 2021-11-07 06:19:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20808,6 +20808,7 @@
 ||f1netce.net.br^
 ||zkmvjm.f1news.ru^
 ||campaigns.f2.com.au^
+||go.f24.com^
 ||f4u.pl^
 ||mktg.aa.f5.com^
 ||email.social.f5.com^
@@ -41367,6 +41368,8 @@
 ||nw-rail-03.com^
 ||ssc.nwf.org^
 ||nwsgifs.com^
+||ads.nwsource.com^
+||metric.nwsource.com^
 ||ad.nwt.cz^
 ||nxgx.com^
 ||adserver.expatica.nxs.nl^
@@ -65619,10 +65622,12 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||europe.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -66816,6 +66821,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||cloud-data.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^
