@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-08 18:19:21Z
+! Last Modified: 2021-11-08 19:49:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26469,6 +26469,8 @@
 ||protection.hkpolice.com^
 ||hkrevolt.com^
 ||hksfa.org^
+||sc.hl.co.uk^
+||ssc.hl.co.uk^
 ||www2.hl.com^
 ||hlcc.ca^
 ||go.hldc.co.jp^
@@ -29848,7 +29850,6 @@
 ||jacquieetmicheltv2.net^
 ||certification.jacsai.org^
 ||jacsdergisi.com^
-||marketing.jacuzziontario.com^
 ||jade-net-home.com^
 ||info.jadelearning.com^
 ||kvskic.jadore-jun.jp^
@@ -49170,7 +49171,6 @@
 ||metrics.rolex.cn^
 ||metrics.rolex.com^
 ||smetrics.rolex.com^
-||api.rollbar.com^
 ||stat.rolledwil.biz^
 ||as.rollingstone.de^
 ||rolotube.com^
@@ -65711,6 +65711,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -66897,6 +66898,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||historymgmt.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^

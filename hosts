@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-08 18:18:55Z
+! Last Modified: 2021-11-08 19:49:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -55771,8 +55771,6 @@
 ||spectre-ai.net^
 ||spectre-ai.org^
 ||spectre.site^
-||elqapp.spectrum.com^
-||sanalytics.enterprise.spectrum.com^
 ||spectrumprayer.info^
 ||spedmania.com^
 ||speebble.com^
@@ -70329,70 +70327,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||api.developdisabled.net.zooplus.de^
-||api.priv.europewest.net.zooplus.de^
-||europewest.data.org.net.zooplus.de^
-||ghcpimanagement.ids.net.zooplus.de^
-||gitmanagement.azure.net.zooplus.de^
-||machine-data.docker.net.zooplus.de^
-||management.cert.ids.net.zooplus.de^
-||management.resetids.net.zooplus.de^
-||mgmt.administrators.net.zooplus.de^
-||mgmt.docs.documents.net.zooplus.de^
-||northamerica.api.v1.net.zooplus.de^
-||resetdata-admindata.net.zooplus.de^
-||sandbox-data.docker.net.zooplus.de^
-||securitystagingmgmt.net.zooplus.de^
-||trainingmgmt.docker.net.zooplus.de^
-||api.disabled.paywall.net.zooplus.de^
-||authorization.docker.net.zooplus.de^
-||documents-train-mgmt.net.zooplus.de^
-||gitmanagement.market.net.zooplus.de^
-||internal-stagingmgmt.net.zooplus.de^
-||legacy.gitmanagement.net.zooplus.de^
-||mgmt.docker.k8s-prod.net.zooplus.de^
-||mgmt.panel.documents.net.zooplus.de^
-||portal-gitmanagement.net.zooplus.de^
-||stagingmgmt.cloudapp.net.zooplus.de^
-||static.gitmanagement.net.zooplus.de^
-||stg.mobileclientmgmt.net.zooplus.de^
-||api.cloudfront.admins.net.zooplus.de^
-||api.firewall.disabled.net.zooplus.de^
-||api.priv.authenticate.net.zooplus.de^
-||apiserver-mgmt.docker.net.zooplus.de^
-||disabledauthorization.net.zooplus.de^
-||management.admins-tpe.net.zooplus.de^
-||management.apache.ids.net.zooplus.de^
-||management.ids.market.net.zooplus.de^
-||management.ids.webapp.net.zooplus.de^
-||management.manage-ids.net.zooplus.de^
-||managementdata.docker.net.zooplus.de^
-||marketing-mgmt.docker.net.zooplus.de^
-||mgmt.developer.docker.net.zooplus.de^
-||northamerica.latinapi.net.zooplus.de^
-||productionstrain-mgmt.net.zooplus.de^
-||uploadsmanagement.ids.net.zooplus.de^
-||administrator.lax-mgmt.net.zooplus.de^
-||backend-management.ids.net.zooplus.de^
-||northamerica.dockerapi.net.zooplus.de^
-||security.data.disabled.net.zooplus.de^
-||training-gitmanagement.net.zooplus.de^
-||uploads.management.ids.net.zooplus.de^
-||api.disabled.controller.net.zooplus.de^
-||api.europewest-disabled.net.zooplus.de^
-||cloudapp.mgmt.documents.net.zooplus.de^
-||management.customer-ids.net.zooplus.de^
-||mgmt.document.documents.net.zooplus.de^
-||resetdata-data.disabled.net.zooplus.de^
-||container.management.tpe.net.zooplus.de^
-||developer.mgmt.documents.net.zooplus.de^
-||loadbalancer.data.docker.net.zooplus.de^
-||northamerica.preview.api.net.zooplus.de^
-||elasticbeanstalk-appsmgmt.net.zooplus.de^
-||mobileclient-api.disabled.net.zooplus.de^
-||restricted.mgmt.documents.net.zooplus.de^
-||administrators.mgmt.docker.net.zooplus.de^
-||mgmt.mobileclientdocuments.net.zooplus.de^
 ||dii2.zooplus.dk^
 ||dii2.zooplus.es^
 ||car40.net.zooplus.es^
