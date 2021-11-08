@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-07 18:18:26Z
+! Last Modified: 2021-11-08 00:53:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17495,6 +17495,8 @@
 ||sleeper-sofa.dreamhoster.com^
 ||patio-furniture.dreamhoster.com^
 ||smetrics.dreamlabdata.com^
+||data.dreamland.be^
+||securedata.dreamland.be^
 ||dreamlist.top^
 ||dreammovies.com^
 ||dreams-business.info^
@@ -44104,6 +44106,7 @@
 ||pills-home.com^
 ||pillsmoney.com^
 ||pillsselect.com^
+||upi6.pillsstore-c.com^
 ||pilltabletsrxbargain.net^
 ||pillyways.xyz^
 ||pilnosc117.rest^
@@ -65711,7 +65714,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||tw2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
@@ -66899,6 +66901,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||csr12.net.zooplus.de^
+||mgmt.svc.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^

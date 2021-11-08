@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-07 18:18:23Z
+! Last Modified: 2021-11-08 00:53:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15366,7 +15366,6 @@
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
-||wildcard.marketo.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||scorecardresearch.com.edgekey.net^
@@ -44541,8 +44540,6 @@
 ||mailgw.thtf.com.cn^
 ||thuaoluion.com^
 ||thumbeks.com^
-||backdoor.thumblogger.com^
-||abbywintersnudes.thumblogger.com^
 ||cdn.banner.thumbplay.com^
 ||l.thumbtack.com^
 ||info.thumbtack.com^
