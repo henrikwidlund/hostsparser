@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-08 12:26:02Z
+! Last Modified: 2021-11-08 18:19:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17287,6 +17287,7 @@
 ||smetrics.fcbarcelona.cat^
 ||smetrics.fcbarcelona.com^
 ||smetrics.fcbarcelona.es^
+||smetrics.fcbarcelona.fr^
 ||smetrics.fcbarcelona.jp^
 ||info.fcbgroup.com.au^
 ||fcfg.pl^
@@ -27147,6 +27148,7 @@
 ||smetrics.louisianahealthconnect.com^
 ||louisianarecord.com^
 ||louisvillecitywire.com^
+||go.loungemembers.com^
 ||loutam.xyz^
 ||tr.louvre-boites.com^
 ||louyanx.pl^
@@ -51356,6 +51358,8 @@
 ||yourbestmatch.life^
 ||yourbestvaca.com^
 ||mdws.yourcu.com^
+||stats.yourdallashandyman.com^
+||cattle.yourdallashandyman.com^
 ||adjuggler.yourdictionary.com^
 ||yourdrugsassist.com^
 ||yourdvdplayer.com^
@@ -51898,6 +51902,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||support.labapi.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^
