@@ -41,7 +41,7 @@ namespace HostsParser
     /// Settings used for processing a hosts or AdBlock formatted source.
     /// </summary>
     /// <param name="SourceUris">The <see cref="Uri"/>s containing the hosts.</param>
-    /// <param name="SkipLines">Array of strings that, if present in the result from <see cref="SourceUri"/> will be filtered out.</param>
+    /// <param name="SkipLines">Array of strings that, if present in the result from <see cref="SourceUris"/> will be filtered out.</param>
     public sealed record SourceEntry(
         Uri[] SourceUris,
         string[]? SkipLines)
