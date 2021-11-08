@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-08 06:19:50Z
+! Last Modified: 2021-11-08 12:25:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3387,7 +3387,6 @@
 ||alivegirls.com^
 ||alivesex.org^
 ||acjs.aliyun.com^
-||beacon-api.aliyuncs.com^
 ||aljassarengineering.com^
 ||aljazeera-channel.com^
 ||tags.aljazeera.com^
@@ -33833,7 +33832,6 @@
 ||ww2.lindamoodbell.com^
 ||lindek.tk^
 ||lindensuttee.info^
-||lap-click.tr.line.me^
 ||line6agar.com^
 ||linebox.in^
 ||resources.linengineering.com^
@@ -69068,6 +69066,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||nginx.disabled.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^
