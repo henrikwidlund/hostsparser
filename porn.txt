@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-08 20:21:28Z
+! Last Modified: 2021-11-09 00:53:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -47125,7 +47125,6 @@
 ||przesyika24pl.fun^
 ||olx.przesylk.biz^
 ||olx.przesylk.com^
-||olx.przesylk.info^
 ||olx.przesylk.org^
 ||olx.przesylk.su^
 ||przesylka-olx.pl^
@@ -66899,10 +66898,9 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||mgmt.k8s.net.zooplus.de^
-||helpment.ids.net.zooplus.de^
-||mgmt.eventss.net.zooplus.de^
-||partner-mgmt.net.zooplus.de^
+||data.netdocker.net.zooplus.de^
+||eng.train-mgmt.net.zooplus.de^
+||page-admindata.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^
