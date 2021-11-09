@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-09 06:19:28Z
+! Last Modified: 2021-11-09 12:26:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29097,7 +29097,6 @@
 ||mkecitywire.com^
 ||mkenorth.com^
 ||mkesouth.com^
-||adtracker.mkjigsaw.com^
 ||advert.puzzles.mkjigsaw.com^
 ||mkls.pl^
 ||mkontakt.az^
@@ -51055,6 +51054,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||fr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -51321,6 +51321,8 @@
 ||youintelligence.com^
 ||ifa.youjizzlive.com^
 ||lstat.youku.com^
+||valb.atm.youku.com^
+||speed.lstat.youku.com^
 ||youliehow.com^
 ||youmighthelp582.club^
 ||youngcons.com^
@@ -51671,6 +51673,11 @@
 ||zenigameblinger.org^
 ||advertising.zenit.org^
 ||zenj.xyz^
+||prod.zenkube.com^
+||ads-bi.zenkube.com^
+||word-bi.zenkube.com^
+||databoat.zenkube.com^
+||puzzle-recomd.zenkube.com^
 ||go.zenlayer.com^
 ||cwcdmm.zennioptical.com^
 ||zennoa-poland.com^

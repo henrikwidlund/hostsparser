@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-09 06:19:17Z
+! Last Modified: 2021-11-09 12:26:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38179,7 +38179,6 @@
 ||mkecitywire.com^
 ||mkenorth.com^
 ||mkesouth.com^
-||adtracker.mkjigsaw.com^
 ||advert.puzzles.mkjigsaw.com^
 ||mkls.pl^
 ||mkontakt.az^
@@ -67770,7 +67769,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||es.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -68985,7 +68983,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||server-data.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^
@@ -69059,7 +69056,6 @@
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
 ||dii2.zooplus.fr^
-||car21.net.zooplus.fr^
 ||dii2.zooplus.gr^
 ||dii2.zooplus.hr^
 ||dii2.zooplus.hu^
@@ -69072,7 +69068,6 @@
 ||d.ns.emailvision.net.zooplus.it^
 ||net.zooplus.nl^
 ||dii2.zooplus.nl^
-||owa.net.zooplus.nl^
 ||dii2.zooplus.no^
 ||dii2.zooplus.pl^
 ||dii2.zooplus.pt^

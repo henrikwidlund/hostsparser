@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-09 06:19:30Z
+! Last Modified: 2021-11-09 12:26:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3098,6 +3098,7 @@
 ||airpb.com^
 ||airportsys.com^
 ||airpowers.xyz^
+||aa-metrics.handy.airregi.jp^
 ||aa-metrics.airreserve.net^
 ||aa-metrics.airrsv.net^
 ||pint-dev-branch.airship.com^
@@ -37179,7 +37180,6 @@
 ||vybbem.mk.ru^
 ||mkangels.co.uk^
 ||mke2morrow.com^
-||adtracker.mkjigsaw.com^
 ||advert.puzzles.mkjigsaw.com^
 ||mkls.pl^
 ||mkontakt.az^
@@ -65619,9 +65619,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||cn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
@@ -66818,7 +66816,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||admindata.mail.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^
