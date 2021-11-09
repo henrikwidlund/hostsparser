@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-09 00:53:37Z
+! Last Modified: 2021-11-09 06:19:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51671,11 +51671,6 @@
 ||zenigameblinger.org^
 ||advertising.zenit.org^
 ||zenj.xyz^
-||prod.zenkube.com^
-||ads-bi.zenkube.com^
-||word-bi.zenkube.com^
-||databoat.zenkube.com^
-||puzzle-recomd.zenkube.com^
 ||go.zenlayer.com^
 ||cwcdmm.zennioptical.com^
 ||zennoa-poland.com^
