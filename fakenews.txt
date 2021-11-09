@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-09 12:26:33Z
+! Last Modified: 2021-11-09 18:19:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51054,9 +51054,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||fr.adserver.yahoo.com^
+||gr.adserver.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -51321,8 +51323,6 @@
 ||youintelligence.com^
 ||ifa.youjizzlive.com^
 ||lstat.youku.com^
-||valb.atm.youku.com^
-||speed.lstat.youku.com^
 ||youliehow.com^
 ||youmighthelp582.club^
 ||youngcons.com^

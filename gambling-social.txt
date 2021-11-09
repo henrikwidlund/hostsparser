@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-09 12:26:39Z
+! Last Modified: 2021-11-09 18:19:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20510,6 +20510,7 @@
 ||grymas.icu^
 ||grz67.com^
 ||grzmot.icu^
+||gsasolutionssecure.gsa.gov^
 ||lem.gsdtest.co.za^
 ||smetrics.gsfresh.com^
 ||smetrics.gshock.com^
@@ -50639,6 +50640,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -51474,6 +51476,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||servicedata.org.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^
