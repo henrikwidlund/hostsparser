@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-10 00:53:37Z
+! Last Modified: 2021-11-10 06:19:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14252,6 +14252,7 @@
 ||drivotracker.com^
 ||click.drizly.com^
 ||clicks.drizly.com^
+||ns.drkdsinfo.com^
 ||drkness.net^
 ||zbyk.drl.pl^
 ||drm-google-analtyic.com^
@@ -22923,8 +22924,6 @@
 ||investnewspapers.info^
 ||investo.tech^
 ||metrics.investools.com^
-||ad.investopedia.com^
-||click.investopedia.com^
 ||investopresto.com^
 ||investor-pl.work^
 ||investor500.com^
@@ -29777,6 +29776,7 @@
 ||turpg.narktrade.site^
 ||pgintro.narktrade.site^
 ||narpol.com.pl^
+||static.narrativ.com^
 ||liquidad.narrowcastmedia.com^
 ||pl.bitcoinbillionarie.narrowfly.world^
 ||nartypomorze.pl^
@@ -48955,7 +48955,6 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -49382,7 +49381,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sg.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -50213,9 +50211,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||train-jenkins.net.zooplus.de^
-||data.marketorg.net.zooplus.de^
-||eng.train-mgmt.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^

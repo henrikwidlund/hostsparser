@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-10 00:53:17Z
+! Last Modified: 2021-11-10 06:19:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11822,6 +11822,7 @@
 ||email.cobsbread.com^
 ||cobusinessdaily.com^
 ||msg.cocamobile.com^
+||context.qc.coccoc.com^
 ||qgbnjd.coches.net^
 ||cocinaeljibarazo.com^
 ||cocktailbingo.com^
@@ -31702,6 +31703,7 @@
 ||turpg.narktrade.site^
 ||pgintro.narktrade.site^
 ||narpol.com.pl^
+||static.narrativ.com^
 ||liquidad.narrowcastmedia.com^
 ||pl.bitcoinbillionarie.narrowfly.world^
 ||nartypomorze.pl^
@@ -53647,8 +53649,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||ctl.org.net.zooplus.de^
-||api.login.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^
