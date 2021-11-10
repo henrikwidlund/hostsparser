@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-10 06:19:57Z
+! Last Modified: 2021-11-10 12:26:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22924,6 +22924,8 @@
 ||investnewspapers.info^
 ||investo.tech^
 ||metrics.investools.com^
+||ad.investopedia.com^
+||click.investopedia.com^
 ||investopresto.com^
 ||investor-pl.work^
 ||investor500.com^
@@ -43776,7 +43778,6 @@
 ||ticket-selections.com^
 ||smetrics.ticket.dk^
 ||smetrics.ticket.no^
-||smetrics.ticket.se^
 ||info.ticketbud.com^
 ||ads.as4x.tmcs.ticketmaster.ca^
 ||metrics.ticketmaster.com^
