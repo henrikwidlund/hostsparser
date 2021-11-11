@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-11 00:54:19Z
+! Last Modified: 2021-11-11 06:19:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -63202,6 +63202,7 @@
 ||metric.vodafone.com.eg^
 ||metrics.vodafone.com.eg^
 ||smetrics.vodafone.com.gh^
+||smetrics.vodafone.com.tr^
 ||swa.vodafone.cz^
 ||was.vodafone.de^
 ||smetrics.vodafone.es^
@@ -64247,7 +64248,6 @@
 ||ads.webisleri.com^
 ||a8.webist-cri.com^
 ||ads.webkinz.com^
-||js.webklik.nl^
 ||webkurchatov.ru^
 ||weblabcode.com^
 ||weblancer.pl^
