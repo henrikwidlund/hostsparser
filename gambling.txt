@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-11 12:25:40Z
+! Last Modified: 2021-11-11 18:19:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4545,6 +4545,7 @@
 ||www3.avast.com^
 ||stats.avast.com^
 ||uib.ff.avast.com^
+||analytics.ff.avast.com^
 ||ipm-provider.ff.avast.com^
 ||analytics.ns1.ff.avast.com^
 ||t.avastin-hcp.com^
@@ -21812,6 +21813,9 @@
 ||somni.huk24.de^
 ||hukbo.com^
 ||ox-d.hulkshare.com^
+||go.hulu.com^
+||ads.hulu.com^
+||ads-v-darwin.hulu.com^
 ||a.huluad.com^
 ||smetrics.humana.com^
 ||humandiven.com^
@@ -50151,6 +50155,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

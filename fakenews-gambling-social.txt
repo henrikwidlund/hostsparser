@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-11 12:25:24Z
+! Last Modified: 2021-11-11 18:18:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4685,6 +4685,7 @@
 ||www3.avast.com^
 ||stats.avast.com^
 ||uib.ff.avast.com^
+||analytics.ff.avast.com^
 ||ipm-provider.ff.avast.com^
 ||analytics.ns1.ff.avast.com^
 ||t.avastin-hcp.com^
@@ -7526,6 +7527,8 @@
 ||iad-06.braze.com^
 ||iad-08.braze.com^
 ||sdk.iad-02.braze.com^
+||izar.iad-03.braze.com^
+||rest.iad-03.braze.com^
 ||gudja.iad-02.braze.com^
 ||cdn.braze.eu^
 ||fra-01.braze.eu^
@@ -52960,7 +52963,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst5.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
@@ -53649,8 +53651,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||appskube.net.zooplus.de^
-||mgmt.k8s.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^

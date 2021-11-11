@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-11 12:25:33Z
+! Last Modified: 2021-11-11 18:19:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1389,7 +1389,6 @@
 ||smetrics.activase.com^
 ||activate-discount.com^
 ||paypal.activate-online.com^
-||matomo.activate.cz^
 ||cpbain.activatedyou.com^
 ||activation-netflix.com^
 ||active-folders.com^
@@ -4559,6 +4558,7 @@
 ||www3.avast.com^
 ||stats.avast.com^
 ||uib.ff.avast.com^
+||analytics.ff.avast.com^
 ||ipm-provider.ff.avast.com^
 ||analytics.ns1.ff.avast.com^
 ||t.avastin-hcp.com^
@@ -38342,7 +38342,6 @@
 ||go.r-ac.jp^
 ||smetrics.pdt.r-agent.com^
 ||logv2.r-oo.jp^
-||wgkvmz.r-ulybka.ru^
 ||tr.mailing.r2e-humanis.fr^
 ||r2prod.com^
 ||info.r3.com^
@@ -51055,6 +51054,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

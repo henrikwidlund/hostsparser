@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-11 12:25:23Z
+! Last Modified: 2021-11-11 18:18:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6384,6 +6384,7 @@
 ||www3.avast.com^
 ||stats.avast.com^
 ||uib.ff.avast.com^
+||analytics.ff.avast.com^
 ||ipm-provider.ff.avast.com^
 ||analytics.ns1.ff.avast.com^
 ||t.avastin-hcp.com^
@@ -21171,6 +21172,9 @@
 ||expase.com^
 ||ads.expat-blog.biz^
 ||expatsgeorgia.com^
+||om.expedia.com^
+||oms.expedia.com^
+||ads.expedia.com^
 ||expekt.com^
 ||expenseeraser.com^
 ||experclick.com^
@@ -33767,6 +33771,7 @@
 ||lansrv070.com^
 ||lansrv080.com^
 ||lansrv090.com^
+||content.lansweeper.com^
 ||sg.lansweeps.click^
 ||lantanna.mx^
 ||gazetka24.laohost.net^
@@ -52545,6 +52550,7 @@
 ||go.human.sankei.co.jp^
 ||go.learning.sankei.co.jp^
 ||sstats.sanmar.com^
+||promos.sanmarcanada.com^
 ||sanmateosun.com^
 ||sdc.sanofi-aventis.us^
 ||sanoma-adverteren.nl^
@@ -68978,15 +68984,8 @@
 ||dii2.zooplus.co.uk^
 ||net.zooplus.com^
 ||dii2.zooplus.com^
-||administrators.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||csr11.net.zooplus.de^
-||cdnmgmt.net.zooplus.de^
-||appskube.net.zooplus.de^
-||logindata.net.zooplus.de^
-||data.mobile.net.zooplus.de^
-||historymgmt.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^

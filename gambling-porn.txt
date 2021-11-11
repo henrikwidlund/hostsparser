@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-11 12:25:36Z
+! Last Modified: 2021-11-11 18:19:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6244,6 +6244,7 @@
 ||www3.avast.com^
 ||stats.avast.com^
 ||uib.ff.avast.com^
+||analytics.ff.avast.com^
 ||ipm-provider.ff.avast.com^
 ||analytics.ns1.ff.avast.com^
 ||t.avastin-hcp.com^
@@ -18642,10 +18643,6 @@
 ||api.ecbse.in^
 ||doubt.ecbse.in^
 ||reviseindia.ecbse.in^
-||ffconf.ecbsn.com^
-||apituner.ecbsn.com^
-||api.engager.ecbsn.com^
-||events.engager.ecbsn.com^
 ||ads.eccentrix.com^
 ||eccie.net^
 ||ecco-pl.com^
@@ -30024,7 +30021,6 @@
 ||metrics.ioffer.com^
 ||ioflix.com^
 ||iog-in-id.icu^
-||126898.iogowanie.xyz^
 ||ads.iol.co.il^
 ||adsrv.iol.co.za^
 ||tracking.iol.co.za^
