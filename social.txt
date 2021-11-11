@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-10 18:16:08Z
+! Last Modified: 2021-11-11 00:54:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -990,6 +990,7 @@
 ||spiceoils.a1oilindia.in^
 ||a1thumbpost.com^
 ||a2btrans.pl^
+||b.a2gw.com^
 ||a2multimedia.pl^
 ||a2sex.com^
 ||a2uu36g43l.download^
@@ -19663,6 +19664,7 @@
 ||govrefund-uk.com^
 ||govtjobopenings.com^
 ||gowadogo.com^
+||t.goxavier.com^
 ||ads.goyk.com^
 ||new1.pb5rjzmo6r80vgh.gozaraneh.ir^
 ||gozatar.com^
@@ -27346,6 +27348,7 @@
 ||mbankpl.pw^
 ||mbankpleu.online^
 ||mbe-group.net^
+||mbermorn.top^
 ||mbga.jp^
 ||mbgrm.com^
 ||mbljpu9.com^
@@ -45510,7 +45513,6 @@
 ||create.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
-||cdn-webview-pge.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
@@ -50213,11 +50215,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||t.net.zooplus.de^
-||csr11.net.zooplus.de^
-||train-scm.net.zooplus.de^
-||cloud-data.net.zooplus.de^
-||backendmgmt.net.zooplus.de^
+||static.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^

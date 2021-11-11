@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-10 18:15:54Z
+! Last Modified: 2021-11-11 00:54:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1044,6 +1044,7 @@
 ||spiceoils.a1oilindia.in^
 ||a1thumbpost.com^
 ||a2btrans.pl^
+||b.a2gw.com^
 ||a2multimedia.pl^
 ||a2sex.com^
 ||a2uu36g43l.download^
@@ -29034,6 +29035,7 @@
 ||mbankpl.pw^
 ||mbankpleu.online^
 ||mbe-group.net^
+||mbermorn.top^
 ||mbet.co.za^
 ||ad.sp.mbga.jp^
 ||mbgrm.com^
@@ -52308,7 +52310,9 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
+||de.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -53165,7 +53169,10 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||train-machine.net.zooplus.de^
+||sslmgmt.net.zooplus.de^
+||api.priv.net.zooplus.de^
+||api.server.net.zooplus.de^
+||api.staffrepo.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-10 18:15:59Z
+! Last Modified: 2021-11-11 00:54:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -996,6 +996,7 @@
 ||spiceoils.a1oilindia.in^
 ||a1thumbpost.com^
 ||a2btrans.pl^
+||b.a2gw.com^
 ||a2multimedia.pl^
 ||a2sex.com^
 ||a2uu36g43l.download^
@@ -28206,6 +28207,7 @@
 ||mbankpl.pw^
 ||mbankpleu.online^
 ||mbe-group.net^
+||mbermorn.top^
 ||ad.sp.mbga.jp^
 ||mbgrm.com^
 ||mbljpu9.com^
@@ -51902,9 +51904,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||ssl.net.zooplus.de^
-||api.old.net.zooplus.de^
-||gw.panel.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^
