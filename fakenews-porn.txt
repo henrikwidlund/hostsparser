@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-11 06:19:48Z
+! Last Modified: 2021-11-11 12:25:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17201,7 +17201,6 @@
 ||sw88.disney.ro^
 ||sw88.disney.ru^
 ||sw88.disney.se^
-||smetrics.disneychannel.ca^
 ||disneyembroiderycards.com^
 ||sc.disneylandparis.com^
 ||ssc.disneylandparis.com^
@@ -33643,7 +33642,6 @@
 ||soxnwz.lg.com^
 ||tracking.lg.com^
 ||omniture.lg.com^
-||ad.lgappstv.com^
 ||ibis.lgappstv.com^
 ||us.ibs.lgappstv.com^
 ||lgayanimalsexl.com^
@@ -51353,7 +51351,6 @@
 ||eu.business.samsung.com^
 ||tracking.europe.business.samsung.com^
 ||tracking.americas.business.samsung.com^
-||samsungacr.com^
 ||oempprd.samsungcloudsolution.com^
 ||vdterms.samsungcloudsolution.com^
 ||lcprd1.samsungcloudsolution.net^
@@ -69069,12 +69066,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||login-dev.net.zooplus.de^
-||api.server.net.zooplus.de^
-||backendmgmt.net.zooplus.de^
-||server-data.net.zooplus.de^
-||ctl.api.node.net.zooplus.de^
-||nginx.disabled.net.zooplus.de^
+||api.priv.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^

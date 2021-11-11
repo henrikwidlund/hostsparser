@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-11 06:19:40Z
+! Last Modified: 2021-11-11 12:25:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1857,8 +1857,6 @@
 ||metrics.active.com^
 ||smetrics.active.com^
 ||adimg.activeadv.net^
-||ads.activeagent.at^
-||ads1.activeagent.at^
 ||ablink.mail.activearcade.ai^
 ||www2.activebestakamaiflash.icu^
 ||metrics.activecommunities.com^
@@ -34364,7 +34362,6 @@
 ||soxnwz.lg.com^
 ||tracking.lg.com^
 ||omniture.lg.com^
-||ad.lgappstv.com^
 ||ibis.lgappstv.com^
 ||us.ibs.lgappstv.com^
 ||lgayanimalsexl.com^
@@ -52377,7 +52374,6 @@
 ||eu.business.samsung.com^
 ||tracking.europe.business.samsung.com^
 ||tracking.americas.business.samsung.com^
-||samsungacr.com^
 ||oempprd.samsungcloudsolution.com^
 ||vdterms.samsungcloudsolution.com^
 ||lcprd1.samsungcloudsolution.net^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-11 06:19:42Z
+! Last Modified: 2021-11-11 12:25:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21171,9 +21171,6 @@
 ||expase.com^
 ||ads.expat-blog.biz^
 ||expatsgeorgia.com^
-||om.expedia.com^
-||oms.expedia.com^
-||ads.expedia.com^
 ||expekt.com^
 ||expenseeraser.com^
 ||experclick.com^
@@ -33155,6 +33152,8 @@
 ||kokomostandard.com^
 ||kokoszulka.pl^
 ||kokotow.pl^
+||ads.kokteyl.com^
+||ligtv.kokteyl.com^
 ||kolejnyodcinekpolska.space^
 ||kolekcjnoerbiznessu.space^
 ||kolenda.host^
@@ -33768,7 +33767,6 @@
 ||lansrv070.com^
 ||lansrv080.com^
 ||lansrv090.com^
-||content.lansweeper.com^
 ||sg.lansweeps.click^
 ||lantanna.mx^
 ||gazetka24.laohost.net^
@@ -34454,7 +34452,6 @@
 ||soxnwz.lg.com^
 ||tracking.lg.com^
 ||omniture.lg.com^
-||ad.lgappstv.com^
 ||ibis.lgappstv.com^
 ||us.ibs.lgappstv.com^
 ||lgayanimalsexl.com^
@@ -52482,7 +52479,6 @@
 ||eu.business.samsung.com^
 ||tracking.europe.business.samsung.com^
 ||tracking.americas.business.samsung.com^
-||samsungacr.com^
 ||oempprd.samsungcloudsolution.com^
 ||vdterms.samsungcloudsolution.com^
 ||lcprd1.samsungcloudsolution.net^
@@ -52549,7 +52545,6 @@
 ||go.human.sankei.co.jp^
 ||go.learning.sankei.co.jp^
 ||sstats.sanmar.com^
-||promos.sanmarcanada.com^
 ||sanmateosun.com^
 ||sdc.sanofi-aventis.us^
 ||sanoma-adverteren.nl^
@@ -68983,10 +68978,15 @@
 ||dii2.zooplus.co.uk^
 ||net.zooplus.com^
 ||dii2.zooplus.com^
+||administrators.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||data.marketorg.net.zooplus.de^
-||originapi.priv.net.zooplus.de^
+||csr11.net.zooplus.de^
+||cdnmgmt.net.zooplus.de^
+||appskube.net.zooplus.de^
+||logindata.net.zooplus.de^
+||data.mobile.net.zooplus.de^
+||historymgmt.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^
