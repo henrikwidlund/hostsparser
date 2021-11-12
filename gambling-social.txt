@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-12 12:25:57Z
+! Last Modified: 2021-11-12 18:19:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -27182,8 +27182,6 @@
 ||eulerian.look-voyages.fr^
 ||lookbingo.com^
 ||app.cdn.lookbookhq.com^
-||brands.lookfantastic.com^
-||sbrands.lookfantastic.com^
 ||looking-for-two.com^
 ||lookitupnow.website^
 ||looklifewhite.com^
@@ -51904,7 +51902,6 @@
 ||pt.ziprecruiter.com^
 ||track.ziprecruiter.com^
 ||zipshare.com^
-||go.zipwater.com^
 ||trk.zkai.co.jp^
 ||ebis01.zkai.co.jp^
 ||samc.zkb.ch^
@@ -52002,7 +51999,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||applications.net.zooplus.de^
+||lax-mgmt.docker.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

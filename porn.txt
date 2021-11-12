@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-12 12:26:02Z
+! Last Modified: 2021-11-12 18:19:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9605,6 +9605,7 @@
 ||bureaulimited.ltd^
 ||info-fr.bureauveritas.com^
 ||cpsglobal.bureauveritas.com^
+||ads.burgasinfo.com^
 ||link.mail.burgerking.ca^
 ||link.yourway.burgerking.ca^
 ||clicks.burgerking.co.uk^
@@ -66227,8 +66228,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||pn1.adserver.yahoo.com^
-||pn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
@@ -67426,7 +67425,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||region.appsmgmt.net.zooplus.de^
+||api.login.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
