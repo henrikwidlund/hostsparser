@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-12 06:19:51Z
+! Last Modified: 2021-11-12 12:26:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17484,9 +17484,6 @@
 ||dostawa-olx.store^
 ||dostawa-olx.today^
 ||dostawa-olx.website^
-||olx.dostawa-orders.casa^
-||inpost.dostawa-orders.casa^
-||polskapoczta.dostawa-orders.casa^
 ||dostawa-paczki.com^
 ||dostawa-poland.com^
 ||dostawa-poland.pl^
@@ -66082,12 +66079,15 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||ssl-app.net.zooplus.de^
-||alpha.ids.net.zooplus.de^
+||oldapi.login.net.zooplus.de^
+||stg.app-mgmt.net.zooplus.de^
+||api.help.priv.net.zooplus.de^
+||api.tpe-login.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
 ||assets.train-mgmt.net.zooplus.de^
+||assetssupport.api.net.zooplus.de^
 ||data.assetsdocker.net.zooplus.de^
 ||data.bitbucketorg.net.zooplus.de^
 ||data.mobiledocker.net.zooplus.de^

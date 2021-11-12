@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-12 06:19:46Z
+! Last Modified: 2021-11-12 12:25:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28948,6 +28948,7 @@
 ||stat.ijinshan.com^
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
+||db.utag.ijinshan.com^
 ||keyserver.ijinshan.com^
 ||icas.ikea.com^
 ||sicas.ikea.com^
@@ -68687,10 +68688,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||data.pass.net.zooplus.de^
-||train-sec.net.zooplus.de^
-||acclax-mgmt.net.zooplus.de^
-||data.secorg.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

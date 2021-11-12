@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-12 06:19:54Z
+! Last Modified: 2021-11-12 12:26:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38203,6 +38203,7 @@
 ||resonate.com^
 ||houjin.resort.co.jp^
 ||xiv-baycourtclub.resort.co.jp^
+||hair-dos.resourcesarchive.com^
 ||ad.response.jp^
 ||responsiveads.com^
 ||static.cdn.responsys.net^
@@ -46056,7 +46057,6 @@
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
 ||create.unity3d.com^
-||webview.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -50740,8 +50740,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||php.disabled.net.zooplus.de^
-||stg.mgmt.php.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

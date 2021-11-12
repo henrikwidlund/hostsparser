@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-12 06:19:41Z
+! Last Modified: 2021-11-12 12:25:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -33779,6 +33779,8 @@
 ||apicssdk.onemt.co^
 ||go.onenetwork.com^
 ||www2.oneome.com^
+||stats.onepagelove.com^
+||tipstats.onepagelove.com^
 ||ads.oneplace.com^
 ||ads2.oneplace.com^
 ||oneplprojekt.info^
@@ -52910,15 +52912,10 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||techssl.net.zooplus.de^
-||appschef.net.zooplus.de^
-||api.login.net.zooplus.de^
-||page-ctl.api.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
 ||assets.train-mgmt.net.zooplus.de^
-||assetssupport.api.net.zooplus.de^
 ||data.assetsdocker.net.zooplus.de^
 ||data.bitbucketorg.net.zooplus.de^
 ||data.mobiledocker.net.zooplus.de^
