@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-11 18:19:04Z
+! Last Modified: 2021-11-12 00:54:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3152,6 +3152,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||cacp-hlb.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
@@ -50848,7 +50849,6 @@
 ||sagent.io^
 ||saharabet.com^
 ||saharanights.info^
-||as.saiglobal.com^
 ||xgtxdf.saihok.jp^
 ||api.sail-personalize.com^
 ||aws-api.sail-personalize.com^
@@ -65765,8 +65765,6 @@
 ||yeztq.com^
 ||yezzclips.com^
 ||a8cv.ygm-clinic.or.jp^
-||www7.ygto.com^
-||fresh.ygto.com^
 ||info.yha.com.au^
 ||yhdncj.biz^
 ||yhdnrjncdndswnrj.nl^
@@ -66819,15 +66817,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||secapi.net.zooplus.de^
-||cdnmgmt.net.zooplus.de^
-||vpn.tpe.net.zooplus.de^
-||apps.tpe.net.zooplus.de^
-||gw.panel.net.zooplus.de^
-||alpha.ids.net.zooplus.de^
-||appsportal.net.zooplus.de^
-||cvs-ctl.api.net.zooplus.de^
-||gitteamment.net.zooplus.de^
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||europewest.data.org.net.zooplus.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-11 18:19:08Z
+! Last Modified: 2021-11-12 00:54:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -37851,6 +37851,7 @@
 ||tgw-masdk.3g.qq.com^
 ||tgw-sasdk.3g.qq.com^
 ||analytics.map.qq.com^
+||aexception.bugly.qq.com^
 ||qq8.ag^
 ||qqhr2008.com^
 ||qqsms.in^
@@ -47593,8 +47594,6 @@
 ||villabet.com^
 ||villagarden.pl^
 ||analytics.villagehouse.jp^
-||oas.villagevoice.com^
-||oascentral.villagevoice.com^
 ||go.villahomes.com^
 ||villalecchi.com^
 ||villaparadisohotel.com^
