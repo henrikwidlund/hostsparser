@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-13 12:24:35Z
+! Last Modified: 2021-11-13 18:18:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2571,6 +2571,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||ag.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
@@ -8220,7 +8221,6 @@
 ||camstaterep.com^
 ||camteens.to^
 ||ads.host.camz.com^
-||sso.canada.com^
 ||canadaalltax.com^
 ||oascentral.canadaeast.com^
 ||go.canadahelps.org^
@@ -18418,7 +18418,6 @@
 ||foreclousures.com^
 ||metrics.forecourttrader.co.uk^
 ||metrics.foreignpolicy.com^
-||go.foremostmedia.com^
 ||pardot.forenom.com^
 ||wwwroot.forent.sk^
 ||foresee.com^
@@ -32805,7 +32804,6 @@
 ||navegador.oi.com.br^
 ||oidiscover.com^
 ||oilchairgroup.live^
-||tigershark.oilpriceapi.com^
 ||oinadserve.com^
 ||apps5.oingo.com^
 ||partner01.oingo.com^
@@ -52002,8 +52000,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||panelappsmgmt.net.zooplus.de^
-||alphaarketing.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

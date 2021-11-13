@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-13 12:24:36Z
+! Last Modified: 2021-11-13 18:18:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7385,6 +7385,7 @@
 ||iad-06.braze.com^
 ||iad-08.braze.com^
 ||sdk.iad-02.braze.com^
+||rest.iad-03.braze.com^
 ||gudja.iad-02.braze.com^
 ||cdn.braze.eu^
 ||fra-01.braze.eu^
@@ -51671,6 +51672,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||vpnowa.net.zooplus.fr^
 ||dii2.zooplus.gr^
 ||dii2.zooplus.hr^
 ||dii2.zooplus.hu^
@@ -51700,6 +51702,7 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
+||marketing-elastic.net.zooplus.nl^
 ||dii2.zooplus.no^
 ||dii2.zooplus.pl^
 ||dii2.zooplus.pt^

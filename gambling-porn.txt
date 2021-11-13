@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-13 12:24:34Z
+! Last Modified: 2021-11-13 18:18:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35179,6 +35179,7 @@
 ||macmor-media.com.au^
 ||ads.macnews.de^
 ||mlhtmc.macnificos.com^
+||kermit.macnn.com^
 ||macombdisplayads.com^
 ||maconbraves.com^
 ||stats.macosicons.com^
@@ -68686,6 +68687,9 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||devopsail.net.zooplus.de^
+||prod-mail.net.zooplus.de^
+||mgmt.2docker.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
