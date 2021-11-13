@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-12 18:19:11Z
+! Last Modified: 2021-11-13 00:52:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -40397,6 +40397,8 @@
 ||nestscape.com^
 ||neswangy.net^
 ||neszmely.eu^
+||ycembr.net-a-porter.com^
+||smetrics.net-a-porter.com^
 ||t.net-ap19.stream^
 ||a.net-bt32.stream^
 ||ads2.net-communities.co.uk^
@@ -50029,6 +50031,8 @@
 ||smetrics.readyforbusinesswith.com^
 ||readynutrition.com^
 ||info.readytrainingonline.com^
+||ftproy.readyvirtualcenter.com^
+||zingit.readyvirtualcenter.com^
 ||reagancoalition.com^
 ||real-fitness2019.real-fitness.jp^
 ||real-homemade-movies.com^
@@ -67034,6 +67038,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

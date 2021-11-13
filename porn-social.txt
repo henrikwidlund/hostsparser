@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-12 18:19:20Z
+! Last Modified: 2021-11-13 00:52:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30350,7 +30350,6 @@
 ||japansporno.com^
 ||japanstubes.com^
 ||japanteenfuck.com^
-||banners.japantoday.com^
 ||japanvideo24.com^
 ||japanxangels.com^
 ||aaa.japanxvideos.mobi^
@@ -64884,6 +64883,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||br.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

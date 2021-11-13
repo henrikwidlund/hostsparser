@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-12 18:19:07Z
+! Last Modified: 2021-11-13 00:52:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19552,6 +19552,7 @@
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
+||cdn-dsa.clicktale.net.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
@@ -27078,6 +27079,7 @@
 ||happyteenfuck.com^
 ||happytugs.info^
 ||happyvalleytimes.com^
+||mautic.haproinfo.vn^
 ||a8.haptic.co.jp^
 ||stats.harbauer.org^
 ||smetrics.harborfreight.com^
@@ -30279,6 +30281,7 @@
 ||adserver.infinit.net^
 ||infiniteunknown.net^
 ||infinitybet.com^
+||pod.infinitypersonals.com^
 ||cashmaster.infinitypl.xyz^
 ||infinityteenmovies.com^
 ||infinitytest.site^
@@ -55852,7 +55855,6 @@
 ||tc.snpsresidential.com^
 ||snrcash.com^
 ||swa.snsbank.nl^
-||analytics.snssdk.com^
 ||snyowx29.com^
 ||ssmr.so-net.ne.jp^
 ||aesus.so-net.ne.jp^

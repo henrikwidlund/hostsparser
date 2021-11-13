@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-12 18:19:12Z
+! Last Modified: 2021-11-13 00:52:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10077,6 +10077,7 @@
 ||protection.bypolice.com^
 ||byprzestali.pl^
 ||fzu4.bysidecar.com^
+||adssea.byspotify.com^
 ||med.bystolic.com^
 ||med.bystolichcp.com^
 ||med.bystolicsavings.com^
@@ -18992,7 +18993,6 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
-||cdn.spotxcdn.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
@@ -19003,7 +19003,6 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
-||wildcard.marketo.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -68382,7 +68381,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||eu-pn2.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -69748,7 +69746,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||owa.mgmt.net.zooplus.fr^
 ||dii2.zooplus.gr^
 ||dii2.zooplus.hr^
 ||dii2.zooplus.hu^
