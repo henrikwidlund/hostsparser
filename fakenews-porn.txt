@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-13 06:18:57Z
+! Last Modified: 2021-11-13 12:24:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3135,9 +3135,11 @@
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
+||sync-usva.tidaltv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
+||beacon-nf.rubiconproject.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
 ||marketing.akaes.com^
@@ -18994,6 +18996,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
+||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -49334,6 +49337,7 @@
 ||ysdk.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
+||sdk.e.qq.com^
 ||logsdk.qq.com^
 ||omgmta.qq.com^
 ||pingjs.qq.com^

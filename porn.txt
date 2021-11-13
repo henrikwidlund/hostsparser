@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-13 06:19:07Z
+! Last Modified: 2021-11-13 12:24:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36659,7 +36659,6 @@
 ||config.mobilegamestats.com^
 ||mobilejmp.com^
 ||ads.mobilemarketer.com^
-||static.mobilemonkey.com^
 ||mola77.mobilenobo.com^
 ||mobileofferplace.site^
 ||mobilepaczkomat.com^
@@ -53069,6 +53068,7 @@
 ||nrtubi.sobrico.com^
 ||soc3x.com^
 ||socalmovies.com^
+||ads.socapro.com^
 ||soccerstreamingstars.com^
 ||social-artist.net^
 ||social-exercise.com^
@@ -67424,9 +67424,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||stg.php.net.zooplus.de^
-||appschef.net.zooplus.de^
-||extcsr11.net.zooplus.de^
+||disableddata.net.zooplus.de^
+||testment.ids.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
