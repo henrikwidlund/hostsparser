@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-13 00:52:10Z
+! Last Modified: 2021-11-13 06:18:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7330,7 +7330,6 @@
 ||breadgsrtiaief.com^
 ||breadkgrief.com^
 ||breadtokenapp.com^
-||stats.breadtube.tv^
 ||breakfastisgood.com^
 ||breaking-extranews.online^
 ||breaking-news.co^
@@ -40183,7 +40182,6 @@
 ||metric.royalmail.com^
 ||metrics.royalmail.com^
 ||royaltrend.pl^
-||offers.royalvegascasino.com^
 ||rozbij-bank.click^
 ||rozbiterodzinyzkraju.cyou^
 ||pjtlme.rozetka.com.ua^
@@ -52912,10 +52910,13 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||gh.management.net.zooplus.de^
+||oldapi.admins.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
 ||assets.train-mgmt.net.zooplus.de^
+||assetssupport.api.net.zooplus.de^
 ||data.assetsdocker.net.zooplus.de^
 ||data.bitbucketorg.net.zooplus.de^
 ||data.mobiledocker.net.zooplus.de^

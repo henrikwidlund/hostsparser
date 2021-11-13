@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-13 00:52:16Z
+! Last Modified: 2021-11-13 06:19:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -41914,6 +41914,7 @@
 ||office365-update-en.com^
 ||office365-update-eu.com^
 ||office365-us-update.com^
+||smetrics.officechairs.com^
 ||www18.officedepot.com^
 ||smetrics.officefurniture.com^
 ||officehelptogo.com^
@@ -68686,8 +68687,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||zooplus-2csr41.net.zooplus.de^
-||admineuropewest.net.zooplus.de^
+||systemlax-mgmt.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

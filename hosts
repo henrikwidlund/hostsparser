@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-13 00:51:57Z
+! Last Modified: 2021-11-13 06:18:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24628,9 +24628,6 @@
 ||garternal7.live^
 ||garternal8.live^
 ||garternal9.live^
-||fpc.gartner.com^
-||elqact.gartner.com^
-||research.gartner.com^
 ||gartoninvest.co^
 ||garudaairlines.com^
 ||gas-web.com^
@@ -36134,6 +36131,7 @@
 ||made4porn.com^
 ||sykc.madeindesign.ch^
 ||tmy8.madeindesign.ch^
+||vqp3.madeindesign.co.uk^
 ||uzd1.madeindesign.com^
 ||sby1.madeindesign.de^
 ||mgt7.madeindesign.it^
@@ -70279,6 +70277,14 @@
 ||logger.yp.ca^
 ||metric.yp.com^
 ||ypmate.com^
+||ev.ypncdn.com^
+||fs.ypncdn.com^
+||di1.ypncdn.com^
+||fi1.ypncdn.com^
+||cv-ph.ypncdn.com^
+||ev-ph.ypncdn.com^
+||di1-ph.ypncdn.com^
+||fi1-ph.ypncdn.com^
 ||yporn.tv^
 ||yps.to^
 ||yrals.com^
