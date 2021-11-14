@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-14 12:24:42Z
+! Last Modified: 2021-11-14 18:18:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16492,6 +16492,8 @@
 ||esamochod.pl^
 ||esapolioes.com^
 ||esapoltramins.com^
+||metrics.esbriet.com^
+||smetrics.esbriet.com^
 ||metrics.esbriethcp.com^
 ||smetrics.esbriethcp.com^
 ||metrics.escape.com.au^
@@ -48783,7 +48785,6 @@
 ||advice-ads-cdn.vice.com^
 ||s-adobeanalytics.vice.com^
 ||vice4beek.com^
-||smetrics.viceroyhotelsandresorts.com^
 ||secure.vick6duty.com^
 ||trackit.vicotech.com^
 ||serconsole.vicp.cc^

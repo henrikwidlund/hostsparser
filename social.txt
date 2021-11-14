@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-14 12:24:56Z
+! Last Modified: 2021-11-14 18:18:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13319,6 +13319,7 @@
 ||oqr4.destinia.in^
 ||hby7.destinia.it^
 ||zrw1.destinia.jp^
+||ppp7.destinia.kr^
 ||upz1.destinia.lt^
 ||znq9.destinia.mx^
 ||rup5.destinia.ru^
@@ -49481,6 +49482,7 @@
 ||xianyujc.com^
 ||xiaodi8.com^
 ||api.d.xiaomi.com^
+||api.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -49899,10 +49901,12 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||global.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -50739,8 +50743,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||api.partnerrepo.net.zooplus.de^
-||ebs.mgmt.docker.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
