@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-13 18:18:19Z
+! Last Modified: 2021-11-14 00:55:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19062,7 +19062,6 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
-||cdn-store-icons-akamai-prd.unityads.unity3d.com.edgekey.net^
 ||deep.edgequery.io^
 ||somniture.edgestar.com^
 ||c6.edgesuite.net^
@@ -19315,9 +19314,6 @@
 ||ekstrabladet.dk^
 ||maps-antivert58.eksuziv.net^
 ||maps-spyware251-300.eksuziv.net^
-||metrics.el-mundo.net^
-||smetrics.el-mundo.net^
-||active.cache.el-mundo.net^
 ||adv.elaana.com^
 ||elaboratedonor.com^
 ||smetrics.elal.com^
@@ -67345,7 +67341,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||ctl.org.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

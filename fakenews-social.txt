@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-13 18:18:17Z
+! Last Modified: 2021-11-14 00:55:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15978,6 +15978,8 @@
 ||res.elle.fr^
 ||gmufag.elle.ru^
 ||metrics.ellechina.com^
+||metrics.ellentube.com^
+||smetrics.ellentube.com^
 ||api.elliehuxtable.com^
 ||ellise.pl^
 ||ew.elliswhittam.com^
@@ -52910,14 +52912,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||ingress.net.zooplus.de^
-||ssl-ssl.net.zooplus.de^
-||api.gits.net.zooplus.de^
-||apps.tpe.net.zooplus.de^
-||mgmt.k8s.net.zooplus.de^
-||apps.data.net.zooplus.de^
-||fw.docker.net.zooplus.de^
-||mail01car40.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
