@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-14 00:55:09Z
+! Last Modified: 2021-11-14 06:19:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11600,6 +11600,15 @@
 ||chechla.cnixon.com^
 ||cnn-africa.co^
 ||cnn.cm^
+||sdc.cnn.com^
+||ads.cnn.com^
+||data.cnn.com^
+||gdyn.cnn.com^
+||agility.cnn.com^
+||cnn.dyn.cnn.com^
+||customad.cnn.com^
+||z.cdp-dev.cnn.com^
+||lightning.cnn.com^
 ||i.l.cnn.net^
 ||cnnbank.site^
 ||analytics.cnnchile.com^
@@ -15572,6 +15581,7 @@
 ||outbrainimg.com.edgekey.net^
 ||serving-sys.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
+||ma80-r.analytics.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
@@ -47245,7 +47255,6 @@
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
 ||create.unity3d.com^
-||config.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -51146,7 +51155,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||pn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
@@ -51995,9 +52003,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||api.resets.net.zooplus.de^
 ||car40-beta.net.zooplus.de^
-||cloud-data.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

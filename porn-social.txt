@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-14 00:55:12Z
+! Last Modified: 2021-11-14 06:19:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8371,7 +8371,6 @@
 ||blatant8jh.info^
 ||blazingtrader.biz^
 ||bleachbit.com^
-||analytics.bleacherreport.com^
 ||bleachpixxx.com^
 ||bleedingvirgins.com^
 ||blegono.com^
@@ -66082,6 +66081,12 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||static.net.zooplus.de^
+||vpn.tpe.net.zooplus.de^
+||appschef.net.zooplus.de^
+||gw.panel.net.zooplus.de^
+||redirect.net.zooplus.de^
+||mgmt.eventss.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

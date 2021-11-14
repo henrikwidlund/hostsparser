@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-14 00:54:50Z
+! Last Modified: 2021-11-14 06:19:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3200,6 +3200,7 @@
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
+||pixel.rubiconproject.net.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
@@ -19001,7 +19002,6 @@
 ||e-mailprywatnosc.site^
 ||bobcatminer-store.e-mantra.in^
 ||lp.e-mcast.co.jp^
-||zdads.e-media.com^
 ||e-media24.pl^
 ||e-memoryut.com^
 ||e-miasto.eu^

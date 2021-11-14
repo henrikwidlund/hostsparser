@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-14 00:55:14Z
+! Last Modified: 2021-11-14 06:19:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -50616,7 +50616,6 @@
 ||sdk.scopely.io^
 ||aprod.scopely.io^
 ||collector.scopely.io^
-||register.collector.scopely.io^
 ||score-video.com^
 ||scoreadate.com^
 ||scorecardresearch.com^
@@ -67426,7 +67425,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||apps.data.net.zooplus.de^
+||stg.mgmt.php.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
