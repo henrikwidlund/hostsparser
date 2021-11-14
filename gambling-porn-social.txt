@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-14 06:19:20Z
+! Last Modified: 2021-11-14 12:24:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2734,8 +2734,6 @@
 ||adwebone.com^
 ||adwenturehelp.club^
 ||adwidecenter.com^
-||i.adwise.bg^
-||as.adwise.bg^
 ||adwitty.com^
 ||rtb.adwmg.com^
 ||r2.adwo.com^
@@ -40909,6 +40907,7 @@
 ||go.nkbb.jp^
 ||tracking.nkbm.si^
 ||ay.nktostip.xyz^
+||asd.nl.bauhaus^
 ||nlb.lk^
 ||mdws.nlcu.com^
 ||nlink.com.br^
@@ -67343,6 +67342,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||disableddata.net.zooplus.de^
+||mgmt.2docker.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

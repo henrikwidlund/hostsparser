@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-14 06:19:17Z
+! Last Modified: 2021-11-14 12:24:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16492,8 +16492,6 @@
 ||esamochod.pl^
 ||esapolioes.com^
 ||esapoltramins.com^
-||metrics.esbriet.com^
-||smetrics.esbriet.com^
 ||metrics.esbriethcp.com^
 ||smetrics.esbriethcp.com^
 ||metrics.escape.com.au^
@@ -52055,7 +52053,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -52322,7 +52319,6 @@
 ||youintelligence.com^
 ||ifa.youjizzlive.com^
 ||lstat.youku.com^
-||static.lstat.youku.com^
 ||youliehow.com^
 ||youmighthelp582.club^
 ||youngcons.com^
@@ -52914,9 +52910,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||api.tpe-login.net.zooplus.de^
-||ctl.api.proxy.net.zooplus.de^
-||git-admindata.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

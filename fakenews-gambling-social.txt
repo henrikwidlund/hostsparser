@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-14 06:19:09Z
+! Last Modified: 2021-11-14 12:24:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21884,8 +21884,6 @@
 ||health-lab.store^
 ||health-line.me^
 ||health-partner.net^
-||tiads.health.com^
-||metrics.health.com^
 ||pages.health365.com.au^
 ||go.healthactioncouncil.org^
 ||healthbeautyncs.com^
@@ -54174,10 +54172,12 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||ssl-dockerapi.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
 ||assets.train-mgmt.net.zooplus.de^
+||assetssupport.api.net.zooplus.de^
 ||data.assetsdocker.net.zooplus.de^
 ||data.bitbucketorg.net.zooplus.de^
 ||data.mobiledocker.net.zooplus.de^
