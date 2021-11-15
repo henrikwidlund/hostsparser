@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-15 12:26:41Z
+! Last Modified: 2021-11-15 18:15:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3298,6 +3298,8 @@
 ||sstats.americafirst.com^
 ||american-prize-center.com^
 ||dbpbyh.americanas.com.br^
+||webstats.americanbar.org^
+||swebstats.americanbar.org^
 ||marketing.americanbathgroup.com^
 ||www2.americanbible.org^
 ||i.americanblinds.com^
