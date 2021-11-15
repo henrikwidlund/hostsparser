@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-15 00:53:09Z
+! Last Modified: 2021-11-15 06:20:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39453,6 +39453,7 @@
 ||remox.com^
 ||information.remploy.co.uk^
 ||smetrics.remserv.com.au^
+||go2.renault.co.nz^
 ||rencontreavenue.com^
 ||pan.render.com^
 ||ltaoei.rendez-vous.ru^

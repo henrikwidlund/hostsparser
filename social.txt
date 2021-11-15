@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-15 00:53:21Z
+! Last Modified: 2021-11-15 06:20:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21905,7 +21905,6 @@
 ||ideawheel.com^
 ||idecoideas.com^
 ||kwvfdo.idefix.com^
-||gcirm.idehostatesman.com^
 ||ideibiznesa2015.ru^
 ||campaign.idemia.com^
 ||go.identiv.com^
@@ -50725,9 +50724,12 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||partner-mgmt.net.zooplus.de^
-||region.csr31.net.zooplus.de^
-||tpe.stg.mgmt.net.zooplus.de^
+||marketing.net.zooplus.de^
+||raw.csr11.net.zooplus.de^
+||apacheing.net.zooplus.de^
+||partnerapi.net.zooplus.de^
+||data.engorg.net.zooplus.de^
+||panel.testing.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

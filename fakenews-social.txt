@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-15 00:53:07Z
+! Last Modified: 2021-11-15 06:20:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15576,7 +15576,7 @@
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||ds-s7.addthis.com.edgekey.net^
+||ma562-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -40747,10 +40747,6 @@
 ||santandersbk.com^
 ||iqdcaz.santehnika-online.ru^
 ||sanuk-poland.com^
-||ablink.e.sanvello.com^
-||ablink.care.sanvello.com^
-||ablink.help.sanvello.com^
-||ablink.hello.sanvello.com^
 ||saon6harz.com^
 ||smetrics.sap.com^
 ||sapapartamenty.pl^
@@ -51612,7 +51608,6 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||log.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -53053,8 +53048,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||adminmail.net.zooplus.fr^
-||repo-mail.net.zooplus.fr^
 ||dii2.zooplus.gr^
 ||dii2.zooplus.hr^
 ||dii2.zooplus.hu^

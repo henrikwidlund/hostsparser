@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-15 00:53:13Z
+! Last Modified: 2021-11-15 06:20:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28978,7 +28978,6 @@
 ||imagevenue.com^
 ||img-a2.ak.imagevz.net^
 ||imageweb.ws^
-||tracking.imagewebdesign.fr^
 ||imagezilla.net^
 ||imagezog.com^
 ||sdkv2.imaginationunwired.com^
@@ -67453,8 +67452,8 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -68673,6 +68672,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||data.engorg.net.zooplus.de^
+||globalcsr31.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

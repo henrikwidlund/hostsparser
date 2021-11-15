@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-15 00:52:57Z
+! Last Modified: 2021-11-15 06:19:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19678,6 +19678,7 @@
 ||stat-ssl.eiga.com^
 ||eigafilms.com^
 ||eightwatersoldierone.live^
+||c.adingo.jp.eimg.jp^
 ||get.mobu.jp.eimg.jp^
 ||img.fluct.jp.eimg.jp^
 ||ein.xxx^
@@ -55202,6 +55203,7 @@
 ||plausible.staging.sketch.com^
 ||sketchysex.com^
 ||promo.skf.com^
+||us.promo.skf.com^
 ||skidrowcrack.com^
 ||go.skience.com^
 ||skillduty.com^
