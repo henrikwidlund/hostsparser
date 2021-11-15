@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-15 06:20:09Z
+! Last Modified: 2021-11-15 12:26:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28978,6 +28978,7 @@
 ||imagevenue.com^
 ||img-a2.ak.imagevz.net^
 ||imageweb.ws^
+||tracking.imagewebdesign.fr^
 ||imagezilla.net^
 ||imagezog.com^
 ||sdkv2.imaginationunwired.com^
@@ -50685,7 +50686,6 @@
 ||adnetwork.rovicorp.com^
 ||rovingadventures.com^
 ||ads.cdn.rovio.com^
-||videoads-cloud.rovio.com^
 ||growyourbusiness.rovva.com^
 ||falcon.rowanmanning.com^
 ||rowanmclean.com^
@@ -54122,7 +54122,6 @@
 ||go.snowplowanalytics.com^
 ||aolsvc.snowqueen.ru^
 ||tr.info.snpden.net^
-||collector.snplow.net^
 ||tc.snpsresidential.com^
 ||snrcash.com^
 ||swa.snsbank.nl^
@@ -66482,6 +66481,7 @@
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -67452,7 +67452,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -68672,8 +68671,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||data.engorg.net.zooplus.de^
-||globalcsr31.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

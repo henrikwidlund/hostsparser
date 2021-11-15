@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-15 06:20:17Z
+! Last Modified: 2021-11-15 12:26:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21905,6 +21905,7 @@
 ||ideawheel.com^
 ||idecoideas.com^
 ||kwvfdo.idefix.com^
+||gcirm.idehostatesman.com^
 ||ideibiznesa2015.ru^
 ||campaign.idemia.com^
 ||go.identiv.com^
@@ -38658,7 +38659,6 @@
 ||adnetwork.rovicorp.com^
 ||rovingadventures.com^
 ||ads.cdn.rovio.com^
-||videoads-cloud.rovio.com^
 ||growyourbusiness.rovva.com^
 ||falcon.rowanmanning.com^
 ||rowanmclean.com^
@@ -41076,7 +41076,6 @@
 ||go.snowplowanalytics.com^
 ||aolsvc.snowqueen.ru^
 ||tr.info.snpden.net^
-||collector.snplow.net^
 ||tc.snpsresidential.com^
 ||swa.snsbank.nl^
 ||analytics.snssdk.com^
@@ -50724,12 +50723,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||marketing.net.zooplus.de^
-||raw.csr11.net.zooplus.de^
-||apacheing.net.zooplus.de^
-||partnerapi.net.zooplus.de^
-||data.engorg.net.zooplus.de^
-||panel.testing.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

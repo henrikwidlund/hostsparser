@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-15 06:20:11Z
+! Last Modified: 2021-11-15 12:26:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39673,7 +39673,6 @@
 ||adnetwork.rovicorp.com^
 ||rovingadventures.com^
 ||ads.cdn.rovio.com^
-||videoads-cloud.rovio.com^
 ||growyourbusiness.rovva.com^
 ||falcon.rowanmanning.com^
 ||rowanmclean.com^
@@ -42149,7 +42148,6 @@
 ||go.snowplowanalytics.com^
 ||aolsvc.snowqueen.ru^
 ||tr.info.snpden.net^
-||collector.snplow.net^
 ||tc.snpsresidential.com^
 ||swa.snsbank.nl^
 ||analytics.snssdk.com^
@@ -47200,6 +47198,7 @@
 ||create.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
+||auction-load.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
@@ -51987,7 +51986,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||devs-admindata.net.zooplus.de^
+||api.priv.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

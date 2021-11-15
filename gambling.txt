@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-15 06:20:12Z
+! Last Modified: 2021-11-15 12:26:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15518,6 +15518,7 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
+||ssum-sec.casalemedia.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -39564,7 +39565,6 @@
 ||adnetwork.rovicorp.com^
 ||rovingadventures.com^
 ||ads.cdn.rovio.com^
-||videoads-cloud.rovio.com^
 ||growyourbusiness.rovva.com^
 ||falcon.rowanmanning.com^
 ||rowanmclean.com^
@@ -42040,7 +42040,6 @@
 ||go.snowplowanalytics.com^
 ||aolsvc.snowqueen.ru^
 ||tr.info.snpden.net^
-||collector.snplow.net^
 ||tc.snpsresidential.com^
 ||swa.snsbank.nl^
 ||analytics.snssdk.com^

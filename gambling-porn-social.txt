@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-15 06:20:07Z
+! Last Modified: 2021-11-15 12:26:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -50794,7 +50794,6 @@
 ||adnetwork.rovicorp.com^
 ||rovingadventures.com^
 ||ads.cdn.rovio.com^
-||videoads-cloud.rovio.com^
 ||growyourbusiness.rovva.com^
 ||falcon.rowanmanning.com^
 ||rowanmclean.com^
@@ -54231,7 +54230,6 @@
 ||go.snowplowanalytics.com^
 ||aolsvc.snowqueen.ru^
 ||tr.info.snpden.net^
-||collector.snplow.net^
 ||tc.snpsresidential.com^
 ||snrcash.com^
 ||swa.snsbank.nl^
@@ -65139,6 +65137,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
@@ -66114,6 +66113,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -67329,6 +67329,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||oldapi.login.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

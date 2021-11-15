@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-15 06:20:01Z
+! Last Modified: 2021-11-15 12:26:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51270,7 +51270,6 @@
 ||adnetwork.rovicorp.com^
 ||rovingadventures.com^
 ||ads.cdn.rovio.com^
-||videoads-cloud.rovio.com^
 ||growyourbusiness.rovva.com^
 ||falcon.rowanmanning.com^
 ||rowanmclean.com^
@@ -54780,7 +54779,6 @@
 ||go.snowplowanalytics.com^
 ||aolsvc.snowqueen.ru^
 ||tr.info.snpden.net^
-||collector.snplow.net^
 ||tc.snpsresidential.com^
 ||snrcash.com^
 ||swa.snsbank.nl^
@@ -67012,6 +67010,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -68238,7 +68237,6 @@
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
 ||assets.train-mgmt.net.zooplus.de^
-||assetssupport.api.net.zooplus.de^
 ||data.assetsdocker.net.zooplus.de^
 ||data.bitbucketorg.net.zooplus.de^
 ||data.mobiledocker.net.zooplus.de^

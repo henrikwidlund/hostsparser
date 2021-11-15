@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-15 06:19:52Z
+! Last Modified: 2021-11-15 12:26:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19678,7 +19678,6 @@
 ||stat-ssl.eiga.com^
 ||eigafilms.com^
 ||eightwatersoldierone.live^
-||c.adingo.jp.eimg.jp^
 ||get.mobu.jp.eimg.jp^
 ||img.fluct.jp.eimg.jp^
 ||ein.xxx^
@@ -52177,7 +52176,6 @@
 ||adnetwork.rovicorp.com^
 ||rovingadventures.com^
 ||ads.cdn.rovio.com^
-||videoads-cloud.rovio.com^
 ||growyourbusiness.rovva.com^
 ||falcon.rowanmanning.com^
 ||rowanmclean.com^
@@ -55203,7 +55201,6 @@
 ||plausible.staging.sketch.com^
 ||sketchysex.com^
 ||promo.skf.com^
-||us.promo.skf.com^
 ||skidrowcrack.com^
 ||go.skience.com^
 ||skillduty.com^
@@ -55746,7 +55743,6 @@
 ||go.snowplowanalytics.com^
 ||aolsvc.snowqueen.ru^
 ||tr.info.snpden.net^
-||collector.snplow.net^
 ||tc.snpsresidential.com^
 ||snrcash.com^
 ||swa.snsbank.nl^
@@ -69610,6 +69606,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
