@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-16 06:18:03Z
+! Last Modified: 2021-11-16 12:25:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24493,6 +24493,7 @@
 ||game-hack.biz^
 ||mobile.game-insight.com^
 ||tribez.game-insight.com^
+||ads.game.net^
 ||track.game18click.com^
 ||game9time.com^
 ||n.gameads.io^
@@ -30991,7 +30992,6 @@
 ||tr.invitation-mesdessous.fr^
 ||invitefashion.com^
 ||invitro-bg.com^
-||e.invodo.com^
 ||invoke.ml^
 ||invol.co^
 ||invvest-pl.website^
@@ -63123,7 +63123,6 @@
 ||msn.uvwbox.de^
 ||uvy3.pl^
 ||angela.uw.hu^
-||info.uw.org^
 ||uwaga-tvn.pl^
 ||uwagainfo24.eu^
 ||wywvyf.uwants.com^
@@ -69493,6 +69492,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||apacheing.net.zooplus.de^
+||car40-beta.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

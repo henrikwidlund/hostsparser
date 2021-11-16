@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-16 06:18:16Z
+! Last Modified: 2021-11-16 12:26:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -41702,6 +41702,8 @@
 ||plausible.test.sketch.com^
 ||plausible.staging.sketch.com^
 ||promo.skf.com^
+||nordic.promo.skf.com^
+||vsmeus.promo.skf.com^
 ||skidrowcrack.com^
 ||go.skience.com^
 ||skillduty.com^
@@ -51985,15 +51987,10 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||ctl.org.net.zooplus.de^
-||apps.tpe.net.zooplus.de^
-||extcsr11.net.zooplus.de^
-||data.mobile.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
 ||assets.train-mgmt.net.zooplus.de^
-||assetssupport.api.net.zooplus.de^
 ||data.assetsdocker.net.zooplus.de^
 ||data.bitbucketorg.net.zooplus.de^
 ||data.mobiledocker.net.zooplus.de^
