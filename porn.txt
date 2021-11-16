@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-15 18:16:10Z
+! Last Modified: 2021-11-16 00:54:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31939,7 +31939,6 @@
 ||stats.krauss.io^
 ||kravmaga-nikaia.com^
 ||ads.krawall.de^
-||unifashion.app.krazyit.com.au^
 ||pkbefa.krc.com.tr^
 ||krdn.pl^
 ||kreaffiliation.com^
@@ -67408,7 +67407,11 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||stg.php.net.zooplus.de^
+||api.mail.net.zooplus.de^
+||mgmt.k8s.net.zooplus.de^
+||s3-csr11.net.zooplus.de^
+||historymgmt.net.zooplus.de^
+||kubectldata.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

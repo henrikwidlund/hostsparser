@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-15 18:15:59Z
+! Last Modified: 2021-11-16 00:54:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18091,6 +18091,7 @@
 ||florsheimbuty.com^
 ||www2.flotman.pl^
 ||flow8free.com^
+||plausible.flowcv.io^
 ||flower.bg^
 ||flowers-offer.com^
 ||flowerstiik.com^
@@ -51125,6 +51126,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^

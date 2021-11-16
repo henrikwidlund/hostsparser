@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-15 18:15:49Z
+! Last Modified: 2021-11-16 00:53:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8315,7 +8315,6 @@
 ||californiastateparks.com^
 ||calistenix.pl^
 ||communications.calix.com^
-||fly.caljetelite.com^
 ||ask-regard.call-save.biz^
 ||callandget.co.in^
 ||callawaypos.com^
@@ -24339,6 +24338,8 @@
 ||elqtrk.intel.com.au^
 ||www91.intel.com.br^
 ||elqtrk.intel.com.br^
+||www91.intel.com.tr^
+||elqtrk.intel.com.tr^
 ||www91.intel.com.tw^
 ||elqtrk.intel.com.tw^
 ||www91.intel.de^
@@ -54155,14 +54156,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||lax-mgmt.net.zooplus.de^
-||www-mail.net.zooplus.de^
-||devopsail.net.zooplus.de^
-||cloud-data.net.zooplus.de^
-||backendmgmt.net.zooplus.de^
-||ciadmindata.net.zooplus.de^
-||historymgmt.net.zooplus.de^
-||alphaarketing.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
