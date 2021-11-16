@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-16 12:25:58Z
+! Last Modified: 2021-11-16 18:17:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31894,7 +31894,6 @@
 ||mapp.jysk.dk^
 ||mapp.jysk.nl^
 ||jzigsobgsmxdmr.bid^
-||track.msadcenter.jzz.com^
 ||bmqjor.k-bid.com^
 ||k-filmy.pl^
 ||k-macs.ne.jp^
@@ -59373,6 +59372,7 @@
 ||marketing.tllms.com^
 ||go2.tlv.com^
 ||tlvmw.top^
+||felix.data.tm-awx.com^
 ||youtube.tm.pl^
 ||tma.co.jp^
 ||tmbinaryfx.com^
@@ -68230,8 +68230,15 @@
 ||dii2.zooplus.co.uk^
 ||net.zooplus.com^
 ||dii2.zooplus.com^
+||cms.s3.legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||lax-mgmt.net.zooplus.de^
+||mgmt.svc.net.zooplus.de^
+||s3-csr11.net.zooplus.de^
+||car40latin.net.zooplus.de^
+||iad.docker.net.zooplus.de^
+||api.rpcadmins.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-16 12:26:09Z
+! Last Modified: 2021-11-16 18:17:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -41702,8 +41702,6 @@
 ||plausible.test.sketch.com^
 ||plausible.staging.sketch.com^
 ||promo.skf.com^
-||nordic.promo.skf.com^
-||vsmeus.promo.skf.com^
 ||skidrowcrack.com^
 ||go.skience.com^
 ||skillduty.com^
@@ -45625,6 +45623,7 @@
 ||marketing.tllms.com^
 ||go2.tlv.com^
 ||tlvmw.top^
+||felix.data.tm-awx.com^
 ||youtube.tm.pl^
 ||tmbinaryfx.com^
 ||oascentral.tmcnet.com^
@@ -51987,6 +51986,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||api.stafflogin.net.zooplus.de^
+||ctl.static-api.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
@@ -52141,6 +52142,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||swag-mail.net.zooplus.fr^
 ||dii2.zooplus.gr^
 ||dii2.zooplus.hr^
 ||dii2.zooplus.hu^

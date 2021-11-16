@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-16 12:26:12Z
+! Last Modified: 2021-11-16 18:17:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19965,6 +19965,7 @@
 ||dcapps.disney.go.com^
 ||seavideo-ak.espn.go.com^
 ||oascentral.abclocal.go.com^
+||ctologger01.analytics.go.com^
 ||bankdata.temanggungkab.go.id^
 ||jcb.jnto.go.jp^
 ||directml.jfc.go.jp^
@@ -45258,6 +45259,7 @@
 ||marketing.tllms.com^
 ||go2.tlv.com^
 ||tlvmw.top^
+||felix.data.tm-awx.com^
 ||youtube.tm.pl^
 ||tmbinaryfx.com^
 ||oascentral.tmcnet.com^
@@ -50642,6 +50644,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

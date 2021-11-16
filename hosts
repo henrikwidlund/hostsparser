@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-16 12:25:50Z
+! Last Modified: 2021-11-16 18:17:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -55201,7 +55201,6 @@
 ||plausible.staging.sketch.com^
 ||sketchysex.com^
 ||promo.skf.com^
-||nordic.promo.skf.com^
 ||skidrowcrack.com^
 ||go.skience.com^
 ||skillduty.com^
@@ -60175,6 +60174,7 @@
 ||marketing.tllms.com^
 ||go2.tlv.com^
 ||tlvmw.top^
+||felix.data.tm-awx.com^
 ||youtube.tm.pl^
 ||tma.co.jp^
 ||tmbinaryfx.com^
@@ -70679,7 +70679,6 @@
 ||zimadeals.pl^
 ||zimb.space^
 ||zimbio.com^
-||static.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||raven.zimristats.com^
