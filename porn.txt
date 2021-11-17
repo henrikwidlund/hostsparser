@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-17 06:19:54Z
+! Last Modified: 2021-11-17 12:26:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22467,6 +22467,7 @@
 ||cdn.freejars.com^
 ||freejav.us^
 ||cdn.freejaw.com^
+||cdn.freejax.com^
 ||cdn.freejlo.com^
 ||freejpgseries.com^
 ||freejuicywebcams.com^
@@ -66189,7 +66190,6 @@
 ||go.store.yahoo-net.jp^
 ||fc.yahoo.com^
 ||comet.yahoo.com^
-||ganon.yahoo.com^
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
@@ -66198,11 +66198,13 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||europe.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -67408,12 +67410,11 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||train-scm.net.zooplus.de^
-||api.help.priv.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
 ||assets.train-mgmt.net.zooplus.de^
+||assetssupport.api.net.zooplus.de^
 ||data.assetsdocker.net.zooplus.de^
 ||data.bitbucketorg.net.zooplus.de^
 ||data.mobiledocker.net.zooplus.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-17 06:19:38Z
+! Last Modified: 2021-11-17 12:26:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -37236,9 +37236,6 @@
 ||inpost.pl-orderedpay.shop^
 ||pl-orderedpays.club^
 ||pl-orderedpays.shop^
-||olx.pl-orderpaid.cyou^
-||inpost.pl-orderpaid.cyou^
-||poczta.pl-orderpaid.cyou^
 ||olx.pl-orderpaid.work^
 ||inpost.pl-orderpaid.work^
 ||olx.pl-orderpays.cyou^
@@ -51835,6 +51832,7 @@
 ||wn.worknest.com^
 ||workoutnow.world^
 ||workshopmanager.net^
+||go.workspot.com^
 ||workstations.pl^
 ||world-flags.cn^
 ||qzwktr.world-fusigi.net^
@@ -52785,7 +52783,6 @@
 ||go.store.yahoo-net.jp^
 ||fc.yahoo.com^
 ||comet.yahoo.com^
-||ganon.yahoo.com^
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^

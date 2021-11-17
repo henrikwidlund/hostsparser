@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-17 06:19:51Z
+! Last Modified: 2021-11-17 12:26:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13054,6 +13054,7 @@
 ||dai-stablecoin.com^
 ||info.daiichigakuin.jp^
 ||www-smt.daiichisankyo-hc.co.jp^
+||go.daijob.com^
 ||info.daikin.co.jp^
 ||go.daikin.eu^
 ||info.daikinaircon.com^
@@ -50630,7 +50631,6 @@
 ||go.store.yahoo-net.jp^
 ||fc.yahoo.com^
 ||comet.yahoo.com^
-||ganon.yahoo.com^
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
@@ -51500,6 +51500,9 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||mgmt.net.zooplus.de^
+||lax-v1.net.zooplus.de^
+||ssl-ssl.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
