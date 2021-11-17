@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-16 18:17:32Z
+! Last Modified: 2021-11-17 00:53:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18479,9 +18479,6 @@
 ||info.fourkitchens.com^
 ||fourwinds10.net^
 ||fowerea.com^
-||a.fox.com^
-||b.fox.com^
-||ads.fox.com^
 ||smetrics.foxbusiness.com^
 ||foxcitiesnews.com^
 ||foxcounter.com^
@@ -51125,6 +51122,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -52411,9 +52409,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||appskube.net.zooplus.de^
-||api.help.priv.net.zooplus.de^
-||api.skinsrepo.net.zooplus.de^
+||devstagingmgmt.net.zooplus.de^
+||nginx.disabled.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
