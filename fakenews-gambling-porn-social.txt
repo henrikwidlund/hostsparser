@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-17 00:53:07Z
+! Last Modified: 2021-11-17 06:19:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10066,7 +10066,6 @@
 ||bundlestofear.com^
 ||bunemas.com^
 ||bungalowsentertainment.com^
-||stats.bungeefit.co.uk^
 ||bunnyland.cc^
 ||bunnylust.com^
 ||bunnylust.info^
@@ -19532,6 +19531,7 @@
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
+||ds-api-public.addthis.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -68261,8 +68261,8 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||pn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -69496,6 +69496,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||api.server.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

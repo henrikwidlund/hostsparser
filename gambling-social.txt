@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-17 00:53:26Z
+! Last Modified: 2021-11-17 06:19:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19227,6 +19227,9 @@
 ||gamesiteads.com^
 ||gamesites100.net^
 ||gamesites200.com^
+||aa.gamespot.com^
+||saa.gamespot.com^
+||trax.gamespot.com^
 ||poster.gamesprite.me^
 ||ads.gamespy.com^
 ||counter.gamespy.com^

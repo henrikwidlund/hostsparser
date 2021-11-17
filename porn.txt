@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-17 00:53:33Z
+! Last Modified: 2021-11-17 06:19:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22467,7 +22467,6 @@
 ||cdn.freejars.com^
 ||freejav.us^
 ||cdn.freejaw.com^
-||cdn.freejax.com^
 ||cdn.freejlo.com^
 ||freejpgseries.com^
 ||freejuicywebcams.com^
@@ -66202,7 +66201,6 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -67410,6 +67408,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||train-scm.net.zooplus.de^
+||api.help.priv.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

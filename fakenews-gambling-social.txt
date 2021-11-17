@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-17 00:53:08Z
+! Last Modified: 2021-11-17 06:19:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16075,6 +16075,7 @@
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
+||wildcard.outbrain.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -47904,6 +47905,7 @@
 ||download.cdn.torchbrowser.com^
 ||tordado.xyz^
 ||tores.xyz^
+||info.torfx.com.au^
 ||torgi.kz^
 ||go.toriaez.jp^
 ||torjackan.info^
@@ -53280,6 +53282,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -54311,7 +54314,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||vpnowa.net.zooplus.fr^
 ||dii2.zooplus.gr^
 ||dii2.zooplus.hr^
 ||dii2.zooplus.hu^
