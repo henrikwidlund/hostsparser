@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-17 12:26:02Z
+! Last Modified: 2021-11-17 18:15:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -27255,7 +27255,6 @@
 ||levioutletpolska.com^
 ||lkvkgk.levis.com.tr^
 ||leviswyprzedaz.com^
-||info.leviton.com^
 ||conveyor.lewcoinc.com^
 ||lewell.fr^
 ||lewistontimes.com^
@@ -37236,6 +37235,9 @@
 ||inpost.pl-orderedpay.shop^
 ||pl-orderedpays.club^
 ||pl-orderedpays.shop^
+||olx.pl-orderpaid.cyou^
+||inpost.pl-orderpaid.cyou^
+||poczta.pl-orderpaid.cyou^
 ||olx.pl-orderpaid.work^
 ||inpost.pl-orderpaid.work^
 ||olx.pl-orderpays.cyou^
@@ -53669,6 +53671,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||acclax-mgmt.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-17 12:26:13Z
+! Last Modified: 2021-11-17 18:16:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11788,7 +11788,6 @@
 ||clickstatsview.chooseonlinecasino.com^
 ||asp.chop-shop.com.au^
 ||secure.chop8live.com^
-||click.email.chope.co^
 ||chopsticktube.com^
 ||chopstixpolska.pl^
 ||chor-moniuszko.pl^
@@ -41712,6 +41711,7 @@
 ||obeyter.com^
 ||ot.obi-italia.it^
 ||ot.obi.at^
+||ot.obi.ba^
 ||ot.obi.ch^
 ||ot.obi.cz^
 ||ot.obi.de^
@@ -67450,6 +67450,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -68669,6 +68670,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||ctl.org.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

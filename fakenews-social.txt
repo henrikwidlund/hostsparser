@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-17 12:26:08Z
+! Last Modified: 2021-11-17 18:16:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8995,7 +8995,6 @@
 ||cl.chaytonloan.com^
 ||chcemyschudnac.pl^
 ||chceszogred.pl^
-||ads.cheabit.com^
 ||cheap-laptops-notebook-computers.info^
 ||cheapapartmentsaroundme.com^
 ||cheapcardonline.com^
@@ -15594,7 +15593,6 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
-||global-wildcard.insightexpressai.com.edgekey.net^
 ||deep.edgequery.io^
 ||somniture.edgestar.com^
 ||c6.edgesuite.net^
@@ -38466,8 +38464,6 @@
 ||ad.sma.punto.net^
 ||puppetworks.com^
 ||puppychain.pl^
-||li.purch.com^
-||assets.purch.com^
 ||purchase-olx.pl^
 ||inpost-pl.purchaseitem.pw^
 ||purchaseusingcoins.com^
@@ -52022,18 +52018,14 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
-||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ar.adserver.yahoo.com^
-||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -52900,6 +52892,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||helpment.ids.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

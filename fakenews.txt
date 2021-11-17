@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-17 12:26:09Z
+! Last Modified: 2021-11-17 18:16:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51542,12 +51542,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||no.adserver.yahoo.com^
-||in.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
-||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -52414,10 +52410,14 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||lax-mgmt.net.zooplus.de^
+||marketing.net.zooplus.de^
+||lax-mgmt.ops.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
 ||assets.train-mgmt.net.zooplus.de^
+||assetssupport.api.net.zooplus.de^
 ||data.assetsdocker.net.zooplus.de^
 ||data.bitbucketorg.net.zooplus.de^
 ||data.mobiledocker.net.zooplus.de^
