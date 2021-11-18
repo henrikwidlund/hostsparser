@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-18 12:26:58Z
+! Last Modified: 2021-11-18 18:19:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13439,33 +13439,6 @@
 ||delta-promotion-usa.com^
 ||metrics.delta.com^
 ||smetrics.delta.com^
-||balanced-engage.deltadna.net^
-||engage3515gvrnr.deltadna.net^
-||engage5081wrdch.deltadna.net^
-||engage8829thscr.deltadna.net^
-||balanced-collect.deltadna.net^
-||collect2585gmsfw.deltadna.net^
-||collect3515gvrnr.deltadna.net^
-||collect4739mgndm.deltadna.net^
-||collect5081wrdch.deltadna.net^
-||engage10665dd4kq.deltadna.net^
-||engage10791rllrc.deltadna.net^
-||engage10854wrdcr.deltadna.net^
-||engage11442ldybg.deltadna.net^
-||engage12348wrdvs.deltadna.net^
-||engage12981wrdfl.deltadna.net^
-||engage13764wrdst.deltadna.net^
-||engage14541skllg.deltadna.net^
-||engage15099mrbll.deltadna.net^
-||engage17070dvntr.deltadna.net^
-||collect10665dd4kq.deltadna.net^
-||collect10791rllrc.deltadna.net^
-||collect10854wrdcr.deltadna.net^
-||collect11136gwntd.deltadna.net^
-||collect12348wrdvs.deltadna.net^
-||collect12981wrdfl.deltadna.net^
-||collect15099mrbll.deltadna.net^
-||collect17070dvntr.deltadna.net^
 ||metrics.deltafarmpress.com^
 ||go.deltarisk.com^
 ||marketing.deltechomes.com^
@@ -51473,7 +51446,6 @@
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
-||diagnosis.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -51894,7 +51866,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -52762,7 +52733,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||apps.tpe.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
