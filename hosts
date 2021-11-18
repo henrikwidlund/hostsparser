@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-17 18:15:51Z
+! Last Modified: 2021-11-18 00:53:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5310,6 +5310,7 @@
 ||data.appscomeon.com^
 ||appsdorado.com^
 ||appservestar.com^
+||appsflyer.com^
 ||sdk.appsflyer.tk^
 ||stat.appsgeyser.com^
 ||files.appsgeyser.com^
@@ -34578,7 +34579,6 @@
 ||information.lgcns.com^
 ||b2bmkt.lge.co.kr^
 ||etc.lghausysusa.com^
-||update.lgim.com^
 ||lgis.co^
 ||info.lgsolarusa.com^
 ||dnag.lgtinvesting.site^
@@ -55159,7 +55159,6 @@
 ||analytics.sixt.it^
 ||analytics.sixt.jobs^
 ||analytics.sixt.jp^
-||analytics.sixt.nl^
 ||analytics.sixtcarsales.de^
 ||techplnew.siyeas33.xyz^
 ||sizmek.com^
@@ -69602,8 +69601,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ae.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

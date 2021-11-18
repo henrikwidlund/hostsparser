@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-17 18:16:04Z
+! Last Modified: 2021-11-18 00:54:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5234,6 +5234,7 @@
 ||data.appscomeon.com^
 ||appsdorado.com^
 ||appservestar.com^
+||appsflyer.com^
 ||sdk.appsflyer.tk^
 ||stat.appsgeyser.com^
 ||files.appsgeyser.com^
@@ -11788,6 +11789,7 @@
 ||clickstatsview.chooseonlinecasino.com^
 ||asp.chop-shop.com.au^
 ||secure.chop8live.com^
+||click.email.chope.co^
 ||chopsticktube.com^
 ||chopstixpolska.pl^
 ||chor-moniuszko.pl^
@@ -50054,7 +50056,6 @@
 ||repairintenselyprecisefile.icu^
 ||repairmadi.com^
 ||repartitionredbones.info^
-||smetrics.repco.co.nz^
 ||smetrics.repco.com.au^
 ||repcorgtobeaese.com^
 ||repcorlteobese.com^
@@ -67450,7 +67451,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -68670,7 +68670,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||ctl.org.net.zooplus.de^
+||application.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

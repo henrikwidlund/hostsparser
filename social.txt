@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-17 18:16:16Z
+! Last Modified: 2021-11-18 00:54:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3790,6 +3790,7 @@
 ||data.appscomeon.com^
 ||appsdorado.com^
 ||appservestar.com^
+||appsflyer.com^
 ||sdk.appsflyer.tk^
 ||stat.appsgeyser.com^
 ||files.appsgeyser.com^
@@ -37939,6 +37940,7 @@
 ||refuelinstitute.com^
 ||interac.refund-canada.com^
 ||refundacjeregionalne.pl^
+||olx.pl.reg-item.site^
 ||reg-me.pl^
 ||reg-olx.pl^
 ||parking.reg.ru^

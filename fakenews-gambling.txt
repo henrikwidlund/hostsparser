@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-17 18:15:56Z
+! Last Modified: 2021-11-18 00:53:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3898,6 +3898,7 @@
 ||data.appscomeon.com^
 ||appsdorado.com^
 ||appservestar.com^
+||appsflyer.com^
 ||sdk.appsflyer.tk^
 ||stat.appsgeyser.com^
 ||files.appsgeyser.com^
@@ -16815,12 +16816,6 @@
 ||equalitystatenews.com^
 ||equallyyolked.com^
 ||clicks.equantum.com^
-||go.equifax.com^
-||awap.equifax.com^
-||sawap.equifax.com^
-||ussolutions.equifax.com^
-||goworkforce.equifax.com^
-||workforcesolutions.equifax.com^
 ||info.equilar.com^
 ||equilibrios.ga^
 ||somnit.equinox.com^
@@ -18824,7 +18819,6 @@
 ||metrics.foodnavigator-asia.com^
 ||metrics.foodnavigator-latam.com^
 ||metrics.foodnavigator-usa.com^
-||metrics.foodnavigator.com^
 ||ssa.foodnetwork.com^
 ||link.foodnetwork.com^
 ||foodscience.news^
@@ -27255,6 +27249,7 @@
 ||levioutletpolska.com^
 ||lkvkgk.levis.com.tr^
 ||leviswyprzedaz.com^
+||info.leviton.com^
 ||conveyor.lewcoinc.com^
 ||lewell.fr^
 ||lewistontimes.com^
@@ -48762,6 +48757,7 @@
 ||create.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
+||publisher-event.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
@@ -53671,7 +53667,9 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||acclax-mgmt.net.zooplus.de^
+||es.net.zooplus.de^
+||lax-mgmt.net.zooplus.de^
+||login-dev.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-17 18:16:15Z
+! Last Modified: 2021-11-18 00:54:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5158,6 +5158,7 @@
 ||data.appscomeon.com^
 ||appsdorado.com^
 ||appservestar.com^
+||appsflyer.com^
 ||sdk.appsflyer.tk^
 ||stat.appsgeyser.com^
 ||files.appsgeyser.com^
@@ -25764,9 +25765,6 @@
 ||go.hartnessintl.com^
 ||partner.haru-shop.jp^
 ||adebis.harutaka.jp^
-||go.hks.harvard.edu^
-||smetrics.hbsp.harvard.edu^
-||stats.berkman.harvard.edu^
 ||info.harvardapparatus.com^
 ||insights.harvardbusiness.org^
 ||adserver.harvestadsdepot.com^
@@ -67408,9 +67406,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||appschef.net.zooplus.de^
-||apps.data.net.zooplus.de^
-||devopsail.net.zooplus.de^
 ||api.staging-login.net.zooplus.de^
 ||api.support-login.net.zooplus.de^
 ||applicationscar40.net.zooplus.de^
