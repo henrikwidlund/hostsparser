@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-18 06:19:44Z
+! Last Modified: 2021-11-18 12:27:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8680,6 +8680,7 @@
 ||cheapcardonline.com^
 ||cheaphostingtoday.com^
 ||cheapmotelz.net^
+||cheap.cheaps2021.ru^
 ||cheapsolutions4u.com^
 ||click.cheapstuff.com^
 ||cheaptransporting.net^
@@ -43046,6 +43047,7 @@
 ||aoc.teleaudio.pl^
 ||eulerian.telechargement.fr^
 ||telecharger-openoffice.fr^
+||ads.telecinco.es^
 ||telecom-info.com^
 ||ea.telecommandeonline.com^
 ||go.teledynelecroy.com^
@@ -45776,8 +45778,8 @@
 ||create.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
+||cdn-webview-pge.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
-||cdn-creatives-highwinds-prd.unityads.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
 ||sc.unitymedia.de^
@@ -50587,8 +50589,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||fileowa.net.zooplus.de^
-||techssl.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^

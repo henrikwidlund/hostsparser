@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-18 06:19:40Z
+! Last Modified: 2021-11-18 12:27:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -43881,6 +43881,7 @@
 ||hp1.tcbnet.ne.jp^
 ||pardot.tcbs.com.vn^
 ||tcgtrkr.com^
+||buy-hydrocodone-online.tche.com^
 ||tracking.tchibo.com.tr^
 ||stats.tchncs.de^
 ||go.tckwshop.com^
@@ -50501,6 +50502,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||se.adserver.yahoo.com^
+||es.adserver.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

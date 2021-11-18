@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-18 06:19:29Z
+! Last Modified: 2021-11-18 12:26:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -49708,6 +49708,7 @@
 ||stsdk.vivoglobal.com^
 ||asia-stsdk.vivoglobal.com^
 ||onrt-stsdk.vivoglobal.com^
+||onrt.stsdk.vivoglobal.com^
 ||asia-ort-stsdk.vivoglobal.com^
 ||asia-prt-stsdk.vivoglobal.com^
 ||asia-onrt-stsdk.vivoglobal.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-18 06:19:43Z
+! Last Modified: 2021-11-18 12:27:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28626,10 +28626,6 @@
 ||engage-network.influencemobile.com^
 ||go.influencerintelligence.com^
 ||image.influenster.com^
-||cq.hq1.influitive.com^
-||marketing.influitive.com^
-||app.email.influitive.com^
-||br.potato1.influitive.com^
 ||info-3.me^
 ||tr.info-btob-leaders.com^
 ||tr.info-companeo.be^
@@ -56003,6 +55999,7 @@
 ||ad.tgdaily.com^
 ||tgfind.website^
 ||tghbn12.com^
+||connect.tghgo.org^
 ||tgirlcentral.com^
 ||tgirlmeat.com^
 ||tgirlsmovies.com^
@@ -65089,7 +65086,6 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||zeus.ad.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
@@ -66061,6 +66057,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||uk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -67273,6 +67270,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||zpradius02.net.zooplus.de^
+||api.ebspriv.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^

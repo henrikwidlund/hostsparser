@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-18 06:19:35Z
+! Last Modified: 2021-11-18 12:26:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7221,6 +7221,7 @@
 ||ads.brazzers.com^
 ||tour.brazzers.com^
 ||ads2.brazzers.com^
+||cdn1.ads.brazzers.com^
 ||ugpayr.brd.ru^
 ||breadbgyrkitief.com^
 ||breadgrvilemef.com^
@@ -25865,6 +25866,7 @@
 ||smetrics.ladbrokes.be^
 ||ladingde.xyz^
 ||ladnebutysport.pl^
+||stats.ladotstats.nl^
 ||ladsup.com^
 ||ladysklep.com.pl^
 ||fpc.laerdal.com^
@@ -51571,6 +51573,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst5.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
@@ -52274,8 +52277,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||swag.net.zooplus.de^
-||static.net.zooplus.de^
+||asana.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
@@ -52632,6 +52634,7 @@
 ||zumodi.com^
 ||go.zumper.com^
 ||deeplinks.zumper.com^
+||track.msadcenter.zun.com^
 ||smetrics.zurichlife.co.jp^
 ||zus-wyplata.tk^
 ||tbtrack.zutrack.com^
