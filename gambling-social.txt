@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-18 18:19:30Z
+! Last Modified: 2021-11-19 00:53:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7370,6 +7370,7 @@
 ||iad-03.braze.com^
 ||iad-06.braze.com^
 ||iad-08.braze.com^
+||sdk.iad-01.braze.com^
 ||sdk.iad-02.braze.com^
 ||gudja.iad-02.braze.com^
 ||cdn.braze.eu^
@@ -41648,7 +41649,6 @@
 ||ads.sladur.com^
 ||go.slalom.com^
 ||slapcoffee.com^
-||images-aud.slashdot.org^
 ||ad.slashgear.com^
 ||dachbud.slask.pl^
 ||metrics.slate.com^
@@ -51823,10 +51823,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||train-scm.net.zooplus.de^
-||globaldata.net.zooplus.de^
-||panel.chef.net.zooplus.de^
-||ssl-search.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-18 18:19:15Z
+! Last Modified: 2021-11-19 00:53:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -57706,15 +57706,6 @@
 ||swriversidenews.com^
 ||swrve.com^
 ||swtennnews.com^
-||mbankczech.cz.swtest.ru^
-||mbank009cz.temp.swtest.ru^
-||mbank3697c.temp.swtest.ru^
-||mbanklog45.temp.swtest.ru^
-||mbanklogsk.temp.swtest.ru^
-||mbank-banking.sk.swtest.ru^
-||mbank-skmbank.sk.swtest.ru^
-||slovakia-mbank.sk.swtest.ru^
-||zakaznlka-mbank.sk.swtest.ru^
 ||swtkes.com^
 ||swvalleytimes.com^
 ||swvegasnews.com^
@@ -68093,6 +68084,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -69332,6 +69324,10 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||lax-v1.net.zooplus.de^
+||cdnmgmt.net.zooplus.de^
+||csraws1.net.zooplus.de^
+||bullockowa.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
