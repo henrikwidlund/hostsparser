@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-19 06:19:40Z
+! Last Modified: 2021-11-19 12:25:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -69431,7 +69431,6 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
-||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^
@@ -70745,6 +70744,7 @@
 ||marketing.northamerica.net.zooplus.es^
 ||authorization-marketing.net.zooplus.es^
 ||marketingelasticbeanstalk.net.zooplus.es^
+||northamerica.www.marketing.net.zooplus.es^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
