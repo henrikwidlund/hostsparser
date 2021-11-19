@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-19 00:53:40Z
+! Last Modified: 2021-11-19 06:19:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26747,8 +26747,6 @@
 ||content.lansweeper.com^
 ||sg.lansweeps.click^
 ||lantanna.mx^
-||gazetka24.laohost.net^
-||naszglos24.laohost.net^
 ||lapalingo.com^
 ||laperfum.pl^
 ||secure1.lapersonnelle.com^
@@ -53995,8 +53993,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||statsail.net.zooplus.de^
-||w3-csr12.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^

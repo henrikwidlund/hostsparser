@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-19 00:53:49Z
+! Last Modified: 2021-11-19 06:19:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15354,6 +15354,7 @@
 ||marketo.com.edgekey.net^
 ||mathtag.com.edgekey.net^
 ||mookie1.com.edgekey.net^
+||san.push.io.edgekey.net^
 ||marketo.net.edgekey.net^
 ||owneriq.net.edgekey.net^
 ||taboola.com.edgekey.net^
@@ -22615,7 +22616,6 @@
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
 ||keyserver.ijinshan.com^
-||kbd2.kpns.ijinshan.com^
 ||icas.ikea.com^
 ||sicas.ikea.com^
 ||metrics.ikea.com^
@@ -25959,8 +25959,6 @@
 ||sadbmetrics.lapreferente.com^
 ||avocado.laprovence.com^
 ||laptop-parts.org^
-||parcel.fzggjoau689uvqu.laptop-tamirgah.ir^
-||parcel.x6l99ohqfu1nvnp.laptop-tamirgah.ir^
 ||laptopcenter.pe^
 ||laptopinpakistan.com^
 ||oascentral.laptopmag.com^
@@ -51378,10 +51376,12 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||global.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -52249,10 +52249,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||t.net.zooplus.de^
-||mgmt.k8s.net.zooplus.de^
-||oidcsr41.net.zooplus.de^
-||statsail.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
