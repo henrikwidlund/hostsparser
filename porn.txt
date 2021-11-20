@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-20 06:19:11Z
+! Last Modified: 2021-11-20 12:24:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1372,7 +1372,6 @@
 ||metrics.client-eng.a2z.com^
 ||analytics.console.aws.a2z.com^
 ||notify.bugsnag.appstore.a2z.com^
-||pr.analytics.console.aws.a2z.com^
 ||global.telemetry.insights.video.a2z.com^
 ||us-east-1.telemetry.insights.video.a2z.com^
 ||a2zgroup.in^
@@ -1895,6 +1894,7 @@
 ||content.ad2iction.com^
 ||go.ad2upapp.com^
 ||ad3.eu^
+||ad360.vn^
 ||ad4.com.cn^
 ||ad4mat.com^
 ||ad4mat.net^
@@ -2042,6 +2042,7 @@
 ||dev.adforum.com^
 ||ads.adfox.ru^
 ||banners.adfox.ru^
+||adfox.vn^
 ||ad.adfunky.com^
 ||clk.adgaterewards.com^
 ||wall.adgaterewards.com^
@@ -2148,6 +2149,7 @@
 ||ads.adn.com^
 ||ads.adnet.am^
 ||adnet.com.ua^
+||adnet.vn^
 ||adnetinteractive.com^
 ||banners.adnetmedia.lt^
 ||adnetwork.net^
@@ -3096,6 +3098,7 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||tps-wlb-uswest.dvgtm.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -3357,6 +3360,8 @@
 ||alisonangelmovie.com^
 ||alisonangelrocks.com^
 ||alisonangelzone.com^
+||alivar.com.vn^
+||alivar.vn^
 ||alive-ua.com^
 ||info.alive-web.co.jp^
 ||ads.alive.com^
@@ -4142,6 +4147,7 @@
 ||adserver.amnews.com^
 ||www1.amnhealthcare.com^
 ||www2.amnhealthcare.com^
+||amobi.vn^
 ||amobil.online^
 ||amobileporno.com^
 ||amonitalia.it^
@@ -8140,6 +8146,7 @@
 ||bizony.eu^
 ||bizopprewards.com^
 ||webads.bizservers.com^
+||bwstatistics.bizwebapps.vn^
 ||go.bizzdesign.com^
 ||tr.bizzquotes.co.uk^
 ||bj04.com^
@@ -8169,6 +8176,13 @@
 ||cpcontacts.bl2ogi-finansowe.xyz^
 ||cpcalendars.bl2ogi-finansowe.xyz^
 ||bl33pon6373.com^
+||info.bl6ogi-finansowe.xyz^
+||cpanel.bl6ogi-finansowe.xyz^
+||telefon.bl6ogi-finansowe.xyz^
+||webdisk.bl6ogi-finansowe.xyz^
+||webmail.bl6ogi-finansowe.xyz^
+||cpcontacts.bl6ogi-finansowe.xyz^
+||cpcalendars.bl6ogi-finansowe.xyz^
 ||blablacar-bank.site^
 ||blablacar-pay.cc^
 ||blablacar.media^
@@ -8737,6 +8751,7 @@
 ||de.bongacams3.com^
 ||bongacams5.com^
 ||rt.bongago.info^
+||tracker.bongngo.store^
 ||de.bongocams.net^
 ||go.bonitasoft.com^
 ||nym5c.bonlook.com^
@@ -9810,6 +9825,7 @@
 ||pony.bylt.co^
 ||bum7.bymycar.fr^
 ||pardot.bynder.com^
+||byonlym.com^
 ||bypass.jp^
 ||bypasser.net^
 ||prebid.byplay.net^
@@ -11855,6 +11871,7 @@
 ||8574dnj3yzjace8c8io6zr9u3n.hop.clickbank.net^
 ||clickbankbreakstheinternet.com^
 ||clickbrokers.com^
+||clickbuy.bz^
 ||track.clickcabintracker.com^
 ||clickclick.com^
 ||clickcompare.co.uk^
@@ -13890,6 +13907,8 @@
 ||msg.cocamobile.com^
 ||cocaporn.com^
 ||cocatube.com^
+||shopping.coccoc.com^
+||takataka.coccoc.com^
 ||cocinaeljibarazo.com^
 ||cockcompetition.com^
 ||cockmeter.com^
@@ -15637,6 +15656,7 @@
 ||dansmovies.com^
 ||danto.co.in^
 ||wkasiu.dantonehome.ru^
+||cdnasset.dantri.com.vn^
 ||ads.danworld.net^
 ||tracksurf.daooda.com^
 ||daphnesfantasies.com^
@@ -18063,6 +18083,7 @@
 ||tdf1.easyviajar.com^
 ||tr.info.easyviajar.com^
 ||tr.news.easyviajar.com^
+||analytics.easyvideo.vn^
 ||easyviettravel.vn^
 ||tdf1.easyvols.fr^
 ||tdf1.easyvoyage.co.uk^
@@ -23037,6 +23058,7 @@
 ||go.gaf.energy^
 ||marketing.net.gafas.es^
 ||gaffchat.com^
+||gafin.vn^
 ||gagoliti.com^
 ||www2.gaiainc.jp^
 ||gainblox.com^
@@ -25648,6 +25670,7 @@
 ||adserver1.harvestadsdepot.com^
 ||omn2.hasbro.com^
 ||primary.hasegawa.jp^
+||hashearog.com^
 ||tarantula.hashicorp.com^
 ||prairiedog.hashnode.com^
 ||ads.haskovo.net^
@@ -29762,6 +29785,8 @@
 ||itselforlen.website^
 ||itsfree123.com^
 ||itsgonnahurt.com^
+||qc.itsgroup.vn^
+||ads.itsgroup.vn^
 ||itshemales.com^
 ||itslive.com^
 ||openx.itsmassive.com^
@@ -34001,6 +34026,7 @@
 ||luxyoungsex.com^
 ||luycos.com^
 ||luzbuty.top^
+||adserver.luzu.vn^
 ||news.lvb.com^
 ||lveif.com^
 ||lvgrowmarkets.com^
@@ -37010,6 +37036,7 @@
 ||smetrics.motortrend.com^
 ||ablink.marketing.motortrend.com^
 ||sstats.motosport.com^
+||an.motphim.net^
 ||www2.mottox.co.jp^
 ||mottywaccjadozycia.website^
 ||mobileapi.motus.com^
@@ -37452,6 +37479,7 @@
 ||go.mvtec.com^
 ||toplista.mw.hu^
 ||tracking.mwe.com^
+||ad.mwork.vn^
 ||mwt.net^
 ||mwu.com.mx^
 ||title.mximg.com^
@@ -43476,6 +43504,7 @@
 ||pc20161117.com^
 ||pcangel.com^
 ||top.pcanywhere.net^
+||ads.pcccdongduong.vn^
 ||pccleaner.com^
 ||pccleanerpro.com^
 ||down.pcclear.com^
@@ -44007,6 +44036,7 @@
 ||metric.philosophy.com^
 ||smetric.philosophy.com^
 ||phim.sex^
+||phimmedia03.com^
 ||phimsd.org^
 ||phimsec.pro^
 ||phimsex1.net^
@@ -46538,6 +46568,7 @@
 ||pregchan.com^
 ||preggowebcams.com^
 ||pregierzrozumu.pl^
+||track.pregmomvietnam.com^
 ||prehistorictube.com^
 ||preligions.com^
 ||services.preludesys.com^
@@ -47749,6 +47780,7 @@
 ||f.qstatic.com^
 ||track.msadcenter.qsvv.com^
 ||qsystemas.club^
+||ad.qtcs.com.vn^
 ||qtum-token.com^
 ||quad-cleaner.com^
 ||cx.quadient.com^
@@ -47773,6 +47805,7 @@
 ||quanstamptoken.tk^
 ||quantcast.com^
 ||go.quantivate.com^
+||adc.quantrimang.com^
 ||quantro.xyz^
 ||quantslamp.com^
 ||quantsstamps.com^
@@ -50166,6 +50199,7 @@
 ||ablink.help.sanvello.com^
 ||ablink.hello.sanvello.com^
 ||saon6harz.com^
+||click-ads.saoteen.net^
 ||smetrics.sap.com^
 ||sapapartamenty.pl^
 ||med.saphris.com^
@@ -56774,6 +56808,7 @@
 ||gambero3.cs.tin.it^
 ||tinaangel.com^
 ||tinaborg.com^
+||tracker.tintucvietnam.vn^
 ||tiny-slit.com^
 ||tiny-virginz.com^
 ||tiny4k.club^
@@ -57717,6 +57752,7 @@
 ||lsrekn4zfgaoagus3egm5atr24-jj2cvlaia66be-online-mbank-pl.translate.goog^
 ||marketing.translations.com^
 ||transmis.xyz^
+||analytics.transmoni.vn^
 ||transparty.net^
 ||allegrolokalnie.pl.transpbuyitemss.pw^
 ||marketing.transperfect.com^
@@ -57864,6 +57900,7 @@
 ||tricikli.com^
 ||tricitiesguardian.com^
 ||ads.tricityherald.com^
+||tricker.vn^
 ||x8x.trickip.net^
 ||www9.trickip.org^
 ||tricksinswiss.com^
@@ -58287,6 +58324,7 @@
 ||tuhentaionline.com^
 ||tugngs.tui.com^
 ||urxbvw.tui.nl^
+||tuiiu.com^
 ||yun.tuitiger.com^
 ||wygraj-iphone-x.tujest.pl^
 ||tukif.club^
@@ -61244,6 +61282,7 @@
 ||stats.vanityprojects.com^
 ||vanlai.com^
 ||vanligavanor.se^
+||tracker.vanlong.stream^
 ||vannes776.com^
 ||kwalnc.vans.co.kr^
 ||vanscheers.com^
@@ -61496,6 +61535,7 @@
 ||vhguyeu.ml^
 ||vhowland.co.uk^
 ||go.vhslearning.org^
+||vtrack.vht.com.vn^
 ||www2.news.vi-grade.com^
 ||via22.net^
 ||via99.org^
@@ -61702,6 +61742,8 @@
 ||salzwerk.viessmann.de^
 ||torropinto.viessmann.es^
 ||faucons.viessmann.fr^
+||log.vietnamfinance.vn^
+||banner.vietnamfinance.vn^
 ||view-post.pl^
 ||view4cash.de^
 ||cdn.viewdeos.com^
@@ -62211,6 +62253,9 @@
 ||stats.vngameden.com^
 ||vnotrk.com^
 ||vntanktransport.com^
+||log.vntoday.news^
+||event.vntoday.news^
+||lottery.vntoday.news^
 ||ads.vnuemedia.com^
 ||ads.vnumedia.com^
 ||impala.vnv.nl^
@@ -62459,7 +62504,9 @@
 ||vseobuch.ru^
 ||vsexshop.ru^
 ||marketing.net.vsgamers.es^
+||logger.vsmarty.vn^
 ||vstats.net^
+||tracking.vtc.vn^
 ||vthought.com^
 ||vthumbs.com^
 ||vtoras.top^
@@ -67087,6 +67134,7 @@
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
 ||analytics.zingerwebdesign.com^
+||log.zingtv.vn^
 ||zingyporntube.com^
 ||ziololecznictwo.pl^
 ||tc.zionsbank.com^
