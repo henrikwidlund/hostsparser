@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-20 00:53:10Z
+! Last Modified: 2021-11-20 06:19:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -769,7 +769,6 @@
 ||5kplayer.pl^
 ||5kstore.com^
 ||5kv261gjmq04c9.com^
-||5mcwl.pw^
 ||ads.5min.at^
 ||l.5min.com^
 ||wykaz.5p.pl^
@@ -8330,6 +8329,7 @@
 ||cckgate.com^
 ||ccleaner.fr^
 ||aqdawf.ccm.net^
+||tmgr.ccmbg.com^
 ||cco0.cc^
 ||ccpmo.com^
 ||protection.ccpolice.com^
@@ -12913,7 +12913,6 @@
 ||api.decentralize.today^
 ||decentralland.org^
 ||pl.decimuss.com^
-||decisivebase.com^
 ||decodom.com.pl^
 ||decodorebasic.pl^
 ||decografix.com^
@@ -27522,6 +27521,7 @@
 ||hbbtv.mediaset.net^
 ||webtrekk.mediaset.net^
 ||xml.mediashakers.com^
+||ads.mediasmart.es^
 ||mediasmart.io^
 ||shop.mediasova.ru^
 ||pbs-front.mediasquare.fr^
@@ -29928,6 +29928,7 @@
 ||lp.navisite.com^
 ||navistuff.me^
 ||scjlpq.navitime.co.jp^
+||go.navmanwirelessinfo.com^
 ||navratangemlab.com^
 ||navy9gear.com^
 ||navyfedara1.org^
@@ -39286,7 +39287,6 @@
 ||adsremote.scrippsnetwork.com^
 ||e-adimages.scrippsnetworks.com^
 ||te.scrippsnetworksprivacy.com^
-||te.scrippsnewspapersprivacy.com^
 ||scripte-monster.de^
 ||scriptincluded.com^
 ||scriptsdoneright.com^
@@ -42368,7 +42368,6 @@
 ||analytics.swiggy.com^
 ||do.swile.co^
 ||go.swimlane.com^
-||swimslope.com^
 ||metrics.swinburne.edu.au^
 ||smetrics.swinburne.edu.au^
 ||swingingcommunity.com^
@@ -46606,6 +46605,7 @@
 ||tags.viewdeos.com^
 ||track.viewdeos.com^
 ||track1.viewdeos.com^
+||sync.sync.viewdeos.com^
 ||viewhdvideos.com^
 ||go.viewics.com^
 ||viewit-studio.com^
@@ -49705,9 +49705,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||ups.analytics.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -50560,6 +50561,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||csr12chef.net.zooplus.de^
+||logindata.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^

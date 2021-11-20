@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-20 00:53:06Z
+! Last Modified: 2021-11-20 06:19:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1078,7 +1078,6 @@
 ||5kstore.com^
 ||5kteens.com^
 ||5kv261gjmq04c9.com^
-||5mcwl.pw^
 ||ads.5min.at^
 ||l.5min.com^
 ||wykaz.5p.pl^
@@ -1373,6 +1372,7 @@
 ||metrics.client-eng.a2z.com^
 ||analytics.console.aws.a2z.com^
 ||notify.bugsnag.appstore.a2z.com^
+||pr.analytics.console.aws.a2z.com^
 ||global.telemetry.insights.video.a2z.com^
 ||us-east-1.telemetry.insights.video.a2z.com^
 ||a2zgroup.in^
@@ -8169,13 +8169,6 @@
 ||cpcontacts.bl2ogi-finansowe.xyz^
 ||cpcalendars.bl2ogi-finansowe.xyz^
 ||bl33pon6373.com^
-||info.bl6ogi-finansowe.xyz^
-||cpanel.bl6ogi-finansowe.xyz^
-||telefon.bl6ogi-finansowe.xyz^
-||webdisk.bl6ogi-finansowe.xyz^
-||webmail.bl6ogi-finansowe.xyz^
-||cpcontacts.bl6ogi-finansowe.xyz^
-||cpcalendars.bl6ogi-finansowe.xyz^
 ||blablacar-bank.site^
 ||blablacar-pay.cc^
 ||blablacar.media^
@@ -10734,6 +10727,7 @@
 ||ccleaner.fr^
 ||ccls.eu^
 ||aqdawf.ccm.net^
+||tmgr.ccmbg.com^
 ||static.ccnwebcams.com^
 ||pandemos.ccnwebcams.com^
 ||yummy-cummy.ccnwebcams.com^
@@ -15959,7 +15953,6 @@
 ||api.decentralize.today^
 ||decentralland.org^
 ||pl.decimuss.com^
-||decisivebase.com^
 ||decodom.com.pl^
 ||decodorebasic.pl^
 ||decografix.com^
@@ -18347,7 +18340,6 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
-||secure.flashtalking.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -54628,7 +54620,6 @@
 ||analytics.swiggy.com^
 ||do.swile.co^
 ||go.swimlane.com^
-||swimslope.com^
 ||swimsuitbikinigirls.com^
 ||metrics.swinburne.edu.au^
 ||smetrics.swinburne.edu.au^
