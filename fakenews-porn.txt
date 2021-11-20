@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-20 12:24:39Z
+! Last Modified: 2021-11-20 18:18:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24977,7 +24977,6 @@
 ||sw88.go.com^
 ||ngads.go.com^
 ||tredir.go.com^
-||cdn.unid.go.com^
 ||adimages.go.com^
 ||w88.m.espn.go.com^
 ||adsatt.espn.go.com^
@@ -68223,6 +68222,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||dk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -69453,8 +69453,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||2.net.zooplus.de^
-||gwdata.net.zooplus.de^
+||extcsr11.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^

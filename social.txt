@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-20 12:24:53Z
+! Last Modified: 2021-11-20 18:18:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31375,7 +31375,6 @@
 ||go.oaktreecapital.com^
 ||oaktreeventuresllc.com^
 ||oamtrk.com^
-||webstats.oanda.com^
 ||signup.oasisnow.net^
 ||telemetry.firstpartyapps.oaspapps.com^
 ||oasroanoke.com^
@@ -40479,7 +40478,6 @@
 ||plausible.test.sketch.com^
 ||plausible.staging.sketch.com^
 ||promo.skf.com^
-||fr.promo.skf.com^
 ||skidrowcrack.com^
 ||go.skience.com^
 ||skillduty.com^
@@ -47271,7 +47269,6 @@
 ||wanchainfunding.org^
 ||wanchainltd.org^
 ||wanchains.org^
-||go.wandel.jp^
 ||ad.wanderlist.com^
 ||wangluoruanjian.com^
 ||wangparty.com^
@@ -49330,7 +49327,6 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||zeus.ad.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
@@ -49741,6 +49737,7 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
+||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-20 12:24:51Z
+! Last Modified: 2021-11-20 18:18:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3098,7 +3098,6 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||tps-wlb-uswest.dvgtm.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -17546,8 +17545,6 @@
 ||ypcdbw.drive.ru^
 ||ypcdbw.drive2.com^
 ||ypcdbw.drive2.ru^
-||ads.drivelinemedia.com^
-||ads2.drivelinemedia.com^
 ||driventicket.com^
 ||drivepornvideos.com^
 ||driveprontube.com^
@@ -67286,6 +67283,13 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||t.net.zooplus.de^
+||chd.net.zooplus.de^
+||mgmt.net.zooplus.de^
+||devops.net.zooplus.de^
+||csr1staff.net.zooplus.de^
+||dockerail.net.zooplus.de^
+||mgmt.asana.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^

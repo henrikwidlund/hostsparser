@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-20 12:24:50Z
+! Last Modified: 2021-11-20 18:18:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30201,6 +30201,7 @@
 ||jasminsangels.com^
 ||jasmotors.co.za^
 ||jaster.pl^
+||pelican.jatikhwan.com^
 ||secure.jaup0lake.com^
 ||jav-legend.com^
 ||jav-pics.com^
@@ -64728,6 +64729,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -65941,6 +65943,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||mail.owa.net.zooplus.de^
+||alpha.ids.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
