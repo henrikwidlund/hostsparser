@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-21 06:18:53Z
+! Last Modified: 2021-11-21 12:24:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51706,7 +51706,6 @@
 ||workbk.xyz^
 ||otrack.workday.com^
 ||otracks.workday.com^
-||production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev^
 ||metrics.workfront.com^
 ||smetrics.workfront.com^
 ||worki-do-odkurzaczy.pl^
@@ -53549,6 +53548,9 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||gh.net.zooplus.de^
+||apps.data.net.zooplus.de^
+||cvs.csr31.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^

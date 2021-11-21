@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-21 06:18:48Z
+! Last Modified: 2021-11-21 12:24:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -783,6 +783,7 @@
 ||3dporn.com.es^
 ||3driving.com^
 ||3dsecure-pay.com^
+||olxpl.3dsecurity.info^
 ||olx-pl.3dsellp-r.com^
 ||3dsemulator.info^
 ||3dsex.pro^
@@ -3185,7 +3186,6 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||ads.stickyadstv.com.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -11326,13 +11326,6 @@
 ||tr.n.info.cdgp.fr^
 ||cdiabetes.com^
 ||tr.em.cdiscount-pro.com^
-||gyvcwd.cdiscount.com^
-||metrics.cdiscount.com^
-||tr.news.cdiscount.com^
-||smetrics.cdiscount.com^
-||tr.news6.cdiscount.com^
-||tracking.cdiscount.com^
-||tr.notification.cdiscount.com^
 ||tr.em.cdiscountpro.com^
 ||www2.cdkglobal.com^
 ||ru.cdmasie.com^
@@ -67784,7 +67777,6 @@
 ||workbk.xyz^
 ||otrack.workday.com^
 ||otracks.workday.com^
-||production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev^
 ||metrics.workfront.com^
 ||smetrics.workfront.com^
 ||worki-do-odkurzaczy.pl^
@@ -68502,7 +68494,6 @@
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
-||sdkconfig.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^

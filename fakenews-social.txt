@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-21 06:18:57Z
+! Last Modified: 2021-11-21 12:25:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -50948,7 +50948,6 @@
 ||workbk.xyz^
 ||otrack.workday.com^
 ||otracks.workday.com^
-||production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev^
 ||metrics.workfront.com^
 ||smetrics.workfront.com^
 ||worki-do-odkurzaczy.pl^
@@ -52772,6 +52771,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||api.ebspriv.net.zooplus.de^
+||ciadmindata.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^

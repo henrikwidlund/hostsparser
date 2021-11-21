@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-21 06:18:58Z
+! Last Modified: 2021-11-21 12:25:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2518,7 +2518,6 @@
 ||turn.com.akadns.net^
 ||comscore.akadns.net^
 ||eyeblaster.akadns.net^
-||r.turn.com.akadns.net^
 ||lb1.www.ms.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
@@ -15394,7 +15393,6 @@
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ds-www.addthis.com.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -50465,7 +50463,6 @@
 ||workbk.xyz^
 ||otrack.workday.com^
 ||otracks.workday.com^
-||production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev^
 ||metrics.workfront.com^
 ||smetrics.workfront.com^
 ||worki-do-odkurzaczy.pl^
@@ -52289,6 +52286,9 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||owasrv.net.zooplus.de^
+||csrvpn1.net.zooplus.de^
+||ingress.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-21 06:19:00Z
+! Last Modified: 2021-11-21 12:25:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2376,6 +2376,8 @@
 ||adshrink.it^
 ||adshufffle.com^
 ||adside.com^
+||xml1.adsimilate.com^
+||filteradkernel.adsimilate.com^
 ||adserver.adsimsar.net^
 ||adserver.adsincontext.com^
 ||adsino24.com^
@@ -46458,6 +46460,8 @@
 ||polska-grupa.site^
 ||polska-lts.site^
 ||olx.polska-oferd.casa^
+||olx.polska-oferdo.biz^
+||inpost.polska-oferdo.biz^
 ||olx.polska-oferdo.cc^
 ||inpost.polska-oferdo.cc^
 ||olx.polska-oferdo.design^
@@ -64299,7 +64303,6 @@
 ||workbk.xyz^
 ||otrack.workday.com^
 ||otracks.workday.com^
-||production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev^
 ||metrics.workfront.com^
 ||smetrics.workfront.com^
 ||worki-do-odkurzaczy.pl^
@@ -67200,7 +67203,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||api.mail.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^

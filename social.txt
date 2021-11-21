@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-21 06:19:08Z
+! Last Modified: 2021-11-21 12:25:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14942,6 +14942,7 @@
 ||outbrainimg.com.edgekey.net^
 ||serving-sys.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
+||wildcard.ntv.io.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
@@ -14952,6 +14953,7 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||wildcard.evidon.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -48805,7 +48807,6 @@
 ||workbk.xyz^
 ||otrack.workday.com^
 ||otracks.workday.com^
-||production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev^
 ||metrics.workfront.com^
 ||smetrics.workfront.com^
 ||worki-do-odkurzaczy.pl^
@@ -49745,7 +49746,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -50601,6 +50601,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||cloudssl.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^

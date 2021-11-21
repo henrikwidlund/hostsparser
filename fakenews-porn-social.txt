@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-21 06:18:55Z
+! Last Modified: 2021-11-21 12:25:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19821,6 +19821,7 @@
 ||erdekeshirek.club^
 ||erdekeshirek.info^
 ||erdekesvilag.eu^
+||ads.ere.net^
 ||go.erecruiter.pl^
 ||eremogaudio.it^
 ||marketing.erepublic.com^
@@ -65197,7 +65198,6 @@
 ||workbk.xyz^
 ||otrack.workday.com^
 ||otracks.workday.com^
-||production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev^
 ||metrics.workfront.com^
 ||smetrics.workfront.com^
 ||worki-do-odkurzaczy.pl^
@@ -66878,7 +66878,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -68109,6 +68108,10 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||a52.net.zooplus.de^
+||lax-v1.net.zooplus.de^
+||passapi.net.zooplus.de^
+||stg.mgmt.php.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
