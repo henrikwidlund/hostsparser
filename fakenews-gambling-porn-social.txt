@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-20 18:18:22Z
+! Last Modified: 2021-11-21 00:55:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3190,6 +3190,7 @@
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
+||beacon-nf.rubiconproject.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
 ||akaflieg-sb.de^
@@ -50236,58 +50237,6 @@
 ||qpussy.com^
 ||qpwoei2.com^
 ||track.msadcenter.qpz.com^
-||l.qq.com^
-||ad.qq.com^
-||fw.qq.com^
-||rh.qq.com^
-||rs1.qq.com^
-||rs2.qq.com^
-||msdk.qq.com^
-||tajs.qq.com^
-||tcss.qq.com^
-||ysdk.qq.com^
-||rich.qq.com^
-||bugly.qq.com^
-||logsdk.qq.com^
-||omgmta.qq.com^
-||pingjs.qq.com^
-||report.qq.com^
-||scdown.qq.com^
-||wspeed.qq.com^
-||adping.qq.com^
-||fodder.qq.com^
-||qqlogo.qq.com^
-||pmir.3g.qq.com^
-||adsfile.qq.com^
-||adshmct.qq.com^
-||adsrich.qq.com^
-||adsview.qq.com^
-||jingjia.qq.com^
-||oimsgad.qq.com^
-||lcsdk.3g.qq.com^
-||masdk.3g.qq.com^
-||tools.3g.qq.com^
-||httpring.qq.com^
-||pingfore.qq.com^
-||pingtcss.qq.com^
-||adsclick.qq.com^
-||adsgroup.qq.com^
-||adshmmsg.qq.com^
-||adsview2.qq.com^
-||qring-tms.qq.com^
-||adslvfile.qq.com^
-||adslvseed.qq.com^
-||fodder.tc.qq.com^
-||c.isdspeed.qq.com^
-||monitor.uu.qq.com^
-||adsqqclick.qq.com^
-||qss-client.qq.com^
-||show-msgch.qq.com^
-||log.wtlogin.qq.com^
-||adstextview.qq.com^
-||tgw-masdk.3g.qq.com^
-||tgw-sasdk.3g.qq.com^
-||analytics.map.qq.com^
 ||qq8.ag^
 ||qqhr2008.com^
 ||qqqporn.com^
@@ -69371,6 +69320,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||v3-csr41.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^

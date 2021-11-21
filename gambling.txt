@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-20 18:18:34Z
+! Last Modified: 2021-11-21 00:55:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22129,7 +22129,6 @@
 ||ads.ibtracking.com^
 ||ibuzsklep.com^
 ||ibuzsport.com^
-||tracking.ibxlink.com^
 ||info.ic-medical-clinic.com^
 ||vokr-gtavc.ic.cz^
 ||ta.at.ic5mp.net^
@@ -37875,7 +37874,6 @@
 ||florineff.ql.st^
 ||micardiss.ql.st^
 ||qlink-ico.com^
-||umamistreet.analytics.qlook.net^
 ||qlzn6i1l.com^
 ||qmsled.com^
 ||1stcreditsg.qnotice.com^
@@ -51378,7 +51376,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||api.login.ops.net.zooplus.de^
+||vpn.tpe.net.zooplus.de^
+||transit.net.zooplus.de^
 ||nginxmarketing.net.zooplus.de^
 ||zooplus-2csr41.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
