@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-22 06:20:27Z
+! Last Modified: 2021-11-22 12:26:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35024,7 +35024,6 @@
 ||smetrics.loft.com^
 ||loggerx.com^
 ||logs.loggly.com^
-||logs-01.loggly.com^
 ||www2.logicgate.com^
 ||logicporn.com^
 ||developer.logicunion.in^
@@ -64813,11 +64812,6 @@
 ||data1.virginplus.ca^
 ||mail01.virginpulse.com^
 ||virginradio.fr^
-||chris.virginradioblog.fr^
-||mrscaro.virginradioblog.fr^
-||dakarlove.virginradioblog.fr^
-||yaoislash.virginradioblog.fr^
-||killerpilze.virginradioblog.fr^
 ||pubzone.virginradiothailand.com^
 ||virginriches.com^
 ||virginriver.com^

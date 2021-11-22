@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-22 06:20:18Z
+! Last Modified: 2021-11-22 12:26:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28482,7 +28482,6 @@
 ||smetrics.loft.com^
 ||loggerx.com^
 ||logs.loggly.com^
-||logs-01.loggly.com^
 ||www2.logicgate.com^
 ||developer.logicunion.in^
 ||go.logigear.com^
@@ -39496,6 +39495,7 @@
 ||testpconly12.prepare2upvideosafesystem4setnow.online^
 ||preparedness.news^
 ||updateauto.preparevideosafesystem4unow.site^
+||updateauto.preparevideosafesystem4unow.space^
 ||preppercode.com^
 ||prepperwebsite.com^
 ||go.preqin.com^
@@ -54437,7 +54437,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||cn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^

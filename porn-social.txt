@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-22 06:20:31Z
+! Last Modified: 2021-11-22 12:27:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18873,6 +18873,7 @@
 ||edu-offer.com^
 ||educ-idea.site^
 ||educ-lotos.online^
+||mautic.educa.vn^
 ||educatin-pl.website^
 ||education-com.website^
 ||education-pl.info^
@@ -34381,7 +34382,6 @@
 ||smetrics.loft.com^
 ||loggerx.com^
 ||logs.loggly.com^
-||logs-01.loggly.com^
 ||www2.logicgate.com^
 ||logicporn.com^
 ||developer.logicunion.in^
