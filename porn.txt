@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-21 18:18:49Z
+! Last Modified: 2021-11-22 00:54:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11814,6 +11814,7 @@
 ||link.hello-au.circles.life^
 ||link.hello-sg.circles.life^
 ||link.hello2-sg.circles.life^
+||content.circlesstudio.com^
 ||api.circularhub.com^
 ||circultural.com^
 ||elq.cirium.com^
@@ -18746,7 +18747,6 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||wl.aniview.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -66129,6 +66129,7 @@
 ||info.workbright.com^
 ||otrack.workday.com^
 ||otracks.workday.com^
+||production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev^
 ||metrics.workfront.com^
 ||smetrics.workfront.com^
 ||worki-do-odkurzaczy.pl^

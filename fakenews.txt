@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-21 18:18:38Z
+! Last Modified: 2021-11-22 00:54:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1351,7 +1351,6 @@
 ||account-kigo.net^
 ||accountant-audio.com^
 ||accountcanceled.com^
-||graph.accountkit.com^
 ||accountnotify.com^
 ||accountprotection.xyz^
 ||accounts.mx^
@@ -52200,6 +52199,7 @@
 ||info.workbright.com^
 ||otrack.workday.com^
 ||otracks.workday.com^
+||production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev^
 ||metrics.workfront.com^
 ||smetrics.workfront.com^
 ||worki-do-odkurzaczy.pl^
@@ -53182,6 +53182,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||br.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

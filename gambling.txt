@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-21 18:18:45Z
+! Last Modified: 2021-11-22 00:54:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51301,6 +51301,7 @@
 ||info.workbright.com^
 ||otrack.workday.com^
 ||otracks.workday.com^
+||production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev^
 ||metrics.workfront.com^
 ||smetrics.workfront.com^
 ||worki-do-odkurzaczy.pl^
@@ -53523,7 +53524,6 @@
 ||mail04ail.net.zooplus.de^
 ||marketing.net.zooplus.de^
 ||metricing.net.zooplus.de^
-||mgmt.docs.net.zooplus.de^
 ||net-csr31.net.zooplus.de^
 ||oster-ssl.net.zooplus.de^
 ||panelmgmt.net.zooplus.de^
@@ -53587,6 +53587,7 @@
 ||globalcsr31.net.zooplus.de^
 ||historymgmt.net.zooplus.de^
 ||hw-api.priv.net.zooplus.de^
+||jenkins.api.net.zooplus.de^
 ||kubectldata.net.zooplus.de^
 ||m-marketing.net.zooplus.de^
 ||mail.docker.net.zooplus.de^

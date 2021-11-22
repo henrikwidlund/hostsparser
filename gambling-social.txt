@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-21 18:18:44Z
+! Last Modified: 2021-11-22 00:54:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19840,18 +19840,6 @@
 ||gcijewel.com^
 ||metrics.gcimetrics.com^
 ||smetrics.gcimetrics.com^
-||gcirm.dmp.gcion.com^
-||louisvil.ur.gcion.com^
-||azcentra.app.ur.gcion.com^
-||cherryhi.app.ur.gcion.com^
-||floridat.app.ur.gcion.com^
-||honolulu.app.ur.gcion.com^
-||louisvil.app.ur.gcion.com^
-||usatoday.app.ur.gcion.com^
-||gcirm.argusleader.gcion.com^
-||gcirm.centralohio.gcion.com^
-||gcirm.greenvilleonline.gcion.com^
-||gcirm.honoluluadvertiser.gcion.com^
 ||gc.gcl.ru^
 ||gcmadvertising.com^
 ||smetric.gconlineplus.de^
@@ -51786,6 +51774,7 @@
 ||info.workbright.com^
 ||otrack.workday.com^
 ||otracks.workday.com^
+||production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev^
 ||metrics.workfront.com^
 ||smetrics.workfront.com^
 ||worki-do-odkurzaczy.pl^

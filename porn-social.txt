@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-21 18:18:47Z
+! Last Modified: 2021-11-22 00:54:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -64786,6 +64786,7 @@
 ||info.workbright.com^
 ||otrack.workday.com^
 ||otracks.workday.com^
+||production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev^
 ||metrics.workfront.com^
 ||smetrics.workfront.com^
 ||worki-do-odkurzaczy.pl^
@@ -66489,7 +66490,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||eu-pn2.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -68132,6 +68132,7 @@
 ||ciadmindata.net.zooplus.de^
 ||client-mgmt.net.zooplus.de^
 ||csrmailjet1.net.zooplus.de^
+||cvs-ctl.api.net.zooplus.de^
 ||data.engorg.net.zooplus.de^
 ||data.mobile.net.zooplus.de^
 ||data.secorg.net.zooplus.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-21 18:18:30Z
+! Last Modified: 2021-11-22 00:54:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17972,6 +17972,8 @@
 ||facebook-post-video.pl^
 ||facebook-profile-post.pl^
 ||facebook.cm^
+||ads.ak.facebook.com^
+||creative.ak.facebook.com^
 ||facebookcrawl.co.cc^
 ||facebookleak.com^
 ||facebookloginsignin.com^
@@ -53442,6 +53444,7 @@
 ||info.workbright.com^
 ||otrack.workday.com^
 ||otracks.workday.com^
+||production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev^
 ||metrics.workfront.com^
 ||smetrics.workfront.com^
 ||worki-do-odkurzaczy.pl^
@@ -55218,6 +55221,7 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||campaign.brand.zing.vn^
 ||analytics.zingerwebdesign.com^
 ||ziololecznictwo.pl^
 ||tc.zionsbank.com^

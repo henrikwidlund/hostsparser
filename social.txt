@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-21 18:18:51Z
+! Last Modified: 2021-11-22 00:54:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39629,6 +39629,7 @@
 ||rok.com.com^
 ||dinoadserver1.roka.net^
 ||dinoadserver2.roka.net^
+||scribe.logs.roku.com^
 ||rokus-tgy.hu^
 ||imagine.rolanddg.co.jp^
 ||go.rolanddg.com^
@@ -47529,6 +47530,7 @@
 ||upshare.org^
 ||tally.upsideout.com^
 ||upsnap.com^
+||tokei.upstract.com^
 ||uptodatecontent.net^
 ||uptownfun.co^
 ||app.upviral.com^
@@ -50541,6 +50543,7 @@
 ||info.workbright.com^
 ||otrack.workday.com^
 ||otracks.workday.com^
+||production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev^
 ||metrics.workfront.com^
 ||smetrics.workfront.com^
 ||worki-do-odkurzaczy.pl^
