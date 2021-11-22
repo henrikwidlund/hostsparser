@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-22 00:54:22Z
+! Last Modified: 2021-11-22 06:20:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3239,6 +3239,7 @@
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
+||bs-wlb-sg.dvgtm.akadns.net^
 ||track-apmebf.cj.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -19805,7 +19806,6 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
-||hotapi.sgsnssdk.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -21078,6 +21078,7 @@
 ||dcs.esprit.dk^
 ||dcs.esprit.es^
 ||dcs.esprit.eu^
+||dcs.esprit.fi^
 ||dcs.esprit.fr^
 ||dcs.esprit.nl^
 ||dcs.esprit.se^
@@ -37378,6 +37379,7 @@
 ||adprovider.maru.jp^
 ||go.marubeni-sys.com^
 ||intr.marubun.co.jp^
+||stats.marudor.de^
 ||adobes.marugame-seimen.com^
 ||eds.ca.matchbox.maruhub.com^
 ||go.maruyoshi.ne.jp^
@@ -56161,6 +56163,7 @@
 ||silvets.pl^
 ||c.silvinst.com^
 ||t.silvinst.com^
+||stats.sim.de^
 ||go.simco-ion.com^
 ||s.simcoe.com^
 ||ad.simflight.com^
