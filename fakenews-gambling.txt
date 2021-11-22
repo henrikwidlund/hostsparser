@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-22 12:26:47Z
+! Last Modified: 2021-11-22 18:19:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12965,7 +12965,6 @@
 ||info.cpenow.com^
 ||eloqua.cphi-china.cn^
 ||online.cphi-china.cn^
-||go.cpm-controls.com^
 ||go.cpm-masters.com^
 ||cpmfun.com^
 ||ads13000.cpmoz.com^
@@ -31643,6 +31642,7 @@
 ||r.msn.com^
 ||h1.msn.com^
 ||ads.msn.com^
+||0.r.msn.com^
 ||otf.msn.com^
 ||rad.msn.com^
 ||ads2.msn.com^
