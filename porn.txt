@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-23 06:19:42Z
+! Last Modified: 2021-11-23 12:26:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3155,6 +3155,7 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||tps-wlb-uswest.dvgtm.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -31122,7 +31123,6 @@
 ||jinair.sc.jinair.com^
 ||jinaria.com^
 ||jinglecams.com^
-||go.jinjibu.jp^
 ||jinjin-tv.net^
 ||jinkads.de^
 ||mesotherapy.jino-net.ru^
@@ -49935,7 +49935,6 @@
 ||reklamapoznan.com.pl^
 ||inpost.powitanie.reklamarzym.pl^
 ||reklamas.info^
-||ads.reklamatik.com^
 ||reklamcsere.hu^
 ||reklamdsp.com^
 ||medusa.reklamlab.com^
@@ -67827,10 +67826,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||br.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

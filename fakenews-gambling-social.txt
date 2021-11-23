@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-23 06:19:23Z
+! Last Modified: 2021-11-23 12:26:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -41496,7 +41496,6 @@
 ||reklamapoznan.com.pl^
 ||inpost.powitanie.reklamarzym.pl^
 ||reklamas.info^
-||ads.reklamatik.com^
 ||reklamcsere.hu^
 ||reklamdsp.com^
 ||medusa.reklamlab.com^
@@ -46301,6 +46300,7 @@
 ||studycr-genius.us^
 ||studycrypto-genius.us^
 ||stats.studypages.com^
+||explore.studyperth.com.au^
 ||studyprofit.biz^
 ||omniture.stuff.co.nz^
 ||somniture.stuff.co.nz^

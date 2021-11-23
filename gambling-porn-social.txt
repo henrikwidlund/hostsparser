@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-23 06:19:33Z
+! Last Modified: 2021-11-23 12:26:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51049,7 +51049,6 @@
 ||reklamapoznan.com.pl^
 ||inpost.powitanie.reklamarzym.pl^
 ||reklamas.info^
-||ads.reklamatik.com^
 ||reklamcsere.hu^
 ||reklamdsp.com^
 ||medusa.reklamlab.com^
@@ -56987,7 +56986,6 @@
 ||somni.suntrust.com^
 ||sunukoomthies.com^
 ||mgefhu.suomi24.fi^
-||ads.suomiautomaatti.com^
 ||suomikasino.com^
 ||ads.sup.com^
 ||cnt.sup.com^
@@ -63128,6 +63126,7 @@
 ||info.viewsonic.com^
 ||barnacle.viewsource.io^
 ||viewstracker.com^
+||smetrics.viewtabi.jp^
 ||viewtools.com^
 ||viewvintage.com^
 ||viglink.com^

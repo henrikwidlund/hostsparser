@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-23 06:19:30Z
+! Last Modified: 2021-11-23 12:26:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29228,7 +29228,6 @@
 ||tr.info.mdbp.fr^
 ||tr.news.mdbp.fr^
 ||mdbusinessdaily.com^
-||ads.mdchoice.com^
 ||trk.mddionline.com^
 ||ssl.o.mdedge.com^
 ||track.mdirector.com^
@@ -40490,7 +40489,6 @@
 ||reklamapoznan.com.pl^
 ||inpost.powitanie.reklamarzym.pl^
 ||reklamas.info^
-||ads.reklamatik.com^
 ||reklamcsere.hu^
 ||reklamdsp.com^
 ||medusa.reklamlab.com^
@@ -53660,7 +53658,6 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
-||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^
@@ -53669,6 +53666,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -53839,7 +53837,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst3.ec.yimg.com^
+||ac.ybinst1.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
