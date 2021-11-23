@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-22 18:19:14Z
+! Last Modified: 2021-11-23 00:53:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32483,6 +32483,7 @@
 ||metrics.myvi.in^
 ||smetrics.myvi.in^
 ||install.myvideotab.com^
+||anmcm-azmon.myvnc.com^
 ||myway.com^
 ||events.mywd.com^
 ||cars-taxonomy.mywebartist.eu^
@@ -40703,7 +40704,6 @@
 ||click.quickenloansnow.com^
 ||go.quickfee.com^
 ||quickfilmz.com^
-||quickkoala.io^
 ||quickmessage.us^
 ||gym.quicksoft.in^
 ||webschool.quicksoft.in^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-22 18:19:21Z
+! Last Modified: 2021-11-23 00:53:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23817,6 +23817,7 @@
 ||design.informabi.com^
 ||olx.pl.informacija.club^
 ||olx.pl.informacija.digital^
+||olx.pl.informacija.link^
 ||olx.pl.informacija.shop^
 ||informacja-dnia.com^
 ||informacja.cc^
@@ -39712,7 +39713,6 @@
 ||click.quickenloansnow.com^
 ||go.quickfee.com^
 ||quickfilmz.com^
-||quickkoala.io^
 ||quickmessage.us^
 ||gym.quicksoft.in^
 ||webschool.quicksoft.in^
@@ -53838,7 +53838,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst2.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
