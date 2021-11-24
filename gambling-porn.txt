@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-24 12:26:25Z
+! Last Modified: 2021-11-24 18:19:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6400,8 +6400,6 @@
 ||trk.aviationweek.com^
 ||smetrics.aviationweek.com^
 ||go.aviatnetworks.com^
-||data.avid.com^
-||sdata.avid.com^
 ||marketing.avidiahealth.com^
 ||ias.avidmedia.net^
 ||avidnewssource.com^

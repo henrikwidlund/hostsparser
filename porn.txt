@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-24 12:26:31Z
+! Last Modified: 2021-11-24 18:19:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10405,6 +10405,13 @@
 ||cangku.moe^
 ||caniamedia.com^
 ||info.canine.org^
+||ads.canoe.ca^
+||ads1.canoe.ca^
+||ads2.canoe.ca^
+||ads3.canoe.ca^
+||ads4.canoe.ca^
+||ads5.canoe.ca^
+||imageads.canoe.ca^
 ||form.reg.canon-its.co.jp^
 ||info.cbps.canon.com^
 ||pages.canon.com.au^
