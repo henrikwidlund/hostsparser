@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-24 00:53:36Z
+! Last Modified: 2021-11-24 06:19:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16447,6 +16447,8 @@
 ||sm.delltechnologies.com^
 ||stat.delo.ua^
 ||preferences.deloitte.ca^
+||sstats.deloitte.com^
+||perspectivas.deloitte.com^
 ||deloitteca.com^
 ||eventos.lp.deloittecomunicacao.com.br^
 ||conteudos.lp.deloittecomunicacao.com.br^
