@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-24 06:19:39Z
+! Last Modified: 2021-11-24 12:26:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13927,8 +13927,6 @@
 ||app.datorama.com^
 ||oauth.datorama.com^
 ||go.datron.com^
-||data.dats24.be^
-||securedata.dats24.be^
 ||datum.sale^
 ||ad.g.daum.net^
 ||track.tiara.daum.net^
