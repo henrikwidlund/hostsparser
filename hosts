@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-24 18:19:01Z
+! Last Modified: 2021-11-25 00:54:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3238,7 +3238,6 @@
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
-||rtr.innovid.com.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
@@ -19748,6 +19747,7 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||hotapi.sgsnssdk.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -19757,6 +19757,7 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
+||esd-secure.taboola.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -21449,8 +21450,6 @@
 ||ads.evtv1.com^
 ||evvcrisisfund.com^
 ||evyy.net^
-||tiads.ew.com^
-||metrics.ew.com^
 ||duologinsupersdk.ewan.cn^
 ||ewao.com^
 ||ewarszawa.xyz^
@@ -71277,7 +71276,6 @@
 ||yankscash.com^
 ||yanksvr.com^
 ||grouse.yannev.es^
-||mobi.yanosik.pl^
 ||yanzhao1.com^
 ||yarada.ru^
 ||yararmachinery.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-24 18:19:06Z
+! Last Modified: 2021-11-25 00:54:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31096,7 +31096,6 @@
 ||mobilejmp.com^
 ||marketing.mobilelive.ca^
 ||ads.mobilemarketer.com^
-||static.mobilemonkey.com^
 ||mola77.mobilenobo.com^
 ||mobileofferplace.site^
 ||mobilepaczkomat.com^
@@ -32750,6 +32749,9 @@
 ||nationalleagues.net^
 ||nationallottery.co.za^
 ||nationalreport.net^
+||ad2.nationalreview.com^
+||ad3.nationalreview.com^
+||ads.nationalreview.com^
 ||nationalsecurity.news^
 ||nationalsurveypanel.com^
 ||smetrics.nationaltrust.org.uk^
@@ -54920,7 +54922,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||europe.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -54955,7 +54956,6 @@
 ||yangqi-miss.com^
 ||ads.yankscash.com^
 ||grouse.yannev.es^
-||mobi.yanosik.pl^
 ||yararmachinery.com^
 ||smetric.yardhouse.com^
 ||yarito4.com^

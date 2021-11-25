@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-24 18:19:16Z
+! Last Modified: 2021-11-25 00:54:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6400,6 +6400,8 @@
 ||trk.aviationweek.com^
 ||smetrics.aviationweek.com^
 ||go.aviatnetworks.com^
+||data.avid.com^
+||sdata.avid.com^
 ||marketing.avidiahealth.com^
 ||ias.avidmedia.net^
 ||avidnewssource.com^
@@ -69078,6 +69080,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -69123,7 +69126,6 @@
 ||yankscash.com^
 ||yanksvr.com^
 ||grouse.yannev.es^
-||mobi.yanosik.pl^
 ||yanzhao1.com^
 ||yarada.ru^
 ||yararmachinery.com^
