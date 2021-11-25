@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-25 00:54:32Z
+! Last Modified: 2021-11-25 06:19:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6261,6 +6261,8 @@
 ||bioperfect.pl^
 ||metrics.biopharma-reporter.com^
 ||biopiracydrat.info^
+||data.bioplanet.be^
+||securedata.bioplanet.be^
 ||smetrics.biore.com^
 ||bioscreencast.com^
 ||nyt1.biosens-leanature.fr^
@@ -22825,9 +22827,6 @@
 ||webhosting-ads.home.pl^
 ||cloudserver098095.home.pl^
 ||lucibad.home.ro^
-||somni.home.saxo^
-||omni.campaigns.home.saxo^
-||somni.campaigns.home.saxo^
 ||marketing.net.home24.at^
 ||marketing.net.home24.be^
 ||marketing.net.home24.ch^
@@ -29165,6 +29164,7 @@
 ||meet.maddyness.com^
 ||sykc.madeindesign.ch^
 ||tmy8.madeindesign.ch^
+||vqp3.madeindesign.co.uk^
 ||uzd1.madeindesign.com^
 ||sby1.madeindesign.de^
 ||mgt7.madeindesign.it^
@@ -54005,7 +54005,6 @@
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
-||diagnosis.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^

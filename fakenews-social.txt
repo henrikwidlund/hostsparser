@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-25 00:54:37Z
+! Last Modified: 2021-11-25 06:19:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2582,6 +2582,7 @@
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
+||bsla.eyeblaster.akadns.net^
 ||track-apmebf.cj.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^

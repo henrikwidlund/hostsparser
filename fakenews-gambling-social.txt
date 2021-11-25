@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-25 00:54:31Z
+! Last Modified: 2021-11-25 06:19:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31096,6 +31096,7 @@
 ||mobilejmp.com^
 ||marketing.mobilelive.ca^
 ||ads.mobilemarketer.com^
+||static.mobilemonkey.com^
 ||mola77.mobilenobo.com^
 ||mobileofferplace.site^
 ||mobilepaczkomat.com^
