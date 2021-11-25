@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-25 12:26:18Z
+! Last Modified: 2021-11-25 18:19:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7384,7 +7384,6 @@
 ||iad-08.braze.com^
 ||sdk.iad-02.braze.com^
 ||gudja.iad-02.braze.com^
-||taukibreez.iad-03.braze.com^
 ||cdn.braze.eu^
 ||fra-01.braze.eu^
 ||brazilcubensis.com^

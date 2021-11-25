@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-25 12:26:20Z
+! Last Modified: 2021-11-25 18:19:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7406,6 +7406,14 @@
 ||beerandshots.com^
 ||rodent.beersport.com^
 ||bees.beesbeesbeesbees.com^
+||marketing.beesearch.info^
+||pay-day-loans.beesearch.info^
+||air-plane-ticket.beesearch.info^
+||gsm-mobile-phone.beesearch.info^
+||epson-printer-ink.beesearch.info^
+||sql-server-driver.beesearch.info^
+||online-tarot-reading.beesearch.info^
+||travel-insurance-quotes.beesearch.info^
 ||beespace.com.ua^
 ||beethoventopsymphonies.com^
 ||beetlebits.pl^
@@ -25515,7 +25523,6 @@
 ||dcapps.disney.go.com^
 ||seavideo-ak.espn.go.com^
 ||oascentral.abclocal.go.com^
-||ctologger01.analytics.go.com^
 ||bankdata.temanggungkab.go.id^
 ||directml.jfc.go.jp^
 ||mail-gw.jbic.go.jp^
@@ -66749,6 +66756,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||abtest.mistat.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
@@ -69263,7 +69271,6 @@
 ||cdn.tpe.net.zooplus.de^
 ||cdnmgmt.net.zooplus.de^
 ||cgi.tpe.net.zooplus.de^
-||chd.api.net.zooplus.de^
 ||csr1prd.net.zooplus.de^
 ||csraws1.net.zooplus.de^
 ||csrvpn1.net.zooplus.de^
@@ -69366,6 +69373,7 @@
 ||mailsandra.net.zooplus.de^
 ||mailsigned.net.zooplus.de^
 ||mailtester.net.zooplus.de^
+||mgmt.asana.net.zooplus.de^
 ||mirrordata.net.zooplus.de^
 ||owaelastic.net.zooplus.de^
 ||profilessl.net.zooplus.de^

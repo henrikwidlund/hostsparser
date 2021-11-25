@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-25 12:26:30Z
+! Last Modified: 2021-11-25 18:19:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13906,11 +13906,6 @@
 ||marketing.discoverpuertorico.com^
 ||smetrics.discovertrk.com^
 ||osimg.discoveruniversal.com^
-||ssa.discovery.com^
-||img.discovery.com^
-||ads.discovery.com^
-||metrics.discovery.com^
-||oascentral.discovery.com^
 ||dot.discovery.org^
 ||go.discoverybenefits.com^
 ||ssa.discoveryplus.com^
@@ -40873,7 +40868,6 @@
 ||send-post.host^
 ||send-post.space^
 ||send2url.com^
-||ads.senddroid.com^
 ||cont.sendenkaigi.com^
 ||sendfwd.com^
 ||u19432194.ct.sendgrid.net^
