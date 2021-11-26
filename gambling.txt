@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-25 18:19:14Z
+! Last Modified: 2021-11-26 00:52:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34368,7 +34368,6 @@
 ||o.opentable.com^
 ||so.opentable.com^
 ||tracking.opentable.com^
-||resources.opentext.com^
 ||resources.opentext.fr^
 ||casting.openv.com^
 ||uniclick.openv.com^
@@ -39991,6 +39990,7 @@
 ||stats.remotebear.io^
 ||alligator.remotecyberwork.com^
 ||stats.remotejobs.co.uk^
+||marketing.remotelock.com^
 ||remotepartition.com^
 ||remotrk.com^
 ||remove-ads.xyz^
@@ -52446,6 +52446,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst6.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

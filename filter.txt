@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-25 18:18:53Z
+! Last Modified: 2021-11-26 00:52:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -54435,6 +54435,7 @@
 ||smetrics.seat.mx^
 ||smetrics.seat.pl^
 ||smetrics.seat.se^
+||ablink.m.seatedapp.io^
 ||seatlantanews.com^
 ||webbug.seatreport.com^
 ||seattlecitywire.com^
