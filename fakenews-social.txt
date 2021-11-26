@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-26 06:19:46Z
+! Last Modified: 2021-11-26 12:26:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1074,6 +1074,7 @@
 ||nossl.aafp.org^
 ||aaget.xyz^
 ||info.aagon.de^
+||smetrics.aainsurance.co.nz^
 ||aalaan.tv^
 ||aalures.com^
 ||ann1.aamfeg.com^
@@ -24767,7 +24768,6 @@
 ||smetrics.iselect.com.au^
 ||isettatech.com^
 ||isfilebest.com^
-||a8cv.ishibashi.co.jp^
 ||go.ishin1853.co.jp^
 ||test.ishine.cz^
 ||analytics.ishopchangi.com^
