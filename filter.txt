@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-26 18:18:51Z
+! Last Modified: 2021-11-27 00:52:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12717,6 +12717,7 @@
 ||wiadomosci-teraz5.cleverapps.io^
 ||clevercaptcha.top^
 ||stats.cleverdiabetic.com^
+||net.cleverjp.com^
 ||static.clevertap.com^
 ||clgalleries.net^
 ||clhctrk.com^

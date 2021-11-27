@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-26 18:19:10Z
+! Last Modified: 2021-11-27 00:52:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -50870,7 +50870,6 @@
 ||toolbar.wibiya.com^
 ||widget.wickedreports.com^
 ||geo.widdit.com^
-||tilalre.widelab.co^
 ||widelec.icu^
 ||wideleced.icu^
 ||wideo-fb.pl^
@@ -53556,6 +53555,7 @@
 ||mailsandra.net.zooplus.de^
 ||mailsigned.net.zooplus.de^
 ||mailtester.net.zooplus.de^
+||mgmt.asana.net.zooplus.de^
 ||mirrordata.net.zooplus.de^
 ||owaelastic.net.zooplus.de^
 ||profilessl.net.zooplus.de^
