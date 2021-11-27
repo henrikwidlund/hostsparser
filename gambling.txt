@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-27 12:25:03Z
+! Last Modified: 2021-11-27 14:36:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46341,7 +46341,6 @@
 ||sstats.tiffany.fr^
 ||smetrics.tiffany.kr^
 ||smetrics.tiffany.ru^
-||caterpilla.tigeroakes.com^
 ||panther.tigil.rs^
 ||mdws.tignishcreditu.com^
 ||tigustolanostracucina.it^
@@ -48335,6 +48334,7 @@
 ||metrics.ups.com^
 ||smetrics.ups.com^
 ||upshare.org^
+||tally.upsideout.com^
 ||upsnap.com^
 ||tokei.upstract.com^
 ||uptodatecontent.net^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-27 12:25:07Z
+! Last Modified: 2021-11-27 14:36:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -52778,6 +52778,7 @@
 ||mailsandra.net.zooplus.de^
 ||mailsigned.net.zooplus.de^
 ||mailtester.net.zooplus.de^
+||mgmt.asana.net.zooplus.de^
 ||mirrordata.net.zooplus.de^
 ||owaelastic.net.zooplus.de^
 ||profilessl.net.zooplus.de^
