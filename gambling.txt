@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-27 06:19:13Z
+! Last Modified: 2021-11-27 12:25:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22454,6 +22454,7 @@
 ||links.huckleberry-labs.com^
 ||huda.edu.af^
 ||www2.huddle.com^
+||contractormarketing.hudsonink.com^
 ||hueads.com^
 ||hueadsortb.com^
 ||hueadsxml.com^
@@ -48334,7 +48335,6 @@
 ||metrics.ups.com^
 ||smetrics.ups.com^
 ||upshare.org^
-||tally.upsideout.com^
 ||upsnap.com^
 ||tokei.upstract.com^
 ||uptodatecontent.net^

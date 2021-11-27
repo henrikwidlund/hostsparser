@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-27 06:19:01Z
+! Last Modified: 2021-11-27 12:24:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42287,7 +42287,6 @@
 ||f-trak.rumahkerennn.com^
 ||rumandcoco.com^
 ||rumormillnews.com^
-||info.rumsey.com^
 ||run-germany.com^
 ||xanax-online.run.to^
 ||runaddict.pl^
@@ -54007,7 +54006,9 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -55620,7 +55621,6 @@
 ||v1.ssl.net.zooplus.de^
 ||signed.net.zooplus.de^
 ||2-panel.net.zooplus.de^
-||adm.api.net.zooplus.de^
 ||api.old.net.zooplus.de^
 ||billing.net.zooplus.de^
 ||car40-3.net.zooplus.de^
