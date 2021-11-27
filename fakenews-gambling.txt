@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-27 14:36:17Z
+! Last Modified: 2021-11-27 18:18:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9112,7 +9112,6 @@
 ||1493361689.rsc.cdn77.org^
 ||1097834592.rsc.cdn77.org^
 ||promotions-884485.c.cdn77.org^
-||game0516.cdn8-traffic68-server10.top^
 ||cdnfind.net^
 ||clicktalecdn.sslcs.cdngc.net^
 ||cdnimages.xyz^
@@ -50121,7 +50120,6 @@
 ||create.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
-||auction-load.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^

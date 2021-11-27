@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-27 14:36:35Z
+! Last Modified: 2021-11-27 18:18:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34181,7 +34181,6 @@
 ||rabbit.llresearch.org^
 ||track.msadcenter.llu.com^
 ||click.lmbcustomersupport.com^
-||balancer.lmgssp.com^
 ||lmknjb1.com^
 ||ads.lmmob.com^
 ||strategy.lmobi.net^
@@ -56442,6 +56441,9 @@
 ||tameikegoro.jp^
 ||tametc.pl^
 ||tamifashion.com^
+||t.tamiflu.com^
+||t-s.tamiflu.com^
+||metrics.tamiflu.com^
 ||tamilporn.me^
 ||tamilsex.casa^
 ||tamjuzktosbyl.cyou^
@@ -69491,6 +69493,7 @@
 ||promo-panel.net.zooplus.de^
 ||release-www.net.zooplus.de^
 ||ssl.swagger.net.zooplus.de^
+||stage.csr12.net.zooplus.de^
 ||stg.gwhwcdn.net.zooplus.de^
 ||stg.idsmgmt.net.zooplus.de^
 ||stg.profile.net.zooplus.de^
