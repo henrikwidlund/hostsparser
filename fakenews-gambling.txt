@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-27 00:52:06Z
+! Last Modified: 2021-11-27 06:19:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16966,6 +16966,7 @@
 ||enpgnig.pl^
 ||enpsguinee.com^
 ||enquete-annuelle.info^
+||ads.enrd.co^
 ||marketing.enrichmentjourneys.com^
 ||enroberts.com^
 ||ensanguineductile.info^
@@ -44988,7 +44989,6 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
-||j.newssuite.sony.net^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
 ||adserver1.sonymusiceurope.com^
@@ -54005,8 +54005,6 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||cdn.ad.xiaomi.com^
-||log.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -54436,7 +54434,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -55623,6 +55620,7 @@
 ||v1.ssl.net.zooplus.de^
 ||signed.net.zooplus.de^
 ||2-panel.net.zooplus.de^
+||adm.api.net.zooplus.de^
 ||api.old.net.zooplus.de^
 ||billing.net.zooplus.de^
 ||car40-3.net.zooplus.de^
