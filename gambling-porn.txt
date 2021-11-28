@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-27 18:18:22Z
+! Last Modified: 2021-11-28 00:54:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32683,7 +32683,6 @@
 ||kids-in-sandbox.com^
 ||kidsangel.com^
 ||kidsangelcards.com^
-||rpt.kidsfootlocker.com^
 ||kidsinsandbox.info^
 ||click.kidslivesafe.com^
 ||metrics.kidsnews.com.au^
@@ -69080,7 +69079,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -70674,6 +70672,7 @@
 ||frontpage.net.zooplus.de^
 ||fw.docker.net.zooplus.de^
 ||get-csr31.net.zooplus.de^
+||iad.csr11.net.zooplus.de^
 ||login-dev.net.zooplus.de^
 ||logindata.net.zooplus.de^
 ||mail.jobs.net.zooplus.de^
@@ -70716,6 +70715,7 @@
 ||mailsandra.net.zooplus.de^
 ||mailsigned.net.zooplus.de^
 ||mailtester.net.zooplus.de^
+||mgmt.asana.net.zooplus.de^
 ||mirrordata.net.zooplus.de^
 ||owaelastic.net.zooplus.de^
 ||profilessl.net.zooplus.de^

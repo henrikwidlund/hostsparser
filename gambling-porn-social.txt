@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-27 18:18:21Z
+! Last Modified: 2021-11-28 00:54:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17333,6 +17333,8 @@
 ||dianaridha.com^
 ||diansu8.com^
 ||adserver.diariodosertao.com.br^
+||adbmetrics.diariosur.es^
+||sadbmetrics.diariosur.es^
 ||adbmetrics.diariovasco.com^
 ||sadbmetrics.diariovasco.com^
 ||go.marketing.dias.nl^
@@ -19450,7 +19452,6 @@
 ||metrics.egencia.be^
 ||metrics.egencia.ca^
 ||metrics.egencia.ch^
-||metrics.egencia.co.in^
 ||metrics.egencia.co.uk^
 ||oms.egencia.com^
 ||metrics.egencia.com^
@@ -69328,6 +69329,7 @@
 ||frontpage.net.zooplus.de^
 ||fw.docker.net.zooplus.de^
 ||get-csr31.net.zooplus.de^
+||iad.csr11.net.zooplus.de^
 ||login-dev.net.zooplus.de^
 ||logindata.net.zooplus.de^
 ||mail.jobs.net.zooplus.de^
