@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-28 12:24:52Z
+! Last Modified: 2021-11-28 18:18:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22810,6 +22810,7 @@
 ||cname.ebis.folio-sec.com^
 ||foliovision.com^
 ||smetrics.folksam.se^
+||smetrics.folksamlopension.se^
 ||folksvideo.com^
 ||sdk.follow-apps.com^
 ||auth.follow-apps.com^
@@ -34532,7 +34533,6 @@
 ||fkmdky.lifehacker.ru^
 ||lifehackersacademy.com^
 ||lifehackz.net^
-||lifeimpressions.net^
 ||lifeinerotica.com^
 ||qriqiz.lifeisgood.com^
 ||lifematures.com^
