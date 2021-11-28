@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-28 00:54:38Z
+! Last Modified: 2021-11-28 06:19:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19733,7 +19733,6 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||perf.teads.tv.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -19744,7 +19743,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
-||ma193-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -46111,6 +46109,7 @@
 ||secure.page9awry.com^
 ||www2.pageantmedia.com^
 ||pardot.pageantmedia.com^
+||www2.pagecount.com^
 ||myetherwallet-forkprep.pagedemo.co^
 ||pageisloading.net^
 ||pageplop.com^
@@ -57143,6 +57142,7 @@
 ||sotranny.com^
 ||sotransexuais.com^
 ||sott.net^
+||analytics.souazi.com^
 ||pardot.soubun.com^
 ||sougouwiki.com^
 ||links.ab.soul-cycle.email^
