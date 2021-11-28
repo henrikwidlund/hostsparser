@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-28 06:19:36Z
+! Last Modified: 2021-11-28 12:24:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7435,7 +7435,6 @@
 ||bellaporn.xyz^
 ||bellatexballoon.com^
 ||bellaveiskincare.com^
-||office365.bellboyindia.com^
 ||vnf4.belleetbio.com^
 ||aas.bellemaison.jp^
 ||bellesa.co^
@@ -19253,6 +19252,7 @@
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
+||wildcard.marketo.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
@@ -26186,6 +26186,7 @@
 ||grimace.sbs^
 ||ads.grindinggears.com^
 ||grinlike.site^
+||go.grist.org^
 ||grlcam.com^
 ||grlotosinvve.info^
 ||track.grmtracking.com^
