@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-28 19:10:14Z
+! Last Modified: 2021-11-29 00:54:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1666,6 +1666,8 @@
 ||track.auckland.ac.nz^
 ||jur.unn.ac.ru^
 ||mail.ioc.ac.ru^
+||pn.ac.th^
+||mis.nbcc.ac.th^
 ||kodekode.ac.ug^
 ||go.arden.ac.uk^
 ||ads.ahds.ac.uk^

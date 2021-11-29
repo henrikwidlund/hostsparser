@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-28 19:09:56Z
+! Last Modified: 2021-11-29 00:53:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46280,6 +46280,8 @@
 ||streamcomunniti.ru^
 ||streamcornmuninty.me^
 ||streamen.com^
+||cmg.streamguys1.com^
+||ad-im-cmg.streamguys1.com^
 ||streamimovies.com^
 ||streaming-builder.com^
 ||acces.streaming-direct.co^
@@ -56198,6 +56200,7 @@
 ||staging.net.zooplus.de^
 ||testbed.net.zooplus.de^
 ||vpn.tpe.net.zooplus.de^
+||waf.owa.net.zooplus.de^
 ||transit.net.zooplus.de^
 ||api.gits.net.zooplus.de^
 ||api.mail.net.zooplus.de^

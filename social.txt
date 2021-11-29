@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-28 19:10:17Z
+! Last Modified: 2021-11-29 00:54:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2866,7 +2866,6 @@
 ||allafricaninfo.com^
 ||allamericanmadetoys.com^
 ||allanimehentai.com^
-||email.allantgroup.com^
 ||allaskme.com^
 ||allbeautifularts.com^
 ||links.mail.allbirds.com^
@@ -51529,6 +51528,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||de.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
