@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-29 00:54:16Z
+! Last Modified: 2021-11-29 06:20:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2866,6 +2866,7 @@
 ||allafricaninfo.com^
 ||allamericanmadetoys.com^
 ||allanimehentai.com^
+||email.allantgroup.com^
 ||allaskme.com^
 ||allbeautifularts.com^
 ||links.mail.allbirds.com^
@@ -51528,7 +51529,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||de.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -52731,6 +52731,7 @@
 ||mgmt.k8s.net.zooplus.de^
 ||mgmt.pay.net.zooplus.de^
 ||mgmt.svc.net.zooplus.de^
+||priv.api.net.zooplus.de^
 ||staging1.net.zooplus.de^
 ||stg.gist.net.zooplus.de^
 ||v3-csr41.net.zooplus.de^

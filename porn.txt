@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-29 00:54:15Z
+! Last Modified: 2021-11-29 06:20:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17852,6 +17852,8 @@
 ||cv.drive-hikari.net^
 ||ypcdbw.drive2.com^
 ||ypcdbw.drive2.ru^
+||ads.drivelinemedia.com^
+||ads2.drivelinemedia.com^
 ||info.drivemedical.com^
 ||driventicket.com^
 ||drivepornvideos.com^
@@ -20038,7 +20040,6 @@
 ||smetrics.etihad.com^
 ||smetrics.etihadcargo.com^
 ||smetrics.etihadengineering.com^
-||smetrics.etihadguest.com^
 ||etilang.pl^
 ||etisalatebill.net^
 ||etlherdelta.com^
@@ -67766,6 +67767,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

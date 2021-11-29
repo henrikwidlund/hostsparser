@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-29 00:53:57Z
+! Last Modified: 2021-11-29 06:20:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19206,6 +19206,7 @@
 ||spotxcdn.com.edgekey.net^
 ||yieldlab.net.edgekey.net^
 ||secure-adnxs.edgekey.net^
+||cdn.teads.tv.edgekey.net^
 ||adservrs.com.edgekey.net^
 ||i.pinimg.com.edgekey.net^
 ||s.pinimg.com.edgekey.net^
@@ -19226,6 +19227,7 @@
 ||cookiebot.com-v1.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma156-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^

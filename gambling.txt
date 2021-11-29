@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-29 00:54:11Z
+! Last Modified: 2021-11-29 06:20:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12723,6 +12723,7 @@
 ||go.crassone.jp^
 ||metric.crateandbarrel.com^
 ||metrics.crateandbarrel.com^
+||cdn.assets.craveonline.com^
 ||go.crawco.com^
 ||info.crawfordandcompany.com^
 ||crawlability.com^
@@ -47572,7 +47573,6 @@
 ||build.trusscore.com^
 ||trust-orlen.biz^
 ||trust-orlen.us^
-||analytics.trust.page^
 ||trust1.com^
 ||choices.trustarc.com^
 ||choices.truste.com^
@@ -48241,7 +48241,6 @@
 ||create.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
-||ads-brand-postback.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
@@ -53603,6 +53602,7 @@
 ||train-scm.net.zooplus.de^
 ||train-sec.net.zooplus.de^
 ||api.1-priv.net.zooplus.de^
+||api.repo.2.net.zooplus.de^
 ||api.resets.net.zooplus.de^
 ||api.server.net.zooplus.de^
 ||appsportal.net.zooplus.de^
