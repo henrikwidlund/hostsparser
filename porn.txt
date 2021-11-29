@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-29 06:20:15Z
+! Last Modified: 2021-11-29 12:26:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20040,6 +20040,7 @@
 ||smetrics.etihad.com^
 ||smetrics.etihadcargo.com^
 ||smetrics.etihadengineering.com^
+||smetrics.etihadguest.com^
 ||etilang.pl^
 ||etisalatebill.net^
 ||etlherdelta.com^
@@ -67767,7 +67768,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
