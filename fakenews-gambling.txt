@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-29 12:26:33Z
+! Last Modified: 2021-11-29 18:19:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1196,7 +1196,6 @@
 ||campaign.abb.com^
 ||abbanreddy.com^
 ||abbeyxxx.com^
-||assets.abbi.io^
 ||smetrics.abbott.com^
 ||metrics.abbottfamily.co.id^
 ||smetrics.abbottnutrition.com^
@@ -49380,6 +49379,7 @@
 ||triobet.com^
 ||ads.triongames.com^
 ||trionz.pl^
+||admissions.trios.com^
 ||aa-metrics.trip-ai.jp^
 ||ads.tripican.com^
 ||tripleclickpays.com^
@@ -54499,7 +54499,6 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
-||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^
@@ -55842,6 +55841,7 @@
 ||promo-panel.net.zooplus.de^
 ||release-www.net.zooplus.de^
 ||ssl.swagger.net.zooplus.de^
+||stage.csr12.net.zooplus.de^
 ||stg.gwhwcdn.net.zooplus.de^
 ||stg.idsmgmt.net.zooplus.de^
 ||stg.profile.net.zooplus.de^
