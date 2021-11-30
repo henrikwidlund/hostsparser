@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-30 12:21:48Z
+! Last Modified: 2021-11-30 18:19:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -54336,7 +54336,6 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||data.mistat.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -54805,6 +54804,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -55897,7 +55897,6 @@
 ||git.firewall-repository-legacy.net.zooplus.com^
 ||controller-legacy.account-tester.net.zooplus.com^
 ||dockerfirewall-repository-legacy.net.zooplus.com^
-||firewall-repository-legacy.login.net.zooplus.com^
 ||firewall-repository-legacy.bucket.net.zooplus.com^
 ||elmananadevalles.blob.core.windows.net.zooplus.com^
 ||controller-legacy.controller-tester.net.zooplus.com^
@@ -55905,6 +55904,8 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||m-marketing.net.zooplus.de^
+||mailrelease.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^

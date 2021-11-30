@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-30 12:21:39Z
+! Last Modified: 2021-11-30 18:19:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22935,9 +22935,6 @@
 ||health-lab.store^
 ||health-line.me^
 ||health-partner.net^
-||tiads.health.com^
-||metrics.health.com^
-||smetrics.health.com^
 ||healthagents.net^
 ||healthbeautyncs.com^
 ||mdws.healthcarecu.ca^
@@ -56070,7 +56067,6 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||data.mistat.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^

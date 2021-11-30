@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-30 12:21:46Z
+! Last Modified: 2021-11-30 18:19:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1524,6 +1524,7 @@
 ||connect.acspubs.org^
 ||st.acstnst.com^
 ||success.act-on.com^
+||adobeanalytics.actalentservices.com^
 ||metrics.actemra.com^
 ||smetrics.actemra.com^
 ||metrics.actemrahcp.com^
@@ -15409,7 +15410,6 @@
 ||downloadcdn.com^
 ||downloadfile.eu^
 ||app2.downloadmacsoft.site^
-||app2.downloadmacsoft.world^
 ||downloadmpplayer.com^
 ||downloadplayer.xyz^
 ||downloadr.xyz^
@@ -54856,7 +54856,6 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||data.mistat.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
