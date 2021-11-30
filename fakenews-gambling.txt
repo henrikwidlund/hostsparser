@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-30 06:16:11Z
+! Last Modified: 2021-11-30 12:21:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -40135,6 +40135,8 @@
 ||politykaprywatnosci-onet.live^
 ||politykaprywatnosci.live^
 ||politykaprywatnosci.org^
+||metrics.polivy.com^
+||smetrics.polivy.com^
 ||olx.polka-oferta.club^
 ||polka-oferta.cyou^
 ||olx.polka-oferta.work^
@@ -57100,7 +57102,6 @@
 ||car21-toolbar.net.zooplus.com^
 ||csr21.uploads.net.zooplus.com^
 ||customercsr21.net.zooplus.com^
-||dev-s3.legacy.net.zooplus.com^
 ||developlegacy.net.zooplus.com^
 ||docker-s3.org.net.zooplus.com^
 ||imagcontainer.net.zooplus.com^
@@ -57166,7 +57167,6 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||devopsail.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^

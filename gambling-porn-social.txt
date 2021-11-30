@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-30 06:16:22Z
+! Last Modified: 2021-11-30 12:21:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3276,6 +3276,8 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||cdn-lb.vungle.akadns.net^
+||ingest.vungle.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
@@ -57494,14 +57496,6 @@
 ||tracking.ssab.jp^
 ||tracking.ssab.nl^
 ||tracking.ssab.ru^
-||s.ssacdn.com^
-||v.ssacdn.com^
-||cf.ssacdn.com^
-||cx.ssacdn.com^
-||scc.ssacdn.com^
-||static.ssacdn.com^
-||platform.ssacdn.com^
-||images-demand.ssacdn.com^
 ||ssalong.se^
 ||www2.ssb.ca^
 ||webmail.sseauthsecure.com^
@@ -69204,6 +69198,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||br.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

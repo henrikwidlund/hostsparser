@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-30 06:16:32Z
+! Last Modified: 2021-11-30 12:21:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26655,7 +26655,6 @@
 ||ea.labelhabitation.com^
 ||go.labelsandlabeling.com^
 ||labersa.com^
-||clshkv.labirint.ru^
 ||labmedica.pl^
 ||labo-m.org^
 ||labonneforme.net^
@@ -54161,6 +54160,9 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||csr11.net.zooplus.de^
+||forum.net.zooplus.de^
+||cgi.tpe.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
