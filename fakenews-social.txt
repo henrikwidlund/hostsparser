@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-01 00:57:32Z
+! Last Modified: 2021-12-01 06:20:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28717,6 +28717,7 @@
 ||lloto.xyz^
 ||link.lloydsbank.com^
 ||links.emails.international.lloydsbank.com^
+||analytics.data.lloydsbankinggroup.com^
 ||adwords.google.lloymlincs.com^
 ||quelea.llresearch.dev^
 ||rabbit.llresearch.org^
@@ -56423,6 +56424,8 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||forum.net.zooplus.de^
+||mail01.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
