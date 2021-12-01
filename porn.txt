@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-30 18:19:42Z
+! Last Modified: 2021-12-01 00:57:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35935,6 +35935,8 @@
 ||mailtrack1313.com^
 ||tracking.mailtracker.in^
 ||oascentral.mailtribune.com^
+||track.mailvalue.net^
+||tracker.mailvalue.net^
 ||main-boost.com^
 ||secure.main5poem.com^
 ||mainbabes.com^
@@ -68301,7 +68303,6 @@
 ||xianbaoku.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -70767,7 +70768,6 @@
 ||net.zooplus.de^
 ||dii2.zooplus.de^
 ||gitapachement.net.zooplus.de^
-||kubectl.car40.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
 ||redirarketing.net.zooplus.de^

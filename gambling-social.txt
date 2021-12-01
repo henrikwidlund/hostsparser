@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-30 18:19:36Z
+! Last Modified: 2021-12-01 00:57:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30058,6 +30058,7 @@
 ||mcbookie.com^
 ||marketing.mcchrystalgroup.com^
 ||tste.mcclatchyinteractive.com^
+||email.mccoys.com^
 ||mcdlks.com^
 ||metrics.mcdonalds.com^
 ||smetrics.mcdonalds.com^
@@ -48886,6 +48887,7 @@
 ||carte-gr.total.fr^
 ||totalbets.com^
 ||totalcommunicationinc.com^
+||ads.totallyfreestuff.com^
 ||smetrics.totalwine.com^
 ||clicks.toteme.com^
 ||banners.toteme.com^
@@ -55474,6 +55476,7 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||2.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^

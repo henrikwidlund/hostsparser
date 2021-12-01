@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-11-30 18:19:28Z
+! Last Modified: 2021-12-01 00:57:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15410,6 +15410,7 @@
 ||downloadcdn.com^
 ||downloadfile.eu^
 ||app2.downloadmacsoft.site^
+||app2.downloadmacsoft.world^
 ||downloadmpplayer.com^
 ||downloadplayer.xyz^
 ||downloadr.xyz^
@@ -28716,7 +28717,6 @@
 ||lloto.xyz^
 ||link.lloydsbank.com^
 ||links.emails.international.lloydsbank.com^
-||analytics.data.lloydsbankinggroup.com^
 ||adwords.google.lloymlincs.com^
 ||quelea.llresearch.dev^
 ||rabbit.llresearch.org^
