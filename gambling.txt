@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-01 06:20:17Z
+! Last Modified: 2021-12-01 12:27:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7223,6 +7223,7 @@
 ||bloomrdeco.com^
 ||bloomshakra.com^
 ||blossomtel.com^
+||cookiecontainer.blox.pl^
 ||1amehwchx31.bloxdhop.io^
 ||js.blozoo.info^
 ||cache.blozoo.info^
@@ -23902,8 +23903,6 @@
 ||protection.ilpolice.com^
 ||web.x.ilpost.it^
 ||ilrafrica.com^
-||stats.ilsemedia.nl^
-||rc.bt.ilsemedia.nl^
 ||jbezdi.ilsole24ore.com^
 ||metrics.ilsole24ore.com^
 ||iluminatto.com.br^
@@ -54993,6 +54992,8 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||api.net.zooplus.de^
+||docs.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
@@ -55537,6 +55538,7 @@
 ||mailinvestors-preview.net.zooplus.nl^
 ||mail-investors-preview.net.zooplus.nl^
 ||dii2.zooplus.no^
+||dii2.zooplus.pl^
 ||dii2.zooplus.pt^
 ||dii2.zooplus.ro^
 ||dii2.zooplus.se^
