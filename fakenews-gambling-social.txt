@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-01 18:19:31Z
+! Last Modified: 2021-12-02 00:54:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10000,8 +10000,6 @@
 ||christianmillerswatches.com^
 ||smetrics.christianscience.com^
 ||christiantimesnewspaper.com^
-||metrics.christies.com^
-||smetrics.christies.com^
 ||christosplayroom.se^
 ||info.christus.mx^
 ||christwire.org^
@@ -19066,7 +19064,6 @@
 ||filedownloader.pl^
 ||filedownloads.pl^
 ||filefortune.com^
-||hellothere.filefox.io^
 ||adserver.filefront.com^
 ||fileice.net^
 ||ads.fileindexer.com^
@@ -22988,6 +22985,7 @@
 ||ads.hearstmags.com^
 ||services.hearstmags.com^
 ||subscribe.hearstmags.com^
+||aps.hearstnp.com^
 ||heart.news^
 ||heartdisease.news^
 ||smetrics.heartgard.com^

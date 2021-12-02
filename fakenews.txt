@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-01 18:19:38Z
+! Last Modified: 2021-12-02 00:54:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31920,6 +31920,7 @@
 ||desb.mspaceads.com^
 ||desk.mspaceads.com^
 ||msphackonline.com^
+||protection.mspolice.net^
 ||sdkconf.msstatic.com^
 ||mstr-csh.work^
 ||content.msufcu.org^
@@ -55903,7 +55904,6 @@
 ||net.zooplus.de^
 ||dii2.zooplus.de^
 ||gitapachement.net.zooplus.de^
-||kubectl.car40.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
 ||redirarketing.net.zooplus.de^
