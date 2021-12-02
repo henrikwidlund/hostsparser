@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-02 06:19:48Z
+! Last Modified: 2021-12-02 12:26:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -69391,6 +69391,7 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||ci.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
@@ -70009,7 +70010,6 @@
 ||zrobswiatlo.pl^
 ||zrutaedu.com^
 ||zrzuta.com.pl^
-||security-alert.zs2vm.top^
 ||zsadvocacia.com^
 ||zsisk.com^
 ||zskleczany.pl^
