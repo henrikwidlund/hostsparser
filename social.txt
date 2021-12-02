@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-02 00:55:01Z
+! Last Modified: 2021-12-02 06:19:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7162,7 +7162,6 @@
 ||smetrics.boehringer-ingelheim.es^
 ||smetrics.boehringer-ingelheim.mx^
 ||smetrics.boehringer-ingelheim.ru^
-||smetrics.boehringer-ingelheim.sk^
 ||smetrics.boehringer-ingelheim.tw^
 ||smetrics.boehringerone.com^
 ||campaign.boen.com^
@@ -32259,6 +32258,8 @@
 ||hosting159869.a2fee.netcup.net^
 ||go.netdepot.com^
 ||netdirect.nl^
+||guru.sitescout.netdna-cdn.com^
+||bootstrapcdn.jdorfman.netdna-cdn.com^
 ||info.netec.com^
 ||affiliates.neteller.com^
 ||netextra.hu^
@@ -54158,7 +54159,6 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||dashboard.ids.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
