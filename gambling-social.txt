@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-03 12:26:39Z
+! Last Modified: 2021-12-03 18:19:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5531,6 +5531,7 @@
 ||smetrics.bbva.com.uy^
 ||smetrics.bbva.es^
 ||smetrics.bbva.it^
+||smetrics.bbva.mx^
 ||smetrics.bbva.pe^
 ||smetrics.bbvanet.com.co^
 ||smetrics.bbvanet.com.mx^
@@ -54382,7 +54383,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||dk.adserver.yahoo.com^
+||tw.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

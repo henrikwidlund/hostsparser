@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-03 12:26:18Z
+! Last Modified: 2021-12-03 18:19:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -33843,7 +33843,6 @@
 ||karat.hu^
 ||karatbars.com^
 ||karbalaeyat.com^
-||mkt.karcher.co.jp^
 ||ywrcqa.kare11.com^
 ||karencupp.com^
 ||elo.karenkee.com^
@@ -34618,8 +34617,6 @@
 ||metrics.kone.com.tr^
 ||smetrics.kone.com.tr^
 ||metrics.kone.cz^
-||metrics.kone.dk^
-||smetrics.kone.dk^
 ||smetrics.kone.es^
 ||smetrics.kone.fr^
 ||metrics.kone.hr^
@@ -44731,9 +44728,6 @@
 ||o2-gazetka.xyz^
 ||o2-online.pl^
 ||sstats.www.o2.cz^
-||ads.o2.pl^
-||adserver.o2.pl^
-||adserwer.o2.pl^
 ||info.o2business.de^
 ||o2lo.pl^
 ||metrics.o2online.de^
@@ -72698,6 +72692,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
