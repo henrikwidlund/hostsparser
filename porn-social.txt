@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-02 18:20:13Z
+! Last Modified: 2021-12-03 00:54:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -67953,6 +67953,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||eu-pn4.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -69361,7 +69362,6 @@
 ||controller-legacy.acc.net.zooplus.com^
 ||events-legacy.toolbar.net.zooplus.com^
 ||legacy.internaltester.net.zooplus.com^
-||controller-legacy.priv.net.zooplus.com^
 ||corp.repository-legacy.net.zooplus.com^
 ||legacy.jenkins-toolbar.net.zooplus.com^
 ||emea.s3.nautilus-legacy.net.zooplus.com^
@@ -69393,6 +69393,7 @@
 ||net.zooplus.de^
 ||dii2.zooplus.de^
 ||gitapachement.net.zooplus.de^
+||kubectl.car40.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
 ||redirarketing.net.zooplus.de^

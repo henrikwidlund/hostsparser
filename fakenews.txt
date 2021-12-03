@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-02 18:20:06Z
+! Last Modified: 2021-12-03 00:54:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2645,7 +2645,6 @@
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
-||sync.tidaltv.com.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
@@ -19930,6 +19929,7 @@
 ||m1.fwmrm.net^
 ||m2.fwmrm.net^
 ||adm.fwmrm.net^
+||g1.v.fwmrm.net^
 ||mssl.fwmrm.net^
 ||ads.aws.fwmrm.net^
 ||fwupdating.com^
@@ -54335,7 +54335,6 @@
 ||xianbaoku.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||zeus.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -55905,8 +55904,8 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||sslbucket.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
-||kubectl.car40.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
 ||redirarketing.net.zooplus.de^

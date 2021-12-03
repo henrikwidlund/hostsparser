@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-02 18:20:01Z
+! Last Modified: 2021-12-03 00:54:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8169,6 +8169,7 @@
 ||bigcappower.com^
 ||ads.bigchurch.com^
 ||banners.bigchurch.com^
+||ads.bigcitytools.com^
 ||bigclicks.com^
 ||bigcock.one^
 ||bigcocker.com^
@@ -10900,7 +10901,6 @@
 ||kroderos.capitalforetof.site^
 ||pgnig.open.capitalforetof.site^
 ||analytics.capitalgroup.com^
-||frex.capitalkorpor.site^
 ||fso.capitalloredfd.site^
 ||korwre.capitalloredfd.site^
 ||teslap.capitalloredfd.site^
@@ -53970,7 +53970,6 @@
 ||delivery.olx.safedeal.casa^
 ||safedealpln.link^
 ||safedeliveryypl.shop^
-||edge.safedk.com^
 ||safedownloadcenter.com^
 ||safedownloadsrus166.com^
 ||safefaststatic.com^

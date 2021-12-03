@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-02 18:20:15Z
+! Last Modified: 2021-12-03 00:54:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23292,6 +23292,7 @@
 ||prdt.illumina.com^
 ||smetrics.illumina.com^
 ||ads.illuminatednation.com^
+||go.illuminateed.com^
 ||bnrs.ilm.ee^
 ||fpxewa.ilmeteo.it^
 ||ilosc930.site^
@@ -25178,7 +25179,6 @@
 ||ad.jiguang.cn^
 ||im.jiguang.cn^
 ||sdk.jiguang.cn^
-||sdk.im.jiguang.cn^
 ||verification.jiguang.cn^
 ||jijisa.com^
 ||jilarohtas.com^

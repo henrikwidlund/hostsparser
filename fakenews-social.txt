@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-02 18:20:05Z
+! Last Modified: 2021-12-03 00:54:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -54857,7 +54857,6 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||zeus.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -55328,7 +55327,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -56426,8 +56424,6 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||cert.net.zooplus.de^
-||admin.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
