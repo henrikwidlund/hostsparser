@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-03 00:54:16Z
+! Last Modified: 2021-12-03 06:20:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -53916,6 +53916,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -55423,6 +55424,7 @@
 ||authentication.net.zooplus.com^
 ||csr31-cloudapp.net.zooplus.com^
 ||docsapi-legacy.net.zooplus.com^
+||firewall.proxy.net.zooplus.com^
 ||webstatsswagger.net.zooplus.com^
 ||cdnlegacy.tester.net.zooplus.com^
 ||cgisitory-legacy.net.zooplus.com^
@@ -55476,6 +55478,7 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||cvs.csr31.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^

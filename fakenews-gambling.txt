@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-03 00:54:05Z
+! Last Modified: 2021-12-03 06:19:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2711,10 +2711,13 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||dotomi.weighted.com.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
+||pixel-eu.rubiconproject.net.akadns.net^
+||beacon-nf.rubiconproject.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
 ||marketing.akaes.com^
@@ -57167,6 +57170,7 @@
 ||net.zooplus.de^
 ||dii2.zooplus.de^
 ||gitapachement.net.zooplus.de^
+||kubectl.car40.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
 ||redirarketing.net.zooplus.de^

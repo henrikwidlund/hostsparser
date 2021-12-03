@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-03 00:54:07Z
+! Last Modified: 2021-12-03 06:19:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10901,6 +10901,7 @@
 ||kroderos.capitalforetof.site^
 ||pgnig.open.capitalforetof.site^
 ||analytics.capitalgroup.com^
+||frex.capitalkorpor.site^
 ||fso.capitalloredfd.site^
 ||korwre.capitalloredfd.site^
 ||teslap.capitalloredfd.site^
@@ -10961,7 +10962,6 @@
 ||metrics.carbonite.com^
 ||adstream.cardboardfish.com^
 ||ads.cardea.se^
-||connect.cardelhomes.com^
 ||cardgamespidersolitaire.com^
 ||info.cardinalhealth.com^
 ||cardinalholdingsltd.com^
@@ -53970,6 +53970,7 @@
 ||delivery.olx.safedeal.casa^
 ||safedealpln.link^
 ||safedeliveryypl.shop^
+||edge.safedk.com^
 ||safedownloadcenter.com^
 ||safedownloadsrus166.com^
 ||safefaststatic.com^
@@ -71556,6 +71557,8 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||api.server.net.zooplus.de^
+||billinging.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
