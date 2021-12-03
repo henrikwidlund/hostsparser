@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-03 06:20:06Z
+! Last Modified: 2021-12-03 12:26:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12735,6 +12735,7 @@
 ||pro.coolsculpting.com^
 ||qyfqnj.coolstuff.no^
 ||coolwebstats.com^
+||sstats.coop.dk^
 ||mktg.coop.org^
 ||forms.cooperaerobics.com^
 ||yourhealth.cooperhealth.org^
@@ -53431,7 +53432,6 @@
 ||xianbaoku.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||track.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -53902,7 +53902,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||tw2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
@@ -54995,6 +54994,7 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||ciowa.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
