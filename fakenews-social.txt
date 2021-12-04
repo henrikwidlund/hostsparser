@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-04 12:26:43Z
+! Last Modified: 2021-12-04 18:19:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4467,6 +4467,7 @@
 ||aseanlegaltech.com^
 ||aselink.guru^
 ||asesoriaforonda.com^
+||counter.asexhound.com^
 ||ads.asexstories.com^
 ||asfaleieskastoria.gr^
 ||asfaleiesvolos.gr^
@@ -15250,7 +15251,6 @@
 ||www2.dormakaba.com^
 ||dortyeu.xyz^
 ||dortyuu.xyz^
-||www2.doshforbusiness.com^
 ||doski.by^
 ||doslaska.xyz^
 ||www2.doslectionflash.icu^
@@ -54856,10 +54856,8 @@
 ||xianbaoku.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||zeus.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||diagnosis.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -56152,6 +56150,7 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||adtima.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||analytics.zingerwebdesign.com^
 ||ziololecznictwo.pl^
@@ -56428,6 +56427,7 @@
 ||net.zooplus.de^
 ||dii2.zooplus.de^
 ||gitapachement.net.zooplus.de^
+||kubectl.car40.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
 ||redirarketing.net.zooplus.de^

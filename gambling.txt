@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-04 12:26:52Z
+! Last Modified: 2021-12-04 18:19:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8550,7 +8550,6 @@
 ||ads.blp.calueclick.net^
 ||smetrics.calvinklein.ca^
 ||smetrics.help.calvinklein.com^
-||smetrics.calvinklein.us^
 ||calvinkleinpolska.pl^
 ||calvinkleinsklep.pl^
 ||calworthingtonford.com^
@@ -53905,6 +53904,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -54996,10 +54996,10 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||chd.api.net.zooplus.de^
-||mailjet.net.zooplus.de^
-||cloudssl.net.zooplus.de^
+||ciowa.net.zooplus.de^
+||cdnmgmt.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
+||kubectl.car40.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
 ||redirarketing.net.zooplus.de^
