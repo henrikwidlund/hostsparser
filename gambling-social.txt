@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-04 00:54:25Z
+! Last Modified: 2021-12-04 06:19:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -912,6 +912,7 @@
 ||6amateure.net^
 ||6amlife.com^
 ||6e.co.kr^
+||6e2f1d2ae033.com^
 ||6ftlady.com^
 ||6m.pl^
 ||6ox.de^
@@ -5094,6 +5095,7 @@
 ||mydaddy.b0x.com^
 ||ads.b10f.jp^
 ||b17-sklep.pl^
+||b1fe8a95ae27823.com^
 ||tr.communication.b2b-actualites.com^
 ||b2berlin.se^
 ||infos.b2dreamlab.com^
@@ -30815,7 +30817,6 @@
 ||feed.minpos.com^
 ||minsk-krovlya.by^
 ||service-lenovo.minsk.by^
-||stats.mint.ca^
 ||mintajdw.icu^
 ||mintegral.com^
 ||wildfowl.minter.io^
@@ -54383,6 +54384,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -55476,8 +55478,6 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||csrnode1.net.zooplus.de^
-||mail.org.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
