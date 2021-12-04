@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-03 18:19:32Z
+! Last Modified: 2021-12-04 00:54:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -40430,6 +40430,7 @@
 ||protracologistics.com^
 ||protradebot.monster^
 ||protraffic.com^
+||smetrics.protrek.jp^
 ||proudcons.com^
 ||proudmorale.com^
 ||eb.prout.be^
@@ -41171,7 +41172,6 @@
 ||ralplauran.com^
 ||raz.ralt.site^
 ||ramainfotech.in^
-||adsomenoise.cdn01.rambla.be^
 ||ad.rambler.ru^
 ||t.ramblinwreck.com^
 ||consulting.ramboll.com^
@@ -55902,8 +55902,6 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||2.net.zooplus.de^
-||billing.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||kubectl.car40.net.zooplus.de^
 ||mail-customer.net.zooplus.de^

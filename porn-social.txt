@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-03 18:19:42Z
+! Last Modified: 2021-12-04 00:54:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42994,6 +42994,7 @@
 ||oidiscover.com^
 ||oilchairgroup.live^
 ||oiledangels.com^
+||tigershark.oilpriceapi.com^
 ||oilseedethiopia.com^
 ||oilsextube.com^
 ||oiltanking.ee^
@@ -53070,6 +53071,7 @@
 ||stats.scottbartell.com^
 ||scottishstuff-online.com^
 ||info.scottmadden.com^
+||metrics.scottrade.com^
 ||metrics.scotts.com^
 ||butterfly.scottspence.com^
 ||ads.scottusa.com^
@@ -67946,7 +67948,9 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
