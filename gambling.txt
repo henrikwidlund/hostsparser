@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-04 06:19:44Z
+! Last Modified: 2021-12-04 12:26:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -33975,6 +33975,7 @@
 ||novmintservices.com^
 ||novoicenoprob.net^
 ||novosti247.com^
+||ads.novsport.com^
 ||novveullubionerzeczy.cyou^
 ||novvvaggazetapolska.cyou^
 ||cash-advance.now-cash.com^
@@ -54995,7 +54996,9 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||dashboard.ids.net.zooplus.de^
+||chd.api.net.zooplus.de^
+||mailjet.net.zooplus.de^
+||cloudssl.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^

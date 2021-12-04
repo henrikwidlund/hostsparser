@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-04 06:19:40Z
+! Last Modified: 2021-12-04 12:26:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51914,6 +51914,8 @@
 ||recommendedlab.com^
 ||vip.recommendedtoyoo.com^
 ||recommendtent.xyz^
+||eu1.recompenses.win^
+||orange.recompenses.win^
 ||orange.recompenses.xyz^
 ||recorded-webcams.com^
 ||recordedcams.com^
@@ -69202,7 +69204,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -70655,7 +70656,8 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||appsportal.net.zooplus.de^
+||mirrorssl.net.zooplus.de^
+||sslbucket.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^

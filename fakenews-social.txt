@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-04 06:19:37Z
+! Last Modified: 2021-12-04 12:26:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4467,7 +4467,6 @@
 ||aseanlegaltech.com^
 ||aselink.guru^
 ||asesoriaforonda.com^
-||counter.asexhound.com^
 ||ads.asexstories.com^
 ||asfaleieskastoria.gr^
 ||asfaleiesvolos.gr^
@@ -17107,6 +17106,7 @@
 ||epegasus.pl^
 ||epey.site^
 ||epgv01.fr^
+||www2.ephox.com^
 ||ads.epi.sk^
 ||epic.co.th^
 ||epicdankbot.com^
@@ -54856,8 +54856,10 @@
 ||xianbaoku.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||zeus.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||diagnosis.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
