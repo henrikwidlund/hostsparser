@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-05 06:19:42Z
+! Last Modified: 2021-12-05 12:25:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4757,7 +4757,6 @@
 ||eurotax-pl.autovistagroup.com^
 ||analytics.autozone.com^
 ||sanalytics.autozone.com^
-||marketing.autozonemecanicos.com^
 ||info.autozonepro.com^
 ||go.auvenir.com^
 ||auxin-box.com^
@@ -14609,6 +14608,7 @@
 ||bf35f69f2c6f6bcda64064b1f5b49218.domain.com.au^
 ||stats.domain.garden^
 ||cattle.domaincomet.com^
+||ad.domainfactory.de^
 ||ti.domainforlite.com^
 ||uu.domainforlite.com^
 ||domainfwd.com^
@@ -54161,6 +54161,7 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||api.repo.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^

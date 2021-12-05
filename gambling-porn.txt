@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-05 06:19:33Z
+! Last Modified: 2021-12-05 12:25:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34218,6 +34218,8 @@
 ||lack4skip.com^
 ||lacmp.net^
 ||wyaopp.lacoccinelle.net^
+||tr.news.lacollection-airfrance.fr^
+||tr.information.lacollection-airfrance.fr^
 ||tr.news.lacollectionairfrance.fr^
 ||lacomics.org^
 ||info.laconservancy.org^
