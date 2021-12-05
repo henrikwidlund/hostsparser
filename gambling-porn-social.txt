@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-04 18:19:23Z
+! Last Modified: 2021-12-05 00:59:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5272,9 +5272,6 @@
 ||apornstories.com^
 ||aporntv.com^
 ||apornvideos.com^
-||adv.aport.ru^
-||stat.aport.ru^
-||counter.aport.ru^
 ||go.apos.com^
 ||apoyosvisuales.mx^
 ||apozy.biz^
@@ -69207,6 +69204,8 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

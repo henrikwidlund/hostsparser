@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-04 18:19:27Z
+! Last Modified: 2021-12-05 00:59:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8550,6 +8550,7 @@
 ||ads.blp.calueclick.net^
 ||smetrics.calvinklein.ca^
 ||smetrics.help.calvinklein.com^
+||smetrics.calvinklein.us^
 ||calvinkleinpolska.pl^
 ||calvinkleinsklep.pl^
 ||calworthingtonford.com^
@@ -25825,7 +25826,6 @@
 ||mesotherapy.jino-net.ru^
 ||sunhe.jinr.ru^
 ||go.jinya-inn.com^
-||stats.jippii.com^
 ||jitosomon.com^
 ||jiztini.com^
 ||jizzads.com^
@@ -31918,7 +31918,6 @@
 ||ads.mvscoelho.com^
 ||go.mvtec.com^
 ||ma.mw-ind.com^
-||toplista.mw.hu^
 ||go.mwe.com^
 ||tracking.mwe.com^
 ||mwgcollectibles.com^
@@ -53902,9 +53901,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -54929,6 +54928,7 @@
 ||assets.tester.net.zooplus.com^
 ||car21-hipchat.net.zooplus.com^
 ||car21-toolbar.net.zooplus.com^
+||cms.s3.legacy.net.zooplus.com^
 ||csr21.uploads.net.zooplus.com^
 ||customercsr21.net.zooplus.com^
 ||developlegacy.net.zooplus.com^
@@ -54996,10 +54996,11 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||gh.net.zooplus.de^
 ||ciowa.net.zooplus.de^
-||cdnmgmt.net.zooplus.de^
+||csr41.net.zooplus.de^
+||awsdockerapi.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
-||kubectl.car40.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
 ||redirarketing.net.zooplus.de^
