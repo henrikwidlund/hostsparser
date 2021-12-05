@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-05 12:25:54Z
+! Last Modified: 2021-12-05 18:19:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23813,6 +23813,7 @@
 ||fuzzybunnyhotsauce.com^
 ||fv-candy.co.jp^
 ||fvaweb.it^
+||helios.fvn.no^
 ||track.msadcenter.fvpl.com^
 ||i3.fvporn.com^
 ||i4.fvporn.com^
@@ -57332,7 +57333,6 @@
 ||svs-games.com^
 ||tk.svsound.com^
 ||sw-rail-7.com^
-||ship.swacargo.com^
 ||autostock.swadeshishop.com^
 ||swanksoft.com^
 ||swanseacityguide.co.uk^
@@ -69325,8 +69325,10 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||tw2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
