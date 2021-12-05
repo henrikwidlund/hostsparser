@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-05 00:58:49Z
+! Last Modified: 2021-12-05 06:19:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7687,7 +7687,6 @@
 ||bellotube.com^
 ||bellyakcuracao.com^
 ||belmont.ag^
-||dist.belnk.com^
 ||belobrova.eu^
 ||belokandoang.com^
 ||infos.belong.com.au^
@@ -68798,8 +68797,6 @@
 ||vtoras.top^
 ||vtoyshop.com^
 ||vtrahetut.porn^
-||oas.vtsgonline.com^
-||insightxe.vtsgonline.com^
 ||vtube.mobi^
 ||zazu.vtube.to^
 ||vu-betredirect1.com^
@@ -71676,6 +71673,7 @@
 ||xianbaoku.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
