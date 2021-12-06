@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-06 06:20:07Z
+! Last Modified: 2021-12-06 12:27:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15893,6 +15893,7 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
+||cdn.spotxcdn.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
@@ -22969,7 +22970,6 @@
 ||qrcdownload.ibcustomerzone.com^
 ||ibedeer.com^
 ||smetrics.ibercaja.es^
-||marketing.ibermatica.com^
 ||g.whatsapp.net.iberostar.com^
 ||dit.whatsapp.net.iberostar.com^
 ||fota-cloud-dn.ospserver.net.iberostar.com^
@@ -54627,11 +54627,6 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||fileowa.net.zooplus.de^
-||v3csr12.net.zooplus.de^
-||api.repo.net.zooplus.de^
-||csrrepo1.net.zooplus.de^
-||mad.mail.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^

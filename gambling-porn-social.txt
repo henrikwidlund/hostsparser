@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-06 06:20:09Z
+! Last Modified: 2021-12-06 12:27:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16583,6 +16583,7 @@
 ||swan.datingjungle.de^
 ||datingsitespot.com^
 ||2013znakomstva.datingsprivate2013.com^
+||ads.datingyes.com^
 ||mautic.datium.vn^
 ||datnentayhanoi.info^
 ||dato.social^
@@ -30205,6 +30206,9 @@
 ||ldwybo.ingenieur.de^
 ||ingoinvest.com^
 ||ingpl.eu^
+||go.ingredion.com^
+||metrics.ingredion.com^
+||sanalytics.ingredion.com^
 ||mon.ingservices.nl^
 ||ingyen-szex-video.hu^
 ||ingyenszexvideo.eu^
@@ -69374,6 +69378,8 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||external.net.zooplus.de^
+||mail.org.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^

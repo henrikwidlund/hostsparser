@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-06 06:19:58Z
+! Last Modified: 2021-12-06 12:27:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7373,7 +7373,6 @@
 ||smetrics.boehringer-ingelheim.ca^
 ||smetrics.boehringer-ingelheim.co.uk^
 ||smetrics.boehringer-ingelheim.com^
-||smetrics.boehringer-ingelheim.de^
 ||smetrics.boehringer-ingelheim.es^
 ||smetrics.boehringer-ingelheim.mx^
 ||smetrics.boehringer-ingelheim.ru^
@@ -32098,7 +32097,6 @@
 ||popup.msn.com^
 ||rmads.msn.com^
 ||ads.eu.msn.com^
-||b.ads2.msn.com^
 ||c.latam.msn.com^
 ||preview.msn.com^
 ||ads1.jp.msn.com^
@@ -48697,6 +48695,7 @@
 ||thepermanenttruth.com^
 ||s.thepeterboroughexaminer.com^
 ||oascentral.thephoenix.com^
+||marketing.thephoenix.org^
 ||thepiratetrader.com^
 ||buy-phentermine.thepizza.net^
 ||update.theplacetoupdating.pw^
@@ -54847,9 +54846,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
-||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^

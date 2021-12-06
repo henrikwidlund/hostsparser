@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-06 06:20:03Z
+! Last Modified: 2021-12-06 12:27:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19200,6 +19200,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||cdn.cxense.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -38370,7 +38371,6 @@
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
-||df.mic.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
 ||moblink.mob.com^
@@ -67697,6 +67697,7 @@
 ||mdws.weyburncu.ca^
 ||internationalfactoring-temp.wf.com^
 ||ywrcqa.wfaa.com^
+||fairy.wfairyg.com^
 ||mdws.wfcu.ca^
 ||wfinance.com.br^
 ||track.msadcenter.wfm.com^
