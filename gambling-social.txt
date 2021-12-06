@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-06 12:27:22Z
+! Last Modified: 2021-12-06 18:25:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1689,8 +1689,6 @@
 ||adfactor.nl^
 ||adfalcon.com^
 ||www2.adfastcorp.com^
-||xml.adfclick1.com^
-||static.adfclick1.com^
 ||adfiptv.com^
 ||go.adflegal.org^
 ||adflight.com^
@@ -15940,7 +15938,6 @@
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||pixel.mathtag.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -53131,8 +53128,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||tw.adserver.yahoo.com^
-||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

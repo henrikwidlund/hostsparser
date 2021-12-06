@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-06 12:27:25Z
+! Last Modified: 2021-12-06 18:25:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18741,7 +18741,6 @@
 ||marketo.com.edgekey.net^
 ||mathtag.com.edgekey.net^
 ||mookie1.com.edgekey.net^
-||san.push.io.edgekey.net^
 ||marketo.net.edgekey.net^
 ||owneriq.net.edgekey.net^
 ||taboola.com.edgekey.net^
@@ -18771,6 +18770,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
+||aktrack.pubmatic.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
@@ -18781,6 +18781,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||wildcard.owneriq.net.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -23198,6 +23199,8 @@
 ||wildcat.fspy.io^
 ||lp.fsresidential.com^
 ||events.fst.net.au^
+||ads.ft.com^
+||secureads.ft.com^
 ||auxilium.ftb.team^
 ||metrics.ftd.ca^
 ||metrics.ftd.com^
@@ -28834,6 +28837,7 @@
 ||stat.ijinshan.com^
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
+||js.stat.ijinshan.com^
 ||keyserver.ijinshan.com^
 ||info.ijungo.com^
 ||ikbox.org^
@@ -37468,7 +37472,6 @@
 ||verify.mob.com^
 ||applink.mob.com^
 ||moblink.mob.com^
-||api.applink.mob.com^
 ||track.mob193.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
@@ -68115,9 +68118,6 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||car21.net.zooplus.de^
-||car40-3.net.zooplus.de^
-||data.git-org.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^

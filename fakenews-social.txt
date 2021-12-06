@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-06 12:27:16Z
+! Last Modified: 2021-12-06 18:25:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38745,6 +38745,7 @@
 ||sites.postnord.se^
 ||metrics.postoffice.co.uk^
 ||postol.fr^
+||vidamsag.postr.hu^
 ||api.postscript.io^
 ||sdk.postscript.io^
 ||posturenursery.info^
@@ -54067,7 +54068,6 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

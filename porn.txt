@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-06 12:27:26Z
+! Last Modified: 2021-12-06 18:25:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3123,6 +3123,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||ingest.vungle.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
@@ -42857,22 +42858,6 @@
 ||ads.online.ie^
 ||404.online.net^
 ||xn--poyczaj-xwb.online.pl^
-||hosting2120935.online.pro^
-||hosting2021623.online.pro^
-||hosting2024700.online.pro^
-||hosting2029570.online.pro^
-||hosting2042037.online.pro^
-||hosting2051245.online.pro^
-||hosting2070987.online.pro^
-||hosting2086464.online.pro^
-||hosting2108230.online.pro^
-||hosting2119326.online.pro^
-||hosting2127385.online.pro^
-||hosting2129536.online.pro^
-||hosting2139479.online.pro^
-||hosting2139860.online.pro^
-||hosting2181629.online.pro^
-||hosting2192940.online.pro^
 ||online2018codeopen.win^
 ||online2018softwarefree.win^
 ||onlineadmin.net^
@@ -69491,9 +69476,6 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||2-panel.net.zooplus.de^
-||gw.panel.net.zooplus.de^
-||admindata.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^

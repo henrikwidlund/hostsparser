@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-06 12:27:28Z
+! Last Modified: 2021-12-06 18:25:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4600,6 +4600,7 @@
 ||engage.avalara.com^
 ||metrics.avalara.com^
 ||smetrics.avalara.com^
+||smetrics.avancesenrespiratorio.com^
 ||avant.com.pl^
 ||marketing.avantage.nl^
 ||kurumsal.avantajbulvari.com^
@@ -29118,6 +29119,7 @@
 ||mi.miliboo.be^
 ||mi.miliboo.ch^
 ||mi.miliboo.co.uk^
+||mi.miliboo.com^
 ||mi.miliboo.de^
 ||mi.miliboo.es^
 ||mi.miliboo.it^
@@ -39379,6 +39381,8 @@
 ||eternal.reklamlab.com^
 ||ads.reklamlar.net^
 ||reklamzadserver.com^
+||ads.rekmob.com^
+||adimg.rekmob.com^
 ||rekrutacjaksos.pl^
 ||reksiowet.pl^
 ||relacja0016.site^
@@ -52880,7 +52884,6 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||cert.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
