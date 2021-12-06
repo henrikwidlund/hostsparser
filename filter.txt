@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-06 00:56:39Z
+! Last Modified: 2021-12-06 06:19:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -52291,6 +52291,7 @@
 ||delivery.olx.pl.receivement.me^
 ||recepta.com.pl^
 ||reception-desk.net^
+||t.receptionist.jp^
 ||recieve-pay.online^
 ||recipepes.com^
 ||recipeshala.com^
@@ -71445,6 +71446,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||dk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
