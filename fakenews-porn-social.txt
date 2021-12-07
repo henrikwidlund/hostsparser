@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-07 00:57:23Z
+! Last Modified: 2021-12-07 06:20:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9435,7 +9435,6 @@
 ||iad-08.braze.com^
 ||sdk.iad-02.braze.com^
 ||gudja.iad-02.braze.com^
-||carinus.iad-03.braze.com^
 ||cdn.braze.eu^
 ||fra-01.braze.eu^
 ||brazilcubensis.com^
@@ -16574,6 +16573,7 @@
 ||sc.wa.gto.db.com^
 ||mit.researchlog.db.com^
 ||mac-safety-check.com.ppikkoyfug.db3irlfl8g2nrljgxnlsoqmvb1s.icu^
+||ad.db3nf.com^
 ||dbamyociebie.click^
 ||dbestporn.com^
 ||ads.dbforums.com^
@@ -70282,7 +70282,7 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||owa.mail05.net.zooplus.de^
+||admindata.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
