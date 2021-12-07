@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-07 12:28:49Z
+! Last Modified: 2021-12-07 18:20:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2621,7 +2621,6 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||tps-wlb-uswest.dvgtm.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -19296,7 +19295,6 @@
 ||sanl.footlocker.it^
 ||sanl.footlocker.lu^
 ||sanl.footlocker.nl^
-||sanl.footlocker.no^
 ||sanl.footlocker.pl^
 ||sanl.footlocker.pt^
 ||sanl.footlocker.se^
@@ -22804,6 +22802,7 @@
 ||phentermine-buy-online.hitslog.net^
 ||hitstation.nl^
 ||hitstats.co.uk^
+||go.hitto.jp^
 ||hitvisit.com^
 ||images.hitwise.co.uk^
 ||hiustensiirto.org^
@@ -32085,7 +32084,6 @@
 ||mulaplane.com^
 ||mulato.info^
 ||mulikit.com^
-||a.muloqot.uz^
 ||service.multi-pops.com^
 ||rayo.pereira.multi.net.co^
 ||ns1.multi.net.pk^
@@ -55890,7 +55888,7 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||csrnode1.net.zooplus.de^
+||docs.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^

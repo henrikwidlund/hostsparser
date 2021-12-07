@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-07 12:28:47Z
+! Last Modified: 2021-12-07 18:20:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16456,6 +16456,7 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
+||wildcard.outbrainimg.com.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
@@ -43849,9 +43850,6 @@
 ||selective-business.com^
 ||beuniquelyinsured.selective.com^
 ||selectpills.com^
-||stats.self.com^
-||sstats.self.com^
-||stats2.self.com^
 ||selfies.se^
 ||selfieshop.ga^
 ||selfkey.co^
@@ -48902,9 +48900,6 @@
 ||banners.thomsonlocal.com^
 ||trail.thomsonreuters.co.uk^
 ||internalforms.legalsolutions.thomsonreuters.co.uk^
-||app.thomsonreuters.com^
-||latam.thomsonreuters.com^
-||trail.thomsonreuters.com^
 ||ask.legalsolutions.thomsonreuters.info^
 ||marketing.thomsonreuterscanada.ca^
 ||carswellmedia.thomsonreuterscanada.ca^
