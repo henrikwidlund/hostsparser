@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-06 18:25:38Z
+! Last Modified: 2021-12-07 00:57:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3192,7 +3192,6 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||tvx.adgrx.com.tech.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -25202,6 +25201,7 @@
 ||media.globalsign.com^
 ||jp.globalsign.marketing^
 ||import.globalsources.com^
+||saa.globalspec.com^
 ||globalsupporteam.com^
 ||it.globalsweeps.info^
 ||webanalytics.globalthoughtz.com^
@@ -65156,6 +65156,7 @@
 ||marketing.visitgreaterpalmsprings.com^
 ||marketing.visitgreenvillesc.com^
 ||marketing.visithamiltoncounty.com^
+||marketing.visitindy.com^
 ||marketing.visitjamaica.com^
 ||marketing.visitkingston.ca^
 ||marketing.visitloscabos.travel^
@@ -70723,7 +70724,6 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||api.machine.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
