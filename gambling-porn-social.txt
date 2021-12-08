@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-08 00:57:17Z
+! Last Modified: 2021-12-08 06:20:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19293,6 +19293,7 @@
 ||ads.pro-market.net.edgesuite.net^
 ||ads.bridgetrack.com.edgesuite.net^
 ||citi.bridgetrack.com.edgesuite.net^
+||content.yieldmanager.edgesuite.net^
 ||static.ak.facebook.com.edgesuite.net^
 ||profile.ak.facebook.com.edgesuite.net^
 ||instagramstatic-a.akamaihd.net.edgesuite.net^
@@ -66249,7 +66250,6 @@
 ||links.worldbannerexchange.com^
 ||an.worldbaseballclassic.com^
 ||sadbmetrics.worldcanic.com^
-||metric.worldcat.org^
 ||worlddatingforum.com^
 ||game4486.worldhosts.fun^
 ||steam.communyty.worldhosts.ru^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-08 00:57:30Z
+! Last Modified: 2021-12-08 06:20:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18311,10 +18311,6 @@
 ||foto-office.pl^
 ||foto-set.com^
 ||foto-top.info^
-||dl.fotoable.com^
-||cdn.fotoable.com^
-||log.fotoable.com^
-||cdn.api.fotoable.com^
 ||ads.fotoable.net^
 ||ftllrl.fotoallerlei.com^
 ||xbwpfs.fotocasa.es^

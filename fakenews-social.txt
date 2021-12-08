@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-08 00:57:13Z
+! Last Modified: 2021-12-08 06:20:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -47946,8 +47946,6 @@
 ||time-counter.com^
 ||time-investment.space^
 ||time-to-go.xyz^
-||metrics.time.com^
-||smetrics.time.com^
 ||marketing.timecrowd.net^
 ||timegonebuy.com^
 ||tia.timeinc.net^
@@ -55144,7 +55142,9 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||hwcdn-mail.net.zooplus.de^
+||data.org.net.zooplus.de^
+||dockerail.net.zooplus.de^
+||oid-csr11.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
