@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-08 12:27:25Z
+! Last Modified: 2021-12-08 18:20:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18771,7 +18771,6 @@
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -20515,6 +20514,7 @@
 ||om.expedia.com^
 ||oms.expedia.com^
 ||ads.expedia.com^
+||ads.expekt.com^
 ||expenseeraser.com^
 ||experclick.com^
 ||smetrics1.experian.com^
@@ -54197,9 +54197,6 @@
 ||slicznydzien.com.pl^
 ||slim2disc.com^
 ||slimak-pozyczki.pl^
-||pl.slimg0ji-berry.com^
-||pl1.slimg0ji-berry.com^
-||pl2.slimg0ji-berry.com^
 ||slimythief.com^
 ||smetrics.sling.com^
 ||sliponbuty.com^
