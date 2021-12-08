@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-07 18:20:15Z
+! Last Modified: 2021-12-08 00:57:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19612,7 +19612,6 @@
 ||adm.fwmrm.net^
 ||mssl.fwmrm.net^
 ||ads.aws.fwmrm.net^
-||2df7e.v.fwmrm.net^
 ||fwupdating.com^
 ||stat-ssl.fx-rashinban.com^
 ||fx24options.org^
@@ -51296,6 +51295,8 @@
 ||omniture-ssl.wal-mart.com^
 ||walcowac.site^
 ||waldenfarms.com^
+||metrics.walgreens.com^
+||smetrics.walgreens.com^
 ||konto.walidacja-uzytkownika.online^
 ||interia.walidacja-uzytkownika.site^
 ||konto.walidacja-uzytkownika.website^
@@ -55143,6 +55144,7 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||hwcdn-mail.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^

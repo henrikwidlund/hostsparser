@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-07 18:20:11Z
+! Last Modified: 2021-12-08 00:57:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19295,6 +19295,7 @@
 ||sanl.footlocker.it^
 ||sanl.footlocker.lu^
 ||sanl.footlocker.nl^
+||sanl.footlocker.no^
 ||sanl.footlocker.pl^
 ||sanl.footlocker.pt^
 ||sanl.footlocker.se^
@@ -21578,7 +21579,6 @@
 ||grandrapidsreporter.com^
 ||grands-poll.xyz^
 ||grandspree.com^
-||go.grandvan.co.jp^
 ||grandvisionschool.com^
 ||granicasportu.pl^
 ||vazulp.graniph.com^
@@ -32084,6 +32084,7 @@
 ||mulaplane.com^
 ||mulato.info^
 ||mulikit.com^
+||a.muloqot.uz^
 ||service.multi-pops.com^
 ||rayo.pereira.multi.net.co^
 ||ns1.multi.net.pk^
@@ -55888,7 +55889,9 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||docs.net.zooplus.de^
+||cloudssl.net.zooplus.de^
+||mad.mail.net.zooplus.de^
+||cms-csr41.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
