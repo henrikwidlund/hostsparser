@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-09 12:27:21Z
+! Last Modified: 2021-12-09 18:19:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15132,7 +15132,6 @@
 ||cookingtiprewards.com^
 ||cooknfit.com^
 ||cookonsea.com^
-||a.cookpad-ads.com^
 ||ad.cooks.com^
 ||ad2.cooks.com^
 ||lp.cooktracking.com^
@@ -19266,6 +19265,7 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||wildcard.aniview.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -40680,6 +40680,7 @@
 ||navywalls.com^
 ||nawykpochloniety.site^
 ||naxnet.or.jp^
+||sx.nazari.org^
 ||evaave12.nazwa.pl^
 ||server012121.nazwa.pl^
 ||server013742.nazwa.pl^
@@ -48434,6 +48435,7 @@
 ||pornozdarma.cz^
 ||pornozing.com^
 ||pornozot.com^
+||awrfds3.pornpapa.com^
 ||pornpaw.com^
 ||pornpaysites.net^
 ||pornperv.com^
@@ -52716,6 +52718,7 @@
 ||zpu.samsungelectronics.com^
 ||invitation.samsungiotcloud.com^
 ||gld.samsungosp.com^
+||gpm.samsungqbe.com^
 ||osb-ussvc.samsungqbe.com^
 ||contact.samsungsds.com^
 ||tracking.mkt-email.samsungsds.com^
@@ -69377,8 +69380,6 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||frontpage.net.zooplus.de^
-||oid-csr11.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^

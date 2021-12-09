@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-09 12:27:25Z
+! Last Modified: 2021-12-09 18:20:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12467,7 +12467,6 @@
 ||cookingtiprewards.com^
 ||cooknfit.com^
 ||cookonsea.com^
-||a.cookpad-ads.com^
 ||ad.cooks.com^
 ||ad2.cooks.com^
 ||lp.cooktracking.com^
@@ -15944,6 +15943,7 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||i16-tb.sgsnssdk.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -38178,6 +38178,7 @@
 ||asg.pornomoglie.com^
 ||asg.pornoplay.online^
 ||linkcounter.pornosite.com^
+||awrfds3.pornpapa.com^
 ||iframes.pornprosnetwork.com^
 ||pornsponsors.com^
 ||pornstargals.com^
@@ -41650,6 +41651,7 @@
 ||zpu.samsungelectronics.com^
 ||invitation.samsungiotcloud.com^
 ||gld.samsungosp.com^
+||gpm.samsungqbe.com^
 ||osb-ussvc.samsungqbe.com^
 ||contact.samsungsds.com^
 ||tracking.mkt-email.samsungsds.com^

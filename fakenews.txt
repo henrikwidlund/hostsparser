@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-09 12:27:19Z
+! Last Modified: 2021-12-09 18:19:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12395,7 +12395,6 @@
 ||cookingtiprewards.com^
 ||cooknfit.com^
 ||cookonsea.com^
-||a.cookpad-ads.com^
 ||ad.cooks.com^
 ||ad2.cooks.com^
 ||lp.cooktracking.com^
@@ -38508,6 +38507,7 @@
 ||asg.pornomoglie.com^
 ||asg.pornoplay.online^
 ||linkcounter.pornosite.com^
+||awrfds3.pornpapa.com^
 ||iframes.pornprosnetwork.com^
 ||pornsponsors.com^
 ||pornstargals.com^
@@ -42025,6 +42025,7 @@
 ||zpu.samsungelectronics.com^
 ||invitation.samsungiotcloud.com^
 ||gld.samsungosp.com^
+||gpm.samsungqbe.com^
 ||osb-ussvc.samsungqbe.com^
 ||contact.samsungsds.com^
 ||tracking.mkt-email.samsungsds.com^
@@ -53548,7 +53549,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -54628,8 +54628,7 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||csr08.net.zooplus.de^
-||ghmail.net.zooplus.de^
+||ssl-www.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
