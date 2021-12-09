@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-09 06:20:12Z
+! Last Modified: 2021-12-09 12:27:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8251,6 +8251,8 @@
 ||ads.bing.com^
 ||adserver.bing.com^
 ||telemetry.appex.bing.net^
+||smetrics.binge.com.au^
+||t.prod1.discover.binge.com.au^
 ||metrics.bingle.com.au^
 ||smetrics.bingle.com.au^
 ||bingo.com^
@@ -40678,7 +40680,6 @@
 ||navywalls.com^
 ||nawykpochloniety.site^
 ||naxnet.or.jp^
-||sx.nazari.org^
 ||evaave12.nazwa.pl^
 ||server012121.nazwa.pl^
 ||server013742.nazwa.pl^
@@ -69376,6 +69377,8 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||frontpage.net.zooplus.de^
+||oid-csr11.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
