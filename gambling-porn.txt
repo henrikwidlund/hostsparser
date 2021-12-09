@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-09 00:55:35Z
+! Last Modified: 2021-12-09 06:20:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25533,7 +25533,6 @@
 ||goleta105.com^
 ||aa-metrics.golf-jalan.net^
 ||golf-news.live^
-||plausible.golfbreaks.com^
 ||wtgnmr.golfdigest.co.jp^
 ||stats2.golfdigest.com^
 ||telulr.golfgalaxy.com^
@@ -70724,7 +70723,12 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||csr11-ci.net.zooplus.de^
+||es-csr12.net.zooplus.de^
+||gh-csr41.net.zooplus.de^
+||authcar40.net.zooplus.de^
 ||gitapachement.net.zooplus.de^
+||kubectl.car40.net.zooplus.de^
 ||mail-customer.net.zooplus.de^
 ||mail-profiles.net.zooplus.de^
 ||redirarketing.net.zooplus.de^
