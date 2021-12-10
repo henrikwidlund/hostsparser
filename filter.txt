@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-10 06:19:53Z
+! Last Modified: 2021-12-10 12:26:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30708,8 +30708,6 @@
 ||infx.eu^
 ||ing-ll.pl^
 ||www3s.ing.be^
-||metric.ing.es^
-||metrics.ing.es^
 ||enter.ingangwebang.com^
 ||ingbkpl.com^
 ||metric.ingdirect.es^
@@ -39522,6 +39520,7 @@
 ||mopik.pl^
 ||jdgtgb.mopo.de^
 ||protection.mopolice.com^
+||mopub.com^
 ||acim.moqhixoz.cn^
 ||uawj.moqhixoz.cn^
 ||sstats.mora-qualitas.com^
@@ -48723,6 +48722,7 @@
 ||polka-oferta.cyou^
 ||olx.polka-oferta.work^
 ||polkadot-pl.club^
+||mammal.polkadot.network^
 ||polki-nago.pl^
 ||polkodot.network^
 ||polktimes.com^
@@ -71033,7 +71033,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||in.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

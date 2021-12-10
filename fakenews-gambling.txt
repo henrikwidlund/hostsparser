@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-10 06:19:58Z
+! Last Modified: 2021-12-10 12:26:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31383,6 +31383,7 @@
 ||mopik.pl^
 ||jdgtgb.mopo.de^
 ||protection.mopolice.com^
+||mopub.com^
 ||acim.moqhixoz.cn^
 ||uawj.moqhixoz.cn^
 ||sstats.mora-qualitas.com^
@@ -51699,8 +51700,6 @@
 ||wakyucuofke.com^
 ||walcowac.site^
 ||waldenfarms.com^
-||metrics.walgreens.com^
-||smetrics.walgreens.com^
 ||konto.walidacja-uzytkownika.online^
 ||interia.walidacja-uzytkownika.site^
 ||konto.walidacja-uzytkownika.website^
@@ -54392,7 +54391,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||tw2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
