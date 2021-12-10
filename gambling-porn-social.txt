@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-10 12:26:51Z
+! Last Modified: 2021-12-10 18:19:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19213,7 +19213,6 @@
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
-||cdn-dsa.clicktale.net.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
@@ -34979,6 +34978,7 @@
 ||logcivil.com^
 ||loggerx.com^
 ||logs.loggly.com^
+||logs-01.loggly.com^
 ||uglwov.logic-immo.com^
 ||pardot.logicinfo.com^
 ||logicporn.com^
@@ -37451,6 +37451,7 @@
 ||microsoft-cnd-en.com^
 ||microsoft-cnd.com^
 ||microsoft-debug-098.com^
+||feedback.microsoft-hohm.com^
 ||microsoft-home-en.com^
 ||microsoft-hub-us.com^
 ||microsoft-live-us.com^
@@ -49328,6 +49329,7 @@
 ||promocjavan.com^
 ||promoda-sklep.com.pl^
 ||promoda-sklep.pl^
+||aff.promodeals.nl^
 ||promointl.ae^
 ||cp.promoisland.net^
 ||local.promoisland.net^

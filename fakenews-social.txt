@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-10 12:26:47Z
+! Last Modified: 2021-12-10 18:19:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -27892,6 +27892,7 @@
 ||logcivil.com^
 ||loggerx.com^
 ||logs.loggly.com^
+||logs-01.loggly.com^
 ||uglwov.logic-immo.com^
 ||pardot.logicinfo.com^
 ||content.logile.com^
@@ -45350,7 +45351,6 @@
 ||suadha.org^
 ||suaposales.com^
 ||subad-server.com^
-||s1.subaru.com^
 ||m3ds.subarumetropolitain.com^
 ||payqjd.subito.it^
 ||subjacentlydoctrine.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-10 12:26:41Z
+! Last Modified: 2021-12-10 18:19:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28500,6 +28500,7 @@
 ||logcivil.com^
 ||loggerx.com^
 ||logs.loggly.com^
+||logs-01.loggly.com^
 ||uglwov.logic-immo.com^
 ||pardot.logicinfo.com^
 ||content.logile.com^
@@ -51700,6 +51701,8 @@
 ||wakyucuofke.com^
 ||walcowac.site^
 ||waldenfarms.com^
+||metrics.walgreens.com^
+||smetrics.walgreens.com^
 ||konto.walidacja-uzytkownika.online^
 ||interia.walidacja-uzytkownika.site^
 ||konto.walidacja-uzytkownika.website^

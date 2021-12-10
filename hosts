@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-10 12:26:34Z
+! Last Modified: 2021-12-10 18:19:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30708,6 +30708,8 @@
 ||infx.eu^
 ||ing-ll.pl^
 ||www3s.ing.be^
+||metric.ing.es^
+||metrics.ing.es^
 ||enter.ingangwebang.com^
 ||ingbkpl.com^
 ||metric.ingdirect.es^
@@ -35786,6 +35788,7 @@
 ||logcivil.com^
 ||loggerx.com^
 ||logs.loggly.com^
+||logs-01.loggly.com^
 ||uglwov.logic-immo.com^
 ||pardot.logicinfo.com^
 ||logicporn.com^
