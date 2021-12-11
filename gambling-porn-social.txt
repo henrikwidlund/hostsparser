@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-11 06:19:21Z
+! Last Modified: 2021-12-11 12:25:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -54568,10 +54568,6 @@
 ||ads.simtel.com^
 ||ads.simtel.net^
 ||sstats.simzdarma.cz^
-||sax.sina.cn^
-||wbapp.mobile.sina.cn^
-||sdkapp.mobile.sina.cn^
-||sdkclick.mobile.sina.cn^
 ||ads.sina.com^
 ||oascentral.sina.com^
 ||d2.sina.com.cn^

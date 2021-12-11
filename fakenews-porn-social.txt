@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-11 06:19:15Z
+! Last Modified: 2021-12-11 12:25:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26215,7 +26215,6 @@
 ||www2.growwithimg.com^
 ||insights.growwithless.com^
 ||tdep.growwwdigital.com^
-||protection.grpolice.com^
 ||grrenkool.com^
 ||t.grtyb.com^
 ||ablink.c.grubhub.com^
@@ -33525,7 +33524,6 @@
 ||stracking.kyobo.co.kr^
 ||info.kyoceradocumentsolutions.co.jp^
 ||c.kyoceradocumentsolutions.eu^
-||tmwl.kyodoprinting.co.jp^
 ||kyosui.net^
 ||kypo6.com^
 ||protection.kypolice.com^
@@ -69809,6 +69807,8 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||cdnappsmgmt.net.zooplus.de^
+||mailrelease.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^
