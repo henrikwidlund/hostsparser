@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-11 00:54:51Z
+! Last Modified: 2021-12-11 06:19:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22606,6 +22606,9 @@
 ||go.hitachi-solutions.co.jp^
 ||spscas.hitachi-solutions.co.jp^
 ||air.hitachiaircon.com^
+||go.hitachienergy.com^
+||trackingaa.hitachienergy.com^
+||elqtracking.hitachienergy.com^
 ||admissions.hitam.org^
 ||hitboom.net^
 ||hitboxbenchmarker.com^
@@ -54389,6 +54392,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

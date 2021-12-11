@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-11 00:55:08Z
+! Last Modified: 2021-12-11 06:19:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14946,8 +14946,6 @@
 ||e-m.fr^
 ||e-mail-regulamin.online^
 ||e-mail-regulamin.site^
-||ecos.e-mailcom.co.uk^
-||images.e-mailcom.co.uk^
 ||e-mailprywatnosc.online^
 ||e-mailprywatnosc.site^
 ||bobcatminer-store.e-mantra.in^
@@ -42460,6 +42458,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
 ||adserver1.sonymusiceurope.com^
@@ -51414,6 +51413,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
