@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-10 18:19:48Z
+! Last Modified: 2021-12-11 00:54:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15939,6 +15939,7 @@
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
+||cdn-dsa.clicktale.net.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
@@ -19195,7 +19196,6 @@
 ||cdn.freejars.com^
 ||cdn.freejaw.com^
 ||cdn.freejax.com^
-||cdn.freejlo.com^
 ||ostatniachwila.freekru.pl^
 ||cdn.freelac.com^
 ||freelancers-team.org^
@@ -45351,6 +45351,7 @@
 ||suadha.org^
 ||suaposales.com^
 ||subad-server.com^
+||s1.subaru.com^
 ||m3ds.subarumetropolitain.com^
 ||payqjd.subito.it^
 ||subjacentlydoctrine.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-10 18:19:38Z
+! Last Modified: 2021-12-11 00:54:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -67196,8 +67196,6 @@
 ||vtoras.top^
 ||vtoyshop.com^
 ||vtrahetut.porn^
-||oas.vtsgonline.com^
-||insightxe.vtsgonline.com^
 ||vtube.mobi^
 ||zazu.vtube.to^
 ||vu-betredirect1.com^
@@ -71036,8 +71034,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ca.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
