@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-11 12:25:42Z
+! Last Modified: 2021-12-11 18:19:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3619,8 +3619,6 @@
 ||collect.allianz.ch^
 ||agcs-knowledge.allianz.com^
 ||smetrics.allianz.com.au^
-||dc.allianz.de^
-||sdc.allianz.de^
 ||wz.allianz.fr^
 ||collect.allianzcinema.ch^
 ||collect.allianzdriveincinema.ch^
@@ -24180,6 +24178,7 @@
 ||gatcoin.in^
 ||gatcoins.io^
 ||gate-sync.net^
+||celeb.gate.cc^
 ||gate777.com^
 ||li.gatehousemedia.com^
 ||go.communications.gatesfoundation.org^
