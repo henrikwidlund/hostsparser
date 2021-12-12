@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-12 06:19:20Z
+! Last Modified: 2021-12-12 12:25:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22545,6 +22545,7 @@
 ||hufajushi.top^
 ||stock.huffazcorporation.com^
 ||entry-stats.huffingtonpost.com^
+||vertical-stats.huffpost.com^
 ||huge-cocks.biz^
 ||huge-gay-cock.com^
 ||hugedomains.com^
@@ -47450,7 +47451,6 @@
 ||stats.toiletmap.org.uk^
 ||toitedstearate.info^
 ||toitedundefined.info^
-||adebis.toitoitoi.clinic^
 ||track.msadcenter.toj.com^
 ||tojest-pierwszamysl.xyz^
 ||tojestbardzociezzkie.site^
@@ -53142,6 +53142,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||launch.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
