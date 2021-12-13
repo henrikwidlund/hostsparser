@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-12 18:18:40Z
+! Last Modified: 2021-12-13 00:55:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -37308,6 +37308,7 @@
 ||olx.pl-id41464578.com^
 ||olx.pl-id423678123.net^
 ||olx.pl-id444333.icu^
+||olx.pl-id519249.icu^
 ||inpost-igmr.pl-id57496769.xyz^
 ||olx.pl-id6379662.info^
 ||pl-id737962.info^
@@ -41387,6 +41388,7 @@
 ||prk.roverinvolv.bid^
 ||adnetwork.rovicorp.com^
 ||rovingadventures.com^
+||ads.cdn.rovio.com^
 ||falcon.rowanmanning.com^
 ||rowanmclean.com^
 ||rowannews.com^
@@ -54654,9 +54656,6 @@
 ||administrator.firewall-repository-legacy.net.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||marketing.net.zooplus.de^
-||owa.bcast.net.zooplus.de^
-||appsserver.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^
