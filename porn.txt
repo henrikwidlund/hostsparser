@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-13 06:20:18Z
+! Last Modified: 2021-12-13 12:27:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1826,6 +1826,7 @@
 ||panther.activelink.ie^
 ||activemetering.com^
 ||metrics.activenetwork.com^
+||ads.activepower.net^
 ||uk.activeshopper.com^
 ||mini.activeshopper.com^
 ||mobile.activeshopper.com^
@@ -6340,6 +6341,7 @@
 ||axia-hakusan.com^
 ||axial-partners.com^
 ||axiatraders.com^
+||swallow.axiom.co^
 ||ma.axiomatics.com^
 ||axis-communications.com^
 ||axis-indication.net^
@@ -67635,7 +67637,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
