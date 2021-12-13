@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-13 12:27:02Z
+! Last Modified: 2021-12-13 18:19:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5238,7 +5238,6 @@
 ||securemetrics.apple.com.cn^
 ||app.appleadwords.net^
 ||appleid-account.com^
-||ads.appleinsider.com^
 ||appleking.pl^
 ||appleleaveit.co^
 ||applelounge.com^
@@ -27603,6 +27602,7 @@
 ||p.hecams.com^
 ||heckcallohertons.info^
 ||heckre.com^
+||learn.hedera.com^
 ||info.hedgeye.com^
 ||heebtr.com^
 ||heenakala.com^
