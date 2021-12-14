@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-14 12:26:39Z
+! Last Modified: 2021-12-14 18:19:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24422,6 +24422,7 @@
 ||events.fst.net.au^
 ||ads.ft.com^
 ||secureads.ft.com^
+||auxilium.ftb.team^
 ||smetrics.ftd.ca^
 ||smetrics.ftd.com^
 ||ftdownload.com^

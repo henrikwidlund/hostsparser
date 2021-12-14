@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-14 12:27:04Z
+! Last Modified: 2021-12-14 18:20:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30218,6 +30218,7 @@
 ||smetrics.mrelectric.com^
 ||mrfco.info^
 ||ads.mrgreen.com^
+||smetrics.mrhandyman.ca^
 ||smetrics.mrhandyman.com^
 ||info.mrisoftware.com^
 ||mrjeweller.us^
@@ -52188,6 +52189,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -53112,6 +53114,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||api.gits.net.zooplus.de^
+||appschef.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^
