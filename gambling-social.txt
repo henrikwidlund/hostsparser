@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-14 06:20:01Z
+! Last Modified: 2021-12-14 12:26:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21549,6 +21549,8 @@
 ||aimg.haber3.com^
 ||ads-rouge.haber7.com^
 ||banner-img.haber7.com^
+||ads.haber7.net^
+||adspr.haber7.net^
 ||ads.haberler.com^
 ||www3.haberturk.com^
 ||fimyxg.haberturk.com^
