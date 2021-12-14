@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-13 18:19:28Z
+! Last Modified: 2021-12-14 00:59:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -57396,6 +57396,7 @@
 ||analytics.spark.co.nz^
 ||sanalytics.spark.co.nz^
 ||data1.sparkasse.at^
+||smetrics.sparkassendirekt.de^
 ||sparklescake.com^
 ||vote.sparklit.com^
 ||webpoll.sparklit.com^
