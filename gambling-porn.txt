@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-15 18:19:48Z
+! Last Modified: 2021-12-15 19:37:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19368,6 +19368,7 @@
 ||ads.pro-market.net.edgesuite.net^
 ||ads.bridgetrack.com.edgesuite.net^
 ||citi.bridgetrack.com.edgesuite.net^
+||content.yieldmanager.edgesuite.net^
 ||mail.edi.edu.cn^
 ||anuncios.edicaoms.com.br^
 ||smetrics.edifice-watches.com^
@@ -37349,7 +37350,6 @@
 ||meet-to-fuck.com^
 ||meet3monk.com^
 ||meetav.com^
-||ads.meetcelebs.com^
 ||smetrics.marketing.meethue.com^
 ||meetinvestment.club^
 ||meetlocals.com^
@@ -70947,8 +70947,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||2-panel.net.zooplus.de^
-||csraws1.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^
