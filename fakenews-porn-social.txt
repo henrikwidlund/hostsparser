@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-15 12:26:52Z
+! Last Modified: 2021-12-15 18:19:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39490,8 +39490,6 @@
 ||mpxxtrk.com^
 ||mr-mahmoud-hassan.com^
 ||mr-mondial.com^
-||r.mradx.net^
-||r0.mradx.net^
 ||smetrics.mrappliance.com^
 ||mratin.se^
 ||info.mrc.org^
@@ -52799,8 +52797,6 @@
 ||core.royalads.net^
 ||royalart.co.jp^
 ||royalbluemedia.com^
-||ext.royalcactus.com^
-||robot.royalcactus.com^
 ||royalcamslive.com^
 ||royalcapitalinvestment.com^
 ||metrics.royalcaribbean.com^
@@ -70511,7 +70507,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||appschef.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^

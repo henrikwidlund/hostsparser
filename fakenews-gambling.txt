@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-15 12:26:50Z
+! Last Modified: 2021-12-15 18:19:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32048,8 +32048,6 @@
 ||mr-mahmoud-hassan.com^
 ||mr-mondial.com^
 ||mr.bet^
-||r.mradx.net^
-||r0.mradx.net^
 ||smetrics.mrappliance.com^
 ||mratin.se^
 ||info.mrc.org^
@@ -42751,8 +42749,6 @@
 ||img.royal-cash.com^
 ||royal-trades.com^
 ||core.royalads.net^
-||ext.royalcactus.com^
-||robot.royalcactus.com^
 ||royalcapitalinvestment.com^
 ||metrics.royalcaribbean.com^
 ||smetrics.royalcaribbean.com^
@@ -47421,6 +47417,7 @@
 ||eu.syst-inf.xyz^
 ||mac.system-alert1.com^
 ||system-live-media.cz^
+||fog.system-pstl.xyz^
 ||systemabsoluto.com^
 ||systemchlodzeniamglapl.com^
 ||softnewready.systemgeneratorofbrandnewcontent.date^
@@ -55166,6 +55163,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -56116,7 +56114,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||acclax-mgmt.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^
