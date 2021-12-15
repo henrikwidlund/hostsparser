@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-14 18:20:01Z
+! Last Modified: 2021-12-15 00:55:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -27240,7 +27240,6 @@
 ||lockeddeal.com^
 ||lockercpa.pl^
 ||lockrepair.ae^
-||association.locktonaffinity.net^
 ||biz.locoguide.co.jp^
 ||locpub.com^
 ||api.locuslabs.com^
@@ -38749,6 +38748,7 @@
 ||tgw-masdk.3g.qq.com^
 ||tgw-sasdk.3g.qq.com^
 ||analytics.map.qq.com^
+||pagespeed.report.qq.com^
 ||qq8.ag^
 ||qqhr2008.com^
 ||qqsms.in^
@@ -51759,7 +51759,9 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||track.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
@@ -52191,6 +52193,10 @@
 ||geo.query.yahoo.com^
 ||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
+||fr.adserver.yahoo.com^
+||nl.adserver.yahoo.com^
+||se.adserver.yahoo.com^
+||uk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -53114,8 +53120,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||api.gits.net.zooplus.de^
-||appschef.net.zooplus.de^
+||data.secorg.net.zooplus.de^
+||api.backends.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^
