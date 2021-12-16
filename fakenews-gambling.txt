@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-16 06:19:49Z
+! Last Modified: 2021-12-16 12:27:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32048,6 +32048,8 @@
 ||mr-mahmoud-hassan.com^
 ||mr-mondial.com^
 ||mr.bet^
+||r.mradx.net^
+||r0.mradx.net^
 ||smetrics.mrappliance.com^
 ||mratin.se^
 ||info.mrc.org^
@@ -55163,7 +55165,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

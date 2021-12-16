@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-16 06:19:57Z
+! Last Modified: 2021-12-16 12:27:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39321,6 +39321,8 @@
 ||mr-mahmoud-hassan.com^
 ||mr-mondial.com^
 ||mr.bet^
+||r.mradx.net^
+||r0.mradx.net^
 ||smetrics.mrappliance.com^
 ||mratin.se^
 ||info.mrc.org^
@@ -44826,7 +44828,6 @@
 ||orzk.net^
 ||os9dfs9hg7f.bar^
 ||osa-academy.com^
-||monkeyball.osa.pl^
 ||osaka69.com^
 ||osakadepo.com^
 ||info.osborne.co.uk^
@@ -69602,6 +69603,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||futterbarowa.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^

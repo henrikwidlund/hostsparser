@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-16 06:19:54Z
+! Last Modified: 2021-12-16 12:27:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18137,7 +18137,6 @@
 ||feedbackcensus.com^
 ||feedbackexplorer.com^
 ||feedbackresearch.com^
-||sscefh.feedingamerica.org^
 ||ads.feedly.com^
 ||feedmob.com^
 ||metrics.feednavigator.com^
@@ -31329,6 +31328,8 @@
 ||mpxxtrk.com^
 ||mr-mahmoud-hassan.com^
 ||mr-mondial.com^
+||r.mradx.net^
+||r0.mradx.net^
 ||smetrics.mrappliance.com^
 ||mratin.se^
 ||info.mrc.org^
@@ -55372,7 +55373,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||api.machine.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^

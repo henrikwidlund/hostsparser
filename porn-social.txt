@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-16 06:20:02Z
+! Last Modified: 2021-12-16 12:27:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38466,6 +38466,8 @@
 ||mpxxtrk.com^
 ||mr-mahmoud-hassan.com^
 ||mr-mondial.com^
+||r.mradx.net^
+||r0.mradx.net^
 ||smetrics.mrappliance.com^
 ||mratin.se^
 ||info.mrc.org^
@@ -67061,6 +67063,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-16 06:19:46Z
+! Last Modified: 2021-12-16 12:27:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19889,7 +19889,6 @@
 ||stickyadstv.com.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
-||tags.bluekai.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
@@ -40346,6 +40345,8 @@
 ||mr-mahmoud-hassan.com^
 ||mr-mondial.com^
 ||mr.bet^
+||r.mradx.net^
+||r0.mradx.net^
 ||smetrics.mrappliance.com^
 ||mratin.se^
 ||info.mrc.org^
@@ -61428,6 +61429,7 @@
 ||softreadynow.thebigforeverupgrade.review^
 ||checkupgrade24.thebigforeverupgrades.space^
 ||newtest4pc.thebiggestandmoststableforcontenteclear.review^
+||getupdate.thebiggestandmoststabletocontentsafe.bid^
 ||thebiggestpromotiononearth.com^
 ||thebighits.com^
 ||thebigoutdoors.co.uk^
