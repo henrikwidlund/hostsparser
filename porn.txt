@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-16 12:27:45Z
+! Last Modified: 2021-12-16 18:19:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19076,6 +19076,7 @@
 ||filmonlinebezlimitufot51.ek1.pl^
 ||darmowyfilmzlektoremoas10.ek1.pl^
 ||ekarny.net^
+||mdws.ekccu.com^
 ||smetrics.eki-net.com^
 ||ekibun.net^
 ||ekino-tv.com.pl^
@@ -62912,7 +62913,6 @@
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
-||publisher-event.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
@@ -69717,8 +69717,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||maildii2.net.zooplus.de^
-||csr12chef.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^
