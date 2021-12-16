@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-16 00:55:42Z
+! Last Modified: 2021-12-16 06:19:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20876,6 +20876,7 @@
 ||gocnhotaichinh.com^
 ||go.gocsb.com^
 ||ads.god.co.uk^
+||guidance.godaddy.com^
 ||update85.godaddysites.com^
 ||goddessvip.com^
 ||pl.godeal24.com^
@@ -49743,6 +49744,10 @@
 ||uberupload.online^
 ||ubezpieczenie4you.pl^
 ||ubezpieczeniesamochody.site^
+||clk.ubi.com^
+||data.ubi.com^
+||metrics.ubi.com^
+||smetrics.ubi.com^
 ||link.ubie.info^
 ||reports.ubimo.com^
 ||ubiqcoin.org^
@@ -55367,6 +55372,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||api.machine.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^
