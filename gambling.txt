@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-16 18:19:57Z
+! Last Modified: 2021-12-17 00:58:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5449,6 +5449,8 @@
 ||informacje24.bedzin.pl^
 ||trk.bee-data.com^
 ||froling.bee.pl^
+||ads.beeb.com^
+||adimages.beeb.com^
 ||smetrics.beefeater.co.uk^
 ||0.0.0.0.beeglivesex.com^
 ||beehomemade.com^

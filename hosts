@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-16 18:19:38Z
+! Last Modified: 2021-12-17 00:57:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39493,6 +39493,7 @@
 ||adv.mobsmart.net^
 ||tags.mobsmart.net^
 ||prebid.mobsmart.net^
+||adserver.mobsmith.com^
 ||cdn.mobsocmedia.com^
 ||mobstarr.com^
 ||ad.mobstazinc.cn^
