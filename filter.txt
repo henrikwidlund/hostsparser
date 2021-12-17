@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-17 12:26:33Z
+! Last Modified: 2021-12-17 18:19:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20559,6 +20559,7 @@
 ||empirestatetoday.com^
 ||ads1.empiretheatres.com^
 ||metricssecure.empiretoday.com^
+||cdn.employchannel.info^
 ||employeefolklore.info^
 ||employmentrush.com^
 ||adsrv.emporis.com^
@@ -48166,6 +48167,8 @@
 ||pbox.photobox.ch^
 ||pbox.photobox.co.nz^
 ||pbox.photobox.co.uk^
+||tck.photobox.com^
+||pbox.no.photobox.com^
 ||pbox.photobox.com.au^
 ||pbox.photobox.dk^
 ||pbox.photobox.es^
@@ -72238,7 +72241,6 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
-||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^

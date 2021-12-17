@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-17 12:26:46Z
+! Last Modified: 2021-12-17 18:19:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14426,7 +14426,6 @@
 ||sadbmetrics.diariovasco.com^
 ||diaspora-news.com^
 ||dibarbado.com^
-||go.dic-global.com^
 ||go.dic.co.in^
 ||dicamba.news^
 ||dicarlotrack.com^
@@ -47301,6 +47300,7 @@
 ||techwestpge-pl1.info^
 ||techybhai.online^
 ||techycrypto.xyz^
+||go.tecido.co.jp^
 ||teckinharmux1.live^
 ||teckinharmux10.live^
 ||teckinharmux11.live^
@@ -54858,11 +54858,9 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
