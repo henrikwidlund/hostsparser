@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-17 06:20:10Z
+! Last Modified: 2021-12-17 12:26:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6461,6 +6461,8 @@
 ||avant.com.pl^
 ||kurumsal.avantajbulvari.com^
 ||go.avantax.com^
+||cdn.avantisvideo.com^
+||events.avantisvideo.com^
 ||avantlink.com^
 ||silicone.avantorsciences.com^
 ||avanzian.se^
@@ -19411,6 +19413,8 @@
 ||dyskonto.store^
 ||aa.dyson.at^
 ||saa.dyson.at^
+||aa.dyson.be^
+||saa.dyson.be^
 ||aa.dyson.ch^
 ||saa.dyson.ch^
 ||aa.dyson.co.uk^
@@ -64933,6 +64937,7 @@
 ||engage.unisa.edu.au^
 ||carreras.unisabana.edu.co^
 ||tracking.unisabana.edu.co^
+||go.unishippers.com^
 ||unisoftcc.com^
 ||ads.unison.bg^
 ||uniswap.services^

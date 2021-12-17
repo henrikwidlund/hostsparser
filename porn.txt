@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-17 06:20:26Z
+! Last Modified: 2021-12-17 12:26:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3160,7 +3160,6 @@
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
-||sync.tidaltv.com.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
@@ -25910,6 +25909,7 @@
 ||smetrics.extranetperu.grupobbva.pe^
 ||grupoeq.com^
 ||twinings.grupoformax.net^
+||spa.grupokayros.org^
 ||grupomedicosanangel.com^
 ||grupomergo.com^
 ||orsan.gruporhynous.com^
@@ -53591,9 +53591,6 @@
 ||sfeamcommunity.com^
 ||dolphin.sfelc.com^
 ||content.sffirecu.org^
-||om.sfgate.com^
-||te.sfgate.com^
-||oascentral.sfgate.com^
 ||sfgaytours.com^
 ||tracking.sfitrucks.com^
 ||ads.sfomedia.com^
@@ -70162,7 +70159,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||get-csr31.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^
