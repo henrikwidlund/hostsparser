@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-17 18:19:51Z
+! Last Modified: 2021-12-18 00:59:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19450,6 +19450,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||wl.aniview.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -42264,6 +42265,8 @@
 ||mdws.northerncu.com^
 ||northernswine.com^
 ||smetrics.northernterritory.com^
+||app.northerntrader.net^
+||idcard.northerntrader.net^
 ||northfacepolska.pl^
 ||northfacesklepy.com^
 ||northfacespromocja.com^

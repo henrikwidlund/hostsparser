@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-17 18:19:46Z
+! Last Modified: 2021-12-18 00:59:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14426,6 +14426,7 @@
 ||sadbmetrics.diariovasco.com^
 ||diaspora-news.com^
 ||dibarbado.com^
+||go.dic-global.com^
 ||go.dic.co.in^
 ||dicamba.news^
 ||dicarlotrack.com^
@@ -30929,7 +30930,6 @@
 ||xmlserving.mobagent.com^
 ||h.mobcells.com^
 ||api.mobcells.com^
-||feed.mobeek.net^
 ||mobfactory.info^
 ||mobgames.mobi^
 ||mobi-up.net^
