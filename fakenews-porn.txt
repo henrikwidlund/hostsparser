@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-18 06:20:13Z
+! Last Modified: 2021-12-18 12:25:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3403,6 +3403,15 @@
 ||algofgain.com^
 ||algorix.co^
 ||go.ali-cle.org^
+||img.alibaba.com^
+||p3p.alibaba.com^
+||hydra.alibaba.com^
+||offer.alibaba.com^
+||click.alibaba.com^
+||dmtracking.alibaba.com^
+||cmweb.ilike.alibaba.com^
+||survey.china.alibaba.com^
+||p4psearch.china.alibaba.com^
 ||alibabaslots.com^
 ||alibestsale.com^
 ||li.alibris.com^
@@ -6037,6 +6046,7 @@
 ||atlanticcotimes.com^
 ||marketing.atlanticdiagnosticlaboratories.com^
 ||atlanticgdynia.pl^
+||smetrics.atlanticsuperstore.ca^
 ||atlantis-asia.com^
 ||ad41.atlas.cz^
 ||atlascryptomanagement.com^
@@ -70985,6 +70995,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
