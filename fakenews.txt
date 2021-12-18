@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-18 12:25:45Z
+! Last Modified: 2021-12-18 18:19:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13444,6 +13444,7 @@
 ||czytelnikstrumien.site^
 ||czytooszustwo.pl^
 ||czyzyk.icu^
+||image.d-064.com^
 ||d-and-h.com^
 ||ads.d-msquared.com^
 ||d-road.com^
@@ -40406,6 +40407,7 @@
 ||ysdk.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
+||mi.gdt.qq.com^
 ||logsdk.qq.com^
 ||omgmta.qq.com^
 ||pingjs.qq.com^
@@ -54335,9 +54337,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
-||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

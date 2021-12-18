@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-18 12:25:44Z
+! Last Modified: 2021-12-18 18:19:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8266,6 +8266,7 @@
 ||byzantiumfork.com^
 ||as.bz-berlin.de^
 ||twitter.secure.bzpharma.net^
+||ebis.c-3-esthe.com^
 ||xnbwsp.c-and-a.com^
 ||marketing.c-c-l.com^
 ||witamina.c.pl^
