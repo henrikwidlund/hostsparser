@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-18 00:59:14Z
+! Last Modified: 2021-12-18 06:20:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19307,11 +19307,6 @@
 ||dxlive.com^
 ||info.dxpe.com^
 ||track.msadcenter.dxr.com^
-||u.dxsvr.com^
-||ak.dxsvr.com^
-||nrc.dxsvr.com^
-||rts.dxsvr.com^
-||tls.dxsvr.com^
 ||dxxxxs.com^
 ||dyarchyproles.com^
 ||dyfuzor-do-aromaterapii-pl.com^
@@ -29001,6 +28996,7 @@
 ||da.hornbach.ch^
 ||da.hornbach.cz^
 ||da.hornbach.de^
+||da.hornbach.lu^
 ||da.hornbach.nl^
 ||da.hornbach.ro^
 ||da.hornbach.se^
@@ -38409,7 +38405,6 @@
 ||download207.mediafire.com^
 ||mediageneral.com^
 ||utils.mediageneral.net^
-||rtb-us.mediago.io^
 ||a2.mediagra.com^
 ||mediaid.click^
 ||mediaiexpert.club^
@@ -63550,6 +63545,7 @@
 ||trocheciepl.cyou^
 ||bannerexchange.troglod.com^
 ||adserver.trojaner-info.de^
+||adverts.trojanpublishing.net^
 ||ads.tromaville.com^
 ||tron-labs.com^
 ||tron-wallet.info^

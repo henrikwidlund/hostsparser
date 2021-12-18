@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-18 00:59:20Z
+! Last Modified: 2021-12-18 06:20:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -613,6 +613,7 @@
 ||engage.3mbelgie.be^
 ||engage.3mbelgique.be^
 ||engage.3mbulgaria.bg^
+||engage.3mcanada.ca^
 ||engage.3mcesko.cz^
 ||engage.3mchile.cl^
 ||engage.3mcompany.jp^
@@ -30676,7 +30677,6 @@
 ||download207.mediafire.com^
 ||mediageneral.com^
 ||utils.mediageneral.net^
-||rtb-us.mediago.io^
 ||a2.mediagra.com^
 ||mediaid.click^
 ||mediaiexpert.club^
@@ -47768,6 +47768,10 @@
 ||systemabsoluto.com^
 ||systemchlodzeniamglapl.com^
 ||softnewready.systemgeneratorofbrandnewcontent.date^
+||eu.systemine.xyz^
+||new.systemine.xyz^
+||one.systemine.xyz^
+||pro.systemine.xyz^
 ||n.systemlog.me^
 ||systempartition.com^
 ||inwestenergia.success.systemproject.life^

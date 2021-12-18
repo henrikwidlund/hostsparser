@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-18 00:59:33Z
+! Last Modified: 2021-12-18 06:20:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29717,7 +29717,6 @@
 ||download207.mediafire.com^
 ||mediageneral.com^
 ||utils.mediageneral.net^
-||rtb-us.mediago.io^
 ||a2.mediagra.com^
 ||mediaid.click^
 ||mediaiexpert.club^
@@ -34130,7 +34129,6 @@
 ||pl.oferto.cc^
 ||olx-pl.oferto.cc^
 ||pl.oferto.org^
-||olx.pl.oferto.org^
 ||oferty-online.com^
 ||offaces-butional.com^
 ||offer-mediaservices.download^
