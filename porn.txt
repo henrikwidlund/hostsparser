@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-19 12:26:49Z
+! Last Modified: 2021-12-19 18:19:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22260,6 +22260,7 @@
 ||top.flixmax.stream^
 ||flixprice.com^
 ||flixsport.co^
+||contact.flo.com^
 ||ihmnnz.flo.com.tr^
 ||tr.mail.floa.fr^
 ||tr.gestion.floa.fr^
@@ -64684,6 +64685,7 @@
 ||marketing.visitabq.org^
 ||marketing.visitannarbor.org^
 ||marketing.visitbellevuewa.com^
+||marketing.visitbgky.com^
 ||visitbox.de^
 ||marketing.visitchattanooga.com^
 ||marketing.visitdenver.com^
@@ -68874,7 +68876,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||global.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

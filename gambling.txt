@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-19 12:26:45Z
+! Last Modified: 2021-12-19 18:19:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3578,6 +3578,8 @@
 ||anewordeal.top^
 ||anews.co.uk^
 ||anewyoufitness.com^
+||metrics.angara.com^
+||smetrics.angara.com^
 ||angeing.info^
 ||angelalittle.net^
 ||angelas-place.com^
@@ -21616,7 +21618,6 @@
 ||fimyxg.haberturk.com^
 ||aktif.haberx.com^
 ||wlptux.habitaclia.com^
-||ea.habitat.de^
 ||go.habitat.org.nz^
 ||habitatlineage.com^
 ||sadbmetrics.habitatsoft.com^
@@ -42493,6 +42494,7 @@
 ||searchjustdont.net^
 ||stats.searchles.com^
 ||beacon.searchlinks.com^
+||go.searchlock.com^
 ||searchmachine.com^
 ||searchmagna.com^
 ||searchmagnified.com^

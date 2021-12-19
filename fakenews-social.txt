@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-19 12:26:38Z
+! Last Modified: 2021-12-19 18:19:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -43733,7 +43733,6 @@
 ||www2.sftravel.com^
 ||ads.sfusion.com^
 ||sfvtoday.com^
-||oascentral.sfweekly.com^
 ||maxmedia.sgaonline.com^
 ||sgb-pageoriginal-online.com^
 ||sgb24-login.com^
@@ -45035,7 +45034,6 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
-||j.newssuite.sony.net^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
 ||adserver1.sonymusiceurope.com^
@@ -54859,8 +54857,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
-||sg.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
