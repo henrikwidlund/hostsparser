@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-19 01:00:57Z
+! Last Modified: 2021-12-19 06:19:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18981,6 +18981,7 @@
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
+||cdn-dsa.clicktale.net.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
@@ -21431,6 +21432,7 @@
 ||stats.fd.nl^
 ||updates.fda.gov^
 ||fdbdo.com^
+||info.fdbhealth.com^
 ||deut1.fdj.fr^
 ||e.fdm.dk^
 ||tracking.fdm.dk^
@@ -24610,6 +24612,7 @@
 ||ghostwriterreplacement.com^
 ||ghyard.com^
 ||giadinhviet.com^
+||saa.giantbomb.com^
 ||links.info.gianteagle.com^
 ||links.email.gianteagle.com^
 ||gibbingcontortionist.com^
@@ -70158,9 +70161,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||fw.docker.net.zooplus.de^
-||owa.bcast.net.zooplus.de^
-||api.1-priv.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^
