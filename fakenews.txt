@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-18 18:19:34Z
+! Last Modified: 2021-12-19 01:00:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5107,7 +5107,6 @@
 ||metrics.baitoru-id.com^
 ||metrics.baitoru.com^
 ||metrics.baitorupro.com^
-||marketing.bajajelectricals.com^
 ||bajeranckie.pl^
 ||bajkowedekoracje.pl^
 ||bak-home.com^
@@ -26531,7 +26530,6 @@
 ||klasa2a.pl^
 ||klaskacbiedny.site^
 ||static.klaviyo.com^
-||static-tracking.klaviyo.com^
 ||klawnprunt.com^
 ||klclick.com^
 ||klclick1.com^
@@ -40407,7 +40405,6 @@
 ||ysdk.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
-||mi.gdt.qq.com^
 ||logsdk.qq.com^
 ||omgmta.qq.com^
 ||pingjs.qq.com^
@@ -54338,6 +54335,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
+||it.adserver.yahoo.com^
+||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

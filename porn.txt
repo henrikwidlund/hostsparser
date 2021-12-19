@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-18 18:19:44Z
+! Last Modified: 2021-12-19 01:00:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10675,6 +10675,10 @@
 ||stats.carrot2.org^
 ||stats.carrotsearch.com^
 ||cars-to-buy.com^
+||ads.cars.com^
+||tkvxdj.cars.com^
+||metrics.cars.com^
+||smetrics.cars.com^
 ||carsfreaks.pl^
 ||rwdito.carsguide.com.au^
 ||adimages.carsoup.com^
@@ -21427,7 +21431,6 @@
 ||stats.fd.nl^
 ||updates.fda.gov^
 ||fdbdo.com^
-||info.fdbhealth.com^
 ||deut1.fdj.fr^
 ||e.fdm.dk^
 ||tracking.fdm.dk^
@@ -24607,7 +24610,6 @@
 ||ghostwriterreplacement.com^
 ||ghyard.com^
 ||giadinhviet.com^
-||saa.giantbomb.com^
 ||links.info.gianteagle.com^
 ||links.email.gianteagle.com^
 ||gibbingcontortionist.com^
@@ -32517,7 +32519,6 @@
 ||klasa2a.pl^
 ||klaskacbiedny.site^
 ||static.klaviyo.com^
-||static-tracking.klaviyo.com^
 ||klawnprunt.com^
 ||klclick.com^
 ||klclick1.com^
@@ -70157,6 +70158,9 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||fw.docker.net.zooplus.de^
+||owa.bcast.net.zooplus.de^
+||api.1-priv.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^

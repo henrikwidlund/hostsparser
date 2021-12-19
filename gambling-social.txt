@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-18 18:19:39Z
+! Last Modified: 2021-12-19 01:00:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26477,7 +26477,6 @@
 ||klaskacbiedny.site^
 ||klasselotteriet.dk^
 ||static.klaviyo.com^
-||static-tracking.klaviyo.com^
 ||klawnprunt.com^
 ||klclick.com^
 ||klclick1.com^
@@ -49363,6 +49362,12 @@
 ||raskrutka.ucoz.com^
 ||s212.ucoz.net^
 ||a.ucoz.ru^
+||gjtrack.ucweb.com^
+||logssug.ucweb.com^
+||adtrack.ucweb.com^
+||attr.union.ucweb.com^
+||click.union.ucweb.com^
+||instory-log.ucnews.ucweb.com^
 ||udacsienieprzyjemny.site^
 ||udasietosoknczyc.space^
 ||udawanyodblaskowe.site^

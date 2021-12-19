@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-18 18:19:29Z
+! Last Modified: 2021-12-19 01:00:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -250,6 +250,7 @@
 ||1800banners.com^
 ||smetrics.1800contacts.com^
 ||affiliate.1800flowers.com^
+||go.1800gotjunk.com^
 ||info.1800lighting.com^
 ||uvccpk.1800petmeds.com^
 ||180hits.de^
@@ -7148,6 +7149,7 @@
 ||batmobil.net^
 ||batonrougereporter.com^
 ||go.bats.com^
+||trk.batterytechonline.com^
 ||ads.battle.net^
 ||gcirm.battlecreekenquirer.com^
 ||battlecreektimes.com^
@@ -33448,7 +33450,6 @@
 ||klasa2a.pl^
 ||klaskacbiedny.site^
 ||static.klaviyo.com^
-||static-tracking.klaviyo.com^
 ||klawnprunt.com^
 ||klclick.com^
 ||klclick1.com^

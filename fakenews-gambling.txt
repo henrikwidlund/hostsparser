@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-18 18:19:26Z
+! Last Modified: 2021-12-19 01:00:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2655,6 +2655,7 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||bs-wlb-uswest.dvgtm.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -16641,6 +16642,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
+||ma788-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -27225,7 +27227,6 @@
 ||klaskacbiedny.site^
 ||klasselotteriet.dk^
 ||static.klaviyo.com^
-||static-tracking.klaviyo.com^
 ||klawnprunt.com^
 ||klclick.com^
 ||klclick1.com^
@@ -55153,6 +55154,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||data.mistat.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
@@ -56546,7 +56548,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||develop-ssl.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^

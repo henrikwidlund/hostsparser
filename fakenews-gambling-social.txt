@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-18 18:19:25Z
+! Last Modified: 2021-12-19 01:00:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -27318,7 +27318,6 @@
 ||klaskacbiedny.site^
 ||klasselotteriet.dk^
 ||static.klaviyo.com^
-||static-tracking.klaviyo.com^
 ||klawnprunt.com^
 ||klclick.com^
 ||klclick1.com^
@@ -55638,7 +55637,6 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||abtest.mistat.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -56076,7 +56074,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||pn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
@@ -57032,7 +57029,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||devopsail.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^
@@ -57199,6 +57195,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||emeaing.net.zooplus.es^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^

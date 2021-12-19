@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-18 18:19:41Z
+! Last Modified: 2021-12-19 01:00:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16148,6 +16148,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||wildcard.outbrain.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -16169,6 +16170,7 @@
 ||ads.pro-market.net.edgesuite.net^
 ||ads.bridgetrack.com.edgesuite.net^
 ||citi.bridgetrack.com.edgesuite.net^
+||content.yieldmanager.edgesuite.net^
 ||mail.edi.edu.cn^
 ||anuncios.edicaoms.com.br^
 ||smetrics.edifice-watches.com^
@@ -26384,7 +26386,6 @@
 ||klaskacbiedny.site^
 ||klasselotteriet.dk^
 ||static.klaviyo.com^
-||static-tracking.klaviyo.com^
 ||klawnprunt.com^
 ||klclick.com^
 ||klclick1.com^
@@ -50164,6 +50165,7 @@
 ||tags.viewdeos.com^
 ||track.viewdeos.com^
 ||track1.viewdeos.com^
+||sync.sync.viewdeos.com^
 ||viewexplicit.com^
 ||viewhdvideos.com^
 ||go.viewics.com^
