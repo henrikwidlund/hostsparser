@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-19 06:19:58Z
+! Last Modified: 2021-12-19 12:26:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18981,7 +18981,6 @@
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
-||cdn-dsa.clicktale.net.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
@@ -22261,7 +22260,6 @@
 ||top.flixmax.stream^
 ||flixprice.com^
 ||flixsport.co^
-||contact.flo.com^
 ||ihmnnz.flo.com.tr^
 ||tr.mail.floa.fr^
 ||tr.gestion.floa.fr^
@@ -64686,7 +64684,6 @@
 ||marketing.visitabq.org^
 ||marketing.visitannarbor.org^
 ||marketing.visitbellevuewa.com^
-||marketing.visitbgky.com^
 ||visitbox.de^
 ||marketing.visitchattanooga.com^
 ||marketing.visitdenver.com^
@@ -68877,6 +68874,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||global.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
