@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-20 06:20:59Z
+! Last Modified: 2021-12-20 12:28:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -53411,6 +53411,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -53844,8 +53845,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn1.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -54783,6 +54787,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||bucket.api.net.zooplus.de^
+||csr12.devs.net.zooplus.de^
 ||resetmarketing.net.zooplus.de^
 ||active-lax-mgmt.net.zooplus.de^
 ||adm-data.docker.net.zooplus.de^
