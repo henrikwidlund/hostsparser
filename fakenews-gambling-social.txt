@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-21 06:20:27Z
+! Last Modified: 2021-12-21 12:27:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -482,6 +482,7 @@
 ||30minutetechbriefings.com^
 ||amphibian.30pin.com^
 ||30sec.info^
+||zrrat.31772.club^
 ||31d.net^
 ||smetrics.31metrescarres.fr^
 ||31seconds.net^
@@ -57399,9 +57400,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||gitgh.net.zooplus.de^
-||blogssl.net.zooplus.de^
-||csr1prd.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^

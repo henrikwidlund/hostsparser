@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-21 06:20:38Z
+! Last Modified: 2021-12-21 12:28:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42802,6 +42802,9 @@
 ||scornina.com^
 ||scotbet.com^
 ||scotiab-branch.eu^
+||somniture.scotiabank.com^
+||metrics.mobilebanking.scotiabank.com^
+||smetrics.mobilebanking.scotiabank.com^
 ||ads.scott-sports.com^
 ||stats.scottbartell.com^
 ||scottishstuff-online.com^
@@ -55225,7 +55228,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||backend-csr11.net.zooplus.de^
+||api.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^
