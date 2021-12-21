@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-20 18:20:27Z
+! Last Modified: 2021-12-21 00:59:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9767,6 +9767,7 @@
 ||vendorweb.citibank.com^
 ||smetrics.citibank.com.au^
 ||smetrics.citibank.com.hk^
+||smetrics.citibank.com.my^
 ||smetrics.citibank.com.ph^
 ||smetrics.citibank.com.sg^
 ||smetrics.ipb.citibank.com.sg^
@@ -25378,6 +25379,7 @@
 ||8uc1.jave.xyz^
 ||8uch.jave.xyz^
 ||solution.javelin-tech.com^
+||www3.javerianacali.edu.co^
 ||ascc.javquick.com^
 ||adspy.javrank.com^
 ||stats.jawebb.se^
@@ -43509,6 +43511,8 @@
 ||simplycast.com^
 ||simplycode.co^
 ||simplyfwd.com^
+||analytic.simplyhealth.co.uk^
+||analytics.simplyhealth.co.uk^
 ||simplyhelper.com^
 ||ads.simplyhired.com^
 ||simplytech.pl^
@@ -53840,10 +53844,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sg.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

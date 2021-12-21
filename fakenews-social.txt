@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-20 18:20:19Z
+! Last Modified: 2021-12-21 00:59:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4874,6 +4874,7 @@
 ||secureanalytics.avis.dk^
 ||secureanalytics.avis.es^
 ||secureanalytics.avis.fr^
+||secureanalytics.avis.nl^
 ||secureanalytics.avis.no^
 ||secureanalytics.avis.se^
 ||secureanalytics.avisautonoleggio.it^
@@ -38174,6 +38175,8 @@
 ||placed.com^
 ||ea.placedestendances.com^
 ||placelocal.com^
+||api.placer.io^
+||conf.placer.io^
 ||placidocn.com^
 ||placimy24.net^
 ||placowka-pocztowa.club^
