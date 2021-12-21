@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-21 12:27:58Z
+! Last Modified: 2021-12-21 18:19:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18579,7 +18579,6 @@
 ||os.fandango.com^
 ||fandeoma.com^
 ||fandocean.com^
-||metrics.fandome.com^
 ||partners.fanduel.com^
 ||fangirlmag.com^
 ||fanicalam.com^
@@ -34089,6 +34088,7 @@
 ||offers.netpulse.com^
 ||go.netradyne.com^
 ||view.netrams.com^
+||osebgh.netrauta.fi^
 ||web1b.netreflector.com^
 ||ad2.netriota.hu^
 ||revive.netriota.hu^
@@ -55956,7 +55956,6 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

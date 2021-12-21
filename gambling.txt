@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-21 12:28:13Z
+! Last Modified: 2021-12-21 18:20:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17927,7 +17927,6 @@
 ||ads.fairfax.com.au^
 ||ffxcam.fairfax.com.au^
 ||fdimages.fairfax.com.au^
-||images.ads.fairfax.com.au^
 ||stats.fairmont.com^
 ||sstats.fairmont.com^
 ||fairnessestallis.info^
@@ -54745,7 +54744,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||api.web-login.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^
