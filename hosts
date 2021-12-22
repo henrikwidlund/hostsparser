@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-21 18:19:51Z
+! Last Modified: 2021-12-22 00:58:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18861,6 +18861,7 @@
 ||allegrolokalnie-pl-3dsec.dostawa-ids.xyz^
 ||dostawa-inpost.pl^
 ||inpost-pl.dostawa-kurier-id685413.xyz^
+||inpost-pl.dostawa-kurier-id795141.xyz^
 ||dpdpl.dostawa-obdior-9874536.xyz^
 ||lnpostpl.dostawa-obdior-9874536.xyz^
 ||vlntedpl.dostawa-obdior-9874536.xyz^
@@ -72831,7 +72832,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst5.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

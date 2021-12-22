@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-21 18:19:57Z
+! Last Modified: 2021-12-22 00:58:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18579,6 +18579,7 @@
 ||os.fandango.com^
 ||fandeoma.com^
 ||fandocean.com^
+||metrics.fandome.com^
 ||partners.fanduel.com^
 ||fangirlmag.com^
 ||fanicalam.com^
@@ -56915,6 +56916,9 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||a52.net.zooplus.de^
+||cert.net.zooplus.de^
+||csr41.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-21 18:20:04Z
+! Last Modified: 2021-12-22 00:58:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13408,6 +13408,8 @@
 ||curves.fi^
 ||curwe.fi^
 ||cuse.xyz^
+||go.cushmanwakefield.com^
+||info.cushmanwakefield.com^
 ||tr.email.custom-campaign.com^
 ||custom3hurricanedigitalmedia.com^
 ||gcirm.customcoupon.com^
@@ -54700,6 +54702,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
