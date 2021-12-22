@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-22 00:58:31Z
+! Last Modified: 2021-12-22 06:20:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39944,7 +39944,6 @@
 ||lnpostpl.polska-dostawa-7654813.xyz^
 ||vlntedpl.polska-dostawa-9874615.xyz^
 ||olx.polska-dostawa.biz^
-||inpost.polska-dostawa.digital^
 ||olx.polska-dostawa.ink^
 ||inpost.polska-dostawa.life^
 ||polska-dostawa.online^
@@ -56916,9 +56915,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||a52.net.zooplus.de^
-||cert.net.zooplus.de^
-||csr41.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^
@@ -56930,6 +56926,7 @@
 ||ctl.k8s-prd-api.net.zooplus.de^
 ||data.docker.lax.net.zooplus.de^
 ||data.docker.pay.net.zooplus.de^
+||developer.csr12.net.zooplus.de^
 ||developmentdata.net.zooplus.de^
 ||ebs.mgmt.docker.net.zooplus.de^
 ||marketingmobile.net.zooplus.de^
