@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-22 18:20:07Z
+! Last Modified: 2021-12-23 00:57:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15398,6 +15398,7 @@
 ||doswiadczbiznzesu24.site^
 ||dot-metrix.com^
 ||tfdtpa.dot-st.com^
+||server03new.dot.at^
 ||xanax-online.dot.de^
 ||dotarlibysmydoniego.cyou^
 ||conseils.dotbase.com^
@@ -27896,9 +27897,6 @@
 ||as.lenkino.adult^
 ||go.lennar.com^
 ||go.lennox.com^
-||o.lenovo.com^
-||s.lenovo.com^
-||tracking.lenovo.com^
 ||a8.lens-labo.com^
 ||smetrics.lenscrafters.ca^
 ||prel6dor.lentrpl7.site^
@@ -41146,7 +41144,6 @@
 ||qa-brc.emails.rakuten.com^
 ||ralden.network^
 ||beacon.rallydev.com^
-||connect.rallypoint.com^
 ||ralphlauren-polska.pl^
 ||smetrics.ralphlauren.co.uk^
 ||metrics.ralphlauren.com^
