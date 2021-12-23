@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-23 06:20:34Z
+! Last Modified: 2021-12-23 12:27:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3005,6 +3005,7 @@
 ||all-sales.info^
 ||all-tgp.org^
 ||all-tube.pl^
+||makumva.all-usanomination.com^
 ||buy-zyban.all.at^
 ||buyhydrocodone.all.at^
 ||buy-cheap-xanax.all.at^
@@ -16825,6 +16826,7 @@
 ||outbrainimg.com.edgekey.net^
 ||serving-sys.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
+||wildcard.ntv.io.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
@@ -57399,9 +57401,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||ci.net.zooplus.de^
-||car40.net.zooplus.de^
-||cdn.tpe.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^

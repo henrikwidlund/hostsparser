@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-23 06:20:55Z
+! Last Modified: 2021-12-23 12:28:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7181,9 +7181,6 @@
 ||tracking.bonava.ru^
 ||tracking.bonava.se^
 ||bonbistro.pk^
-||ad.bondage.com^
-||ads.bondage.com^
-||adserver.bondage.com^
 ||bondpertayenergy.com^
 ||bgrel.bonedmilfs.com^
 ||bongacams.com^
@@ -52978,8 +52975,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||br.adserver.yahoo.com^
-||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -53915,7 +53910,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||api.git-repo.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^
