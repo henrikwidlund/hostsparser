@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-23 12:28:09Z
+! Last Modified: 2021-12-23 18:20:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -44301,7 +44301,6 @@
 ||smartmomways.com^
 ||smetrics.smartmove.us^
 ||b.smartnews.be^
-||ads.smartolution.com^
 ||ape.smartplanschema.se^
 ||minnow.smartquotesforsmartpeople.com^
 ||smartraport.pl^
@@ -53801,6 +53800,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||cn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
@@ -54744,6 +54744,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||csr41.net.zooplus.de^
+||blogssl.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^
