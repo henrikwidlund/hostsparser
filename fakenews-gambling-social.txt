@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-23 00:57:07Z
+! Last Modified: 2021-12-23 06:20:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3005,7 +3005,6 @@
 ||all-sales.info^
 ||all-tgp.org^
 ||all-tube.pl^
-||makumva.all-usanomination.com^
 ||buy-zyban.all.at^
 ||buyhydrocodone.all.at^
 ||buy-cheap-xanax.all.at^
@@ -57400,7 +57399,9 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||csr41-beta-www.net.zooplus.de^
+||ci.net.zooplus.de^
+||car40.net.zooplus.de^
+||cdn.tpe.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^
