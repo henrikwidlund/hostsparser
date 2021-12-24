@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-24 06:20:44Z
+! Last Modified: 2021-12-24 12:27:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38393,7 +38393,6 @@
 ||olx.pl-przesylka.club^
 ||olx.pl-przesylka.live^
 ||olx.pl-receive.cash^
-||delivery.olx.pl-receive.link^
 ||olx.pl-receive.work^
 ||poczta.pl-receive.work^
 ||inpost.pl-receive.work^
@@ -50803,7 +50802,6 @@
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
-||adserver.unityads.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
@@ -56179,7 +56177,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||appsserver.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^
