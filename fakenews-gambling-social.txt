@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-24 12:27:27Z
+! Last Modified: 2021-12-24 18:19:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46159,8 +46159,6 @@
 ||sn-gate.com^
 ||apple.com.sn-id.us^
 ||snabbare.com^
-||erutinmo.snagajob.com^
-||erutinmos.snagajob.com^
 ||odnlj.snap-affairs.com^
 ||snapads.com^
 ||snapcamsforum.cc^
@@ -57400,7 +57398,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||disabled.owa.net.zooplus.de^
+||ebs.api.admins.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^

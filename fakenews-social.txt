@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-24 12:27:34Z
+! Last Modified: 2021-12-24 18:19:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38393,6 +38393,7 @@
 ||olx.pl-przesylka.club^
 ||olx.pl-przesylka.live^
 ||olx.pl-receive.cash^
+||delivery.olx.pl-receive.link^
 ||olx.pl-receive.work^
 ||poczta.pl-receive.work^
 ||inpost.pl-receive.work^
@@ -45374,6 +45375,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
@@ -55225,6 +55227,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

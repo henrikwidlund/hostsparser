@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-24 12:27:28Z
+! Last Modified: 2021-12-24 18:19:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34322,7 +34322,6 @@
 ||newsmax.com^
 ||ads.newsminerextra.com^
 ||newsmutiny.com^
-||scrooge.newsnet5.com^
 ||newsnow.co.za^
 ||newsnow17.com^
 ||ads.newsobserver.com^
@@ -55521,7 +55520,6 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
