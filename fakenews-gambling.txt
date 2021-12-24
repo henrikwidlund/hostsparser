@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-24 00:56:16Z
+! Last Modified: 2021-12-24 06:20:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13180,6 +13180,7 @@
 ||smetrics.costco.com^
 ||metrics.costcobusinesscentre.ca^
 ||smetrics.costcobusinesscentre.ca^
+||smetrics.costcobusinessdelivery.com^
 ||costcoworld.life^
 ||costumesandcards.co.uk^
 ||coswtymmusibyc.online^
@@ -49428,6 +49429,7 @@
 ||softreadynow.thespaceupdatespcandmac.info^
 ||thespaclub.net^
 ||oascentral.thespark.com^
+||s.thespec.com^
 ||gcirm.thespectrum.com^
 ||thespiritscience.net^
 ||salmon.thespiritualpsychologist.co.uk^
@@ -56914,6 +56916,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||csr41stage.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^

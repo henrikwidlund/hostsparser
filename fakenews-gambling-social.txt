@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-24 00:56:14Z
+! Last Modified: 2021-12-24 06:20:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16794,7 +16794,6 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
-||a.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -24025,6 +24024,7 @@
 ||max.i12.de^
 ||i1img.com^
 ||i1media.no^
+||grouse.i21.co^
 ||i26339jhf37fu2.bar^
 ||www2.i2cinc.com^
 ||i2i.com^
@@ -48328,7 +48328,6 @@
 ||szybkie-wysylki.online^
 ||szybkie.click^
 ||inpostpl.szybkiodbior-24.best^
-||olx-pl.szybkiodbior-pieniadz.work^
 ||szybkipost.net^
 ||szybkoiprosto.website^
 ||xanax.t-amo.net^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-24 00:56:27Z
+! Last Modified: 2021-12-24 06:20:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2517,6 +2517,8 @@
 ||ahtigames.com^
 ||ahufee.com^
 ||ahzahg6ohb.com^
+||fiona.ai.net^
+||bantam.ai.net^
 ||metrics.aia.co.kr^
 ||smetrics.aia.co.kr^
 ||comms.aia.co.nz^
@@ -54281,6 +54283,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
