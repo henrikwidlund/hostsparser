@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-23 18:20:03Z
+! Last Modified: 2021-12-24 00:56:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -41597,16 +41597,6 @@
 ||yumedream.netangels.ru^
 ||connect.netapp.co.il^
 ||connect.netapp.co.kr^
-||ometrics.netapp.com^
-||sometrics.netapp.com^
-||connect-qa.netapp.com^
-||connect.abm.netapp.com^
-||connect.blog.netapp.com^
-||connect.cloud.netapp.com^
-||connectportal.netapp.com^
-||connect.customers.netapp.com^
-||connect.content-hub.netapp.com^
-||connect.partner-connect.netapp.com^
 ||connect.netapp.com.au^
 ||connect.netapp.com.br^
 ||connect.netapp.com.sg^
@@ -68128,6 +68118,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -69116,12 +69107,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||dk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||launch.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

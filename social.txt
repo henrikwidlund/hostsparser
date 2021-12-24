@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-23 18:20:12Z
+! Last Modified: 2021-12-24 00:56:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28941,7 +28941,6 @@
 ||smetrics.mbsdirect.net^
 ||appad02.mbsp.jp^
 ||people.mbtionline.com^
-||khbd.mbtuan.com^
 ||info.mbu.edu^
 ||images.mbuyu.nl^
 ||wvvw.mc-doualiya.com^
@@ -52530,6 +52529,8 @@
 ||sftr2.external.xerox.com^
 ||marketing.xertica.com^
 ||xertive.com^
+||w-chat.xf.cz^
+||cgi-view-item-co-uk.xf.cz^
 ||www2.xfarm.ag^
 ||metrics.xfinity.com^
 ||xfreeservice.com^
@@ -53911,7 +53912,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||cgi.tpe.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^

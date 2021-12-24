@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-23 18:20:07Z
+! Last Modified: 2021-12-24 00:56:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2517,8 +2517,6 @@
 ||ahtigames.com^
 ||ahufee.com^
 ||ahzahg6ohb.com^
-||fiona.ai.net^
-||bantam.ai.net^
 ||metrics.aia.co.kr^
 ||smetrics.aia.co.kr^
 ||comms.aia.co.nz^
@@ -55228,8 +55226,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||csr11.net.zooplus.de^
-||kubessl.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^
