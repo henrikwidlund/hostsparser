@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-24 18:19:42Z
+! Last Modified: 2021-12-25 00:55:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -55654,6 +55654,11 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||ebs.net.zooplus.de^
+||asana.net.zooplus.de^
+||billing.net.zooplus.de^
+||csraws1.net.zooplus.de^
+||api.repo.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^
@@ -55665,7 +55670,6 @@
 ||ctl.k8s-prd-api.net.zooplus.de^
 ||data.docker.lax.net.zooplus.de^
 ||data.docker.pay.net.zooplus.de^
-||developer.csr12.net.zooplus.de^
 ||developmentdata.net.zooplus.de^
 ||ebs.mgmt.docker.net.zooplus.de^
 ||marketingmobile.net.zooplus.de^

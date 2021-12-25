@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-24 18:19:44Z
+! Last Modified: 2021-12-25 00:56:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5607,6 +5607,7 @@
 ||dev.ariitro.com^
 ||ariix.com^
 ||angel.arings.com^
+||tracking.ariong.us^
 ||arionmovies.com^
 ||api.arity.com^
 ||aritzal.com^
@@ -6369,6 +6370,7 @@
 ||automotive-rewardpath.com^
 ||autonations.com^
 ||smetrics.autonews.com^
+||ft2.autonomycloud.com^
 ||www2.autopartswarehouse.com^
 ||bnc.autopass.xyz^
 ||syst.autoprogram-trade.site^
@@ -55624,7 +55626,6 @@
 ||sieuthibaohiemonline.com^
 ||sifazen.com^
 ||prod.sift.co^
-||sgbid.prod.sift.co^
 ||sift-campaign-creatives.sift.co^
 ||ads.sift.co.uk^
 ||dc.sify.com^
@@ -70417,6 +70418,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||v3csr12.net.zooplus.de^
+||api.priv.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^
