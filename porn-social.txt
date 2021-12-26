@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-26 01:01:08Z
+! Last Modified: 2021-12-26 06:20:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -586,6 +586,12 @@
 ||2adultflashgames.com^
 ||2automatyczny-dozownik-mydla-pl.com^
 ||2bigtobetrue.com^
+||cpanel.2blogi-zfinansowe.xyz^
+||webdisk.2blogi-zfinansowe.xyz^
+||webmail.2blogi-zfinansowe.xyz^
+||finansowe.2blogi-zfinansowe.xyz^
+||cpcontacts.2blogi-zfinansowe.xyz^
+||cpcalendars.2blogi-zfinansowe.xyz^
 ||2busty.net^
 ||2cam.xxx^
 ||dgkpzy.2ch2.net^
@@ -19921,6 +19927,8 @@
 ||analytics.emarketer.com^
 ||emarketike7.info^
 ||emarketmakers.com^
+||lp.embarcadero.com^
+||forms.embarcadero.com^
 ||advertising.embarcaderopublishing.com^
 ||palomino.embarcar.com.pe^
 ||info.embarkbh.com^
@@ -70222,7 +70230,6 @@
 ||dii2.shpp.ext.zooplus.io^
 ||net.zooplus.it^
 ||dii2.zooplus.it^
-||alpha-marketing.net.zooplus.it^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
 ||alpha.net.zooplus.nl^

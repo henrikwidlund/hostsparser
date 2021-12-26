@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-26 01:00:29Z
+! Last Modified: 2021-12-26 06:20:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20315,6 +20315,7 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
+||a.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -68390,7 +68391,6 @@
 ||smetrics.vero.com.au^
 ||jynwlg.veromoda.com^
 ||veronadigital.com^
-||blrhel.veronicabeard.com^
 ||veronicasbarranco.com^
 ||veronicasdiary.com^
 ||statistik.veronika-steiner.at^
