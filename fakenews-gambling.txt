@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-26 12:27:30Z
+! Last Modified: 2021-12-26 18:19:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4606,8 +4606,6 @@
 ||associatedmediacoverage.com^
 ||associationclimate.com^
 ||assostudiosrl.it^
-||tr.news.assuragency.net^
-||tr.newsletter.assuragency.net^
 ||metrics.assurancewireless.com^
 ||smetrics.assurancewireless.com^
 ||dvo.assurandme.fr^
@@ -5734,6 +5732,7 @@
 ||t.beautybay.com^
 ||beautybuyrewards.com^
 ||beautyenderma.nl^
+||biz.beautyexperience.com^
 ||beautyshopcanarias.com^
 ||beaverconews.com^
 ||beaverstatenews.com^
@@ -56807,7 +56806,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -57793,7 +57791,6 @@
 ||ctl.k8s-prd-api.net.zooplus.de^
 ||data.docker.lax.net.zooplus.de^
 ||data.docker.pay.net.zooplus.de^
-||developer.csr12.net.zooplus.de^
 ||developmentdata.net.zooplus.de^
 ||ebs.mgmt.docker.net.zooplus.de^
 ||marketingmobile.net.zooplus.de^
