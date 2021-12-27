@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-27 00:57:14Z
+! Last Modified: 2021-12-27 12:29:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -56127,6 +56127,8 @@
 ||sdk.scopely.io^
 ||aprod.scopely.io^
 ||collector.scopely.io^
+||event.collector.scopely.io^
+||register.collector.scopely.io^
 ||score-video.com^
 ||score99.net^
 ||scoreadate.com^
@@ -70017,6 +70019,7 @@
 ||windows-upgrade-en.com^
 ||windows-wsus-en.com^
 ||windows-wsus-update.com^
+||engage.windows.com^
 ||optanon.blob.core.windows.net^
 ||open8video.blob.core.windows.net^
 ||prodxnews1blob.blob.core.windows.net^
