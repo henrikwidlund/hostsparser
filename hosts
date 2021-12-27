@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-27 12:29:06Z
+! Last Modified: 2021-12-27 18:19:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13223,9 +13223,6 @@
 ||info.cloud4wi.com^
 ||cloudads.net^
 ||cloudadservers.com^
-||directrev.cloudapp.net^
-||bi-analytics.cloudapp.net^
-||ailoganalyticsportal-eus.cloudapp.net^
 ||cloudbet.com^
 ||cloudbiggest.com^
 ||comms.cloudblue.com^
