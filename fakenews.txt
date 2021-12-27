@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-26 18:19:28Z
+! Last Modified: 2021-12-27 00:57:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13887,6 +13887,7 @@
 ||vinted-pl.danneodebrania-kont.xyz^
 ||dannerpolska.com^
 ||dannyadivo.com^
+||p2.danskebank.dk^
 ||p2.danskebank.fi^
 ||mole.dansksejlunion.dk^
 ||danto.co.in^
@@ -19168,7 +19169,6 @@
 ||ww1.flashx.net^
 ||flasipl77.xyz^
 ||flaster.xyz^
-||w3.flatex.at^
 ||w3.flatex.de^
 ||w3.flatex.nl^
 ||gcirm.flatoday.com^
@@ -56519,7 +56519,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||docker-csr31.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^

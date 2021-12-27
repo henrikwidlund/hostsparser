@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-26 18:19:19Z
+! Last Modified: 2021-12-27 00:57:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2732,6 +2732,7 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||rtb.adgrx.com.tech.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -33220,6 +33221,7 @@
 ||popup.msn.com^
 ||rmads.msn.com^
 ||ads.eu.msn.com^
+||b.ads2.msn.com^
 ||c.latam.msn.com^
 ||preview.msn.com^
 ||ads1.jp.msn.com^
@@ -39333,7 +39335,6 @@
 ||pgnigplinvest.net^
 ||pgnplatform.com^
 ||protection.pgpolice.com^
-||go.pgpro.com^
 ||pgrupa.xyz^
 ||pgt-workshop.org^
 ||ad.pgwticketshop.nl^
@@ -57293,6 +57294,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||de.adserver.yahoo.com^
+||ae.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -58474,6 +58477,7 @@
 ||dii2.shpp.ext.zooplus.io^
 ||net.zooplus.it^
 ||dii2.zooplus.it^
+||portal-engine.net.zooplus.it^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
 ||alpha.net.zooplus.nl^
