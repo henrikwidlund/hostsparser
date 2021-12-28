@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-28 00:57:18Z
+! Last Modified: 2021-12-28 06:20:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22649,6 +22649,8 @@
 ||analytics.readcube.com.herokudns.com^
 ||production.wootric.com.herokudns.com^
 ||event-logger.tagboard.com.herokudns.com^
+||ios-quinoa-config-prod.sense360eng.com.herokudns.com^
+||android-quinoa-config-prod.sense360eng.com.herokudns.com^
 ||ads.heroldonline.com^
 ||herotoken.co^
 ||herotokens.io^
@@ -40398,8 +40400,6 @@
 ||propattuern.xyz^
 ||propawin.com^
 ||propdfconverter.com^
-||qrrhvh.propertyfinder.ae^
-||content.propertyfinder.ae^
 ||content.propertyfinder.eg^
 ||propicture.pl^
 ||propmentor.com^
@@ -54653,6 +54653,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -55610,6 +55611,11 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||car40.net.zooplus.de^
+||csr41.net.zooplus.de^
+||gitgh.net.zooplus.de^
+||2-panel.net.zooplus.de^
+||ssl.waf.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^

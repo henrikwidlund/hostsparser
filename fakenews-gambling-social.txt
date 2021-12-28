@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-28 00:57:03Z
+! Last Modified: 2021-12-28 06:20:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39856,8 +39856,6 @@
 ||olx.pl-orderpaid.work^
 ||inpost.pl-orderpaid.work^
 ||olx.pl-orderpays.cyou^
-||olx.pl-orderpays.work^
-||inpost.pl-orderpays.work^
 ||olx.pl-orderspaid.cyou^
 ||olx.pl-orderspaid.shop^
 ||inpost.pl-orderspaid.shop^
@@ -58277,7 +58275,6 @@
 ||ctl.k8s-prd-api.net.zooplus.de^
 ||data.docker.lax.net.zooplus.de^
 ||data.docker.pay.net.zooplus.de^
-||developer.csr12.net.zooplus.de^
 ||developmentdata.net.zooplus.de^
 ||ebs.mgmt.docker.net.zooplus.de^
 ||marketingmobile.net.zooplus.de^
