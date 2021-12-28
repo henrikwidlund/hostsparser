@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-28 06:20:44Z
+! Last Modified: 2021-12-28 12:27:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35839,6 +35839,7 @@
 ||livenipples.com^
 ||go.liveon.ne.jp^
 ||sr2.liveperson.net^
+||lptag.liveperson.net^
 ||server.iad.liveperson.net^
 ||livepimpin.com^
 ||livepixelgames.com^
@@ -71315,7 +71316,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||pn1.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
@@ -72629,9 +72629,9 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||admin.net.zooplus.de^
-||ciowa.net.zooplus.de^
-||csr41.net.zooplus.de^
+||a52.net.zooplus.de^
+||ebs.net.zooplus.de^
+||csr08.net.zooplus.de^
 ||devops.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^

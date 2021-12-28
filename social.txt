@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-28 06:20:51Z
+! Last Modified: 2021-12-28 12:27:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -27923,6 +27923,7 @@
 ||branch.email.livenation.com^
 ||go.liveon.ne.jp^
 ||sr2.liveperson.net^
+||lptag.liveperson.net^
 ||server.iad.liveperson.net^
 ||livepixelgames.com^
 ||ads.livepromotools.com^
@@ -44279,8 +44280,6 @@
 ||content.solidpixels.com^
 ||solidsalt.com^
 ||info.solidscape.com^
-||asc.solidworks.com^
-||sasc.solidworks.com^
 ||smetrics.solinst.com^
 ||solitairetime.com^
 ||solny-inhalator-pl.com^
@@ -49093,7 +49092,6 @@
 ||adserver.tweakers.net^
 ||cijfers.tweakers.nl^
 ||tweengirlsforum.pk^
-||bluejay.twelve70.com^
 ||tracker.twenga.nl^
 ||stats.twenty.so^
 ||stats.twhl.xyz^
@@ -54779,6 +54777,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||marketing.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-28 06:20:40Z
+! Last Modified: 2021-12-28 12:27:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28923,6 +28923,7 @@
 ||branch.email.livenation.com^
 ||go.liveon.ne.jp^
 ||sr2.liveperson.net^
+||lptag.liveperson.net^
 ||server.iad.liveperson.net^
 ||livepixelgames.com^
 ||ads.livepromotools.com^
@@ -57044,7 +57045,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||csr11ci.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^

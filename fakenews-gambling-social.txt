@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-28 06:20:34Z
+! Last Modified: 2021-12-28 12:27:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24930,6 +24930,7 @@
 ||ablink.mail1.iheart.com^
 ||my.iheartradio.com^
 ||analytics.ihg.com^
+||secure.analytics.ihg.com^
 ||adserer.ihigh.com^
 ||adsrv2.ihlassondakika.com^
 ||guwahati.ihrindia.com^
@@ -29614,6 +29615,7 @@
 ||branch.email.livenation.com^
 ||go.liveon.ne.jp^
 ||sr2.liveperson.net^
+||lptag.liveperson.net^
 ||server.iad.liveperson.net^
 ||livepixelgames.com^
 ||ads.livepromotools.com^
@@ -39856,6 +39858,8 @@
 ||olx.pl-orderpaid.work^
 ||inpost.pl-orderpaid.work^
 ||olx.pl-orderpays.cyou^
+||olx.pl-orderpays.work^
+||inpost.pl-orderpays.work^
 ||olx.pl-orderspaid.cyou^
 ||olx.pl-orderspaid.shop^
 ||inpost.pl-orderspaid.shop^
@@ -45536,7 +45540,6 @@
 ||server821.com^
 ||serveradobe.co.cc^
 ||acts-portal-live.serverdatahost.com^
-||mautic.serverhub.vn^
 ||chickadee.serverlessfirst.com^
 ||cod.serverlesslaravelcourse.com^
 ||servertasarimbu.com^
@@ -57290,7 +57293,9 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
+||br.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -58264,6 +58269,12 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||cdnmgmt.net.zooplus.de^
+||git-owa.net.zooplus.de^
+||v3csr12.net.zooplus.de^
+||api.priv.net.zooplus.de^
+||mail.org.net.zooplus.de^
+||assetsdockerapi.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^
