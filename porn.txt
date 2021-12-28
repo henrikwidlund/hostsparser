@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-27 18:20:01Z
+! Last Modified: 2021-12-28 00:57:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26833,8 +26833,6 @@
 ||hangchina.vn^
 ||hangingrelatedly.com^
 ||hanime.tv^
-||ad.hankooki.com^
-||log.hankooki.com^
 ||cname-ade.hankoya.com^
 ||hanksly.pl^
 ||hannaegypt.com^
@@ -71396,7 +71394,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||data.kubeorg.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^

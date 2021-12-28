@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-27 18:19:55Z
+! Last Modified: 2021-12-28 00:57:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3299,7 +3299,6 @@
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
-||bsnj.eyeblaster.akadns.net^
 ||track-apmebf.cj.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -8213,6 +8212,7 @@
 ||du2k.bhv.fr^
 ||bhyuu.com^
 ||bi-av.com^
+||smetrics.bi-vetmedica.com^
 ||bia2sh.com^
 ||biakon.com.pl^
 ||insights.biallo.de^
@@ -56180,7 +56180,6 @@
 ||siec34.pl^
 ||stats.siedentop.dev^
 ||siedziskozelowe-pl.com^
-||te.sieh-an.ch^
 ||te.sieh-an.de^
 ||cookies.siemens-advanta.com^
 ||cookies.siemens-energy.com^
@@ -72639,7 +72638,6 @@
 ||ctl.k8s-prd-api.net.zooplus.de^
 ||data.docker.lax.net.zooplus.de^
 ||data.docker.pay.net.zooplus.de^
-||developer.csr12.net.zooplus.de^
 ||developmentdata.net.zooplus.de^
 ||ebs.mgmt.docker.net.zooplus.de^
 ||marketingmobile.net.zooplus.de^
