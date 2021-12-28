@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-28 12:27:47Z
+! Last Modified: 2021-12-28 18:20:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -70096,7 +70096,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -70351,8 +70350,6 @@
 ||yogasuma.care^
 ||yoggrt.com^
 ||tracking.yohoads.com^
-||pages.yokogawa.com^
-||lifeinnovation.yokogawa.com^
 ||info.yokogawa.eu^
 ||go.yokohama-style.jp^
 ||mautic.yola.vn^
