@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-29 12:28:06Z
+! Last Modified: 2021-12-29 18:20:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -55400,7 +55400,6 @@
 ||adbox.sina.com.cn^
 ||dcads.sina.com.cn^
 ||emarketing.sina.com.cn^
-||oascentral.sina.com.hk^
 ||s3.pfp.sina.net^
 ||pubstatus.sinaapp.com^
 ||newspush.sinajs.cn^
@@ -68718,7 +68717,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

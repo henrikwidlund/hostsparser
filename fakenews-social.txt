@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-29 12:27:57Z
+! Last Modified: 2021-12-29 18:19:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19888,6 +19888,9 @@
 ||free-hairy-pussy.net^
 ||free-laptop-reward.com^
 ||free-local-events.info^
+||andyhawk.free-online.co.uk^
+||bryantaylor.free-online.co.uk^
+||peterfishwick.free-online.co.uk^
 ||stats.free-prepaid.de^
 ||stats.free-rein.net^
 ||free-stats.com^
@@ -25945,6 +25948,7 @@
 ||trk.itprotoday.com^
 ||ads.beta.itravel2000.com^
 ||go.itron.com^
+||zen.itrsgroup.com^
 ||its-that-easy.com^
 ||metrics.its.de^
 ||product.its555.co.jp^
@@ -57041,8 +57045,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||data.org.net.zooplus.de^
-||datacsr31.net.zooplus.de^
+||gitapachement.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^
