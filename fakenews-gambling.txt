@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-29 00:56:38Z
+! Last Modified: 2021-12-29 06:20:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -48053,6 +48053,7 @@
 ||stolek.icu^
 ||stoloto.ru^
 ||yhyped.stolplit.ru^
+||info.stoneagetools.com^
 ||stoneredry.com^
 ||stop-gmo.pl^
 ||go.stop-painting.com^

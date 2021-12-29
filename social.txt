@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-29 00:56:55Z
+! Last Modified: 2021-12-29 06:21:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20813,6 +20813,7 @@
 ||wat.gogoinflight.com^
 ||wats.gogoinflight.com^
 ||digitalmarketing.gogsg.com^
+||go.goguardian.com^
 ||t.gohuskies.com^
 ||smetrics.goindigo.in^
 ||going-tr.com^
@@ -39144,7 +39145,6 @@
 ||smetrics.princess.com^
 ||cpk.princessetamtam.com^
 ||princessmask.pro^
-||oascentral.princetonreview.com^
 ||schemea.prinit.net^
 ||print-city-shop.nl^
 ||a8.print-netsquare.com^

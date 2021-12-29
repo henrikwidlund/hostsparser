@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-29 00:56:49Z
+! Last Modified: 2021-12-29 06:20:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21952,9 +21952,6 @@
 ||partner-ts.groupon.be^
 ||ad.groupon.co.uk^
 ||partner-ts.groupon.co.uk^
-||ad.groupon.com^
-||gomerchant.groupon.com^
-||partner-ts.groupon.com^
 ||ad.groupon.de^
 ||partner-ts.groupon.de^
 ||ad.groupon.fr^
@@ -44160,6 +44157,8 @@
 ||shakh-music.com^
 ||go.shamrockfoodservice.com^
 ||shanayashoppy.com^
+||metrics.shangri-la.com^
+||smetrics.shangri-la.com^
 ||smetrics.shannons.com.au^
 ||shapado.com^
 ||shape-shift.io^
@@ -56093,8 +56092,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||api.old.net.zooplus.de^
-||csr11ci.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^
