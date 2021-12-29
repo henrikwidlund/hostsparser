@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-29 06:20:41Z
+! Last Modified: 2021-12-29 12:27:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7620,6 +7620,8 @@
 ||boattraider.com^
 ||bobali.xyz^
 ||bobcasino.com^
+||www2.bobcat.com^
+||dtmssl.bobcat.com^
 ||bobechesselvage.com^
 ||bobetting.com^
 ||bobigny24.com^
@@ -58220,6 +58222,7 @@
 ||zofiabutik.com^
 ||zognia.pl^
 ||almuradtiles.zohosites.com^
+||server.zoiets.be^
 ||dl.zola.com^
 ||dl-stage.zola.com^
 ||mandrillapp.zola.com^
@@ -58264,6 +58267,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||csr11car40.net.zooplus.de^
+||csr11-asana.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^

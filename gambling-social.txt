@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-29 06:20:54Z
+! Last Modified: 2021-12-29 12:28:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21952,6 +21952,9 @@
 ||partner-ts.groupon.be^
 ||ad.groupon.co.uk^
 ||partner-ts.groupon.co.uk^
+||ad.groupon.com^
+||gomerchant.groupon.com^
+||partner-ts.groupon.com^
 ||ad.groupon.de^
 ||partner-ts.groupon.de^
 ||ad.groupon.fr^
