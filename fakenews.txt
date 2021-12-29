@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-28 18:19:51Z
+! Last Modified: 2021-12-29 00:56:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2669,6 +2669,7 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||cdn.stickyadstv.com.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -7794,6 +7795,7 @@
 ||stats.brides.com^
 ||go.bridge-g.com^
 ||about.bridge-u.com^
+||www2.bridge.edu^
 ||ads.bridgebase.com^
 ||adserver.bridgebase.com^
 ||grow.bridgepointconsulting.com^

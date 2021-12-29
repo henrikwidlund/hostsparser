@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-28 18:19:56Z
+! Last Modified: 2021-12-29 00:56:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -37176,6 +37176,10 @@
 ||1plnew.patnew1.xyz^
 ||pato.pl^
 ||stats.patout.dev^
+||mstr.patpat-pro.xyz^
+||p-mc.patpat-pro.xyz^
+||pl-mc1.patpat-pro.xyz^
+||pl-mstr.patpat-pro.xyz^
 ||patrickdlg.com^
 ||stats.patriot.win^
 ||patriotpath.am^
@@ -44156,8 +44160,6 @@
 ||shakh-music.com^
 ||go.shamrockfoodservice.com^
 ||shanayashoppy.com^
-||metrics.shangri-la.com^
-||smetrics.shangri-la.com^
 ||smetrics.shannons.com.au^
 ||shapado.com^
 ||shape-shift.io^
@@ -56091,7 +56093,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||csr31roberts.net.zooplus.de^
+||api.old.net.zooplus.de^
+||csr11ci.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^
