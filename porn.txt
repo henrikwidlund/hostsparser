@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-30 00:57:11Z
+! Last Modified: 2021-12-30 06:20:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26866,6 +26866,7 @@
 ||happytugs.info^
 ||mautic.haproinfo.vn^
 ||a8.haptic.co.jp^
+||haravan.com^
 ||stats.harbauer.org^
 ||harborfeather.com^
 ||smetrics.harborfreight.com^
@@ -54003,6 +54004,7 @@
 ||ubntrooters.serveuser.com^
 ||root20system20macosxdriver.serveusers.com^
 ||apple.service-localiser.com^
+||smetrics.service-plans.io^
 ||service-team-domfeld.info^
 ||service-update.online^
 ||service-updater.com^
@@ -70165,8 +70167,6 @@
 ||yeichner.com^
 ||adscan.yelabapp.com^
 ||yeld9auto.com^
-||bannersng.yell.com^
-||s-omniture.yell.com^
 ||adsyndication.yelldirect.com^
 ||track.yellostrom.de^
 ||yellow-movie.com^
@@ -71405,6 +71405,7 @@
 ||ctl.k8s-prd-api.net.zooplus.de^
 ||data.docker.lax.net.zooplus.de^
 ||data.docker.pay.net.zooplus.de^
+||developer.csr12.net.zooplus.de^
 ||developmentdata.net.zooplus.de^
 ||ebs.mgmt.docker.net.zooplus.de^
 ||marketingmobile.net.zooplus.de^

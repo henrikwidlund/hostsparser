@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-30 00:56:54Z
+! Last Modified: 2021-12-30 06:20:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2732,6 +2732,7 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||ads.stickyadstv.com.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -22946,6 +22947,7 @@
 ||happyvalleytimes.com^
 ||mautic.haproinfo.vn^
 ||a8.haptic.co.jp^
+||haravan.com^
 ||stats.harbauer.org^
 ||harborfeather.com^
 ||smetrics.harborfreight.com^
@@ -56371,7 +56373,6 @@
 ||hz1.xhjmmm.com^
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
-||e.ad.xiaomi.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
@@ -57782,6 +57783,7 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||csrmailjet1.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^
