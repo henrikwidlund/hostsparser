@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-29 18:19:52Z
+! Last Modified: 2021-12-30 00:56:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38488,6 +38488,7 @@
 ||adserver.passion.com^
 ||geobanner.passion.com^
 ||promo.passioncams.com^
+||textad.passionsearch.com^
 ||passive-czinvline.com^
 ||mackerel.passiveincome.io^
 ||passpport.com^
@@ -42288,7 +42289,6 @@
 ||t.pushdoctor.co.uk^
 ||pushedwebnews.com^
 ||nowgetsoft.pushingnewforcontentsafeload.download^
-||pushnami.com^
 ||go.pushoperations.com^
 ||ads.pushplay.com^
 ||bobcat.pushplay.nl^
@@ -50969,7 +50969,6 @@
 ||tlustydziewiec.site^
 ||go2.tlv.com^
 ||tlvmw.top^
-||felix.data.tm-awx.com^
 ||youtube.tm.pl^
 ||tm3solucoes.com.br^
 ||tmbinaryfx.com^
@@ -57293,8 +57292,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||tw.adserver.yahoo.com^
-||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -58279,7 +58276,6 @@
 ||ctl.k8s-prd-api.net.zooplus.de^
 ||data.docker.lax.net.zooplus.de^
 ||data.docker.pay.net.zooplus.de^
-||developer.csr12.net.zooplus.de^
 ||developmentdata.net.zooplus.de^
 ||ebs.mgmt.docker.net.zooplus.de^
 ||marketingmobile.net.zooplus.de^

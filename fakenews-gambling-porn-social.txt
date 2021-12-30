@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-29 18:19:50Z
+! Last Modified: 2021-12-30 00:56:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3328,7 +3328,6 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||tvx.adgrx.com.tech.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -38618,7 +38617,6 @@
 ||metrics.mathworks.com^
 ||smetrics.mathworks.com^
 ||tracking.mathworks.com^
-||go.matific.com^
 ||matildaonline.es^
 ||matiti.ug^
 ||metrics.matlab.com^
@@ -52886,7 +52884,6 @@
 ||t.pushdoctor.co.uk^
 ||pushedwebnews.com^
 ||nowgetsoft.pushingnewforcontentsafeload.download^
-||pushnami.com^
 ||go.pushoperations.com^
 ||ads.pushplay.com^
 ||bobcat.pushplay.nl^
@@ -63846,7 +63843,6 @@
 ||tlustydziewiec.site^
 ||go2.tlv.com^
 ||tlvmw.top^
-||felix.data.tm-awx.com^
 ||youtube.tm.pl^
 ||tm3solucoes.com.br^
 ||tma.co.jp^

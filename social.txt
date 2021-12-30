@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-29 18:20:09Z
+! Last Modified: 2021-12-30 00:57:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16036,6 +16036,7 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
+||wl.aniview.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -16047,6 +16048,7 @@
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
+||ma479-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -29730,8 +29732,6 @@
 ||ads.mefeedia.com^
 ||mega-gry.com^
 ||go.mega-hatsu.com^
-||cdn.mega-tags.com^
-||mega.vast.mega-tags.com^
 ||www2.mega.com^
 ||megabizvibes.com^
 ||megacash.de^
@@ -39811,7 +39811,6 @@
 ||t.pushdoctor.co.uk^
 ||pushedwebnews.com^
 ||nowgetsoft.pushingnewforcontentsafeload.download^
-||pushnami.com^
 ||go.pushoperations.com^
 ||ads.pushplay.com^
 ||bobcat.pushplay.nl^
@@ -47866,7 +47865,6 @@
 ||tlustydziewiec.site^
 ||go2.tlv.com^
 ||tlvmw.top^
-||felix.data.tm-awx.com^
 ||youtube.tm.pl^
 ||tm3solucoes.com.br^
 ||tmbinaryfx.com^
@@ -53400,6 +53398,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||cdn.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^

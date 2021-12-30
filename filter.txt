@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-29 18:19:48Z
+! Last Modified: 2021-12-30 00:56:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3332,6 +3332,7 @@
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
+||prebid-a.rubiconproject.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
 ||akaflieg-sb.de^
@@ -16045,6 +16046,7 @@
 ||cotomazncczytv.club^
 ||go.cotral.com^
 ||sstats.cotswoldoutdoor.com^
+||tukuru.cotta.jp^
 ||smetrics.cottages.com^
 ||cotton-tod.com^
 ||cottondecay.com^
@@ -52783,7 +52785,6 @@
 ||t.pushdoctor.co.uk^
 ||pushedwebnews.com^
 ||nowgetsoft.pushingnewforcontentsafeload.download^
-||pushnami.com^
 ||go.pushoperations.com^
 ||ads.pushplay.com^
 ||bobcat.pushplay.nl^
@@ -63480,7 +63481,6 @@
 ||tlustydziewiec.site^
 ||go2.tlv.com^
 ||tlvmw.top^
-||felix.data.tm-awx.com^
 ||youtube.tm.pl^
 ||tm3solucoes.com.br^
 ||tma.co.jp^

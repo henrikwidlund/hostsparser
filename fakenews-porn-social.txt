@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-29 18:19:54Z
+! Last Modified: 2021-12-30 00:56:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51896,7 +51896,6 @@
 ||t.pushdoctor.co.uk^
 ||pushedwebnews.com^
 ||nowgetsoft.pushingnewforcontentsafeload.download^
-||pushnami.com^
 ||go.pushoperations.com^
 ||ads.pushplay.com^
 ||bobcat.pushplay.nl^
@@ -62680,7 +62679,6 @@
 ||tlustydziewiec.site^
 ||go2.tlv.com^
 ||tlvmw.top^
-||felix.data.tm-awx.com^
 ||youtube.tm.pl^
 ||tm3solucoes.com.br^
 ||tma.co.jp^
@@ -70867,6 +70865,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
