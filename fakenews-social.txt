@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-30 06:20:25Z
+! Last Modified: 2021-12-30 12:27:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1549,7 +1549,6 @@
 ||activeideas.net^
 ||activeindexer.com^
 ||panther.activelink.ie^
-||activemetering.com^
 ||metrics.activenetwork.com^
 ||smetrics.activenetwork.com^
 ||ads.activepower.net^
@@ -1638,7 +1637,6 @@
 ||content.ad2iction.com^
 ||go.ad2upapp.com^
 ||ad3.eu^
-||ad4.com.cn^
 ||ad4mat.com^
 ||ad4mat.net^
 ||ads.ad4max.com^
@@ -16646,7 +16644,6 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
-||wildcard.betrad.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -16658,6 +16655,7 @@
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
+||ds-api-public.addthis.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -56081,8 +56079,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ae.adserver.yahoo.com^
-||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

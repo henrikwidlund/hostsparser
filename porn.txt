@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-30 06:20:34Z
+! Last Modified: 2021-12-30 12:27:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1904,7 +1904,6 @@
 ||activeideas.net^
 ||activeindexer.com^
 ||panther.activelink.ie^
-||activemetering.com^
 ||metrics.activenetwork.com^
 ||smetrics.activenetwork.com^
 ||ads.activepower.net^
@@ -1992,7 +1991,6 @@
 ||content.ad2iction.com^
 ||go.ad2upapp.com^
 ||ad3.eu^
-||ad4.com.cn^
 ||ad4mat.com^
 ||ad4mat.net^
 ||ads.ad4max.com^
@@ -20522,8 +20520,6 @@
 ||eslvocabfox.com^
 ||esmatube.com^
 ||go.esme.fr^
-||new1.2f9yd85b3xz016m.esnapbbar.com^
-||parcel.r1e3ymauqbg5oo0.esnapbbar.com^
 ||esneakers24.pl^
 ||esoftworld.co.kr^
 ||scallop.esolia.pro^
@@ -70167,6 +70163,8 @@
 ||yeichner.com^
 ||adscan.yelabapp.com^
 ||yeld9auto.com^
+||bannersng.yell.com^
+||s-omniture.yell.com^
 ||adsyndication.yelldirect.com^
 ||track.yellostrom.de^
 ||yellow-movie.com^
@@ -71405,7 +71403,6 @@
 ||ctl.k8s-prd-api.net.zooplus.de^
 ||data.docker.lax.net.zooplus.de^
 ||data.docker.pay.net.zooplus.de^
-||developer.csr12.net.zooplus.de^
 ||developmentdata.net.zooplus.de^
 ||ebs.mgmt.docker.net.zooplus.de^
 ||marketingmobile.net.zooplus.de^

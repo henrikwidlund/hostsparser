@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-30 06:20:36Z
+! Last Modified: 2021-12-30 12:27:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1496,7 +1496,6 @@
 ||activeideas.net^
 ||activeindexer.com^
 ||panther.activelink.ie^
-||activemetering.com^
 ||metrics.activenetwork.com^
 ||smetrics.activenetwork.com^
 ||ads.activepower.net^
@@ -1583,7 +1582,6 @@
 ||content.ad2iction.com^
 ||go.ad2upapp.com^
 ||ad3.eu^
-||ad4.com.cn^
 ||ad4mat.com^
 ||ad4mat.net^
 ||ads.ad4max.com^
@@ -16048,7 +16046,6 @@
 ||cookiebot.com-v1.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ma1169-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -42376,7 +42373,6 @@
 ||sdk.scopely.io^
 ||aprod.scopely.io^
 ||collector.scopely.io^
-||event.collector.scopely.io^
 ||scorecardresearch.com^
 ||info.scorecardrewards.com^
 ||scoremygift.com^
@@ -53834,7 +53830,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||es.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -54782,8 +54777,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||car40-3.net.zooplus.de^
-||kubessl.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^

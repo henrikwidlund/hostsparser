@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-30 06:20:32Z
+! Last Modified: 2021-12-30 12:27:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1549,7 +1549,6 @@
 ||activeideas.net^
 ||activeindexer.com^
 ||panther.activelink.ie^
-||activemetering.com^
 ||metrics.activenetwork.com^
 ||smetrics.activenetwork.com^
 ||ads.activepower.net^
@@ -1637,7 +1636,6 @@
 ||content.ad2iction.com^
 ||go.ad2upapp.com^
 ||ad3.eu^
-||ad4.com.cn^
 ||ad4mat.com^
 ||ad4mat.net^
 ||ads.ad4max.com^
@@ -54654,7 +54652,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -55611,7 +55608,6 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
-||acclax-mgmt.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^

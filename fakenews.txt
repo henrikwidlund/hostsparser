@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-30 06:20:26Z
+! Last Modified: 2021-12-30 12:27:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1509,7 +1509,6 @@
 ||activeideas.net^
 ||activeindexer.com^
 ||panther.activelink.ie^
-||activemetering.com^
 ||metrics.activenetwork.com^
 ||smetrics.activenetwork.com^
 ||ads.activepower.net^
@@ -1598,7 +1597,6 @@
 ||content.ad2iction.com^
 ||go.ad2upapp.com^
 ||ad3.eu^
-||ad4.com.cn^
 ||ad4mat.com^
 ||ad4mat.net^
 ||ads.ad4max.com^
@@ -9060,7 +9058,6 @@
 ||xn--igraszkinocnezroksan-nkc.cba.pl^
 ||pardot.cbaa.org.au^
 ||cbango.com.ar^
-||scookies-adobe.cbc.be^
 ||a.cbc.ca^
 ||ads.cbc.ca^
 ||metrics.cbc.ca^
@@ -56520,6 +56517,8 @@
 ||dii2.zooplus.com^
 ||net.zooplus.de^
 ||dii2.zooplus.de^
+||git-owa.net.zooplus.de^
+||dyncsr31.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||cloudfrontcsr12.net.zooplus.de^
@@ -56531,7 +56530,6 @@
 ||ctl.k8s-prd-api.net.zooplus.de^
 ||data.docker.lax.net.zooplus.de^
 ||data.docker.pay.net.zooplus.de^
-||developer.csr12.net.zooplus.de^
 ||developmentdata.net.zooplus.de^
 ||ebs.mgmt.docker.net.zooplus.de^
 ||marketingmobile.net.zooplus.de^
