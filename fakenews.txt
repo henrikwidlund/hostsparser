@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-31 00:58:46Z
+! Last Modified: 2021-12-31 06:20:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28579,6 +28579,7 @@
 ||lnstagram.se^
 ||lnstahelp.com^
 ||lo2.me^
+||v7.stats.load.com^
 ||loadesecoparc.co.uk^
 ||loading-ads.net^
 ||popunder.loading-delivery1.com^
