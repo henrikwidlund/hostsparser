@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-31 12:27:32Z
+! Last Modified: 2021-12-31 18:19:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12927,10 +12927,6 @@
 ||metrics.corus.ca^
 ||smetrics.corus.ca^
 ||stats1.corusradio.com^
-||ads.corusradionetwork.com^
-||adsadmin.corusradionetwork.com^
-||adserver.corusradionetwork.com^
-||maxadserver.corusradionetwork.com^
 ||cosdasiezrobbic.site^
 ||cosdlapollakkow.site^
 ||site.cosentino.com^
@@ -51820,7 +51816,6 @@
 ||tr.news.voyagesleclerc.com^
 ||tr.email.voyagesleclerc.com^
 ||k.voyageursdumonde.fr^
-||ads.voyit.com^
 ||vozestore.pl^
 ||tw-api.vpadn.com^
 ||ids-dmp.vpadn.com^
@@ -54860,6 +54855,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
