@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-31 06:20:44Z
+! Last Modified: 2021-12-31 12:27:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19158,6 +19158,7 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
+||a.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -42127,6 +42128,7 @@
 ||s.nslookup.io^
 ||nsoqa.com^
 ||nsrecord.org^
+||www2.nssf.org^
 ||go.nst-inc.com^
 ||mechaonik.nsx.pl^
 ||temporary.nsx.pl^
@@ -58319,6 +58321,7 @@
 ||smetrics.te.com^
 ||adserver.te.pt^
 ||te81.net^
+||webt.eu.teac-audio.com^
 ||frdoki.teaceremony.work^
 ||go.teacherspayteachers.com^
 ||teachertranny.com^
