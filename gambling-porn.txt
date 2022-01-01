@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-01 12:26:51Z
+! Last Modified: 2022-01-01 18:19:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28493,6 +28493,8 @@
 ||go.honestreporting.com^
 ||honestsun.top^
 ||honestwife.com^
+||cgi.honesty.com^
+||counters.honesty.com^
 ||echidna.honeybadger.io^
 ||honeymoonworld.com^
 ||nljjem.honeys-onlineshop.com^
@@ -70035,9 +70037,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
-||sdkconfig.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||diagnosis.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
