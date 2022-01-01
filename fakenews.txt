@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-01 00:59:33Z
+! Last Modified: 2022-01-01 06:20:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4704,6 +4704,7 @@
 ||audience.media^
 ||audienceflake.com^
 ||audienceinsights.com^
+||te.audiencematch.net^
 ||ea.audika.com^
 ||audio-book.net.pl^
 ||audio-pa-service.de^

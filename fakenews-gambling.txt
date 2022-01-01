@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-01 00:59:27Z
+! Last Modified: 2022-01-01 06:20:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2746,7 +2746,6 @@
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
-||dts.innovid.com.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
@@ -16872,6 +16871,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||criteo-sync.teads.tv.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -56086,8 +56086,10 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||test.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
