@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-01 06:20:24Z
+! Last Modified: 2022-01-01 12:26:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -44703,6 +44703,7 @@
 ||smetn.com^
 ||smetrics.abbott^
 ||adserver.smgfiles.com^
+||js.smi2.ru^
 ||smichovbike.cz^
 ||smiechawa-pl.eu^
 ||smiechawka.eu^
