@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2021-12-31 18:19:58Z
+! Last Modified: 2022-01-01 00:59:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8463,6 +8463,12 @@
 ||leow.capitalqvov.site^
 ||lord.capitalqvov.site^
 ||tepg.capitalqvov.site^
+||gc.capitalredf.site^
+||uk.capitalredf.site^
+||joke.capitalredf.site^
+||port.capitalredf.site^
+||nemci.capitalredf.site^
+||kilodera.capitalredf.site^
 ||chrket.capitalwerfd.site^
 ||protection.capolice.com^
 ||spider.capricciocolumbus.org^
@@ -32302,6 +32308,8 @@
 ||netcscape.com^
 ||hosting159869.a2fee.netcup.net^
 ||netdirect.nl^
+||guru.sitescout.netdna-cdn.com^
+||bootstrapcdn.jdorfman.netdna-cdn.com^
 ||affiliates.neteller.com^
 ||netextra.hu^
 ||netfilxbillingsupport.top^
