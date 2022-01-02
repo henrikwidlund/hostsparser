@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-02 01:00:39Z
+! Last Modified: 2022-01-02 06:20:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39041,6 +39041,10 @@
 ||saa.popculture.com^
 ||adserver2.popdata.de^
 ||popec.net^
+||ablink.m.popeyes.com^
+||ablink.track.popeyes.com^
+||ablink.tchicken.popeyes.com^
+||ablink.thekitchen.popeyes.com^
 ||popfilm.pl^
 ||ads.popfolkstars.com^
 ||a.popin.cc^
@@ -54372,7 +54376,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sg.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

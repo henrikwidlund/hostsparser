@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-02 01:00:36Z
+! Last Modified: 2022-01-02 06:20:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20273,8 +20273,6 @@
 ||cdn.employchannel.info^
 ||employeefolklore.info^
 ||employmentrush.com^
-||adsrv.emporis.com^
-||adserver.emporis.com^
 ||empornium.me^
 ||empowercareer.com^
 ||ads.empoweringmedia.net^
@@ -66176,6 +66174,8 @@
 ||hi.victorbaudot.com^
 ||p.victoria.dev^
 ||ordpmx.victorianplumbing.co.uk^
+||www25.victoriassecret.com^
+||metrics.victoriassecret.com^
 ||engage.ca.victorinsurance.com^
 ||engage.us.victorinsurance.com^
 ||victorlutte.cl^
@@ -70036,7 +70036,6 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||sdkconfig.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -71034,7 +71033,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

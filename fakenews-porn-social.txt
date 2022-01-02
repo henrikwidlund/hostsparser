@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-02 01:00:29Z
+! Last Modified: 2022-01-02 06:20:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7507,6 +7507,8 @@
 ||beastysexlinks.com^
 ||beastythumbs.com^
 ||beasybd.com^
+||metrics.beatsbydre.com^
+||smetrics.beatsbydre.com^
 ||smetrics.beatsbydre.com.cn^
 ||mdws.beaubear.ca^
 ||info.beaumont.org^
@@ -36192,6 +36194,7 @@
 ||loraintimes.com^
 ||stats.lord.io^
 ||lordgordon.it^
+||ads.lordlucky.com^
 ||lordoftube.com^
 ||lordteam.store^
 ||lorenapruiz.com^
@@ -70587,6 +70590,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -71996,7 +72000,6 @@
 ||appsportal.net.zooplus.de^
 ||appsserver.net.zooplus.de^
 ||billinging.net.zooplus.de^
-||blog.csr12.net.zooplus.de^
 ||brandcsr31.net.zooplus.de^
 ||bucket.owa.net.zooplus.de^
 ||bullockowa.net.zooplus.de^
