@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-02 06:20:02Z
+! Last Modified: 2022-01-02 12:26:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1282,6 +1282,7 @@
 ||abcjmp.com^
 ||abclauncher.com^
 ||abclnks.com^
+||ad.abcnews.com^
 ||abcnews.com.co^
 ||abcsex.dk^
 ||smetrics.abcspark.ca^
@@ -1737,7 +1738,6 @@
 ||cgm.adbureau.ne^
 ||ab163949.adbutler-kaon.com^
 ||ab159015.adbutler-zilon.com^
-||static.adbutter.net^
 ||api.adcalls.nl^
 ||dashboard.adcalls.nl^
 ||dashboardnew.adcalls.nl^
@@ -27488,6 +27488,7 @@
 ||adb-secured.kijk.nl^
 ||images.kika.de^
 ||adserve.kikizo.com^
+||kin.kikpro.co^
 ||kikuchitadahisa.com^
 ||kikuku.net^
 ||olx-pl.kilka-505129.xyz^
@@ -57075,6 +57076,7 @@
 ||go.ycg-advisory.jp^
 ||go.yco.co.jp^
 ||ydwsjt-2.com^
+||yeah1media.vn^
 ||tracking.yealink.com^
 ||jyknnhll.yearbrazil.com^
 ||yearnson.finance^

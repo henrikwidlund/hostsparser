@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-02 06:20:09Z
+! Last Modified: 2022-01-02 12:26:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16362,7 +16362,6 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||api.vungle.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -16378,7 +16377,6 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
-||wildcard.aniview.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -55340,6 +55338,7 @@
 ||go.ycg-advisory.jp^
 ||go.yco.co.jp^
 ||ydwsjt-2.com^
+||yeah1media.vn^
 ||tracking.yealink.com^
 ||jyknnhll.yearbrazil.com^
 ||yearnson.finance^
@@ -56332,7 +56331,6 @@
 ||appsportal.net.zooplus.de^
 ||appsserver.net.zooplus.de^
 ||billinging.net.zooplus.de^
-||blog.csr12.net.zooplus.de^
 ||brandcsr31.net.zooplus.de^
 ||bucket.owa.net.zooplus.de^
 ||bullockowa.net.zooplus.de^

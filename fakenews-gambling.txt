@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-02 06:20:03Z
+! Last Modified: 2022-01-02 12:26:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2751,7 +2751,6 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||tps-wlb-uswest.dvgtm.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -37794,6 +37793,7 @@
 ||go.padcaster.com^
 ||paddypower.com^
 ||padiride.com^
+||deeplinks.padmapper.com^
 ||padronismhepaticae.com^
 ||padsdel.com^
 ||paf.com^
@@ -56531,12 +56531,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||cn.adserver.yahoo.com^
+||ae.adserver.yahoo.com^
+||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -56596,6 +56595,7 @@
 ||go.ycg-advisory.jp^
 ||go.yco.co.jp^
 ||ydwsjt-2.com^
+||yeah1media.vn^
 ||tracking.yealink.com^
 ||jyknnhll.yearbrazil.com^
 ||yearnson.finance^
@@ -57577,7 +57577,6 @@
 ||alpha.ids.net.zooplus.de^
 ||api.login.net.zooplus.de^
 ||authcar40.net.zooplus.de^
-||cdn.csr41.net.zooplus.de^
 ||cert-mail.net.zooplus.de^
 ||certcsr31.net.zooplus.de^
 ||cms-csr41.net.zooplus.de^
