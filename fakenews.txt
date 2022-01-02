@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-01 18:19:29Z
+! Last Modified: 2022-01-02 01:00:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2688,7 +2688,6 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||cdn.stickyadstv.com.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -12204,11 +12203,6 @@
 ||coffemokko.com^
 ||ea.coffrefortplus.com^
 ||smetrics.coffretdor-makeup.jp^
-||swa.cofinoga.fr^
-||data.cofinoga.fr^
-||tr.ra.cofinoga.fr^
-||tr.gestion.cofinoga.fr^
-||tr.notification-gdpr.cofinoga.fr^
 ||cogdybynieto.site^
 ||cogdybynietto.site^
 ||business.cogeco.ca^
