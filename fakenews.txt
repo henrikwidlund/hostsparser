@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-03 12:28:00Z
+! Last Modified: 2022-01-03 15:46:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5495,8 +5495,6 @@
 ||baystatenews.com^
 ||mdws.bayviewnb.com^
 ||bazaar-shahr-alborz.ir^
-||network.bazaarvoice.com^
-||apps.nexus.bazaarvoice.com^
 ||bazafilm.pl^
 ||bazalt-gracze.pl^
 ||bazandegan.com^
@@ -24480,6 +24478,7 @@
 ||popups.infostart.com^
 ||infostormer.com^
 ||ec.infosys.com^
+||go.infotech.com^
 ||infotelsrl.com^
 ||adserver.infotiger.com^
 ||infovator.com^
@@ -55976,6 +55975,7 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||adtimabox.brand.zing.vn^
 ||analytics.zingerwebdesign.com^
 ||ziololecznictwo.pl^
 ||tc.zionsbank.com^
