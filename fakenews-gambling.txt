@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-02 18:19:07Z
+! Last Modified: 2022-01-03 00:57:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46315,7 +46315,6 @@
 ||go.smartvalor.io^
 ||smartxads.com^
 ||smashsportsbetting.com^
-||adserver.smashtv.com^
 ||stat-ssl.smbc.co.jp^
 ||smetrics.smbcnikko.co.jp^
 ||control.smbeat.jp^

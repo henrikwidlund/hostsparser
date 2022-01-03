@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-02 18:19:04Z
+! Last Modified: 2022-01-03 00:57:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -27883,6 +27883,7 @@
 ||dena.halicka.eu^
 ||halkidikinet.gr^
 ||hall3hook.com^
+||blog.halle-leaks.de^
 ||sanalytics.hallmark.com^
 ||hallohaus.co^
 ||osimg.halloweenhorrornights.com^
@@ -65778,7 +65779,6 @@
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
-||ads-brand-postback.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
