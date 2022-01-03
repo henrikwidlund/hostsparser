@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-03 06:20:51Z
+! Last Modified: 2022-01-03 12:27:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42308,6 +42308,7 @@
 ||nationalsecurity.news^
 ||nationalsurveypanel.com^
 ||smetrics.nationaltrust.org.uk^
+||ads.nationchannel.com^
 ||adssrv.nationmultimedia.com^
 ||nationonenews.com^
 ||metrics.nationwide.co.uk^
@@ -44731,9 +44732,6 @@
 ||o2-gazetka.xyz^
 ||o2-online.pl^
 ||sstats.www.o2.cz^
-||ads.o2.pl^
-||adserver.o2.pl^
-||adserwer.o2.pl^
 ||info.o2business.de^
 ||o2lo.pl^
 ||metrics.o2online.de^

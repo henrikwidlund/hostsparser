@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-03 06:21:02Z
+! Last Modified: 2022-01-03 12:28:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24480,7 +24480,6 @@
 ||popups.infostart.com^
 ||infostormer.com^
 ||ec.infosys.com^
-||go.infotech.com^
 ||infotelsrl.com^
 ||adserver.infotiger.com^
 ||infovator.com^

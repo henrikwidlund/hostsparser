@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-03 06:21:07Z
+! Last Modified: 2022-01-03 12:28:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2719,7 +2719,6 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||tps-wlb-uswest.dvgtm.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -44028,6 +44027,8 @@
 ||smetrics.silversummithealthplan.com^
 ||silvesterinmailand.com^
 ||silvets.pl^
+||c.silvinst.com^
+||t.silvinst.com^
 ||stats.sim.de^
 ||s.simcoe.com^
 ||go.simetry.com^
