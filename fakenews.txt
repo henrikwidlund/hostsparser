@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-04 12:27:50Z
+! Last Modified: 2022-01-04 18:20:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2681,6 +2681,7 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||cdn.stickyadstv.com.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -33120,7 +33121,6 @@
 ||go.support.nec.co.jp^
 ||necalinews.com^
 ||secure.neck6bake.com^
-||metrics.necn.com^
 ||necocheasexshop.com^
 ||necoloradonews.com^
 ||neconnnews.com^
@@ -56332,6 +56332,7 @@
 ||api.resetadmins.net.zooplus.de^
 ||app-mgmt.docker.net.zooplus.de^
 ||assetsdockerapi.net.zooplus.de^
+||betasupport.api.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||bullockarketing.net.zooplus.de^

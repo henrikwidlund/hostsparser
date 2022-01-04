@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-04 12:27:59Z
+! Last Modified: 2022-01-04 18:20:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22909,6 +22909,8 @@
 ||metrics.foxsports.com.au^
 ||ablinks.e.foxsports.com.au^
 ||foxstarup.com^
+||aff.foxtab.com^
+||static.aff-landing-tmp.foxtab.com^
 ||t.foxtheatre.org^
 ||bderbn.foxtrot.com.ua^
 ||foxtube.com^
