@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-04 00:58:49Z
+! Last Modified: 2022-01-04 06:20:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1157,8 +1157,6 @@
 ||a94.info^
 ||a98spolicies.com^
 ||a9v8.cn^
-||metrics.aa.com^
-||smetrics.aa.com^
 ||aa81bf391151884adfa3dd677e41f94be1.com^
 ||aaa-architecten.nl^
 ||aaa-arcobaleno.it^

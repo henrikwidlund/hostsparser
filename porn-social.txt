@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-04 00:58:51Z
+! Last Modified: 2022-01-04 06:20:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19220,8 +19220,6 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
-||secure.flashtalking.com.edgekey.net^
-||ssum-sec.casalemedia.com.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
@@ -60236,6 +60234,7 @@
 ||ad.tiscali.com^
 ||ads.tiscali.com^
 ||ad-uk.tiscali.com^
+||adsweb.tiscali.cz^
 ||ads.tiscali.fr^
 ||ss.tiscali.it^
 ||ads.tiscali.it^
