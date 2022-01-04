@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-04 06:20:42Z
+! Last Modified: 2022-01-04 12:27:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3290,7 +3290,6 @@
 ||banners.alt.com^
 ||adserver.alt.com^
 ||stat.altalex.com^
-||api.altamob.com^
 ||altaninvestment.com^
 ||news.altasciences.com^
 ||altaynorma.ru^
