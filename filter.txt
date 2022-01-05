@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-05 06:20:53Z
+! Last Modified: 2022-01-05 12:28:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15887,8 +15887,6 @@
 ||costagames.com^
 ||costamwiesz.site^
 ||costanortepotrerillos.com^
-||metrics.costco.ca^
-||smetrics.costco.ca^
 ||metrics.costco.com^
 ||smetrics.costco.com^
 ||metrics.costcobusinesscentre.ca^
@@ -20161,7 +20159,6 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
-||secure.flashtalking.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
