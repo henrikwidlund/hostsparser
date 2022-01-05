@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-04 18:20:32Z
+! Last Modified: 2022-01-05 01:00:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16254,6 +16254,7 @@
 ||gamefowl.emailforward.mx^
 ||tr.client.emailing.bnpparibas^
 ||tr.reglementaire.emailing.bnpparibas^
+||tr.emailium.fr^
 ||stats.emaillove.com^
 ||emailproductreview.com^
 ||stats.emailrep.io^
@@ -54435,7 +54436,6 @@
 ||mail.org.net.zooplus.de^
 ||maildii2.net.zooplus.de^
 ||old-mail.net.zooplus.de^
-||owa.cert.net.zooplus.de^
 ||php.mail.net.zooplus.de^
 ||admindata.net.zooplus.de^
 ||alpha.ids.net.zooplus.de^

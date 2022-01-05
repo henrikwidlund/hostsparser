@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-04 18:20:15Z
+! Last Modified: 2022-01-05 01:00:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29916,7 +29916,6 @@
 ||hyena.m1guelpf.blog^
 ||pa5xjc.m1guelpf.me^
 ||deer.m1x.co^
-||ingest.m2appmonitor.com^
 ||adserver.m2kcore.com^
 ||m2trk.com^
 ||mega-wpadki.m44m.cloud^
@@ -34408,7 +34407,6 @@
 ||beacon-3.newrelic.com^
 ||rpm.newrelisc.com^
 ||newrivervalleytimes.com^
-||mdws.newrosscreditunion.ca^
 ||news-37876-mshome.com^
 ||news-389767-mshome.com^
 ||news-alert.org^

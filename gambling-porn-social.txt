@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-04 18:20:23Z
+! Last Modified: 2022-01-05 01:00:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5611,8 +5611,6 @@
 ||aresboot.xyz^
 ||areyouabot.net^
 ||areyouahuman.co^
-||dptr.areyouahuman.com^
-||n-cdn.areyouahuman.com^
 ||areyougoo.com^
 ||ca24.argcle.sbs^
 ||metrics.argenta.be^
@@ -7658,7 +7656,6 @@
 ||benbartlettca.com^
 ||anteater.benborgers.com^
 ||event.benchevents.com^
-||www2.benchling.com^
 ||oas.benchmark.fr^
 ||lemur.bendaron.com^
 ||education.bendigotafe.edu.au^
@@ -37669,7 +37666,6 @@
 ||dialogue.mazda.fr^
 ||dialogue.mazda.hr^
 ||dialogue.mazda.hu^
-||dialogue.mazda.ie^
 ||dialogue.mazda.it^
 ||dialogue.mazda.lu^
 ||dialogue.mazda.nl^
@@ -63693,7 +63689,6 @@
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
-||httpkafka.unityads.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
@@ -69579,7 +69574,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sg.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -69799,6 +69793,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst8.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
