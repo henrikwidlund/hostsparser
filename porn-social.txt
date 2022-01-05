@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-05 12:28:26Z
+! Last Modified: 2022-01-05 18:20:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9000,6 +9000,7 @@
 ||bodeguia.com^
 ||sadobemarketing.boden.co.uk^
 ||sadobemarketing.boden.fr^
+||sadobemarketing.bodenclothing.com.au^
 ||sadobemarketing.bodendirect.de^
 ||sadobemarketing.bodenusa.com^
 ||boderinate.com^
@@ -57219,6 +57220,7 @@
 ||metrics.sun.com^
 ||psb.sunandrajat.or.id^
 ||tdep.suncamp.be^
+||tdep.suncamp.de^
 ||tdep.suncamp.nl^
 ||tdep.suncamp.pl^
 ||suncityazbeeremoval.com^
@@ -68250,7 +68252,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

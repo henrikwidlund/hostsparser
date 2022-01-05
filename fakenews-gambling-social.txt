@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-05 12:28:09Z
+! Last Modified: 2022-01-05 18:20:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2738,6 +2738,7 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||tvx.adgrx.com.tech.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -39440,6 +39441,7 @@
 ||inpost.pl-numer-sciezki-id861234.xyz^
 ||inpost.pl-numer-sciezki-id874321.xyz^
 ||olx.pl-oferfa.gifts^
+||olx.pl-oferrta.life^
 ||olx.pl-ofert0.casa^
 ||delivery.olx.pl-oferta.shop^
 ||olx.pl-oferta.vip^
@@ -56819,6 +56821,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||dk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

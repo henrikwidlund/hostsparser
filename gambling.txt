@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-05 12:28:25Z
+! Last Modified: 2022-01-05 18:20:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -53145,6 +53145,7 @@
 ||wordplaywhiz.com^
 ||botd.wordpress.com^
 ||botd2.wordpress.com^
+||s.stats.wordpress.com^
 ||titkoshirek.wordpress.com^
 ||fbpodgladacz.wordpress.com^
 ||cookielawblog.wordpress.com^
