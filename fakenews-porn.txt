@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-06 06:21:02Z
+! Last Modified: 2022-01-06 12:29:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25520,11 +25520,6 @@
 ||etherdelta.gilthub.io^
 ||gilvision.com^
 ||gim6-rzeszow.pl^
-||sdk-info.gimbal.com^
-||communicate.gimbal.com^
-||placebubble.gimbal.com^
-||registration.gimbal.com^
-||sdk-configuration.gimbal.com^
 ||cdn.gimbal.tech^
 ||gimi.co^
 ||rat.gimlet.io^
@@ -28807,6 +28802,8 @@
 ||analytic.hotelclub.com^
 ||analytics.hotelclub.com^
 ||fbu8.hoteldeparismontecarlo.com^
+||om.hoteles.com^
+||oms.hoteles.com^
 ||hotelhadieh.ir^
 ||hotelhansshimla.co.in^
 ||fbu8.hotelhermitagemontecarlo.com^

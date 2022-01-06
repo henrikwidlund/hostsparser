@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-06 06:21:05Z
+! Last Modified: 2022-01-06 12:29:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16366,6 +16366,7 @@
 ||hosted.stats.com.edgesuite.net^
 ||ads.nwsource.com.edgesuite.net^
 ||m1.emea.2mdn.net.edgesuite.net^
+||ma312-r.analytics.edgesuite.net^
 ||adinterax.cnet.com.edgesuite.net^
 ||ads.pro-market.net.edgesuite.net^
 ||ads.bridgetrack.com.edgesuite.net^
