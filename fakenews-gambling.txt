@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-05 18:20:31Z
+! Last Modified: 2022-01-06 01:04:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16826,7 +16826,6 @@
 ||outbrainimg.com.edgekey.net^
 ||serving-sys.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
-||79423.analytics.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
@@ -49728,7 +49727,6 @@
 ||thewiadomosci.host^
 ||thewiadomosci.site^
 ||go.theworknumber.com^
-||metrics.theworlds50best.com^
 ||a.thexfactorusa.com^
 ||forum.theyachtguy.org^
 ||links.theyes.com^
@@ -53033,7 +53031,6 @@
 ||prt-stsdk.vivo.com.cn^
 ||onrt-stsdk.vivo.com.cn^
 ||pnrt-stsdk.vivo.com.cn^
-||pnrt.stsdk.vivo.com.cn^
 ||picanalysis.vivo.com.cn^
 ||monitor-stsdk.vivo.com.cn^
 ||vcardsdkservice.vivo.com.cn^
@@ -53044,7 +53041,6 @@
 ||stsdk.vivoglobal.com^
 ||asia-stsdk.vivoglobal.com^
 ||onrt-stsdk.vivoglobal.com^
-||pnrt.stsdk.vivoglobal.com^
 ||asia-ort-stsdk.vivoglobal.com^
 ||asia-prt-stsdk.vivoglobal.com^
 ||asia-onrt-stsdk.vivoglobal.com^
@@ -53152,6 +53148,7 @@
 ||post1.voiceads.cn^
 ||adtrack.voicestar.com^
 ||voiceunfortunate.info^
+||cqpmvc.voici.fr^
 ||voilok-ru.ru^
 ||adserver.voir.ca^
 ||johannes.voith.com^

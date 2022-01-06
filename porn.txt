@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-05 18:20:51Z
+! Last Modified: 2022-01-06 01:04:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3241,7 +3241,9 @@
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
+||rtr.innovid.com.akadns.net^
 ||stickyadstv.com.akadns.net^
+||bs-wlb-sg.dvgtm.akadns.net^
 ||track-apmebf.cj.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -68629,6 +68631,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||cdn.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -70754,6 +70757,7 @@
 ||zimadeals.pl^
 ||zimb.space^
 ||zimbio.com^
+||static.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||nnivvr.zimmo.be^
 ||go.zimperium.com^
@@ -71235,7 +71239,6 @@
 ||api.firewall.disabled.net.zooplus.de^
 ||apiserver-mgmt.docker.net.zooplus.de^
 ||apps-data.epmdisabled.net.zooplus.de^
-||appsserver.confluence.net.zooplus.de^
 ||billing-data.disabled.net.zooplus.de^
 ||data.gist-epmdisabled.net.zooplus.de^
 ||administrator.lax-mgmt.net.zooplus.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-05 18:20:30Z
+! Last Modified: 2022-01-06 01:04:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2738,7 +2738,6 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||tvx.adgrx.com.tech.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -9458,9 +9457,6 @@
 ||cdn-downloads.com^
 ||cdn-onedrive-live.com^
 ||track.msadcenter.cdn.com^
-||1493361689.rsc.cdn77.org^
-||1097834592.rsc.cdn77.org^
-||promotions-884485.c.cdn77.org^
 ||game0516.cdn8-traffic68-server10.top^
 ||cdnfind.net^
 ||clicktalecdn.sslcs.cdngc.net^
@@ -56821,7 +56817,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||dk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
