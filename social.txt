@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-06 12:30:44Z
+! Last Modified: 2022-01-06 18:20:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20467,7 +20467,6 @@
 ||ping-hqx-1.go2speed.media^
 ||go777site.com^
 ||bbbb.goace.jp^
-||goads.pro^
 ||tracking.goal.pl^
 ||goallineembroidery.com^
 ||adserver2.goals365.com^
@@ -52915,6 +52914,8 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||test.ad.xiaomi.com^
+||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
