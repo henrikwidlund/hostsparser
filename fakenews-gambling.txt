@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-06 01:04:27Z
+! Last Modified: 2022-01-06 06:20:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36838,7 +36838,6 @@
 ||opendownloadmanager.com^
 ||links.openfit.com^
 ||opengapps.com^
-||info.opengear.com^
 ||openingquestion.org^
 ||openload.de^
 ||openload.info^
@@ -49727,6 +49726,7 @@
 ||thewiadomosci.host^
 ||thewiadomosci.site^
 ||go.theworknumber.com^
+||metrics.theworlds50best.com^
 ||a.thexfactorusa.com^
 ||forum.theyachtguy.org^
 ||links.theyes.com^

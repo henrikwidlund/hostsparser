@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-06 01:04:29Z
+! Last Modified: 2022-01-06 06:21:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -66556,6 +66556,8 @@
 ||kpbzar.warbyparker.com^
 ||warchain.org^
 ||warco.pl^
+||ads.warcry.com^
+||oascentral.warcry.com^
 ||warddogs.com^
 ||wbcygu.wardow.com^
 ||try.wardtlc.com^
