@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-07 01:03:59Z
+! Last Modified: 2022-01-07 06:21:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3264,7 +3264,6 @@
 ||lb1.www.ms.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
-||sd.turn.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
@@ -34742,6 +34741,7 @@
 ||track.lawoftrade.com^
 ||lawrencereporter.com^
 ||lawrencetimes.com^
+||metrics.lawyers.com^
 ||stats.laxallstars.com^
 ||laxleader.com^
 ||tracking.lay-ota.fr^
@@ -38928,6 +38928,7 @@
 ||milyondolar.com^
 ||go.mimacom.com^
 ||mimicrice.com^
+||www2.mimosa.co^
 ||mimyhair.com^
 ||cuckoo.minaexplorer.com^
 ||a8cv.minana-jp.com^
@@ -52039,7 +52040,6 @@
 ||rakietowaliga.pl^
 ||rakuprop.net^
 ||rd.rakuten.co.jp^
-||anz.rd.rakuten.co.jp^
 ||ba.afl.rakuten.co.jp^
 ||dynamic.rakuten.co.jp^
 ||api.ranking.rakuten.co.jp^

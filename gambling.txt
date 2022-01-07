@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-07 01:04:10Z
+! Last Modified: 2022-01-07 06:21:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -53735,6 +53735,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
@@ -55271,7 +55272,6 @@
 ||data.mobile.net.zooplus.de^
 ||mailrelease.net.zooplus.de^
 ||ssl-billing.net.zooplus.de^
-||apache.car40.net.zooplus.de^
 ||api.backends.net.zooplus.de^
 ||api.git-repo.net.zooplus.de^
 ||api.paylogin.net.zooplus.de^
