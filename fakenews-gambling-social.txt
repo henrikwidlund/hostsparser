@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-07 06:20:59Z
+! Last Modified: 2022-01-07 12:27:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24200,10 +24200,6 @@
 ||ibedeer.com^
 ||smetrics.ibercaja.es^
 ||marketing.ibermatica.com^
-||aquipelis.net.iberostar.com^
-||ad.doubleclick.net.iberostar.com^
-||dusf5c1ev8pez.cloudfront.net.iberostar.com^
-||appassets.androidplatform.net.iberostar.com^
 ||ads.ibest.com.br^
 ||ibet789.com^
 ||ibetcasino.com^
@@ -48369,7 +48365,6 @@
 ||syncdownload.com^
 ||syncdownloading.com^
 ||syncfab.tech^
-||somni.synchrony.com^
 ||e.synchronybank.com^
 ||somni.synchronybank.com^
 ||syncingprocess.com^

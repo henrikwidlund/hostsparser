@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-07 06:20:55Z
+! Last Modified: 2022-01-07 12:27:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -47104,6 +47104,7 @@
 ||pacificnet.host^
 ||pacificnet.xyz^
 ||pacinocash.com^
+||go.package-inc.com^
 ||dpd.packageinfo-money.xyz^
 ||trk.packagingdigest.com^
 ||packagingpeople.in^
