@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-06 18:20:49Z
+! Last Modified: 2022-01-07 01:04:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15845,7 +15845,9 @@
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
+||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma1310-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -21114,7 +21116,6 @@
 ||npylsv.gsp.ro^
 ||smetrics.gsretail.com^
 ||vphsiv.gsshop.com^
-||media.gssp.asia^
 ||csi.gstatic.com^
 ||gstaticx.com^
 ||gstaticxs.com^
@@ -41631,7 +41632,6 @@
 ||samsiepodsumowalla.site^
 ||samsung-klimatyzacja.pl^
 ||insights.samsung.com^
-||nmetrics.samsung.com^
 ||bldr.mkt.samsung.com^
 ||channelusa.samsung.com^
 ||eu.business.samsung.com^
@@ -52914,10 +52914,9 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||test.ad.xiaomi.com^
-||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -53359,6 +53358,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

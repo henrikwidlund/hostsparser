@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-06 18:20:43Z
+! Last Modified: 2022-01-07 01:04:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42600,7 +42600,6 @@
 ||samsiepodsumowalla.site^
 ||samsung-klimatyzacja.pl^
 ||insights.samsung.com^
-||nmetrics.samsung.com^
 ||bldr.mkt.samsung.com^
 ||channelusa.samsung.com^
 ||eu.business.samsung.com^
@@ -54180,7 +54179,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -55273,6 +55271,7 @@
 ||data.mobile.net.zooplus.de^
 ||mailrelease.net.zooplus.de^
 ||ssl-billing.net.zooplus.de^
+||apache.car40.net.zooplus.de^
 ||api.backends.net.zooplus.de^
 ||api.git-repo.net.zooplus.de^
 ||api.paylogin.net.zooplus.de^

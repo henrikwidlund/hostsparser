@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-06 18:20:35Z
+! Last Modified: 2022-01-07 01:04:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6103,6 +6103,7 @@
 ||tracking.about.bgov.com^
 ||ads.bgtop.net^
 ||bgtop100.com^
+||asg.bhabhiporn.pro^
 ||bharatiyasindhusahakaripatsanstha.com^
 ||campaign.bharatmatrimony.com^
 ||bharattank.me^
@@ -33955,7 +33956,6 @@
 ||nsmetrics.ni.com^
 ||s.niagarafallsreview.ca^
 ||niagaraleader.com^
-||s.niagarathisweek.com^
 ||niapublications.org^
 ||analytics.wrc.nic.in^
 ||nicappazaza.com^
@@ -41063,6 +41063,7 @@
 ||ysdk.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
+||imc.l.qq.com^
 ||logsdk.qq.com^
 ||omgmta.qq.com^
 ||pingjs.qq.com^
@@ -43234,7 +43235,6 @@
 ||samsiepodsumowalla.site^
 ||samsung-klimatyzacja.pl^
 ||insights.samsung.com^
-||nmetrics.samsung.com^
 ||bldr.mkt.samsung.com^
 ||channelusa.samsung.com^
 ||eu.business.samsung.com^
