@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-08 06:20:23Z
+! Last Modified: 2022-01-08 12:26:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12518,7 +12518,6 @@
 ||smetrics.churchill.com^
 ||om.churchofjesuschrist.org^
 ||link.marketing.churchomeglobal.org^
-||analytics.churchthemes.com^
 ||analytics.chvnoticias.cl^
 ||sanalytics.chvnoticias.cl^
 ||chwalimy.bar^
@@ -20168,6 +20167,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||wl.aniview.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -60118,6 +60118,7 @@
 ||smetrics.sunshinehealth.com^
 ||sunshinesentinel.com^
 ||a8clk.shop.sunsorit.co.jp^
+||te.sunspot.net^
 ||ebis.sunstar-shop.jp^
 ||a3.suntimes.com^
 ||te.suntimes.com^
@@ -62146,7 +62147,6 @@
 ||stats.thechurchfactory.com^
 ||theclassicporn.com^
 ||theclickads.com^
-||adebis.theclinic.jp^
 ||thecoffeeilove.com^
 ||thecolorofangels.com^
 ||thecolorofcalm.com^
