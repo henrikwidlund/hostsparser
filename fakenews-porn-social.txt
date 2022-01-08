@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-07 18:20:29Z
+! Last Modified: 2022-01-08 00:58:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10443,6 +10443,14 @@
 ||portalrandkowy.c.pl^
 ||zebywybielanie.c.pl^
 ||wybielaniezebow.c.pl^
+||bzn.c0.pl^
+||skuter.c0.pl^
+||adament.c0.pl^
+||allmusic.c0.pl^
+||kocham-cie.c0.pl^
+||ceresiontest.c0.pl^
+||chicharito14.c0.pl^
+||pogotowie.pcserwis.c0.pl^
 ||c1i.su^
 ||cs.c21-smica.com^
 ||smetrics.c2fo.com^
@@ -17190,6 +17198,8 @@
 ||global.delltechnologies.com^
 ||stat.delo.ua^
 ||preferences.deloitte.ca^
+||sstats.deloitte.com^
+||perspectivas.deloitte.com^
 ||deloitteca.com^
 ||deloo.de^
 ||delorio.pl^
@@ -27837,6 +27847,8 @@
 ||tp.heine.de^
 ||uolwbz.heine.de^
 ||dxe2.heip.fr^
+||oas.heise.de^
+||prophet.heise.de^
 ||heixbai.com^
 ||checkpointcharlie.heizung.de^
 ||baren.hejkaheel.xyz^
@@ -70509,6 +70521,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||launch.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

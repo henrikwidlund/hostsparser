@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-07 18:20:44Z
+! Last Modified: 2022-01-08 00:58:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17731,6 +17731,7 @@
 ||metric.fatcatalog.com^
 ||fatcatrewards.com^
 ||counter.fateback.com^
+||smetrics.fatface.com^
 ||fatfasts-4tmz.world^
 ||marketing.fatiguescience.com^
 ||fatpop.net^
@@ -41485,7 +41486,6 @@
 ||sabio.us^
 ||adtech.sabitreklam.com^
 ||saboo.in^
-||visit.sabre.com^
 ||sabre.com.tw^
 ||go.sacap.edu.za^
 ||sacar.com.br^
@@ -54649,7 +54649,6 @@
 ||api.resetadmins.net.zooplus.de^
 ||app-mgmt.docker.net.zooplus.de^
 ||assetsdockerapi.net.zooplus.de^
-||betasupport.api.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||bullockarketing.net.zooplus.de^
