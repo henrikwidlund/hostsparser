@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-08 12:26:50Z
+! Last Modified: 2022-01-08 18:19:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12518,6 +12518,7 @@
 ||smetrics.churchill.com^
 ||om.churchofjesuschrist.org^
 ||link.marketing.churchomeglobal.org^
+||analytics.churchthemes.com^
 ||analytics.chvnoticias.cl^
 ||sanalytics.chvnoticias.cl^
 ||chwalimy.bar^
@@ -20167,7 +20168,6 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||wl.aniview.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -20184,6 +20184,7 @@
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
+||cdn.flashtalking.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
@@ -62147,6 +62148,7 @@
 ||stats.thechurchfactory.com^
 ||theclassicporn.com^
 ||theclickads.com^
+||adebis.theclinic.jp^
 ||thecoffeeilove.com^
 ||thecolorofangels.com^
 ||thecolorofcalm.com^

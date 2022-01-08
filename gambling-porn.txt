@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-08 12:27:08Z
+! Last Modified: 2022-01-08 18:19:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5539,7 +5539,6 @@
 ||tr.email.archiexpo.com^
 ||archifaktura.hu^
 ||archigate.it^
-||sstats.architecturaldigest.com^
 ||earwig.architecturesofhiding.com^
 ||architektkrakow.com.pl^
 ||five.partner.archive-it.org^
@@ -33116,6 +33115,7 @@
 ||kazaa.com^
 ||kazatube.com^
 ||kazdyjakoszaczyna.online^
+||zenek-caly-film.kazeo.com^
 ||serwis.kb.help^
 ||smetrics.reg.kb.nl^
 ||metrics.kbb.com^
@@ -69963,7 +69963,9 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||sdkconfig.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
