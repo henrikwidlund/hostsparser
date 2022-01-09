@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-09 12:27:23Z
+! Last Modified: 2022-01-09 18:20:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24914,6 +24914,11 @@
 ||etherdelta.gilthub.io^
 ||gilvision.com^
 ||gim6-rzeszow.pl^
+||sdk-info.gimbal.com^
+||communicate.gimbal.com^
+||placebubble.gimbal.com^
+||registration.gimbal.com^
+||sdk-configuration.gimbal.com^
 ||cdn.gimbal.tech^
 ||gimi.co^
 ||rat.gimlet.io^
