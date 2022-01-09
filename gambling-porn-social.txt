@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-08 18:19:55Z
+! Last Modified: 2022-01-09 01:01:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6439,8 +6439,6 @@
 ||sadobe.autoscout24.es^
 ||adobe.autoscout24.fr^
 ||adobe.autoscout24.hr^
-||adobe.autoscout24.it^
-||hmgnjf.autoscout24.it^
 ||adobe.autoscout24.lu^
 ||sadobe.autoscout24.lu^
 ||adobe.autoscout24.nl^
@@ -6586,8 +6584,6 @@
 ||avitopud.ru^
 ||metrics.aviva.co.uk^
 ||smetrics.aviva.co.uk^
-||metrics.aviva.com.sg^
-||smetrics.aviva.com.sg^
 ||go.avixa.org^
 ||avixxx.com^
 ||avizoone.com^
@@ -54241,7 +54237,6 @@
 ||sdk.scopely.io^
 ||aprod.scopely.io^
 ||collector.scopely.io^
-||static.aprod.scopely.io^
 ||score-video.com^
 ||score99.net^
 ||scoreadate.com^

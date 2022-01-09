@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-08 18:19:49Z
+! Last Modified: 2022-01-09 01:01:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3281,6 +3281,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||ag.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||track-apmebf.cj.akadns.net^
@@ -19704,6 +19705,7 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
+||consentcdn.cookiebot.com-v1.edgekey.net^
 ||deep.edgequery.io^
 ||c6.edgesuite.net^
 ||ads.hulu.com.edgesuite.net^
@@ -38297,6 +38299,8 @@
 ||protection.mepolice.com^
 ||adserver.merc.com^
 ||pmstrk.mercadolivre.com.br^
+||click.food.mercato.com^
+||clicks.food.mercato.com^
 ||openx.mercatormedia.com^
 ||go.mercatus.org^
 ||sanalytics.smart.mercedes-benz.com^
@@ -63247,9 +63251,6 @@
 ||smetric.tsite.jp^
 ||tsl-github.com^
 ||prof.tsla-coin.xyz^
-||tvp1.tslax.site^
-||maximum.tslax.site^
-||prtscrn.tslax.site^
 ||go.tsmedia.si^
 ||tsms-ad.tsms.com^
 ||tsmtrk.com^

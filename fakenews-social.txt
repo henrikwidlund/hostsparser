@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-08 18:19:51Z
+! Last Modified: 2022-01-09 01:01:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25463,8 +25463,6 @@
 ||m.irl.com^
 ||ct.irl.com^
 ||ct.irlmail.org^
-||adebis.irobot-jp.com^
-||trcka8net.irobot-jp.com^
 ||elq.irobot.com^
 ||metrics.store.irobot.com^
 ||iron0walk.com^
