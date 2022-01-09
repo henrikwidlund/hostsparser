@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-09 06:20:37Z
+! Last Modified: 2022-01-09 12:27:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51744,7 +51744,6 @@
 ||ad.qq.com^
 ||fw.qq.com^
 ||rh.qq.com^
-||p.l.qq.com^
 ||rs1.qq.com^
 ||rs2.qq.com^
 ||msdk.qq.com^
@@ -59225,9 +59224,6 @@
 ||surfacecharo.info^
 ||surfgayvideo.com^
 ||surfindave.com^
-||analytic.surfline.com^
-||analytics.surfline.com^
-||oascentral.surfline.com^
 ||surfmusik-adserver.de^
 ||surfsecured.net^
 ||xtqnus.surfstitch.com^

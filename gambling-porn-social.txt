@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-09 06:20:44Z
+! Last Modified: 2022-01-09 12:27:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19738,7 +19738,6 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
-||cdn.spotxcdn.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
@@ -63729,6 +63728,7 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
+||pge.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -70988,7 +70988,6 @@
 ||csr1prd.net.zooplus.de^
 ||csraws1.net.zooplus.de^
 ||csrvpn1.net.zooplus.de^
-||ctl.api.net.zooplus.de^
 ||ctl.org.net.zooplus.de^
 ||kubessl.net.zooplus.de^
 ||mailjet.net.zooplus.de^
