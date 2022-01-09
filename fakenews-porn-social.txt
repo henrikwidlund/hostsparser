@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-09 01:01:34Z
+! Last Modified: 2022-01-09 06:20:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51744,6 +51744,7 @@
 ||ad.qq.com^
 ||fw.qq.com^
 ||rh.qq.com^
+||p.l.qq.com^
 ||rs1.qq.com^
 ||rs2.qq.com^
 ||msdk.qq.com^
@@ -71919,7 +71920,6 @@
 ||alpha.ids.net.zooplus.de^
 ||api.login.net.zooplus.de^
 ||authcar40.net.zooplus.de^
-||cdn.csr41.net.zooplus.de^
 ||cert-mail.net.zooplus.de^
 ||certcsr31.net.zooplus.de^
 ||cms-csr41.net.zooplus.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-09 01:01:43Z
+! Last Modified: 2022-01-09 06:20:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32401,7 +32401,6 @@
 ||ad.jiguang.cn^
 ||im.jiguang.cn^
 ||sdk.jiguang.cn^
-||res-push.ad.jiguang.cn^
 ||verification.jiguang.cn^
 ||jijisa.com^
 ||jilarohtas.com^
@@ -72332,6 +72331,7 @@
 ||csr1prd.net.zooplus.de^
 ||csraws1.net.zooplus.de^
 ||csrvpn1.net.zooplus.de^
+||ctl.api.net.zooplus.de^
 ||ctl.org.net.zooplus.de^
 ||kubessl.net.zooplus.de^
 ||mailjet.net.zooplus.de^

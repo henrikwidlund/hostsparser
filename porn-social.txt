@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-09 01:01:47Z
+! Last Modified: 2022-01-09 06:20:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -55919,7 +55919,6 @@
 ||event.sonder.lgbt^
 ||act.soneticscorp.com^
 ||songbird.fr^
-||stats.songbox.rocks^
 ||crux.songline.com^
 ||cheetah.songrender.com^
 ||ads.songs.pk^
@@ -68366,6 +68365,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

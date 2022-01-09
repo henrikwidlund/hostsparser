@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-09 01:01:46Z
+! Last Modified: 2022-01-09 06:20:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2729,6 +2729,7 @@
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||bs-wlb-uswest.dvgtm.akadns.net^
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
@@ -23241,6 +23242,7 @@
 ||info.hutchcraft.com^
 ||crosspromo.hutchgames.io^
 ||newbs.hutz.co.il^
+||stats.huuuge.net^
 ||stats.huysmanbouw.be^
 ||marketing.hvcb.org^
 ||hvd-store.com^
@@ -25819,6 +25821,7 @@
 ||jl-mag.de^
 ||jl29jd25sm24mc29.com^
 ||jlcarral.com^
+||go.jlg.com^
 ||jlijten.nl^
 ||jlisting.jp^
 ||engage-emea.jll.com^
@@ -47353,6 +47356,8 @@
 ||tenyek24.eu^
 ||tenyek24.net^
 ||tenzamosc.xyz^
+||new2pltes.tenzex78.xyz^
+||tenzxcpl2.tenzex78.xyz^
 ||teoark.se^
 ||teologianaweb.com.br^
 ||tepey.net^
@@ -54291,6 +54296,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||br.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -55295,6 +55301,7 @@
 ||cdn.tpe.net.zooplus.de^
 ||cdnmgmt.net.zooplus.de^
 ||cgi.tpe.net.zooplus.de^
+||chd.api.net.zooplus.de^
 ||csr11ci.net.zooplus.de^
 ||csr1prd.net.zooplus.de^
 ||csraws1.net.zooplus.de^
