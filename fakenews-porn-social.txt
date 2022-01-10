@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-10 12:28:30Z
+! Last Modified: 2022-01-10 18:20:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4596,6 +4596,8 @@
 ||dynamic1.anandtech.com^
 ||dynamic2.anandtech.com^
 ||anantanandgupta.com^
+||advert.ananzi.co.za^
+||advert2.ananzi.co.za^
 ||anarcdevelopers.com^
 ||anarralt.com^
 ||anastazja.net.pl^
@@ -45063,7 +45065,6 @@
 ||ads.oneplace.com^
 ||ads2.oneplace.com^
 ||oneplprojekt.info^
-||click.oneplus.com^
 ||onepowerdesign.site^
 ||oneprojektperfect.info^
 ||onepub.com^
@@ -57970,6 +57971,7 @@
 ||spipvtltd.com^
 ||cattle.spiral11.com^
 ||spiralfolderrollers.com^
+||go.spireon.com^
 ||metrics.spirithalloween.com^
 ||spiritualbrakes.com^
 ||spiritualitymag.com^

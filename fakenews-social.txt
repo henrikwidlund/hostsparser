@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-10 12:28:34Z
+! Last Modified: 2022-01-10 18:21:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35849,7 +35849,6 @@
 ||ads.oneplace.com^
 ||ads2.oneplace.com^
 ||oneplprojekt.info^
-||click.oneplus.com^
 ||onepowerdesign.site^
 ||oneprojektperfect.info^
 ||onepub.com^
@@ -44371,6 +44370,7 @@
 ||sgvstandard.com^
 ||0i.sh-cdn.com^
 ||online.sh.cn^
+||vulkanspinbonus.shaadii.in^
 ||shaadishenanigans.com^
 ||shaakmarket.com^
 ||shabram.shabramtablewater.ng^
@@ -55723,6 +55723,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -56825,6 +56826,7 @@
 ||csr31mail01.net.zooplus.de^
 ||csr41beta-m.net.zooplus.de^
 ||csrmailjet1.net.zooplus.de^
+||cvs-ctl.api.net.zooplus.de^
 ||data.engorg.net.zooplus.de^
 ||data.mobile.net.zooplus.de^
 ||mailrelease.net.zooplus.de^

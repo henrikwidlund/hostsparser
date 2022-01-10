@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-10 12:28:45Z
+! Last Modified: 2022-01-10 18:21:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3266,6 +3266,7 @@
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
+||prebid-a.rubiconproject.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
 ||akaflieg-sb.de^
@@ -10789,7 +10790,6 @@
 ||carnegienet.net^
 ||s1.carnext.com^
 ||carniferou.club^
-||metrics.carnival.com^
 ||devices.carnivalmobile.com^
 ||carobphekeyo.com^
 ||ads.carocean.co.uk^
@@ -43653,7 +43653,6 @@
 ||ads.oneplace.com^
 ||ads2.oneplace.com^
 ||oneplprojekt.info^
-||click.oneplus.com^
 ||onepowerdesign.site^
 ||oneprojektperfect.info^
 ||onepub.com^
@@ -53417,6 +53416,7 @@
 ||marketing.seemonterey.com^
 ||seemygf.com^
 ||seemyporn.com^
+||metrics.seenon.com^
 ||seeques.com^
 ||content.seerealgirls.com^
 ||seeteenvideos.com^
@@ -68740,6 +68740,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||log.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
