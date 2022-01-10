@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-10 06:21:38Z
+! Last Modified: 2022-01-10 12:28:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -43508,7 +43508,6 @@
 ||sdk.scopely.io^
 ||aprod.scopely.io^
 ||collector.scopely.io^
-||raven.aprod.scopely.io^
 ||scorecardresearch.com^
 ||info.scorecardrewards.com^
 ||scoremygift.com^
@@ -55197,10 +55196,12 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

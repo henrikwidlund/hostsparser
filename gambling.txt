@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-10 06:21:44Z
+! Last Modified: 2022-01-10 12:28:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16359,7 +16359,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
-||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -53851,6 +53850,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^

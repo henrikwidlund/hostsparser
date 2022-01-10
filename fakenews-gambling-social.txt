@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-10 06:21:29Z
+! Last Modified: 2022-01-10 12:28:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16921,6 +16921,7 @@
 ||cookiebot.com-v1.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma1498-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -16938,6 +16939,7 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
+||consentcdn.cookiebot.com-v1.edgekey.net^
 ||deep.edgequery.io^
 ||c6.edgesuite.net^
 ||ads.hulu.com.edgesuite.net^
@@ -29593,7 +29595,6 @@
 ||looking4fuck.com^
 ||lookitupnow.website^
 ||looklifewhite.com^
-||ad.looktraffic.com^
 ||lookvitrine.com^
 ||dyn.loolav.space^
 ||evs.sgmt.loom.com^
