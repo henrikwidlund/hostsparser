@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-09 18:20:12Z
+! Last Modified: 2022-01-10 00:58:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2669,6 +2669,7 @@
 ||ads1.perfadbrite.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
+||pixel.rubiconproject.net.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
@@ -45411,6 +45412,7 @@
 ||smetric.sydneywater.com.au^
 ||syds588.cn^
 ||somni.syf.com^
+||link.syfy-channel.com^
 ||tr.gestion.sygmabnpparibas-pf.com^
 ||tr.notification-gdpr.sygmabybnpparibas-pf.com^
 ||sygnal0455.site^
@@ -53472,6 +53474,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn1.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^

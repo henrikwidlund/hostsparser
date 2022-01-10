@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-09 18:19:53Z
+! Last Modified: 2022-01-10 00:57:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3283,7 +3283,6 @@
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
-||bssg.eyeblaster.akadns.net^
 ||track-apmebf.cj.akadns.net^
 ||ads.adxpose.mpire.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -19748,6 +19747,7 @@
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
+||ma312-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -38603,6 +38603,7 @@
 ||mhcams.com^
 ||metrics.mhi.com^
 ||mhlnk.com^
+||metrics.mhn.com^
 ||content.mhs.net^
 ||web.care.mhs.net^
 ||smetrics.mhsindiana.com^

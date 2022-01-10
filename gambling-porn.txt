@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-09 18:20:00Z
+! Last Modified: 2022-01-10 00:57:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19704,6 +19704,7 @@
 ||fastclick.com.edgesuite.net^
 ||cdn1sitescout.edgesuite.net^
 ||hosted.stats.com.edgesuite.net^
+||ma76-r.analytics.edgesuite.net^
 ||ads.nwsource.com.edgesuite.net^
 ||m1.emea.2mdn.net.edgesuite.net^
 ||adinterax.cnet.com.edgesuite.net^

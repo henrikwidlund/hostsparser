@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-09 18:20:09Z
+! Last Modified: 2022-01-10 00:58:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19261,6 +19261,7 @@
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
+||cdn-dsa.clicktale.net.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
@@ -31896,7 +31897,6 @@
 ||jns-grp.net^
 ||ads.jo-games.com^
 ||ads.joaffs.com^
-||fculcz.joann.com^
 ||joannaangel.com^
 ||joannaangelbucks.com^
 ||adebis01.job-con.jp^
