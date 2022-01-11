@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-11 12:27:54Z
+! Last Modified: 2022-01-11 18:20:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5529,6 +5529,7 @@
 ||area51.porn^
 ||area51.to^
 ||img.aread.site^
+||procoches.areadirecta.es^
 ||areaflix.com^
 ||api.areametrics.com^
 ||arek135.pl^
@@ -67367,9 +67368,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
-||data.mistat.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||abtest.mistat.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -68372,7 +68371,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
