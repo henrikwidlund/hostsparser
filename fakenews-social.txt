@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-11 06:21:33Z
+! Last Modified: 2022-01-11 12:27:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -37785,6 +37785,7 @@
 ||omni.pemco.com^
 ||somni.pemco.com^
 ||penaltyme.com^
+||app.pendo.io^
 ||penetrator-szans.com^
 ||smetrics.penfed.org^
 ||mdws.penfinancial.com^

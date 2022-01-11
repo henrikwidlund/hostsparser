@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-11 06:21:28Z
+! Last Modified: 2022-01-11 12:27:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38593,6 +38593,7 @@
 ||omni.pemco.com^
 ||somni.pemco.com^
 ||penaltyme.com^
+||app.pendo.io^
 ||penetrator-szans.com^
 ||smetrics.penfed.org^
 ||mdws.penfinancial.com^
@@ -56001,7 +56002,6 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -56024,9 +56024,6 @@
 ||xkdrhgd4gkjli.bar^
 ||xkygmtrrjalx.com^
 ||xl-rank.com^
-||st.pba.xl.pt^
-||analytics.xl.pt^
-||pubserver.xl.pt^
 ||cdn1.xlightmedia.com^
 ||xlivedoor.com^
 ||xlivehost.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-11 06:21:38Z
+! Last Modified: 2022-01-11 12:27:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -37328,6 +37328,7 @@
 ||omni.pemco.com^
 ||somni.pemco.com^
 ||penaltyme.com^
+||app.pendo.io^
 ||penetrator-szans.com^
 ||smetrics.penfed.org^
 ||mdws.penfinancial.com^
@@ -54778,7 +54779,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-11 06:21:34Z
+! Last Modified: 2022-01-11 12:27:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16371,16 +16371,13 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
-||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
-||hotapi.sgsnssdk.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
-||wildcard.marketo.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
@@ -25603,8 +25600,6 @@
 ||netadsrv.iworld.com^
 ||info.iwp.edu^
 ||tracker.iws.vc^
-||rose.ixbt.com^
-||cvhefd.ixbt.com^
 ||go.ixiasoft.com^
 ||adserver.ixm.co.uk^
 ||link.ixs1.net^
@@ -37646,6 +37641,7 @@
 ||omni.pemco.com^
 ||somni.pemco.com^
 ||penaltyme.com^
+||app.pendo.io^
 ||penetrator-szans.com^
 ||smetrics.penfed.org^
 ||mdws.penfinancial.com^
@@ -49386,6 +49382,7 @@
 ||toprebates.com^
 ||topreward.site^
 ||toprightnews.com^
+||track.topromotion.net^
 ||toprxshopplace.com^
 ||t1.benefits.tops.co.th^
 ||ms.topschooljobs.org^
@@ -55199,7 +55196,6 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
