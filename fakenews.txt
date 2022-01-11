@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-11 01:01:16Z
+! Last Modified: 2022-01-11 06:21:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12789,6 +12789,7 @@
 ||banners.copyscape.com^
 ||copytradeprofitcrypto.com^
 ||coquine-dispo.com^
+||wp1.cor-natty.com^
 ||corbalanlopez.com^
 ||plausible.corbettbarr.com^
 ||corbettreport.com^
@@ -16370,13 +16371,16 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
+||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||hotapi.sgsnssdk.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
+||wildcard.marketo.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
@@ -49382,7 +49386,6 @@
 ||toprebates.com^
 ||topreward.site^
 ||toprightnews.com^
-||track.topromotion.net^
 ||toprxshopplace.com^
 ||t1.benefits.tops.co.th^
 ||ms.topschooljobs.org^
@@ -55196,6 +55199,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
