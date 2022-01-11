@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-10 18:21:50Z
+! Last Modified: 2022-01-11 01:01:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46921,6 +46921,8 @@
 ||olx.pl-orderpays.work^
 ||inpost.pl-orderpays.work^
 ||olx.pl-orderspaid.cyou^
+||olx.pl-orderspaid.shop^
+||inpost.pl-orderspaid.shop^
 ||olx.pl-orderspaid.work^
 ||inpost.pl-orderspaid.work^
 ||inpost.pl-paid.icu^
@@ -68364,6 +68366,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

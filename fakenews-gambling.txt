@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-10 18:20:53Z
+! Last Modified: 2022-01-11 01:01:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16862,6 +16862,7 @@
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma1169-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -23991,7 +23992,6 @@
 ||hutchtoday.com^
 ||newbs.hutz.co.il^
 ||stats.huuuge.net^
-||stats.huysmanbouw.be^
 ||huzlers.com^
 ||marketing.hvcb.org^
 ||hvd-store.com^

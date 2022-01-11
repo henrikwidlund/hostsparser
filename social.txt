@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-10 18:21:52Z
+! Last Modified: 2022-01-11 01:01:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2675,8 +2675,6 @@
 ||akaflieg-sb.de^
 ||akama.com^
 ||edge1-us-priority.akamacdn.com^
-||a50.g2.akamai.net^
-||a1843.g.akamai.net^
 ||e7876.dscg.akamaiedge.net^
 ||e37364.dscd.akamaiedge.net^
 ||redge-a.akamaihd.net^
