@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-12 12:28:46Z
+! Last Modified: 2022-01-12 18:20:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -65272,6 +65272,11 @@
 ||webtracky.com^
 ||webtrader.co^
 ||webtraxx.de^
+||c.webtrends.com^
+||s.webtrends.com^
+||dc.webtrends.com^
+||scs.webtrends.com^
+||ots.optimize.webtrends.com^
 ||webtrends.net^
 ||xitvce.webtretho.com^
 ||formacionprofesional.webuda.com^

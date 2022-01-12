@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-12 12:28:47Z
+! Last Modified: 2022-01-12 18:20:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15608,8 +15608,8 @@
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma1498-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -15624,7 +15624,6 @@
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
-||ds-api-public.addthis.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -16617,7 +16616,6 @@
 ||etestery24.pl^
 ||etflix.us^
 ||go.etftrends.com^
-||pl.ethan.link^
 ||ethan.wang^
 ||ethanslayton.com^
 ||ethblender.com^
@@ -51824,7 +51822,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

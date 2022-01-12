@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-12 12:28:55Z
+! Last Modified: 2022-01-12 18:20:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -40835,7 +40835,6 @@
 ||plausible.test.sketch.com^
 ||plausible.staging.sketch.com^
 ||promo.skf.com^
-||de.promo.skf.com^
 ||stats.ski.com^
 ||skidrowcrack.com^
 ||bcfgwi.skidxb.com^
