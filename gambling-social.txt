@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-11 18:20:46Z
+! Last Modified: 2022-01-12 01:00:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1658,6 +1658,7 @@
 ||ad.ne.com^
 ||ad.net^
 ||voordeel.ad.nl^
+||banner.ad.nu^
 ||ad001.ru^
 ||cdn.ad1-click.com^
 ||s.ad121m.com^
@@ -14299,6 +14300,7 @@
 ||delton.com^
 ||go.deluxe.com^
 ||sstats.deluxe.com^
+||metrics.delwebb.com^
 ||inpost.delyverytrack-info-id85648.xyz^
 ||med.delzicol.com^
 ||adebis.demae-can.com^
