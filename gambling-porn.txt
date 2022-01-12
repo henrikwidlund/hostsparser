@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-12 06:21:35Z
+! Last Modified: 2022-01-12 12:28:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -37169,6 +37169,8 @@
 ||info.mitarbeitergesundheit.de^
 ||go.mitchell1.com^
 ||mitoteam.com^
+||metrics.mitsubishi-motors.co.jp^
+||smetrics.mitsubishi-motors.co.jp^
 ||smetrics.mitsubishi-motors.com.au^
 ||report.mitsubishicars.com^
 ||sreport.mitsubishicars.com^
@@ -48893,6 +48895,8 @@
 ||track.msadcenter.pwpn.com^
 ||pwrfcia.com^
 ||pwwysydh.com^
+||client.px-cloud.net^
+||collector-px8fcgygk4.px-cloud.net^
 ||px24.com^
 ||pxd-pay.online^
 ||api.pxlad.io^
@@ -65268,11 +65272,6 @@
 ||webtracky.com^
 ||webtrader.co^
 ||webtraxx.de^
-||c.webtrends.com^
-||s.webtrends.com^
-||dc.webtrends.com^
-||scs.webtrends.com^
-||ots.optimize.webtrends.com^
 ||webtrends.net^
 ||xitvce.webtretho.com^
 ||formacionprofesional.webuda.com^

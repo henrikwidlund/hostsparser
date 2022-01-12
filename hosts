@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-12 06:21:21Z
+! Last Modified: 2022-01-12 12:28:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7918,7 +7918,6 @@
 ||metrics.bhg.com^
 ||bhjrw.shop^
 ||stats.bholmes.dev^
-||affiliates.bhphotovideo.com^
 ||bhpipoz.pl^
 ||bhpkowalex.pl^
 ||kampanja.bhtelecom.ba^
@@ -50327,6 +50326,8 @@
 ||track.msadcenter.pwpn.com^
 ||pwrfcia.com^
 ||pwwysydh.com^
+||client.px-cloud.net^
+||collector-px8fcgygk4.px-cloud.net^
 ||px24.com^
 ||pxd-pay.online^
 ||api.pxlad.io^

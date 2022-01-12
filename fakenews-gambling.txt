@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-12 06:21:26Z
+! Last Modified: 2022-01-12 12:28:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2574,6 +2574,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||cdn.stickyadstv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -39664,6 +39665,8 @@
 ||track.msadcenter.pwpn.com^
 ||pwrfcia.com^
 ||pwwysydh.com^
+||client.px-cloud.net^
+||collector-px8fcgygk4.px-cloud.net^
 ||px24.com^
 ||pxd-pay.online^
 ||api.pxlad.io^
@@ -43550,6 +43553,7 @@
 ||go.skuvault.com^
 ||marketing.sky-estate.com^
 ||sky-net.or.jp^
+||somni.sky.at^
 ||metrics.sky.com^
 ||smetrics.sky.com^
 ||omni.sky.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-12 06:21:43Z
+! Last Modified: 2022-01-12 12:28:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32407,6 +32407,8 @@
 ||info.onemedical.com^
 ||oneminutedistraction.com^
 ||oneminuteplayfestival.org^
+||apicosdk.onemt.co^
+||apicssdk.onemt.co^
 ||onenewspage.in^
 ||stats.onepagelove.com^
 ||tipstats.onepagelove.com^
@@ -32467,6 +32469,7 @@
 ||boksy.dir.onet.pl^
 ||republika.onet.pl^
 ||onet24.live^
+||wwv.onetad.com^
 ||onetpl-pgetech.info^
 ||onetpolska.pl^
 ||onetpomoc.eu^
@@ -37286,6 +37289,8 @@
 ||track.msadcenter.pwpn.com^
 ||pwrfcia.com^
 ||pwwysydh.com^
+||client.px-cloud.net^
+||collector-px8fcgygk4.px-cloud.net^
 ||px24.com^
 ||pxd-pay.online^
 ||api.pxlad.io^
@@ -40830,6 +40835,7 @@
 ||plausible.test.sketch.com^
 ||plausible.staging.sketch.com^
 ||promo.skf.com^
+||de.promo.skf.com^
 ||stats.ski.com^
 ||skidrowcrack.com^
 ||bcfgwi.skidxb.com^
@@ -50510,7 +50516,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

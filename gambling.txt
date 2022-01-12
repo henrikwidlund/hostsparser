@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-12 06:21:38Z
+! Last Modified: 2022-01-12 12:28:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24760,6 +24760,7 @@
 ||karatubnb.com^
 ||mkt.karcher.co.jp^
 ||smetrics.karcher.ru^
+||ywrcqa.kare11.com^
 ||karencupp.com^
 ||karer.by^
 ||karhukasino.com^
@@ -38226,6 +38227,8 @@
 ||track.msadcenter.pwpn.com^
 ||pwrfcia.com^
 ||pwwysydh.com^
+||client.px-cloud.net^
+||collector-px8fcgygk4.px-cloud.net^
 ||px24.com^
 ||pxd-pay.online^
 ||api.pxlad.io^
@@ -51331,11 +51334,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
