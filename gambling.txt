@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-13 01:01:59Z
+! Last Modified: 2022-01-13 06:21:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51328,19 +51328,16 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
-||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

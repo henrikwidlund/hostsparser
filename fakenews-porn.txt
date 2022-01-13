@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-13 01:01:51Z
+! Last Modified: 2022-01-13 06:20:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3108,7 +3108,6 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||sync-usva.tidaltv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -9487,7 +9486,6 @@
 ||secureanalytics.budget.co.uk^
 ||secureanalytics.budget.es^
 ||secureanalytics.budget.se^
-||infos.budgetdirect.com.au^
 ||campaign.budgethyve.com^
 ||budgetiptoe.com^
 ||budim-1invpl.info^
@@ -67936,6 +67934,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||a.stat.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
