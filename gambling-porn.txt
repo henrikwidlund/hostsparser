@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-13 06:21:02Z
+! Last Modified: 2022-01-13 12:28:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9162,6 +9162,8 @@
 ||box066.com^
 ||boxadstop.com^
 ||boxdelivery.org^
+||email.boxed.com^
+||links.boxed.com^
 ||act.boxerproperty.com^
 ||boxes-mix.net^
 ||boxesfly.com^
@@ -53373,6 +53375,7 @@
 ||sieumup.net^
 ||sifazen.com^
 ||prod.sift.co^
+||vabid.prod.sift.co^
 ||sift-campaign-creatives.sift.co^
 ||ads.sift.co.uk^
 ||dc.sify.com^
