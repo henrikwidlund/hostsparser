@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-13 12:28:40Z
+! Last Modified: 2022-01-13 18:20:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31784,6 +31784,7 @@
 ||neurologiamt.com.br^
 ||neurorehabtraining.com^
 ||wpm.neustar.biz^
+||rum-collector.wpm.neustar.biz^
 ||neutralpages.com^
 ||go.neutrikgroup.com^
 ||b.nevadaprivateoffice.com^
@@ -48389,7 +48390,6 @@
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
-||ads-brand-postback.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
@@ -52773,6 +52773,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||cn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^

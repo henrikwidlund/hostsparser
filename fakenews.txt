@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-13 12:28:41Z
+! Last Modified: 2022-01-13 18:20:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -48661,6 +48661,8 @@
 ||info.vesselsvalue.com^
 ||endljp.vesti.bg^
 ||vestplne.vestpast7.xyz^
+||jpltech.vestpast77.xyz^
+||tskechpl.vestpast77.xyz^
 ||assessment.vetassess.com.au^
 ||veteransnewsnow.com^
 ||veteranstoday.com^
