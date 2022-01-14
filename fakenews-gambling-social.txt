@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-14 06:21:19Z
+! Last Modified: 2022-01-14 12:27:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36942,6 +36942,7 @@
 ||smetrics.marketing.lighting.philips.co.id^
 ||smetrics.marketing.lighting.philips.co.in^
 ||smetrics.marketing.lighting.philips.co.uk^
+||smetrics.marketing.lighting.philips.co.za^
 ||app.events.philips.com^
 ||smetrics.marketing.lighting.philips.com^
 ||smetrics.marketing.lighting.philips.com.ar^
@@ -47205,6 +47206,7 @@
 ||c1.thecounter.de^
 ||c2.thecounter.de^
 ||ww2.thecpapclinic.com.au^
+||ads.thecrimson.com^
 ||thecrypto-genius.net^
 ||thecryptogenius.com^
 ||metrics.thedailybeast.com^
@@ -49539,6 +49541,8 @@
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
+||auction-load.unityads.unity3d.com^
+||cdn-webview-pge.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
