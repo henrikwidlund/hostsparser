@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-13 18:20:48Z
+! Last Modified: 2022-01-14 01:01:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5972,10 +5972,6 @@
 ||bindfast.com^
 ||landsnail.bindle.io^
 ||bindop.com^
-||c.bing.com^
-||bat.bing.com^
-||ads.bing.com^
-||adserver.bing.com^
 ||smetrics.binge.com.au^
 ||t.prod1.discover.binge.com.au^
 ||metrics.bingle.com.au^
@@ -22598,6 +22594,7 @@
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
 ||keyserver.ijinshan.com^
+||cdndownload.liehu.ijinshan.com^
 ||info.ijungo.com^
 ||ikbox.org^
 ||icas.ikea.com^
@@ -42578,6 +42575,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
 ||adserver1.sonymusiceurope.com^
@@ -45426,12 +45424,6 @@
 ||thegift.live^
 ||thegladbox-pl.com^
 ||cricket.theglobalindia.net^
-||visit.theglobeandmail.com^
-||adrates.theglobeandmail.com^
-||ecestats.theglobeandmail.com^
-||omniture.theglobeandmail.com^
-||adcounter.theglobeandmail.com^
-||ece5stats1.theglobeandmail.com^
 ||thegrandtree.in^
 ||thegreatdanton.com^
 ||thegreek.com^
@@ -46425,7 +46417,6 @@
 ||totalbets.com^
 ||totalcommunicationinc.com^
 ||ads.totallyfreestuff.com^
-||smetrics.totalwine.com^
 ||clicks.toteme.com^
 ||banners.toteme.com^
 ||cachebanners.toteme.com^
@@ -51822,6 +51813,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
