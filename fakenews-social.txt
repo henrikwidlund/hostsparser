@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-14 12:27:57Z
+! Last Modified: 2022-01-14 18:20:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17636,8 +17636,6 @@
 ||ads.ferianc.com^
 ||downpayment.fernsby.com^
 ||plausible.ferranfigueredo.com^
-||track.ferrari.com^
-||tracks3.ferrari.com^
 ||track.ferraridealers.com^
 ||link.ferret-plus.com^
 ||ferrosoft.com.pl^
@@ -17745,6 +17743,7 @@
 ||filesdock.com^
 ||filesenzu.com^
 ||fileshare-storage.com^
+||thumos.fileside.app^
 ||filespeedy.net^
 ||filespeedy.org^
 ||fileston.com^
@@ -32197,7 +32196,6 @@
 ||nilco.pl^
 ||centipede.nilcollegeathletes.com^
 ||nildenaksoy.com^
-||targeting.washpost.nile.works^
 ||www2.nilfisk.com^
 ||meerkat.nilsmielke.me^
 ||nimiko.pl^

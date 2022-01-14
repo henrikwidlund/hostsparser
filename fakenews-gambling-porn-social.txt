@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-14 12:27:49Z
+! Last Modified: 2022-01-14 18:20:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4439,8 +4439,6 @@
 ||dynamic1.anandtech.com^
 ||dynamic2.anandtech.com^
 ||anantanandgupta.com^
-||advert.ananzi.co.za^
-||advert2.ananzi.co.za^
 ||anarcdevelopers.com^
 ||anarralt.com^
 ||anastazja.net.pl^
@@ -41812,7 +41810,6 @@
 ||nilco.pl^
 ||centipede.nilcollegeathletes.com^
 ||nildenaksoy.com^
-||targeting.washpost.nile.works^
 ||www2.nilfisk.com^
 ||meerkat.nilsmielke.me^
 ||nimiko.pl^
@@ -68831,7 +68828,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

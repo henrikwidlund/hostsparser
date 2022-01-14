@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-14 12:28:08Z
+! Last Modified: 2022-01-14 18:20:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3083,7 +3083,6 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||bs-wlb-uswest.dvgtm.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -39665,7 +39664,6 @@
 ||nilco.pl^
 ||centipede.nilcollegeathletes.com^
 ||nildenaksoy.com^
-||targeting.washpost.nile.works^
 ||www2.nilfisk.com^
 ||meerkat.nilsmielke.me^
 ||nimiko.pl^
@@ -44764,7 +44762,6 @@
 ||olx.pl-safecash.link^
 ||inpost.pl-safecash.link^
 ||delivery.olx.pl-safecash.us^
-||olx.pl-safedeal.link^
 ||pl-safedeal.shop^
 ||pl-safedeal.xyz^
 ||olx.pl-safely.cash^
@@ -65815,8 +65812,10 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||test.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -66797,6 +66796,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

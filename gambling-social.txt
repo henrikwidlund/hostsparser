@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-14 12:28:03Z
+! Last Modified: 2022-01-14 18:20:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12447,6 +12447,7 @@
 ||metric.crateandbarrel.com^
 ||metrics.crateandbarrel.com^
 ||cdn.assets.craveonline.com^
+||go.crawco.com^
 ||crawlability.com^
 ||ads.crawler.com^
 ||taniekonta.crayon2.net^
@@ -31878,7 +31879,6 @@
 ||nilco.pl^
 ||centipede.nilcollegeathletes.com^
 ||nildenaksoy.com^
-||targeting.washpost.nile.works^
 ||www2.nilfisk.com^
 ||meerkat.nilsmielke.me^
 ||nimiko.pl^
@@ -51821,6 +51821,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

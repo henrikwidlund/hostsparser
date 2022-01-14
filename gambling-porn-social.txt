@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-14 12:28:00Z
+! Last Modified: 2022-01-14 18:20:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3139,6 +3139,7 @@
 ||turn.com.akadns.net^
 ||comscore.akadns.net^
 ||eyeblaster.akadns.net^
+||api.vungle.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
@@ -40368,7 +40369,6 @@
 ||newstarads.com^
 ||newstiger24.com^
 ||oissapllllll.newstri67.site^
-||analytics.newsvine.com^
 ||newsweekpl.gq^
 ||newsweeks.xyz^
 ||ywrcqa.newswest9.com^
@@ -40654,7 +40654,6 @@
 ||nilco.pl^
 ||centipede.nilcollegeathletes.com^
 ||nildenaksoy.com^
-||targeting.washpost.nile.works^
 ||www2.nilfisk.com^
 ||meerkat.nilsmielke.me^
 ||nimiko.pl^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-14 12:27:54Z
+! Last Modified: 2022-01-14 18:20:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38545,6 +38545,7 @@
 ||emea.rel.msn.com^
 ||analytics.msn.com^
 ||c.prodigy.msn.com^
+||live.rads.msn.com^
 ||mobileleads.msn.com^
 ||adsyndication.msn.com^
 ||advertising.jp.msn.com^
@@ -40923,7 +40924,6 @@
 ||nilco.pl^
 ||centipede.nilcollegeathletes.com^
 ||nildenaksoy.com^
-||targeting.washpost.nile.works^
 ||www2.nilfisk.com^
 ||meerkat.nilsmielke.me^
 ||nimiko.pl^
@@ -42969,6 +42969,7 @@
 ||static.omnilocal.ai^
 ||koi.omnimove.health^
 ||omniscenta.com^
+||www2.omnisci.com^
 ||omnistor.pl^
 ||openx.omniton.net^
 ||omniture.com^
@@ -67577,6 +67578,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||fr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
