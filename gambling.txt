@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-14 01:01:03Z
+! Last Modified: 2022-01-14 06:21:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29719,6 +29719,7 @@
 ||moremoreno.com^
 ||morenarewal.pl^
 ||morenews3.net^
+||track.moreniche.com^
 ||morenorubio.com^
 ||moreti.pl^
 ||ad.moreto.net^
@@ -51337,6 +51338,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

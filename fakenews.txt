@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-14 01:00:57Z
+! Last Modified: 2022-01-14 06:21:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2507,7 +2507,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||cacp-hlb.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -15567,7 +15566,6 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
-||wildcard.evidon.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -27791,6 +27789,7 @@
 ||makeitworkfaster.life^
 ||asg.makemewell.pro^
 ||makemoneyrobot.com^
+||metric.makemytrip.com^
 ||stats.feathercss.makerkits.co^
 ||a8.makeshop.jp^
 ||makeupuccino.com^
@@ -40237,8 +40236,6 @@
 ||rodzinnemiassteczkkotv.cyou^
 ||stracking.rogers.com^
 ||www2.enterprise.rogers.com^
-||om.rogersmedia.com^
-||oms.rogersmedia.com^
 ||a.rohde-schwarz.com^
 ||a.rohde-schwarz.com.cn^
 ||ads.rohea.com^
@@ -52239,6 +52236,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
