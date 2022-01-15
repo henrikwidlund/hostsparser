@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-14 18:20:41Z
+! Last Modified: 2022-01-15 00:58:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17636,6 +17636,8 @@
 ||ads.ferianc.com^
 ||downpayment.fernsby.com^
 ||plausible.ferranfigueredo.com^
+||track.ferrari.com^
+||tracks3.ferrari.com^
 ||track.ferraridealers.com^
 ||link.ferret-plus.com^
 ||ferrosoft.com.pl^

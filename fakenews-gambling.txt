@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-14 18:20:36Z
+! Last Modified: 2022-01-15 00:58:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -53576,6 +53576,7 @@
 ||yellowskin.top^
 ||yellowstonetimes.com^
 ||yellowstudio.pl^
+||stat.yellowtracker.com^
 ||simg.yemeksepeti.com^
 ||yepads.com^
 ||xml.yepmedia.com^

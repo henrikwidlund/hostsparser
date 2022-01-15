@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-14 18:20:34Z
+! Last Modified: 2022-01-15 00:58:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13784,7 +13784,6 @@
 ||ddns.name^
 ||terugbediening.ddns.net^
 ||directionxanc2021.ddns.net^
-||helloworld.ddnsking.com^
 ||ddot-studio.com^
 ||dds23.pl^
 ||airbnb.de-objekt-4197740.info^
@@ -29089,6 +29088,7 @@
 ||smetrics.mastercard.com^
 ||go.masterclass.com^
 ||webtraffic.mastercontrol.com^
+||eu.mastercrd.xyz^
 ||sf.mastere-company.site^
 ||918b.mastere-company.site^
 ||cen.trum.polska.24.account.login.ssl.masterfood.mobi^

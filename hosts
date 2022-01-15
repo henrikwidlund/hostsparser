@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-14 18:20:29Z
+! Last Modified: 2022-01-15 00:58:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19929,7 +19929,6 @@
 ||ed.emp-shop.dk^
 ||ed.emp-shop.no^
 ||ed.emp-shop.pl^
-||ed.emp-shop.se^
 ||ed.emp-shop.sk^
 ||ed.emp.at^
 ||ed.emp.co.uk^
@@ -33340,6 +33339,8 @@
 ||banners.ksl.com^
 ||event.ksosoft.com^
 ||kspm33.com^
+||jdgtgb.ksta.de^
+||sanalytics.ksta.de^
 ||t.kstatesports.com^
 ||ksuniazabkowice.pl^
 ||freesam.kt.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-14 18:20:44Z
+! Last Modified: 2022-01-15 00:58:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3139,7 +3139,6 @@
 ||turn.com.akadns.net^
 ||comscore.akadns.net^
 ||eyeblaster.akadns.net^
-||api.vungle.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
@@ -19527,7 +19526,6 @@
 ||t.en25.com^
 ||img.en25.com^
 ||go.enablecomp.com^
-||med.enablex.com^
 ||enatimedia.com^
 ||enature.net^
 ||enaturist.com^
@@ -40369,6 +40367,7 @@
 ||newstarads.com^
 ||newstiger24.com^
 ||oissapllllll.newstri67.site^
+||analytics.newsvine.com^
 ||newsweekpl.gq^
 ||newsweeks.xyz^
 ||ywrcqa.newswest9.com^
@@ -66678,6 +66677,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||uk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
