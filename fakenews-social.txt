@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-15 12:27:21Z
+! Last Modified: 2022-01-15 18:19:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21392,6 +21392,7 @@
 ||analytics.readcube.com.herokudns.com^
 ||production.wootric.com.herokudns.com^
 ||event-logger.tagboard.com.herokudns.com^
+||ios-quinoa-personal-identify-prod.sense360eng.com.herokudns.com^
 ||ads.heroldonline.com^
 ||herotoken.co^
 ||herotokens.io^
@@ -52772,6 +52773,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
@@ -53748,7 +53750,6 @@
 ||car40-apps.net.zooplus.de^
 ||car40-beta.net.zooplus.de^
 ||car40-mail.net.zooplus.de^
-||car40.corp.net.zooplus.de^
 ||car40latin.net.zooplus.de^
 ||cloud-data.net.zooplus.de^
 ||confluence.net.zooplus.de^
