@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-15 00:58:15Z
+! Last Modified: 2022-01-15 06:20:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -43014,7 +43014,6 @@
 ||go.sonnenbatterie.de^
 ||click.email.sonos.com^
 ||secure.sonosite.com^
-||in.secure.sonosite.com^
 ||sonovivi.com^
 ||tradedoubler.sonvideopro.com^
 ||metrics.sony.com^
@@ -43025,7 +43024,6 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
-||d.newssuite.sony.net^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
 ||adserver1.sonymusiceurope.com^
@@ -47904,7 +47902,6 @@
 ||unifomushop.com^
 ||engage.uniguest.com^
 ||now.unimac.com^
-||go.medicine.unimelb.edu.au^
 ||unimhk.com^
 ||go.uninorte.edu.co^
 ||daten.union-investment.de^
@@ -52239,7 +52236,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
+||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^

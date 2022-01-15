@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-15 00:58:08Z
+! Last Modified: 2022-01-15 06:20:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13784,6 +13784,7 @@
 ||ddns.name^
 ||terugbediening.ddns.net^
 ||directionxanc2021.ddns.net^
+||helloworld.ddnsking.com^
 ||ddot-studio.com^
 ||dds23.pl^
 ||airbnb.de-objekt-4197740.info^
@@ -29974,7 +29975,6 @@
 ||microcomm-group.com^
 ||go.microfocus.com^
 ||www2.microfocus.com^
-||glosowanie-warszawa.microhost.com.pl^
 ||events.microland.com^
 ||tr.animation.micromania.fr^
 ||micromix.pl^
@@ -42899,9 +42899,6 @@
 ||sfeamcommunity.com^
 ||dolphin.sfelc.com^
 ||content.sffirecu.org^
-||om.sfgate.com^
-||te.sfgate.com^
-||oascentral.sfgate.com^
 ||tracking.sfitrucks.com^
 ||ads.sfomedia.com^
 ||elr.sfr.fr^
@@ -53978,6 +53975,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||cn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
@@ -54725,6 +54723,7 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||interactive.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||analytics.zingerwebdesign.com^
 ||ziololecznictwo.pl^
