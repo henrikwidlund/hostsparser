@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-15 06:20:43Z
+! Last Modified: 2022-01-15 12:27:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10754,7 +10754,6 @@
 ||smetrics.casio-intl.com^
 ||eduinfo-di.casio-intl.com^
 ||eduinfo-eu.casio-intl.com^
-||smetrics.casio-watches.com^
 ||smetrics.casio.co.jp^
 ||smetrics.casio.com^
 ||smetrics.casio.com.tw^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-15 06:20:40Z
+! Last Modified: 2022-01-15 12:27:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29975,6 +29975,7 @@
 ||microcomm-group.com^
 ||go.microfocus.com^
 ||www2.microfocus.com^
+||glosowanie-warszawa.microhost.com.pl^
 ||events.microland.com^
 ||tr.animation.micromania.fr^
 ||micromix.pl^
@@ -42899,6 +42900,9 @@
 ||sfeamcommunity.com^
 ||dolphin.sfelc.com^
 ||content.sffirecu.org^
+||om.sfgate.com^
+||te.sfgate.com^
+||oascentral.sfgate.com^
 ||tracking.sfitrucks.com^
 ||ads.sfomedia.com^
 ||elr.sfr.fr^
@@ -53975,7 +53979,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||cn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
@@ -54723,7 +54726,6 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
-||interactive.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||analytics.zingerwebdesign.com^
 ||ziololecznictwo.pl^

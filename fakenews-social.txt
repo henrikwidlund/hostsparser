@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-15 06:20:47Z
+! Last Modified: 2022-01-15 12:27:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42245,6 +42245,7 @@
 ||showsplash.com^
 ||smetrics.showtime.com^
 ||smetrics.showtimeanytime.com^
+||ads.showtvnet.com^
 ||showup-tv.com.pl^
 ||shreveportreporter.com^
 ||shrfbdg004.com^
@@ -53747,6 +53748,7 @@
 ||car40-apps.net.zooplus.de^
 ||car40-beta.net.zooplus.de^
 ||car40-mail.net.zooplus.de^
+||car40.corp.net.zooplus.de^
 ||car40latin.net.zooplus.de^
 ||cloud-data.net.zooplus.de^
 ||confluence.net.zooplus.de^

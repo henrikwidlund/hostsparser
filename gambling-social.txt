@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-15 06:20:54Z
+! Last Modified: 2022-01-15 12:27:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -40157,7 +40157,6 @@
 ||go.rworks.jp^
 ||olx.rwpay.ru^
 ||down.rxgif.cn^
-||vitaecbe.rxhitech.com^
 ||ssl.o.rxlist.com^
 ||rxnasklola.com^
 ||ryalorprofitsystem.com^
@@ -51820,8 +51819,8 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
