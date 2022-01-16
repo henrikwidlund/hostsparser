@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-16 06:20:40Z
+! Last Modified: 2022-01-16 12:27:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18417,6 +18417,7 @@
 ||marketo.com.edgekey.net^
 ||mathtag.com.edgekey.net^
 ||mookie1.com.edgekey.net^
+||san.push.io.edgekey.net^
 ||marketo.net.edgekey.net^
 ||owneriq.net.edgekey.net^
 ||taboola.com.edgekey.net^
@@ -28073,7 +28074,6 @@
 ||stat.ijinshan.com^
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
-||db.utag.ijinshan.com^
 ||keyserver.ijinshan.com^
 ||info.ijungo.com^
 ||ikbox.org^
@@ -35521,6 +35521,7 @@
 ||medical-library.org^
 ||medical-offer.com^
 ||medical-research-books.com^
+||go.medical-tribune.co.jp^
 ||medical-updates.com^
 ||medical4u.eu^
 ||info.medicaland.co.jp^
@@ -57551,8 +57552,6 @@
 ||polskaorlen.tilda.ws^
 ||tilesto.xyz^
 ||tilido.com^
-||utctime.tiltingpoint.io^
-||registration.tiltingpoint.io^
 ||tiltott.net^
 ||metrics.tim.it^
 ||ssl-metrics.tim.it^

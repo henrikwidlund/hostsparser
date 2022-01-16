@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-16 06:20:39Z
+! Last Modified: 2022-01-16 12:27:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20942,6 +20942,8 @@
 ||sminerva.healthcentral.com^
 ||smetrics.healthengine.com.au^
 ||ablinks.comms.healthengine.com.au^
+||hrm.healthgrades.com^
+||som.healthgrades.com^
 ||secure-e.healthiq.com^
 ||tracking.healthitanalytics.com^
 ||tracking.healthitsecurity.com^
@@ -21968,6 +21970,8 @@
 ||hypesquad-events.com^
 ||hypnoseterapi.com^
 ||hypnotone.com^
+||ucmetrics.hypovereinsbank.de^
+||sucmetrics.hypovereinsbank.de^
 ||hyprmx.com^
 ||dependable-s.hyster.com^
 ||hystersister.com^
