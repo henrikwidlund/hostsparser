@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-16 01:02:32Z
+! Last Modified: 2022-01-16 06:20:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15544,14 +15544,12 @@
 ||outbrainimg.com.edgekey.net^
 ||serving-sys.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
-||79423.analytics.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ma156-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -20944,8 +20942,6 @@
 ||sminerva.healthcentral.com^
 ||smetrics.healthengine.com.au^
 ||ablinks.comms.healthengine.com.au^
-||hrm.healthgrades.com^
-||som.healthgrades.com^
 ||secure-e.healthiq.com^
 ||tracking.healthitanalytics.com^
 ||tracking.healthitsecurity.com^
@@ -21972,8 +21968,6 @@
 ||hypesquad-events.com^
 ||hypnoseterapi.com^
 ||hypnotone.com^
-||ucmetrics.hypovereinsbank.de^
-||sucmetrics.hypovereinsbank.de^
 ||hyprmx.com^
 ||dependable-s.hyster.com^
 ||hystersister.com^
@@ -51335,9 +51329,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||cn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^

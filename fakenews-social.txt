@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-16 01:02:24Z
+! Last Modified: 2022-01-16 06:20:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8406,6 +8406,7 @@
 ||analytics.cartoonnetwork.jp^
 ||sanalytics.cartoonnetwork.jp^
 ||sanalytics.cartoonnetwork.pl^
+||sanalytics.cartoonnetwork.pt^
 ||sanalytics.cartoonnetwork.ro^
 ||sanalytics.cartoonnetwork.ru^
 ||sanalytics.cartoonnetwork.se^
@@ -30372,6 +30373,8 @@
 ||mstransportuae.com^
 ||content.msufcu.org^
 ||t.msuspartans.com^
+||stats.mt.com^
+||sstats.mt.com^
 ||cmps.mt50ad.com^
 ||go.mtasolutions.com^
 ||mtbusinessdaily.com^

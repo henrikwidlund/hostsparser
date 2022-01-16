@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-16 01:02:34Z
+! Last Modified: 2022-01-16 06:20:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18477,7 +18477,6 @@
 ||ads.pro-market.net.edgesuite.net^
 ||ads.bridgetrack.com.edgesuite.net^
 ||citi.bridgetrack.com.edgesuite.net^
-||content.yieldmanager.edgesuite.net^
 ||static.ak.facebook.com.edgesuite.net^
 ||profile.ak.facebook.com.edgesuite.net^
 ||instagramstatic-a.akamaihd.net.edgesuite.net^
@@ -28074,6 +28073,7 @@
 ||stat.ijinshan.com^
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
+||db.utag.ijinshan.com^
 ||keyserver.ijinshan.com^
 ||info.ijungo.com^
 ||ikbox.org^
@@ -35521,7 +35521,6 @@
 ||medical-library.org^
 ||medical-offer.com^
 ||medical-research-books.com^
-||go.medical-tribune.co.jp^
 ||medical-updates.com^
 ||medical4u.eu^
 ||info.medicaland.co.jp^
@@ -65426,12 +65425,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||uk.adserver.yahoo.com^
-||de.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
