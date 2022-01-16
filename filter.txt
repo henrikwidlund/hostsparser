@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-15 18:19:48Z
+! Last Modified: 2022-01-16 01:02:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7044,6 +7044,7 @@
 ||down.soft.bbkantu.com^
 ||go.bboxservices.com^
 ||bbpgz.com^
+||tshuxi.bbqguys.com^
 ||bbs.ws^
 ||bbscamp.net^
 ||bbsex.org^
@@ -37118,8 +37119,6 @@
 ||cdn.media-a.net^
 ||media-angel.de^
 ||media-b.jp^
-||m2.media-box.co^
-||m4.media-box.co^
 ||c.media-dl.co^
 ||media-elektro.top^
 ||media-fire.org^
@@ -71144,6 +71143,7 @@
 ||zeroredirect8.com^
 ||zesex.co.il^
 ||zesexy.com^
+||plausible.zest.dev^
 ||zestawnaprawczy-do-wgniecen.com^
 ||zestwienie.pl^
 ||zetabook.com^

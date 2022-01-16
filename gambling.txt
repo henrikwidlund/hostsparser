@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-15 18:20:06Z
+! Last Modified: 2022-01-16 01:02:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2427,6 +2427,8 @@
 ||aierudkaqwertyuiopski.xyz^
 ||fufoir.aif.ru^
 ||experience.aifsabroad.com^
+||www-171.aig.com^
+||www-172.aig.com^
 ||aigachu.com^
 ||aiglesklep.com^
 ||aiisa.am^
@@ -15542,12 +15544,14 @@
 ||outbrainimg.com.edgekey.net^
 ||serving-sys.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
+||79423.analytics.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma156-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -51331,7 +51335,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||cn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
