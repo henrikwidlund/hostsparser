@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-16 12:27:09Z
+! Last Modified: 2022-01-16 18:19:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -58132,6 +58132,10 @@
 ||sylverandjack.pl^
 ||pl.sylvettas-shop.com^
 ||sylviagreen.club^
+||om.symantec.com^
+||oms.symantec.com^
+||elq.symantec.com^
+||partnermktg.symantec.com^
 ||zabbix.symanteprotection.com^
 ||symantex.com^
 ||symbolmorepiece.live^

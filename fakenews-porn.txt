@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-16 12:27:16Z
+! Last Modified: 2022-01-16 18:19:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18886,7 +18886,6 @@
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ds-www.addthis.com.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -31192,6 +31191,7 @@
 ||en.johnhardy.com^
 ||site.johnlewis.com^
 ||ssite.johnlewis.com^
+||stats.johnmac.pro^
 ||go.johnmaxwellcompany.com^
 ||go.johnmaxwellteam.com^
 ||go.johnmaxwellteam.es^
@@ -63697,6 +63697,8 @@
 ||metrics.valuecityfurniture.com^
 ||valuehost.co.uk^
 ||analytics.valuepotion.com^
+||go.valuesccg.com^
+||go.manamina.valuesccg.com^
 ||valuesmatter.com.au^
 ||smetrics.valumart.ca^
 ||valutapriser.se^

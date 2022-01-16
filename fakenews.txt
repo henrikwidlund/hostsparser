@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-16 12:27:19Z
+! Last Modified: 2022-01-16 18:19:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16658,6 +16658,8 @@
 ||ethzero-wallet.com^
 ||ethzero-wallet.org^
 ||etiam.io^
+||metrics.etihad.com^
+||smetrics.etihad.com^
 ||smetrics.etihadaviationgroup.com^
 ||smetrics.etihadcargo.com^
 ||etilang.pl^
