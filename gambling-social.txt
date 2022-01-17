@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-17 01:00:17Z
+! Last Modified: 2022-01-17 06:21:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21801,6 +21801,7 @@
 ||som.hotwire.com^
 ||nsads.hotwired.com^
 ||netads.hotwired.com^
+||click.email.houndapp.com^
 ||go.houndify.com^
 ||housedropdeals.com^
 ||metrics2.houselogic.com^
@@ -35740,7 +35741,6 @@
 ||pinnaclepolska.com^
 ||pinnaclesports.com^
 ||a.pinoymoviepedia.ru^
-||stats.pinoymusicstation.com^
 ||pinpey.net^
 ||cm.pinsightmedia.com^
 ||v8push.pinsightmedia.com^
@@ -51820,6 +51820,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
