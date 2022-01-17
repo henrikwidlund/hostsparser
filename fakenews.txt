@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-17 12:29:06Z
+! Last Modified: 2022-01-17 18:20:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36241,7 +36241,6 @@
 ||olx.pl-id41286412.net^
 ||olx.pl-id41464578.com^
 ||olx.pl-id423678123.net^
-||olx.pl-id444333.icu^
 ||olx.pl-id519249.icu^
 ||olx.pl-id6379662.info^
 ||pl-id737962.info^
@@ -52325,6 +52324,7 @@
 ||stat.yellowtracker.com^
 ||simg.yemeksepeti.com^
 ||yepads.com^
+||xml.yepmedia.com^
 ||web.info.yeppon.it^
 ||yerba-sklep.com.pl^
 ||yerba-sklep.pl^

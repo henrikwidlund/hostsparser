@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-17 12:29:16Z
+! Last Modified: 2022-01-17 18:21:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18378,6 +18378,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||api.vungle.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -50716,7 +50717,6 @@
 ||smetrics.schwans.com^
 ||schwule-videos.com^
 ||go.science.ne.jp^
-||smetrics.science.org^
 ||smetrics.sciencecareers.org^
 ||metrics.sciencedirect.com^
 ||oas.sciencemag.org^
@@ -68110,6 +68110,7 @@
 ||appsportal.net.zooplus.de^
 ||appsserver.net.zooplus.de^
 ||billinging.net.zooplus.de^
+||blog.csr12.net.zooplus.de^
 ||brandcsr31.net.zooplus.de^
 ||bucket.owa.net.zooplus.de^
 ||bullockowa.net.zooplus.de^
