@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-18 06:18:28Z
+! Last Modified: 2022-01-18 12:28:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31382,7 +31382,6 @@
 ||netcommunities.com^
 ||images.netcomvad.com^
 ||go.netcore.in^
-||adserver.netcreators.nl^
 ||netcscape.com^
 ||hosting159869.a2fee.netcup.net^
 ||netdirect.nl^
@@ -51821,6 +51820,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nl.adserver.yahoo.com^
+||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -52573,6 +52574,8 @@
 ||zirytowany762.site^
 ||zirytowany942.site^
 ||waxom.zitronesolutions.com^
+||trk.zkai.co.jp^
+||ebis01.zkai.co.jp^
 ||samc.zkb.ch^
 ||s.zkcdn.net^
 ||zkotami.pl^

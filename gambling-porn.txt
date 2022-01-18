@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-18 06:18:26Z
+! Last Modified: 2022-01-18 12:28:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20285,6 +20285,8 @@
 ||euroausili.it^
 ||eurobabeindex.com^
 ||eurobet.bg^
+||metrics.eurobet.it^
+||smetrics.eurobet.it^
 ||eurocallcenter.pl^
 ||smetrics.eurocard.com^
 ||eurocentrichandbags.com^
@@ -68020,7 +68022,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

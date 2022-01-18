@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-18 06:18:19Z
+! Last Modified: 2022-01-18 12:28:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3104,6 +3104,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||bs.eyeblaster.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -69267,6 +69268,7 @@
 ||blog-marketing.net.zooplus.fr^
 ||corp-marketing.net.zooplus.fr^
 ||marketing-mail.net.zooplus.fr^
+||marketing.mail.net.zooplus.fr^
 ||proxymarketing.net.zooplus.fr^
 ||loadbalancerail.net.zooplus.fr^
 ||b.ns.emailvision.net.zooplus.fr^
