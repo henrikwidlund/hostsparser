@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-18 01:01:20Z
+! Last Modified: 2022-01-18 06:18:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10953,6 +10953,8 @@
 ||cgtn-china.com^
 ||ch-plays.net^
 ||chabelolandscapingandtreeservice.com^
+||metrics.chacha.com^
+||ads.adagent.chacha.com^
 ||chacomedia.com^
 ||chacopolska.com^
 ||backbenchfilm.chadfoto.com^
@@ -30720,6 +30722,7 @@
 ||plausible.kabaret.no^
 ||kabarin.co^
 ||ads.kabooaffiliates.com^
+||simgftesting.kabtakalar.id^
 ||kabukicho-girls.com^
 ||kacalucamu.tk^
 ||kacwyb.pl^
@@ -61188,6 +61191,7 @@
 ||unhallowed.pl^
 ||d.uni-medias.com^
 ||banners.unibet.com^
+||vzcfqp.unibet.fr^
 ||unicaitaly.it^
 ||igjytl.unice.com^
 ||unicorpbrunei.com^
@@ -66790,6 +66794,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

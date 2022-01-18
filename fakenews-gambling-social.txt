@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-18 01:00:58Z
+! Last Modified: 2022-01-18 06:18:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32763,6 +32763,7 @@
 ||newsbreakers.org^
 ||newsbusters.org^
 ||newsbuzzdaily.com^
+||us.pixel.newscgp.com^
 ||metrics.newsconcierge.com.au^
 ||metrics.newscorpaustralia.com^
 ||newscurrent.info^
