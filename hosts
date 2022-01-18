@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-18 12:28:35Z
+! Last Modified: 2022-01-18 18:20:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -986,7 +986,6 @@
 ||engine.4chan-ads.org^
 ||4chan.com^
 ||4chan.org^
-||adserver.4clicks.org^
 ||4clvr.jp^
 ||4cock.com^
 ||4d5.net^
