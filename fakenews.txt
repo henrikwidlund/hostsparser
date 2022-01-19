@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-19 00:53:38Z
+! Last Modified: 2022-01-19 06:19:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15791,7 +15791,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||cookiebot.com-v1.edgekey.net^
-||ma479-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -30667,7 +30666,6 @@
 ||arc1.msn.com^
 ||popup.msn.com^
 ||rmads.msn.com^
-||a.ads1.msn.com^
 ||ads.eu.msn.com^
 ||c.latam.msn.com^
 ||preview.msn.com^
@@ -49658,6 +49656,7 @@
 ||info.viewsonic.com^
 ||barnacle.viewsource.io^
 ||viewstracker.com^
+||smetrics.viewtabi.jp^
 ||viewtools.com^
 ||vigilantcitizen.com^
 ||viglink.com^

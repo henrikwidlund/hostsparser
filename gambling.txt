@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-19 00:53:48Z
+! Last Modified: 2022-01-19 06:19:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9105,6 +9105,8 @@
 ||sanl.champssports.com^
 ||chance.cz^
 ||chancehill.com^
+||eb6p0q0rtcjh.www.chandlerorchards.com^
+||q0b01xf3fs2q.www.chandlerorchards.com^
 ||chanekee.ga^
 ||chaneynail.com^
 ||changduk26.com^
@@ -52206,7 +52208,9 @@
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||global.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -53267,6 +53271,7 @@
 ||car40-apps.net.zooplus.de^
 ||car40-beta.net.zooplus.de^
 ||car40-mail.net.zooplus.de^
+||car40.corp.net.zooplus.de^
 ||car40latin.net.zooplus.de^
 ||cloud-data.net.zooplus.de^
 ||confluence.net.zooplus.de^

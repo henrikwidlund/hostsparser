@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-19 00:53:33Z
+! Last Modified: 2022-01-19 06:19:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18383,7 +18383,6 @@
 ||tracking.drivercenter.eu^
 ||go.drivers-work.com^
 ||driverxxx.com^
-||smetrics.driveshare.com^
 ||marketing.driveulu.com^
 ||drivingschoolburlington.ca^
 ||drivotracker.com^
@@ -67890,6 +67889,9 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||test.ad.xiaomi.com^
+||track.ad.xiaomi.com^
+||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
