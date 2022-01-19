@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-19 06:19:26Z
+! Last Modified: 2022-01-19 12:25:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -45401,6 +45401,7 @@
 ||pl-itemreserve.pw^
 ||apps.pl-kghm.com^
 ||pl-konto-order.me^
+||olx.pl-konto.cc^
 ||pl-konto.mobi^
 ||olx.pl-konto.xyz^
 ||pl-livemoney.xyz^
@@ -68116,6 +68117,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-19 06:19:08Z
+! Last Modified: 2022-01-19 12:25:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34372,8 +34372,6 @@
 ||oderkaopole.pl^
 ||odessa.com.pl^
 ||odevo.pl^
-||secureod.odfl.com^
-||odmarketing.odfl.com^
 ||odinbet.com^
 ||odkurzacze-sklep.pl^
 ||etrfxo.odlo.com^
@@ -54361,9 +54359,13 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
+||fr.adserver.yahoo.com^
+||es.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
