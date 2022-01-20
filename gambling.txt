@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-19 18:18:44Z
+! Last Modified: 2022-01-20 01:05:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31268,6 +31268,7 @@
 ||content.ndm.net^
 ||ndparking.com^
 ||splitter.ndsplitter.com^
+||connect.ndspro.com^
 ||ads.ndtv1.com^
 ||metric.nea.org^
 ||sdk.stat.foreign.nearme.com.cn^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-19 18:18:34Z
+! Last Modified: 2022-01-20 01:05:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -62995,6 +62995,8 @@
 ||vaccinewars.com^
 ||vaclib.org^
 ||vadecorso.pl^
+||banner.vadian.net^
+||analytics.vadian.net^
 ||ads.vador.com^
 ||vagabondbuty.com^
 ||vagabondpolska.com^
@@ -67446,11 +67448,9 @@
 ||xhwebsite.com^
 ||xhypnotube.com^
 ||xianyujc.com^
-||e.ad.xiaomi.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||diagnosis.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -68460,7 +68460,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
