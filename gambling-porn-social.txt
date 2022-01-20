@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-20 01:05:43Z
+! Last Modified: 2022-01-20 06:19:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14323,9 +14323,6 @@
 ||anouslab.cmail20.com^
 ||cmartketgitro0.info^
 ||news.cmatcherlink.com^
-||magic.cmcm.com^
-||tileswan.cmcm.com^
-||lcf.cmplay.cmcm.com^
 ||cmcxxmarket.com^
 ||cmdbet.com^
 ||go.cmegroup.com^
@@ -60228,7 +60225,6 @@
 ||toxamedia.com^
 ||t.toxbuddy.com^
 ||toxicjackpot.com^
-||ams.toxity.biz^
 ||info.toy-factory.jp^
 ||info.toyama-nishi.jp^
 ||toyella.com^
@@ -67559,6 +67555,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
