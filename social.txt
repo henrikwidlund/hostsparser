@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-20 12:26:26Z
+! Last Modified: 2022-01-20 18:18:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5118,6 +5118,7 @@
 ||gtsdk.batmobi.net^
 ||adxcallback.batmobi.net^
 ||batmobil.net^
+||info.battelle.org^
 ||gcirm.battlecreekenquirer.com^
 ||trout.batzo.net^
 ||international.bau.edu.tr^

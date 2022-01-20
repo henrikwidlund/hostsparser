@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-20 12:26:13Z
+! Last Modified: 2022-01-20 18:18:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -54521,11 +54521,9 @@
 ||go.siemon.com^
 ||go.siemonster.com^
 ||tracking.sierrawireless.com^
-||d.t.sieu-viet.com^
 ||sieumup.net^
 ||sifazen.com^
 ||prod.sift.co^
-||vabid.prod.sift.co^
 ||sift-campaign-creatives.sift.co^
 ||ads.sift.co.uk^
 ||dc.sify.com^
@@ -69804,8 +69802,6 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
-||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
