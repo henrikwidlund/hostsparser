@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-20 06:18:48Z
+! Last Modified: 2022-01-20 12:26:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -62072,7 +62072,6 @@
 ||nicole.totalsupercuties.com^
 ||jessica.totalsupercuties.com^
 ||stephanie.totalsupercuties.com^
-||galleries.jordan.totalsupercuties.com^
 ||smetrics.totalwine.com^
 ||totalworldnews.com^
 ||toteme.com^
@@ -67634,7 +67633,6 @@
 ||join1.winhundred.com^
 ||winin-spect.xyz^
 ||testwp.wink.deals^
-||marketing.net.wink.es^
 ||www2.winmagic.com^
 ||winmasters.com^
 ||winner.co.uk^
@@ -69712,6 +69710,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||cn.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -71095,6 +71094,7 @@
 ||net.zooplus.it^
 ||dii1.zooplus.it^
 ||dii2.zooplus.it^
+||trialail.net.zooplus.it^
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-20 06:18:45Z
+! Last Modified: 2022-01-20 12:26:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30126,6 +30126,9 @@
 ||indycasino.com^
 ||indyscribe.com^
 ||indystandard.com^
+||ads.indystar.com^
+||gcirm.indystar.com^
+||gcirm2.indystar.com^
 ||ineediscounts.com^
 ||chimpanzee.ines-papert.com^
 ||go.inese.es^

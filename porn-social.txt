@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-20 06:19:06Z
+! Last Modified: 2022-01-20 12:26:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29367,6 +29367,7 @@
 ||www91.intel.com^
 ||elqtrk.intel.com^
 ||connect.intel.com^
+||plan.seek.intel.com^
 ||techprovider.intel.com^
 ||elqtrk.thailand.intel.com^
 ||intelpartneralliance.intel.com^
@@ -64197,8 +64198,6 @@
 ||sdata.wiley.com^
 ||secure.wiley.com^
 ||tracker.wilgenrijk.nl^
-||mp.digital.wilhelmsen.com^
-||sa.digital.wilhelmsen.com^
 ||wilkiewicz.pl^
 ||willa-marina.pl^
 ||marketing.willamettewines.com^
@@ -65842,7 +65841,6 @@
 ||xtoplists.com^
 ||xtorjack.com^
 ||xtporntube.com^
-||ads.xtra.ca^
 ||ads.xtra.co.nz^
 ||xtrafic.ro^
 ||xtrajuicy.com^
@@ -66308,10 +66306,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

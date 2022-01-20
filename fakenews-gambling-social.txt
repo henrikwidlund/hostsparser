@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-20 06:18:50Z
+! Last Modified: 2022-01-20 12:26:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17069,6 +17069,7 @@
 ||esball.net^
 ||metrics.esbriet.com^
 ||smetrics.esbriet.com^
+||metrics.esbriethcp.com^
 ||metrics.escape.com.au^
 ||om.escapehomes.com^
 ||b.escardio.org^
