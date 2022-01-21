@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-20 18:18:16Z
+! Last Modified: 2022-01-21 00:54:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2516,6 +2516,7 @@
 ||adstogo.com^
 ||adstome.com^
 ||adstore.jp^
+||ads.adstream.com.ro^
 ||adstune.com^
 ||static.l3.cdn.adsucks.com^
 ||cctv.adsunion.com^
@@ -17057,8 +17058,6 @@
 ||insights.delmarcargo.com^
 ||stat.delo.ua^
 ||preferences.deloitte.ca^
-||sstats.deloitte.com^
-||perspectivas.deloitte.com^
 ||deloitteca.com^
 ||deloo.de^
 ||delorio.pl^
