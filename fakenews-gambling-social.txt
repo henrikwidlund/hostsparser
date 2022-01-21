@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-21 06:19:12Z
+! Last Modified: 2022-01-21 12:25:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23511,7 +23511,6 @@
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
 ||keyserver.ijinshan.com^
-||lbdata.tj.ijinshan.com^
 ||info.ijungo.com^
 ||ikbox.org^
 ||icas.ikea.com^
@@ -55477,6 +55476,7 @@
 ||dev-car40.net.zooplus.de^
 ||devopsail.net.zooplus.de^
 ||geral.vpn.net.zooplus.de^
+||iad.csr11.net.zooplus.de^
 ||login-dev.net.zooplus.de^
 ||maprdhcx1.net.zooplus.de^
 ||marketing.net.zooplus.de^

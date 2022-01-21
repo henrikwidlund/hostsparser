@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-21 06:19:31Z
+! Last Modified: 2022-01-21 12:26:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24631,8 +24631,6 @@
 ||goodpornotube.net^
 ||www2.goodpractice.com^
 ||ads.goodreads.com^
-||email.goodrx.com^
-||email-staging.goodrx.com^
 ||inpost-pl.goodspurchase.pw^
 ||goodteentube.com^
 ||link.notifications.goodu.se^
@@ -69153,6 +69151,7 @@
 ||csr31mail01.net.zooplus.de^
 ||csr41beta-m.net.zooplus.de^
 ||csrmailjet1.net.zooplus.de^
+||cvs-ctl.api.net.zooplus.de^
 ||europecsr31.net.zooplus.de^
 ||mail01csr41.net.zooplus.de^
 ||productions.net.zooplus.de^
@@ -69178,6 +69177,7 @@
 ||csr41paywall.net.zooplus.de^
 ||ctl.api.pass.net.zooplus.de^
 ||ctl.cloudapi.net.zooplus.de^
+||ctl.kube.api.net.zooplus.de^
 ||devops-csr31.net.zooplus.de^
 ||ssl-merchant.net.zooplus.de^
 ||system-car40.net.zooplus.de^
