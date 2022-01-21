@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-21 00:54:18Z
+! Last Modified: 2022-01-21 06:19:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17004,6 +17004,8 @@
 ||smetrics.equitable.com^
 ||equitablyethionamides.com^
 ||knowledge.equitymethods.com^
+||e.equuscs.com^
+||info.equuscs.com^
 ||zip.er.cz^
 ||efhcel.erborian.ru^
 ||ads.ere.net^
@@ -23509,6 +23511,7 @@
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
 ||keyserver.ijinshan.com^
+||lbdata.tj.ijinshan.com^
 ||info.ijungo.com^
 ||ikbox.org^
 ||icas.ikea.com^

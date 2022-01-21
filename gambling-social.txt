@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-21 00:54:29Z
+! Last Modified: 2022-01-21 06:19:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19024,6 +19024,10 @@
 ||future-bussines.info^
 ||future-idea.site^
 ||futureadpro.com^
+||coin.futureex.site^
+||star.futureex.site^
+||first.futureex.site^
+||gcoin.futureex.site^
 ||go.futurehealthbiobank.com^
 ||futurenet.club^
 ||track.futureshop.ca^

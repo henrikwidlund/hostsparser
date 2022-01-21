@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-21 00:54:11Z
+! Last Modified: 2022-01-21 06:19:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17058,6 +17058,8 @@
 ||insights.delmarcargo.com^
 ||stat.delo.ua^
 ||preferences.deloitte.ca^
+||sstats.deloitte.com^
+||perspectivas.deloitte.com^
 ||deloitteca.com^
 ||deloo.de^
 ||delorio.pl^
@@ -27923,8 +27925,6 @@
 ||info.hitachi-lg.com^
 ||elqtracking.hitachi-powergrids.com^
 ||plp.hitachi-solutions-create.co.jp^
-||go.hitachi-solutions.co.jp^
-||spscas.hitachi-solutions.co.jp^
 ||go.marketing.hitachi-systems-security.com^
 ||air.hitachiaircon.com^
 ||go.hitachienergy.com^
@@ -71051,6 +71051,7 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
