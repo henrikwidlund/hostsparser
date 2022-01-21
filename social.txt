@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-21 12:26:04Z
+! Last Modified: 2022-01-21 18:19:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1049,6 +1049,7 @@
 ||94cdn.com^
 ||951nowosc.site^
 ||pl-inpost.956893.site^
+||vinted-pl.9587343.space^
 ||tempinfo.96.lt^
 ||961.com^
 ||smetrics.963bigfm.com^
@@ -11191,7 +11192,6 @@
 ||d2c8v52ll5s99u.cloudfront.net^
 ||d24n15hnbwhuhn.cloudfront.net^
 ||d1jikhx1ssl81z.cloudfront.net^
-||d1lxhc4jvstzrp.cloudfront.net^
 ||d2zah9y47r7bi2.cloudfront.net^
 ||d1piupybsgr6dr.cloudfront.net^
 ||d2vig74li2resi.cloudfront.net^
@@ -50948,6 +50948,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||br.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
