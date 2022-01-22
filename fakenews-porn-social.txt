@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-22 12:24:20Z
+! Last Modified: 2022-01-22 18:17:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42600,6 +42600,7 @@
 ||std.o.nytimes.com^
 ||als-svc.nytimes.com^
 ||nytadvertising.nytimes.com^
+||www2.nytimesgroupsubscriptions.com^
 ||nytva-nmz.ru^
 ||act.online.engineering.nyu.edu^
 ||smetrics.nyulangone.org^
@@ -46888,7 +46889,6 @@
 ||pl-saleorders.casa^
 ||pl-saleorders.xyz^
 ||olx.pl-save.work^
-||inpost.pl-savecash.life^
 ||inpost.pl-savecash.live^
 ||pl-savedeals.xyz^
 ||olx.pl-savedpay.cyou^
@@ -68797,7 +68797,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

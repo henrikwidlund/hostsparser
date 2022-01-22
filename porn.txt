@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-22 12:24:36Z
+! Last Modified: 2022-01-22 18:18:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -54589,6 +54589,7 @@
 ||cdn.split.io^
 ||sdk.split.io^
 ||auth.split.io^
+||959cad30.api.splkmobile.com^
 ||splodgetimberman.com^
 ||splove.com.br^
 ||splubotyn.pl^

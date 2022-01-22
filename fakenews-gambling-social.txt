@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-22 12:24:17Z
+! Last Modified: 2022-01-22 18:17:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7463,6 +7463,11 @@
 ||banner.boostbox.com.br^
 ||boostedfactory.com^
 ||go.boosterusa.com^
+||toevgi.boostmobile.com^
+||metrics.boostmobile.com^
+||smetrics.boostmobile.com^
+||nmetrics.boostmobile.com^
+||sappmetrics.boostmobile.com^
 ||boostsoftware.com^
 ||simple.bootify.io^
 ||bootspoland.com^
