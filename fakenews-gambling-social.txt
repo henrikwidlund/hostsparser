@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-21 18:18:45Z
+! Last Modified: 2022-01-22 00:53:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28582,6 +28582,7 @@
 ||smetrics.lww.com^
 ||lycomingnews.com^
 ||lyconet.com^
+||adserver.lycos.co.jp^
 ||ads.tripod.lycos.co.uk^
 ||hit.webcentre.lycos.co.uk^
 ||cm8.lycos.com^
@@ -53977,6 +53978,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||a.stat.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -54411,6 +54413,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -55531,6 +55534,7 @@
 ||csr41beta-m.net.zooplus.de^
 ||csrmailjet1.net.zooplus.de^
 ||europecsr31.net.zooplus.de^
+||jenkins.api.net.zooplus.de^
 ||mail01csr41.net.zooplus.de^
 ||productions.net.zooplus.de^
 ||stg.idsmgmt.net.zooplus.de^

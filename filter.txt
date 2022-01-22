@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-21 18:18:40Z
+! Last Modified: 2022-01-22 00:53:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -48133,7 +48133,6 @@
 ||stats.pointflottant.com^
 ||pointsbet.com^
 ||admin.classified.pointsource.ng^
-||ubvsjh.pointtown.com^
 ||poiuy12.com^
 ||poivesbedardemar.cf^
 ||pojadetam.pl^
@@ -71054,6 +71053,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||europe.adserver.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

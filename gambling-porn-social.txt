@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-21 18:18:55Z
+! Last Modified: 2022-01-22 00:53:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32727,7 +32727,6 @@
 ||konflow.com^
 ||go.konghq.com^
 ||analytics.kongregate.io^
-||stats.kongressen.com^
 ||koniecikroppka.website^
 ||koniecznynedzny.site^
 ||konimkan.com^
@@ -40846,6 +40845,7 @@
 ||nfarm.org^
 ||nfbio.com^
 ||nfbusty.com^
+||metrics.nfl.com^
 ||strack.europe.nflshop.com^
 ||metrics.nfm.com^
 ||nfnry.store^
@@ -69416,6 +69416,7 @@
 ||net.zooplus.it^
 ||dii1.zooplus.it^
 ||dii2.zooplus.it^
+||authing.net.zooplus.it^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
 ||baon.net.zooplus.nl^
