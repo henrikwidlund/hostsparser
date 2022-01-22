@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-22 06:18:20Z
+! Last Modified: 2022-01-22 12:24:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28872,7 +28872,6 @@
 ||top.mail.ru^
 ||top5.mail.ru^
 ||1l-view.mail.ru^
-||d6.c5.b0.a2.top.mail.ru^
 ||ads.mail3x.com^
 ||track.mailalert.io^
 ||sats.mailbrew.com^
@@ -43421,6 +43420,7 @@
 ||shelbyreview.com^
 ||go.shelf.io^
 ||go.shelfengine.com^
+||stats.shell-tips.com^
 ||smetrics.shell.co.uk^
 ||scmetrics.shell.com^
 ||lubricants.shell.com^
@@ -54288,7 +54288,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||fr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -54424,7 +54423,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst1.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

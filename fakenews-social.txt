@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-22 06:18:24Z
+! Last Modified: 2022-01-22 12:24:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6963,6 +6963,9 @@
 ||links.t.blueapron.com^
 ||blueazure.pl^
 ||go.bluebeam.com^
+||cdn.bluebillywig.com^
+||vms.bluebillywig.com^
+||pbs.bluebillywig.com^
 ||somni.bluebird.com^
 ||blueblack.website^
 ||js.blueblade.co.jp^
@@ -47769,7 +47772,6 @@
 ||tores.xyz^
 ||info.torfx.com^
 ||torgi.kz^
-||go.toriaez.jp^
 ||www2.torix-corp.com^
 ||torjackan.info^
 ||torn6back.com^
@@ -53523,7 +53525,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

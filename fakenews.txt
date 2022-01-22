@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-22 06:18:26Z
+! Last Modified: 2022-01-22 12:24:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15751,10 +15751,12 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||ssum.casalemedia.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||wildcard.marketo.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -54064,6 +54066,7 @@
 ||appsserver.net.zooplus.de^
 ||billinging.net.zooplus.de^
 ||brandcsr31.net.zooplus.de^
+||bucket.api.net.zooplus.de^
 ||bucket.owa.net.zooplus.de^
 ||bullockowa.net.zooplus.de^
 ||car40-apps.net.zooplus.de^

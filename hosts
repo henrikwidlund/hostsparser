@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-22 06:18:14Z
+! Last Modified: 2022-01-22 12:24:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12414,7 +12414,6 @@
 ||oms.cityline.tv^
 ||ads.citymagazine.si^
 ||info.citymarketingamersfoort.nl^
-||poisonangel.citymax.com^
 ||oms.citynews.ca^
 ||cdn.ad.citynews.it^
 ||cityodyssey.com^
@@ -61159,8 +61158,6 @@
 ||tracking.ti.com^
 ||tracking.mail.ti.com^
 ||trackinginternal.ti.com^
-||tracking.ti.com.cn^
-||tracking.mail.ti.com.cn^
 ||smetrics.tiaa-cref.org^
 ||metrics.tiaa.org^
 ||smetrics.tiaa.org^
@@ -65477,6 +65474,7 @@
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
+||httpkafka.unityads.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
@@ -70415,6 +70413,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||xiaoxiurong.com^
