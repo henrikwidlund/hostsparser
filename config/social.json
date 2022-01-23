@@ -1,7 +1,18 @@
 {
-  "HostsBased": {
-    "SourceUris": [
-      "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts"
+  "Filters": {
+    "Sources": [
+      {
+        "Uri": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts",
+        "Prefix": "0.0.0.0 ",
+        "Format": "Hosts",
+        "SourceAction": "Combine"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      }
     ],
     "SkipLines": [
       "127.0.0.1 localhost",
@@ -20,11 +31,6 @@
       "0.0.0.0 0.0.0.0",
       "0.0.0.0 fe #00::0 ip6-localnet",
       "0.0.0.0 ff #00::0 ip6-mcastprefix"
-    ]
-  },
-  "AdBlockBased": {
-    "SourceUris": [
-      "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
     ]
   },
   "ExtraFiltering": false,

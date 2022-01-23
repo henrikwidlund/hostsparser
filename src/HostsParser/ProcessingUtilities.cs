@@ -11,14 +11,14 @@ namespace HostsParser
         /// <summary>
         /// Attempts to remove all sub domain entries in <paramref name="sortedDnsList"/>
         /// that are otherwise covered by a main domain in the same collection.
-        /// Any entries in <paramref name="adBlockBasedLines"/> that also exist in <paramref name="sortedDnsList"/>
+        /// Any entries in <paramref name="externalCoverageLines"/> that also exist in <paramref name="sortedDnsList"/>
         /// will also be removed from the returned value.
         /// </summary>
         /// <param name="sortedDnsList">The collection for which sub domains will be removed from.</param>
-        /// <param name="adBlockBasedLines">Collection of domains considered to be covered by another source.</param>
+        /// <param name="externalCoverageLines">Collection of domains considered to be covered by another source.</param>
         /// <param name="filteredCache">Cache used by the method to store items that should be removed.</param>
         public static List<string> ProcessCombined(List<string> sortedDnsList,
-            HashSet<string> adBlockBasedLines,
+            HashSet<string> externalCoverageLines,
             HashSet<string> filteredCache)
         {
             filteredCache.Clear();
@@ -40,7 +40,7 @@ namespace HostsParser
             // We only need to check for domains/sub domains covered by AdBlock based file
             // in the code above, after that sub domains covered by AdBlock based file will be gone
             // and the domains in the file can be discarded.
-            sortedDnsList.RemoveAll(adBlockBasedLines.Contains);
+            sortedDnsList.RemoveAll(externalCoverageLines.Contains);
 
             sortedDnsList.RemoveAll(filteredCache.Contains);
             sortedDnsList = CollectionUtilities.SortDnsList(sortedDnsList);
@@ -51,15 +51,15 @@ namespace HostsParser
         /// <summary>
         /// Attempts to remove all sub domain entries in <paramref name="sortedDnsList"/>
         /// that are otherwise covered by a main domain in the same collection.
-        /// Any entries in <paramref name="adBlockBasedLines"/> that also exist in <paramref name="sortedDnsList"/>
+        /// Any entries in <paramref name="externalCoverageLines"/> that also exist in <paramref name="sortedDnsList"/>
         /// will also be removed from the returned value.
         /// </summary>
         /// <param name="sortedDnsList">The collection for which sub domains will be removed from.</param>
-        /// <param name="adBlockBasedLines">Collection of domains considered to be covered by another source.</param>
+        /// <param name="externalCoverageLines">Collection of domains considered to be covered by another source.</param>
         /// <param name="filteredCache">Cache used by the method to store items that should be removed.</param>
         public static List<string> ProcessCombinedWithMultipleRounds(
             List<string> sortedDnsList,
-            HashSet<string> adBlockBasedLines,
+            HashSet<string> externalCoverageLines,
             HashSet<string> filteredCache)
         {
             var round = 0;
@@ -83,7 +83,7 @@ namespace HostsParser
                 // and we don't want to process unnecessary entries or produce a file containing
                 // lines contained in the AdBlock based file 
                 if (round == 1)
-                    sortedDnsList.RemoveAll(adBlockBasedLines.Contains);
+                    sortedDnsList.RemoveAll(externalCoverageLines.Contains);
 
                 sortedDnsList.RemoveAll(filteredCache.Contains);
                 sortedDnsList = CollectionUtilities.SortDnsList(sortedDnsList);
@@ -94,18 +94,18 @@ namespace HostsParser
 
         /// <summary>
         /// Removes sub domains in <paramref name="sortedDnsList"/> that are covered by a main domain
-        /// in <paramref name="adBlockBasedLines"/>.
-        /// This is a slow process since it for each item in <paramref name="adBlockBasedLines"/> has
+        /// in <paramref name="externalCoverageLines"/>.
+        /// This is a slow process since it for each item in <paramref name="externalCoverageLines"/> has
         /// to loop over all items in <paramref name="sortedDnsList"/>.
         /// </summary>
         /// <param name="sortedDnsList">The collection for which sub domains will be removed from.</param>
-        /// <param name="adBlockBasedLines">Collection of domains considered to be covered by another source.</param>
+        /// <param name="externalCoverageLines">Collection of domains considered to be covered by another source.</param>
         /// <param name="filteredCache">Cache used by the method to store items that should be removed.</param>
         public static List<string> ProcessWithExtraFiltering(List<string> sortedDnsList,
-            HashSet<string> adBlockBasedLines,
+            HashSet<string> externalCoverageLines,
             HashSet<string> filteredCache)
         {
-            Parallel.ForEach(CollectionUtilities.SortDnsList(adBlockBasedLines), item =>
+            Parallel.ForEach(CollectionUtilities.SortDnsList(externalCoverageLines), item =>
             {
                 for (var i = 0; i < sortedDnsList.Count; i++)
                 {

@@ -53,20 +53,21 @@ namespace HostsParser.Benchmarks
             HostUtilities
                 .ProcessHostsBased(hostsBasedLines,
                     stream,
-                    BenchmarkTestData.Settings.HostsBased.SkipLinesBytes,
+                    BenchmarkTestData.Settings.Filters.SkipLinesBytes,
+                    BenchmarkTestData.Settings.Filters.Sources[0].SourcePrefixes,
                     BenchmarkTestData.Decoder)
                 .GetAwaiter().GetResult();
 
             stream = PrepareStream();
-            var adBlockBasedLines = new HashSet<string>(50_000);
-            HostUtilities.ProcessAdBlockBased(adBlockBasedLines,
+            var externalCoverageLines = new HashSet<string>(50_000);
+            HostUtilities.ProcessAdBlockBased(externalCoverageLines,
                     stream,
                     BenchmarkTestData.Decoder)
                 .GetAwaiter().GetResult();
 
             stream.Dispose();
 
-            hostsBasedLines.UnionWith(adBlockBasedLines);
+            hostsBasedLines.UnionWith(externalCoverageLines);
 
             yield return hostsBasedLines;
         }

@@ -43,6 +43,7 @@ namespace HostsParser.Tests
             var skipLines = new[] { "some bad line", "another bad line", "0.0.0.0 0.0.0.0" }
                 .Select(s => Encoding.UTF8.GetBytes(s))
                 .ToArray();
+            const string Prefix = "0.0.0.0 ";
             var expected = new HashSet<string> { "dns-a.com", "dns-b.com", "dns-c.com" };
             await using var memoryStream = new MemoryStream();
             await using var streamWriter = new StreamWriter(memoryStream);
@@ -54,7 +55,7 @@ namespace HostsParser.Tests
             var dnsCollection = new HashSet<string>();
 
             // Act
-            await HostUtilities.ProcessHostsBased(dnsCollection, memoryStream, skipLines, decoder);
+            await HostUtilities.ProcessHostsBased(dnsCollection, memoryStream, skipLines, new SourcePrefixes(Prefix), decoder);
 
             // Assert
             dnsCollection.Should().NotBeEmpty();

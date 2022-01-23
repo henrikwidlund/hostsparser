@@ -24,13 +24,13 @@ namespace HostsParser.Tests
                 "1.2.second.co.jp"
             };
 
-            var adBlockBasedLines = new HashSet<string> { "first.com" };
+            var externalCoverageLines = new HashSet<string> { "first.com" };
             var filteredCache = new HashSet<string>();
             var expected = new List<string> { "dns.com", "second.co.jp" };
 
             // Act
             sortedDnsList = ProcessingUtilities.ProcessCombined(sortedDnsList,
-                adBlockBasedLines,
+                externalCoverageLines,
                 filteredCache);
 
             // Assert
@@ -54,13 +54,13 @@ namespace HostsParser.Tests
                 "1.2.second.co.jp"
             };
 
-            var adBlockBasedLines = new HashSet<string> { "first.com" };
+            var externalCoverageLines = new HashSet<string> { "first.com" };
             var filteredCache = new HashSet<string>();
             var expected = new List<string> { "dns.com", "second.co.jp" };
 
             // Act
             sortedDnsList = ProcessingUtilities.ProcessCombinedWithMultipleRounds(sortedDnsList,
-                adBlockBasedLines,
+                externalCoverageLines,
                 filteredCache);
 
             // Assert
@@ -84,13 +84,13 @@ namespace HostsParser.Tests
                 "1.2.second.co.jp"
             };
 
-            var adBlockBasedLines = new HashSet<string> { "first.com", "second.co.jp" };
+            var externalCoverageLines = new HashSet<string> { "first.com", "second.co.jp" };
             var filteredCache = new HashSet<string>();
             var expected = new List<string> { "dns.com", "first.com", "second.co.jp" };
 
             // Act
             sortedDnsList = ProcessingUtilities.ProcessWithExtraFiltering(sortedDnsList,
-                adBlockBasedLines,
+                externalCoverageLines,
                 filteredCache);
 
             // Assert

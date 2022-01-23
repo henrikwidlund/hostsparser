@@ -2,7 +2,6 @@
 // GNU General Public License v3.0
 
 using System;
-using System.Text;
 
 namespace HostsParser
 {
@@ -15,9 +14,6 @@ namespace HostsParser
         internal const byte Tab = (byte)'\t';
         internal const char DotSign = '.';
         internal const byte HashSign = (byte)'#';
-        internal static readonly byte[] NxIpWithWww = Encoding.UTF8.GetBytes("0.0.0.0 www.");
-        internal static readonly byte[] NxIpWithSpace = Encoding.UTF8.GetBytes("0.0.0.0 ");
-
         internal readonly ref struct TopDomains
         {
             internal static ReadOnlySpan<char> Co => "co".AsSpan();
