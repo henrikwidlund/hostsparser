@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-23 16:49:16Z
+! Last Modified: 2022-01-23 18:17:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24648,6 +24648,7 @@
 ||koala.getslopes.com^
 ||getsmart.com^
 ||hades.getsocial.im^
+||analytics.getsocialeyes.com^
 ||getspecialgifts.com^
 ||go.gett.com^
 ||getteentube.com^
@@ -37417,7 +37418,6 @@
 ||ns1.microsoftonlines.net^
 ||ns2.microsoftonlines.net^
 ||update.microsoftonlines.net^
-||login.microsoftorline.com^
 ||microsoftsupport.xyz^
 ||microstatic.pl^
 ||microticker.com^
@@ -70138,8 +70138,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
-||sg.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

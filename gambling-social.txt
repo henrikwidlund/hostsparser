@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-23 16:49:24Z
+! Last Modified: 2022-01-23 18:17:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14446,7 +14446,6 @@
 ||ads.dkelseymedia.com^
 ||news48.dkonto.pl^
 ||zdjecie-facebook-zdj3425jeio.dkonto.pl^
-||protection.dkpolice.com^
 ||contact.dksh.com^
 ||dkvapitest.com^
 ||i1.dl-ad.com^
@@ -15820,7 +15819,6 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
-||wildcard.owneriq.net.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -48286,6 +48284,7 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
+||config.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^

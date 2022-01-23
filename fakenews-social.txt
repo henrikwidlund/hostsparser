@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-23 16:49:17Z
+! Last Modified: 2022-01-23 18:17:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -53527,7 +53527,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -53661,6 +53660,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst9.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
@@ -54671,7 +54671,6 @@
 ||csr41paywall.net.zooplus.de^
 ||ctl.api.pass.net.zooplus.de^
 ||ctl.cloudapi.net.zooplus.de^
-||ctl.kube.api.net.zooplus.de^
 ||devops-csr31.net.zooplus.de^
 ||ssl-merchant.net.zooplus.de^
 ||system-car40.net.zooplus.de^
