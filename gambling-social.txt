@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-23 00:55:59Z
+! Last Modified: 2022-01-23 06:18:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -387,6 +387,7 @@
 ||pl-dpd.2642369.space^
 ||pl-lnpost.2642369.space^
 ||polska-poczta.2642369.space^
+||inpost-pl.2653356-offerts.xyz^
 ||26vulkanvegas.com^
 ||271395.com^
 ||27vulkanvegas.com^
@@ -36195,7 +36196,6 @@
 ||lnpost.pl-1529100.site^
 ||lnpost.pl-160124131.site^
 ||lnpost.pl-160140931.site^
-||lnpost.pl-160529013.online^
 ||lnpost.pl-16290125.xyz^
 ||lnpost.pl-165521202.xyz^
 ||lnpost.pl-16951200.xyz^
@@ -52618,12 +52618,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-23 00:55:38Z
+! Last Modified: 2022-01-23 06:18:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18284,6 +18284,8 @@
 ||doeda.com^
 ||doesok.top^
 ||dofinasowanieregionalne.pl^
+||ads.dofunapps.com^
+||sdk.dofunapps.com^
 ||dog-fuck.com^
 ||doga.cm^
 ||jcpjfyikk.dogbonemarket.com^
@@ -21158,6 +21160,7 @@
 ||ad.eurosport.com^
 ||ssa.eurosport.com^
 ||ssa.eurosport.cz^
+||ssa.eurosport.de^
 ||ssa.eurosport.es^
 ||ssa.eurosport.fi^
 ||ssa.eurosport.fr^
@@ -39477,13 +39480,6 @@
 ||elqtrk.morningstar.be^
 ||elqtrk.morningstar.ca^
 ||elqtrk.morningstar.co.uk^
-||go.morningstar.com^
-||ads.morningstar.com^
-||elqtrk.morningstar.com^
-||elqtrk.hk.morningstar.com^
-||elqtrk.my.morningstar.com^
-||elqtrk.sg.morningstar.com^
-||elqtrk.tw.morningstar.com^
 ||go.morningstar.com.au^
 ||elqtrk.morningstar.com.mx^
 ||elqtrk.morningstar.de^
@@ -65473,7 +65469,6 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
-||cdn.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^

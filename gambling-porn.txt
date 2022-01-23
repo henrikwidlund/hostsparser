@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-23 00:55:57Z
+! Last Modified: 2022-01-23 06:18:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19146,6 +19146,7 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
+||a.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -19165,6 +19166,7 @@
 ||spotxcdn.com.edgekey.net^
 ||yieldlab.net.edgekey.net^
 ||secure-adnxs.edgekey.net^
+||cdn.teads.tv.edgekey.net^
 ||adservrs.com.edgekey.net^
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
@@ -19178,7 +19180,10 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
+||ma562-r.analytics.edgekey.net^
+||ma788-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma156-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -19191,6 +19196,7 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
+||dsum-sec.casalemedia.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -70668,7 +70674,6 @@
 ||csr1prd.net.zooplus.de^
 ||csraws1.net.zooplus.de^
 ||csrvpn1.net.zooplus.de^
-||ctl.api.net.zooplus.de^
 ||ctl.org.net.zooplus.de^
 ||dataapi.net.zooplus.de^
 ||stg.owa.net.zooplus.de^

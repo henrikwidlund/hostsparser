@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-23 00:56:04Z
+! Last Modified: 2022-01-23 06:18:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23224,6 +23224,7 @@
 ||g-mailpoczta.pl^
 ||pl.g-pay.me^
 ||smetrics.g-shock.com^
+||smetrics.g-shock.jp^
 ||www2.g-veggie.com^
 ||g0o.cc^
 ||g0o.me^
@@ -68019,7 +68020,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -69378,6 +69378,7 @@
 ||vlan80.net.zooplus.de^
 ||2-panel.net.zooplus.de^
 ||7secret.net.zooplus.de^
+||adm.api.net.zooplus.de^
 ||api.old.net.zooplus.de^
 ||app-ssl.net.zooplus.de^
 ||aws-owa.net.zooplus.de^
@@ -69494,6 +69495,7 @@
 ||csr11-asana.net.zooplus.de^
 ||csr12-login.net.zooplus.de^
 ||csr12-tiger.net.zooplus.de^
+||csr12.csr41.net.zooplus.de^
 ||csr31mail01.net.zooplus.de^
 ||csr41beta-m.net.zooplus.de^
 ||csrmailjet1.net.zooplus.de^
@@ -69872,7 +69874,6 @@
 ||net.zooplus.it^
 ||dii1.zooplus.it^
 ||dii2.zooplus.it^
-||portal-gw.net.zooplus.it^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
 ||baon.net.zooplus.nl^

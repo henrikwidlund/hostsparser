@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-23 00:55:55Z
+! Last Modified: 2022-01-23 06:18:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22678,7 +22678,6 @@
 ||food-offer.com^
 ||food-voucher.com^
 ||ssa.food.com^
-||plausible.food.game^
 ||secure.food9wave.com^
 ||foodandcot.com^
 ||foodeveryhour.com^
@@ -45886,6 +45885,8 @@
 ||pbox.photobox.ch^
 ||pbox.photobox.co.nz^
 ||pbox.photobox.co.uk^
+||tck.photobox.com^
+||pbox.no.photobox.com^
 ||pbox.photobox.com.au^
 ||pbox.photobox.dk^
 ||pbox.photobox.es^
