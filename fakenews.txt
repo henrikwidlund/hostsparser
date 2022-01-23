@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-23 06:18:48Z
+! Last Modified: 2022-01-23 12:24:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13763,7 +13763,6 @@
 ||desertsafaridxb.com^
 ||desgroup.online^
 ||deshmedia.com^
-||tr.news.deshotelsetdesiles.com^
 ||freememes.desiceleb.top^
 ||desifever.com^
 ||designbloxlive.com^
@@ -15747,6 +15746,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma156-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -54004,7 +54004,6 @@
 ||csr1prd.net.zooplus.de^
 ||csraws1.net.zooplus.de^
 ||csrvpn1.net.zooplus.de^
-||ctl.api.net.zooplus.de^
 ||ctl.org.net.zooplus.de^
 ||dataapi.net.zooplus.de^
 ||stg.owa.net.zooplus.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-23 06:18:52Z
+! Last Modified: 2022-01-23 12:25:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3126,9 +3126,6 @@
 ||alshamselectrodxb.com^
 ||pages.alsi.co.jp^
 ||alskd34.com^
-||ads.alt.com^
-||banners.alt.com^
-||adserver.alt.com^
 ||stat.altalex.com^
 ||api.altamob.com^
 ||altaninvestment.com^
@@ -36196,6 +36193,7 @@
 ||lnpost.pl-1529100.site^
 ||lnpost.pl-160124131.site^
 ||lnpost.pl-160140931.site^
+||lnpost.pl-160529013.online^
 ||lnpost.pl-16290125.xyz^
 ||lnpost.pl-165521202.xyz^
 ||lnpost.pl-16951200.xyz^
@@ -52620,7 +52618,6 @@
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^

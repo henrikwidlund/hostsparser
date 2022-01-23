@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-23 06:18:37Z
+! Last Modified: 2022-01-23 12:24:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39480,6 +39480,13 @@
 ||elqtrk.morningstar.be^
 ||elqtrk.morningstar.ca^
 ||elqtrk.morningstar.co.uk^
+||go.morningstar.com^
+||ads.morningstar.com^
+||elqtrk.morningstar.com^
+||elqtrk.hk.morningstar.com^
+||elqtrk.my.morningstar.com^
+||elqtrk.sg.morningstar.com^
+||elqtrk.tw.morningstar.com^
 ||go.morningstar.com.au^
 ||elqtrk.morningstar.com.mx^
 ||elqtrk.morningstar.de^
@@ -51195,6 +51202,7 @@
 ||ad.qq.com^
 ||fw.qq.com^
 ||rh.qq.com^
+||c.l.qq.com^
 ||rs1.qq.com^
 ||rs2.qq.com^
 ||msdk.qq.com^
