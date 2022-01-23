@@ -20,24 +20,24 @@ is processed to exclude entries already covered by the [AdGuard DNS Filter](http
 ### Pre-built filters
 The filter files are generated every six hours and are available for download in the table below. You are welcome to create a feature request should you want more pre-built filters.
 
-| Filter | Link |
-|---|---|
-|`Unified hosts` = `adware` + `malware`|[link](https://henrikwidlund.github.io/hostsparser/adware-malware.txt)|
-|`Unified hosts` + `fakenews`|[link](https://henrikwidlund.github.io/hostsparser/fakenews.txt)|
-|`Unified hosts` + `fakenews` + `gambling`|[link](https://henrikwidlund.github.io/hostsparser/fakenews-gambling.txt)|
-|`Unified hosts` + `fakenews` + `gambling` + `porn`|[link](https://henrikwidlund.github.io/hostsparser/filter.txt)|
-|`Unified hosts` + `fakenews` + `gambling` + `porn` + `social`|[link](https://henrikwidlund.github.io/hostsparser/fakenews-gambling-porn-social.txt)|
-|`Unified hosts` + `fakenews` + `gambling` + `social`|[link](https://henrikwidlund.github.io/hostsparser/fakenews-gambling-social.txt)|
-|`Unified hosts` + `fakenews` + `porn`|[link](https://henrikwidlund.github.io/hostsparser/fakenews-porn.txt)|
-|`Unified hosts` + `fakenews` + `porn` + `social`|[link](https://henrikwidlund.github.io/hostsparser/fakenews-porn-social.txt)|
-|`Unified hosts` + `fakenews` + `social`|[link](https://henrikwidlund.github.io/hostsparser/fakenews-social.txt)|
-|`Unified hosts` + `gambling`|[link](https://henrikwidlund.github.io/hostsparser/gambling.txt)|
-|`Unified hosts` + `gambling` + `porn`|[link](https://henrikwidlund.github.io/hostsparser/gambling-porn.txt)|
-|`Unified hosts` + `gambling` + `porn` + `social`|[link](https://henrikwidlund.github.io/hostsparser/gambling-porn-social.txt)|
-|`Unified hosts` + `gambling` + `social`|[link](https://henrikwidlund.github.io/hostsparser/gambling-social.txt)|
-|`Unified hosts` + `porn`|[link](https://henrikwidlund.github.io/hostsparser/porn.txt)|
-|`Unified hosts` + `porn` + `social`|[link](https://henrikwidlund.github.io/hostsparser/porn-social.txt)|
-|`Unified hosts` + `social`|[link](https://henrikwidlund.github.io/hostsparser/social.txt)|
+| Filter                                                        | Link                                                                                  |
+|---------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| `Unified hosts` = `adware` + `malware`                        | [link](https://henrikwidlund.github.io/hostsparser/adware-malware.txt)                |
+| `Unified hosts` + `fakenews`                                  | [link](https://henrikwidlund.github.io/hostsparser/fakenews.txt)                      |
+| `Unified hosts` + `fakenews` + `gambling`                     | [link](https://henrikwidlund.github.io/hostsparser/fakenews-gambling.txt)             |
+| `Unified hosts` + `fakenews` + `gambling` + `porn`            | [link](https://henrikwidlund.github.io/hostsparser/filter.txt)                        |
+| `Unified hosts` + `fakenews` + `gambling` + `porn` + `social` | [link](https://henrikwidlund.github.io/hostsparser/fakenews-gambling-porn-social.txt) |
+| `Unified hosts` + `fakenews` + `gambling` + `social`          | [link](https://henrikwidlund.github.io/hostsparser/fakenews-gambling-social.txt)      |
+| `Unified hosts` + `fakenews` + `porn`                         | [link](https://henrikwidlund.github.io/hostsparser/fakenews-porn.txt)                 |
+| `Unified hosts` + `fakenews` + `porn` + `social`              | [link](https://henrikwidlund.github.io/hostsparser/fakenews-porn-social.txt)          |
+| `Unified hosts` + `fakenews` + `social`                       | [link](https://henrikwidlund.github.io/hostsparser/fakenews-social.txt)               |
+| `Unified hosts` + `gambling`                                  | [link](https://henrikwidlund.github.io/hostsparser/gambling.txt)                      |
+| `Unified hosts` + `gambling` + `porn`                         | [link](https://henrikwidlund.github.io/hostsparser/gambling-porn.txt)                 |
+| `Unified hosts` + `gambling` + `porn` + `social`              | [link](https://henrikwidlund.github.io/hostsparser/gambling-porn-social.txt)          |
+| `Unified hosts` + `gambling` + `social`                       | [link](https://henrikwidlund.github.io/hostsparser/gambling-social.txt)               |
+| `Unified hosts` + `porn`                                      | [link](https://henrikwidlund.github.io/hostsparser/porn.txt)                          |
+| `Unified hosts` + `porn` + `social`                           | [link](https://henrikwidlund.github.io/hostsparser/porn-social.txt)                   |
+| `Unified hosts` + `social`                                    | [link](https://henrikwidlund.github.io/hostsparser/social.txt)                        |
 
 ### Adding the filters via UI
 ![Adding the filter](https://user-images.githubusercontent.com/4659350/129190970-bf26b383-b28d-4783-882b-372a9fe3afb8.gif)
@@ -136,26 +136,28 @@ The `filter.txt` file will be put into the repository root.
 ## Configuration
 You may adjust the configuration of the application by modifying the `appsettings.json` file.
 
-| Property | Type | Required | Description |
-|---|---|---|---|
-|[`HostsBased`](#hostsbased)|`object`|`true`|Settings used for processing hosts formatted sources.|
-|[`AdBlockBased`](#adblockbased)|`object`|`true`|Settings used for processing AdBlock formatted sources.|
-|`ExtraFiltering`|`bool`|`true`|Setting to indicate if extra filtering should be performed.<br>If `true`, the program will check each element in the result against each other and remove any entry that would be blocked by a more general entry.|
-|`MultiPassFilter`|`bool`|`true`|If set to `true` the final results will be scanned multiple times until no duplicates are found. Default behaviour assumes duplicates are removed after one iteration.|
-|`HeaderLines`|`string[]`|`true`|Defines a set of lines that will be inserted at the top of the generated file, for example copyright.|
-|`KnownBadHosts`|`string[]`|`true`|Array of unwanted hosts. These entries will be added to the result if they're not covered by the `AdBlockBased` entries.<br>You can also add generalized hosts to reduce the number of entries in the final results.<br>For example: `HostsBased` results might contain `a.baddomain.com` and `b.baddomain.com`, adding `baddomain.com` will remove the sub domain entries and block `baddomain.com` and all of its subdomains.|
-|`OutputFileName`|`string`|`false`|Defines the name of the file produced by the program. Defaults to `filter.txt`.|
+| Property              | Type       | Required | Description                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|-----------------------|------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`Filters`](#filters) | `object`   | `true`   | Settings used for processing hosts formatted sources.                                                                                                                                                                                                                                                                                                                                                                           |
+| `ExtraFiltering`      | `bool`     | `true`   | Setting to indicate if extra filtering should be performed.<br>If `true`, the program will check each element in the result against each other and remove any entry that would be blocked by a more general entry.                                                                                                                                                                                                              |
+| `MultiPassFilter`     | `bool`     | `true`   | If set to `true` the final results will be scanned multiple times until no duplicates are found. Default behaviour assumes duplicates are removed after one iteration.                                                                                                                                                                                                                                                          |
+| `HeaderLines`         | `string[]` | `true`   | Defines a set of lines that will be inserted at the top of the generated file, for example copyright.                                                                                                                                                                                                                                                                                                                           |
+| `KnownBadHosts`       | `string[]` | `true`   | Array of unwanted hosts. These entries will be added to the result if they're not covered by the `AdBlockBased` entries.<br>You can also add generalized hosts to reduce the number of entries in the final results.<br>For example: `HostsBased` results might contain `a.baddomain.com` and `b.baddomain.com`, adding `baddomain.com` will remove the sub domain entries and block `baddomain.com` and all of its subdomains. |
+| `OutputFileName`      | `string`   | `false`  | Defines the name of the file produced by the program. Defaults to `filter.txt`.                                                                                                                                                                                                                                                                                                                                                 |
 
-### <a name="hostsbased"></a>`HostsBased`
-| Property | Type | Required | Description |
-|---|---|---|---|
-|`SourceUris`|`Uri[]`|`true`|URIs to the hosts based files|
-|`SkipLines`|`string[]`|`true`|Array of strings that, if present in the result from `SourceUri` will be filtered out.|
+### <a name="filters"></a>`Filters`
+| Property                 | Type       | Required | Description                                                                          |
+|--------------------------|------------|----------|--------------------------------------------------------------------------------------|
+| [`Sources`](#sourceitem) | `object[]` | `true`   | Array of [`SourceItem`](#sourceitem) used for fetching and processing filters.       |
+| `SkipLines`              | `string[]` | `true`   | Array of strings that, if present in the result from `Sources` will be filtered out. |
 
-### <a name="adblockbased"></a>`AdBlockBased`
-| Property | Type | Required | Description |
-|---|---|---|---|
-|`SourceUris`|`Uri[]`|`true`|URI to the AdBlock based files|
+### <a name="sourceitem"></a>`SourceItem`
+| Property       | Type     | Required | Description                                                                                                        |
+|----------------|----------|----------|--------------------------------------------------------------------------------------------------------------------|
+| `Uri`          | `Uri`    | `true`   | The Uri to fetch data from.                                                                                        |
+| `Prefix`       | `string` | `false`  | Prefix used in the source, for example 127.0.0.1 or 0.0.0.0.                                                       |
+| `Format`       | `enum`   | `true`   | The format of the source. Possible values `Hosts`, `AdBlock`.                                                      |
+| `SourceAction` | `enum`   | `true`   | Defines if the data from the source should be combined or excluded. Possible values `Combine`, `ExternalCoverage`. |
 
 ## Licenses
 - [License](LICENSE)

@@ -45,38 +45,47 @@ namespace HostsParser
             using var httpClient = new HttpClient();
 
             // Assumed length to reduce allocations
-            var hostsBasedLines = new HashSet<string>(140_000);
-            for (var i = 0; i < settings.HostsBased.SourceUris.Length; i++)
+            var combineLines = new HashSet<string>(170_000);
+            var externalCoverageLines = new HashSet<string>(50_000);
+            for (var i = 0; i < settings.Filters.Sources.Length; i++)
             {
-                await using var stream = await httpClient.GetStreamAsync(settings.HostsBased.SourceUris[i]);
-                await HostUtilities.ProcessHostsBased(hostsBasedLines, stream, settings.HostsBased.SkipLinesBytes, decoder);
+                var sourceItem = settings.Filters.Sources[i];
+                await using var stream = await httpClient.GetStreamAsync(sourceItem.Uri);
+                if (sourceItem.Format == SourceFormat.Hosts)
+                {
+                    await HostUtilities.ProcessHostsBased(
+                        sourceItem.SourceAction == SourceAction.Combine ? combineLines : externalCoverageLines,
+                        stream,
+                        settings.Filters.SkipLinesBytes,
+                        sourceItem.SourcePrefixes,
+                        decoder);
+                }
+                else
+                {
+                    await HostUtilities.ProcessAdBlockBased(
+                        sourceItem.SourceAction == SourceAction.Combine ? combineLines : externalCoverageLines,
+                        stream,
+                        decoder);
+                }
             }
 
-            // Assumed length to reduce allocations
-            var adBlockBasedLines = new HashSet<string>(50_000);
-            for (var i = 0; i < settings.AdBlockBased.SourceUris.Length; i++)
-            {
-                await using var stream = await httpClient.GetStreamAsync(settings.AdBlockBased.SourceUris[i]);
-                await HostUtilities.ProcessAdBlockBased(adBlockBasedLines, stream, decoder);
-            }
-
-            var combined = hostsBasedLines;
-            combined.ExceptWith(adBlockBasedLines);
+            var combined = combineLines;
+            combined.ExceptWith(externalCoverageLines);
             combined = HostUtilities.RemoveKnownBadHosts(settings.KnownBadHosts, combined);
             combined.UnionWith(settings.KnownBadHosts);
-            combined.UnionWith(adBlockBasedLines);
+            combined.UnionWith(externalCoverageLines);
             CollectionUtilities.FilterGrouped(combined);
 
             var sortedDnsList = CollectionUtilities.SortDnsList(combined);
             HashSet<string> filteredCache = new(combined.Count);
             sortedDnsList = settings.MultiPassFilter
-                ? ProcessingUtilities.ProcessCombinedWithMultipleRounds(sortedDnsList, adBlockBasedLines, filteredCache)
-                : ProcessingUtilities.ProcessCombined(sortedDnsList, adBlockBasedLines, filteredCache);
+                ? ProcessingUtilities.ProcessCombinedWithMultipleRounds(sortedDnsList, externalCoverageLines, filteredCache)
+                : ProcessingUtilities.ProcessCombined(sortedDnsList, externalCoverageLines, filteredCache);
 
             if (settings.ExtraFiltering)
             {
                 logger.LogInformation("Start extra filtering of duplicates");
-                sortedDnsList = ProcessingUtilities.ProcessWithExtraFiltering(sortedDnsList, adBlockBasedLines, filteredCache);
+                sortedDnsList = ProcessingUtilities.ProcessWithExtraFiltering(sortedDnsList, externalCoverageLines, filteredCache);
                 logger.LogInformation("Done extra filtering of duplicates");
             }
 

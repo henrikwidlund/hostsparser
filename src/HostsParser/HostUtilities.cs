@@ -22,14 +22,16 @@ namespace HostsParser
         /// <param name="dnsHashSet">The <see cref="HashSet{T}"/> that results are added to.</param>
         /// <param name="stream">The <see cref="Stream"/> to process.</param>
         /// <param name="skipLines">The lines that should be excluded from the returned result.</param>
+        /// <param name="sourcePrefixes">The <see cref="SourcePrefixes"/> with definitions on what should be removed from each row.</param>
         /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
         public static Task ProcessHostsBased(HashSet<string> dnsHashSet,
             Stream stream,
             byte[][]? skipLines,
+            in SourcePrefixes sourcePrefixes,
             Decoder decoder)
         {
             var pipeReader = PipeReader.Create(stream);
-            return ReadPipeAsync(pipeReader, dnsHashSet, skipLines, decoder);
+            return ReadPipeAsync(pipeReader, dnsHashSet, skipLines, sourcePrefixes, decoder);
         }
 
         /// <summary>
@@ -43,7 +45,7 @@ namespace HostsParser
             Decoder decoder)
         {
             var pipeReader = PipeReader.Create(stream);
-            return ReadPipeAsync(pipeReader, dnsHashSet, null, decoder);
+            return ReadPipeAsync(pipeReader, dnsHashSet, null, null, decoder);
         }
 
         /// <summary>
@@ -95,6 +97,7 @@ namespace HostsParser
         private static async Task ReadPipeAsync(PipeReader reader,
             ICollection<string> resultCollection,
             byte[][]? skipLines,
+            SourcePrefixes? sourcePrefixes,
             Decoder decoder)
         {
             while (true)
@@ -110,7 +113,7 @@ namespace HostsParser
 
                     if (position == null) continue;
 
-                    ProcessLine(buffer.Slice(0, position.Value), resultCollection, skipLines, decoder);
+                    ProcessLine(buffer.Slice(0, position.Value), resultCollection, skipLines, sourcePrefixes, decoder);
                     buffer = buffer.Slice(buffer.GetPosition(1, position.Value));
                 }
                 while (position != null);
@@ -118,7 +121,7 @@ namespace HostsParser
                 reader.AdvanceTo(buffer.Start, buffer.End);
 
                 if (!result.IsCompleted) continue;
-                ProcessLastChunk(resultCollection, skipLines, decoder, buffer);
+                ProcessLastChunk(resultCollection, skipLines, sourcePrefixes, decoder, buffer);
 
                 break;
             }
@@ -126,27 +129,32 @@ namespace HostsParser
             await reader.CompleteAsync();
         }
 
-        private static void ProcessLastChunk(ICollection<string> resultCollection, byte[][]? skipLines, Decoder decoder,
+        private static void ProcessLastChunk(ICollection<string> resultCollection,
+            byte[][]? skipLines,
+            in SourcePrefixes? sourcePrefixes,
+            Decoder decoder,
             in ReadOnlySequence<byte> buffer)
         {
             if (buffer.IsEmpty) return;
-            ProcessLine(buffer, resultCollection, skipLines, decoder);
+            ProcessLine(buffer, resultCollection, skipLines, sourcePrefixes, decoder);
         }
 
         private static void ProcessLine(in ReadOnlySequence<byte> slice,
             ICollection<string> resultCollection,
             byte[][]? skipLines,
+            in SourcePrefixes? sourcePrefixes,
             Decoder decoder)
         {
             if (skipLines == null)
                 ProcessAdBlockBasedLine(slice, resultCollection, decoder);
             else
-                ProcessHostsBasedLine(slice, resultCollection, skipLines, decoder);
+                ProcessHostsBasedLine(slice, resultCollection, skipLines, sourcePrefixes, decoder);
         }
 
         private static void ProcessHostsBasedLine(in ReadOnlySequence<byte> slice,
             ICollection<string> resultCollection,
             byte[][] skipLines,
+            in SourcePrefixes? sourcePrefixes,
             Decoder decoder)
         {
             var realSlice = slice.IsSingleSegment
@@ -161,7 +169,7 @@ namespace HostsParser
             if (HostsBasedShouldSkipLine(realSlice, skipLines))
                 return;
 
-            realSlice = HandleWwwPrefix(realSlice);
+            realSlice = HandlePrefixes(realSlice, sourcePrefixes);
             HandleDelimiter(ref realSlice, Constants.HashSign);
             if (IsWhiteSpace(realSlice))
                 return;
@@ -253,13 +261,16 @@ namespace HostsParser
                 lineChars = lineChars[..delimiterIndex];
         }
 
-        private static ReadOnlySpan<byte> HandleWwwPrefix(in ReadOnlySpan<byte> lineBytes)
+        private static ReadOnlySpan<byte> HandlePrefixes(in ReadOnlySpan<byte> lineBytes,
+            in SourcePrefixes? sourcePrefixes)
         {
-            if (lineBytes.StartsWith(Constants.NxIpWithWww))
-                return lineBytes[Constants.NxIpWithWww.Length..];
-
-            if (lineBytes.StartsWith(Constants.NxIpWithSpace))
-                return lineBytes[Constants.NxIpWithSpace.Length..];
+            if (sourcePrefixes?.WwwPrefixBytes != null
+                && lineBytes.StartsWith(sourcePrefixes.Value.WwwPrefixBytes))
+                return lineBytes[sourcePrefixes.Value.WwwPrefixBytes.Length..];
+            
+            if (sourcePrefixes?.PrefixBytes != null 
+                && lineBytes.StartsWith(sourcePrefixes.Value.PrefixBytes))
+                return lineBytes[sourcePrefixes.Value.PrefixBytes.Length..];
 
             return lineBytes;
         }
