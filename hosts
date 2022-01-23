@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-22 18:17:38Z
+! Last Modified: 2022-01-23 00:55:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -878,6 +878,7 @@
 ||engage.3mcanada.ca^
 ||engage.3mcesko.cz^
 ||engage.3mchile.cl^
+||engage.3mcompany.jp^
 ||engage.3mcompany.lk^
 ||engage.3mdanmark.dk^
 ||engage.3mdeutschland.de^
@@ -18283,8 +18284,6 @@
 ||doeda.com^
 ||doesok.top^
 ||dofinasowanieregionalne.pl^
-||ads.dofunapps.com^
-||sdk.dofunapps.com^
 ||dog-fuck.com^
 ||doga.cm^
 ||jcpjfyikk.dogbonemarket.com^
@@ -21159,7 +21158,6 @@
 ||ad.eurosport.com^
 ||ssa.eurosport.com^
 ||ssa.eurosport.cz^
-||ssa.eurosport.de^
 ||ssa.eurosport.es^
 ||ssa.eurosport.fi^
 ||ssa.eurosport.fr^
@@ -65475,6 +65473,7 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
+||cdn.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^

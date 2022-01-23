@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-22 18:17:51Z
+! Last Modified: 2022-01-23 00:55:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28046,7 +28046,6 @@
 ||images.information.maileva.com^
 ||hello.learn.mailgun.com^
 ||tr1.mailperf.com^
-||epm.mailperformance.com^
 ||tr.infos.mailrungis.com^
 ||mailtrack.me^
 ||tracking.mailtracker.in^

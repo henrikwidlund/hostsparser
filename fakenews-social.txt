@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-22 18:17:50Z
+! Last Modified: 2022-01-23 00:55:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15843,6 +15843,7 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
+||api.vungle.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -21175,6 +21176,7 @@
 ||handelpro.com^
 ||handelpro.vip^
 ||hmg.handelsblatt.com^
+||montpalatin.handicap.fr^
 ||tracking.handlesets.com^
 ||handyarchive.com^
 ||stats.handyvertrag.de^

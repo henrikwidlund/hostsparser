@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-22 18:18:01Z
+! Last Modified: 2022-01-23 00:56:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23224,7 +23224,6 @@
 ||g-mailpoczta.pl^
 ||pl.g-pay.me^
 ||smetrics.g-shock.com^
-||smetrics.g-shock.jp^
 ||www2.g-veggie.com^
 ||g0o.cc^
 ||g0o.me^
@@ -54589,7 +54588,6 @@
 ||cdn.split.io^
 ||sdk.split.io^
 ||auth.split.io^
-||959cad30.api.splkmobile.com^
 ||splodgetimberman.com^
 ||splove.com.br^
 ||splubotyn.pl^
@@ -68021,6 +68019,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -69873,6 +69872,7 @@
 ||net.zooplus.it^
 ||dii1.zooplus.it^
 ||dii2.zooplus.it^
+||portal-gw.net.zooplus.it^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
 ||baon.net.zooplus.nl^
