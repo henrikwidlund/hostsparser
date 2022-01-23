@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-23 12:25:09Z
+! Last Modified: 2022-01-23 16:49:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25215,6 +25215,7 @@
 ||lantern.fr.kronos.ca^
 ||lantern.kronos.co.uk^
 ||lantern.kronos.com^
+||lantern.kronos.com.au^
 ||lantern.kronos.in^
 ||lantern.kronosglobal.de^
 ||lantern.kronosglobal.fr^
@@ -51272,6 +51273,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
