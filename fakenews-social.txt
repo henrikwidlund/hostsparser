@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-24 00:54:58Z
+! Last Modified: 2022-01-24 06:22:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15854,6 +15854,7 @@
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma156-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -32357,6 +32358,7 @@
 ||go.nfpa.org^
 ||nfsafimsaimdosadoasmfsaim.bar^
 ||redherring.ngadcenter.net^
+||mix-test.uts.ngdata.com^
 ||ngdaycare.co.za^
 ||adimg.ngfiles.com^
 ||digitalmarketing.nglantz.com^
@@ -49150,6 +49152,7 @@
 ||update-myetherwallet.com^
 ||updateapps.net^
 ||updatecatalogs.com^
+||ads1.updated.com^
 ||updatemanagir.us^
 ||get.updater.com^
 ||updatesecure.pro^
@@ -55141,6 +55144,7 @@
 ||track.msadcenter.zul.com^
 ||track.zulumarketing.com^
 ||zumodi.com^
+||deeplinks.zumper.com^
 ||discover.zumtobelgroup.com^
 ||zupelniepoblogoslaw.site^
 ||smetrics.zurichlife.co.jp^

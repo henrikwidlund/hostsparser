@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-24 00:55:08Z
+! Last Modified: 2022-01-24 06:22:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -44845,9 +44845,6 @@
 ||smetrics.marketing.lighting.philips.ua^
 ||ads.phillipsdata.us^
 ||metrics.philly.com^
-||ads.phillyburbs.com^
-||del1.phillyburbs.com^
-||adserver.phillyburbs.com^
 ||metric.philosophy.com^
 ||smetric.philosophy.com^
 ||phim.sex^
