@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-24 06:22:04Z
+! Last Modified: 2022-01-24 12:25:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17813,7 +17813,6 @@
 ||go.exxonmobilchemical.com^
 ||exy.ai^
 ||ad.exyws.org^
-||smetrics.ey.com^
 ||marketing.eyc.com^
 ||eyc-marketing.eyc.com^
 ||fd1.eye.to^
@@ -54776,6 +54775,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

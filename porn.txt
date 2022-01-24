@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-24 06:22:21Z
+! Last Modified: 2022-01-24 12:25:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3142,7 +3142,6 @@
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
-||bs-wlb-sg.dvgtm.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
@@ -18681,7 +18680,6 @@
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
-||as-sec.casalemedia.com.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
@@ -69449,7 +69447,6 @@
 ||metricing.net.zooplus.de^
 ||owa-csr41.net.zooplus.de^
 ||api.1-priv.net.zooplus.de^
-||api.repo.2.net.zooplus.de^
 ||api.server.net.zooplus.de^
 ||appsportal.net.zooplus.de^
 ||appsserver.net.zooplus.de^
