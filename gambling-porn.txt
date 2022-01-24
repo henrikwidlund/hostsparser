@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-24 12:25:37Z
+! Last Modified: 2022-01-24 18:16:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -40053,6 +40053,9 @@
 ||national-lottery.co.uk^
 ||nationale-loterij.be^
 ||go.nationaleczema.org^
+||sw88.nationalgeographic.com^
+||www3.nationalgeographic.com^
+||metric.nationalgeographic.com^
 ||smetrics.nationalgrid.com^
 ||nationalissuepanel.com^
 ||nationallottery.co.za^
@@ -69282,6 +69285,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
@@ -71145,7 +71149,6 @@
 ||net.zooplus.it^
 ||dii1.zooplus.it^
 ||dii2.zooplus.it^
-||71-219.net.zooplus.it^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
 ||baon.net.zooplus.nl^

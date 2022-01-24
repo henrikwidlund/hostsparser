@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-24 12:25:26Z
+! Last Modified: 2022-01-24 18:16:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -37679,7 +37679,6 @@
 ||pl-paidoffer.site^
 ||olx.pl-paidorder.work^
 ||inpost.pl-paidorder.work^
-||olx.pl-panel.info^
 ||pl-papajohns.fun^
 ||olx.pl-pay.link^
 ||olx.pl-pay.shop^
@@ -54289,7 +54288,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||cn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
@@ -55366,7 +55364,6 @@
 ||metricing.net.zooplus.de^
 ||owa-csr41.net.zooplus.de^
 ||api.1-priv.net.zooplus.de^
-||api.repo.2.net.zooplus.de^
 ||api.server.net.zooplus.de^
 ||appsportal.net.zooplus.de^
 ||appsserver.net.zooplus.de^
@@ -55414,7 +55411,6 @@
 ||csr11-asana.net.zooplus.de^
 ||csr12-login.net.zooplus.de^
 ||csr12-tiger.net.zooplus.de^
-||csr12.csr41.net.zooplus.de^
 ||csr31mail01.net.zooplus.de^
 ||csr41beta-m.net.zooplus.de^
 ||csrmailjet1.net.zooplus.de^

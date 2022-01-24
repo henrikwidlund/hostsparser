@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-24 12:25:40Z
+! Last Modified: 2022-01-24 18:16:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5185,7 +5185,6 @@
 ||gcirm.battlecreekenquirer.com^
 ||trout.batzo.net^
 ||international.bau.edu.tr^
-||tmfadi.baublebar.com^
 ||ads.bauerpublishing.com^
 ||asd.bauhaus.at^
 ||lgzkzp.bauhaus.at^
@@ -51692,8 +51691,10 @@
 ||xialdeco.es^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||diagnosis.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||xiaoxiurong.com^
@@ -52135,6 +52136,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||edge-mcdn-beacon.secure.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
