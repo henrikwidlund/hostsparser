@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-25 12:26:44Z
+! Last Modified: 2022-01-25 18:19:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3208,7 +3208,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||s.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -7444,6 +7443,7 @@
 ||smetrics.belairdirect.com^
 ||xjq5.belambra.be^
 ||am.belambra.com^
+||lsv5.belambra.fr^
 ||newtour.belamionline.com^
 ||www2.belaysolutions.com^
 ||tern.beldie.ro^
@@ -23004,8 +23004,6 @@
 ||foxgay.com^
 ||foxhq.com^
 ||go.foxit.co.jp^
-||adlog.foxitcloud.com^
-||logger.foxitcloud.com^
 ||go.foxitinfo.com^
 ||marketing.foxitsoftware.com^
 ||marketing.foxitsoftware1.com^
@@ -23967,6 +23965,7 @@
 ||a5.g--o.info^
 ||g-af.com^
 ||ad.g-content.bid^
+||image.g-deai.net^
 ||g-mailpoczta.pl^
 ||pl.g-pay.me^
 ||smetrics.g-shock.com^
