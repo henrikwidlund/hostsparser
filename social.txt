@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-26 01:00:49Z
+! Last Modified: 2022-01-26 06:19:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15002,6 +15002,8 @@
 ||data.dreambaby.be^
 ||securedata.dreambaby.be^
 ||counter.dreamhost.com^
+||sleeper-sofa.dreamhoster.com^
+||patio-furniture.dreamhoster.com^
 ||xrnyhc.dreamilbo.com^
 ||smetrics.dreamlabdata.com^
 ||data.dreamland.be^
@@ -23947,6 +23949,7 @@
 ||intela.com^
 ||intelbondfx.com^
 ||go.intelerad.com^
+||go.intelex.com^
 ||inteligentna-bransoletka-pl.com^
 ||intelliads.com^
 ||ads.intellicast.com^
@@ -39381,8 +39384,6 @@
 ||smetrics.q107.com^
 ||q1connect.com^
 ||qaleel.com^
-||mtc.qantas.com^
-||smtc.qantas.com^
 ||smtc.qantas.com.au^
 ||internet-cleaning-tool.capital-software.qarchive.org^
 ||palma.qassamcount.com^
