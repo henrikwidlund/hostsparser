@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-26 06:19:44Z
+! Last Modified: 2022-01-26 12:24:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29044,6 +29044,8 @@
 ||olx-pl.id81901.xyz^
 ||inpost-pl.id81901.xyz^
 ||pl-inpost.id823451.space^
+||olx-pl.id83275.space^
+||allegrolokalnie-pl.id83275.space^
 ||pl-inpost.id834554.space^
 ||olxpl.id84884043.mba^
 ||dpd-hroz.id86-92.me^
@@ -66021,7 +66023,6 @@
 ||voffka.com^
 ||voglioporno.com^
 ||sstats.vogue.com^
-||metrics.vogue.com.au^
 ||ai.voiceads.cn^
 ||api.voiceads.cn^
 ||imp.voiceads.cn^
@@ -71773,7 +71774,6 @@
 ||car40-apps.net.zooplus.de^
 ||car40-beta.net.zooplus.de^
 ||car40-mail.net.zooplus.de^
-||car40.corp.net.zooplus.de^
 ||car40latin.net.zooplus.de^
 ||cloud-data.net.zooplus.de^
 ||confluence.net.zooplus.de^

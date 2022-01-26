@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-26 06:19:36Z
+! Last Modified: 2022-01-26 12:24:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20530,6 +20530,7 @@
 ||info.entrepreneursdumonde.org^
 ||tr.news.entreprise-pm.com^
 ||tr.e.entreprise-pm.net^
+||marketing.entrinsik.com^
 ||entruempelung-haushaltsservice.de^
 ||smetrics.entrykeyid.com^
 ||entrylevel.eu^
@@ -28472,6 +28473,7 @@
 ||ppdovk.home24.ch^
 ||marketing.net.home24.ch^
 ||net.home24.de^
+||csr21.net.home24.de^
 ||marketing.net.home24.fr^
 ||marketing.net.home24.it^
 ||marketing.net.home24.nl^
@@ -51495,6 +51497,7 @@
 ||ql.tc^
 ||qlink-ico.com^
 ||somni.qlmortgageservices.com^
+||umamistreet.analytics.qlook.net^
 ||qlzn6i1l.com^
 ||digital.qmctelecom.com^
 ||qmsled.com^
@@ -70126,7 +70129,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -71773,7 +71775,6 @@
 ||stg.profile.net.zooplus.de^
 ||supportdata.net.zooplus.de^
 ||testercsr41.net.zooplus.de^
-||apache.car40.net.zooplus.de^
 ||api.backends.net.zooplus.de^
 ||api.chd.repo.net.zooplus.de^
 ||api.git-repo.net.zooplus.de^

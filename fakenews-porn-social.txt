@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-26 06:19:29Z
+! Last Modified: 2022-01-26 12:24:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -70983,9 +70983,11 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -72026,8 +72028,6 @@
 ||zexporn.com^
 ||go.zextras.com^
 ||smetrics.zexy-enmusubi.net^
-||ssl-omtrdc.zexy.net^
-||smetrics.hoken.zexy.net^
 ||zeynepkarahan.com^
 ||zfiuenduasinty.com^
 ||e.zg-api.com^

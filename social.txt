@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-26 06:19:45Z
+! Last Modified: 2022-01-26 12:24:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39384,6 +39384,8 @@
 ||smetrics.q107.com^
 ||q1connect.com^
 ||qaleel.com^
+||mtc.qantas.com^
+||smtc.qantas.com^
 ||smtc.qantas.com.au^
 ||internet-cleaning-tool.capital-software.qarchive.org^
 ||palma.qassamcount.com^
