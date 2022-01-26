@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-26 12:24:37Z
+! Last Modified: 2022-01-26 18:18:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20328,6 +20328,7 @@
 ||metrics.egencia.com.sg^
 ||metrics.egencia.com.tr^
 ||metrics.egencia.de^
+||metrics.egencia.dk^
 ||metrics.egencia.es^
 ||metrics.egencia.fi^
 ||metrics.egencia.fr^
@@ -31525,6 +31526,7 @@
 ||nasyh.innovappl.xyz^
 ||mdws.innovationcu.ca^
 ||innovativemasonry.net^
+||drsha.innovativesolutions.mobi^
 ||go.innovativesystems.com^
 ||info.innovatorind.com^
 ||www2.innovmetric.com^
@@ -64447,7 +64449,6 @@
 ||travelhub.com.sg^
 ||travelight.online^
 ||traveliocity.com^
-||marketing.travelks.com^
 ||kdpxgr.travellink.no^
 ||ebtxxz.travellink.se^
 ||ccczmo.travelmarket.dk^
@@ -72594,6 +72595,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||abtest.mistat.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^

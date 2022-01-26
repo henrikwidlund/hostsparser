@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-26 12:24:57Z
+! Last Modified: 2022-01-26 18:19:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -59319,7 +59319,6 @@
 ||terygay.com^
 ||metrics.tesco.com^
 ||smetrics.tesco.com^
-||zjkpxw.tesco.hu^
 ||saa.tescomobile.com^
 ||teshekure.site^
 ||tesl1.tesinvest.xyz^
@@ -66023,6 +66022,7 @@
 ||voffka.com^
 ||voglioporno.com^
 ||sstats.vogue.com^
+||metrics.vogue.com.au^
 ||ai.voiceads.cn^
 ||api.voiceads.cn^
 ||imp.voiceads.cn^
@@ -70201,6 +70201,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
