@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-25 18:19:05Z
+! Last Modified: 2022-01-26 01:00:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1593,7 +1593,6 @@
 ||pubstr.acs.org^
 ||swebanalytics.acs.org^
 ||acsa.md^
-||go.acslaw.org^
 ||access.acspubs.org^
 ||pubstr.acspubs.org^
 ||connect.acspubs.org^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-25 18:19:21Z
+! Last Modified: 2022-01-26 01:00:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23004,6 +23004,8 @@
 ||foxgay.com^
 ||foxhq.com^
 ||go.foxit.co.jp^
+||adlog.foxitcloud.com^
+||logger.foxitcloud.com^
 ||go.foxitinfo.com^
 ||marketing.foxitsoftware.com^
 ||marketing.foxitsoftware1.com^
