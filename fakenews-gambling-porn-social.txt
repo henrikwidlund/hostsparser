@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-27 00:56:27Z
+! Last Modified: 2022-01-27 06:19:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29344,7 +29344,6 @@
 ||info.horanassoc.com^
 ||horey4d.net^
 ||horizongroupconsulting.com^
-||info.horizononline.com^
 ||horizonsports.es^
 ||go.hormelfoodservice.com^
 ||hormonallyeclats.pl^
@@ -72278,6 +72277,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
