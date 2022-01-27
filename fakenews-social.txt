@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-27 12:25:39Z
+! Last Modified: 2022-01-27 18:19:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2679,7 +2679,6 @@
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
-||sync.tidaltv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
@@ -16374,7 +16373,6 @@
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
-||as-sec.casalemedia.com.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
@@ -19174,7 +19172,6 @@
 ||pardot.focus-salesmgmt.com^
 ||kzsicw.focus.de^
 ||sbcomniture.focus.de^
-||a.focusde.info^
 ||focushaber.com^
 ||focusnews.us^
 ||info.focuspos.com^
@@ -24251,7 +24248,6 @@
 ||www2.infinity-ss.com^
 ||info.infinitygroupus.com^
 ||pod.infinitypersonals.com^
-||cashmaster.infinitypl.xyz^
 ||infinitytest.site^
 ||inflab.info^
 ||go.inflammatix.com^

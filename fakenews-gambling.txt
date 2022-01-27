@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-27 12:25:34Z
+! Last Modified: 2022-01-27 18:19:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19591,7 +19591,6 @@
 ||pardot.focus-salesmgmt.com^
 ||kzsicw.focus.de^
 ||sbcomniture.focus.de^
-||a.focusde.info^
 ||focushaber.com^
 ||focusnews.us^
 ||info.focuspos.com^
@@ -19782,6 +19781,7 @@
 ||fortunelegends.com^
 ||ftn.fortuneo.fr^
 ||cueohf.forum-actif.net^
+||cueohf.forum2x2.ru^
 ||go.forumdesimages.fr^
 ||cueohf.forumgratuit.org^
 ||cueohf.forumotion.com^

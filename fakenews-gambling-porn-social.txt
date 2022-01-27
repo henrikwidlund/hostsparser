@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-27 12:25:31Z
+! Last Modified: 2022-01-27 18:19:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23857,7 +23857,6 @@
 ||sbcomniture.focus.de^
 ||focusarmy.com^
 ||focusbusinessmedia.uk^
-||a.focusde.info^
 ||focushaber.com^
 ||focusnews.us^
 ||focusporn.com^
@@ -26043,8 +26042,6 @@
 ||adebis.gfs-official.com^
 ||gfsex.biz^
 ||interracialgfvideos.gfslist.com^
-||media.ads.gfsrv.net^
-||delivery.ads.gfsrv.net^
 ||gftdh.com^
 ||cat.gfx.io^
 ||gfxroyal.com^
@@ -30426,6 +30423,11 @@
 ||allegrolokalnie-pl-ns.id-43051.xyz^
 ||inpost-hhke.id-4365.me^
 ||inpost-pl-ta.id-4365.me^
+||jdpd.id-43895.me^
+||ldpd.id-43895.me^
+||inpost-b.id-43895.me^
+||inpost-x.id-43895.me^
+||polskapoczta-pl-pdh.id-43895.me^
 ||allegro-ajk.id-4391.me^
 ||olx-g.id-43980.me^
 ||olx-j.id-43980.me^
@@ -37260,6 +37262,7 @@
 ||go.lsbf.org.uk^
 ||icul.lsc.net^
 ||www2.lseg.com^
+||gcirm.lsj.com^
 ||lsl.com^
 ||dc.lsosad.com^
 ||adx.lsosad.com^
@@ -66834,6 +66837,8 @@
 ||tdf1.vente-unique.pt^
 ||tracking.ventingdirect.com^
 ||somniture.ventingdirect.com^
+||tracking.ventingpipe.com^
+||somniture.ventingpipe.com^
 ||mdws.venturecu.ca^
 ||venturedeposit.biz^
 ||venus-av.com^

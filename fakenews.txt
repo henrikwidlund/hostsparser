@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-27 12:25:40Z
+! Last Modified: 2022-01-27 18:19:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19039,7 +19039,6 @@
 ||pardot.focus-salesmgmt.com^
 ||kzsicw.focus.de^
 ||sbcomniture.focus.de^
-||a.focusde.info^
 ||focushaber.com^
 ||focusnews.us^
 ||info.focuspos.com^
@@ -55174,7 +55173,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -56434,7 +56432,6 @@
 ||csr31mail01.net.zooplus.de^
 ||csr41beta-m.net.zooplus.de^
 ||csrmailjet1.net.zooplus.de^
-||cvs-ctl.api.net.zooplus.de^
 ||data.mobile.net.zooplus.de^
 ||europecsr31.net.zooplus.de^
 ||ghcpi.panel.net.zooplus.de^

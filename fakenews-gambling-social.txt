@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-27 12:25:33Z
+! Last Modified: 2022-01-27 18:19:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15158,8 +15158,6 @@
 ||xpig-dev.directservices.it^
 ||multi-cluster.directservices.it^
 ||metrics.directtv.com^
-||metrics.directv.com^
-||smetrics.directv.com^
 ||directxex.com^
 ||hiuplq.diretta.it^
 ||tracking.direxion.com^
@@ -19676,7 +19674,6 @@
 ||pardot.focus-salesmgmt.com^
 ||kzsicw.focus.de^
 ||sbcomniture.focus.de^
-||a.focusde.info^
 ||focushaber.com^
 ||focusnews.us^
 ||info.focuspos.com^
@@ -33642,6 +33639,7 @@
 ||turpg.narktrade.site^
 ||pgintro.narktrade.site^
 ||narpol.com.pl^
+||static.narrativ.com^
 ||liquidad.narrowcastmedia.com^
 ||pl.bitcoinbillionarie.narrowfly.world^
 ||nartypomorze.pl^
@@ -53577,6 +53575,7 @@
 ||vod.plus^
 ||vod24.pl^
 ||metric.vodacom.co.za^
+||s.metric.vodacom.co.za^
 ||business.vodafone.co.nz^
 ||metrics.vodafone.co.uk^
 ||smetrics.vodafone.co.uk^
