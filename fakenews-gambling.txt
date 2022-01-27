@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-26 18:18:54Z
+! Last Modified: 2022-01-27 00:56:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -27436,7 +27436,6 @@
 ||klonea.com^
 ||olx-pl.klosdg-podfsk.com^
 ||vinted-pl.klosdg-podfsk.com^
-||paynazwa-pl-a337be07.klostoga45.at^
 ||kloundopret.xyz^
 ||klowa.xyz^
 ||klowns4phun.com^
@@ -46852,6 +46851,8 @@
 ||tags.spider-mails.com^
 ||spiderbait.com^
 ||start.spideroak.com^
+||sam.spiegel.de^
+||sams.spiegel.de^
 ||vgavzy.spierandmackay.com^
 ||spikefootwear.com^
 ||spikyinvest.com^
@@ -56468,7 +56469,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
