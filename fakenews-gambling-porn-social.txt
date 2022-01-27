@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-27 06:19:18Z
+! Last Modified: 2022-01-27 12:25:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29344,6 +29344,7 @@
 ||info.horanassoc.com^
 ||horey4d.net^
 ||horizongroupconsulting.com^
+||info.horizononline.com^
 ||horizonsports.es^
 ||go.hormelfoodservice.com^
 ||hormonallyeclats.pl^
@@ -30425,11 +30426,6 @@
 ||allegrolokalnie-pl-ns.id-43051.xyz^
 ||inpost-hhke.id-4365.me^
 ||inpost-pl-ta.id-4365.me^
-||jdpd.id-43895.me^
-||ldpd.id-43895.me^
-||inpost-b.id-43895.me^
-||inpost-x.id-43895.me^
-||polskapoczta-pl-pdh.id-43895.me^
 ||allegro-ajk.id-4391.me^
 ||olx-g.id-43980.me^
 ||olx-j.id-43980.me^
@@ -32970,7 +32966,6 @@
 ||javbus.com^
 ||javbus.org^
 ||javbuz.com^
-||ka2.javbuzz.com^
 ||javchan.me^
 ||javcl.com^
 ||javclub.net^
@@ -37265,7 +37260,6 @@
 ||go.lsbf.org.uk^
 ||icul.lsc.net^
 ||www2.lseg.com^
-||gcirm.lsj.com^
 ||lsl.com^
 ||dc.lsosad.com^
 ||adx.lsosad.com^
@@ -66840,8 +66834,6 @@
 ||tdf1.vente-unique.pt^
 ||tracking.ventingdirect.com^
 ||somniture.ventingdirect.com^
-||tracking.ventingpipe.com^
-||somniture.ventingpipe.com^
 ||mdws.venturecu.ca^
 ||venturedeposit.biz^
 ||venus-av.com^
@@ -72277,7 +72269,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

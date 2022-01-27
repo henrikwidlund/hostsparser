@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-27 06:19:15Z
+! Last Modified: 2022-01-27 12:25:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32877,7 +32877,6 @@
 ||javbus.com^
 ||javbus.org^
 ||javbuz.com^
-||ka2.javbuzz.com^
 ||javchan.me^
 ||javcl.com^
 ||javclub.net^
@@ -73618,6 +73617,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
+||cn.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
