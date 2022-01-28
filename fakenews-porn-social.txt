@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-28 06:19:16Z
+! Last Modified: 2022-01-28 12:24:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17823,6 +17823,7 @@
 ||ads.directionsmag.com^
 ||directivepub.com^
 ||rgprah.directlampen.nl^
+||smetrics.directline.com^
 ||smetrics.directlineforbusiness.co.uk^
 ||directlink.jp^
 ||guppy.directlyapply.com^
@@ -19724,7 +19725,6 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||cdn2.teads.tv.edgekey.net^
 ||pinterest.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
@@ -19735,8 +19735,8 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
+||ma312-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ma1498-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -22087,7 +22087,6 @@
 ||farnolu.com^
 ||psa.faro.com^
 ||info.faro.com^
-||resources.faronics.com^
 ||web.email.farrow-ball.com^
 ||ww2.farrow.com^
 ||seure-update.fartit.com^
