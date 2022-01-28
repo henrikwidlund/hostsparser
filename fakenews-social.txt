@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-27 18:19:14Z
+! Last Modified: 2022-01-28 00:56:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24248,6 +24248,7 @@
 ||www2.infinity-ss.com^
 ||info.infinitygroupus.com^
 ||pod.infinitypersonals.com^
+||cashmaster.infinitypl.xyz^
 ||infinitytest.site^
 ||inflab.info^
 ||go.inflammatix.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-27 18:19:08Z
+! Last Modified: 2022-01-28 00:55:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15158,6 +15158,8 @@
 ||xpig-dev.directservices.it^
 ||multi-cluster.directservices.it^
 ||metrics.directtv.com^
+||metrics.directv.com^
+||smetrics.directv.com^
 ||directxex.com^
 ||hiuplq.diretta.it^
 ||tracking.direxion.com^
@@ -23989,8 +23991,6 @@
 ||iamtanvir.net^
 ||iamutku.com^
 ||stats.iamzero.dev^
-||stimg.iand2ch.net^
-||stimgc.iand2ch.net^
 ||macaw.ianmitchell.dev^
 ||iansoutar.com^
 ||go.iansresearch.com^
@@ -53575,7 +53575,6 @@
 ||vod.plus^
 ||vod24.pl^
 ||metric.vodacom.co.za^
-||s.metric.vodacom.co.za^
 ||business.vodafone.co.nz^
 ||metrics.vodafone.co.uk^
 ||smetrics.vodafone.co.uk^
