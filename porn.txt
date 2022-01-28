@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-28 00:56:13Z
+! Last Modified: 2022-01-28 06:19:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35729,6 +35729,7 @@
 ||ad.m5prod.net^
 ||adt.m7z.net^
 ||facebook.m918kiss.my^
+||info.ma-cp.com^
 ||www2.ma-douche.fr^
 ||ma-i2i.jp^
 ||ma-kaeser.ch^
@@ -39181,7 +39182,6 @@
 ||cds26.ams9.msecn.net^
 ||az361816.vo.msecnd.net^
 ||az512334.vo.msecnd.net^
-||smetrics.msg.com^
 ||msg20mx.one^
 ||msg2u.xyz^
 ||msga3uo.info^
@@ -56940,7 +56940,6 @@
 ||startuppge.biz^
 ||startuppge.us^
 ||startupsservices.net^
-||sw88.starwars.ru^
 ||odc.starwave.com^
 ||espn-ak.starwave.com^
 ||adsatt.go.starwave.com^
@@ -69728,6 +69727,7 @@
 ||xtorjack.com^
 ||xtporntube.com^
 ||ads.xtra.ca^
+||ads.xtra.co.nz^
 ||xtrafic.ro^
 ||xtrajuicy.com^
 ||ads.xtramsn.co.nz^
@@ -70197,10 +70197,12 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||global.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

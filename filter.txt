@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-28 00:55:49Z
+! Last Modified: 2022-01-28 06:19:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -57751,6 +57751,7 @@
 ||ads.silverdisc.co.uk^
 ||silverdoctors.com^
 ||silvermilfs.com^
+||register.silverscreen.cc^
 ||somni.silversea.com^
 ||silverstatetimes.com^
 ||smetrics.silversummithealthplan.com^
@@ -73614,8 +73615,8 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
-||uk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

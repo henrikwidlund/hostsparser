@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-28 00:56:15Z
+! Last Modified: 2022-01-28 06:19:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22779,8 +22779,6 @@
 ||inpost-duer.id-info010.me^
 ||inpost-qkon.id-info031.me^
 ||inpost-cli.id-info0837.ws^
-||dpd-lwa.id-info229.me^
-||allegro-qqb.id-info229.me^
 ||id-safety.co^
 ||inpost-pl.id-safety.eu^
 ||dpd-pl-safe.id-safety.eu^
@@ -53451,7 +53449,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sp.analytics.yahoo.com^
+||cn.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

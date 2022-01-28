@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-28 00:56:11Z
+! Last Modified: 2022-01-28 06:19:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21729,6 +21729,8 @@
 ||analyzer5.fc2cn.com^
 ||150601.fc2rs.com^
 ||tr.compte.fca-capital-france.fr^
+||metrics.fcacert.com^
+||smetrics.fcacert.com^
 ||smetrics.fcbarcelona.cat^
 ||smetrics.fcbarcelona.co.it^
 ||metrics.fcbarcelona.com^
@@ -62313,6 +62315,7 @@
 ||ad.tv2.no^
 ||ana.tv5unis.ca^
 ||tv69.com^
+||px.tvadsync.com^
 ||adserver.tvcatchup.com^
 ||aa.tvguide.com^
 ||saa.tvguide.com^
