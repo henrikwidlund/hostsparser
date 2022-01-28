@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-28 12:24:49Z
+! Last Modified: 2022-01-28 18:18:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15254,6 +15254,7 @@
 ||consciouslifenews.com^
 ||consensad.com^
 ||consensu.org^
+||action.conservationvolunteers.com.au^
 ||conservative101.com^
 ||conservativebyte.com^
 ||conservativedailypost.com^
@@ -72320,6 +72321,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||in.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-28 12:24:47Z
+! Last Modified: 2022-01-28 18:18:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19735,7 +19735,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||ma312-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -22087,6 +22086,7 @@
 ||farnolu.com^
 ||psa.faro.com^
 ||info.faro.com^
+||resources.faronics.com^
 ||web.email.farrow-ball.com^
 ||ww2.farrow.com^
 ||seure-update.fartit.com^
@@ -70984,7 +70984,9 @@
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||eu-pn2.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
