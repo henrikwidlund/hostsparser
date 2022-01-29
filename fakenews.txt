@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-29 12:23:55Z
+! Last Modified: 2022-01-29 18:24:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2675,7 +2675,6 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||dotomi.weighted.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -54707,6 +54706,8 @@
 ||marketing.wildhorsepass.com^
 ||go.wildlandtrekking.com^
 ||wileprefgurad.net^
+||sdata.wiley.com^
+||secure.wiley.com^
 ||smetrics.wileyplus.com^
 ||sa.digital.wilhelmsen.com^
 ||pr.wilkhahn.co.jp^

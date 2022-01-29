@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-29 12:23:53Z
+! Last Modified: 2022-01-29 18:23:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19926,6 +19926,7 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||san-www.adobetag.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -26205,16 +26206,6 @@
 ||ipdswg.go-to-sport.ru^
 ||travel.go-today.com^
 ||go.biz^
-||ad.go.com^
-||sw88.go.com^
-||ngads.go.com^
-||tredir.go.com^
-||adimages.go.com^
-||w88.m.espn.go.com^
-||adsatt.espn.go.com^
-||dcapps.disney.go.com^
-||seavideo-ak.espn.go.com^
-||oascentral.abclocal.go.com^
 ||bankdata.temanggungkab.go.id^
 ||esakip.dev.semarangkab.go.id^
 ||mentaos.kim.banjarbarukota.go.id^
