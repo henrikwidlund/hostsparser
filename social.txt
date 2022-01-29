@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-28 18:18:43Z
+! Last Modified: 2022-01-29 00:52:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -172,6 +172,7 @@
 ||123mopie.com^
 ||4k.123moviesfox.xyz^
 ||123moviesfoxs.com^
+||stats.123nz.nl^
 ||123plays.com^
 ||a.123porner.com^
 ||123sex.biz^
@@ -42103,6 +42104,7 @@
 ||securetrk1.com^
 ||resources.securew2.com^
 ||securewealthygains.com^
+||web.secureworks.com^
 ||emailing.securex.eu^
 ||securielite.com^
 ||securisurf.com^
