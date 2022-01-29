@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-29 06:18:33Z
+! Last Modified: 2022-01-29 12:23:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18908,8 +18908,6 @@
 ||wttd.douglas.it^
 ||adtd.douglas.nl^
 ||wttd.douglas.nl^
-||adtd.douglas.pl^
-||wttd.douglas.pl^
 ||dougmlee.com^
 ||doujin-moe.us^
 ||doujin.sexy^
@@ -71898,7 +71896,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
