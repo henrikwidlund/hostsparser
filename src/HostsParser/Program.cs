@@ -69,15 +69,14 @@ namespace HostsParser
                 }
             }
 
-            var combined = combineLines;
-            combined.ExceptWith(externalCoverageLines);
-            combined = HostUtilities.RemoveKnownBadHosts(settings.KnownBadHosts, combined);
-            combined.UnionWith(settings.KnownBadHosts);
-            combined.UnionWith(externalCoverageLines);
-            CollectionUtilities.FilterGrouped(combined);
+            combineLines.ExceptWith(externalCoverageLines);
+            combineLines = HostUtilities.RemoveKnownBadHosts(settings.KnownBadHosts, combineLines);
+            combineLines.UnionWith(settings.KnownBadHosts);
+            combineLines.UnionWith(externalCoverageLines);
+            CollectionUtilities.FilterGrouped(combineLines);
 
-            var sortedDnsList = CollectionUtilities.SortDnsList(combined);
-            HashSet<string> filteredCache = new(combined.Count);
+            var sortedDnsList = CollectionUtilities.SortDnsList(combineLines);
+            HashSet<string> filteredCache = new(combineLines.Count);
             sortedDnsList = settings.MultiPassFilter
                 ? ProcessingUtilities.ProcessCombinedWithMultipleRounds(sortedDnsList, externalCoverageLines, filteredCache)
                 : ProcessingUtilities.ProcessCombined(sortedDnsList, externalCoverageLines, filteredCache);
