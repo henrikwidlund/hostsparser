@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-30 06:18:13Z
+! Last Modified: 2022-01-30 12:23:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3081,7 +3081,6 @@
 ||allonline.pl^
 ||tr.news.allopneus.com^
 ||tr.newsmarketing.allopneus.com^
-||allornamenti.com^
 ||allosponsor.com^
 ||alloxansmellow.xyz^
 ||firstparty.alloyio.com^
@@ -56090,6 +56089,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ca.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

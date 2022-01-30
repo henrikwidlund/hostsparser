@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-30 06:18:21Z
+! Last Modified: 2022-01-30 12:23:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3790,7 +3790,6 @@
 ||allonline.pl^
 ||tr.news.allopneus.com^
 ||tr.newsmarketing.allopneus.com^
-||allornamenti.com^
 ||allosponsor.com^
 ||allotalk.com^
 ||allover30.com^
@@ -31204,6 +31203,7 @@
 ||iog-in-id.icu^
 ||126898.iogowanie.xyz^
 ||adsrv.iol.co.za^
+||web.comunicazioni.iol.it^
 ||wvw.ion.be^
 ||track.ionicmedia.com^
 ||48h-orientation.ionis-group.com^
@@ -55381,6 +55381,8 @@
 ||sharefile-us.com^
 ||sharefiles-eu.com^
 ||smetrics.sharekhan.com^
+||lp.sharelive.net^
+||download.cdn.sharelive.net^
 ||shareporno.com^
 ||shares-cloud.com^
 ||sharesome.com^
@@ -69743,8 +69745,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||dk.adserver.yahoo.com^
-||ca.adserver.yahoo.com^
+||de.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
