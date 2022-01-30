@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-30 16:51:30Z
+! Last Modified: 2022-01-30 18:17:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21536,6 +21536,7 @@
 ||gscounters.eu1.gigya.com^
 ||gscounters.us1.gigya.com^
 ||gikon.pl^
+||tools.gikotena.net^
 ||marketing.gilderlehrman.org^
 ||adserver.gilligan.tech^
 ||go.gilmours.co.nz^
@@ -26931,6 +26932,7 @@
 ||im.jiguang.cn^
 ||sdk.jiguang.cn^
 ||verification.jiguang.cn^
+||sdk.verification.jiguang.cn^
 ||jihadwatch.org^
 ||jikamemangg.co.vu^
 ||jilarohtas.com^
