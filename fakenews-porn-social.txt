@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-29 18:23:57Z
+! Last Modified: 2022-01-30 00:56:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8422,7 +8422,6 @@
 ||biryakarambol.com^
 ||wawi.birysinkahotel.ru^
 ||bis-dic15.com^
-||go.bisco.com^
 ||estore.biscoind.com^
 ||ads.biscom.net^
 ||biscuit-taste.net^
@@ -20061,8 +20060,6 @@
 ||edv-waldherr.at^
 ||edwan.pl^
 ||go2.edwardian.com^
-||m.edweek.org^
-||sm.edweek.org^
 ||go.edynamiclearning.com^
 ||edziennik.xyz^
 ||smetrics.ee.co.uk^
@@ -59378,6 +59375,8 @@
 ||flamingo.stacking-club.com^
 ||armadillo.stacking.club^
 ||stats.stackingthebricks.com^
+||ads.stackoverflow.com^
+||rads.stackoverflow.com^
 ||stackoverflow.xyz^
 ||ads-lfi3olnec7fr.stackpathdns.com^
 ||sdk-assets-zy8pe3h4v8msjk6x2sq4.stackpathdns.com^
@@ -62584,6 +62583,7 @@
 ||theeventchronicle.com^
 ||theexgirlfriends.com^
 ||metrics.thefa.com^
+||static.thefacebook.com^
 ||thefappening.in^
 ||thefappening.news^
 ||thefappening.plus^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-29 18:24:02Z
+! Last Modified: 2022-01-30 00:56:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19990,6 +19990,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
+||ma479-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -20005,6 +20006,7 @@
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
+||ds-api-public.addthis.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -28529,7 +28531,6 @@
 ||highlight.com.ng^
 ||highonsex.net^
 ||highpro1.com^
-||go.highradius.com^
 ||highroller.com^
 ||highscanprotect.com^
 ||highschoolvirgin.com^
@@ -40390,6 +40391,8 @@
 ||metrics.morganshotelgroup.com^
 ||smetrics.morganstanley.com^
 ||srnzdl.morhipo.com^
+||go.morijuku.com^
+||adebis-morijuku.morijuku.com^
 ||go.morisawa.co.jp^
 ||panda.moritz-petersen.de^
 ||mornacoglobal.com^

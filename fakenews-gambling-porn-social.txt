@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-29 18:23:54Z
+! Last Modified: 2022-01-30 00:56:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -54076,6 +54076,7 @@
 ||ramajaymas.com^
 ||adsomenoise.cdn01.rambla.be^
 ||t.ramblinwreck.com^
+||consulting.ramboll.com^
 ||go.rambus.com^
 ||ramissio.com^
 ||analytics.ramiyer.io^
@@ -67889,6 +67890,7 @@
 ||ns1.vicp.net^
 ||ns2.vicp.net^
 ||goldbye.vicp.net^
+||banners.victor.com^
 ||hi.victorbaudot.com^
 ||p.victoria.dev^
 ||bykwtf.victoriassecret.ae^
