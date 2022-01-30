@@ -6,8 +6,8 @@
 [![Docker](https://img.shields.io/github/workflow/status/henrikwidlund/hostsparser/Docker?label=Docker&logo=docker)](https://github.com/henrikwidlund/hostsparser/actions/workflows/docker.yml)
 [![codecov.io](https://img.shields.io/codecov/c/gh/henrikwidlund/hostsparser?label=codecov&logo=codecov)](https://codecov.io/gh/henrikwidlund/hostsparser)
 
-Tool that converts `hosts` ([`HostsBased`](#hostsbased)) based files into a `AdBlock` formatted file, optimized for [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome).
-It also removes duplicates, comments as well as hosts that are already blocked by a different `AdBlock` ([`AdBlockBased`](#adblockbased)) based files.
+Tool for producing an `AdBlock` formatted file from different sources. `hosts` and `AdBlock` based formats are supported for the sources and you can specify if the contents in the sources should be excluded or included in the result.
+It also removes duplicates, comments as well as hosts as well as hosts that would otherwise be blocked by a more general entry.
 
 By default [StevenBlack/hosts](https://github.com/StevenBlack/hosts) 
 [with fakenews, gambling and porn extensions](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
@@ -73,7 +73,7 @@ Please refer to the [AdGuard Home Wiki](https://github.com/AdguardTeam/AdGuardHo
 
 **Note** If you've generated your own file, the [`Pre-built filter`](#pre-built-filter) link should be replaced by the address to where you host your generated file.
 
-## Building from source
+## Building from source code
 ### Prerequisites
 [dotnet 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0).
 
@@ -92,9 +92,9 @@ The built files will be put in the `artifacts` directory, in the root of the rep
 ## Running
 ### Prerequisites
 1. [dotnet 6 runtime](https://dotnet.microsoft.com/download/dotnet/6.0).
-2. Downloaded binaries or binaries built from source.
+2. Downloaded binaries or binaries built from source code.
 
-Run the following (if you built from source, this will be in `artifacts` directory, in the root of the repository):
+Run the following (if you built from source code, this will be in `artifacts` directory, in the root of the repository):
 ```sh
 dotnet HostsParser.dll
 ```
@@ -121,8 +121,8 @@ docker pull henrikwidlund/hostsparser \
 ```
 The `filter.txt` file will be put into the current directory.
 
-#### Run from source
-If you'd rather build and run from source, execute the following from the repository root:
+#### Run from source code
+If you'd rather build and run from source code, execute the following from the repository root:
 ```sh
 IMAGE_ID=$(docker build ./src/HostsParser -q -t 'hostsparser') \
     && docker create --name hostsparser $IMAGE_ID \
