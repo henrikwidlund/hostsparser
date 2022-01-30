@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-30 16:40:16Z
+! Last Modified: 2022-01-30 16:51:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20915,6 +20915,7 @@
 ||go.gisma.com^
 ||analytics.gismart.xyz^
 ||prod-defaulting-subscriptiontool.gismart.xyz^
+||rnybul.gismeteo.kz^
 ||rnybul.gismeteo.lv^
 ||rnybul.gismeteo.ru^
 ||dfvdkx.gismeteo.ua^
@@ -31156,7 +31157,6 @@
 ||watson.telemetry.microsoft.com^
 ||wes.df.telemetry.microsoft.com^
 ||telecommand.telemetry.microsoft.com^
-||reports.wes.df.telemetry.microsoft.com^
 ||microsoftcommunityxbox.com^
 ||ns1.microsoftonlines.net^
 ||ns2.microsoftonlines.net^
@@ -46971,16 +46971,6 @@
 ||startuppge.us^
 ||startupsservices.net^
 ||sw88.starwars.ru^
-||odc.starwave.com^
-||espn-ak.starwave.com^
-||adsatt.go.starwave.com^
-||adsatt.abc.starwave.com^
-||adsatt.espn.starwave.com^
-||akaads-espn.starwave.com^
-||adsatt.disney.starwave.com^
-||adsatt.movies.starwave.com^
-||adsatt.abcnews.starwave.com^
-||adsatt.familyfun.starwave.com^
 ||metrics.starwoodhotels.com^
 ||staryspichrz.pl^
 ||metric.starz.com^
@@ -55656,6 +55646,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -56089,6 +56080,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-30 16:40:25Z
+! Last Modified: 2022-01-30 16:51:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3250,6 +3250,8 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||bs-geo.dvgtm.akadns.net^
+||bs.eyeblaster.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -18150,6 +18152,7 @@
 ||doga.cm^
 ||jcpjfyikk.dogbonemarket.com^
 ||dogcumshot.net^
+||analytics.dogecoin.gg^
 ||banners.dogfart.com^
 ||dogfartnetwork.com^
 ||doggay.net^
@@ -38695,6 +38698,7 @@
 ||misguessedmergansers.com^
 ||misguidedangel.nu^
 ||bckgmj.mishii-list.com^
+||adds.misiamoiatdom.com^
 ||misky-es.com^
 ||smetrics.misrp.com^
 ||miss-porno.ru^
@@ -69742,6 +69746,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

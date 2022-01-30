@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-30 16:40:18Z
+! Last Modified: 2022-01-30 16:51:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9096,9 +9096,6 @@
 ||webmail.bloguje-teraz.eu^
 ||cpcontacts.bloguje-teraz.eu^
 ||cpcalendars.bloguje-teraz.eu^
-||plotek.bloguje-teraz.xyz^
-||pompon.bloguje-teraz.xyz^
-||finanse.bloguje-teraz.xyz^
 ||cpanel.bloguje-teraz8w.xyz^
 ||sposob.bloguje-teraz8w.xyz^
 ||webdisk.bloguje-teraz8w.xyz^
@@ -72841,6 +72838,7 @@
 ||ctl.k8s-prd-api.net.zooplus.de^
 ||data.docker.lax.net.zooplus.de^
 ||epm-stagingmgmt.net.zooplus.de^
+||help.appsserver.net.zooplus.de^
 ||hwcdn.dockerapi.net.zooplus.de^
 ||machinedata.org.net.zooplus.de^
 ||mailingarketing.net.zooplus.de^
