@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-30 12:23:55Z
+! Last Modified: 2022-01-30 16:40:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51951,6 +51951,7 @@
 ||go.vfc.com^
 ||vfgdb.com^
 ||a.vfghd.com^
+||a.vfgtb.com^
 ||tracker.vgame.us^
 ||ads.vgchartz.com^
 ||vgdny.com^
@@ -55691,6 +55692,7 @@
 ||a8cv.ya-man.com^
 ||arcade.ya.com^
 ||advertpro.ya.com^
+||indetiske.ya.ru^
 ||ya.sv^
 ||yabet.com^
 ||yablinasto.com^

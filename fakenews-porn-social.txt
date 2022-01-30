@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-30 12:23:45Z
+! Last Modified: 2022-01-30 16:40:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25564,6 +25564,7 @@
 ||generationgirls.com^
 ||adserver.generationiron.com^
 ||media2.generationt.asia^
+||go.generatorsource.com^
 ||led.genertrade.site^
 ||inpost.generujkod.com^
 ||geneseenews.com^
@@ -71896,8 +71897,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

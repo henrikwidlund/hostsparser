@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-30 12:23:50Z
+! Last Modified: 2022-01-30 16:40:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20915,7 +20915,6 @@
 ||go.gisma.com^
 ||analytics.gismart.xyz^
 ||prod-defaulting-subscriptiontool.gismart.xyz^
-||rnybul.gismeteo.kz^
 ||rnybul.gismeteo.lv^
 ||rnybul.gismeteo.ru^
 ||dfvdkx.gismeteo.ua^
@@ -31157,6 +31156,7 @@
 ||watson.telemetry.microsoft.com^
 ||wes.df.telemetry.microsoft.com^
 ||telecommand.telemetry.microsoft.com^
+||reports.wes.df.telemetry.microsoft.com^
 ||microsoftcommunityxbox.com^
 ||ns1.microsoftonlines.net^
 ||ns2.microsoftonlines.net^
@@ -56089,7 +56089,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ca.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

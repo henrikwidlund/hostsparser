@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-30 12:23:53Z
+! Last Modified: 2022-01-30 16:40:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19937,6 +19937,7 @@
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
+||wildcard.marketo.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
@@ -49037,7 +49038,6 @@
 ||yuarra.pluto.ro^
 ||yunque.pluto.ro^
 ||service-ad-impression-proxy.clusters.pluto.tv^
-||google.pluto7.com^
 ||plutocrat-affairs.space^
 ||plutocrat-arl.space^
 ||plutocrat-callshould.space^
@@ -60625,7 +60625,6 @@
 ||qvnpxc.technopark.ru^
 ||tiglck.technopolis.bg^
 ||external.techopian.com^
-||elk.techphotoguy.com^
 ||techplone-pgeinv.info^
 ||dlpjgh.techport.ru^
 ||techques.com^

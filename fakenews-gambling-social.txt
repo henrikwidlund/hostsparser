@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-30 12:23:42Z
+! Last Modified: 2022-01-30 16:40:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13647,7 +13647,6 @@
 ||credit24online.com^
 ||ca.creditacceptance.com^
 ||credito.com.pl^
-||click.emails.creditonebank.com^
 ||link.creditonemail.com^
 ||go.creditorwatch.com.au^
 ||creditperformance.com.br^
@@ -57876,6 +57875,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||eu-pn4.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
