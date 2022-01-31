@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-30 18:17:41Z
+! Last Modified: 2022-01-31 00:54:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25829,7 +25829,6 @@
 ||jackpotvillage.com^
 ||smetrics.jackson.com^
 ||learn.jacksonhewitt.com^
-||gcirm.jacksonsun.com^
 ||jackstar.pl^
 ||stats.jackwhiting.co.uk^
 ||jackwolfskinpl.com^
@@ -55851,6 +55850,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst0.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

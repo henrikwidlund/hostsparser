@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-30 18:17:44Z
+! Last Modified: 2022-01-31 00:54:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9282,6 +9282,7 @@
 ||boom.porn^
 ||a.boom.ro^
 ||s.boom.ro^
+||76.a.boom.ro^
 ||smetrics.boom1019.com^
 ||smetrics.boom997.com^
 ||sanalytics.boomerang-tv.pl^
@@ -27907,7 +27908,6 @@
 ||stream.highwebmedia.com^
 ||report-uri.highwebmedia.com^
 ||ssl-ccstatic.highwebmedia.com^
-||roomimg.stream.highwebmedia.com^
 ||marketing.highwoods.com^
 ||track.msadcenter.hih.com^
 ||hihumi.biz^
