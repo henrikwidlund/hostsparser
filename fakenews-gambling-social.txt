@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-31 06:19:03Z
+! Last Modified: 2022-01-31 12:24:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2738,7 +2738,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||cacp-hlb.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -15263,6 +15262,9 @@
 ||207-87-18-203.wsmg.digex.net^
 ||digiaquascr.com^
 ||digibet.com^
+||metrics.digicert.com^
+||app.updates.digicert.com^
+||shoppingguarantee.digicert.com^
 ||dealabs.digidip.net^
 ||stats.digiexpert.store^
 ||digimedia.com^

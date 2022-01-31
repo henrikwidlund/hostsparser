@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-31 06:19:15Z
+! Last Modified: 2022-01-31 12:25:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16557,7 +16557,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -21376,9 +21375,6 @@
 ||ads.golfweek.com^
 ||goliathcasino.com^
 ||fu.golikeus.net^
-||dpd-pl.golinica12ok.com^
-||olx-pl.golinica12ok.com^
-||inpostpl.golinica12ok.com^
 ||www2.golmn.com^
 ||goldnewprog.golnplnew8.xyz^
 ||golot.com.cn^

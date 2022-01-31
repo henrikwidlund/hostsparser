@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-31 06:19:09Z
+! Last Modified: 2022-01-31 12:25:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35271,6 +35271,8 @@
 ||o2-gazetka.xyz^
 ||o2-online.pl^
 ||sstats.www.o2.cz^
+||ads.o2.pl^
+||adserver.o2.pl^
 ||info.o2business.de^
 ||o2lo.pl^
 ||o2omart.co.in^
@@ -56634,6 +56636,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^

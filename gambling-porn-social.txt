@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-31 06:19:11Z
+! Last Modified: 2022-01-31 12:25:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -60623,6 +60623,8 @@
 ||tracking.tchibo.com.tr^
 ||stats.tchncs.de^
 ||sony.tcliveus.com^
+||analytics.tcm.com^
+||sanalytics.tcm.com^
 ||traffic.tcmagnet.com^
 ||go.tcn.com^
 ||apekola.tcp4.me^

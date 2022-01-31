@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-31 06:19:10Z
+! Last Modified: 2022-01-31 12:25:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22412,6 +22412,7 @@
 ||info.healthcareittoday.com^
 ||hcn.healthcarenewspaper.com^
 ||info.healthcarescene.com^
+||marketing.healthcasts.co^
 ||minerva.healthcentral.com^
 ||sminerva.healthcentral.com^
 ||healthcoverage.news^
@@ -27989,7 +27990,6 @@
 ||antlion.launch.fyi^
 ||launchbuffer.com^
 ||mobile.launchdarkly.com^
-||nym5c.laura.ca^
 ||lauraboerci.com^
 ||laureat-nagrody.click^
 ||laurelhighlandstoday.com^

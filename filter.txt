@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-31 06:18:58Z
+! Last Modified: 2022-01-31 12:24:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6999,6 +6999,8 @@
 ||smetric.bahamabreeze.com^
 ||bahamasbaby.com^
 ||bahis10line.com^
+||t.bahn.de^
+||st.bahn.de^
 ||t.bahnbuchung.de^
 ||st.bahnhof.de^
 ||donkey.bahr.dev^
@@ -27738,6 +27740,8 @@
 ||smetrics.gshock.com^
 ||sanalytics.adobe.tp.gskpro.com^
 ||ads.gsm-exchange.com^
+||a.gsmarena.com^
+||adsnew.gsmarena.com^
 ||ads.gsmexchange.com^
 ||info.gsot.edu^
 ||smetrics.gsretail.com^
@@ -73521,7 +73525,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||track.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -74541,7 +74544,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
