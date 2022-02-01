@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-31 18:18:36Z
+! Last Modified: 2022-02-01 00:58:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15302,6 +15302,7 @@
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
+||wildcard.marketo.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
@@ -40035,7 +40036,6 @@
 ||visit.sabre.com^
 ||sabre.com.tw^
 ||go.sacap.edu.za^
-||ads.sacbee.com^
 ||sachemsoutpasses.com^
 ||sacisfashion.com^
 ||saclamb.com^
@@ -51269,6 +51269,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
@@ -51695,6 +51696,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -52795,7 +52797,6 @@
 ||car40-apps.net.zooplus.de^
 ||car40-beta.net.zooplus.de^
 ||car40-mail.net.zooplus.de^
-||car40.corp.net.zooplus.de^
 ||car40latin.net.zooplus.de^
 ||cloud-data.net.zooplus.de^
 ||confluence.net.zooplus.de^

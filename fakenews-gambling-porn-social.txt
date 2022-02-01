@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-31 18:18:17Z
+! Last Modified: 2022-02-01 00:58:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -447,7 +447,6 @@
 ||1teensex.com^
 ||1teentube.com^
 ||1trannytube.com^
-||p.1ts17.top^
 ||1unblock.com^
 ||odc.1und1.de^
 ||1vice.ag^
@@ -19777,6 +19776,7 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
+||aktrack.pubmatic.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
@@ -43316,6 +43316,7 @@
 ||marketing.nowplayingutah.com^
 ||nowplaymovie.com^
 ||nowtheendbegins.com^
+||smetrics.nowtv.com^
 ||kontopay-now.nowtvonline.co.pl^
 ||s01.nowvisitors.com^
 ||nowy612.site^
@@ -69508,7 +69509,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||cdn.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -70744,7 +70744,6 @@
 ||yogasuma.care^
 ||yoggrt.com^
 ||yogurt.news^
-||tracking.yohoads.com^
 ||go.yoke.net^
 ||lifeinnovation.yokogawa.com^
 ||info.yokogawa.eu^

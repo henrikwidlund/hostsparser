@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-31 18:18:18Z
+! Last Modified: 2022-02-01 00:58:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25740,6 +25740,7 @@
 ||im.jiguang.cn^
 ||sdk.jiguang.cn^
 ||verification.jiguang.cn^
+||sdk.verification.jiguang.cn^
 ||jihadwatch.org^
 ||jikamemangg.co.vu^
 ||jilarohtas.com^
@@ -31039,6 +31040,7 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
+||tcp.push.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^
@@ -55202,6 +55204,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -56294,7 +56297,6 @@
 ||admindata.net.zooplus.de^
 ||api.login.net.zooplus.de^
 ||authcar40.net.zooplus.de^
-||cdn.csr41.net.zooplus.de^
 ||cert-mail.net.zooplus.de^
 ||certcsr31.net.zooplus.de^
 ||chef-mail.net.zooplus.de^

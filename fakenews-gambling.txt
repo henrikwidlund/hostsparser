@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-01-31 18:18:19Z
+! Last Modified: 2022-02-01 00:58:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51021,6 +51021,7 @@
 ||advice-ads-cdn.vice.com^
 ||s-adobeanalytics.vice.com^
 ||vice4beek.com^
+||smetrics.viceroyhotelsandresorts.com^
 ||vick6duty.com^
 ||trackit.vicotech.com^
 ||serconsole.vicp.cc^
@@ -54714,6 +54715,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
