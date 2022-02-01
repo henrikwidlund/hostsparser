@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-01 06:19:04Z
+! Last Modified: 2022-02-01 12:25:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24851,7 +24851,6 @@
 ||jdownloader.fr^
 ||dxpxgy.jdsports.com^
 ||mdugiz.jdsports.de^
-||jprbql.jdsports.fr^
 ||jeamention.pl^
 ||t9k3a.jeanpaulfortin.com^
 ||jebb8hurt.com^
@@ -38882,6 +38881,7 @@
 ||smetrics.privilege.com^
 ||privitize.com^
 ||privy.com^
+||go.privy.id^
 ||prizefestival.mobi^
 ||track.prizeglobal.net^
 ||prizelava.com^
@@ -40785,6 +40785,7 @@
 ||rewardsflow.com^
 ||rewardsnow.co.uk^
 ||rewardszoneusa.com^
+||metrics.rewe-reisen.de^
 ||rw.net.rewe.de^
 ||metrics.rewe.de^
 ||rewelacja010.site^

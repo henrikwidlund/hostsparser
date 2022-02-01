@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-01 06:19:01Z
+! Last Modified: 2022-02-01 12:25:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32262,7 +32262,6 @@
 ||a8clk.kaitori-retrog.jp^
 ||a8clk.kaitori-yamatokukimono.jp^
 ||kaizentraffic.com^
-||ka.kakakakaka.xyz^
 ||stat.kakaku.com^
 ||jknarp.kakaku.com^
 ||linkage.kakaku.com^
@@ -69552,8 +69551,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||cdn.ad.xiaomi.com^
-||test.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -70565,6 +70562,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
