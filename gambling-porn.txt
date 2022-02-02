@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-02 00:57:48Z
+! Last Modified: 2022-02-02 06:19:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3478,6 +3478,7 @@
 ||p4psearch.china.alibaba.com^
 ||alibabaslots.com^
 ||alibestsale.com^
+||li.alibris.com^
 ||da.alibuf.com^
 ||info.alicat.com^
 ||gma.alicdn.com^
@@ -69974,6 +69975,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

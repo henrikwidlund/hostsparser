@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-02 00:57:54Z
+! Last Modified: 2022-02-02 06:19:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3200,6 +3200,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||cdn-lb.vungle.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -70167,6 +70168,7 @@
 ||dev-car40.net.zooplus.de^
 ||devopsail.net.zooplus.de^
 ||dockerail.net.zooplus.de^
+||iad.csr11.net.zooplus.de^
 ||mail.jobs.net.zooplus.de^
 ||marketing.net.zooplus.de^
 ||mirrorssl.net.zooplus.de^
