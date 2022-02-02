@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-02 12:25:05Z
+! Last Modified: 2022-02-02 18:18:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18430,6 +18430,7 @@
 ||doctorvoluptua.com^
 ||documentingreality.com^
 ||documentservice.cc^
+||info.docupace.com^
 ||track.docusign.co.uk^
 ||get.docusign.com^
 ||track.docusign.com^
@@ -23608,7 +23609,6 @@
 ||fortunejack.com^
 ||fortunelegends.com^
 ||ftn.fortuneo.fr^
-||angeliques.forumactif.net^
 ||insideangels.forumcommunity.net^
 ||go.forumdesimages.fr^
 ||darkangels12.14.forumer.com^
@@ -69770,6 +69770,8 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
