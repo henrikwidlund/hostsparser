@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-01 18:19:03Z
+! Last Modified: 2022-02-02 00:57:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16381,6 +16381,7 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
+||cdn.spotxcdn.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -25617,7 +25618,6 @@
 ||ascc.javquick.com^
 ||adspy.javrank.com^
 ||marketing.javs.com^
-||eyedssw.javvvvvv.xyz^
 ||stats.jawebb.se^
 ||go.jawfp.org^
 ||germany-news.jaworzno.pl^
@@ -50777,6 +50777,7 @@
 ||myetherwallet.us.com^
 ||giftcardsurveys.us.com^
 ||ad.track.us.org^
+||link.usa-network.com^
 ||usaaroundtheworldnews.com^
 ||cdn.usabilitytracker.com^
 ||usachoice.net^
@@ -54977,7 +54978,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||br.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -56445,7 +56445,6 @@
 ||chd.signed-marketing.net.zooplus.es^
 ||chd.marketing.internal.net.zooplus.es^
 ||marketing.applications.net.zooplus.es^
-||proxy-europe.marketing.net.zooplus.es^
 ||admins-www.cgimarketing.net.zooplus.es^
 ||documentation-marketing.net.zooplus.es^
 ||admins-www.privmarketing.net.zooplus.es^

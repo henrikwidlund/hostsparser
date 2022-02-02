@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-01 18:19:01Z
+! Last Modified: 2022-02-02 00:57:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15264,6 +15264,7 @@
 ||domain-registration.me^
 ||ykhqhe.domain.com.au^
 ||bf35f69f2c6f6bcda64064b1f5b49218.domain.com.au^
+||cattle.domaincomet.com^
 ||ad.domainfactory.de^
 ||ti.domainforlite.com^
 ||uu.domainforlite.com^
@@ -16444,6 +16445,7 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||wildcard.aniview.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -25710,7 +25712,6 @@
 ||ascc.javquick.com^
 ||adspy.javrank.com^
 ||marketing.javs.com^
-||eyedssw.javvvvvv.xyz^
 ||stats.jawebb.se^
 ||go.jawfp.org^
 ||germany-news.jaworzno.pl^
@@ -46137,6 +46138,8 @@
 ||leech.stargate-project.de^
 ||gcirm.stargazette.com^
 ||gmufag.starhit.ru^
+||metrics.starhub.com^
+||smetrics.starhub.com^
 ||smetrics.stark.dk^
 ||juniper.starleaf.com^
 ||plausible.starlegacyfoundation.org^
@@ -55467,6 +55470,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||launch.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
