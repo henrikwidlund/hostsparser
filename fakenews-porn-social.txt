@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-03 00:54:22Z
+! Last Modified: 2022-02-03 06:19:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21619,7 +21619,6 @@
 ||fapvid.net^
 ||fapvidhd.com^
 ||fapxl.com^
-||mink.faq-bregenzerwald.com^
 ||kplusd.far.ru^
 ||faraazfoundation.com^
 ||faraway-vision.io^
@@ -68474,6 +68473,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||sdkconfig.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
@@ -69485,10 +69485,13 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||de.adserver.yahoo.com^
+||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||eu-pn4.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -70914,6 +70917,7 @@
 ||csr1prd.net.zooplus.de^
 ||csraws1.net.zooplus.de^
 ||csrvpn1.net.zooplus.de^
+||ctl.api.net.zooplus.de^
 ||ctl.org.net.zooplus.de^
 ||dataapi.net.zooplus.de^
 ||techssl.net.zooplus.de^
