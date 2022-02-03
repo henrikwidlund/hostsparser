@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-03 12:25:56Z
+! Last Modified: 2022-02-03 18:18:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2051,6 +2051,8 @@
 ||matomo.activate.cz^
 ||activation-netflix.com^
 ||active-folders.com^
+||metrics.active.com^
+||smetrics.active.com^
 ||adimg.activeadv.net^
 ||ablink.mail.activearcade.ai^
 ||metrics.activecommunities.com^
@@ -9606,6 +9608,7 @@
 ||braincdn.org^
 ||brainfox.com^
 ||brainfunction.news^
+||go.brainlab.com^
 ||brainschampions.com^
 ||brainstormrevise.com^
 ||braintest4you.com^
@@ -31782,7 +31785,6 @@
 ||ism2trk.com^
 ||ismailersoz.com^
 ||ismalltits.com^
-||aas.ismet.kz^
 ||olx-pl.iso-pay.net.ru^
 ||ads.isoftmarketing.com^
 ||banman.isoftmarketing.com^
@@ -31911,6 +31913,7 @@
 ||alternativos.iw-advertising.com^
 ||metrics.iwakifc.com^
 ||smetrics.iwakifc.com^
+||ads.iwangmedia.com^
 ||iwank.icu^
 ||iwank.tv^
 ||iwanknow.com^
