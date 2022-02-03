@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-02 18:18:06Z
+! Last Modified: 2022-02-03 00:54:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16441,7 +16441,6 @@
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ma156-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -27447,6 +27446,8 @@
 ||sc.lacapitale.com^
 ||lacasadialicedesenzano.it^
 ||lacebook.pl^
+||tr.info.lacentrale.fr^
+||ressources.lacentrale.fr^
 ||lack4skip.com^
 ||lacmp.net^
 ||tr.news.lacollection-airfrance.fr^
@@ -56909,7 +56910,6 @@
 ||marketingssl.net.zooplus.es^
 ||administrator.net.zooplus.es^
 ||chd-marketing.net.zooplus.es^
-||chd.marketing.net.zooplus.es^
 ||latinarketing.net.zooplus.es^
 ||mailmarketing.net.zooplus.es^
 ||admlabarketing.net.zooplus.es^
