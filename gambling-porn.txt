@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-04 00:55:34Z
+! Last Modified: 2022-02-04 06:15:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21926,6 +21926,7 @@
 ||ff-01.com^
 ||ff-03.com^
 ||in.ff5.com^
+||mdws.ffcu.ca^
 ||ffdbusinesscommittee.org^
 ||prawn.fffuel.co^
 ||ffkk.me^
@@ -33028,7 +33029,6 @@
 ||kod-polskabt.icu^
 ||kod-polskabt.website^
 ||kod-polskabt.work^
-||stats.kod.ru^
 ||br.links.kodakmoments.com^
 ||link.admin.kodakmoments.com^
 ||link.offers.kodakmoments.com^
@@ -71779,7 +71779,6 @@
 ||chd-marketing.net.zooplus.es^
 ||latinarketing.net.zooplus.es^
 ||mailmarketing.net.zooplus.es^
-||pay.marketing.net.zooplus.es^
 ||admlabarketing.net.zooplus.es^
 ||alpha.servicio.net.zooplus.es^
 ||apachearketing.net.zooplus.es^

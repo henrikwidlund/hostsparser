@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-04 00:55:30Z
+! Last Modified: 2022-02-04 06:15:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15889,7 +15889,6 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
-||digicertwc.rubiconproject.com.edgekey.net^
 ||go.edgenmurray.com^
 ||deep.edgequery.io^
 ||somniture.edgestar.com^

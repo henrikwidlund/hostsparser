@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-04 00:55:43Z
+! Last Modified: 2022-02-04 06:15:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3204,7 +3204,6 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||rtb.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -28328,6 +28327,7 @@
 ||icopywriter.pl^
 ||smetrics.icorner.ch^
 ||icoselfkey.org^
+||stat-ssl.icotto.jp^
 ||icptrack.com^
 ||ads.icq.com^
 ||icracks.net^
@@ -68703,7 +68703,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
