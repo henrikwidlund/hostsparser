@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-03 18:19:12Z
+! Last Modified: 2022-02-04 00:55:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -52820,6 +52820,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -53558,6 +53559,7 @@
 ||mjp.zimad.com^
 ||zimadeals.pl^
 ||zimb.space^
+||static.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||nnivvr.zimmo.be^
 ||go.zimperium.com^
