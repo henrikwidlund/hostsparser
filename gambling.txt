@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-04 12:20:59Z
+! Last Modified: 2022-02-04 18:15:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -326,9 +326,6 @@
 ||hu.2021store.ru^
 ||03.2021twojrok.live^
 ||202ch.com^
-||olx-polska-xee.20493902.me^
-||inpost-polska-hw.20493902.me^
-||inpost-polska-cic.20493902.me^
 ||207.net^
 ||a.20minutes.fr^
 ||20pascals.nl^
@@ -52821,7 +52818,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||cn2.adserver.yahoo.com^
+||pn1.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^

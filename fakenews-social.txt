@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-04 12:20:52Z
+! Last Modified: 2022-02-04 18:15:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18621,7 +18621,6 @@
 ||ad2.fm-p.jp^
 ||fm3cafe.hu^
 ||smetrics.fm96.com^
-||marketing.fmbankva.com^
 ||fmcurling.org^
 ||apple.fmi-iphone.support^
 ||fminzynieria.pl^
@@ -54215,13 +54214,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||fr.adserver.yahoo.com^
-||uk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||launch.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
