@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-05 00:48:54Z
+! Last Modified: 2022-02-05 06:15:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16464,6 +16464,7 @@
 ||metrics.deltafarmpress.com^
 ||int.deltafaucet.com^
 ||lideroxigenio.com.br.deltagases.com.br^
+||deltago.com^
 ||sslstats.deltavacations.com^
 ||marketing.deltechomes.com^
 ||ads.deltha.hu^
@@ -67337,6 +67338,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||global.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

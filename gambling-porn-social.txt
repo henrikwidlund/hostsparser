@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-05 00:48:47Z
+! Last Modified: 2022-02-05 06:15:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3267,6 +3267,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||cdn.stickyadstv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -8160,7 +8161,6 @@
 ||bigtits.com^
 ||bigtits.world^
 ||enter.bigtitsatschool.com^
-||enter.bigtitsatwork.com^
 ||bigtitscartoons.com^
 ||bigtitsgallery.net^
 ||bigtitsgf.com^
@@ -16741,7 +16741,6 @@
 ||ddtblrnude.club^
 ||airbnb.de-objekt-4197740.info^
 ||cam4.de.com^
-||s62.research.de.com^
 ||credit-agricole-fr.de.cool^
 ||angelika-l.de.nr^
 ||djbanners.deadjournal.com^
@@ -16937,6 +16936,7 @@
 ||metrics.deltafarmpress.com^
 ||int.deltafaucet.com^
 ||lideroxigenio.com.br.deltagases.com.br^
+||deltago.com^
 ||sslstats.deltavacations.com^
 ||marketing.deltechomes.com^
 ||ads.deltha.hu^

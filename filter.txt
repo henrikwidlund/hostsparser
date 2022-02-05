@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-05 00:48:34Z
+! Last Modified: 2022-02-05 06:15:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17280,6 +17280,7 @@
 ||metrics.deltafarmpress.com^
 ||int.deltafaucet.com^
 ||lideroxigenio.com.br.deltagases.com.br^
+||deltago.com^
 ||sslstats.deltavacations.com^
 ||marketing.deltechomes.com^
 ||ads.deltha.hu^
@@ -20179,18 +20180,6 @@
 ||elixmedia.com^
 ||elizabethtowntimes.com^
 ||elizapet.com^
-||prawo.elk.pl^
-||fakty24.elk.pl^
-||info-puls.elk.pl^
-||puls-miasta.elk.pl^
-||puls-swiata.elk.pl^
-||e-gospodarka.elk.pl^
-||germany-news.elk.pl^
-||krajowe-info.elk.pl^
-||wydarzenie24.elk.pl^
-||informacyjnie.elk.pl^
-||najnowsze-newsy.elk.pl^
-||lokalne-informacje.elk.pl^
 ||go.elkay.com^
 ||content.elkem.com^
 ||elkharttimes.com^
@@ -32058,6 +32047,7 @@
 ||jamescomey.news^
 ||st2.jamesdaniel.dev^
 ||jamesdeen.com^
+||stats.jamesevers.co.uk^
 ||www2.jameshardie.com.au^
 ||jameslico.com^
 ||jamesryg.com^
@@ -59629,7 +59619,6 @@
 ||syncrocommerce.it^
 ||parmail.syncromsp.com^
 ||synderiliyo.com^
-||marcomm.synechroncrm.com^
 ||go.syneoshealth.com^
 ||smetrics.synergy.net.au^
 ||mdws.synergycu.ca^
@@ -71108,6 +71097,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||cdn.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -72122,12 +72112,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sg.adserver.yahoo.com^
-||tw.adserver.yahoo.com^
-||dk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-05 00:48:50Z
+! Last Modified: 2022-02-05 06:15:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13877,6 +13877,7 @@
 ||metrics.deltafarmpress.com^
 ||int.deltafaucet.com^
 ||lideroxigenio.com.br.deltagases.com.br^
+||deltago.com^
 ||sslstats.deltavacations.com^
 ||marketing.deltechomes.com^
 ||ads.deltha.hu^
@@ -15953,7 +15954,6 @@
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
-||ds-api-public.addthis.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -34400,7 +34400,6 @@
 ||onwey.com^
 ||adserver.onwisconsin.com^
 ||oascentral.onwisconsin.com^
-||icoktb.onygo.com^
 ||onyx-food.com^
 ||onyxalliance.org^
 ||onyxprofit.pro^

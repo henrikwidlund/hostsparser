@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-05 00:48:56Z
+! Last Modified: 2022-02-05 06:15:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16410,6 +16410,7 @@
 ||metrics.deltafarmpress.com^
 ||int.deltafaucet.com^
 ||lideroxigenio.com.br.deltagases.com.br^
+||deltago.com^
 ||sslstats.deltavacations.com^
 ||marketing.deltechomes.com^
 ||ads.deltha.hu^
@@ -18912,6 +18913,7 @@
 ||metrics.egencia.ae^
 ||metrics.egencia.be^
 ||metrics.egencia.ca^
+||metrics.egencia.ch^
 ||metrics.egencia.co.in^
 ||metrics.egencia.co.uk^
 ||metrics.egencia.com^
@@ -62986,7 +62988,6 @@
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
-||httpkafka.unityads.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
@@ -70135,7 +70136,6 @@
 ||csrnode1.net.zooplus.de^
 ||csrrepo1.net.zooplus.de^
 ||data.org.net.zooplus.de^
-||docs.owa.net.zooplus.de^
 ||document.net.zooplus.de^
 ||dyncsr31.net.zooplus.de^
 ||idscsr41.net.zooplus.de^

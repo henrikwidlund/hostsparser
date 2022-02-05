@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-05 00:48:45Z
+! Last Modified: 2022-02-05 06:15:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13754,6 +13754,7 @@
 ||metrics.deltafarmpress.com^
 ||int.deltafaucet.com^
 ||lideroxigenio.com.br.deltagases.com.br^
+||deltago.com^
 ||sslstats.deltavacations.com^
 ||marketing.deltechomes.com^
 ||ads.deltha.hu^
@@ -30320,7 +30321,6 @@
 ||modawanilia.com^
 ||metric.modcloth.com^
 ||breakingbread.modelacademy.co.in^
-||engage.modelgroup.com^
 ||modello.co.il^
 ||modeloi7nove.cf^
 ||moder-modemet.se^
