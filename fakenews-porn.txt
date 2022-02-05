@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-05 06:15:29Z
+! Last Modified: 2022-02-05 12:19:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5485,8 +5485,6 @@
 ||aritzal.com^
 ||ariumdevelopment.com^
 ||response.arizonacoyotes.com^
-||t.arizonawildcats.com^
-||app.arizonawildcats.com^
 ||go.arjo.com^
 ||arjoflor.com^
 ||arjoflos.com^
@@ -19301,6 +19299,7 @@
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
+||wildcard.moatads.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -29489,7 +29488,6 @@
 ||stat.ijinshan.com^
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
-||dl.sj.ijinshan.com^
 ||keyserver.ijinshan.com^
 ||info.ijungo.com^
 ||ikbox.org^
@@ -64905,6 +64903,7 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
+||webview.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^

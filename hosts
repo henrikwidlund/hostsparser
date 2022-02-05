@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-05 06:15:19Z
+! Last Modified: 2022-02-05 12:19:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18698,7 +18698,6 @@
 ||analytics.home.dotcs.me^
 ||adserve.doteasy.com^
 ||pbg2cs01.doteasy.com^
-||adserver.dotmusic.com^
 ||dotrzecdo-kontrast.site^
 ||track.dotsly.com^
 ||www2.dotsource.de^
@@ -20180,6 +20179,18 @@
 ||elixmedia.com^
 ||elizabethtowntimes.com^
 ||elizapet.com^
+||prawo.elk.pl^
+||fakty24.elk.pl^
+||info-puls.elk.pl^
+||puls-miasta.elk.pl^
+||puls-swiata.elk.pl^
+||e-gospodarka.elk.pl^
+||germany-news.elk.pl^
+||krajowe-info.elk.pl^
+||wydarzenie24.elk.pl^
+||informacyjnie.elk.pl^
+||najnowsze-newsy.elk.pl^
+||lokalne-informacje.elk.pl^
 ||go.elkay.com^
 ||content.elkem.com^
 ||elkharttimes.com^
@@ -59619,6 +59630,7 @@
 ||syncrocommerce.it^
 ||parmail.syncromsp.com^
 ||synderiliyo.com^
+||marcomm.synechroncrm.com^
 ||go.syneoshealth.com^
 ||smetrics.synergy.net.au^
 ||mdws.synergycu.ca^
@@ -71097,7 +71109,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||cdn.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
