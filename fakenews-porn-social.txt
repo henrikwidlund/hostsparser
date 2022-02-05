@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-05 12:19:20Z
+! Last Modified: 2022-02-05 18:14:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -63469,7 +63469,6 @@
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
-||cdn-creatives-highwinds-prd.unityads.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
 ||unitymaineguide.com^

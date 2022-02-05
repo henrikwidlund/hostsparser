@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-05 12:19:13Z
+! Last Modified: 2022-02-05 18:14:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18698,6 +18698,7 @@
 ||analytics.home.dotcs.me^
 ||adserve.doteasy.com^
 ||pbg2cs01.doteasy.com^
+||adserver.dotmusic.com^
 ||dotrzecdo-kontrast.site^
 ||track.dotsly.com^
 ||www2.dotsource.de^
@@ -26012,8 +26013,6 @@
 ||plausible.goatstake.com^
 ||goautofinance.com^
 ||goawos.com^
-||segob.gob.mx^
-||lotenal.gob.mx^
 ||aeronautica.gob.pa^
 ||gobdsm.com^
 ||gobetgo.com^
@@ -73224,6 +73223,7 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||campaign.brand.zing.vn^
 ||analytics.zingerwebdesign.com^
 ||zingknowev.tk^
 ||zingyporntube.com^

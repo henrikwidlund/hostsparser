@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-05 12:19:33Z
+! Last Modified: 2022-02-05 18:15:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19429,6 +19429,7 @@
 ||emxdigital.com^
 ||t.en25.com^
 ||img.en25.com^
+||med.enablex.com^
 ||go.enaspiration.com^
 ||enatimedia.com^
 ||enature.net^
@@ -68812,7 +68813,6 @@
 ||car40-apps.net.zooplus.de^
 ||car40-beta.net.zooplus.de^
 ||car40-mail.net.zooplus.de^
-||car40.corp.net.zooplus.de^
 ||car40latin.net.zooplus.de^
 ||cloud-data.net.zooplus.de^
 ||confluence.net.zooplus.de^

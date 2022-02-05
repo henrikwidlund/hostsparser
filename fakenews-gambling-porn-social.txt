@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-05 12:19:16Z
+! Last Modified: 2022-02-05 18:14:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3294,7 +3294,6 @@
 ||rubiconproject.net.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
-||pixel.rubiconproject.net.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
@@ -55310,7 +55309,6 @@
 ||u19432194.ct.sendgrid.net^
 ||u23444514.ct.sendgrid.net^
 ||sendhtml.net^
-||v-inted.sendingfunct.xyz^
 ||allegrolokane.sendingreq.xyz^
 ||sendingurl.com^
 ||sendingurl.net^
@@ -59244,6 +59242,7 @@
 ||psb.sunandrajat.or.id^
 ||sunbets.co.uk^
 ||tdep.suncamp.be^
+||tdep.suncamp.de^
 ||tdep.suncamp.nl^
 ||tdep.suncamp.pl^
 ||suncityazbeeremoval.com^
@@ -65751,8 +65750,6 @@
 ||api.vigo.ru^
 ||med.viibryd.com^
 ||meds.viibryd.com^
-||med.viibrydhcp.com^
-||meds.viibrydhcp.com^
 ||somni.vikingrivercruises.com^
 ||vikingslots.com^
 ||vikiporn.com^
