@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-04 18:15:32Z
+! Last Modified: 2022-02-05 00:48:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34415,6 +34415,7 @@
 ||panie.online^
 ||panigoanalyticsgfabza.xyz^
 ||panivan.pl^
+||pardot.panjiva.com^
 ||panoramiczny889.site^
 ||ads.panoramtech.net^
 ||smetric.panpacific.com^
@@ -51956,7 +51957,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

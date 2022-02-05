@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-04 18:15:23Z
+! Last Modified: 2022-02-05 00:48:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13154,6 +13154,7 @@
 ||ww2.cyxtera.com^
 ||straighttangerine.cz.cc^
 ||service.cz.nl^
+||static.cz01.cn^
 ||czapkinewerapromocja.com^
 ||czarne-sprawy.eu^
 ||czarujacabut.site^

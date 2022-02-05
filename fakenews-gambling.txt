@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-04 18:15:17Z
+! Last Modified: 2022-02-05 00:48:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29438,7 +29438,6 @@
 ||mansion88.com^
 ||mansionbet.com^
 ||mansmith.net^
-||go2.manta.com^
 ||ecs.mantisadnetwork.com^
 ||assets.mantisadnetwork.com^
 ||resize.mantisadnetwork.com^
@@ -50517,6 +50516,7 @@
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
+||httpkafka.unityads.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
@@ -54978,8 +54978,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||pn1.adserver.yahoo.com^
-||tw2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
@@ -56450,7 +56448,6 @@
 ||documentation-marketing.net.zooplus.es^
 ||admins-www.privmarketing.net.zooplus.es^
 ||authentication-marketing.net.zooplus.es^
-||cert-wwwwwwlab.marketing.net.zooplus.es^
 ||elastic.org.frontpagessl.net.zooplus.es^
 ||autodiscover.saintandrews.net.zooplus.es^
 ||ctl-www.analyticsarketing.net.zooplus.es^

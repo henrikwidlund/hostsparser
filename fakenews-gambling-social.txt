@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-04 18:15:16Z
+! Last Modified: 2022-02-05 00:48:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5616,7 +5616,6 @@
 ||info.bendigotafe.edu.au^
 ||education.bendigotafe.edu.au^
 ||bendore.xyz^
-||go.benefit-one.co.jp^
 ||metrics.benefitcosmetics.de^
 ||text.benefitsatwork.be^
 ||text.benefitsatwork.ch^
@@ -51232,8 +51231,6 @@
 ||usersonlinecounter.com^
 ||api.userstyles.org^
 ||lnpost-pl-info.usertranslationinfo.xyz^
-||by.uservoice.com^
-||by2.uservoice.com^
 ||useshrts.com^
 ||home.usg.com^
 ||myhome.usg.com^

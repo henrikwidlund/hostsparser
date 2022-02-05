@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-04 18:15:12Z
+! Last Modified: 2022-02-05 00:48:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32058,7 +32058,6 @@
 ||jamescomey.news^
 ||st2.jamesdaniel.dev^
 ||jamesdeen.com^
-||stats.jamesevers.co.uk^
 ||www2.jameshardie.com.au^
 ||jameslico.com^
 ||jamesryg.com^
@@ -72123,8 +72122,12 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sg.adserver.yahoo.com^
+||tw.adserver.yahoo.com^
+||dk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
