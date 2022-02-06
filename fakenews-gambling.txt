@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-05 18:14:56Z
+! Last Modified: 2022-02-06 01:04:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9436,6 +9436,7 @@
 ||chaseonline.com^
 ||a.chastityvideos.com^
 ||a8clk.chat-wifi.site^
+||www-banner.chat.ru^
 ||oms.chatelaine.com^
 ||access.chathamfinancial.com^
 ||oms.chatrwireless.com^
@@ -54977,7 +54978,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sg.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -56440,7 +56440,6 @@
 ||beta-wwwmarketing.net.zooplus.es^
 ||marketing.develop.net.zooplus.es^
 ||marketing.service.net.zooplus.es^
-||clientwww.marketing.net.zooplus.es^
 ||container-marketing.net.zooplus.es^
 ||c593l6jlo3ivkuln8va0.net.zooplus.es^
 ||chd.signed-marketing.net.zooplus.es^

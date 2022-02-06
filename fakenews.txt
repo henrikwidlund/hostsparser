@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-05 18:15:02Z
+! Last Modified: 2022-02-06 01:04:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20107,7 +20107,6 @@
 ||dfvdkx.gismeteo.ua^
 ||git-hub.co^
 ||vampirebat.git-tower.com^
-||bob.gitclear.com^
 ||githb.co^
 ||pyro0.github.io^
 ||kvnuke.github.io^
@@ -53679,6 +53678,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
