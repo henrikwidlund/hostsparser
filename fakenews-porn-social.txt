@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-06 06:18:31Z
+! Last Modified: 2022-02-06 12:23:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -44439,6 +44439,7 @@
 ||so.opentable.com^
 ||tracking.opentable.com^
 ||otium.cv.opentecsuporte.com^
+||resources.opentext.com^
 ||resources.opentext.de^
 ||opentrusts.com^
 ||casting.openv.com^
@@ -68472,8 +68473,11 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||test.ad.xiaomi.com^
+||zeus.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
