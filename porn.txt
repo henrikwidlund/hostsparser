@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-06 01:04:32Z
+! Last Modified: 2022-02-06 06:18:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3209,6 +3209,7 @@
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
+||pixel-us-west.rubiconproject.net.akadns.net^
 ||marketing.akaes.com^
 ||akaflieg-sb.de^
 ||akama.com^
@@ -39670,6 +39671,7 @@
 ||nsc.natwest.com^
 ||clicks.natwest.com^
 ||touchclarity.natwest.com^
+||sc.natwestinternational.com^
 ||natwojeszczescie.site^
 ||natymswiecie.eu^
 ||naughtiest-angels.com^
@@ -39846,7 +39848,6 @@
 ||nbpolskaonline.com^
 ||nbrtrack.com^
 ||nbryb.com^
-||pixel.nc0.co^
 ||analytics.ncaa.com^
 ||nccsc.net^
 ||ads.nccwebs.com^
@@ -62989,7 +62990,6 @@
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
-||cdn-creatives-highwinds-prd.unityads.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
 ||linux.unitys3d.com^

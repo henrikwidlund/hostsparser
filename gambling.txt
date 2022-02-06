@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-06 01:04:28Z
+! Last Modified: 2022-02-06 06:18:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31871,7 +31871,6 @@
 ||nbpolskaonline.com^
 ||nbrtrack.com^
 ||nbryb.com^
-||pixel.nc0.co^
 ||analytics.ncaa.com^
 ||ads.nccwebs.com^
 ||ncfws.cn^
@@ -41697,7 +41696,6 @@
 ||s.schlachter.tech^
 ||mktg.schlage.com^
 ||intouch.schlesingergroup.com^
-||info.schmidt-na.com^
 ||ads.schmoozecom.net^
 ||edu-us.schneider-electric.com^
 ||tracking.schneider.com^
@@ -48565,6 +48563,7 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
+||geocdn.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^

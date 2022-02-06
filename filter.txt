@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-06 01:04:07Z
+! Last Modified: 2022-02-06 06:18:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32389,6 +32389,7 @@
 ||javynow.com^
 ||javzz.net^
 ||stats.jawebb.se^
+||go.jawfp.org^
 ||germany-news.jaworzno.pl^
 ||jaxigui6.xyz^
 ||jaxx.com^
@@ -36848,6 +36849,7 @@
 ||magicbet.com^
 ||magiccandles.eu^
 ||trk.magicfashionevents.com^
+||go.magicline.com^
 ||magicmovies.com^
 ||magicnudes.com^
 ||magicpockets.shop^
@@ -41824,7 +41826,6 @@
 ||nbpolskaonline.com^
 ||nbrtrack.com^
 ||nbryb.com^
-||pixel.nc0.co^
 ||analytics.ncaa.com^
 ||ncarkansasnews.com^
 ||ncbusinessdaily.com^
@@ -72122,6 +72123,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||gr.adserver.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
