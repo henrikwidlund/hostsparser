@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-06 12:23:34Z
+! Last Modified: 2022-02-06 18:17:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -62748,8 +62748,6 @@
 ||info.tubularlabs.com^
 ||tubxporn.com^
 ||tuccus.com^
-||vs.tucows.com^
-||adclient1.tucows.com^
 ||tucsonstandard.com^
 ||tudasfaja.com^
 ||tudaskor.com^
@@ -68473,11 +68471,8 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||test.ad.xiaomi.com^
-||zeus.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||zeus.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -71018,6 +71013,7 @@
 ||clientcsr11.net.zooplus.de^
 ||controller1.net.zooplus.de^
 ||csr11-asana.net.zooplus.de^
+||csr11.csr41.net.zooplus.de^
 ||csr12-login.net.zooplus.de^
 ||csr12-tiger.net.zooplus.de^
 ||csr31mail01.net.zooplus.de^
