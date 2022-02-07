@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-07 12:25:55Z
+! Last Modified: 2022-02-07 16:24:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25450,6 +25450,10 @@
 ||a8clk.kaitori-yamatokukimono.jp^
 ||kaizentraffic.com^
 ||ka.kakakakaka.xyz^
+||stat.kakaku.com^
+||jknarp.kakaku.com^
+||linkage.kakaku.com^
+||stat-ssl.kakaku.com^
 ||stat-ssl.kakakumag.com^
 ||ads.kaktuz.net^
 ||kalaaps.pl^
@@ -53675,6 +53679,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||dk.adserver.yahoo.com^
+||de.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
