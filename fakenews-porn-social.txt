@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-06 18:17:23Z
+! Last Modified: 2022-02-07 00:56:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3232,6 +3232,8 @@
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
+||prebid-a.rubiconproject.net.akadns.net^
+||beacon-nf.rubiconproject.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
 ||marketing.akaes.com^
@@ -62748,6 +62750,8 @@
 ||info.tubularlabs.com^
 ||tubxporn.com^
 ||tuccus.com^
+||vs.tucows.com^
+||adclient1.tucows.com^
 ||tucsonstandard.com^
 ||tudasfaja.com^
 ||tudaskor.com^
@@ -71013,7 +71017,6 @@
 ||clientcsr11.net.zooplus.de^
 ||controller1.net.zooplus.de^
 ||csr11-asana.net.zooplus.de^
-||csr11.csr41.net.zooplus.de^
 ||csr12-login.net.zooplus.de^
 ||csr12-tiger.net.zooplus.de^
 ||csr31mail01.net.zooplus.de^

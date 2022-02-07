@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-06 18:17:27Z
+! Last Modified: 2022-02-07 00:56:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26461,6 +26461,7 @@
 ||bgre.kozow.com^
 ||group2022.kozow.com^
 ||kozszolgalat.com^
+||marketing.kozzyavm.com^
 ||adxwxw.kp.ru^
 ||go.kpmg.nl^
 ||smetrics.kpmg.us^
