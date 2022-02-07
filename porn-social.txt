@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-07 16:24:14Z
+! Last Modified: 2022-02-07 16:33:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18846,6 +18846,7 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
+||api.vungle.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -38061,7 +38062,6 @@
 ||pbvnwd.moongori.com^
 ||tigershark.moonpot.com^
 ||smetrics.moony.com^
-||qatrhe.moonyamoonya.com^
 ||webuysupplystore.mooo.com^
 ||www2.moooi.com^
 ||go.mooredmgroup.com^
@@ -38365,7 +38365,6 @@
 ||mreco0.jp^
 ||mrfco.info^
 ||ads.mrgreen.com^
-||smetrics.mrhandyman.com^
 ||go.mrisoftware.com^
 ||info.mrisoftware.com^
 ||info-apac.mrisoftware.com^
@@ -54008,6 +54007,7 @@
 ||simpleway.trade^
 ||simpleway.world^
 ||go.simplot.com^
+||go.simplotfoods.com^
 ||simply-hentai.com^
 ||jingyaotrading.simply.com.sg^
 ||simplyanal.com^

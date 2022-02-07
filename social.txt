@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-07 16:24:17Z
+! Last Modified: 2022-02-07 16:33:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2596,6 +2596,7 @@
 ||eyeblaster.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
+||ad.turn.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
@@ -19745,6 +19746,7 @@
 ||dcapps.disney.go.com^
 ||seavideo-ak.espn.go.com^
 ||oascentral.abclocal.go.com^
+||ctologger01.analytics.go.com^
 ||bankdata.temanggungkab.go.id^
 ||pelangi.kim.banjarbarukota.go.id^
 ||directml.jfc.go.jp^

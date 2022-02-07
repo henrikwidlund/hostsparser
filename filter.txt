@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-07 16:23:52Z
+! Last Modified: 2022-02-07 16:32:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3289,7 +3289,6 @@
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
-||rtr.innovid.com.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
@@ -15300,6 +15299,7 @@
 ||swa.consumentenbond.nl^
 ||ads.consumeraffairs.com^
 ||consumeralternatives.org^
+||tracker.consumerpackage.net^
 ||consumerproductsusa.com^
 ||metrics.consumerreports.org^
 ||smetrics.consumerreports.org^

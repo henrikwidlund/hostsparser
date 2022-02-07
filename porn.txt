@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-07 16:24:15Z
+! Last Modified: 2022-02-07 16:33:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32402,6 +32402,7 @@
 ||smetrics.kone.cn^
 ||smetrics.kone.co.id^
 ||metrics.kone.co.il^
+||metrics.kone.co.uk^
 ||metrics.kone.com^
 ||smetrics.kone.com^
 ||metrics.kone.com.tr^

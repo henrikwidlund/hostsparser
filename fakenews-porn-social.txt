@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-07 16:24:00Z
+! Last Modified: 2022-02-07 16:32:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7131,7 +7131,6 @@
 ||smetrics.bbva.com.co^
 ||smetrics.bbva.com.uy^
 ||smetrics.bbva.es^
-||smetrics.bbva.it^
 ||smetrics.bbva.mx^
 ||smetrics.bbva.pe^
 ||info.bbvaautorenting.es^
@@ -47239,6 +47238,7 @@
 ||olx.pl-id519249.icu^
 ||olx.pl-id6379662.info^
 ||pl-id737962.info^
+||olx.pl-id741566512.net^
 ||olx.pl-id777654.icu^
 ||olx.pl-id789654.xyz^
 ||olx.pl-id877654.icu^
@@ -69483,9 +69483,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
