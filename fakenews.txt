@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-07 06:19:12Z
+! Last Modified: 2022-02-07 12:25:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16930,6 +16930,7 @@
 ||ethereum-wallet.net^
 ||ethereum-zero.com^
 ||ethereum.io^
+||matomo.ethereum.org^
 ||ethereum.plus^
 ||ethereumchain.info^
 ||ethereumchamber.com^
@@ -25449,10 +25450,6 @@
 ||a8clk.kaitori-yamatokukimono.jp^
 ||kaizentraffic.com^
 ||ka.kakakakaka.xyz^
-||stat.kakaku.com^
-||jknarp.kakaku.com^
-||linkage.kakaku.com^
-||stat-ssl.kakaku.com^
 ||stat-ssl.kakakumag.com^
 ||ads.kaktuz.net^
 ||kalaaps.pl^

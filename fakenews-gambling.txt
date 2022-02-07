@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-07 06:19:07Z
+! Last Modified: 2022-02-07 12:25:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10174,7 +10174,6 @@
 ||cloud-main.xyz^
 ||olxpl.cloud-pays.site^
 ||cloud-sso-idea.at^
-||info.cloud4wi.com^
 ||cloudads.net^
 ||cloudadservers.com^
 ||bi-analytics.cloudapp.net^
