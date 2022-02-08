@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-07 18:19:11Z
+! Last Modified: 2022-02-08 00:58:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18941,6 +18941,7 @@
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
+||ms.applovin.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -18958,6 +18959,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||wildcard.owneriq.net.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -27393,7 +27395,6 @@
 ||info.holisticprimarycare.net^
 ||holks.org^
 ||smetrics.hollandamerica.com^
-||ads.hollandsentinel.com^
 ||hollister-sklep.com^
 ||smetrics.hollisterco.com^
 ||hollistercopolska.pl^
@@ -54136,6 +54137,7 @@
 ||msfvwi.sieuthiyte.com.vn^
 ||sifazen.com^
 ||prod.sift.co^
+||sgbid.prod.sift.co^
 ||sift-campaign-creatives.sift.co^
 ||ads.sift.co.uk^
 ||dc.sify.com^
@@ -69105,6 +69107,7 @@
 ||appsportal.net.zooplus.de^
 ||appsserver.net.zooplus.de^
 ||billinging.net.zooplus.de^
+||blog.csr12.net.zooplus.de^
 ||brandcsr31.net.zooplus.de^
 ||brettmoran.net.zooplus.de^
 ||bullockowa.net.zooplus.de^
@@ -69133,7 +69136,6 @@
 ||redir.mgmt.net.zooplus.de^
 ||um2ext.sip.net.zooplus.de^
 ||acclax-mgmt.net.zooplus.de^
-||admin.csr11.net.zooplus.de^
 ||api.ebspriv.net.zooplus.de^
 ||api.machine.net.zooplus.de^
 ||application.net.zooplus.de^

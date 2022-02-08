@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-07 18:19:13Z
+! Last Modified: 2022-02-08 00:58:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25081,7 +25081,6 @@
 ||tracking.kegerator.com^
 ||2.kegypz.com^
 ||pl.kegypz.com^
-||wp.pl.kegypz.com^
 ||kehuwinchidistre.cf^
 ||kejet.net^
 ||stats.kejk.tech^
@@ -53399,7 +53398,6 @@
 ||data.mobile.net.zooplus.de^
 ||stg.profile.net.zooplus.de^
 ||testercsr41.net.zooplus.de^
-||apache.car40.net.zooplus.de^
 ||api.backends.net.zooplus.de^
 ||api.chd.repo.net.zooplus.de^
 ||api.git-repo.net.zooplus.de^
