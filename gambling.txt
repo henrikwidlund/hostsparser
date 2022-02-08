@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-08 12:24:56Z
+! Last Modified: 2022-02-08 18:16:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26074,8 +26074,6 @@
 ||klockidladzieci.com.pl^
 ||germany-news.klodzko.pl^
 ||klonea.com^
-||olx-pl.klosdg-podfsk.com^
-||vinted-pl.klosdg-podfsk.com^
 ||paynazwa-pl-a337be07.klostoga45.at^
 ||kloundopret.xyz^
 ||e.klove.com^
@@ -42035,6 +42033,7 @@
 ||se-core-pipe.com^
 ||seabet.com^
 ||woodpecker.seabits.com^
+||smetrics.seabourn.com^
 ||oascentral.seacoastonline.com^
 ||nbg.seagate.com^
 ||fpc.seahawks.com^

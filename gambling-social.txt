@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-08 12:24:54Z
+! Last Modified: 2022-02-08 18:16:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31602,6 +31602,8 @@
 ||mymyetherwallet.com^
 ||mymymakeup.art^
 ||banners.mynakedweb.com^
+||hb.mynativeplatform.com^
+||papi.mynativeplatform.com^
 ||ad-ebis.mynavi-job20s.jp^
 ||go.mynavi-works.jp^
 ||mynavyfedral.org^
@@ -52565,6 +52567,7 @@
 ||ade.wooboo.com.cn^
 ||static.wooboo.com.cn^
 ||wooden-jeanie.com^
+||go.woodencamera.com^
 ||woodenpilot.com^
 ||www2.woodlandgroup.com^
 ||go.woodmac.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-08 12:25:00Z
+! Last Modified: 2022-02-08 18:16:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46871,8 +46871,6 @@
 ||trafficg.com^
 ||trafficleader.com^
 ||trafficmagnet.net^
-||collector-main.trafficmanager.net^
-||analytics-listener.trafficmanager.net^
 ||goto.trafficmultiplier.com^
 ||trafficnetworkads24.com^
 ||trafficopen.com^
