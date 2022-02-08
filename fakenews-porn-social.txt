@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-08 06:19:35Z
+! Last Modified: 2022-02-08 12:24:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21784,6 +21784,7 @@
 ||app5.fastermac.tech^
 ||fastfixing.tech^
 ||fastflame.pl^
+||aboutharrypotter.fasthost.tv^
 ||fasting.news^
 ||fastiv.xyz^
 ||reddit.map.fastly.net^
@@ -69783,7 +69784,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||europe.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
