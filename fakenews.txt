@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-09 12:25:45Z
+! Last Modified: 2022-02-09 18:18:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -49532,7 +49532,6 @@
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
-||admediator.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
@@ -55081,6 +55080,7 @@
 ||dev-car40.net.zooplus.de^
 ||devopsail.net.zooplus.de^
 ||dockerail.net.zooplus.de^
+||iad.csr11.net.zooplus.de^
 ||mail.jobs.net.zooplus.de^
 ||marketing.net.zooplus.de^
 ||mirrorssl.net.zooplus.de^
@@ -55092,6 +55092,7 @@
 ||billinging.net.zooplus.de^
 ||brandcsr31.net.zooplus.de^
 ||brettmoran.net.zooplus.de^
+||bucket.api.net.zooplus.de^
 ||bullockowa.net.zooplus.de^
 ||car40-apps.net.zooplus.de^
 ||car40-beta.net.zooplus.de^

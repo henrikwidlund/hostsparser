@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-09 12:25:50Z
+! Last Modified: 2022-02-09 18:18:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6589,7 +6589,6 @@
 ||sub3.blocked-site-hole-cert.pl^
 ||blockedsituation.net^
 ||blockkrado.com^
-||stats.blockleviton.com^
 ||blocklichan.info^
 ||blocknux.com^
 ||blockstack.network^
@@ -30163,8 +30162,6 @@
 ||ebis-cname.mirai-japan.co.jp^
 ||miranda-sklep.pl^
 ||info.mirantis.com^
-||te.mirapodo.de^
-||tp.mirapodo.de^
 ||marketing.mirasf.com^
 ||crm.miraxs.co.jp^
 ||ads.mircx.com^
@@ -33909,6 +33906,7 @@
 ||content.ohiohealth.com^
 ||ohiomm.com^
 ||ohmbet.com^
+||l.ohmyad.co^
 ||ohmydating.com^
 ||ad.ohmynews.com^
 ||horse.ohseemedia.com^
