@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-09 06:19:40Z
+! Last Modified: 2022-02-09 12:25:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -54055,7 +54055,6 @@
 ||msfvwi.sieuthiyte.com.vn^
 ||sifazen.com^
 ||prod.sift.co^
-||sgbid.prod.sift.co^
 ||sift-campaign-creatives.sift.co^
 ||ads.sift.co.uk^
 ||dc.sify.com^
@@ -63243,7 +63242,6 @@
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
-||publisher-event.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
@@ -67984,6 +67982,7 @@
 ||xhwebsite.com^
 ||xhypnotube.com^
 ||xianyujc.com^
+||e.ad.xiaomi.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^

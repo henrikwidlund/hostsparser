@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-09 06:19:37Z
+! Last Modified: 2022-02-09 12:25:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18478,6 +18478,7 @@
 ||qgmikp.fleurdumal.com^
 ||support.flex.com^
 ||support2.flex.com^
+||8p0kiyq5mq1d.flex.team^
 ||flexbanner.com^
 ||info.flexcarestaff.com^
 ||flexchilchutzfinpers.ml^
@@ -33644,7 +33645,6 @@
 ||olx.oferda-pl.live^
 ||sadbmetrics.oferplan.com^
 ||oferta-miesiaca.link^
-||inpost-pl-tl.oferta-nsf.me^
 ||pl.oferta-olx.net^
 ||oferta-orlen.club^
 ||olx.pl.oferta-pay.dev^
@@ -53114,8 +53114,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
