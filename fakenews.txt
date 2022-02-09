@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-08 18:16:32Z
+! Last Modified: 2022-02-09 01:01:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23467,7 +23467,6 @@
 ||go.imd.org^
 ||communication.imec.be^
 ||communication.imechyperspectral.com^
-||ssp.imedia.cz^
 ||ads.imeem.com^
 ||swebstats.imf.org^
 ||plas.imfeld.dev^

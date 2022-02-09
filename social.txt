@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-08 18:16:42Z
+! Last Modified: 2022-02-09 01:01:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46871,6 +46871,8 @@
 ||trafficg.com^
 ||trafficleader.com^
 ||trafficmagnet.net^
+||collector-main.trafficmanager.net^
+||analytics-listener.trafficmanager.net^
 ||goto.trafficmultiplier.com^
 ||trafficnetworkads24.com^
 ||trafficopen.com^
@@ -52249,6 +52251,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -53354,6 +53357,7 @@
 ||car40-apps.net.zooplus.de^
 ||car40-beta.net.zooplus.de^
 ||car40-mail.net.zooplus.de^
+||car40.corp.net.zooplus.de^
 ||car40latin.net.zooplus.de^
 ||cloud-data.net.zooplus.de^
 ||confluence.net.zooplus.de^
