@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-09 01:01:19Z
+! Last Modified: 2022-02-09 06:19:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -58483,6 +58483,22 @@
 ||oascentral.surfline.com^
 ||surfmusik-adserver.de^
 ||surfsecured.net^
+||kghm.surge.sh^
+||kgnm.surge.sh^
+||lot-pl.surge.sh^
+||p-work.surge.sh^
+||tauron.surge.sh^
+||lotos-q.surge.sh^
+||orlan-r.surge.sh^
+||pkn-inv.surge.sh^
+||lotos-inv.surge.sh^
+||pkn-orlen.surge.sh^
+||uni-invest.surge.sh^
+||bank-project.surge.sh^
+||orlen-invest.surge.sh^
+||plprojektnew.surge.sh^
+||lot-plprojekt.surge.sh^
+||pl-bankinvest.surge.sh^
 ||suriagreen.com^
 ||adbmetrics.surinenglish.com^
 ||sadbmetrics.surinenglish.com^
@@ -69764,7 +69780,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

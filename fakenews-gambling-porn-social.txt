@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-09 01:01:14Z
+! Last Modified: 2022-02-09 06:19:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19964,6 +19964,7 @@
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
+||wildcard.outbrain.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -46791,8 +46792,6 @@
 ||paraisowebcams.com^
 ||paralland.quest^
 ||paramapparel.com^
-||sc.paramountnetwork.com^
-||ssc.paramountnetwork.com^
 ||aa.paramountplus.com^
 ||saa.paramountplus.com^
 ||paramountrealtysales.com^
@@ -50571,6 +50570,9 @@
 ||povcuckold.com^
 ||povd.com^
 ||povdfan.com^
+||eu.povdor.site^
+||new.povdor.site^
+||one.povdor.site^
 ||powaifinearts.org^
 ||powaznesprawyy.online^
 ||powearth.pl^
@@ -68841,6 +68843,7 @@
 ||thumbs.wikifeet.com^
 ||wikifeetx.com^
 ||wikiforosh.ir^
+||manatee.wikijob.co.uk^
 ||wikiporn.tv^
 ||wikiporno.org^
 ||sadbmetrics.wikirioja.com^
@@ -71074,9 +71077,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ae.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
