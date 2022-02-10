@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-09 18:18:35Z
+! Last Modified: 2022-02-10 00:58:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1500,6 +1500,9 @@
 ||mail.pmo.ac.cn^
 ||mail.issas.ac.cn^
 ||mipsa.ciae.ac.cn^
+||nec.nusamandiri.ac.id^
+||go.prasetiyamulya.ac.id^
+||tekindustri.upnjatim.ac.id^
 ||www2.ext.tau.ac.il^
 ||library.arihantmbainstitute.ac.in^
 ||laleh.itrc.ac.ir^
@@ -45198,6 +45201,7 @@
 ||bdkuth.smartbuyglasses.co.uk^
 ||marketing.smartcamp.asia^
 ||smartcanvas.net^
+||bd1.smartcheck.vn^
 ||ads.smartclick.com^
 ||c.smartclick.net^
 ||c1.smartclick.net^

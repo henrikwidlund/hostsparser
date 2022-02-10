@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-09 18:18:51Z
+! Last Modified: 2022-02-10 00:59:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3265,7 +3265,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||s.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -5575,8 +5574,6 @@
 ||artykul-wideo.xyz^
 ||scambiobanner.aruba.it^
 ||etrack.ext.arubainstanton.com^
-||etrack.ext.arubanetworks.com^
-||connecttest.arubanetworks.com^
 ||analytics.arunraghavan.net^
 ||arushagems.com^
 ||lps-info.arval.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-09 18:18:40Z
+! Last Modified: 2022-02-10 00:58:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17494,6 +17494,7 @@
 ||directlink.jp^
 ||guppy.directlyapply.com^
 ||directlyfrappes.com^
+||ad.directmirror.com^
 ||directnetadvertising.net^
 ||bondage.adult.directnic.com^
 ||bizzarre.adult.directnic.com^
@@ -71118,15 +71119,12 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
-||se.adserver.yahoo.com^
-||uk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||eu-pn4.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
