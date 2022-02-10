@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-10 12:25:12Z
+! Last Modified: 2022-02-10 18:18:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3629,6 +3629,9 @@
 ||analystset.com^
 ||marketing.analysysmason.com^
 ||analyticdns.org^
+||cloud-us.analytics-egain.com^
+||analytics.analytics-egain.com^
+||cloud-emea.analytics-egain.com^
 ||ananashotel.com^
 ||dynamic1.anandtech.com^
 ||dynamic2.anandtech.com^
@@ -16075,7 +16078,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||pixel.mathtag.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^

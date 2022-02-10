@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-10 12:25:04Z
+! Last Modified: 2022-02-10 18:17:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2751,7 +2751,6 @@
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
-||rtr.innovid.com.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
@@ -3656,6 +3655,9 @@
 ||analystset.com^
 ||marketing.analysysmason.com^
 ||analyticdns.org^
+||cloud-us.analytics-egain.com^
+||analytics.analytics-egain.com^
+||cloud-emea.analytics-egain.com^
 ||ananashotel.com^
 ||dynamic1.anandtech.com^
 ||dynamic2.anandtech.com^
@@ -23626,6 +23628,15 @@
 ||iberanii1.co.vu^
 ||smetrics.ibercaja.es^
 ||marketing.ibermatica.com^
+||aquipelis.net.iberostar.com^
+||g.whatsapp.net.iberostar.com^
+||dit.whatsapp.net.iberostar.com^
+||mmg.whatsapp.net.iberostar.com^
+||ad.doubleclick.net.iberostar.com^
+||sonar6.xy.fbcdn.net.iberostar.com^
+||video.fpbc1-1.fna.fbcdn.net.iberostar.com^
+||video.fpbc1-2.fna.fbcdn.net.iberostar.com^
+||appassets.androidplatform.net.iberostar.com^
 ||ads.ibest.com.br^
 ||ibet789.com^
 ||ibetcasino.com^

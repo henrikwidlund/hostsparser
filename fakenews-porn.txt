@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-10 12:25:10Z
+! Last Modified: 2022-02-10 18:18:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4497,6 +4497,9 @@
 ||analystset.com^
 ||marketing.analysysmason.com^
 ||analyticdns.org^
+||cloud-us.analytics-egain.com^
+||analytics.analytics-egain.com^
+||cloud-emea.analytics-egain.com^
 ||analyzedgirls.com^
 ||analzmovies.com^
 ||analzoom.com^
@@ -56329,7 +56332,6 @@
 ||smiechu-warte.eu^
 ||smieci854.rest^
 ||smiertelne-szczepionki.eu^
-||srivge.smiggle.com.au^
 ||smile-angel.com^
 ||smile-secret.pl^
 ||saa.smilegeneration.com^
@@ -71120,10 +71122,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

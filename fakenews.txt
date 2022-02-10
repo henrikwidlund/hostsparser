@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-10 12:25:13Z
+! Last Modified: 2022-02-10 18:18:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3537,6 +3537,9 @@
 ||analystset.com^
 ||marketing.analysysmason.com^
 ||analyticdns.org^
+||cloud-us.analytics-egain.com^
+||analytics.analytics-egain.com^
+||cloud-emea.analytics-egain.com^
 ||ananashotel.com^
 ||dynamic1.anandtech.com^
 ||dynamic2.anandtech.com^
@@ -21202,6 +21205,7 @@
 ||discover.gtsoftware.com^
 ||cxrfns.gu-global.com^
 ||phar.gu-web.net^
+||cheese.guac.live^
 ||guaikavideo.cn^
 ||srepdata.guampdn.com^
 ||smetrics.guaranteedrate.com^
