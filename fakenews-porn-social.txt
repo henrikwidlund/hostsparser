@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-10 00:58:50Z
+! Last Modified: 2022-02-10 06:18:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20093,6 +20093,8 @@
 ||energy-infoinv.com^
 ||energy-oilproject.info^
 ||energy-pgeproj.info^
+||ads.energy-torrent.com^
+||baner.energy-torrent.com^
 ||go.energyacuity.com^
 ||metrics.energyaustralia.com.au^
 ||smetrics.energyaustralia.com.au^
@@ -69778,7 +69780,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
