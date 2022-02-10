@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-10 06:19:04Z
+! Last Modified: 2022-02-10 12:25:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42770,6 +42770,8 @@
 ||omwex.com^
 ||fi.on-channel.com^
 ||prosper.on-line-casino.ca^
+||odyssey.on.ca^
+||mdws.tpcu.on.ca^
 ||marketing.on1.com^
 ||on2url.com^
 ||a.ss34.on9mail.com^
@@ -68996,6 +68998,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

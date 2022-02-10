@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-10 06:18:48Z
+! Last Modified: 2022-02-10 12:25:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2751,6 +2751,7 @@
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
+||rtr.innovid.com.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
@@ -23625,15 +23626,6 @@
 ||iberanii1.co.vu^
 ||smetrics.ibercaja.es^
 ||marketing.ibermatica.com^
-||aquipelis.net.iberostar.com^
-||g.whatsapp.net.iberostar.com^
-||dit.whatsapp.net.iberostar.com^
-||mmg.whatsapp.net.iberostar.com^
-||ad.doubleclick.net.iberostar.com^
-||sonar6.xy.fbcdn.net.iberostar.com^
-||video.fpbc1-1.fna.fbcdn.net.iberostar.com^
-||video.fpbc1-2.fna.fbcdn.net.iberostar.com^
-||appassets.androidplatform.net.iberostar.com^
 ||ads.ibest.com.br^
 ||ibet789.com^
 ||ibetcasino.com^
@@ -51160,7 +51152,6 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
-||pge.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
