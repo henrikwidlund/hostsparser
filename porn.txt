@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-11 01:02:43Z
+! Last Modified: 2022-02-11 06:20:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -52387,6 +52387,7 @@
 ||sdk.scopely.io^
 ||aprod.scopely.io^
 ||collector.scopely.io^
+||event.collector.scopely.io^
 ||score-video.com^
 ||scoreadate.com^
 ||scorecardresearch.com^
@@ -52938,6 +52939,7 @@
 ||serwislaptopowwarszawa.com.pl^
 ||sesso-gratis.info^
 ||sessotube.pro^
+||marketing.sesui.com^
 ||guppy.setasign.com^
 ||setedasorte.com.br^
 ||setforconfigplease.com^
@@ -69000,11 +69002,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||tw.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

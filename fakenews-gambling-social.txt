@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-11 01:02:26Z
+! Last Modified: 2022-02-11 06:20:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21181,7 +21181,6 @@
 ||sw88.go.com^
 ||ngads.go.com^
 ||tredir.go.com^
-||cdn.unid.go.com^
 ||adimages.go.com^
 ||w88.m.espn.go.com^
 ||adsatt.espn.go.com^
