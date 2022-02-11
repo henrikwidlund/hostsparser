@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-11 12:24:33Z
+! Last Modified: 2022-02-11 18:18:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22919,6 +22919,9 @@
 ||inpost-w.id-3489.me^
 ||inpost-pl-fbr.id-3489.me^
 ||pl-hit-vinted.id-356799.top^
+||dpd-ap.id-3828883.me^
+||inpost-c.id-3828883.me^
+||inpost-u.id-3828883.me^
 ||inpost-xhk.id-3842.me^
 ||inpost-rlrv.id-3842.me^
 ||vinted-jfdo.id-3842.me^
@@ -54228,6 +54231,7 @@
 ||car40-apps.net.zooplus.de^
 ||car40-beta.net.zooplus.de^
 ||car40-mail.net.zooplus.de^
+||car40.corp.net.zooplus.de^
 ||car40latin.net.zooplus.de^
 ||cloud-data.net.zooplus.de^
 ||confluence.net.zooplus.de^

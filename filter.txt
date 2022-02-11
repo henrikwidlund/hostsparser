@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-11 12:24:14Z
+! Last Modified: 2022-02-11 18:18:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19914,6 +19914,7 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
+||global-wildcard.insightexpressai.com.edgekey.net^
 ||go.edgenmurray.com^
 ||deep.edgequery.io^
 ||somniture.edgestar.com^
@@ -58977,12 +58978,6 @@
 ||go.stmrobotics.com^
 ||stneotscitizen.com^
 ||mb-cdn.stocard.de^
-||prilltbor1.stock-market3.site^
-||prilltbor2.stock-market3.site^
-||prilltbor3.stock-market3.site^
-||prill5tsbor.stock-market3.site^
-||prill6tsbor.stock-market3.site^
-||prill7tsbor.stock-market3.site^
 ||stockholmfasad.com^
 ||stocking-divas.com^
 ||stocking-pages.com^
