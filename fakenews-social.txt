@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-11 06:20:07Z
+! Last Modified: 2022-02-11 12:24:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18428,7 +18428,6 @@
 ||finplustechnology.com^
 ||finpubnetwork.com^
 ||fintech-profit.us^
-||trk.fintechfutures.com^
 ||fintofur.com^
 ||sstats.fintro.be^
 ||fintruelist.site^

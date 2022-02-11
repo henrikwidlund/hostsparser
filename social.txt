@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-11 06:20:21Z
+! Last Modified: 2022-02-11 12:24:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4343,6 +4343,7 @@
 ||asptonery.pl^
 ||asrarrarabiya.com^
 ||ads.asredas.com^
+||aardwolf.ass.com^
 ||assat.pl^
 ||assembled-battery.com^
 ||assemblyturtle.top^
@@ -27272,7 +27273,6 @@
 ||media.lovercash.com^
 ||plausible.lovesdata.com^
 ||ads.loveshack.org^
-||go.loveshaw.com^
 ||lovesingle.xyz^
 ||lovintrends.com^
 ||lovittco.com.au^
