@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-10 18:18:12Z
+! Last Modified: 2022-02-11 01:02:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2870,6 +2870,8 @@
 ||cf.adxcel.com^
 ||hbps.adxcg.net^
 ||hbarxs.adxcg.net^
+||xml.adxfactory.com^
+||filter.adxfactory.com^
 ||adxvalue.com^
 ||dw.adyboh.com^
 ||wy.adyboh.com^
@@ -32202,6 +32204,7 @@
 ||track.msadcenter.kfgy.com^
 ||go.marketing.kflex.com^
 ||kfsmradio.com^
+||image.kfw-entwicklungsbank.de^
 ||image.kfw.de^
 ||track.msadcenter.kfz.com^
 ||cdgame.kgb.pl^
