@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-11 18:18:29Z
+! Last Modified: 2022-02-12 01:01:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3857,6 +3857,12 @@
 ||apeekvalveless.com^
 ||apepix.com^
 ||aperitifmans.ga^
+||img.apester.com^
+||images.apester.com^
+||static.apester.com^
+||display.apester.com^
+||renderer.apester.com^
+||interaction.apester.com^
 ||apex-rents.com^
 ||email.apexauctions.com^
 ||info.apexfoot.com^

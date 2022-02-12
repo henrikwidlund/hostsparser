@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-11 18:18:34Z
+! Last Modified: 2022-02-12 01:01:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20015,6 +20015,7 @@
 ||go.goldmanpfm.com^
 ||info.goldmine.com^
 ||advertising.goldseek.com^
+||stats.goldsguide.com^
 ||goldspotmedia.com^
 ||golem-network.com^
 ||golem-network.net^
@@ -47917,7 +47918,6 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
-||cdn.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
