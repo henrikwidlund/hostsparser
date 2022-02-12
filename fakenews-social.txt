@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-12 01:01:13Z
+! Last Modified: 2022-02-12 06:18:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -450,6 +450,9 @@
 ||25vulkanvegas.com^
 ||awazne-pudelek.2600jiffy.com^
 ||2607.cn^
+||pl-dpd.2642369.space^
+||pl-lnpost.2642369.space^
+||polska-poczta.2642369.space^
 ||inpost-pl.2653356-offerts.xyz^
 ||26vulkanvegas.com^
 ||271395.com^
