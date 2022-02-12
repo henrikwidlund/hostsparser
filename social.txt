@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-12 12:24:23Z
+! Last Modified: 2022-02-12 18:18:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13154,26 +13154,6 @@
 ||saa.datasheets360.com^
 ||pl-ihpost.dataspecify.xyz^
 ||datatech.es^
-||api.datatrics.com^
-||app.datatrics.com^
-||link.datatrics.com^
-||api03.datatrics.com^
-||api04.datatrics.com^
-||tr-v2.datatrics.com^
-||images.datatrics.com^
-||mautic.datatrics.com^
-||status.datatrics.com^
-||travel.datatrics.com^
-||network.datatrics.com^
-||tracker.datatrics.com^
-||usersync.datatrics.com^
-||ecommerce.datatrics.com^
-||magento01.datatrics.com^
-||tr-255418.datatrics.com^
-||tr-255768.datatrics.com^
-||tr-256089.datatrics.com^
-||tr-reshift.datatrics.com^
-||woocommerce01.datatrics.com^
 ||info.datavail.com^
 ||inpos-t.dataverification.xyz^
 ||piwik.datawrapper.de^
@@ -37110,6 +37090,7 @@
 ||ablink.tchicken.popeyes.com^
 ||ablink.thekitchen.popeyes.com^
 ||popfilm.pl^
+||ads.popfolkstars.com^
 ||a.popin.cc^
 ||r.popin.cc^
 ||api.popin.cc^
@@ -43380,7 +43361,6 @@
 ||stancewheels.com^
 ||waatch.standaard.be^
 ||ssc.standard.co.uk^
-||audience.standardchartered.com.tw^
 ||info.standardtools.com^
 ||inpostpl.standart-polska.work^
 ||ads.standartnews.com^

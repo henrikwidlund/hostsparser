@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-12 12:24:19Z
+! Last Modified: 2022-02-12 18:18:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14908,6 +14908,9 @@
 ||go.domino.com.cn^
 ||dominoad.com^
 ||b.prod1.youroffers.dominos.ca^
+||metrics.dominos.com^
+||smetrics.dominos.com^
+||b.your.offers.dominos.com^
 ||domki-kopalino.com.pl^
 ||domniespodzianek.com^
 ||secure.info.domo.com^
@@ -47852,7 +47855,6 @@
 ||trampoliny275.com^
 ||tranhgohoangthiet.com^
 ||trans-act.com^
-||smetrics.transact711.com^
 ||transakcja9381.net^
 ||transakcji.pl^
 ||tk.transavia.com^

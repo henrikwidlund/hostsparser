@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-12 12:24:18Z
+! Last Modified: 2022-02-12 18:18:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22189,7 +22189,6 @@
 ||www2.hnavi.co.jp^
 ||info.hnavi.co.jp^
 ||yp.hnggzyjy.cn^
-||protection.hnpolice.com^
 ||hnskorea.co.kr^
 ||track.msadcenter.hnsl.com^
 ||scsmetrics.ho-mobile.it^
@@ -49492,6 +49491,7 @@
 ||demoq.use-trade.com^
 ||cdn.usebutton.com^
 ||mobileapi.usebutton.com^
+||app-796db8a17c48a13b.mobileapi.usebutton.com^
 ||usedbarcode.com^
 ||stats.useeffect.dev^
 ||img3.usefathom.com^
@@ -53606,8 +53606,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||in.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||pn2.adserver.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
