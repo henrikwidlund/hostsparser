@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-13 01:02:03Z
+! Last Modified: 2022-02-13 06:18:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11091,6 +11091,8 @@
 ||vet0.carrefour-banque.fr^
 ||metrics.be.carrefour.eu^
 ||smetrics.be.carrefour.eu^
+||op-drive-sto.carrefour.fr^
+||content-strl.courses-en-ligne.carrefour.fr^
 ||sadbmetrics.carrera-empresas.com^
 ||carreuto.com^
 ||carriagequest.com^
@@ -19739,7 +19741,6 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
-||wildcard.aniview.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -32757,7 +32758,6 @@
 ||vulkanvegasbonus.jeunete.com^
 ||ads1.jev.co.za^
 ||tr.jevoteenligne.fr^
-||ads.jewcy.com^
 ||jewel-2001.com^
 ||jewelindiajpr.com^
 ||jewelporn.com^
@@ -72904,7 +72904,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

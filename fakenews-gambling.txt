@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-13 01:01:59Z
+! Last Modified: 2022-02-13 06:18:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -561,6 +561,12 @@
 ||ssl.360antivirus.org^
 ||ideas.360factors.com^
 ||360in.com^
+||mclean.cloud.360safe.com^
+||mvconf.cloud.360safe.com^
+||mclean.uk.cloud.360safe.com^
+||mvconf.uk.cloud.360safe.com^
+||mclean.lato.cloud.360safe.com^
+||mvconf.lato.cloud.360safe.com^
 ||360wiesc.site^
 ||install.365-stream.com^
 ||ads.365.mk^
@@ -3275,7 +3281,6 @@
 ||research.alpinemacro.com^
 ||go.alpinepowersystems.com^
 ||scout.alpinetrek.co.uk^
-||scout.alpiniste.fr^
 ||chicken.alpla.info^
 ||go.alpsalpine.jp^
 ||alpsmarkets.com^
@@ -14644,6 +14649,7 @@
 ||tr.devis.digital^
 ||tr.news.devisdirect.be^
 ||go.devisubox.com^
+||plau.devitjobs.uk^
 ||plau.devitjobs.us^
 ||devitrifiesfeazes.com^
 ||devitrifiesungual.com^
@@ -55764,8 +55770,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
-||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

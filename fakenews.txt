@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-13 01:02:06Z
+! Last Modified: 2022-02-13 06:18:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42083,6 +42083,7 @@
 ||ascribe.rqmob.com^
 ||appclick.rqmob.com^
 ||rr7x.com^
+||gecko.rrrelax.app^
 ||topads.rrstar.com^
 ||stats.rs-online.com^
 ||rs.sh^
@@ -53161,8 +53162,6 @@
 ||optanon.blob.core.windows.net^
 ||open8video.blob.core.windows.net^
 ||prodxnews1blob.blob.core.windows.net^
-||ns1.windowsdefende.com^
-||ns2.windowsdefende.com^
 ||sdc.windowsmarketplace.com^
 ||windowywindowy.com^
 ||windpl.org^
@@ -54036,8 +54035,6 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||sdkconfig.ad.intl.xiaomi.com^
-||diagnosis.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -55586,7 +55583,6 @@
 ||billinging.net.zooplus.de^
 ||brandcsr31.net.zooplus.de^
 ||brettmoran.net.zooplus.de^
-||bucket.owa.net.zooplus.de^
 ||bullockowa.net.zooplus.de^
 ||car40-apps.net.zooplus.de^
 ||car40-beta.net.zooplus.de^
