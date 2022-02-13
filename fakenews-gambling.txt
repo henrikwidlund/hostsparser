@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-13 06:18:04Z
+! Last Modified: 2022-02-13 12:23:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3281,6 +3281,7 @@
 ||research.alpinemacro.com^
 ||go.alpinepowersystems.com^
 ||scout.alpinetrek.co.uk^
+||scout.alpiniste.fr^
 ||chicken.alpla.info^
 ||go.alpsalpine.jp^
 ||alpsmarkets.com^
@@ -48382,9 +48383,6 @@
 ||metrics.telenet.be^
 ||smetrics.telenet.be^
 ||sstatistikk.telenor.no^
-||a.telenor.se^
-||sstats.telenor.se^
-||smetrics.telenor.se^
 ||tse.telerama.fr^
 ||teleskopmonokularowy-pl.com^
 ||love.telesthesiats.net^

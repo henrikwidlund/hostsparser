@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-13 06:18:10Z
+! Last Modified: 2022-02-13 12:23:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25974,7 +25974,6 @@
 ||swasc.kaufland.hr^
 ||swasc.kaufland.md^
 ||swasc.kaufland.pl^
-||swasc.kaufland.ro^
 ||swasc.kaufland.sk^
 ||kawabe.es^
 ||kawac.net^
@@ -53162,6 +53161,8 @@
 ||optanon.blob.core.windows.net^
 ||open8video.blob.core.windows.net^
 ||prodxnews1blob.blob.core.windows.net^
+||ns1.windowsdefende.com^
+||ns2.windowsdefende.com^
 ||sdc.windowsmarketplace.com^
 ||windowywindowy.com^
 ||windpl.org^

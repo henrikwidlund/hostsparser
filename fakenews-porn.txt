@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-13 06:18:07Z
+! Last Modified: 2022-02-13 12:23:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19736,6 +19736,7 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
+||cdn.spotxcdn.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -28518,7 +28519,6 @@
 ||track.msadcenter.hlh.com^
 ||hlm-indonesia.com^
 ||sc.hm.com^
-||www2.hmarkets.com^
 ||adbsmetrics.ep.hmc.co.kr^
 ||mdws.hmecu.com^
 ||ma.hmhco.com^
@@ -32758,6 +32758,7 @@
 ||vulkanvegasbonus.jeunete.com^
 ||ads1.jev.co.za^
 ||tr.jevoteenligne.fr^
+||ads.jewcy.com^
 ||jewel-2001.com^
 ||jewelindiajpr.com^
 ||jewelporn.com^
@@ -72905,9 +72906,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
