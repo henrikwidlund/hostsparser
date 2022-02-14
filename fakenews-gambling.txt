@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-14 12:25:44Z
+! Last Modified: 2022-02-14 18:18:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16605,7 +16605,6 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
-||criteo-sync.teads.tv.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -29469,7 +29468,6 @@
 ||c.m-a-d.jp^
 ||m-arata.com^
 ||m-barati.de^
-||asp.m-live.jp^
 ||marketing.m-m.net^
 ||www2.m-moulin.co.jp^
 ||d.m-net.de^
@@ -56582,13 +56580,11 @@
 ||mjp.zimad.com^
 ||zimadeals.pl^
 ||zimb.space^
-||static.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||nnivvr.zimmo.be^
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
-||campaign.brand.zing.vn^
 ||analytics.zingerwebdesign.com^
 ||zingknowev.tk^
 ||ziololecznictwo.pl^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-14 12:25:38Z
+! Last Modified: 2022-02-14 18:18:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -37720,7 +37720,6 @@
 ||m-arata.com^
 ||m-barati.de^
 ||m-hentai.net^
-||asp.m-live.jp^
 ||marketing.m-m.net^
 ||www2.m-moulin.co.jp^
 ||d.m-net.de^
@@ -68532,6 +68531,10 @@
 ||vakarek.info^
 ||adverteren.vakmedianet.nl^
 ||info-mail.val.co.jp^
+||ad.val.jp^
+||ad-info.val.jp^
+||ad-image.val.jp^
+||s3.mobile.val.jp^
 ||news.valawyersweekly.com^
 ||tr.info.valcenis.com^
 ||valenti-torinto.pl^
@@ -75378,6 +75381,7 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||campaign.brand.zing.vn^
 ||analytics.zingerwebdesign.com^
 ||zingknowev.tk^
 ||zingyporntube.com^

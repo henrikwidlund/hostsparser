@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-14 12:25:52Z
+! Last Modified: 2022-02-14 18:18:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2748,6 +2748,7 @@
 ||vungle.akadns.net^
 ||turn.com.akadns.net^
 ||eyeblaster.akadns.net^
+||api.vungle.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
@@ -15291,7 +15292,6 @@
 ||ads.drf.com^
 ||hugebonus.drfelipecosta.com^
 ||drfit.pl^
-||stats.drgomesp.dev^
 ||li.mw.drhinternet.net^
 ||drift.click^
 ||api.drift.com^
@@ -28638,7 +28638,6 @@
 ||c.m-a-d.jp^
 ||m-arata.com^
 ||m-barati.de^
-||asp.m-live.jp^
 ||marketing.m-m.net^
 ||www2.m-moulin.co.jp^
 ||d.m-net.de^
@@ -48388,9 +48387,6 @@
 ||to-polska-mysl.xyz^
 ||to-wiadomo.eu^
 ||toast-start.site^
-||ad-exchange.toast.com^
-||adx-exchange.toast.com^
-||adlc-exchange.toast.com^
 ||toastertuesdays.com^
 ||tobacconewswire.com^
 ||tobepure.com^

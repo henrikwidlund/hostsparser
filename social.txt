@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-14 12:26:04Z
+! Last Modified: 2022-02-14 18:18:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14990,6 +14990,7 @@
 ||duapps.com^
 ||go.dubaiairshow.aero^
 ||dubaikidcare.com^
+||revive.dubcnm.com^
 ||server44.dubhosting.co.uk^
 ||lay.dubya.us^
 ||marketing.duckbrand.com^
@@ -27755,7 +27756,6 @@
 ||c.m-a-d.jp^
 ||m-arata.com^
 ||m-barati.de^
-||asp.m-live.jp^
 ||marketing.m-m.net^
 ||www2.m-moulin.co.jp^
 ||d.m-net.de^
@@ -52370,6 +52370,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||sdkconfig.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^

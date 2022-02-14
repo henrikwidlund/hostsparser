@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-14 12:26:02Z
+! Last Modified: 2022-02-14 18:18:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25153,6 +25153,7 @@
 ||giuliodrei.it^
 ||secure.give2hill.com^
 ||analytics.givealittle.co^
+||android.giveapp.jp^
 ||giveforgetmenots.com^
 ||givehopeahand.org^
 ||ads.givemegay.com^
@@ -35968,7 +35969,6 @@
 ||m-arata.com^
 ||m-barati.de^
 ||m-hentai.net^
-||asp.m-live.jp^
 ||marketing.m-m.net^
 ||www2.m-moulin.co.jp^
 ||d.m-net.de^
@@ -69740,6 +69740,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||a.stat.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -70836,6 +70837,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -71010,6 +71012,8 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst0.ec.yimg.com^
+||ac.ybinst6.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
