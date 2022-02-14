@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-14 00:55:30Z
+! Last Modified: 2022-02-14 06:19:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20275,6 +20275,7 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
+||ma562-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -20291,7 +20292,6 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
-||global-wildcard.insightexpressai.com.edgekey.net^
 ||go.edgenmurray.com^
 ||edgequeens.com^
 ||deep.edgequery.io^
@@ -48545,6 +48545,7 @@
 ||pepipo.com^
 ||pepperbondageporn.com^
 ||pepperclips.com^
+||go.peppermarketing.com.au^
 ||peppersextube.com^
 ||peppertreefrosty.com^
 ||adpromo.peppynet.com^
@@ -74261,6 +74262,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

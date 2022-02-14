@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-14 00:55:41Z
+! Last Modified: 2022-02-14 06:19:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -37646,7 +37646,6 @@
 ||masere.pl^
 ||st.mashable.com^
 ||horizon.mashable.com^
-||app.mashero.com^
 ||mashinkhabar.com^
 ||masikini.com^
 ||masino3v1ation.tech^
@@ -38604,6 +38603,7 @@
 ||spoonbill.memberkit.com.br^
 ||memberporn.com^
 ||pktytp.membershop.lv^
+||info.memberzone.com^
 ||memebase.com^
 ||mememakers.mobi^
 ||memex.com.pl^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-14 00:55:51Z
+! Last Modified: 2022-02-14 06:19:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9955,9 +9955,6 @@
 ||clickbrokers.com^
 ||clickclick.com^
 ||clickcompare.co.uk^
-||analytics.clickdimensions.com^
-||analytics-au.clickdimensions.com^
-||analytics-eu.clickdimensions.com^
 ||clickedyclick.com^
 ||images.clickfinders.com^
 ||clickhd.cc^
@@ -54772,7 +54769,6 @@
 ||mirrorssl.net.zooplus.de^
 ||server-gw.net.zooplus.de^
 ||api.1-priv.net.zooplus.de^
-||api.repo.2.net.zooplus.de^
 ||api.server.net.zooplus.de^
 ||appsportal.net.zooplus.de^
 ||appsserver.net.zooplus.de^

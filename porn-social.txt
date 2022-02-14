@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-14 00:55:52Z
+! Last Modified: 2022-02-14 06:19:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19315,7 +19315,6 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||sync.teads.tv.edgekey.net^
 ||pinterest.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
@@ -19326,6 +19325,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
+||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -19335,7 +19335,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
-||criteo-sync.teads.tv.edgekey.net^
+||wildcard46.akstat.io.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -51129,8 +51129,6 @@
 ||qumbutam.com^
 ||quntstamp.com^
 ||go.quocard.com^
-||ads.quoka.de^
-||erotik.quoka.de^
 ||quotationgqsdah.xyz^
 ||tr.quotes.digital^
 ||tr.quotes4business.info^
@@ -71307,6 +71305,7 @@
 ||marketing.develop.net.zooplus.es^
 ||marketing.service.net.zooplus.es^
 ||container-marketing.net.zooplus.es^
+||admins-www.marketing.net.zooplus.es^
 ||c593l6jlo3ivkuln8va0.net.zooplus.es^
 ||chd.signed-marketing.net.zooplus.es^
 ||chd.marketing.internal.net.zooplus.es^
