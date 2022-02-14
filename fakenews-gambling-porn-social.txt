@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-14 06:19:19Z
+! Last Modified: 2022-02-14 12:25:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20345,6 +20345,7 @@
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
+||cdn-dsa.clicktale.net.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
@@ -43044,6 +43045,8 @@
 ||nbads.com^
 ||nbastorepolska.com^
 ||nbbutypolska.com^
+||links.nbc.com^
+||links.email.nbc.com^
 ||scrooge.nbc11.com^
 ||scrooge.nbc4.com^
 ||link.nbcadmin.com^
@@ -58251,6 +58254,8 @@
 ||msfvwi.sieuthiyte.com.vn^
 ||sifazen.com^
 ||prod.sift.co^
+||sgbid.prod.sift.co^
+||vabid.prod.sift.co^
 ||sift-campaign-creatives.sift.co^
 ||ads.sift.co.uk^
 ||dc.sify.com^
@@ -64384,7 +64389,6 @@
 ||todolize.com^
 ||todoporn.com^
 ||todosiebiiepassuje.club^
-||ads.todoti.com.br^
 ||todowebcams.com^
 ||toe-corrector-pl.com^
 ||toestotits.com^
@@ -74035,6 +74039,7 @@
 ||zimadeals.pl^
 ||zimb.space^
 ||zimbio.com^
+||j.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||nnivvr.zimmo.be^
 ||go.zimperium.com^
