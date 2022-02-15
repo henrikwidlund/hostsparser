@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-14 18:18:38Z
+! Last Modified: 2022-02-15 01:05:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -40782,6 +40782,7 @@
 ||myads.net^
 ||myadsl.co.za^
 ||myadultguide.net^
+||ads.myadv.org^
 ||myaetherwallet.com^
 ||myallaccesspass.com^
 ||myamateurgals.com^
@@ -47291,6 +47292,7 @@
 ||paypal-com-pl.cf^
 ||paypal-exchange.com^
 ||pypd.paypal-mktg.com^
+||b.stats.paypal.com^
 ||paypalcz.cz^
 ||biz.paypay.ne.jp^
 ||mct.paypay.ne.jp^
