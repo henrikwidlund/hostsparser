@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-15 01:05:44Z
+! Last Modified: 2022-02-15 06:19:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38695,6 +38695,7 @@
 ||inpostpl.przelew-standart.club^
 ||dpd-pl.przelew-standart.work^
 ||przelew.fyi^
+||dpd-pl.przelewdo-i221.store^
 ||przelewy24.click^
 ||przelewy24.fyi^
 ||przelomowasytuacjja.website^
@@ -52799,6 +52800,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
+||dk.adserver.yahoo.com^
+||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
