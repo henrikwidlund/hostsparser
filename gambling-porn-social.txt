@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-15 12:26:00Z
+! Last Modified: 2022-02-15 18:18:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3603,6 +3603,7 @@
 ||mdws.aldergrovecu.ca^
 ||aldik.com^
 ||waaf1.aldilife.com^
+||waaf1.alditalk.de^
 ||aldobutypolska.com^
 ||aldorasystem.pl^
 ||ale-gratka.pl^
@@ -69672,7 +69673,6 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||sdkconfig.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
