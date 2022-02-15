@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-15 06:19:19Z
+! Last Modified: 2022-02-15 12:26:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31260,6 +31260,7 @@
 ||elqtrk.intel.com^
 ||connect.intel.com^
 ||elqtrkstg.intel.com^
+||plan.seek.intel.com^
 ||techprovider.intel.com^
 ||elqtrk.thailand.intel.com^
 ||intelpartneralliance.intel.com^
@@ -73655,6 +73656,7 @@
 ||csr11-asana.net.zooplus.de^
 ||csr12-login.net.zooplus.de^
 ||csr12-tiger.net.zooplus.de^
+||csr12.csr41.net.zooplus.de^
 ||csr31mail01.net.zooplus.de^
 ||csr41beta-m.net.zooplus.de^
 ||csrmailjet1.net.zooplus.de^

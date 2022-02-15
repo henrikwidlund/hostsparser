@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-15 06:19:15Z
+! Last Modified: 2022-02-15 12:25:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8773,6 +8773,7 @@
 ||sanalytics.cartoonnetwork.pl^
 ||sanalytics.cartoonnetwork.pt^
 ||sanalytics.cartoonnetwork.ro^
+||sanalytics.cartoonnetwork.ru^
 ||sanalytics.cartoonnetworkarabic.com^
 ||analytics.cartoonnetworkasia.com^
 ||sanalytics.cartoonnetworkasia.com^
@@ -45925,7 +45926,6 @@
 ||steroidsworld.pl^
 ||sterongroup.com.ng^
 ||stertashake.site^
-||stats.steuer-soldaten.de^
 ||stevemadenpolska.com^
 ||steviexanat.photography^
 ||stewaveg.xyz^
@@ -55059,10 +55059,8 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||tw2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

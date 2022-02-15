@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-15 06:19:06Z
+! Last Modified: 2022-02-15 12:25:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -49383,6 +49383,7 @@
 ||olx.pl-getpayment.shop^
 ||pl-getpayment.xyz^
 ||olx.pl-getsafe.cash^
+||olx.pl-getsafe.delivery^
 ||olx.pl-getsafe.money^
 ||inpost.pl-getsafe.money^
 ||olx.pl-getservice.info^
@@ -71981,6 +71982,8 @@
 ||williamhill.es^
 ||smetrics.williams-sonoma.com^
 ||williamsburgsun.com^
+||smetrics.williamsf1.com^
+||data.fans.williamsf1.com^
 ||williamsonnews.com^
 ||willigedamen.com^
 ||go.willof-work.co.jp^
@@ -74257,9 +74260,9 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||beap.gemini.yahoo.com^
+||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
