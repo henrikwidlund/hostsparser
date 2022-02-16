@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-16 01:01:26Z
+! Last Modified: 2022-02-16 12:25:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6270,6 +6270,7 @@
 ||microlearning.att.com^
 ||cyber-tracking.att.com^
 ||assetmanagement.att.com^
+||connect2.attachtrauma.org^
 ||attackers.net^
 ||fpc.attcenter.com^
 ||info.attcenter.com^
@@ -54024,6 +54025,7 @@
 ||seavirgin.com^
 ||seb-app.eu^
 ||smetrics.seb.ee^
+||smetrics.seb.lt^
 ||smetrics.seb.lv^
 ||sebastea.pl^
 ||stats.sebastiangale.ca^
@@ -64162,6 +64164,8 @@
 ||tracker.vgame.us^
 ||ads.vgchartz.com^
 ||vgdny.com^
+||sc.vh1.com^
+||ssc.vh1.com^
 ||wt.vhb.de^
 ||vhguyeu.ml^
 ||vhowland.co.uk^
@@ -69462,7 +69466,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||dk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

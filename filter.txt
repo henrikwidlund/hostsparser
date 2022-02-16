@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-16 01:01:06Z
+! Last Modified: 2022-02-16 12:25:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2959,7 +2959,6 @@
 ||signup.advance.net^
 ||realmedia.advance.net^
 ||ads.webnet.advance.net^
-||adsrv.advanced-television.tv^
 ||advancedcleaner.com^
 ||advancedmactools.com^
 ||trk.advancedmanufacturingminneapolis.com^
@@ -21476,13 +21475,6 @@
 ||espaciont.com^
 ||espaciosreales.com^
 ||espinheoutlet.fun^
-||tr.asp1.espmp-agfr.net^
-||tr.b2d1.espmp-agfr.net^
-||tr.krus.espmp-agfr.net^
-||tr.mart.espmp-agfr.net^
-||tr.ratm.espmp-agfr.net^
-||tr.raym.espmp-agfr.net^
-||tr.marg02n.espmp-agfr.net^
 ||tr.asp002q.espmp-aufr.net^
 ||tr.asp10bs.espmp-aufr.net^
 ||tr.asp2032.espmp-aufr.net^
@@ -74260,7 +74252,9 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
