@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-15 18:18:31Z
+! Last Modified: 2022-02-16 01:01:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -62069,6 +62069,8 @@
 ||developer.team1global.com.au^
 ||secure.team8save.com^
 ||teamadvertise.info^
+||metrics.teambeachbody.com^
+||smetrics.teambeachbody.com^
 ||go.teambonding.com^
 ||analytics.teamcovenant.com^
 ||reports.teamemo-solutions.de^
@@ -72922,6 +72924,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

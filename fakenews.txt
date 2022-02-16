@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-15 18:18:43Z
+! Last Modified: 2022-02-16 01:01:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31410,6 +31410,7 @@
 ||sdkconf.msstatic.com^
 ||mstr-csh.work^
 ||content.msufcu.org^
+||t.msuspartans.com^
 ||stats.mt.com^
 ||sstats.mt.com^
 ||cmps.mt50ad.com^
@@ -36863,6 +36864,7 @@
 ||pctracking.net^
 ||pl.pcviruscare.com^
 ||gadgeteer.pdamart.com^
+||api.pdbarea.com^
 ||pdf-platinum.info^
 ||go.pdf.com^
 ||download.pdf00.cn^
