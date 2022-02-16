@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-16 15:34:03Z
+! Last Modified: 2022-02-16 18:19:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -55063,6 +55063,7 @@
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -56519,6 +56520,7 @@
 ||container-marketing.net.zooplus.es^
 ||c593l6jlo3ivkuln8va0.net.zooplus.es^
 ||chd.signed-marketing.net.zooplus.es^
+||www-engine.marketing.net.zooplus.es^
 ||chd.marketing.internal.net.zooplus.es^
 ||marketing.applications.net.zooplus.es^
 ||admins-www.cgimarketing.net.zooplus.es^
