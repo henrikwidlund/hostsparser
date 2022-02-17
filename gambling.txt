@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-17 06:20:32Z
+! Last Modified: 2022-02-17 12:25:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -48755,6 +48755,9 @@
 ||omni.turkcell.com.tr^
 ||turkeyrank.com^
 ||turkishairines.info^
+||metrics.turner.com^
+||tenilstats.turner.com^
+||securetenilstats.turner.com^
 ||analytics.turnertv.com^
 ||go.turnitin.com^
 ||turow-1project.info^
@@ -53234,7 +53237,6 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||sdkconfig.ad.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^

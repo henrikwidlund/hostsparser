@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-17 06:20:14Z
+! Last Modified: 2022-02-17 12:25:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42929,6 +42929,7 @@
 ||server990916.nazwa.pl^
 ||server998611.nazwa.pl^
 ||server560960.nazwa.pl^
+||cache.server560960.nazwa.pl^
 ||nazwa5.pl^
 ||nb-sklep.com^
 ||gdyn.nba.com^
@@ -52958,7 +52959,6 @@
 ||track.publeadmedia.com^
 ||publiads.com^
 ||public-sex.net^
-||res.public.fr^
 ||ads.publicdisgrace.com^
 ||publicexposurephotos.com^
 ||publicexposurepics.com^
@@ -55037,7 +55037,6 @@
 ||rinoflexconnectors.com^
 ||www2.rinrei.co.jp^
 ||rintor.org^
-||marketing.riogrande.com^
 ||riomature.com^
 ||riomilf.com^
 ||riomoms.com^
@@ -74260,6 +74259,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
@@ -74442,6 +74442,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst1.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
