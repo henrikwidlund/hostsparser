@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-16 18:19:11Z
+! Last Modified: 2022-02-17 00:54:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3399,6 +3399,7 @@
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
+||sync.tidaltv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
@@ -37682,11 +37683,6 @@
 ||sf.mastere-company.site^
 ||918b.mastere-company.site^
 ||cen.trum.polska.24.account.login.ssl.masterfood.mobi^
-||ders.masterfuls.xyz^
-||abbvx.masterfuls.xyz^
-||asvvx.masterfuls.xyz^
-||vcczx.masterfuls.xyz^
-||pasiikq.masterfuls.xyz^
 ||masterimon.com^
 ||donkey.masteringfinland.com^
 ||landing.masteritaly.com^
