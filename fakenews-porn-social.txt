@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-17 00:54:13Z
+! Last Modified: 2022-02-17 06:20:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39499,8 +39499,6 @@
 ||smetrics.mitsubishi-motors.com.au^
 ||report.mitsubishicars.com^
 ||sreport.mitsubishicars.com^
-||wwwf15.mitsubishielectric.co.jp^
-||ldg-exh.mitsubishielectric.co.jp^
 ||ejpcuw.mitsubishilaval.com^
 ||rsotku.mitsui-shopping-park.com^
 ||lp-eq.mitsuichemicals.com^
@@ -71623,6 +71621,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
