@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-18 12:26:23Z
+! Last Modified: 2022-02-18 18:19:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35351,6 +35351,7 @@
 ||lemmecheck.link^
 ||lemmecheck.net^
 ||lemmecheck.xxx^
+||media.lemmecheckvideo.com^
 ||lemonmov.com^
 ||lemonparty.biz^
 ||lemonparty.org^
@@ -56831,6 +56832,7 @@
 ||smetrics.shell.co.uk^
 ||scmetrics.shell.com^
 ||lubricants.shell.com^
+||smetrics.shellenergy.co.uk^
 ||shellieneumeier.com^
 ||shellstore.info^
 ||guanaco.shelter.stream^
@@ -73179,7 +73181,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

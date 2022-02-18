@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-18 12:26:14Z
+! Last Modified: 2022-02-18 18:19:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -62751,9 +62751,6 @@
 ||infos.telstra.com.au^
 ||telsupport-securityreturn.live^
 ||teltech.hu^
-||a.telus.com^
-||b.telus.com^
-||solutions.telus.com^
 ||www3.telus.net^
 ||cityads.telus.net^
 ||go.telusinternational.com^

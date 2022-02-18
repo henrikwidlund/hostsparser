@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-18 12:26:37Z
+! Last Modified: 2022-02-18 18:20:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7243,6 +7243,8 @@
 ||sanalytics.boomerang.asia^
 ||sanalytics.boomeranghq.net^
 ||sanalytics.boomerangmena.com^
+||analytics.boomerangtv.co.uk^
+||sanalytics.boomerangtv.co.uk^
 ||sanalytics.boomerangtv.com.tr^
 ||sanalytics.boomerangtv.fr^
 ||sanalytics.boomerangtv.nl^
