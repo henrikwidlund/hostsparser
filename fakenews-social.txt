@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-17 18:19:20Z
+! Last Modified: 2022-02-18 01:05:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4622,6 +4622,8 @@
 ||www2.asuprepdigital.org^
 ||go.asurint.com^
 ||smetrics.asurion.com^
+||etrk.asus.com^
+||connect.asus.com^
 ||aswpapius.com^
 ||aswsdpagesah.co.vu^
 ||atafrecle.com^
@@ -30388,7 +30390,6 @@
 ||www2.mgnevents.co.uk^
 ||t.mgoblue.com^
 ||go.mgocpa.com^
-||bmodjx.mgos.jp^
 ||fi-analytics.mgsn.it^
 ||mgzhgs.com^
 ||mh-miyoshi.jp^
@@ -33565,7 +33566,6 @@
 ||niskamaskincare.pl^
 ||tracking.nissan-dubai.com^
 ||smetric.m.nissan-global.com^
-||smeasurement.nissan.ca^
 ||metrics.nissan.ee^
 ||metrics.nissan.es^
 ||metrics.nissan.se^
@@ -55281,7 +55281,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
@@ -56399,6 +56398,7 @@
 ||clientcsr11.net.zooplus.de^
 ||controller1.net.zooplus.de^
 ||csr11-asana.net.zooplus.de^
+||csr11.csr41.net.zooplus.de^
 ||csr12-login.net.zooplus.de^
 ||csr12-tiger.net.zooplus.de^
 ||csr41beta-m.net.zooplus.de^
@@ -56425,7 +56425,6 @@
 ||csr41paywall.net.zooplus.de^
 ||ctl.api.pass.net.zooplus.de^
 ||ctl.cloudapi.net.zooplus.de^
-||ctl.kube.api.net.zooplus.de^
 ||marketingapi.net.zooplus.de^
 ||apac-lax-mgmt.net.zooplus.de^
 ||api.container.net.zooplus.de^

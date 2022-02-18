@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-17 18:19:13Z
+! Last Modified: 2022-02-18 01:04:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28295,6 +28295,7 @@
 ||hartfordreporter.com^
 ||hartim.com^
 ||go.hartnessintl.com^
+||partner.haru-shop.jp^
 ||adebis.harutaka.jp^
 ||go.hks.harvard.edu^
 ||smetrics.hbsp.harvard.edu^
@@ -74274,7 +74275,6 @@
 ||a.zillastream.com^
 ||zilliaq.com^
 ||go.zillowgroup.com^
-||mjp.zimad.com^
 ||zimadeals.pl^
 ||zimb.space^
 ||zimbio.com^
