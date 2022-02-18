@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-18 06:20:35Z
+! Last Modified: 2022-02-18 12:26:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2299,7 +2299,6 @@
 ||adapterylaptopa.com^
 ||adaptivecss.org^
 ||adapttogrow2021.com^
-||go.adara.com^
 ||adareporter.com^
 ||adbers.com^
 ||adbilty.me^
@@ -35352,7 +35351,6 @@
 ||lemmecheck.link^
 ||lemmecheck.net^
 ||lemmecheck.xxx^
-||media.lemmecheckvideo.com^
 ||lemonmov.com^
 ||lemonparty.biz^
 ||lemonparty.org^
@@ -54361,7 +54359,6 @@
 ||smetrics.rolex.com^
 ||xhrplq.rolf-probeg.ru^
 ||rolihost.com^
-||api.rollbar.com^
 ||stat.rolledwil.biz^
 ||as.rollingstone.de^
 ||roloflix.com^
@@ -56834,7 +56831,6 @@
 ||smetrics.shell.co.uk^
 ||scmetrics.shell.com^
 ||lubricants.shell.com^
-||smetrics.shellenergy.co.uk^
 ||shellieneumeier.com^
 ||shellstore.info^
 ||guanaco.shelter.stream^
@@ -72085,7 +72081,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||a.stat.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
@@ -73184,6 +73179,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

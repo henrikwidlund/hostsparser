@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-18 06:20:47Z
+! Last Modified: 2022-02-18 12:26:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -616,6 +616,7 @@
 ||24xxx.porn^
 ||24xxxporn.com^
 ||257639.com^
+||pl-olx.257688.space^
 ||inpost-pl.257951.space^
 ||allegrolokalnie-pl.257951.space^
 ||inpost-rghl.2584902.me^
@@ -2281,7 +2282,6 @@
 ||adapterylaptopa.com^
 ||adaptivecss.org^
 ||adapttogrow2021.com^
-||go.adara.com^
 ||adbers.com^
 ||adbilty.me^
 ||adblade.org^
@@ -19376,7 +19376,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ds-www.addthis.com.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -52872,7 +52871,6 @@
 ||smetrics.rolex.com^
 ||xhrplq.rolf-probeg.ru^
 ||rolihost.com^
-||api.rollbar.com^
 ||stat.rolledwil.biz^
 ||as.rollingstone.de^
 ||roloflix.com^

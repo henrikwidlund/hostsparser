@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-18 06:20:31Z
+! Last Modified: 2022-02-18 12:26:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1909,7 +1909,6 @@
 ||adapterylaptopa.com^
 ||adaptivecss.org^
 ||adapttogrow2021.com^
-||go.adara.com^
 ||adareporter.com^
 ||adbers.com^
 ||adbilty.me^
@@ -43193,7 +43192,6 @@
 ||xhrplq.rolf-probeg.ru^
 ||rolihost.com^
 ||rolla.com^
-||api.rollbar.com^
 ||rollbit.com^
 ||stat.rolledwil.biz^
 ||as.rollingstone.de^
@@ -46098,7 +46096,6 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
-||j.newssuite.sony.net^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
@@ -56050,10 +56047,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -57133,7 +57130,6 @@
 ||csr31.php.net.zooplus.de^
 ||ctl-car40.net.zooplus.de^
 ||dev-car40.net.zooplus.de^
-||iad.csr11.net.zooplus.de^
 ||marketing.net.zooplus.de^
 ||server-gw.net.zooplus.de^
 ||api.1-priv.net.zooplus.de^

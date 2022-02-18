@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-18 06:20:28Z
+! Last Modified: 2022-02-18 12:26:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2353,7 +2353,6 @@
 ||adapterylaptopa.com^
 ||adaptivecss.org^
 ||adapttogrow2021.com^
-||go.adara.com^
 ||adareporter.com^
 ||adbers.com^
 ||adbilty.me^
@@ -20453,7 +20452,6 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
-||criteo-sync.teads.tv.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -27295,6 +27293,7 @@
 ||gozacomigo.com^
 ||new1.pb5rjzmo6r80vgh.gozaraneh.ir^
 ||gp-pt.net^
+||slewvr.gp.se^
 ||gparted.fr^
 ||go.gpcom.com^
 ||ftp-reklama.gpd24.pl^
@@ -53585,8 +53584,6 @@
 ||ysdk.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
-||sdk.e.qq.com^
-||mi.gdt.qq.com^
 ||logsdk.qq.com^
 ||omgmta.qq.com^
 ||pingjs.qq.com^
@@ -55528,7 +55525,6 @@
 ||xhrplq.rolf-probeg.ru^
 ||rolihost.com^
 ||rolla.com^
-||api.rollbar.com^
 ||rollbit.com^
 ||stat.rolledwil.biz^
 ||as.rollingstone.de^
