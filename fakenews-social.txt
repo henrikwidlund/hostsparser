@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-18 01:05:01Z
+! Last Modified: 2022-02-18 06:20:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30390,6 +30390,7 @@
 ||www2.mgnevents.co.uk^
 ||t.mgoblue.com^
 ||go.mgocpa.com^
+||bmodjx.mgos.jp^
 ||fi-analytics.mgsn.it^
 ||mgzhgs.com^
 ||mh-miyoshi.jp^
@@ -33566,6 +33567,7 @@
 ||niskamaskincare.pl^
 ||tracking.nissan-dubai.com^
 ||smetric.m.nissan-global.com^
+||smeasurement.nissan.ca^
 ||metrics.nissan.ee^
 ||metrics.nissan.es^
 ||metrics.nissan.se^
@@ -56398,7 +56400,6 @@
 ||clientcsr11.net.zooplus.de^
 ||controller1.net.zooplus.de^
 ||csr11-asana.net.zooplus.de^
-||csr11.csr41.net.zooplus.de^
 ||csr12-login.net.zooplus.de^
 ||csr12-tiger.net.zooplus.de^
 ||csr41beta-m.net.zooplus.de^

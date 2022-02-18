@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-18 01:04:59Z
+! Last Modified: 2022-02-18 06:20:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38489,6 +38489,7 @@
 ||shop.mediasova.ru^
 ||pbs-front.mediasquare.fr^
 ||bidder-test.mediasquare.fr^
+||ad.mediastorm.hu^
 ||mediatext.com^
 ||ads.mediaturf.net^
 ||ads.mediatwo.com^
@@ -59367,6 +59368,7 @@
 ||stefaniakl.pl^
 ||go.stefanini.com^
 ||stefanstrzalkowski.pl^
+||a.steigenberger.com^
 ||anteater.stella-projects.de^
 ||stellam.info^
 ||stellarium.fr^
@@ -72083,6 +72085,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||a.stat.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-18 01:04:56Z
+! Last Modified: 2022-02-18 06:20:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46098,6 +46098,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
@@ -56037,7 +56038,6 @@
 ||yahhooo.net^
 ||listing.yahoo-net.jp^
 ||go.store.yahoo-net.jp^
-||im.ov.yahoo.co.jp^
 ||fc.yahoo.com^
 ||comet.yahoo.com^
 ||m.yap.yahoo.com^
@@ -56050,6 +56050,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -57132,6 +57133,7 @@
 ||csr31.php.net.zooplus.de^
 ||ctl-car40.net.zooplus.de^
 ||dev-car40.net.zooplus.de^
+||iad.csr11.net.zooplus.de^
 ||marketing.net.zooplus.de^
 ||server-gw.net.zooplus.de^
 ||api.1-priv.net.zooplus.de^
