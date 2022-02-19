@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-18 18:19:43Z
+! Last Modified: 2022-02-19 01:01:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30224,6 +30224,7 @@
 ||pmstrk.mercadolivre.com.br^
 ||click.food.mercato.com^
 ||clicks.food.mercato.com^
+||openx.mercatormedia.com^
 ||go.mercatus.org^
 ||uflfhl.mercci22.com^
 ||sanalytics.smart.mercedes-benz.com^
@@ -56045,6 +56046,7 @@
 ||mjp.zimad.com^
 ||zimadeals.pl^
 ||zimb.space^
+||static.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||raven.zimristats.com^
