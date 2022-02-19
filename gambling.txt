@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-19 06:19:18Z
+! Last Modified: 2022-02-19 12:25:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18783,6 +18783,7 @@
 ||email.mail.floatme.io^
 ||marketing.flodocs.com^
 ||ads.flooble.com^
+||ad.floq.jp^
 ||lwlbtf.florajet.com^
 ||pjtshn.floraprima.de^
 ||floratelecom.com^
@@ -24153,6 +24154,7 @@
 ||engagement.inmarket.com^
 ||cdn-engagement.inmarket.com^
 ||www2.inmarsat.com^
+||inmobi-jp.com^
 ||r.edge.inmobicdn.com^
 ||intercept.inmoment.com^
 ||dispawsusva.inmoment.com^
@@ -42372,6 +42374,7 @@
 ||smetrics.saseurobonusmastercard.se^
 ||sasiedzkinews.eu^
 ||info.sasintgroup.com^
+||smetrics.sasktel.com^
 ||web.s.sasrx.com^
 ||reptile.sat.trading^
 ||tr.mail.satisfactory.fr^
@@ -54915,6 +54918,7 @@
 ||cdn.tpe.net.zooplus.de^
 ||cdnmgmt.net.zooplus.de^
 ||cgi.tpe.net.zooplus.de^
+||chd.api.net.zooplus.de^
 ||csr11ci.net.zooplus.de^
 ||csr1prd.net.zooplus.de^
 ||csraws1.net.zooplus.de^

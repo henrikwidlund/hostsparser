@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-19 06:19:05Z
+! Last Modified: 2022-02-19 12:24:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19361,6 +19361,7 @@
 ||email.mail.floatme.io^
 ||marketing.flodocs.com^
 ||ads.flooble.com^
+||ad.floq.jp^
 ||lwlbtf.florajet.com^
 ||pjtshn.floraprima.de^
 ||floratelecom.com^
@@ -24929,6 +24930,7 @@
 ||engagement.inmarket.com^
 ||cdn-engagement.inmarket.com^
 ||www2.inmarsat.com^
+||inmobi-jp.com^
 ||r.edge.inmobicdn.com^
 ||intercept.inmoment.com^
 ||dispawsusva.inmoment.com^

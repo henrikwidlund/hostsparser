@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-19 06:19:04Z
+! Last Modified: 2022-02-19 12:24:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16774,7 +16774,6 @@
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
-||js-sec.casalemedia.com.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
@@ -19447,6 +19446,7 @@
 ||email.mail.floatme.io^
 ||marketing.flodocs.com^
 ||ads.flooble.com^
+||ad.floq.jp^
 ||lwlbtf.florajet.com^
 ||pjtshn.floraprima.de^
 ||floratelecom.com^
@@ -25021,6 +25021,7 @@
 ||engagement.inmarket.com^
 ||cdn-engagement.inmarket.com^
 ||www2.inmarsat.com^
+||inmobi-jp.com^
 ||r.edge.inmobicdn.com^
 ||intercept.inmoment.com^
 ||dispawsusva.inmoment.com^

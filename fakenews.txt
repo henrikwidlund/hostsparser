@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-19 06:19:12Z
+! Last Modified: 2022-02-19 12:25:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18804,6 +18804,7 @@
 ||email.mail.floatme.io^
 ||marketing.flodocs.com^
 ||ads.flooble.com^
+||ad.floq.jp^
 ||lwlbtf.florajet.com^
 ||pjtshn.floraprima.de^
 ||floratelecom.com^
@@ -23397,6 +23398,7 @@
 ||allegrolokalnie-pl.id756586.space^
 ||inpost.id761628.space^
 ||allegrolokalnie-pl.id783425.space^
+||vinted-pl.id788223.space^
 ||olx-pl.id792356.space^
 ||olx-pl.id81901.xyz^
 ||inpost-pl.id81901.xyz^
@@ -24260,6 +24262,7 @@
 ||engagement.inmarket.com^
 ||cdn-engagement.inmarket.com^
 ||www2.inmarsat.com^
+||inmobi-jp.com^
 ||r.edge.inmobicdn.com^
 ||intercept.inmoment.com^
 ||dispawsusva.inmoment.com^
