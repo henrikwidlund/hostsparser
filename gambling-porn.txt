@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-20 01:05:30Z
+! Last Modified: 2022-02-20 06:19:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19895,7 +19895,6 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
-||criteo-sync.teads.tv.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -59742,6 +59741,7 @@
 ||ads.syscdn.de^
 ||sysip.net^
 ||plausible.sysloun.cz^
+||ads.sysmesh.com^
 ||eu.syst-inf.xyz^
 ||bm.syst-pltrade4.site^
 ||dg.syst-pltrade4.site^
@@ -72335,7 +72335,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||pn1.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
