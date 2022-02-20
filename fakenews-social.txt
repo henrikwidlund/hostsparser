@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-20 06:19:04Z
+! Last Modified: 2022-02-20 12:25:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35168,8 +35168,6 @@
 ||cdn.onescreen.net^
 ||analytics.onesearch.id^
 ||url9576.oneshift.com^
-||api.onesignal.com^
-||cdn.onesignal.com^
 ||onestatfree.com^
 ||onet-24.space^
 ||onet-24.website^
@@ -54513,6 +54511,8 @@
 ||banners.wunderground.com^
 ||smetrics.wunetspendprepaid.com^
 ||track.msadcenter.wup.com^
+||ywrcqa.wusa9.com^
+||repdata.wusa9.com^
 ||wuus.org.cn^
 ||wvbusinessdaily.com^
 ||wvheartlandnews.com^

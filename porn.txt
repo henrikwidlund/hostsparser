@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-20 06:19:16Z
+! Last Modified: 2022-02-20 12:25:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23523,6 +23523,8 @@
 ||freeoneslive.com^
 ||search.freeonline.com^
 ||adv.freeonline.it^
+||ads.freeonlinegames.com^
+||stats.freeonlinegames.com^
 ||freepay.com^
 ||freepicsandmovies.com^
 ||freepicsmovies.net^
@@ -60574,10 +60576,6 @@
 ||metrics.thinkgeek.com^
 ||trk.thinkhdi.com^
 ||affiliates.thinkhost.net^
-||openx-server.thinknearhub.com^
-||opera-server.thinknearhub.com^
-||smaato-server.thinknearhub.com^
-||thinknear-hosted.thinknearhub.com^
 ||www2.thinknsa.com^
 ||thinktarget.com^
 ||thinkthenprogress.com^

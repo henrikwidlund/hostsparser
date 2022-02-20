@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-20 06:19:06Z
+! Last Modified: 2022-02-20 12:25:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1460,6 +1460,7 @@
 ||data.abebooks.com^
 ||fbvbyi.abekker.ru^
 ||abeldanger.net^
+||a8.abemashopping.jp^
 ||smetrics.abercrombie.com^
 ||services.aberdeen.com^
 ||abetott.com^
