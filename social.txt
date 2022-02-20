@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-20 12:25:16Z
+! Last Modified: 2022-02-20 18:18:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1589,7 +1589,6 @@
 ||sdc.acc.org^
 ||smetrics.accaglobal.com^
 ||forms.accc-cancer.org^
-||go.accea.co.jp^
 ||ads.accelerator-media.com^
 ||acceleratoruncatered.pl^
 ||api.accengage.com^
@@ -4542,6 +4541,7 @@
 ||smetrics.atomic.com^
 ||atomictime.net^
 ||bbc1.atomicwelet.com^
+||info.atomlt.com^
 ||engage.atos.net^
 ||atousoft.com^
 ||atout-energie-69.com^
