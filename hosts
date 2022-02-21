@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-21 06:20:24Z
+! Last Modified: 2022-02-21 12:27:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15850,6 +15850,9 @@
 ||converge-digital.com^
 ||act.convergencetraining.com^
 ||conversantmedia.com^
+||psbiaf.converse.com^
+||metrics.converse.com^
+||smetrics.converse.com^
 ||conversebutypl.com^
 ||conversepolskapl.com^
 ||conversepolskasklep.pl^
@@ -74482,7 +74485,9 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
+||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-21 06:20:40Z
+! Last Modified: 2022-02-21 12:27:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -43804,7 +43804,6 @@
 ||plausible.test.sketch.com^
 ||plausible.staging.sketch.com^
 ||promo.skf.com^
-||uk.promo.skf.com^
 ||stats.ski.com^
 ||skidrowcrack.com^
 ||go.skience.com^

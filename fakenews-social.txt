@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-21 06:20:34Z
+! Last Modified: 2022-02-21 12:27:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6279,7 +6279,6 @@
 ||birkin30.com^
 ||ma.birkocorp.com^
 ||biryakarambol.com^
-||wawi.birysinkahotel.ru^
 ||bis-dic15.com^
 ||go.bisco.com^
 ||estore.biscoind.com^
@@ -33577,6 +33576,7 @@
 ||smetrics.nissanusa.com^
 ||sytuzk.nissanvimontlaval.com^
 ||info.nissenren-scort.co.jp^
+||a.nissyoku.co.jp^
 ||nitamo-sklep.pl^
 ||nitaqoa3.xyz^
 ||nitinenterprises.org.in^
@@ -43460,6 +43460,7 @@
 ||stats.seedwebs.com^
 ||secure.info.m.seek.co.nz^
 ||info.seek.com^
+||secure.info.seek.com^
 ||info.m.seek.com.au^
 ||seekbang.com^
 ||tics.seeker.gg^
