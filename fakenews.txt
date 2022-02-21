@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-20 18:18:34Z
+! Last Modified: 2022-02-21 00:58:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9627,6 +9627,7 @@
 ||cigar.pt^
 ||cigarette-online.com^
 ||smetrics.cigarsinternational.com^
+||comms.cigna.es^
 ||go.cigr.co.jp^
 ||ciidental.com.ec^
 ||ciiycode.com^
@@ -13855,7 +13856,6 @@
 ||dcm5.com^
 ||dcposts.com^
 ||ea.dcshoes-europe.com^
-||metrics.dcshoes.com^
 ||dcshoespolska.com^
 ||dcshoessklep.com^
 ||adverts.dcthomson.co.uk^
@@ -26553,7 +26553,6 @@
 ||knc.lv^
 ||clinic.knee-joint.net^
 ||knightstemplarinternational.com^
-||go.knime.com^
 ||track.knlob.com^
 ||ofkqiy.knowfashionstyle.com^
 ||knowinteractive.com^

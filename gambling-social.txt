@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-20 18:18:38Z
+! Last Modified: 2022-02-21 00:58:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19074,6 +19074,7 @@
 ||sanl.footlocker.ca^
 ||sanl.footlocker.co.uk^
 ||pezxux.footlocker.co.uk^
+||sanl.footlocker.com^
 ||sanl.footlocker.com.au^
 ||sanl.footlocker.cz^
 ||sanl.footlocker.de^
