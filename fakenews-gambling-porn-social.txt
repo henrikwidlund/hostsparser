@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-21 00:58:00Z
+! Last Modified: 2022-02-21 06:20:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -186,6 +186,7 @@
 ||allegrolokalnie-pl.114569.space^
 ||allegrolokalnie-pl.114578.space^
 ||1.114central.com^
+||pdt.11880.com^
 ||ywrcqa.11alive.com^
 ||11hour.com^
 ||11shots.com^
@@ -3482,10 +3483,12 @@
 ||dvgtm.akadns.net^
 ||vungle.akadns.net^
 ||turn.com.akadns.net^
+||d.turn.com.akadns.net^
 ||eyeblaster.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||cacp-hlb.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -73145,7 +73148,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
