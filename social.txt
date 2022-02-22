@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-22 00:59:58Z
+! Last Modified: 2022-02-22 06:19:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2761,6 +2761,7 @@
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
+||beacon-sjc2.rubiconproject.net.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
 ||akaflieg-sb.de^
 ||akama.com^
@@ -29376,6 +29377,7 @@
 ||glosowanie-warszawa.microhost.com.pl^
 ||info.microland.com^
 ||events.microland.com^
+||tr.animation.micromania.fr^
 ||micromix.pl^
 ||microscalesflowcharts.info^
 ||microsoft-cnd.com^
@@ -43407,7 +43409,6 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
-||j.newssuite.sony.net^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
@@ -53024,7 +53025,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-22 00:59:43Z
+! Last Modified: 2022-02-22 06:19:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -61080,6 +61080,11 @@
 ||teasecomix.com^
 ||teasepov.com^
 ||echo.teasernet.ru^
+||quizteslxpl.1.teaslaproject.online^
+||quizteslxpl.2.teaslaproject.online^
+||quizteslxpl.3.teaslaproject.online^
+||quizteslxpl.4.teaslaproject.online^
+||quizteslxpl.5.teaslaproject.online^
 ||teasvoi.online^
 ||teatrkuffer.pl^
 ||teatrodelporno.com^
@@ -71838,6 +71843,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||cn.adserver.yahoo.com^
+||tw.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -73353,6 +73360,7 @@
 ||csr11-asana.net.zooplus.de^
 ||csr12-login.net.zooplus.de^
 ||csr12-tiger.net.zooplus.de^
+||csr12.csr41.net.zooplus.de^
 ||csr41beta-m.net.zooplus.de^
 ||csrmailjet1.net.zooplus.de^
 ||stg.profile.net.zooplus.de^

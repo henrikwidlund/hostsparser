@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-22 00:59:44Z
+! Last Modified: 2022-02-22 06:19:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1707,6 +1707,7 @@
 ||a8cv.a-resort.jp^
 ||a-shemaletube.com^
 ||ads.a-snag-smartmoney.fyi^
+||fl.a.ki^
 ||uazmti.a101.com.tr^
 ||a1a.pl^
 ||a1thumbpost.com^
@@ -31530,9 +31531,6 @@
 ||img.interhome.be^
 ||interia-ek.ru^
 ||interia.cyou^
-||i.interia.pl^
-||x.interia.pl^
-||seyfwl.interia.pl^
 ||autoryzacja-poczty.interia.site^
 ||interioralaskanews.com^
 ||interiordream.pl^

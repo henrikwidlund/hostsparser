@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-22 00:59:53Z
+! Last Modified: 2022-02-22 06:19:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -55216,6 +55216,7 @@
 ||apache.ssl.net.zooplus.es^
 ||apachemail.net.zooplus.es^
 ||bucket.mail.net.zooplus.es^
+||chd.apacing.net.zooplus.es^
 ||autodiscover.net.zooplus.es^
 ||derat-psn005.net.zooplus.es^
 ||marketingnet.net.zooplus.es^
