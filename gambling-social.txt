@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-21 18:19:17Z
+! Last Modified: 2022-02-22 00:59:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16256,6 +16256,7 @@
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
+||ma80-r.analytics.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
@@ -40240,7 +40241,6 @@
 ||tajs.qq.com^
 ||tcss.qq.com^
 ||ysdk.qq.com^
-||hm.l.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
 ||logsdk.qq.com^
@@ -55141,6 +55141,7 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||adtima.brand.zing.vn^
 ||zingknowev.tk^
 ||ziololecznictwo.pl^
 ||tc.zionsbank.com^

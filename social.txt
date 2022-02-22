@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-21 18:19:23Z
+! Last Modified: 2022-02-22 00:59:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2826,6 +2826,7 @@
 ||akdw.com.br^
 ||bonjour.akeneo.com^
 ||mautic.akhoe.vn^
+||stat-ssl.akiba-souken.com^
 ||akibaol.com^
 ||a8cv.akihabara-x.jp^
 ||akiihii.com^
@@ -29375,7 +29376,6 @@
 ||glosowanie-warszawa.microhost.com.pl^
 ||info.microland.com^
 ||events.microland.com^
-||tr.animation.micromania.fr^
 ||micromix.pl^
 ||microscalesflowcharts.info^
 ||microsoft-cnd.com^
@@ -43407,6 +43407,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
@@ -53022,14 +53023,13 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||europe.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

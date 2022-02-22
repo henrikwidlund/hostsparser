@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-21 18:19:07Z
+! Last Modified: 2022-02-22 00:59:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16312,6 +16312,7 @@
 ||ads.ctvdigital.net^
 ||ctxholdings.com^
 ||cu3x.net^
+||mdws.cua.com^
 ||e2.cub.com.au^
 ||cuba7tilt.com^
 ||cubarepresion.com^
@@ -20096,6 +20097,8 @@
 ||egzotycznebezpiecznyczytania.site^
 ||eh8jq4cmq8j9g5.com^
 ||ads.ehealthcaresolutions.com^
+||metrics.ehealthinsurance.com^
+||smetrics.ehealthinsurance.com^
 ||ehentai.wiki^
 ||ehentai.xxx^
 ||ehgt.org^
@@ -61077,11 +61080,6 @@
 ||teasecomix.com^
 ||teasepov.com^
 ||echo.teasernet.ru^
-||quizteslxpl.1.teaslaproject.online^
-||quizteslxpl.2.teaslaproject.online^
-||quizteslxpl.3.teaslaproject.online^
-||quizteslxpl.4.teaslaproject.online^
-||quizteslxpl.5.teaslaproject.online^
 ||teasvoi.online^
 ||teatrkuffer.pl^
 ||teatrodelporno.com^
@@ -73379,7 +73377,6 @@
 ||csr41paywall.net.zooplus.de^
 ||ctl.api.pass.net.zooplus.de^
 ||ctl.cloudapi.net.zooplus.de^
-||ctl.kube.api.net.zooplus.de^
 ||marketingapi.net.zooplus.de^
 ||apac-lax-mgmt.net.zooplus.de^
 ||api.container.net.zooplus.de^
