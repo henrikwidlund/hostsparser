@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-23 12:27:47Z
+! Last Modified: 2022-02-23 18:17:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32576,7 +32576,6 @@
 ||kartavarna.com^
 ||kartavisa.pl^
 ||kartawire.pl^
-||deal.karte.io^
 ||karteli.xyz^
 ||kartlab.it^
 ||kartowkop.xyz^
@@ -56661,7 +56660,6 @@
 ||nextel-ringtone.spb.su^
 ||cnt.spbland.ru^
 ||pltesla.j.spc-x.live^
-||www2.spcai.org^
 ||adserver.spctl.com^
 ||spdobropole.pl^
 ||smetrics.spdrs.com^
@@ -70723,6 +70721,7 @@
 ||csr12.devs.net.zooplus.de^
 ||csr31-emea.net.zooplus.de^
 ||acclax-mgmt.net.zooplus.de^
+||admin.csr11.net.zooplus.de^
 ||api.ebspriv.net.zooplus.de^
 ||api.machine.net.zooplus.de^
 ||application.net.zooplus.de^

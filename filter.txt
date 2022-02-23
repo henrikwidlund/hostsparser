@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-23 12:27:39Z
+! Last Modified: 2022-02-23 18:17:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -33193,7 +33193,6 @@
 ||kartavarna.com^
 ||kartavisa.pl^
 ||kartawire.pl^
-||deal.karte.io^
 ||karteli.xyz^
 ||kartlab.it^
 ||kartowkop.xyz^
@@ -71941,6 +71940,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-23 12:27:45Z
+! Last Modified: 2022-02-23 18:17:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16052,6 +16052,7 @@
 ||marketo.com.edgekey.net^
 ||mathtag.com.edgekey.net^
 ||mookie1.com.edgekey.net^
+||san.push.io.edgekey.net^
 ||marketo.net.edgekey.net^
 ||owneriq.net.edgekey.net^
 ||taboola.com.edgekey.net^
@@ -25657,7 +25658,6 @@
 ||karta-swiateczna.eu^
 ||kartavisa.pl^
 ||kartawire.pl^
-||deal.karte.io^
 ||karteli.xyz^
 ||kartlab.it^
 ||kartowkop.xyz^
@@ -49854,6 +49854,7 @@
 ||video-smieszne.eu^
 ||video-spojrzmy.eu^
 ||video-ttv.pl^
+||filmbest.video.blog^
 ||ads.videoadvertising.com^
 ||videoamp.com^
 ||videobox.com^

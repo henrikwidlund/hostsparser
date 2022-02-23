@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-23 12:27:53Z
+! Last Modified: 2022-02-23 18:18:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18796,6 +18796,8 @@
 ||saa.dyson.at^
 ||aa.dyson.be^
 ||saa.dyson.be^
+||aa.dyson.ch^
+||saa.dyson.ch^
 ||aa.dyson.co.uk^
 ||saa.dyson.co.uk^
 ||aa.dyson.com^
@@ -32467,7 +32469,6 @@
 ||kartavarna.com^
 ||kartavisa.pl^
 ||kartawire.pl^
-||deal.karte.io^
 ||karteli.xyz^
 ||kartlab.it^
 ||kartowkop.xyz^
