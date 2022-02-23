@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-23 06:20:21Z
+! Last Modified: 2022-02-23 12:28:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14749,7 +14749,6 @@
 ||e-solutions.com.pe^
 ||e-sosnowiec.xyz^
 ||e-szczecin.xyz^
-||info.e-tabs.com^
 ||www2.e-tenki.co.jp^
 ||e-traffic.com^
 ||tr.contact.e-turf.fr^
@@ -29915,6 +29914,7 @@
 ||med.namzaric.com^
 ||elqtrck.nanawall.com^
 ||nanawardrobe.pl^
+||info.nankodo.co.jp^
 ||nanoadexchange.com^
 ||naomilaser.com^
 ||smetrics.napaonline.com^
@@ -50050,7 +50050,6 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
-||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^
@@ -50478,9 +50477,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -51211,6 +51212,7 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||app.brand.zing.vn^
 ||zingknowev.tk^
 ||ziololecznictwo.pl^
 ||tc.zionsbank.com^
@@ -51477,6 +51479,7 @@
 ||blog.csr12.net.zooplus.de^
 ||brandcsr31.net.zooplus.de^
 ||brettmoran.net.zooplus.de^
+||bucket.api.net.zooplus.de^
 ||bucket.owa.net.zooplus.de^
 ||bullockowa.net.zooplus.de^
 ||car40-apps.net.zooplus.de^

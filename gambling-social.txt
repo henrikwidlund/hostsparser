@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-23 06:20:15Z
+! Last Modified: 2022-02-23 12:27:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7310,6 +7310,8 @@
 ||bowlgirl.com^
 ||mdws.bowvalleycu.com^
 ||box-en.com^
+||analytics.box.com^
+||sanalytics.box.com^
 ||boxadstop.com^
 ||boxdelivery.org^
 ||email.boxed.com^
@@ -23409,7 +23411,6 @@
 ||instagr.am^
 ||instagram.com^
 ||installer892.site^
-||collect.installeranalytics.com^
 ||installm.net^
 ||installmac.com^
 ||eum-orange-saas.instana.io^
@@ -34923,7 +34924,6 @@
 ||info.paylocity.com^
 ||paymbox.org^
 ||olx-pl.payment-bank.ga^
-||olx-pl.payment-banks.ga^
 ||olx.pl.payment-save.site^
 ||avito.payment-transfer.ru^
 ||payment-za-zamowienie.pl^

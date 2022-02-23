@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-23 06:20:05Z
+! Last Modified: 2022-02-23 12:27:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32832,6 +32832,7 @@
 ||newsspypro.com^
 ||newstarads.com^
 ||newstarget.com^
+||go.newstatesman.com^
 ||oissapllllll.newstri67.site^
 ||analytics.newsvine.com^
 ||newswatch28.com^
@@ -47201,6 +47202,12 @@
 ||thegift.live^
 ||thegladbox-pl.com^
 ||cricket.theglobalindia.net^
+||visit.theglobeandmail.com^
+||adrates.theglobeandmail.com^
+||omniture.theglobeandmail.com^
+||ecestats.theglobeandmail.com^
+||adcounter.theglobeandmail.com^
+||ece5stats1.theglobeandmail.com^
 ||thegreatdanton.com^
 ||thegreek.com^
 ||metrics.thegrocer.co.uk^
@@ -53982,7 +53989,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
