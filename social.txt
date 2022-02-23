@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-23 01:07:43Z
+! Last Modified: 2022-02-23 06:20:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29915,7 +29915,6 @@
 ||med.namzaric.com^
 ||elqtrck.nanawall.com^
 ||nanawardrobe.pl^
-||info.nankodo.co.jp^
 ||nanoadexchange.com^
 ||naomilaser.com^
 ||smetrics.napaonline.com^
@@ -50051,6 +50050,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^

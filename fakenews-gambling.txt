@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-23 01:07:25Z
+! Last Modified: 2022-02-23 06:20:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -606,7 +606,6 @@
 ||engage.3m.com.py^
 ||engage.3m.com.qa^
 ||engage.3m.com.ro^
-||engage.3m.com.sa^
 ||engage.3m.com.sg^
 ||engage.3m.com.sv^
 ||engage.3m.com.tr^
@@ -9308,7 +9307,6 @@
 ||c.channeltraffic.net^
 ||channelvue.com.au^
 ||track.chanret.com^
-||pjh7.us.chantelle.com^
 ||chanz.com^
 ||chaos.news^
 ||chapelhillreview.com^
@@ -49426,6 +49424,7 @@
 ||tracking.uwindsor.ca^
 ||go.pace.uwinnipegcourses.ca^
 ||go.uws.edu^
+||go.uwstout.edu^
 ||analytics.uxmetrics.com^
 ||ads.uxs.at^
 ||stats.uxtools.co^
