@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-24 01:04:38Z
+! Last Modified: 2022-02-24 06:20:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46225,6 +46225,8 @@
 ||www2.persistentsystems.com^
 ||perso.ch^
 ||2b.challenge.persol-group.co.jp^
+||biztoc.persol-tech-s.co.jp^
+||biztos.persol-tech-s.co.jp^
 ||smetrics.persol.com^
 ||personagraph.com^
 ||personal-gifts.de^

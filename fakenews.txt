@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-24 01:04:43Z
+! Last Modified: 2022-02-24 06:20:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9517,7 +9517,6 @@
 ||info.clearfunction.com^
 ||links-uk.clearpay.co.uk^
 ||link.news.clearpay.co.uk^
-||email.clearscore.co.za^
 ||email.clearscore.com^
 ||email.clearscore.com.au^
 ||track.clearsender.com^
@@ -33589,6 +33588,7 @@
 ||onetpl-pgetech.info^
 ||onetpolska.pl^
 ||onetpomoc.eu^
+||li.onetravel.com^
 ||fpc.onetrust.com^
 ||info.onetrust.com^
 ||campaign.onetrust.com^
@@ -52197,10 +52197,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
-||cn.adserver.yahoo.com^
-||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

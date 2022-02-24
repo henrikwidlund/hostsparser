@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-24 01:04:36Z
+! Last Modified: 2022-02-24 06:20:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1693,6 +1693,7 @@
 ||adcontrolsolutions.net^
 ||ads.adcorps.com^
 ||adcrops.net^
+||wt.adctrl.com^
 ||adcv.jp^
 ||adcycle.com^
 ||add.net.br^
@@ -53502,6 +53503,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

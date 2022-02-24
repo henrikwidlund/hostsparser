@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-24 01:04:40Z
+! Last Modified: 2022-02-24 06:20:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12189,7 +12189,6 @@
 ||virgin.cjbb.net^
 ||cjbmanagement.com^
 ||cjlog.com^
-||data.skistar1.test.cjmadobe.com^
 ||adobe-secure.cjone.com^
 ||adobe-nonsecure.cjone.com^
 ||cjui-text.xyz^
@@ -29431,7 +29430,9 @@
 ||stat.ijinshan.com^
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
+||dl.sj.ijinshan.com^
 ||keyserver.ijinshan.com^
+||lbdata.tj.ijinshan.com^
 ||info.ijungo.com^
 ||ikanmaskoki.co.vu^
 ||ikbox.org^

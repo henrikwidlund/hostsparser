@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-24 01:04:29Z
+! Last Modified: 2022-02-24 06:19:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15597,7 +15597,6 @@
 ||takin.cors.digital^
 ||go.corsearch.com^
 ||metrics.cort.com^
-||om-ssl.cortalconsors.de^
 ||info.cortecvci.com^
 ||smetrics.cortefiel.com^
 ||emu.cortexfutura.com^
@@ -19751,6 +19750,7 @@
 ||stickyadstv.com.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
+||tags.bluekai.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
@@ -19759,6 +19759,7 @@
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
+||cdn.flashtalking.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
@@ -26728,6 +26729,7 @@
 ||a62rttt.grencapitall.xyz^
 ||cookies.grenke.de^
 ||greveals.com^
+||fudezz.grid.id^
 ||campaigns.griddynamics.com^
 ||gridglass32.co^
 ||grievouslymilliliters.com^
@@ -29943,6 +29945,7 @@
 ||marketing.idquantique.com^
 ||rapido.idraetsmusik.dk^
 ||idrct.com^
+||server.idreams.pl^
 ||angel.bk.idv.tw^
 ||idvipteam.com^
 ||tracking.idwholesaler.com^
@@ -51985,9 +51988,6 @@
 ||dynamic.rakuten.co.jp^
 ||api.ranking.rakuten.co.jp^
 ||shopapi.ranking.rakuten.co.jp^
-||rmp.rakuten.com^
-||brc.emails.rakuten.com^
-||qa-brc.emails.rakuten.com^
 ||rd.insight.rakuten.net^
 ||ralden.network^
 ||beacon.rallydev.com^
@@ -72592,7 +72592,6 @@
 ||ytdownloader.com^
 ||mautic.yte-suckhoe.vn^
 ||yteenporn.com^
-||new.yttdzmds.com^
 ||smetrics.ytv.com^
 ||yuajav.com^
 ||yuan-online.com^
