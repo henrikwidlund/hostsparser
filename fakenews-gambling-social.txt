@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-24 06:20:00Z
+! Last Modified: 2022-02-24 12:27:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9098,7 +9098,6 @@
 ||celestia.es^
 ||celestia.fr^
 ||celine-japan.com^
-||ea.celio.com^
 ||cellas.sk^
 ||metrics.cellcept.com^
 ||smetrics.cellcept.com^
@@ -53988,7 +53987,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

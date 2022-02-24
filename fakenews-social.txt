@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-24 06:20:08Z
+! Last Modified: 2022-02-24 12:27:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -47355,6 +47355,7 @@
 ||trilithontughrik.info^
 ||trilns.com^
 ||fpc.trimarkusa.com^
+||stats.trimbles.ie^
 ||solution.trimech.com^
 ||tracking.trinet.com^
 ||blog.trinityconsultants.com^

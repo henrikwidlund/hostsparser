@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-24 06:20:22Z
+! Last Modified: 2022-02-24 12:27:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7195,7 +7195,6 @@
 ||brimnews.com^
 ||bringmethecode.com^
 ||banners.brinkin.com^
-||go.brinks.com^
 ||2.brinkshome.com^
 ||smetrics.brinksprepaidmastercard.com^
 ||marketing.brinsea.com^
@@ -20818,6 +20817,7 @@
 ||www2.hisunmotors.com^
 ||hit.bg^
 ||hit.ua^
+||inpost-pl.hit565783.pw^
 ||pl-polska-olx.hit95473.space^
 ||pl-polska-inpost.hit95473.space^
 ||link.hitachi-hightech.com^
@@ -50476,10 +50476,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||cn2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

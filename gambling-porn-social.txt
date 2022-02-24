@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-24 06:20:12Z
+! Last Modified: 2022-02-24 12:27:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10286,6 +10286,8 @@
 ||tracking.bv.com^
 ||info.bvcm.nl^
 ||bvlgarijapan.com^
+||olx-pl.bvvkkj12z1.com^
+||vinted-pl.bvvkkj12z1.com^
 ||go.bwater.com^
 ||bwfriend.com^
 ||bwin.com^
@@ -17936,6 +17938,7 @@
 ||dnslogs.net^
 ||dnsmachinefork.com^
 ||dnsprotector.net^
+||smetrics.dnszone.jp^
 ||dntx.com^
 ||download.dnv.com^
 ||download.dnvgl.com^
