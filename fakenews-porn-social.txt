@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-23 18:17:56Z
+! Last Modified: 2022-02-24 01:04:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46225,8 +46225,6 @@
 ||www2.persistentsystems.com^
 ||perso.ch^
 ||2b.challenge.persol-group.co.jp^
-||biztoc.persol-tech-s.co.jp^
-||biztos.persol-tech-s.co.jp^
 ||smetrics.persol.com^
 ||personagraph.com^
 ||personal-gifts.de^
@@ -56660,6 +56658,7 @@
 ||nextel-ringtone.spb.su^
 ||cnt.spbland.ru^
 ||pltesla.j.spc-x.live^
+||www2.spcai.org^
 ||adserver.spctl.com^
 ||spdobropole.pl^
 ||smetrics.spdrs.com^
@@ -70721,7 +70720,6 @@
 ||csr12.devs.net.zooplus.de^
 ||csr31-emea.net.zooplus.de^
 ||acclax-mgmt.net.zooplus.de^
-||admin.csr11.net.zooplus.de^
 ||api.ebspriv.net.zooplus.de^
 ||api.machine.net.zooplus.de^
 ||application.net.zooplus.de^

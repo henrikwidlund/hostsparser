@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-23 18:18:09Z
+! Last Modified: 2022-02-24 01:04:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46451,6 +46451,7 @@
 ||demoq.use-trade.com^
 ||cdn.usebutton.com^
 ||mobileapi.usebutton.com^
+||app-10d1b5add9b529e5.mobileapi.usebutton.com^
 ||usedbarcode.com^
 ||stats.useeffect.dev^
 ||img3.usefathom.com^
@@ -50600,7 +50601,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst8.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
@@ -50926,7 +50926,6 @@
 ||zalukajhd.pl^
 ||zalukajtv.pl^
 ||zalukajvip.com^
-||mb.zam.com^
 ||ad.zaman.com^
 ||zamawianie-ogloszenia.com^
 ||zamekignorant.site^
@@ -51566,6 +51565,7 @@
 ||api.resetadmins.net.zooplus.de^
 ||app-mgmt.docker.net.zooplus.de^
 ||assetsdockerapi.net.zooplus.de^
+||betasupport.api.net.zooplus.de^
 ||billingarketing.net.zooplus.de^
 ||bucket-lax-mgmt.net.zooplus.de^
 ||bullockarketing.net.zooplus.de^

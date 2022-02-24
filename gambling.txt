@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-23 18:18:05Z
+! Last Modified: 2022-02-24 01:04:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26879,6 +26879,8 @@
 ||lodpoduszka.site^
 ||lodzi.store^
 ||longinvest.lofprod.xyz^
+||smetrics.loft.com^
+||activate.loft.com^
 ||loftdeccor.pl^
 ||log-allegr0.org^
 ||marketing.logcheck.com^
