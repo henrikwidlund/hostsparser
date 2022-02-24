@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-24 12:27:34Z
+! Last Modified: 2022-02-24 18:19:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19816,7 +19816,6 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
-||c.oracleinfinity.io.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -47936,9 +47935,6 @@
 ||olx.pl-gotpaid.icu^
 ||poczta.pl-gotpaid.icu^
 ||pl-gotpaid.shop^
-||olx.pl-gotpaid.work^
-||poczta.pl-gotpaid.work^
-||inpost.pl-gotpaid.work^
 ||inpost.pl-gotpay.work^
 ||olx.pl-gotpays.cyou^
 ||olx.pl-gotpays.icu^
@@ -69503,6 +69499,8 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||data.mistat.xiaomi.com^
+||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^

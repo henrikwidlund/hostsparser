@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-24 12:27:44Z
+! Last Modified: 2022-02-24 18:20:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26338,7 +26338,6 @@
 ||info.legrandav.com^
 ||legwan.cyou^
 ||lehightimes.com^
-||metrics.lehighvalleylive.com^
 ||connect.leica-geosystems.com^
 ||www2.leicabiosystems.com^
 ||aperio.leicabiosystems.com^
@@ -53228,7 +53227,6 @@
 ||csr12.devs.net.zooplus.de^
 ||csr31-emea.net.zooplus.de^
 ||acclax-mgmt.net.zooplus.de^
-||api.ctl.api.net.zooplus.de^
 ||api.ebspriv.net.zooplus.de^
 ||api.machine.net.zooplus.de^
 ||application.net.zooplus.de^
