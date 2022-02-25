@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-25 06:20:08Z
+! Last Modified: 2022-02-25 12:26:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30113,6 +30113,8 @@
 ||ebis-cname.mirai-japan.co.jp^
 ||miranda-sklep.pl^
 ||info.mirantis.com^
+||te.mirapodo.de^
+||tp.mirapodo.de^
 ||yyezbr.miratorg.ru^
 ||crm.miraxs.co.jp^
 ||ads.mircx.com^
