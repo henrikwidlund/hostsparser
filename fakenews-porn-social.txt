@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-24 18:20:04Z
+! Last Modified: 2022-02-25 01:04:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -69295,8 +69295,8 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
+||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -70736,7 +70736,6 @@
 ||csr12-login.net.zooplus.de^
 ||csr12-tiger.net.zooplus.de^
 ||csr12.csr41.net.zooplus.de^
-||apache.car40.net.zooplus.de^
 ||api.backends.net.zooplus.de^
 ||api.chd.repo.net.zooplus.de^
 ||api.git-repo.net.zooplus.de^
@@ -70768,6 +70767,7 @@
 ||backend-csr12.net.zooplus.de^
 ||beta-wwwcar40.net.zooplus.de^
 ||beta.stg.mgmt.net.zooplus.de^
+||billing.csr11.net.zooplus.de^
 ||blogmarketing.net.zooplus.de^
 ||car40-magazin.net.zooplus.de^
 ||car40.hepburn.net.zooplus.de^
