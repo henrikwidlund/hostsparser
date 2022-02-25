@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-25 12:26:49Z
+! Last Modified: 2022-02-25 18:20:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19099,7 +19099,6 @@
 ||gambiaa.icu^
 ||gamblerush.com^
 ||gamblingua.com.ua^
-||bonus.gamblingz.net^
 ||game-hack.biz^
 ||game-hacks.online^
 ||tribez.game-insight.com^
@@ -52202,7 +52201,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -52389,6 +52387,7 @@
 ||marketing.yoobi.nl^
 ||yoofancy.pl^
 ||yoourfuture.site^
+||nlgzhd.yoox.com^
 ||yooztechnology.com^
 ||forms.yoriso.com^
 ||yorkconews.com^
