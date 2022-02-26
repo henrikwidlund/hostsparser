@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-25 18:20:11Z
+! Last Modified: 2022-02-26 00:58:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46275,6 +46275,7 @@
 ||oascentral.townhall.com^
 ||townhousefilms.com^
 ||home.townisp.com^
+||adsys.townnews.com^
 ||townoflind.com^
 ||metrics.townsvillebulletin.com.au^
 ||towszystkobywyjasnialo.website^
@@ -47473,6 +47474,7 @@
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
+||auction-load.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^

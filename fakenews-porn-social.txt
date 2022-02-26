@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-25 18:20:03Z
+! Last Modified: 2022-02-26 00:58:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2077,7 +2077,6 @@
 ||adcloud.jp^
 ||adclr.jp^
 ||adcode.ws^
-||servedby.adcombination.com^
 ||adcomplete.com^
 ||adconion.com^
 ||adcontrolsolutions.net^
@@ -7622,8 +7621,6 @@
 ||bestcandyever.com^
 ||bestcena.pl^
 ||somniture.bestcheck.de^
-||a.bestcontentprogram.top^
-||b.bestcontentprogram.top^
 ||bestcopys.com^
 ||bestcrazyvideos.com^
 ||bestdateshere22.com^
@@ -17860,6 +17857,8 @@
 ||dnc.news^
 ||dnirownosci.pl^
 ||gcirm.dnj.com^
+||ad.dnoticias.pt^
+||xad.dnoticias.pt^
 ||biz.mkt.global.dnp.co.jp^
 ||dnps.com^
 ||dns-analytics.com^
@@ -26359,7 +26358,6 @@
 ||phar.gu-web.net^
 ||cheese.guac.live^
 ||guaikavideo.cn^
-||srepdata.guampdn.com^
 ||smetrics.guaranteedrate.com^
 ||guaranteedsexdate.com^
 ||guaranty.com.cn^
@@ -50712,6 +50710,7 @@
 ||tajs.qq.com^
 ||tcss.qq.com^
 ||ysdk.qq.com^
+||c2.l.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
 ||logsdk.qq.com^
@@ -68201,7 +68200,6 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
-||sdkconfig.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||moe.xiaomitq.com^
 ||dental.xiaoxiao.media^

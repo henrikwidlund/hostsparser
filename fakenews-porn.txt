@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-25 18:20:05Z
+! Last Modified: 2022-02-26 00:58:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7577,8 +7577,6 @@
 ||bestcandyever.com^
 ||bestcena.pl^
 ||somniture.bestcheck.de^
-||a.bestcontentprogram.top^
-||b.bestcontentprogram.top^
 ||bestcopys.com^
 ||bestcrazyvideos.com^
 ||bestdateshere22.com^
@@ -55184,6 +55182,9 @@
 ||os.shutterfly.com^
 ||ou.shutterfly.com^
 ||trk.bc.shutterfly.com^
+||m.smb.info.shutterstock.com^
+||m.custom.info.shutterstock.com^
+||m.premier.info.shutterstock.com^
 ||shuttle-japan.com^
 ||shuttur.com^
 ||shy-virgins.com^

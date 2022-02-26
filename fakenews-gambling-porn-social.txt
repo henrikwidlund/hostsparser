@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-25 18:19:59Z
+! Last Modified: 2022-02-26 00:58:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7719,8 +7719,6 @@
 ||bestcasino.com^
 ||bestcena.pl^
 ||somniture.bestcheck.de^
-||a.bestcontentprogram.top^
-||b.bestcontentprogram.top^
 ||bestcopys.com^
 ||bestcrazyvideos.com^
 ||bestdateshere22.com^
@@ -16019,7 +16017,6 @@
 ||informa.criscancer.org^
 ||ads.crisppremium.com^
 ||cristiannlive.com^
-||info.crit-job.com^
 ||go.criteriacorp.com^
 ||go.criterionedge.com^
 ||info.critical-logic.com^
@@ -70597,12 +70594,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||au.adserver.yahoo.com^
+||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
-||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
