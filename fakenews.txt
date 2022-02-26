@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-26 00:58:36Z
+! Last Modified: 2022-02-26 06:19:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39009,6 +39009,7 @@
 ||api.ranking.rakuten.co.jp^
 ||shopapi.ranking.rakuten.co.jp^
 ||rmp.rakuten.com^
+||s-imp.rmp.rakuten.com^
 ||brc.emails.rakuten.com^
 ||qa-brc.emails.rakuten.com^
 ||rd.insight.rakuten.net^

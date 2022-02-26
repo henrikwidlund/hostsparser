@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-26 00:58:31Z
+! Last Modified: 2022-02-26 06:19:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2077,6 +2077,7 @@
 ||adcloud.jp^
 ||adclr.jp^
 ||adcode.ws^
+||servedby.adcombination.com^
 ||adcomplete.com^
 ||adconion.com^
 ||adcontrolsolutions.net^
@@ -26358,6 +26359,7 @@
 ||phar.gu-web.net^
 ||cheese.guac.live^
 ||guaikavideo.cn^
+||srepdata.guampdn.com^
 ||smetrics.guaranteedrate.com^
 ||guaranteedsexdate.com^
 ||guaranty.com.cn^
@@ -50710,7 +50712,6 @@
 ||tajs.qq.com^
 ||tcss.qq.com^
 ||ysdk.qq.com^
-||c2.l.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
 ||logsdk.qq.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-26 00:58:41Z
+! Last Modified: 2022-02-26 06:19:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -47474,7 +47474,6 @@
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
-||auction-load.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
@@ -50163,7 +50162,6 @@
 ||wez-przydasie.site^
 ||fairy.wfairyg.com^
 ||mdws.wfcu.ca^
-||track.msadcenter.wfm.com^
 ||a135.wftv.com^
 ||wgh.ag^
 ||wgliwicach.xyz^
