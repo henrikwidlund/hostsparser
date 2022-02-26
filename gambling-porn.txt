@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-26 12:25:28Z
+! Last Modified: 2022-02-26 18:18:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2845,8 +2845,6 @@
 ||marketing.aes.com^
 ||aesarnub.pl^
 ||aesinv.com^
-||metrics.aetn.com^
-||smetrics.aetn.com^
 ||pulse.svod.aetnd.com^
 ||insights.vip.aetnd.com^
 ||links.e.aetv.com^

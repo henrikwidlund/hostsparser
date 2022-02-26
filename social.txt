@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-26 12:25:35Z
+! Last Modified: 2022-02-26 18:18:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -37899,6 +37899,10 @@
 ||realinvestment.pl^
 ||go.realis.be^
 ||banners.realitycash.com^
+||br.realitykings.com^
+||track.realitykings.com^
+||cache.realitykings.com^
+||hostedads.realitykings.com^
 ||reall.markets^
 ||metrics.reallymoving.com^
 ||ad.realmcdn.net^

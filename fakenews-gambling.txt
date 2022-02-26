@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-26 12:25:18Z
+! Last Modified: 2022-02-26 18:18:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3981,7 +3981,6 @@
 ||smetrics.argos.co.uk^
 ||smetrics.argos.ie^
 ||gcirm.argusleader.com^
-||smetrics.arhealthwellness.com^
 ||tr.info.arialcnp.fr^
 ||adserver.ariase.org^
 ||ariat-polska.top^
@@ -46767,6 +46766,7 @@
 ||engage.thechicagocouncil.org^
 ||click1.e.thechive.com^
 ||mongoose.thechocolatelife.com^
+||metrics.thechronicle.com.au^
 ||oascentral.thechronicleherald.ca^
 ||stats.thechurchfactory.com^
 ||theclickads.com^
