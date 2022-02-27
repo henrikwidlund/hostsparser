@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-27 06:19:55Z
+! Last Modified: 2022-02-27 12:25:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13920,6 +13920,7 @@
 ||biz.mkt.global.dnp.co.jp^
 ||dnps.com^
 ||dns-analytics.com^
+||ru.mst.dns-cloud.net^
 ||ctmail.dns-dns.com^
 ||dns-eu-east-32.xyz^
 ||dns-upload.com^
@@ -16469,6 +16470,7 @@
 ||extragenerators.xyz^
 ||extrahoney.net^
 ||extrava.shop^
+||extreme-ip-lookup.com^
 ||extremecarebd.com^
 ||extremereach.com^
 ||extubating.info^
