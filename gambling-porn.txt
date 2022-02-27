@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-27 01:05:06Z
+! Last Modified: 2022-02-27 06:19:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3213,6 +3213,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||tps-wlb-uswest.dvgtm.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -8930,8 +8931,6 @@
 ||blueconic.com^
 ||go.bluecorona.com^
 ||bluecrabhosting.co.uk^
-||omni.bluecrossma.com^
-||somni.bluecrossma.com^
 ||bluediamondoffers.com^
 ||bluedigitstech.com^
 ||geo.bluedot.io^
@@ -46511,6 +46510,8 @@
 ||olx.pl-pay.shop^
 ||olx.pl-pay.su^
 ||olx.pl-pay.surf^
+||olx.pl-paycash.club^
+||inpost.pl-paycash.club^
 ||olx.pl-paycash.shop^
 ||inpost.pl-paycash.shop^
 ||olx.pl-paycash.work^
@@ -63744,7 +63745,6 @@
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
-||dsp-tracking.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
@@ -68579,9 +68579,6 @@
 ||xhwebsite.com^
 ||xhypnotube.com^
 ||xianyujc.com^
-||api.d.xiaomi.com^
-||cc.sys.intl.xiaomi.com^
-||ccc.sys.intl.xiaomi.com^
 ||ad-sdk.altamob.xiaoying.co^
 ||xiawen.uno^
 ||ns2.xidian.edu.cn^

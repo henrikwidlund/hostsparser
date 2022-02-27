@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-27 01:04:58Z
+! Last Modified: 2022-02-27 06:19:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36258,7 +36258,6 @@
 ||mangamiso.net^
 ||mangaporno.pro^
 ||mangar18.com^
-||ad.mangareader.net^
 ||mangayhentai.com^
 ||mangelsdesigns.com^
 ||tr.info.mango-mobilites.fr^
@@ -69182,6 +69181,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||be.adserver.yahoo.com^
+||fr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

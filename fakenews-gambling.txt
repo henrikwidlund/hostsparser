@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-27 01:04:56Z
+! Last Modified: 2022-02-27 06:19:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26782,6 +26782,8 @@
 ||lansrv090.com^
 ||content.lansweeper.com^
 ||lantanna.mx^
+||gazetka24.laohost.net^
+||naszglos24.laohost.net^
 ||lapalingo.com^
 ||laperfum.pl^
 ||secure.lapersonnelle.com^
@@ -48434,6 +48436,7 @@
 ||servacc-vernou.tvshowsnight.icu^
 ||servacc-vernou.tvshowsnight.live^
 ||servacc-vernou.tvshowsnight.sbs^
+||servacc-vernou.tvshowsnight.site^
 ||kzsicw.tvspielfilm.de^
 ||tvsquared.com^
 ||tvtechnologynews.com^
