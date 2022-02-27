@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-27 12:25:43Z
+! Last Modified: 2022-02-27 18:19:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15538,6 +15538,7 @@
 ||creativemindhacks.com^
 ||manatee.creativepassport.net^
 ||creativeteam.it^
+||go.creativevillage.ne.jp^
 ||stats.creativinn.com^
 ||sync.credebat.com^
 ||info.credicomer.com.sv^
@@ -70522,10 +70523,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
