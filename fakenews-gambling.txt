@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-27 18:19:07Z
+! Last Modified: 2022-02-28 01:03:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2820,6 +2820,7 @@
 ||alittleonlinetherapy.com^
 ||alivar.vn^
 ||alive-ua.com^
+||ads.alive.com^
 ||blog.alivedoors.com^
 ||acjs.aliyun.com^
 ||aljassarengineering.com^
@@ -14604,6 +14605,7 @@
 ||discount2021.ru^
 ||discountads.net^
 ||discountclick.com^
+||metrics.discover.com^
 ||jcnpcf.discoverbooks.com^
 ||discoverdemo.com^
 ||discoveries.news^
@@ -15575,6 +15577,8 @@
 ||saa.dyson.be^
 ||aa.dyson.ch^
 ||saa.dyson.ch^
+||aa.dyson.co.uk^
+||saa.dyson.co.uk^
 ||aa.dyson.com^
 ||saa.dyson.com^
 ||business.dyson.com^
@@ -35308,6 +35312,7 @@
 ||ostatnie-uwaga.pl^
 ||ostatniewyznanie.work^
 ||osthrics.com^
+||aidsro.ostin.com^
 ||waznesprawy24.ostroda.pl^
 ||ostrozny831.site^
 ||ostroznymaterial.site^
@@ -53888,7 +53893,6 @@
 ||zarabiajnablogach.pl^
 ||zaraz-tutaj.eu^
 ||zares.space^
-||vhasqd.zarina.ru^
 ||zarobek4u.com^
 ||zarowkideco.pl^
 ||zarrmarketing.co.uk^

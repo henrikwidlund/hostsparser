@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-27 18:19:21Z
+! Last Modified: 2022-02-28 01:04:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2504,7 +2504,6 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||ads.stickyadstv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -21628,6 +21627,12 @@
 ||dpd-ap.id-3828883.me^
 ||inpost-c.id-3828883.me^
 ||inpost-u.id-3828883.me^
+||inpost-xhk.id-3842.me^
+||inpost-rlrv.id-3842.me^
+||vinted-jfdo.id-3842.me^
+||vinted-tcjw.id-3842.me^
+||inpost-pl-ka.id-3842.me^
+||polskapoczta-pl-yg.id-3842.me^
 ||inpost-hhke.id-4365.me^
 ||inpost-pl-ta.id-4365.me^
 ||jdpd.id-43895.me^
