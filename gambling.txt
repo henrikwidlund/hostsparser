@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-28 06:20:59Z
+! Last Modified: 2022-02-28 12:27:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -44489,8 +44489,6 @@
 ||smetrics.telenet.be^
 ||metrics.prd.telenet.be^
 ||sstatistikk.telenor.no^
-||a.telenor.se^
-||sstats.telenor.se^
 ||tse.telerama.fr^
 ||teleskopmonokularowy-pl.com^
 ||love.telesthesiats.net^

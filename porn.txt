@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-28 06:21:03Z
+! Last Modified: 2022-02-28 12:27:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16461,6 +16461,10 @@
 ||delorio.pl^
 ||delorio.store^
 ||info.delphidigital.io^
+||tms.delta.com^
+||pulse.delta.com^
+||metrics.delta.com^
+||smetrics.delta.com^
 ||metrics.deltafarmpress.com^
 ||int.deltafaucet.com^
 ||lideroxigenio.com.br.deltagases.com.br^
