@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-28 12:27:52Z
+! Last Modified: 2022-02-28 18:20:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31051,6 +31051,7 @@
 ||ads.nola.com^
 ||nolineindia.com^
 ||rol.nolt.xyz^
+||stats.nomad.radio^
 ||smetrics.nomorerules.net^
 ||nomorewarnow.com^
 ||nomowelding.com^
@@ -50364,7 +50365,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
