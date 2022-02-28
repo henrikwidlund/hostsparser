@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-28 01:03:45Z
+! Last Modified: 2022-02-28 06:20:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20250,7 +20250,6 @@
 ||mdws.gfdscu.com^
 ||go.gfi.org^
 ||cache.gfrevenge.com^
-||adebis.gfs-official.com^
 ||media.ads.gfsrv.net^
 ||delivery.ads.gfsrv.net^
 ||www2.gft.com^
@@ -53877,6 +53876,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

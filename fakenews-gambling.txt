@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-28 01:03:46Z
+! Last Modified: 2022-02-28 06:20:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2592,6 +2592,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||dotomi.weighted.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -53893,6 +53894,7 @@
 ||zarabiajnablogach.pl^
 ||zaraz-tutaj.eu^
 ||zares.space^
+||vhasqd.zarina.ru^
 ||zarobek4u.com^
 ||zarowkideco.pl^
 ||zarrmarketing.co.uk^
