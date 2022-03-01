@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-01 01:12:18Z
+! Last Modified: 2022-03-01 06:20:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19719,6 +19719,7 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
+||t.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -35333,6 +35334,7 @@
 ||en.likefever.org^
 ||likehairygirls.com^
 ||likekopi.com^
+||tfks19yr6ykp3ud.likemyish.com^
 ||likeportal.com^
 ||likespike.com^
 ||fb-szpieguj.likesyou.org^
@@ -45053,7 +45055,6 @@
 ||opentrusts.com^
 ||casting.openv.com^
 ||uniclick.openv.com^
-||m.openv.tv^
 ||openwrt.com^
 ||openxxxporn.com^
 ||opera-van.com^
@@ -71821,10 +71822,8 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
-||de.adserver.yahoo.com^
-||ae.adserver.yahoo.com^
-||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
