@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-28 18:19:59Z
+! Last Modified: 2022-03-01 01:12:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2567,6 +2567,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||rtb.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -3711,8 +3712,6 @@
 ||appboy.com^
 ||sdk.appbrain.com^
 ||appcaptcha.com^
-||utdate-konto.appcentretv.co.pl^
-||identityver-acc.appcentretv.co.pl^
 ||mobile.appchina.com^
 ||appcoinsproject.com^
 ||appcoinstoken.org^
@@ -15634,6 +15633,7 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||wildcard.aniview.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -17513,7 +17513,6 @@
 ||feed5baby.com^
 ||feed5mown.com^
 ||feeda.info^
-||api.feedad.com^
 ||feedbackexplorer.com^
 ||feedbackresearch.com^
 ||ads.feedly.com^

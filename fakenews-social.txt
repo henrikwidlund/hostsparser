@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-02-28 18:19:53Z
+! Last Modified: 2022-03-01 01:12:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15636,6 +15636,7 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
+||a.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -17578,7 +17579,6 @@
 ||feed5baby.com^
 ||feed5mown.com^
 ||feeda.info^
-||api.feedad.com^
 ||feedbackexplorer.com^
 ||feedbackresearch.com^
 ||ads.feedly.com^
@@ -18663,6 +18663,7 @@
 ||fsz1.francoisesaget.com^
 ||go.frankgroup.com^
 ||info.franklin.edu^
+||samc.frankly.ch^
 ||franko.info^
 ||tp.frankonia.at^
 ||te.frankonia.com^
@@ -27415,7 +27416,6 @@
 ||loza-pozyczka.site^
 ||lp-wip.pl^
 ||lpcloudsvr302.com^
-||inform.pg.lpcrinfo.site^
 ||lpdk.net^
 ||lpg02.com^
 ||lpilogryfice.pl^
