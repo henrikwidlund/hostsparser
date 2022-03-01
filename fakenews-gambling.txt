@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-01 12:28:09Z
+! Last Modified: 2022-03-01 18:19:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -53387,8 +53387,8 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
+||fr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -54472,6 +54472,7 @@
 ||backend-csr12.net.zooplus.de^
 ||beta-wwwcar40.net.zooplus.de^
 ||beta.stg.mgmt.net.zooplus.de^
+||billing.csr11.net.zooplus.de^
 ||blogmarketing.net.zooplus.de^
 ||car40-magazin.net.zooplus.de^
 ||car40.hepburn.net.zooplus.de^

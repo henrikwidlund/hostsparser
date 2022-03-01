@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-01 12:28:26Z
+! Last Modified: 2022-03-01 18:19:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11728,6 +11728,7 @@
 ||consensad.com^
 ||consensu.org^
 ||go.conseroglobal.com^
+||go.conservationco.org^
 ||considerrevive.info^
 ||consilium-global.com^
 ||0sbm.consobaby.co.uk^
@@ -36077,6 +36078,8 @@
 ||prawdziwy425.site^
 ||prawdziwy717.rest^
 ||prawdziwyrozwoj.pl^
+||olx-pl.prawid.com^
+||inpostpl.prawid.com^
 ||prawnik.icu^
 ||abc.prawo.link^
 ||stat.prawo.pl^
@@ -49941,6 +49944,8 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
+||abtest.mistat.xiaomi.com^
 ||ad-sdk.altamob.xiaoying.co^
 ||xiawen.uno^
 ||ns2.xidian.edu.cn^
@@ -51419,7 +51424,6 @@
 ||backend-csr12.net.zooplus.de^
 ||beta-wwwcar40.net.zooplus.de^
 ||beta.stg.mgmt.net.zooplus.de^
-||billing.csr11.net.zooplus.de^
 ||blogmarketing.net.zooplus.de^
 ||car40-magazin.net.zooplus.de^
 ||car40.hepburn.net.zooplus.de^
