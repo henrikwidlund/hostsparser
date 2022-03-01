@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-01 06:20:32Z
+! Last Modified: 2022-03-01 12:28:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15676,7 +15676,6 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
-||san-www.adobetag.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -18968,7 +18967,6 @@
 ||fuckbookdating.com^
 ||banners.fuckbookhookups.com^
 ||fuckforfree.com^
-||in.fuckhardclips.com^
 ||analytics.fuckingawesome.com^
 ||ads.fuckingmachines.com^
 ||fuckworld.com^
