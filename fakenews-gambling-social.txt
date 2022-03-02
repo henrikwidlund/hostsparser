@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-02 01:07:56Z
+! Last Modified: 2022-03-02 06:20:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15253,7 +15253,6 @@
 ||ads.downloadaccelerator.com^
 ||downloadcdn.com^
 ||downloadfile.eu^
-||app2.downloadmacsoft.world^
 ||downloadplayer.xyz^
 ||downloadr.xyz^
 ||downloads-mobile.com^
@@ -16705,8 +16704,6 @@
 ||energy-pgeproj.info^
 ||ads.energy-torrent.com^
 ||baner.energy-torrent.com^
-||metrics.energyaustralia.com.au^
-||smetrics.energyaustralia.com.au^
 ||pardot.energyavenue.com^
 ||energybet.com^
 ||energychna.site^
@@ -53253,8 +53250,6 @@
 ||olx.wyprzedaz-polska.casa^
 ||inpost.wyprzedaz-polska.casa^
 ||wyprzedaz-polska.cyou^
-||olx.wyprzedaz-polska.life^
-||inpost.wyprzedaz-polska.life^
 ||olx.wyprzedaz-polska.live^
 ||inpost.wyprzedaz-polska.live^
 ||wypsikaj.pl^
@@ -53450,7 +53445,6 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||test.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||ad-sdk.altamob.xiaoying.co^

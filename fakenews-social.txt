@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-02 01:08:02Z
+! Last Modified: 2022-03-02 06:20:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2653,6 +2653,7 @@
 ||akhrailway.com^
 ||stat-ssl.akiba-souken.com^
 ||akibaol.com^
+||a8cv.akihabara-x.jp^
 ||akiihii.com^
 ||akinegb.com^
 ||atlas.r.akipam.com^
@@ -49129,6 +49130,7 @@
 ||virtualsurfer.com^
 ||oascentral.virtualtourist.com^
 ||virtualtrade24.com^
+||stats.virtuemart.net^
 ||virtumundo.com^
 ||ads.virtuopolitan.com^
 ||adserver.virtuous.co.uk^
