@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-02 12:28:03Z
+! Last Modified: 2022-03-02 18:20:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34545,6 +34545,7 @@
 ||information.liftmaster.com^
 ||ligatus.de^
 ||go.lightbend.com^
+||lightboxcdn.com^
 ||lightcloud.pl^
 ||go.lightedge.com^
 ||lighthouseangels.net^
@@ -66966,7 +66967,6 @@
 ||ios-ads.pulse.weatherbug.net^
 ||weatheredsunset.xyz^
 ||biz.weathernews.com^
-||orca.weatherontheway.app^
 ||weathet.com^
 ||web-01-gbl.com^
 ||web-angels.de^
@@ -68139,7 +68139,6 @@
 ||static.wickedcdn.com^
 ||oascentral.wickedlocal.com^
 ||wickedpictures.com^
-||widget.wickedreports.com^
 ||wickedsick.tv^
 ||ddguhg.wickes.co.uk^
 ||geo.widdit.com^

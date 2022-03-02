@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-02 12:27:53Z
+! Last Modified: 2022-03-02 18:20:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25960,6 +25960,7 @@
 ||dcapps.disney.go.com^
 ||seavideo-ak.espn.go.com^
 ||oascentral.abclocal.go.com^
+||bankdata.temanggungkab.go.id^
 ||directml.jfc.go.jp^
 ||go2amateur.com^
 ||2468.go2cloud.org^
@@ -35300,6 +35301,7 @@
 ||ligatus.de^
 ||go.lightbend.com^
 ||lightbet.com^
+||lightboxcdn.com^
 ||lightcloud.pl^
 ||go.lightedge.com^
 ||lighthouseangels.net^
@@ -69419,7 +69421,6 @@
 ||static.wickedcdn.com^
 ||oascentral.wickedlocal.com^
 ||wickedpictures.com^
-||widget.wickedreports.com^
 ||wickedsick.tv^
 ||ddguhg.wickes.co.uk^
 ||geo.widdit.com^
@@ -72001,8 +72002,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst3.ec.yimg.com^
-||ac.ybinst4.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

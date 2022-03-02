@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-02 12:28:12Z
+! Last Modified: 2022-03-02 18:20:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2107,6 +2107,11 @@
 ||sanalytics.adultswim.fr^
 ||newt1.adultworld.com^
 ||cluster.adultworld.com^
+||fota4.adups.cn^
+||fota5.adups.cn^
+||fota5s.adups.cn^
+||fota5t.adups.cn^
+||appswitch.adups.cn^
 ||adups.com^
 ||ad.aduserver.com^
 ||eduardorodrigues.adv.br^
@@ -26541,6 +26546,7 @@
 ||ligatus.de^
 ||go.lightbend.com^
 ||lightbet.com^
+||lightboxcdn.com^
 ||lightcloud.pl^
 ||go.lightedge.com^
 ||tracking.lightingdirect.com^
@@ -50312,7 +50318,6 @@
 ||wiadroczerwony.site^
 ||wiarawazna.eu^
 ||toolbar.wibiya.com^
-||widget.wickedreports.com^
 ||ddguhg.wickes.co.uk^
 ||geo.widdit.com^
 ||tilalre.widelab.co^
@@ -51289,6 +51294,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||zeus.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||ad-sdk.altamob.xiaoying.co^
@@ -51714,6 +51720,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sg.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

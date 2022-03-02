@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-02 12:27:58Z
+! Last Modified: 2022-03-02 18:20:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7638,6 +7638,8 @@
 ||linktrack.bravenet.com^
 ||bravoservices.online^
 ||bravospots.com^
+||ijaabm.bravotv.com^
+||links.email.bravotv.com^
 ||brawomiasto.site^
 ||braze.com^
 ||cdn.braze.eu^
@@ -16131,6 +16133,7 @@
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
+||wildcard.bkrtx.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
@@ -27445,6 +27448,7 @@
 ||ligatus.de^
 ||go.lightbend.com^
 ||lightbet.com^
+||lightboxcdn.com^
 ||lightcloud.pl^
 ||go.lightedge.com^
 ||tracking.lightingdirect.com^
@@ -52433,7 +52437,6 @@
 ||wibusinessdaily.com^
 ||wicatholictribune.com^
 ||wichitastandard.com^
-||widget.wickedreports.com^
 ||ddguhg.wickes.co.uk^
 ||geo.widdit.com^
 ||tilalre.widelab.co^
@@ -54881,7 +54884,6 @@
 ||aspencrm.net.zooplus.de^
 ||car40-s3.net.zooplus.de^
 ||chwwwowa.net.zooplus.de^
-||1.ctl.api.net.zooplus.de^
 ||admindata.net.zooplus.de^
 ||api.login.net.zooplus.de^
 ||authcar40.net.zooplus.de^
@@ -54958,6 +54960,7 @@
 ||backend-csr12.net.zooplus.de^
 ||beta-wwwcar40.net.zooplus.de^
 ||beta.stg.mgmt.net.zooplus.de^
+||billing.csr11.net.zooplus.de^
 ||blogmarketing.net.zooplus.de^
 ||car40-magazin.net.zooplus.de^
 ||car40.hepburn.net.zooplus.de^

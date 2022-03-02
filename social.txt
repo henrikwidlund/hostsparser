@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-02 12:28:18Z
+! Last Modified: 2022-03-02 18:20:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25737,6 +25737,7 @@
 ||information.liftmaster.com^
 ||ligatus.de^
 ||go.lightbend.com^
+||lightboxcdn.com^
 ||lightcloud.pl^
 ||go.lightedge.com^
 ||tracking.lightingdirect.com^
@@ -48983,7 +48984,6 @@
 ||wiadroczerwony.site^
 ||wiarawazna.eu^
 ||toolbar.wibiya.com^
-||widget.wickedreports.com^
 ||ddguhg.wickes.co.uk^
 ||geo.widdit.com^
 ||tilalre.widelab.co^
@@ -51378,7 +51378,6 @@
 ||csr12.devs.net.zooplus.de^
 ||csr31-emea.net.zooplus.de^
 ||acclax-mgmt.net.zooplus.de^
-||api.ctl.api.net.zooplus.de^
 ||api.ebspriv.net.zooplus.de^
 ||api.machine.net.zooplus.de^
 ||application.net.zooplus.de^

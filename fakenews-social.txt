@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-02 12:28:04Z
+! Last Modified: 2022-03-02 18:20:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1627,6 +1627,8 @@
 ||s.ad131m.com^
 ||creative.ad131m.com^
 ||ad2.pl^
+||adlogs.ad2iction.com^
+||content.ad2iction.com^
 ||go.ad2upapp.com^
 ||ad3.eu^
 ||ad4mat.com^
@@ -26739,6 +26741,7 @@
 ||information.liftmaster.com^
 ||ligatus.de^
 ||go.lightbend.com^
+||lightboxcdn.com^
 ||lightcloud.pl^
 ||go.lightedge.com^
 ||tracking.lightingdirect.com^
@@ -51202,7 +51205,6 @@
 ||wibusinessdaily.com^
 ||wicatholictribune.com^
 ||wichitastandard.com^
-||widget.wickedreports.com^
 ||ddguhg.wickes.co.uk^
 ||geo.widdit.com^
 ||tilalre.widelab.co^
