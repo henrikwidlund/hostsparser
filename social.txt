@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-01 18:19:27Z
+! Last Modified: 2022-03-02 01:08:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -49944,8 +49944,6 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||zeus.ad.intl.xiaomi.com^
-||abtest.mistat.xiaomi.com^
 ||ad-sdk.altamob.xiaoying.co^
 ||xiawen.uno^
 ||ns2.xidian.edu.cn^
