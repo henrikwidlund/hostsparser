@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-02 06:20:45Z
+! Last Modified: 2022-03-02 12:27:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7638,8 +7638,6 @@
 ||linktrack.bravenet.com^
 ||bravoservices.online^
 ||bravospots.com^
-||ijaabm.bravotv.com^
-||links.email.bravotv.com^
 ||brawomiasto.site^
 ||braze.com^
 ||cdn.braze.eu^
@@ -15253,6 +15251,7 @@
 ||ads.downloadaccelerator.com^
 ||downloadcdn.com^
 ||downloadfile.eu^
+||app2.downloadmacsoft.world^
 ||downloadplayer.xyz^
 ||downloadr.xyz^
 ||downloads-mobile.com^
@@ -16704,6 +16703,8 @@
 ||energy-pgeproj.info^
 ||ads.energy-torrent.com^
 ||baner.energy-torrent.com^
+||metrics.energyaustralia.com.au^
+||smetrics.energyaustralia.com.au^
 ||pardot.energyavenue.com^
 ||energybet.com^
 ||energychna.site^
@@ -53250,6 +53251,8 @@
 ||olx.wyprzedaz-polska.casa^
 ||inpost.wyprzedaz-polska.casa^
 ||wyprzedaz-polska.cyou^
+||olx.wyprzedaz-polska.life^
+||inpost.wyprzedaz-polska.life^
 ||olx.wyprzedaz-polska.live^
 ||inpost.wyprzedaz-polska.live^
 ||wypsikaj.pl^
@@ -54878,6 +54881,7 @@
 ||aspencrm.net.zooplus.de^
 ||car40-s3.net.zooplus.de^
 ||chwwwowa.net.zooplus.de^
+||1.ctl.api.net.zooplus.de^
 ||admindata.net.zooplus.de^
 ||api.login.net.zooplus.de^
 ||authcar40.net.zooplus.de^

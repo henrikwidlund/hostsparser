@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-02 06:20:56Z
+! Last Modified: 2022-03-02 12:28:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2107,11 +2107,6 @@
 ||sanalytics.adultswim.fr^
 ||newt1.adultworld.com^
 ||cluster.adultworld.com^
-||fota4.adups.cn^
-||fota5.adups.cn^
-||fota5s.adups.cn^
-||fota5t.adups.cn^
-||appswitch.adups.cn^
 ||adups.com^
 ||ad.aduserver.com^
 ||eduardorodrigues.adv.br^

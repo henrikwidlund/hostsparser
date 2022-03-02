@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-02 06:21:02Z
+! Last Modified: 2022-03-02 12:28:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51378,6 +51378,7 @@
 ||csr12.devs.net.zooplus.de^
 ||csr31-emea.net.zooplus.de^
 ||acclax-mgmt.net.zooplus.de^
+||api.ctl.api.net.zooplus.de^
 ||api.ebspriv.net.zooplus.de^
 ||api.machine.net.zooplus.de^
 ||application.net.zooplus.de^
@@ -51557,7 +51558,6 @@
 ||apache.ssl.net.zooplus.es^
 ||apachemail.net.zooplus.es^
 ||bucket.mail.net.zooplus.es^
-||chd.apacing.net.zooplus.es^
 ||autodiscover.net.zooplus.es^
 ||administrator.net.zooplus.es^
 ||chd-marketing.net.zooplus.es^
