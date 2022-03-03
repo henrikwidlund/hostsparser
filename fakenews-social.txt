@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-03 12:28:25Z
+! Last Modified: 2022-03-03 18:20:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -45348,6 +45348,7 @@
 ||teraztenwiek.xyz^
 ||teredik.site^
 ||teresfal.site^
+||info.terex.com^
 ||go.terme-krka.com^
 ||termin-odbloru.xyz^
 ||go.terminal.io^
@@ -53652,7 +53653,6 @@
 ||csr12.devs.net.zooplus.de^
 ||csr31-emea.net.zooplus.de^
 ||acclax-mgmt.net.zooplus.de^
-||admin.csr11.net.zooplus.de^
 ||api.ebspriv.net.zooplus.de^
 ||api.machine.net.zooplus.de^
 ||application.net.zooplus.de^
