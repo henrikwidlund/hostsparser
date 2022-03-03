@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-03 06:20:35Z
+! Last Modified: 2022-03-03 12:28:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2500,7 +2500,6 @@
 ||adtrak.net^
 ||tag.adtrendmedia.net^
 ||adtriplex.com^
-||trk.adtrk18.com^
 ||ads.adtrustmedia.com^
 ||ads.adtube.de^
 ||adturtle.biz^
@@ -2872,7 +2871,6 @@
 ||affrontsdentifrice.pl^
 ||affrontsnoncooperator.pl^
 ||affrontstendon.pl^
-||t.afftrackr.com^
 ||track.msadcenter.afgz.com^
 ||afic.org^
 ||afilo.pl^
@@ -70520,6 +70518,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

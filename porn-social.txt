@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-03 06:20:46Z
+! Last Modified: 2022-03-03 12:28:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2479,7 +2479,6 @@
 ||adtrak.net^
 ||tag.adtrendmedia.net^
 ||adtriplex.com^
-||trk.adtrk18.com^
 ||ads.adtrustmedia.com^
 ||ads.adtube.de^
 ||adturtle.biz^
@@ -2850,7 +2849,6 @@
 ||affrontsdentifrice.pl^
 ||affrontsnoncooperator.pl^
 ||affrontstendon.pl^
-||t.afftrackr.com^
 ||track.msadcenter.afgz.com^
 ||afic.org^
 ||afilo.pl^
@@ -22738,8 +22736,6 @@
 ||freedailyerotic.com^
 ||freedailyvirgins.com^
 ||freedl.org^
-||spinbox.freedom.com^
-||oascentral.freedom.com^
 ||freedomart.cz^
 ||info.freedomcte.com^
 ||freedomfinancialtrustcoin.com^
@@ -61066,6 +61062,7 @@
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
+||cdn-creatives-highwinds-prd.unityads.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
 ||sc.unitymedia.de^
@@ -65941,8 +65938,10 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
 ||ad-sdk.altamob.xiaoying.co^
 ||xiawen.uno^
 ||ns2.xidian.edu.cn^
@@ -67032,6 +67031,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
