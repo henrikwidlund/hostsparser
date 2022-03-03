@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-02 18:20:13Z
+! Last Modified: 2022-03-03 01:08:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29437,7 +29437,6 @@
 ||request.mitsui-chintai.co.jp^
 ||lp-eq.mitsuichemicals.com^
 ||scinfo.mitsuifudosan.co.jp^
-||ma.mitsuihome.co.jp^
 ||cc.sys.miui.com^
 ||ccc.sys.miui.com^
 ||api.sec.intl.miui.com^
@@ -53642,6 +53641,7 @@
 ||blog.csr12.net.zooplus.de^
 ||brandcsr31.net.zooplus.de^
 ||brettmoran.net.zooplus.de^
+||bucket.api.net.zooplus.de^
 ||bucket.owa.net.zooplus.de^
 ||bullockowa.net.zooplus.de^
 ||car40-apps.net.zooplus.de^

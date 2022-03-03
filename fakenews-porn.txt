@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-02 18:20:11Z
+! Last Modified: 2022-03-03 01:08:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -48707,7 +48707,6 @@
 ||porntraff.com^
 ||porntrex.com^
 ||porntropics.com^
-||porntry.com^
 ||porntsunami.com^
 ||porntub.tv^
 ||porntube.com^
@@ -66967,6 +66966,7 @@
 ||ios-ads.pulse.weatherbug.net^
 ||weatheredsunset.xyz^
 ||biz.weathernews.com^
+||orca.weatherontheway.app^
 ||weathet.com^
 ||web-01-gbl.com^
 ||web-angels.de^
@@ -70526,6 +70526,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||global.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
