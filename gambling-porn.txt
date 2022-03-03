@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-03 01:08:22Z
+! Last Modified: 2022-03-03 06:20:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15646,8 +15646,6 @@
 ||crocsxpl.com^
 ||smetrics.croma.com^
 ||wallaby.cron.help^
-||adck.crooz.jp^
-||cdn.pic.crooz.jp^
 ||crosscross.jp^
 ||ads.crosscut.com^
 ||matomo.crossiety.app^
@@ -68580,6 +68578,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||ad-sdk.altamob.xiaoying.co^
