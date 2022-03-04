@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-04 06:20:32Z
+! Last Modified: 2022-03-04 12:28:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15070,7 +15070,6 @@
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
-||s-static.innovid.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
@@ -51487,6 +51486,7 @@
 ||appsmgmt.sslpromo.net.zooplus.de^
 ||asanaapi.disabled.net.zooplus.de^
 ||assets.train-mgmt.net.zooplus.de^
+||assetssupport.api.net.zooplus.de^
 ||authenticatecsr11.net.zooplus.de^
 ||csr11applications.net.zooplus.de^
 ||development-car40.net.zooplus.de^

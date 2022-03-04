@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-04 06:20:14Z
+! Last Modified: 2022-03-04 12:27:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46175,6 +46175,7 @@
 ||tecchgigo.com^
 ||ads2.techads.info^
 ||techalyans.ru^
+||banner.techarp.com^
 ||techbargins.com^
 ||as.techbook.de^
 ||techcentretraining.com^
