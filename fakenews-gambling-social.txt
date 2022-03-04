@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-04 01:12:26Z
+! Last Modified: 2022-03-04 06:20:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -47650,6 +47650,8 @@
 ||cl90234.tmweb.ru^
 ||cy43164.tmweb.ru^
 ||go.tmx.com^
+||metrics.tmz.com^
+||smetrics.tmz.com^
 ||tmzbreaking.com^
 ||tmzbusiness.com^
 ||tmzcomedy.com^
@@ -52532,6 +52534,7 @@
 ||willcommen.de^
 ||willcountygazette.com^
 ||hnnuaa.willhaben.at^
+||go.william-reed.com^
 ||williamhill.com^
 ||williamhill.com.au^
 ||williamhill.es^
@@ -54622,7 +54625,6 @@
 ||mjp.zimad.com^
 ||zimadeals.pl^
 ||zimb.space^
-||j.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||nnivvr.zimmo.be^
 ||go.zimperium.com^
@@ -55039,6 +55041,7 @@
 ||api.developdisabled.net.zooplus.de^
 ||api.priv.europewest.net.zooplus.de^
 ||api.server-disabled.net.zooplus.de^
+||apiserver.marketing.net.zooplus.de^
 ||app.customer.docker.net.zooplus.de^
 ||appsmgmt.chef-promo.net.zooplus.de^
 ||administrators.csr41.net.zooplus.de^

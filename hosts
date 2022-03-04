@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-04 01:12:22Z
+! Last Modified: 2022-03-04 06:20:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19752,11 +19752,9 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
-||san-www.adobetag.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
-||wildcard.moatads.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -65538,7 +65536,6 @@
 ||allegro-fxyd.umowa24.site^
 ||allegro-fxyd.umowy-24.site^
 ||umtrack.com^
-||inpostpl.unas-lepej.me^
 ||sedlec.unas.cz^
 ||togakmandang.unaux.com^
 ||info.unav.edu^
@@ -70733,6 +70730,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||abtest.mistat.xiaomi.com^
 ||ad-sdk.altamob.xiaoying.co^
 ||xiawen.uno^
 ||ns2.xidian.edu.cn^
