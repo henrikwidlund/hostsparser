@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-04 12:28:02Z
+! Last Modified: 2022-03-04 18:19:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9570,7 +9570,6 @@
 ||clayreporter.com^
 ||clck-now.com^
 ||clckcloud.com^
-||ca.clcknads.pro^
 ||s.clcktrax.com^
 ||cld4r.com^
 ||cle.kr^
@@ -15678,7 +15677,6 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
-||wildcard46.akstat.io.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -32890,7 +32888,6 @@
 ||up.nytimes.com^
 ||ads.nytimes.com^
 ||wt.o.nytimes.com^
-||als-svc.nytimes.com^
 ||nytadvertising.nytimes.com^
 ||nytva-nmz.ru^
 ||act.online.engineering.nyu.edu^
@@ -38888,8 +38885,6 @@
 ||quantstamp.com.co^
 ||quantstamp.com.ua^
 ||quanttstamp.com^
-||sync.quantumdex.io^
-||useast.quantumdex.io^
 ||api.quantumgraph.com^
 ||users.quantumgraph.com^
 ||config.quantumgraph.com^
@@ -52625,7 +52620,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||tw2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

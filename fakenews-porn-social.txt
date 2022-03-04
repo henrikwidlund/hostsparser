@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-04 12:27:59Z
+! Last Modified: 2022-03-04 18:19:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3173,6 +3173,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||sync-apsg.tidaltv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -12332,7 +12333,6 @@
 ||clayreporter.com^
 ||clck-now.com^
 ||clckcloud.com^
-||ca.clcknads.pro^
 ||s.clcktrax.com^
 ||cld4r.com^
 ||cle.kr^
@@ -42963,7 +42963,6 @@
 ||up.nytimes.com^
 ||ads.nytimes.com^
 ||wt.o.nytimes.com^
-||als-svc.nytimes.com^
 ||nytadvertising.nytimes.com^
 ||nytva-nmz.ru^
 ||act.online.engineering.nyu.edu^
@@ -50746,8 +50745,6 @@
 ||quantstamp.com.co^
 ||quantstamp.com.ua^
 ||quanttstamp.com^
-||sync.quantumdex.io^
-||useast.quantumdex.io^
 ||api.quantumgraph.com^
 ||users.quantumgraph.com^
 ||config.quantumgraph.com^
@@ -68090,6 +68087,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||ad-sdk.altamob.xiaoying.co^
