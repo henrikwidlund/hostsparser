@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-05 06:19:49Z
+! Last Modified: 2022-03-05 12:25:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18733,6 +18733,9 @@
 ||go.edcast.com^
 ||smetrics.eddiebauer.com^
 ||limpet.eddiehinkle.com^
+||metric.eddiev.com^
+||metrics.eddiev.com^
+||smetric.eddiev.com^
 ||dsr.eddyhunt.com^
 ||eddyspaansen.com^
 ||orl.edealand.pro^
@@ -40329,7 +40332,6 @@
 ||fullmaza.newsfresh.net^
 ||newshemaletube.com^
 ||ads.newsint.co.uk^
-||gcirm.newsleader.com^
 ||newsletter-link.com^
 ||stats.newslit.co^
 ||newsmagic.net^

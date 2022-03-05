@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-05 06:19:36Z
+! Last Modified: 2022-03-05 12:25:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14908,6 +14908,8 @@
 ||k6vl7.doctorrozen.com^
 ||doctorschoicenursing.com^
 ||track.docusign.co.uk^
+||get.docusign.com^
+||track.docusign.com^
 ||track.docusign.com.br^
 ||track.docusign.fr^
 ||track.docusign.jp^
@@ -24506,6 +24508,8 @@
 ||metrics.ionos.at^
 ||metrics.ionos.ca^
 ||metrics.ionos.co.uk^
+||metrics.ionos.com^
+||cloud-news.ionos.com^
 ||metrics.ionos.de^
 ||metrics.ionos.es^
 ||metrics.ionos.fr^
