@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-05 01:06:25Z
+! Last Modified: 2022-03-05 06:19:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16118,7 +16118,6 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||sync.teads.tv.edgekey.net^
 ||pinterest.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
@@ -54888,7 +54887,6 @@
 ||csr11docs.net.zooplus.de^
 ||csr11test.net.zooplus.de^
 ||csr31-vip.net.zooplus.de^
-||iad.csr11.net.zooplus.de^
 ||marketing.net.zooplus.de^
 ||api.1-priv.net.zooplus.de^
 ||api.server.net.zooplus.de^
