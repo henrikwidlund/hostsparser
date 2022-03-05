@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-04 18:19:59Z
+! Last Modified: 2022-03-05 01:06:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9721,6 +9721,7 @@
 ||bi-analytics.cloudapp.net^
 ||ailoganalyticsportal-eus.cloudapp.net^
 ||cloudbiggest.com^
+||comms.cloudblue.com^
 ||cloudburstartsinesses.info^
 ||go.cloudcall.com^
 ||cloudcoins.biz^
@@ -21199,7 +21200,6 @@
 ||www6.hentai-zone.com^
 ||b1.hentaibaka.one^
 ||hentaidatabase.com^
-||www4.hentaigamecg.com^
 ||cdn3.hentaihand.com^
 ||a.hentaimotel.com^
 ||ads.heraldnet.com^
@@ -23204,8 +23204,6 @@
 ||infotelsrl.com^
 ||adserver.infotiger.com^
 ||infowars.com^
-||te.infoworld.com^
-||metric.infoworld.com^
 ||infra-gtc.com^
 ||infra.by^
 ||info.infractive.fr^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-04 18:19:47Z
+! Last Modified: 2022-03-05 01:06:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18281,7 +18281,6 @@
 ||pics.dmm.com^
 ||nntgna.dmm.com^
 ||aze0.dmp.leclerc^
-||gcirm.dmregister.com^
 ||sdc.dn.no^
 ||maling.dn.no^
 ||maling.ue.dn.no^
@@ -28315,6 +28314,9 @@
 ||historiepolakow.click^
 ||historieprawdziwe.today^
 ||smetrics.history.ca^
+||links.e.history.com^
+||links.em.history.com^
+||links.evault.history.com^
 ||historyczna-chwila.eu^
 ||historykill.com^
 ||links.e.historyvault.com^
@@ -39383,7 +39385,6 @@
 ||go.moleculardevices.com^
 ||www2.moleculight.com^
 ||email.molly-1446.me^
-||email.molly-5371.me^
 ||email.molly-8572.me^
 ||email.molly-9982.pro^
 ||mollybabes.com^
@@ -49713,6 +49714,7 @@
 ||porntraff.com^
 ||porntrex.com^
 ||porntropics.com^
+||porntry.com^
 ||porntsunami.com^
 ||porntub.tv^
 ||porntube.com^
@@ -56920,7 +56922,6 @@
 ||openx.smcaen.fr^
 ||smetn.com^
 ||smetrics.abbott^
-||adserver.smgfiles.com^
 ||smhwtfnews.com^
 ||js.smi2.ru^
 ||smichovbike.cz^
@@ -59556,7 +59557,6 @@
 ||tahmil-kutib-pdf.info^
 ||tahmos.com^
 ||tahoesup.com^
-||ads.tahono.com^
 ||taicheetee.com^
 ||ferret.tailgraph.com^
 ||tailormate.se^
@@ -71816,6 +71816,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

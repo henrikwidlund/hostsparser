@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-04 18:19:51Z
+! Last Modified: 2022-03-05 01:06:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16118,6 +16118,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||sync.teads.tv.edgekey.net^
 ||pinterest.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
@@ -22287,6 +22288,7 @@
 ||ad.hodomobile.com^
 ||hodowlafanaberia.pl^
 ||hoerbird.net^
+||dl.hoes.tube^
 ||waaf1.hoferfotos.at^
 ||k.hofmann.es^
 ||ea.hofmann.es^
@@ -48699,6 +48701,7 @@
 ||tunisianvacation.com^
 ||pc.tunnel-vision.info^
 ||eel.tunspress.com^
+||adserver.tupolska.com^
 ||info.tuputoa.org.nz^
 ||turbico.com^
 ||sitepolska.turbo.site^
@@ -54885,6 +54888,7 @@
 ||csr11docs.net.zooplus.de^
 ||csr11test.net.zooplus.de^
 ||csr31-vip.net.zooplus.de^
+||iad.csr11.net.zooplus.de^
 ||marketing.net.zooplus.de^
 ||api.1-priv.net.zooplus.de^
 ||api.server.net.zooplus.de^
