@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-05 18:19:03Z
+! Last Modified: 2022-03-06 01:04:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14113,6 +14113,7 @@
 ||ads.dimcab.com^
 ||openads.dimcab.com^
 ||dimeline.eu^
+||connect.dimensiondata.com^
 ||dimensionheir.com^
 ||dimeprice.com^
 ||dimnsions.network^
@@ -21088,7 +21089,6 @@
 ||services.hearstmags.com^
 ||subscribe.hearstmags.com^
 ||aps.hearstnp.com^
-||smetrics.heartgard.com^
 ||smetrics.heartgardclinic.com^
 ||go.heartlandpaymentsystems.com^
 ||ads.heartlight.org^
@@ -51711,7 +51711,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

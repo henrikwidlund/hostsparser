@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-05 18:18:57Z
+! Last Modified: 2022-03-06 01:04:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36005,7 +36005,6 @@
 ||olx.pl-getsafe.delivery^
 ||olx.pl-getsafe.money^
 ||inpost.pl-getsafe.money^
-||olx.pl-getservice.info^
 ||pl-givecash.club^
 ||pl-giveorder.club^
 ||pl-givesales.club^
@@ -52081,6 +52080,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -52824,6 +52824,7 @@
 ||mjp.zimad.com^
 ||zimadeals.pl^
 ||zimb.space^
+||j.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||nnivvr.zimmo.be^
 ||go.zimperium.com^
