@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-06 01:04:45Z
+! Last Modified: 2022-03-06 06:19:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2586,7 +2586,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||ag.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -18902,6 +18901,7 @@
 ||follow247.xyz^
 ||follower-market.ir^
 ||folloyu.com^
+||load.fomo.com^
 ||fonbet.com^
 ||fondulacnews.com^
 ||fonexpress.com.my^
@@ -45372,7 +45372,6 @@
 ||suivhub5.com^
 ||sukansaree.com^
 ||sukces.pl^
-||go.suke-dachi.jp^
 ||sukhumvithomes.com^
 ||sulabhloan.com^
 ||applets.sulekha.com^

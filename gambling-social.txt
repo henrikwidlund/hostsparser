@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-06 01:04:58Z
+! Last Modified: 2022-03-06 06:19:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21089,6 +21089,7 @@
 ||services.hearstmags.com^
 ||subscribe.hearstmags.com^
 ||aps.hearstnp.com^
+||smetrics.heartgard.com^
 ||smetrics.heartgardclinic.com^
 ||go.heartlandpaymentsystems.com^
 ||ads.heartlight.org^

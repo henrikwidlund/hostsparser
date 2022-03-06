@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-06 01:04:53Z
+! Last Modified: 2022-03-06 06:19:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36005,6 +36005,7 @@
 ||olx.pl-getsafe.delivery^
 ||olx.pl-getsafe.money^
 ||inpost.pl-getsafe.money^
+||olx.pl-getservice.info^
 ||pl-givecash.club^
 ||pl-giveorder.club^
 ||pl-givesales.club^
@@ -42843,6 +42844,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
@@ -52080,7 +52082,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -52824,7 +52826,6 @@
 ||mjp.zimad.com^
 ||zimadeals.pl^
 ||zimb.space^
-||j.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||nnivvr.zimmo.be^
 ||go.zimperium.com^
@@ -53068,6 +53069,7 @@
 ||cdn.tpe.net.zooplus.de^
 ||cdnmgmt.net.zooplus.de^
 ||cgi.tpe.net.zooplus.de^
+||chd.api.net.zooplus.de^
 ||csr11ci.net.zooplus.de^
 ||account.net.zooplus.de^
 ||perfing.net.zooplus.de^
