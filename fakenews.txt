@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-06 06:19:33Z
+! Last Modified: 2022-03-06 12:26:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42844,7 +42844,6 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
-||j.newssuite.sony.net^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
@@ -52082,8 +52081,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn1.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -53069,7 +53068,6 @@
 ||cdn.tpe.net.zooplus.de^
 ||cdnmgmt.net.zooplus.de^
 ||cgi.tpe.net.zooplus.de^
-||chd.api.net.zooplus.de^
 ||csr11ci.net.zooplus.de^
 ||account.net.zooplus.de^
 ||perfing.net.zooplus.de^
