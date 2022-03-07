@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-07 06:21:22Z
+! Last Modified: 2022-03-07 12:28:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34194,6 +34194,8 @@
 ||qxhydkz8.hmjdaw.ntt.com^
 ||form.nttbizsol.jp^
 ||info.nttcoms.com^
+||go.nttdata.com^
+||ma.nttdata.com^
 ||bizsol.nttdocomo.co.jp^
 ||ad.nttnavi.co.jp^
 ||summer.ntua.edu.tw^
@@ -40741,7 +40743,6 @@
 ||qa-brc.emails.rakuten.com^
 ||rd.insight.rakuten.net^
 ||ralden.network^
-||qitdsl.ralf.ru^
 ||beacon.rallydev.com^
 ||connect.rallypoint.com^
 ||ralphlauren-polska.pl^
@@ -55058,8 +55059,6 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
-||adtimabox.brand.zing.vn^
-||interactive.brand.zing.vn^
 ||zingknowev.tk^
 ||ziniba.space^
 ||ziololecznictwo.pl^
