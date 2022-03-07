@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-07 01:06:28Z
+! Last Modified: 2022-03-07 06:21:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15679,7 +15679,6 @@
 ||data.dreambaby.be^
 ||securedata.dreambaby.be^
 ||a8cv.dreambeer.jp^
-||counter.dreamhost.com^
 ||sleeper-sofa.dreamhoster.com^
 ||patio-furniture.dreamhoster.com^
 ||dreamjackpot.com^
@@ -23097,7 +23096,6 @@
 ||agl-intl.hotstar.com^
 ||fp-analytics.hotstar.com^
 ||hb-analytics.hotstar.com^
-||ma.hottolink.co.jp^
 ||sanalytics.hottopic.com^
 ||jbvng.hottybabe.net^
 ||ms.hotu.xyz^
@@ -28206,6 +28204,8 @@
 ||fb-szpieguj.likesyou.org^
 ||likethislist.biz^
 ||adult.likevideo.jp^
+||oj.likewut.net^
+||like.likewut.net^
 ||likuidator.com^
 ||med.liletta.com^
 ||meds.liletta.com^
@@ -56206,6 +56206,7 @@
 ||chd.signed-marketing.net.zooplus.es^
 ||control-prod.web-ssl.net.zooplus.es^
 ||elastic.machine.swag.net.zooplus.es^
+||redirector.marketing.net.zooplus.es^
 ||account-v.labarketing.net.zooplus.es^
 ||account.latinarketing.net.zooplus.es^
 ||marketing.engineering.net.zooplus.es^
