@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-08 06:20:37Z
+! Last Modified: 2022-03-08 12:28:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16273,6 +16273,7 @@
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
+||s-static.innovid.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
@@ -16283,6 +16284,7 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
+||cdn-3.convertexperiments.com.edgekey.net^
 ||deep.edgequery.io^
 ||c6.edgesuite.net^
 ||ads.hulu.com.edgesuite.net^
@@ -27767,7 +27769,6 @@
 ||orlen.lightinvest.online^
 ||lightismylife.com^
 ||lightmusic.pl^
-||stats5.lightningcast.com^
 ||lightpots.pl^
 ||lightqs.com^
 ||connect.lightriver.com^

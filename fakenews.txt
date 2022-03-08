@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-08 06:20:30Z
+! Last Modified: 2022-03-08 12:28:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4769,6 +4769,14 @@
 ||avaparse.ir^
 ||avashya.com^
 ||avast-downloads.com^
+||an.avast.com^
+||ans.avast.com^
+||www3.avast.com^
+||stats.avast.com^
+||uib.ff.avast.com^
+||analytics.ff.avast.com^
+||ipm-provider.ff.avast.com^
+||analytics.ns1.ff.avast.com^
 ||metrics.avastin-hcp.com^
 ||smetrics.avastin.com^
 ||cpgo.avatacar.com^
@@ -41605,7 +41613,6 @@
 ||informacyjnemiasto24.rf.gd^
 ||wvvw.rfi.fr^
 ||track.msadcenter.rfjq.com^
-||butterfly.rfortherestofus.com^
 ||rfpged.cn^
 ||reklam.rfsl.se^
 ||info.rfsworld.com^
@@ -54422,11 +54429,14 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nl.adserver.yahoo.com^
+||de.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
