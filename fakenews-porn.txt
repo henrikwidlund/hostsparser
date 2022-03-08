@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-08 01:04:15Z
+! Last Modified: 2022-03-08 06:20:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -68302,6 +68302,7 @@
 ||vod.com^
 ||vod.plus^
 ||vod24.pl^
+||metric.vodacom.co.za^
 ||metrics.vodafone.co.uk^
 ||smetrics.vodafone.co.uk^
 ||analytics.vodafone.co.uk^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-08 01:04:10Z
+! Last Modified: 2022-03-08 06:20:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -54377,6 +54377,7 @@
 ||westdsmnews.com^
 ||westeldoradonews.com^
 ||smetrics.westelm.ca^
+||smetrics.westelm.com^
 ||smetrics.westernaustralia.com^
 ||westerndailynews.com^
 ||westernjournalism.com^

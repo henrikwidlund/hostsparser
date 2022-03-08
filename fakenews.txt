@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-08 01:04:18Z
+! Last Modified: 2022-03-08 06:20:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4769,14 +4769,6 @@
 ||avaparse.ir^
 ||avashya.com^
 ||avast-downloads.com^
-||an.avast.com^
-||ans.avast.com^
-||www3.avast.com^
-||stats.avast.com^
-||uib.ff.avast.com^
-||analytics.ff.avast.com^
-||ipm-provider.ff.avast.com^
-||analytics.ns1.ff.avast.com^
 ||metrics.avastin-hcp.com^
 ||smetrics.avastin.com^
 ||cpgo.avatacar.com^
@@ -16266,14 +16258,12 @@
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
-||wildcard.marketo.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
-||dsum-sec.casalemedia.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -40676,7 +40666,6 @@
 ||dynamic.rakuten.co.jp^
 ||api.ranking.rakuten.co.jp^
 ||shopapi.ranking.rakuten.co.jp^
-||static.affiliate.rakuten.co.jp^
 ||rmp.rakuten.com^
 ||brc.emails.rakuten.com^
 ||qa-brc.emails.rakuten.com^
@@ -54433,6 +54422,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
