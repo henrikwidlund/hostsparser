@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-08 12:28:41Z
+! Last Modified: 2022-03-08 18:20:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13907,6 +13907,7 @@
 ||p2.danskebank.co.uk^
 ||p2.danskebank.dk^
 ||p2.danskebank.fi^
+||p2.danskebank.no^
 ||p2.danskebank.se^
 ||danskespil.dk^
 ||mole.dansksejlunion.dk^
