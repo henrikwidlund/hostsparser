@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-07 18:19:54Z
+! Last Modified: 2022-03-08 01:04:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2223,6 +2223,7 @@
 ||adbunker.com^
 ||ab163949.adbutler-kaon.com^
 ||ab159015.adbutler-zilon.com^
+||static.adbutter.net^
 ||api.adcalls.nl^
 ||dashboard.adcalls.nl^
 ||dashboardnew.adcalls.nl^
@@ -10600,7 +10601,6 @@
 ||tdep.bunzlonline.nl^
 ||analytic.buoyweather.com^
 ||smetrics.bupa.com.au^
-||cdn.buram.xyz^
 ||burandsale.com^
 ||bureau.co.il^
 ||go.us.bureauveritas.com^

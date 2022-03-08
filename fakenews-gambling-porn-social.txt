@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-07 18:19:56Z
+! Last Modified: 2022-03-08 01:04:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10646,7 +10646,6 @@
 ||tdep.bunzlonline.nl^
 ||analytic.buoyweather.com^
 ||smetrics.bupa.com.au^
-||cdn.buram.xyz^
 ||burandsale.com^
 ||bureau.co.il^
 ||go.us.bureauveritas.com^
@@ -20516,14 +20515,17 @@
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
+||wildcard.applovin.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
+||ds-api-public.addthis.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
+||cdn-store-icons-akamai-prd.unityads.unity3d.com.edgekey.net^
 ||edgequeens.com^
 ||deep.edgequery.io^
 ||c6.edgesuite.net^
@@ -61944,6 +61946,7 @@
 ||marketing.tba.group^
 ||tbitcoin.me^
 ||tblop.com^
+||go.tbmcg.com^
 ||atzzrq.tbs.co.jp^
 ||ads.tbs.com^
 ||metrics.tbs.com^

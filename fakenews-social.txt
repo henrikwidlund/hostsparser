@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-07 18:20:04Z
+! Last Modified: 2022-03-08 01:04:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8146,7 +8146,6 @@
 ||tdep.bunzlonline.nl^
 ||analytic.buoyweather.com^
 ||smetrics.bupa.com.au^
-||cdn.buram.xyz^
 ||burandsale.com^
 ||bureau.co.il^
 ||go.us.bureauveritas.com^
@@ -32793,6 +32792,8 @@
 ||lpbhnv.nbcdfw.com^
 ||lpbhnv.nbclosangeles.com^
 ||lpbhnv.nbcmiami.com^
+||aamt.nbcnews.com^
+||links.nbcnews.com^
 ||nbcnews.com.co^
 ||nbcnews.io^
 ||scrooge.nbcsandiego.com^

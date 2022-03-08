@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-07 18:19:59Z
+! Last Modified: 2022-03-08 01:04:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8345,7 +8345,6 @@
 ||tdep.bunzlonline.nl^
 ||analytic.buoyweather.com^
 ||smetrics.bupa.com.au^
-||cdn.buram.xyz^
 ||burandsale.com^
 ||bureau.co.il^
 ||go.us.bureauveritas.com^
@@ -20564,12 +20563,6 @@
 ||gameblab.com^
 ||gamebookers.com^
 ||hkhpnqciykaf.www.gamecamp.gg^
-||ads.gamecity.net^
-||ads2.gamecity.net^
-||ads3.gamecity.net^
-||ads4.gamecity.net^
-||ads6.gamecity.net^
-||ads7.gamecity.net^
 ||ih2.gamecopyworld.com^
 ||ads.gamecopyworld.no^
 ||scorpion.gamedao.co^
@@ -55731,6 +55724,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
