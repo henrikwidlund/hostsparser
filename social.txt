@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-08 18:20:20Z
+! Last Modified: 2022-03-09 01:09:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42153,7 +42153,6 @@
 ||a8clk.shokutakubin.com^
 ||sholier.site^
 ||shonoctri.com^
-||secure.shoo5woop.com^
 ||demo.shooes.in^
 ||par.shop-pro.jp^
 ||shop-rnib.org^
@@ -52708,6 +52707,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||dk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
