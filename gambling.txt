@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-09 06:20:49Z
+! Last Modified: 2022-03-09 12:28:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16646,7 +16646,6 @@
 ||elophean.com^
 ||t.eloqua.com^
 ||now.eloqua.com^
-||s2150.t.eloqua.com^
 ||hipaa-p03.releasetesting.eloqua.com^
 ||www2.eloquesthealthcare.com^
 ||eloterija.si^
@@ -44261,7 +44260,6 @@
 ||click.email.sonos.com^
 ||secure.sonosite.com^
 ||response.sonosite.com^
-||de.secure.sonosite.com^
 ||sonovivi.com^
 ||tradedoubler.sonvideopro.com^
 ||electronics.sony-latin.com^
@@ -45914,7 +45912,6 @@
 ||info.synteract.com^
 ||healthfood.syoutikubai.com^
 ||sypialnia700.rest^
-||metrics.syracuse.com^
 ||winonvulkan.syrox-kosova.com^
 ||banners.sys-con.com^
 ||ads.syscdn.de^
