@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-09 01:09:23Z
+! Last Modified: 2022-03-09 06:20:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26199,7 +26199,6 @@
 ||janorszak.pl^
 ||mlmswk.janpara.co.jp^
 ||cdn-social.janrain.com^
-||postmedia.us.janrainsso.com^
 ||stats.jansix.at^
 ||tracking.janssenmed.cz^
 ||tracking.janssenmedicalcloud.at^
@@ -38593,7 +38592,6 @@
 ||tracking.pirelli.com^
 ||pirteali.com^
 ||media.pirtek.co.uk^
-||media.pirtek.de^
 ||pisaniekalkulator.site^
 ||pisanielezec.site^
 ||pisarzd.icu^
