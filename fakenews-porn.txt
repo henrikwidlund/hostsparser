@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-09 12:28:06Z
+! Last Modified: 2022-03-09 18:20:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2226,7 +2226,6 @@
 ||addthis.com^
 ||addthiscdn.com^
 ||addtoany.com^
-||addwish.com^
 ||mktlatam.adecco.com^
 ||go.adecco.com.au^
 ||empresa.adecco.es^
@@ -4571,9 +4570,6 @@
 ||analystset.com^
 ||marketing.analysysmason.com^
 ||analyticdns.org^
-||cloud-us.analytics-egain.com^
-||analytics.analytics-egain.com^
-||cloud-emea.analytics-egain.com^
 ||analyzedgirls.com^
 ||analzmovies.com^
 ||analzoom.com^
@@ -10883,7 +10879,6 @@
 ||camomemille.fr^
 ||refytq.camp-fire.jp^
 ||ibooking.campaignhub.net^
-||commerce.campaignmonitor.com^
 ||campanologyentombed.info^
 ||campeeks.com^
 ||prkvlr.camper.com^
@@ -72862,6 +72857,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

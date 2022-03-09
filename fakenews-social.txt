@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-09 12:28:08Z
+! Last Modified: 2022-03-09 18:20:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1831,7 +1831,6 @@
 ||addthis.com^
 ||addthiscdn.com^
 ||addtoany.com^
-||addwish.com^
 ||mktlatam.adecco.com^
 ||go.adecco.com.au^
 ||empresa.adecco.es^
@@ -3635,9 +3634,6 @@
 ||analystset.com^
 ||marketing.analysysmason.com^
 ||analyticdns.org^
-||cloud-us.analytics-egain.com^
-||analytics.analytics-egain.com^
-||cloud-emea.analytics-egain.com^
 ||ananashotel.com^
 ||dynamic1.anandtech.com^
 ||dynamic2.anandtech.com^
@@ -8581,7 +8577,6 @@
 ||camminachetipassa.it^
 ||refytq.camp-fire.jp^
 ||ibooking.campaignhub.net^
-||commerce.campaignmonitor.com^
 ||campanologyentombed.info^
 ||prkvlr.camper.com^
 ||camperoutlets.com^
@@ -55105,6 +55100,8 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst0.ec.yimg.com^
+||ac.ybinst1.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

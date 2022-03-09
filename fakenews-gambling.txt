@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-09 12:28:02Z
+! Last Modified: 2022-03-09 18:19:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1833,7 +1833,6 @@
 ||addthis.com^
 ||addthiscdn.com^
 ||addtoany.com^
-||addwish.com^
 ||mktlatam.adecco.com^
 ||go.adecco.com.au^
 ||empresa.adecco.es^
@@ -3613,9 +3612,6 @@
 ||analystset.com^
 ||marketing.analysysmason.com^
 ||analyticdns.org^
-||cloud-us.analytics-egain.com^
-||analytics.analytics-egain.com^
-||cloud-emea.analytics-egain.com^
 ||ananashotel.com^
 ||dynamic1.anandtech.com^
 ||dynamic2.anandtech.com^
@@ -8777,7 +8773,6 @@
 ||camminachetipassa.it^
 ||refytq.camp-fire.jp^
 ||ibooking.campaignhub.net^
-||commerce.campaignmonitor.com^
 ||campanologyentombed.info^
 ||campeonbet.com^
 ||prkvlr.camper.com^
