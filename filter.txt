@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-10 12:28:23Z
+! Last Modified: 2022-03-10 18:19:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11409,6 +11409,10 @@
 ||adserver.cantv.net^
 ||canuckmethod.com^
 ||canuckmethods.com^
+||go.canva.com^
+||l.create.canva.com^
+||l.engage.canva.com^
+||l.support.canva.com^
 ||canvassea.com^
 ||canyouheal.org^
 ||canyouhelpus20.bar^
@@ -20522,6 +20526,7 @@
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
+||wildcard.moatads.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -36838,6 +36843,7 @@
 ||linkcounter.com^
 ||linkdebrideur.xyz^
 ||fastcounter.linkexchange.net^
+||fastcounter.linkexchange.nl^
 ||linkfame.com^
 ||syndication.linkfryn.com^
 ||syndication.linkgett.com^
@@ -48331,7 +48337,6 @@
 ||go.paymentrails.com^
 ||oix.paymentreceiptpl.xyz^
 ||www2.paymetric.com^
-||ads.paymonex.net^
 ||olx.pl.paymont.pl^
 ||dpd-pl.paymyorder.site^
 ||inpost-pl.paymyorder.site^
@@ -51650,8 +51655,6 @@
 ||post-certificate.xyz^
 ||inpost.post-derive.com^
 ||inpost.post-dostawa.com^
-||metrics.post-gazette.com^
-||oascentral.post-gazette.com^
 ||post-sendl.space^
 ||mond.post.ch^
 ||posta.news^
@@ -53438,6 +53441,7 @@
 ||masdk.3g.qq.com^
 ||tools.3g.qq.com^
 ||httpring.qq.com^
+||ssl.msdk.qq.com^
 ||pingfore.qq.com^
 ||pingtcss.qq.com^
 ||adsclick.qq.com^

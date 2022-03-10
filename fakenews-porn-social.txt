@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-10 12:28:32Z
+! Last Modified: 2022-03-10 18:19:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3355,7 +3355,6 @@
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
-||marketing.akaes.com^
 ||akaflieg-sb.de^
 ||akama.com^
 ||a50.g2.akamai.net^
@@ -72448,6 +72447,7 @@
 ||zadbana-ty.click^
 ||zadecyduj-wygrana.eu^
 ||tbaqje.zadig-et-voltaire.com^
+||log.sdk.zadn.vn^
 ||zadnyprzygodwyblakle.site^
 ||zaebpozno.site^
 ||zafascynowany809.site^
