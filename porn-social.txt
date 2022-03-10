@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-10 06:20:45Z
+! Last Modified: 2022-03-10 12:28:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24007,6 +24007,8 @@
 ||freshscat.com^
 ||freshsexonly.com^
 ||freshsextv.com^
+||events-eu.freshsuccess.com^
+||events-us.freshsuccess.com^
 ||freshteenporn.com^
 ||freshteenporn.net^
 ||freshxcdn.com^
@@ -26080,6 +26082,8 @@
 ||13453765871837679316.googlegroups.com^
 ||wintricksbanner.googlepages.com^
 ||store.apps.googleplay.pro^
+||bot2.googlerenewals.net^
+||linux2.googlerenewals.net^
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
@@ -28793,6 +28797,8 @@
 ||hotnupics.com^
 ||hotocean.com^
 ||hotparadise.net^
+||aa-metrics.hotpepper.jp^
+||aa-metrics.beauty.hotpepper.jp^
 ||hotpink.com^
 ||hotporn.us^
 ||hotpornbible.com^
@@ -69524,12 +69530,10 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

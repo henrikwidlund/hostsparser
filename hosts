@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-10 06:20:26Z
+! Last Modified: 2022-03-10 12:28:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11409,10 +11409,6 @@
 ||adserver.cantv.net^
 ||canuckmethod.com^
 ||canuckmethods.com^
-||go.canva.com^
-||l.create.canva.com^
-||l.engage.canva.com^
-||l.support.canva.com^
 ||canvassea.com^
 ||canyouheal.org^
 ||canyouhelpus20.bar^
@@ -36842,7 +36838,6 @@
 ||linkcounter.com^
 ||linkdebrideur.xyz^
 ||fastcounter.linkexchange.net^
-||fastcounter.linkexchange.nl^
 ||linkfame.com^
 ||syndication.linkfryn.com^
 ||syndication.linkgett.com^
