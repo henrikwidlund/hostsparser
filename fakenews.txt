@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-09 18:20:04Z
+! Last Modified: 2022-03-10 01:10:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26069,6 +26069,7 @@
 ||kancelariabaszczyn.pl^
 ||kancelariakufieta.pl^
 ||info.kanden-rd.co.jp^
+||smetrics.kanebo-cosmetics.co.jp^
 ||smetrics.kanebo-cosmetics.jp^
 ||smetrics.kanebo-global.com^
 ||smetrics.kanebo.com^
@@ -33550,8 +33551,6 @@
 ||neso.r.niwepa.com^
 ||marketing.r.niwepa.com^
 ||lgyvfv.nix-wie-weg.de^
-||banner.nixnet.cz^
-||window.nixnet.cz^
 ||contact.nixonwilliams.com^
 ||ads.nj.com^
 ||metrics.nj.com^

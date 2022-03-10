@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-09 18:20:10Z
+! Last Modified: 2022-03-10 01:10:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16318,6 +16318,7 @@
 ||stickyadstv.com.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
+||tags.bluekai.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
@@ -51071,7 +51072,6 @@
 ||wabs.pl^
 ||adobe.wacoal.jp^
 ||s-adobe.wacoal.jp^
-||content.wacom.com^
 ||waczek.pl^
 ||rwmoej.wadiz.kr^
 ||wafmedia3.com^
