@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-10 18:20:10Z
+! Last Modified: 2022-03-11 01:11:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42214,6 +42214,7 @@
 ||smetric.m.nissan-global.com^
 ||metric.nissan.be^
 ||smeasurement.nissan.ca^
+||fleet.nissan.co.uk^
 ||metrics.nissan.ee^
 ||metrics.nissan.es^
 ||metrics.nissan.lt^
@@ -64966,7 +64967,6 @@
 ||swa.upc.cz^
 ||members.upc.nl^
 ||upcdn.site^
-||info.upcea.edu^
 ||upcomics.org^
 ||update-1.com^
 ||update-accounts-id.online^
@@ -69798,6 +69798,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||cdn.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -70903,7 +70904,10 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

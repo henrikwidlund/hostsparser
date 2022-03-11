@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-10 18:19:51Z
+! Last Modified: 2022-03-11 01:10:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20526,7 +20526,6 @@
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
-||wildcard.moatads.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -48337,6 +48336,7 @@
 ||go.paymentrails.com^
 ||oix.paymentreceiptpl.xyz^
 ||www2.paymetric.com^
+||ads.paymonex.net^
 ||olx.pl.paymont.pl^
 ||dpd-pl.paymyorder.site^
 ||inpost-pl.paymyorder.site^
@@ -51655,6 +51655,8 @@
 ||post-certificate.xyz^
 ||inpost.post-derive.com^
 ||inpost.post-dostawa.com^
+||metrics.post-gazette.com^
+||oascentral.post-gazette.com^
 ||post-sendl.space^
 ||mond.post.ch^
 ||posta.news^
@@ -53441,7 +53443,6 @@
 ||masdk.3g.qq.com^
 ||tools.3g.qq.com^
 ||httpring.qq.com^
-||ssl.msdk.qq.com^
 ||pingfore.qq.com^
 ||pingtcss.qq.com^
 ||adsclick.qq.com^
@@ -74321,6 +74322,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
