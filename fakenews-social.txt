@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-11 01:10:58Z
+! Last Modified: 2022-03-11 06:21:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13237,6 +13237,7 @@
 ||adserver.creativeinspire.com^
 ||adverts.creativemark.co.uk^
 ||creativemindhacks.com^
+||manatee.creativepassport.net^
 ||creativeteam.it^
 ||stats.creativinn.com^
 ||creatz.pl^
@@ -16446,6 +16447,7 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||wildcard.evidon.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -19368,6 +19370,7 @@
 ||sanl.footlocker.lu^
 ||sanl.footlocker.nl^
 ||sanl.footlocker.no^
+||sanl.footlocker.pl^
 ||sanl.footlocker.pt^
 ||sanl.footlocker.se^
 ||king-contenido-prod.secure2.footprint.net^
@@ -55130,7 +55133,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-11 01:10:53Z
+! Last Modified: 2022-03-11 06:20:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20625,6 +20625,7 @@
 ||gamblerush.com^
 ||gambling.com^
 ||gamblingua.com.ua^
+||bonus.gamblingz.net^
 ||gamdom.com^
 ||game-hack.biz^
 ||game-hacks.online^
@@ -43496,7 +43497,6 @@
 ||delivery.olx.safedeal.casa^
 ||safedealpln.link^
 ||safedeliveryypl.shop^
-||edge.safedk.com^
 ||goconnect.safehorizon.org^
 ||analytics.safelinking.net^
 ||scdn.safelinkonly.top^
