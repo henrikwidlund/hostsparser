@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-11 12:28:06Z
+! Last Modified: 2022-03-11 18:20:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7487,7 +7487,6 @@
 ||bloodwritten.pl^
 ||ads.bloomberg.com^
 ||metrics.bloomberg.com^
-||tracking.bloomberg.com^
 ||personalization.bloomberg.com^
 ||smetrics.bloombergenvironment.com^
 ||smetrics.bloombergindustry.com^
@@ -54242,7 +54241,6 @@
 ||j45.webringporn.com^
 ||webrobi.pl^
 ||webs-up.com^
-||qa.stats.webs.com^
 ||is2.websearch.com^
 ||ads.websearch.com^
 ||webanalyticsnossl.websense.com^
@@ -56385,6 +56383,8 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||eu-pn4.adserver.yahoo.com^
+||launch.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

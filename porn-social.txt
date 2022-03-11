@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-11 12:28:24Z
+! Last Modified: 2022-03-11 18:20:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9086,7 +9086,6 @@
 ||bloodyvirgin.com^
 ||ads.bloomberg.com^
 ||metrics.bloomberg.com^
-||tracking.bloomberg.com^
 ||personalization.bloomberg.com^
 ||smetrics.bloombergenvironment.com^
 ||smetrics.bloombergindustry.com^
@@ -37552,11 +37551,6 @@
 ||mazowszeinfo24.xyz^
 ||mazurpawel.pl^
 ||mb-click.jp^
-||mdws.sunrisecu.mb.ca^
-||mdws.assiniboine.mb.ca^
-||mdws.carpathiacu.mb.ca^
-||mdws.nivervillecu.mb.ca^
-||mdws.belgianalliancecu.mb.ca^
 ||mbank-cz.online^
 ||mbank-ochronakonta.com^
 ||mbank-pl.com^
@@ -69530,6 +69524,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

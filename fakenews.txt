@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-11 12:28:14Z
+! Last Modified: 2022-03-11 18:20:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7170,7 +7170,6 @@
 ||bloodwritten.pl^
 ||ads.bloomberg.com^
 ||metrics.bloomberg.com^
-||tracking.bloomberg.com^
 ||personalization.bloomberg.com^
 ||smetrics.bloombergenvironment.com^
 ||smetrics.bloombergindustry.com^
@@ -31225,6 +31224,7 @@
 ||securedata.monspar.be^
 ||www2.monstar-lab.com^
 ||cookie.monster.com^
+||mein.monster.de^
 ||monsterpops.com^
 ||faceboook-replyei0ki.montadalitihad.com^
 ||mdws.montaguecreditu.com^
@@ -54590,6 +54590,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
