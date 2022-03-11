@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-11 06:21:01Z
+! Last Modified: 2022-03-11 12:28:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5602,8 +5602,6 @@
 ||tr.email.archiexpo.com^
 ||archifaktura.hu^
 ||archigate.it^
-||sstats.architecturaldigest.com^
-||stats2.architecturaldigest.com^
 ||earwig.architecturesofhiding.com^
 ||architektkrakow.com.pl^
 ||five.partner.archive-it.org^

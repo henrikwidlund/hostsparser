@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-11 06:21:07Z
+! Last Modified: 2022-03-11 12:28:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20013,6 +20013,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||wl.aniview.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -22094,6 +22095,7 @@
 ||go.factoryathletics.com^
 ||plsale.factoryclearance2021.ru^
 ||factosphere.com^
+||tpl.factporn.com^
 ||explore.factset.com^
 ||info.factsmgt.com^
 ||fadadosexo.com.br^
@@ -53044,8 +53046,6 @@
 ||regionallyhepatic.com^
 ||regionalnyportal.eu^
 ||regionews.net^
-||metrics.regions.com^
-||smetrics.regions.com^
 ||smetrics.regionstest.com^
 ||info.regis.edu^
 ||events.regis.edu^
@@ -72170,6 +72170,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-11 06:21:12Z
+! Last Modified: 2022-03-11 12:28:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19267,6 +19267,7 @@
 ||go.partnernetwork.ebay.com^
 ||ebayadvertising.com^
 ||ebaybanner.com^
+||ads.ebc.li^
 ||ebd-cda.pl^
 ||ebdr2.com^
 ||ebenporno.com^
@@ -47565,7 +47566,6 @@
 ||playvids.com^
 ||playvod.pl^
 ||playweez.pl^
-||cdn.playwire.com^
 ||playwithme.com^
 ||plbudim1inv.info^
 ||plbudimnewinv1.info^
@@ -55061,6 +55061,8 @@
 ||metrics.shangri-la.com^
 ||smetrics.shangri-la.com^
 ||shanimuni.net^
+||assets1.shannons.com.au^
+||smetrics.shannons.com.au^
 ||shapado.com^
 ||shape-shift.io^
 ||iozozb.shapertools.com^

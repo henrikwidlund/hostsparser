@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-11 06:21:00Z
+! Last Modified: 2022-03-11 12:28:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -57054,6 +57054,8 @@
 ||shivfurnishings.com^
 ||shivmax.com^
 ||ads.shizmoo.com^
+||engage.shl.com^
+||tracking.shl.com^
 ||shleep.it^
 ||shlick.it^
 ||olx-pliqzb.shlnk.cc^
@@ -60972,6 +60974,7 @@
 ||analytics.teamcovenant.com^
 ||reports.teamemo-solutions.de^
 ||teamhalvarsnoren.se^
+||medicalsupplies.teammed.com.au^
 ||teammsup.com^
 ||tdep.teamnijhuis.com^
 ||metrics.teampages.com^
