@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-12 06:20:40Z
+! Last Modified: 2022-03-12 12:26:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8460,6 +8460,7 @@
 ||cd.capital-service.info^
 ||vip.capital-service.info^
 ||capital-trade.eu^
+||cqpmvc.capital.fr^
 ||a17re.capitalbrother.site^
 ||a17new.capitalbrother.site^
 ||a17ter.capitalbrother.site^
@@ -15833,6 +15834,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
+||ma479-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^

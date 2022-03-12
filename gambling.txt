@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-12 06:20:35Z
+! Last Modified: 2022-03-12 12:26:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2742,7 +2742,6 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||dotomi.weighted.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -31956,9 +31955,6 @@
 ||myewerthwalliet.com^
 ||myexclusiverewards.com^
 ||mfd.myfirstdressing.com^
-||link.info.myfitnesspal.com^
-||link.email.myfitnesspal.com^
-||link.e.blog.myfitnesspal.com^
 ||alpaca.myfitpro.live^
 ||go.myflvs.net^
 ||myfreedinner.com^
@@ -41979,7 +41975,6 @@
 ||konto.safe-onet.online^
 ||safe-onet.space^
 ||dpd-pl.safe-pay.site^
-||olx.pl.safe-payment.top^
 ||safe-security.website^
 ||go.safe.com^
 ||ensighten.safeauto.com^
@@ -53735,7 +53730,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||pn2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

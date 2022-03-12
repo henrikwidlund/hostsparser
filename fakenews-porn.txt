@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-12 06:20:25Z
+! Last Modified: 2022-03-12 12:26:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -59830,6 +59830,7 @@
 ||smetrics.sunlife.ca^
 ||smetrics.sunlife.com^
 ||smetrics.sunlifeconnect.com^
+||smetrics.sunlifeglobalinvestments.com^
 ||sunlight.com^
 ||sunmaker.com^
 ||ww2.sunmarie.co.jp^

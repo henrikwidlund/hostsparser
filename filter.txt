@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-12 06:20:15Z
+! Last Modified: 2022-03-12 12:26:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4298,6 +4298,7 @@
 ||device-metrics-us-2.amazon.com^
 ||rcm-it.amazon.it^
 ||m.amazonappservices.com^
+||wp-stat.s3.amazonasw.com^
 ||vml1.s3.amazonaws.com^
 ||load.s3.amazonaws.com^
 ||ncads.s3.amazonaws.com^
@@ -74321,6 +74322,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||uk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
