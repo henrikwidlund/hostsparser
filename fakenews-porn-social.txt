@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-11 18:20:08Z
+! Last Modified: 2022-03-12 01:02:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9751,8 +9751,6 @@
 ||metrics.boston.com^
 ||smetrics.boston.com^
 ||bostoncosmo.com^
-||metrics.bostonglobe.com^
-||smetrics.bostonglobe.com^
 ||go.bostonglobemedia.com^
 ||info.bostonmedicalgroup.es^
 ||jp.bostonscientific.com^
