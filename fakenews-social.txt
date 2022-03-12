@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-12 01:02:24Z
+! Last Modified: 2022-03-12 06:20:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51375,6 +51375,7 @@
 ||faucons.viessmann.fr^
 ||fabryczna.viessmann.pl^
 ||drau.viessmann.si^
+||api.omarketer.viettelpost.vn^
 ||view-post.pl^
 ||view4cash.de^
 ||polska.viewclub.xyz^
@@ -55131,6 +55132,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
