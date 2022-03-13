@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-13 06:23:25Z
+! Last Modified: 2022-03-13 12:26:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14093,6 +14093,10 @@
 ||clickserve.eu.dartsearch.net^
 ||clickserve.uk.dartsearch.net^
 ||clickserve.us2.dartsearch.net^
+||ch0p.darty.com^
+||mczpco.darty.com^
+||metrics.darty.com^
+||smetrics.darty.com^
 ||vole.darylshaw.co.uk^
 ||dascoin.com^
 ||dasffoakfmasimfao.bar^
@@ -54027,7 +54031,6 @@
 ||ifa.xhamstercams.com^
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
-||e.ad.xiaomi.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^

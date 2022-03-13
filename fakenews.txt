@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-13 06:23:19Z
+! Last Modified: 2022-03-13 12:26:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3837,6 +3837,8 @@
 ||saainfo.anz.co.nz^
 ||info.anz.com^
 ||infos.anz.com^
+||info.anz.com.au^
+||infos.anz.com.au^
 ||infos.anzmortgagesolutions.com.au^
 ||go.aofoundation.org^
 ||go.aocmf.aofoundation.org^
@@ -34785,7 +34787,6 @@
 ||oferujemy-wiedze1.site^
 ||off-guardian.org^
 ||offaces-butional.com^
-||go.offdutyservices.com^
 ||tr.offer-companeo.co.uk^
 ||offer.camp^
 ||a8clk.app.offerbox.jp^
