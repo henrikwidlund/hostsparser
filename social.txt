@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-13 12:26:49Z
+! Last Modified: 2022-03-13 18:19:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15917,7 +15917,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||ma312-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -26921,7 +26920,6 @@
 ||lightcast.leadscoringcenter.com^
 ||leadscout.com^
 ||leadsoftwaredeveloper.com^
-||go.leadspace.com^
 ||leadtrackgo.com^
 ||play.leadzuaf.com^
 ||leadzupc.com^
@@ -54289,7 +54287,6 @@
 ||api.priv.europewest.net.zooplus.de^
 ||api.privatebackends.net.zooplus.de^
 ||api.server-disabled.net.zooplus.de^
-||apiserver.marketing.net.zooplus.de^
 ||app.customer.docker.net.zooplus.de^
 ||appsmgmt.chef-promo.net.zooplus.de^
 ||appsmgmt.extkubectl.net.zooplus.de^

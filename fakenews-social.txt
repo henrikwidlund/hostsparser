@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-13 12:26:36Z
+! Last Modified: 2022-03-13 18:19:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16520,6 +16520,7 @@
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
+||wildcard.ntv.io.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
@@ -27906,7 +27907,6 @@
 ||lightcast.leadscoringcenter.com^
 ||leadscout.com^
 ||leadsoftwaredeveloper.com^
-||go.leadspace.com^
 ||leadtrackgo.com^
 ||play.leadzuaf.com^
 ||leadzupc.com^
