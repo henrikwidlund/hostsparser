@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-13 01:04:15Z
+! Last Modified: 2022-03-13 06:23:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20154,6 +20154,7 @@
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
 ||typekit.net-v3.edgekey.net^
+||79423.analytics.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -20162,6 +20163,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
+||ma562-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -20172,6 +20174,7 @@
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
+||wildcard.applovin.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -20180,6 +20183,7 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
+||cdn-3.convertexperiments.com.edgekey.net^
 ||edgequeens.com^
 ||deep.edgequery.io^
 ||c6.edgesuite.net^
@@ -41033,7 +41037,6 @@
 ||murcia-ban.es^
 ||omn.murdoch.edu.au^
 ||omns.murdoch.edu.au^
-||stats.murrayhometextiles.ie^
 ||go.murrelektronik.com^
 ||murrtube.net^
 ||murthydigitals.com^
@@ -48175,6 +48178,7 @@
 ||pinaysmut.com^
 ||pinayvideoscandals.com^
 ||pinayvids.com^
+||amphibian.pinestc.com^
 ||pinfaps.com^
 ||pinflix.com^
 ||rum-static.pingdom.net^
@@ -71078,6 +71082,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

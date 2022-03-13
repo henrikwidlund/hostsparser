@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-13 01:04:19Z
+! Last Modified: 2022-03-13 06:23:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19783,6 +19783,7 @@
 ||www2.frontierasset.com^
 ||corporate.frontierconsul.net^
 ||pardot.frontiertruckparts.com^
+||smetrics.frontline.com^
 ||smetrics.frontline.ru^
 ||mdws.frontlinecu.com^
 ||smetrics.frontlinemascotas.es^

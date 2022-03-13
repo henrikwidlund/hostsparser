@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-13 01:04:22Z
+! Last Modified: 2022-03-13 06:23:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -50808,7 +50808,6 @@
 ||tls-pro.ptrn-official.xyz^
 ||activ-pl.ptrn-official.xyz^
 ||puba.com^
-||track.publeadmedia.com^
 ||publiads.com^
 ||public-sex.net^
 ||res.public.fr^
@@ -71151,6 +71150,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

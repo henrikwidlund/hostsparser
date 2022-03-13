@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-13 01:04:12Z
+! Last Modified: 2022-03-13 06:23:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -41863,6 +41863,7 @@
 ||e.rentclv.com^
 ||rentfromart.com^
 ||rentito.pl^
+||marketing.rently.com^
 ||rentrollbroker.com.au^
 ||repairmadi.com^
 ||repartitionredbones.info^
