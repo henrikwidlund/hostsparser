@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-12 18:19:07Z
+! Last Modified: 2022-03-13 01:04:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -353,6 +353,7 @@
 ||inpost-polska-crj.244242.me^
 ||inpost-polska-uf.244451.me^
 ||inpost-vytp.244513.me^
+||inpost-pl.245076.xyz^
 ||inpost-qepb.24551.me^
 ||inpost-polska-aj.24551.me^
 ||24695.com^
@@ -16404,7 +16405,6 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||perf.teads.tv.edgekey.net^
 ||typekit.net-v3.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -23931,7 +23931,6 @@
 ||ad.iloveinterracial.com^
 ||ilovemobi.com^
 ||marketing.iloveny.com^
-||jupiter.ilovequake.care^
 ||protection.ilpolice.com^
 ||web.x.ilpost.it^
 ||stats.ilsemedia.nl^
@@ -52017,6 +52016,7 @@
 ||stats.watchmygf.com^
 ||ads.watchmygf.net^
 ||openx.watchmygf.net^
+||link.watchoxygen.com^
 ||watchtv.com.pl^
 ||www1.watelier.com^
 ||www2.waterfallresort.com^

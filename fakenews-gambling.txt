@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-12 18:19:01Z
+! Last Modified: 2022-03-13 01:04:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35120,6 +35120,10 @@
 ||novveullubionerzeczy.cyou^
 ||novvopaczka.site^
 ||novvvaggazetapolska.cyou^
+||cash-advance.now-cash.com^
+||payday-loans.now-cash.com^
+||mortgage-rates.now-cash.com^
+||credit-card-application.now-cash.com^
 ||now-online.net^
 ||minero-proxy-01.now.sh^
 ||minero-proxy-02.now.sh^
@@ -56135,7 +56139,9 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
+||cn.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
