@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-14 01:07:32Z
+! Last Modified: 2022-03-14 06:21:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46362,7 +46362,6 @@
 ||refer100.outster.com^
 ||refer102.outster.com^
 ||outtogetme.com^
-||analytics.ovative.com^
 ||meble24.ovel.pl^
 ||go.oventrop.com^
 ||hustoon.over-blog.com^
@@ -72424,6 +72423,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||global.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

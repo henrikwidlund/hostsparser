@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-14 01:07:26Z
+! Last Modified: 2022-03-14 06:21:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20327,6 +20327,7 @@
 ||ingameads2.gameloft.com^
 ||gamemine.com^
 ||html5.gamemonetize.com^
+||sp.gameomatic.fr^
 ||adserver.gameparty.net^
 ||gameplaylabs.com^
 ||gamepor.com^
@@ -40324,7 +40325,6 @@
 ||promeblemania.pl^
 ||go.promedia.nl^
 ||go.prometheusapartments.com^
-||go.prometric.com^
 ||nmiodk.promiflash.de^
 ||plausible.promlens.com^
 ||pd.promnetwork.com^
