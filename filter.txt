@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-14 12:28:00Z
+! Last Modified: 2022-03-14 18:19:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6866,6 +6866,7 @@
 ||go.awspartner.com^
 ||awstrack.me^
 ||awsum.me^
+||smetrics.axa-direct-life.co.jp^
 ||tr.e-mail.axa.fr^
 ||axbet.com^
 ||axd-watter.xyz^
@@ -73468,7 +73469,6 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||zeus.ad.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
 ||xiawen.uno^
