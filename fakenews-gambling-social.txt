@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-14 06:21:10Z
+! Last Modified: 2022-03-14 12:28:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12755,6 +12755,7 @@
 ||coin-fla.space^
 ||coin-formulate.space^
 ||coin-gro.space^
+||coin-hive.com^
 ||coin-inspect.space^
 ||coin-ith.space^
 ||coin-marketing.space^
@@ -24242,7 +24243,6 @@
 ||iceman30.de^
 ||engage.icemortgagetechnology.com^
 ||st.iceportal.de^
-||go.icf.church^
 ||ichemia.pl^
 ||ichgcp.com^
 ||www2.ichkannkochen.de^
@@ -41312,6 +41312,7 @@
 ||promoreclame.info^
 ||promoreclame.nl^
 ||g.promosrv.com^
+||info.promostore.de^
 ||marketing.pronaca.com^
 ||pronetadvertising.com^
 ||pronhubhd.com^

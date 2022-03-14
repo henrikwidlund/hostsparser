@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-14 06:21:09Z
+! Last Modified: 2022-03-14 12:28:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15642,6 +15642,7 @@
 ||coin-fla.space^
 ||coin-formulate.space^
 ||coin-gro.space^
+||coin-hive.com^
 ||coin-inspect.space^
 ||coin-ith.space^
 ||coin-marketing.space^
@@ -20815,6 +20816,7 @@
 ||metrics.egencia.it^
 ||metrics.egencia.nl^
 ||metrics.egencia.no^
+||metrics.egencia.pl^
 ||metrics.egencia.se^
 ||egeszsegespont.hu^
 ||eggheadspooled.info^
@@ -26438,7 +26440,6 @@
 ||c1t.gentrad.xyz^
 ||v1t.gentrad.xyz^
 ||genua.com.pl^
-||somni.genworth.com^
 ||geo-lines.com^
 ||a8.geo-online.co.jp^
 ||a8clk.rental.geo-online.co.jp^
@@ -34119,6 +34120,7 @@
 ||jodiegasson.com^
 ||jody0sora.com^
 ||joebiden.news^
+||media.joebucks.com^
 ||swordfish.joebuhlig.com^
 ||joedohn.site^
 ||joeforamerica.com^
@@ -45995,6 +45997,7 @@
 ||officialpreetiandpriya.com^
 ||officialprokodsukses.icu^
 ||officialsoar.com^
+||tv.officprod.site^
 ||offporn.com^
 ||tr.offre-companeo.com^
 ||tr.offres-professionnelles.fr^
@@ -55092,6 +55095,8 @@
 ||restrictivessepaloid.com^
 ||restrictstick.com^
 ||restybnoy.site^
+||sdk.resu.io^
+||sdk1.resu.io^
 ||banners.resultonline.com^
 ||resultplus.jp^
 ||pdt.resurgo.org.uk^
@@ -73225,7 +73230,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

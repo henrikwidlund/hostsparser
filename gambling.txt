@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-14 06:21:24Z
+! Last Modified: 2022-03-14 12:28:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12396,6 +12396,7 @@
 ||coin-fla.space^
 ||coin-formulate.space^
 ||coin-gro.space^
+||coin-hive.com^
 ||coin-inspect.space^
 ||coin-ith.space^
 ||coin-marketing.space^
@@ -29406,6 +29407,7 @@
 ||metrics.marcus.com^
 ||smetrics.marcus.com^
 ||marcusdevs.ru^
+||acton.marcusevans-events.com^
 ||go.marcusmillichap.com^
 ||go2.marcusmillichap.com^
 ||wpgobx.marcusoscarsson.se^
@@ -53981,6 +53983,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

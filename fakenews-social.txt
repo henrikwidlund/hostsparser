@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-14 06:21:17Z
+! Last Modified: 2022-03-14 12:28:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12445,6 +12445,7 @@
 ||coin-fla.space^
 ||coin-formulate.space^
 ||coin-gro.space^
+||coin-hive.com^
 ||coin-inspect.space^
 ||coin-ith.space^
 ||coin-marketing.space^
@@ -40325,6 +40326,7 @@
 ||promeblemania.pl^
 ||go.promedia.nl^
 ||go.prometheusapartments.com^
+||go.prometric.com^
 ||nmiodk.promiflash.de^
 ||plausible.promlens.com^
 ||pd.promnetwork.com^

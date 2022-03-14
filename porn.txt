@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-14 06:21:28Z
+! Last Modified: 2022-03-14 12:28:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14925,6 +14925,7 @@
 ||coin-fla.space^
 ||coin-formulate.space^
 ||coin-gro.space^
+||coin-hive.com^
 ||coin-inspect.space^
 ||coin-ith.space^
 ||coin-marketing.space^
@@ -44146,6 +44147,8 @@
 ||cdn.omnivirt.com^
 ||omoms.net^
 ||omputernic.com^
+||adimages.omroepzeeland.nl^
+||adserver.omroepzeeland.nl^
 ||tracking.omron.es^
 ||tracking.omron.ru^
 ||omtrdc.net^
@@ -70045,7 +70048,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
