@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-15 12:28:51Z
+! Last Modified: 2022-03-15 18:20:45Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -29073,6 +29073,8 @@
 ||hello.learn.mailgun.com^
 ||tr1.mailperf.com^
 ||tr5.mailperf.com^
+||t8.mailperformance.com^
+||epm.mailperformance.com^
 ||tr.infos.mailrungis.com^
 ||mailtrack.me^
 ||tracking.mailtracker.in^
@@ -30875,6 +30877,7 @@
 ||ads.mnemosoft.com^
 ||mnet-ad.net^
 ||mnmjunfamfam.bar^
+||xcgzme.mnogomebeli.com^
 ||protection.mnpolice.com^
 ||go.mnrubber.com^
 ||moaashinternational.com^
@@ -50606,7 +50609,6 @@
 ||ads.videoadvertising.com^
 ||videoamp.com^
 ||videobox.com^
-||log.videocampaign.co^
 ||videoconverterhd.com^
 ||videocop.com^
 ||videodownloadconverter.com^
@@ -54340,7 +54342,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

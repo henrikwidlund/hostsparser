@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-15 12:28:50Z
+! Last Modified: 2022-03-15 18:20:44Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -16822,6 +16822,8 @@
 ||ed.emp.at^
 ||xqupwc.emp.at^
 ||ed.emp.co.uk^
+||ed.emp.de^
+||rcqiho.emp.de^
 ||ed.emp.fi^
 ||ed.emp.ie^
 ||emp.news^
@@ -51050,7 +51052,6 @@
 ||ads.videoadvertising.com^
 ||videoamp.com^
 ||videobox.com^
-||log.videocampaign.co^
 ||videoconverterhd.com^
 ||videocop.com^
 ||videodownloadconverter.com^
@@ -54445,7 +54446,6 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
-||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
