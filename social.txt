@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-15 06:21:05Z
+! Last Modified: 2022-03-15 12:29:03Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -11926,6 +11926,7 @@
 ||coindash.tech^
 ||coindeskoption.com^
 ||coinfirst.com^
+||coinhive.com^
 ||coinince.com^
 ||coininsider.com^
 ||js.coinisrsdelivery.com^
@@ -52617,7 +52618,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

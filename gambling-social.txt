@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-15 06:20:59Z
+! Last Modified: 2022-03-15 12:28:57Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -12343,6 +12343,7 @@
 ||coindash.tech^
 ||coindeskoption.com^
 ||coinfirst.com^
+||coinhive.com^
 ||coinince.com^
 ||coininsider.com^
 ||js.coinisrsdelivery.com^
@@ -20434,8 +20435,6 @@
 ||carp.getgift.me^
 ||telemetry.servers.getgo.com^
 ||api-telemetry.servers.getgo.com^
-||links.info.getgocafe.com^
-||links.email.getgocafe.com^
 ||gethomevaluerestoration.com^
 ||stats.gethyas.com^
 ||getihbank.online^
