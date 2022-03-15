@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-15 01:09:49Z
+! Last Modified: 2022-03-15 06:20:54Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -16207,6 +16207,7 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
+||ds-api-public.addthis.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -26002,7 +26003,6 @@
 ||iko.justns.ru^
 ||ipko.justns.ru^
 ||pkobp.pl.justns.ru^
-||bmedia.justservingfiles.net^
 ||dog.justsketch.me^
 ||justsoldphilly.com^
 ||justt-watch-now.xyz^
@@ -26366,6 +26366,7 @@
 ||go.kepakfoodservice.com^
 ||go.kepner-tregoe.com^
 ||inpostpl.kerek.icu^
+||a.kerg.net^
 ||kergaukr.com^
 ||campaign.kermi.at^
 ||campaign.kermi.de^
@@ -49744,7 +49745,6 @@
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
-||cdn-creatives-highwinds-prd.unityads.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
 ||unitymaineguide.com^
@@ -50980,6 +50980,7 @@
 ||vlnted-payout.xyz^
 ||olx-pl.vlnted.pl^
 ||vlr72z-shrt.info^
+||vltwox7zl7h1wv.com^
 ||vmay.com^
 ||www2.vmc.es^
 ||vmcsatellite.com^
@@ -51091,7 +51092,6 @@
 ||ilove.volusion.com^
 ||metrics.volusion.com^
 ||voluum.com^
-||voluumtrk3.com^
 ||webstats.volvo.com^
 ||bd.vomitbox.org^
 ||vomitgirl.org^
