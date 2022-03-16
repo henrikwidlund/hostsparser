@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-16 01:09:19Z
+! Last Modified: 2022-03-16 06:20:53Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -6326,6 +6326,8 @@
 ||8147563.thekingdom.bk.com^
 ||bkandpl.com^
 ||click.bkdpt.com^
+||us.bksn.se^
+||prebid.bksn.se^
 ||smetrics.bkstr.com^
 ||email.m1.bktrksmail.com^
 ||s.bl-1.com^
