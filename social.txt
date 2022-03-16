@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-16 12:28:25Z
+! Last Modified: 2022-03-16 18:20:50Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -14516,8 +14516,6 @@
 ||dns-upload.com^
 ||brands.newst.dnsabr.com^
 ||dnsclocknow.com^
-||engage.dnsfilter.com^
-||analytics.dnsfilter.com^
 ||dnslogs.net^
 ||dnsmachinefork.com^
 ||dnsprotector.net^
@@ -41891,7 +41889,6 @@
 ||smetrics.sheen.jp^
 ||stats.sheer.tj^
 ||sheinvipstore.com^
-||go.shelfengine.com^
 ||stats.shell-tips.com^
 ||smetrics.shell.co.uk^
 ||scmetrics.shell.com^
@@ -52183,6 +52180,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -53863,7 +53861,6 @@
 ||gatewayssl-azure.net.zooplus.es^
 ||adm-marketing.eng.net.zooplus.es^
 ||apidocs.viviotech.net.zooplus.es^
-||applications.mail.net.zooplus.es^
 ||beta-wwwmarketing.net.zooplus.es^
 ||applicationswebapp.net.zooplus.es^
 ||azure.elastic.swag.net.zooplus.es^

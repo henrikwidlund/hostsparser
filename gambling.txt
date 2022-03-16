@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-16 12:28:21Z
+! Last Modified: 2022-03-16 18:20:46Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2681,6 +2681,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||cacp-hlb.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -17068,8 +17069,6 @@
 ||it.erosadv.com^
 ||ssl.eroscomix.com^
 ||erosoku.net^
-||bpm.eroterest.net^
-||kok.eroterest.net^
 ||textad.eroticmatch.com^
 ||ads.erotism.com^
 ||ads1.erotism.com^
@@ -53048,6 +53047,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -53484,6 +53484,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn1.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -54462,6 +54463,7 @@
 ||acclax-mgmt.net.zooplus.de^
 ||admin.csr11.net.zooplus.de^
 ||adminv1west.net.zooplus.de^
+||api.ctl.api.net.zooplus.de^
 ||api.ebspriv.net.zooplus.de^
 ||api.machine.net.zooplus.de^
 ||application.net.zooplus.de^
