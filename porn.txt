@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-16 18:20:48Z
+! Last Modified: 2022-03-17 01:07:35Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -35408,6 +35408,7 @@
 ||media.livepromotools.com^
 ||udr9.livera.nl^
 ||ad.livere.co.kr^
+||metrics.liverpool.com.mx^
 ||lives.net^
 ||hiuplq.livescore.in^
 ||livesex-24.at^
@@ -72210,7 +72211,6 @@
 ||auth-mgmt.cloud-docker.net.zooplus.de^
 ||backend-management.ids.net.zooplus.de^
 ||server-gw.docker-csr31.net.zooplus.de^
-||admineuropewest.7secret.net.zooplus.de^
 ||admins-appsmgmt.kubectl.net.zooplus.de^
 ||analytics.gitmanagement.net.zooplus.de^
 ||api.disabled.restricted.net.zooplus.de^
