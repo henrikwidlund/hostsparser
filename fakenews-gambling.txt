@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-17 01:07:18Z
+! Last Modified: 2022-03-17 06:20:29Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -4800,8 +4800,6 @@
 ||sadobe.autoscout24.lu^
 ||adobe.autoscout24.nl^
 ||qkhhjm.autoscout24.nl^
-||adobe.autoscout24.pl^
-||mmwlwm.autoscout24.pl^
 ||adobe.autoscout24.ro^
 ||adobe.autoscout24.ru^
 ||adobe.autoscout24.se^
@@ -26598,7 +26596,6 @@
 ||jsing.net^
 ||jsipk.com^
 ||ao.jsitel.com^
-||piranha.jsmobiledev.com^
 ||jsnzoe301m.com^
 ||jcdn.jsoid.com^
 ||jsrdn.com^
@@ -38393,6 +38390,14 @@
 ||pinnaclesports.com^
 ||a.pinoymoviepedia.ru^
 ||stats.pinoymusicstation.com^
+||v8push.pinsightmedia.com^
+||pushpin.pinsightmedia.com^
+||trackdat.pinsightmedia.com^
+||v8engine.pinsightmedia.com^
+||v8.analytics.pinsightmedia.com^
+||topapps-func.pinsightmedia.com^
+||fusion-files-cf.pinsightmedia.com^
+||intelligence-head.pinsightmedia.com^
 ||ct.pinterest.com^
 ||ads.pinterest.com^
 ||ads-dev.pinterest.com^
@@ -55631,7 +55636,9 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
+||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

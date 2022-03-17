@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-17 01:07:31Z
+! Last Modified: 2022-03-17 06:20:40Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -20732,6 +20732,8 @@
 ||globalinvestin.website^
 ||globalismedia.com^
 ||go.globalknowledge.com^
+||rt.globalmailer.com^
+||mediaview.globalmailer.com^
 ||pcash.globalmailer5.com^
 ||globalmaxis.com^
 ||trans.globalnetworkad.com^

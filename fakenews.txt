@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-17 01:07:25Z
+! Last Modified: 2022-03-17 06:20:35Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -31708,7 +31708,6 @@
 ||tr.observatoire.musee-orsay.fr^
 ||museedeleau.com^
 ||go.museoreinasofia.es^
-||track.musescore.com^
 ||music611.com^
 ||ad.musicmatch.com^
 ||musicmembersarea.com^
@@ -55863,6 +55862,8 @@
 ||zyjemytym.eu^
 ||zyjesiedlatakichhchwil.website^
 ||zyjetym.eu^
+||ads.zynga.com^
+||log-collector.svctr.zynga.com^
 ||security-info.zyns.com^
 ||w1.zypaint.com^
 ||zysk-dlyty.xyz^
