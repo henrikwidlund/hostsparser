@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-17 06:20:45Z
+! Last Modified: 2022-03-17 12:29:54Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -2622,6 +2622,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||rtb.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -6410,7 +6411,6 @@
 ||blik.auction^
 ||blik.fyi^
 ||blindlydivision.com^
-||s.blinds.ca^
 ||s.blinds.com^
 ||blingbucks.com^
 ||somnit.blinkfitness.com^

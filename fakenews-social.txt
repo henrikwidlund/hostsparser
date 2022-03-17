@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-17 06:20:34Z
+! Last Modified: 2022-03-17 12:29:42Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -35380,6 +35380,8 @@
 ||smetrics.onward.co.jp^
 ||onwardclick.com^
 ||onwey.com^
+||adserver.onwisconsin.com^
+||oascentral.onwisconsin.com^
 ||onyxalliance.org^
 ||onyxprofit.pro^
 ||bansys.onzin.com^
