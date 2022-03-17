@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-17 12:29:42Z
+! Last Modified: 2022-03-17 18:20:18Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -54880,6 +54880,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
