@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-18 06:20:46Z
+! Last Modified: 2022-03-18 12:28:16Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -1538,6 +1538,7 @@
 ||ma.a3.se^
 ||segment.a3cloud.net^
 ||affiliate.a4dtracker.com^
+||info.a4media.com^
 ||a4rooms.eu^
 ||a4w.cc^
 ||sdk.a79h.cn^
@@ -25093,7 +25094,6 @@
 ||engage.garnica.one^
 ||garotoesperto.com^
 ||assets.garron.blog^
-||assets.garron.me^
 ||garss.jp^
 ||garss.tv^
 ||tuagol.gartenmoebel.de^
@@ -48836,7 +48836,6 @@
 ||smetrics.politico.com^
 ||oascentral.politico.com^
 ||metrics.politico.eu^
-||tr.politicolive.eu^
 ||tr.politicomarketing.eu^
 ||polituracenny.site^
 ||polityka-antyspamowa.live^
@@ -60971,6 +60970,7 @@
 ||metrics.thechronicle.com.au^
 ||oascentral.thechronicleherald.ca^
 ||stats.thechurchfactory.com^
+||go.thecitybase.com^
 ||theclassicporn.com^
 ||theclickads.com^
 ||adebis.theclinic.jp^

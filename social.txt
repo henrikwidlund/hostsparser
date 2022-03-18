@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-18 06:20:54Z
+! Last Modified: 2022-03-18 12:28:23Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -6945,6 +6945,9 @@
 ||adserver.bloodhorse.com^
 ||bloodrootsalve.com^
 ||bloodwritten.pl^
+||ads.bloomberg.com^
+||metrics.bloomberg.com^
+||personalization.bloomberg.com^
 ||smetrics.bloombergenvironment.com^
 ||smetrics.bloombergindustry.com^
 ||tracking.bloombergindustry.com^
@@ -15701,6 +15704,7 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||wildcard.aniview.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^

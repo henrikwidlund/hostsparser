@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-18 06:20:48Z
+! Last Modified: 2022-03-18 12:28:19Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -4099,6 +4099,7 @@
 ||n-cdn.areyouahuman.com^
 ||areyoulivingwell.com^
 ||ca24.argcle.sbs^
+||smetrics.argenta.be^
 ||arghya53genesh.com^
 ||argicys.com^
 ||cristal2017.argo.host^
@@ -54719,7 +54720,6 @@
 ||apache.ssl.net.zooplus.es^
 ||apachemail.net.zooplus.es^
 ||acc.ssl.web.net.zooplus.es^
-||bucket.mail.net.zooplus.es^
 ||autodiscover.net.zooplus.es^
 ||marketing.v1.net.zooplus.es^
 ||administrator.net.zooplus.es^
