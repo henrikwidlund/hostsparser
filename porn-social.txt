@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-18 01:08:30Z
+! Last Modified: 2022-03-18 06:20:51Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -19452,6 +19452,7 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
+||global-wildcard.insightexpressai.com.edgekey.net^
 ||edgequeens.com^
 ||deep.edgequery.io^
 ||c6.edgesuite.net^

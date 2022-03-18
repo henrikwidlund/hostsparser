@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-18 01:08:34Z
+! Last Modified: 2022-03-18 06:20:54Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -6945,9 +6945,6 @@
 ||adserver.bloodhorse.com^
 ||bloodrootsalve.com^
 ||bloodwritten.pl^
-||ads.bloomberg.com^
-||metrics.bloomberg.com^
-||personalization.bloomberg.com^
 ||smetrics.bloombergenvironment.com^
 ||smetrics.bloombergindustry.com^
 ||tracking.bloombergindustry.com^
@@ -16188,6 +16185,7 @@
 ||emosystem.com^
 ||emosystem.pl^
 ||ed.emp-online.ch^
+||ed.emp-online.com^
 ||ed.emp-online.es^
 ||ed.emp-online.fr^
 ||ed.emp-online.it^
@@ -29170,6 +29168,7 @@
 ||megagiganten.se^
 ||megagynreformas.com.br^
 ||zwatgf.megaknihy.cz^
+||nwlnml.megaknihy.sk^
 ||megamoov.com^
 ||ads.megaproxy.com^
 ||megapu.sh^
