@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-17 18:20:23Z
+! Last Modified: 2022-03-18 01:08:25Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -19878,6 +19878,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||cdn.cxense.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -19898,6 +19899,7 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
+||wildcard.outbrainimg.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -73553,6 +73555,7 @@
 ||apache.ssl.net.zooplus.es^
 ||apachemail.net.zooplus.es^
 ||acc.ssl.web.net.zooplus.es^
+||bucket.mail.net.zooplus.es^
 ||autodiscover.net.zooplus.es^
 ||marketing.v1.net.zooplus.es^
 ||administrator.net.zooplus.es^
@@ -73571,7 +73574,6 @@
 ||gatewayssl-azure.net.zooplus.es^
 ||adm-marketing.eng.net.zooplus.es^
 ||apidocs.viviotech.net.zooplus.es^
-||applications.mail.net.zooplus.es^
 ||beta-wwwmarketing.net.zooplus.es^
 ||applicationswebapp.net.zooplus.es^
 ||azure.elastic.swag.net.zooplus.es^
