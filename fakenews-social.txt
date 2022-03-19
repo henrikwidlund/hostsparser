@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-18 18:20:12Z
+! Last Modified: 2022-03-19 01:03:27Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -15629,7 +15629,6 @@
 ||www2.dten.com^
 ||www2.dtexsystems.com^
 ||dthvdr9.com^
-||104231.dtiblog.com^
 ||affiliate.dtiserv.com^
 ||customize.dtiserv.com^
 ||click.dtiserv2.com^
@@ -25661,7 +25660,6 @@
 ||educontinua.javeriana.edu.co^
 ||www3.javerianacali.edu.co^
 ||thescript.javfinder.xyz^
-||dontblock.javjav1.buzz^
 ||ascc.javquick.com^
 ||adspy.javrank.com^
 ||stats.jawebb.se^
@@ -46274,7 +46272,6 @@
 ||supertop100.com^
 ||supertracking.net^
 ||superzebra.pl^
-||plsdonblock.supjav.buzz^
 ||supload.com^
 ||flqjny.supplementler.com^
 ||supplementqwe.online^
@@ -54880,6 +54877,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||au.adserver.yahoo.com^
+||ca.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
