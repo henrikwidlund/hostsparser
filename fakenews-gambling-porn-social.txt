@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-19 01:03:18Z
+! Last Modified: 2022-03-19 06:19:50Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -9912,6 +9912,10 @@
 ||box.bossdata.be^
 ||bossvideotube.com^
 ||plausible.bostad.shop^
+||te.boston.com^
+||rmedia.boston.com^
+||metrics.boston.com^
+||smetrics.boston.com^
 ||bostoncosmo.com^
 ||metrics.bostonglobe.com^
 ||smetrics.bostonglobe.com^
@@ -70610,7 +70614,6 @@
 ||witchings.info^
 ||blog.with2.net^
 ||txvoin.with2.net^
-||gecko.withclarify.com^
 ||withholdnopalitos.com^
 ||videoso.withsex.com^
 ||witscience.org^
@@ -72725,13 +72728,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||ir2.beap.gemini.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
