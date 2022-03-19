@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-19 12:27:26Z
+! Last Modified: 2022-03-19 18:19:31Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -4952,6 +4952,8 @@
 ||animehentaitoon.com^
 ||animehentaivideo.com^
 ||animehentaivideos.xxx^
+||hentai.animeholics.org^
+||sakuracircle.animeholics.org^
 ||animeidhentai.com^
 ||pubblicita.animeitaly.org^
 ||animephile.com^
@@ -69267,6 +69269,7 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
+||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||app.ssp.yahoo.com^
 ||ads.yap.yahoo.com^

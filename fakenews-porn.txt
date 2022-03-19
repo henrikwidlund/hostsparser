@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-19 12:27:16Z
+! Last Modified: 2022-03-19 18:19:18Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -7699,7 +7699,6 @@
 ||belierlaine.com^
 ||smetrics.belk.com^
 ||go.bell-group.co.jp^
-||a8cv.online.bell-road.com^
 ||data0.bell.ca^
 ||data1.bell.ca^
 ||enterprisesolutions.bell.ca^
@@ -29494,6 +29493,9 @@
 ||search-phentermine.hpage.net^
 ||us-west-2.kinesis.hpanalytics.net^
 ||aa-metrics.hpbcosme.com^
+||metrics.hpe.com^
+||smetrics.hpe.com^
+||etrack.ext.hpe.com^
 ||adsrv.hpg.com.br^
 ||hpjav.com^
 ||hpjav.ninja^
@@ -72765,7 +72767,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

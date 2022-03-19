@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-19 12:27:22Z
+! Last Modified: 2022-03-19 18:19:26Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -35931,6 +35931,7 @@
 ||linkusup.com^
 ||s.linkv3c.com^
 ||s.linkw2g.com^
+||syndication.linkwitt.com^
 ||a.linkz.ai^
 ||linkz.it^
 ||api.linkz.net^
@@ -73727,8 +73728,6 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||owa-dashboard.net.zooplus.nl^
-||application.ssl.net.zooplus.nl^
 ||dii1.zooplus.no^
 ||dii2.zooplus.no^
 ||dii1.zooplus.pl^

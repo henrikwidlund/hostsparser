@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-19 12:27:07Z
+! Last Modified: 2022-03-19 18:19:09Z
 
 ||0-24bpautomentes.hu^
 ||000free.us^
@@ -74069,13 +74069,12 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||global.adserver.yahoo.com^
-||europe.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -75507,8 +75506,6 @@
 ||zoztube.com^
 ||oldgames.zp.ua^
 ||zpafiska.pl^
-||e.zpesport.com^
-||autoemail.zpesport.com^
 ||tem.zpg.co.uk^
 ||go.advantage.zpg.co.uk^
 ||zpisportbk.com^
