@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-20 06:19:53Z
+! Last Modified: 2022-03-20 12:26:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1895,6 +1895,7 @@
 ||activate.academy.com^
 ||discover.academyart.edu^
 ||info.academyxi.com^
+||stats.acadevor.com^
 ||mdws.acadiancreditu.ca^
 ||acadianfinance.com^
 ||ac.acadomia.fr^
@@ -3393,6 +3394,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||bs-geo.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -38359,7 +38361,6 @@
 ||wttd.madeleine-mode.at^
 ||wttd.madeleine-mode.ch^
 ||wttd.madeleine.co.uk^
-||wttd.madeleine.com^
 ||wttd.madeleine.de^
 ||wttd.madeleine.fr^
 ||wttd.madeleine.gr^
@@ -39687,7 +39688,6 @@
 ||mediacharger.com^
 ||mediacnt.com^
 ||mediacnt.pro^
-||ad01.mediacorpsingapore.com^
 ||filter.mediacpc.com^
 ||mediad2.jp^
 ||mediadetective.com^
@@ -71899,8 +71899,10 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||test.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
 ||xiawen.uno^
@@ -73000,7 +73002,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
