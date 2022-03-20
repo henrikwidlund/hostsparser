@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-20 12:26:21Z
+! Last Modified: 2022-03-20 18:19:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -43337,6 +43337,7 @@
 ||server990916.nazwa.pl^
 ||server998611.nazwa.pl^
 ||server560960.nazwa.pl^
+||cache.server560960.nazwa.pl^
 ||nazwa5.pl^
 ||nb-sklep.com^
 ||gdyn.nba.com^
@@ -73240,7 +73241,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^

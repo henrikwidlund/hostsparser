@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-20 12:26:38Z
+! Last Modified: 2022-03-20 18:19:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21264,6 +21264,7 @@
 ||dcs.esprit.com^
 ||dcs.esprit.cz^
 ||dcs.esprit.de^
+||dcs.esprit.dk^
 ||dcs.esprit.es^
 ||dcs.esprit.eu^
 ||dcs.esprit.fi^
@@ -71090,6 +71091,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||abtest.mistat.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
 ||xiawen.uno^

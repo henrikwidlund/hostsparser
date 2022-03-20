@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-20 12:26:34Z
+! Last Modified: 2022-03-20 18:19:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16327,6 +16327,7 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
+||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -46225,6 +46226,7 @@
 ||stat-ssl.sumaity.com^
 ||sumapo.org^
 ||sumienieperforowac.site^
+||smetrics.sumitclub.jp^
 ||aff.summercart.com^
 ||summerinvest2021.site^
 ||summerinvest2021.website^
@@ -47057,7 +47059,6 @@
 ||11b6n4ty2x3.taxliencode.com^
 ||taycan.com.pl^
 ||admissions.taylor.edu^
-||go.taylorandfrancis.com^
 ||communications.taylorcorp.com^
 ||smetrics.taylors.edu.my^
 ||taylorspub.com^
@@ -54614,7 +54615,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||eu-pn2.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

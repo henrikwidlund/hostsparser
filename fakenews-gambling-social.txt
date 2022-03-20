@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-20 12:26:25Z
+! Last Modified: 2022-03-20 18:19:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2748,6 +2748,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||ingest.vungle.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -9131,6 +9132,7 @@
 ||carbonsports.ag^
 ||cardbet.com^
 ||adstream.cardboardfish.com^
+||ads.cardea.se^
 ||connect.cardelhomes.com^
 ||cardgamespidersolitaire.com^
 ||ww3.cardinalhealth.com^
@@ -35575,8 +35577,6 @@
 ||info.o2business.de^
 ||sstats.o2extravyhody.cz^
 ||o2lo.pl^
-||metrics.o2online.de^
-||smetrics.o2online.de^
 ||sstats.o2tv.cz^
 ||sstats.o2videoteka.cz^
 ||sstats.o2vyhody.cz^
