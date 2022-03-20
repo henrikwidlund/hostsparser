@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-20 01:07:40Z
+! Last Modified: 2022-03-20 06:20:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -57074,6 +57074,7 @@
 ||cattle.spiral11.com^
 ||spiralfolderrollers.com^
 ||go.spireon.com^
+||marketing.spireseattle.com^
 ||metrics.spirithalloween.com^
 ||info.spiritofsummerfair.co.uk^
 ||spiritualbrakes.com^
@@ -67370,9 +67371,6 @@
 ||windows-update-02-en.com^
 ||windows-wsus-update.com^
 ||engage.windows.com^
-||optanon.blob.core.windows.net^
-||open8video.blob.core.windows.net^
-||prodxnews1blob.blob.core.windows.net^
 ||ns1.windowsdefende.com^
 ||ns2.windowsdefende.com^
 ||sdc.windowsmarketplace.com^
@@ -69548,6 +69546,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-20 01:07:27Z
+! Last Modified: 2022-03-20 06:19:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20068,6 +20068,7 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||san-www.adobetag.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -43948,6 +43949,7 @@
 ||notdocker.com^
 ||vole.noteapps.info^
 ||churro.noteapps.info^
+||metrics.notebooksbilliger.de^
 ||noteks.xyz^
 ||notepad2.com^
 ||notesonvirginia.com^
@@ -52469,7 +52471,6 @@
 ||fodder.qq.com^
 ||qqlogo.qq.com^
 ||pmir.3g.qq.com^
-||lives.l.qq.com^
 ||adsfile.qq.com^
 ||adshmct.qq.com^
 ||adsrich.qq.com^

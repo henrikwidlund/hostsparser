@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-20 01:07:32Z
+! Last Modified: 2022-03-20 06:20:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3868,7 +3868,6 @@
 ||apiapple.com^
 ||apiom-market.co^
 ||apis.com.br^
-||cattle.apisyouwonthate.com^
 ||junior.apk.net^
 ||apkplayonline.com^
 ||aplauzca.icu^
@@ -4528,7 +4527,6 @@
 ||panther.atgonlinecoaching.com^
 ||static.atgsvcs.com^
 ||som.athenahealth.com^
-||more.athene.com^
 ||athensreporter.com^
 ||athlete246.com^
 ||service.athlon.com^
@@ -54610,13 +54608,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||eu-pn2.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

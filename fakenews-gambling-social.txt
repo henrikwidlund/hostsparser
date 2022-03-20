@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-20 01:07:24Z
+! Last Modified: 2022-03-20 06:19:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31121,6 +31121,7 @@
 ||hbbtv.mediaset.net^
 ||webtrekk.mediaset.net^
 ||xml.mediashakers.com^
+||ads.mediasmart.es^
 ||mediasmart.io^
 ||shop.mediasova.ru^
 ||pbs-front.mediasquare.fr^
@@ -47930,8 +47931,6 @@
 ||syncdownload.com^
 ||syncdownloading.com^
 ||syncfab.tech^
-||somni.synchrony.com^
-||analytics.synchrony.com^
 ||e.synchronybank.com^
 ||somni.synchronybank.com^
 ||analytics.synchronybank.com^
@@ -55963,6 +55962,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
 ||xiawen.uno^
