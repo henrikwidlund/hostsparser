@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-21 01:14:59Z
+! Last Modified: 2022-03-21 06:21:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38646,10 +38646,6 @@
 ||url8196.mindrise.app^
 ||resources.mindsetconsulting.com^
 ||ads.mindsetnetwork.com^
-||banner.mindshare.de^
-||adserver.mindshare.de^
-||adserver1.mindshare.de^
-||adserver2.mindshare.de^
 ||www2.mindsquare.de^
 ||ads.mindviz.com^
 ||traffic.mindviz.com^
@@ -70919,6 +70915,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||de.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

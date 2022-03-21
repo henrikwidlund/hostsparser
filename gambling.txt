@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-21 01:14:56Z
+! Last Modified: 2022-03-21 06:21:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2723,10 +2723,12 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||ag.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||tvx.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -17462,6 +17464,7 @@
 ||www3.etic.or.jp^
 ||metrics.etihad.com^
 ||smetrics.etihad.com^
+||smetrics.etihadaviationgroup.com^
 ||smetrics.etihadguest.com^
 ||etilang.pl^
 ||etipos.sk^
@@ -20703,6 +20706,7 @@
 ||android.giveapp.jp^
 ||giveforgetmenots.com^
 ||givehopeahand.org^
+||ads.givemegay.com^
 ||kekw.givetip.to^
 ||automate.gixxy.com^
 ||gizer.in^
@@ -40244,8 +40248,6 @@
 ||wgkvmz.r-ulybka.ru^
 ||tr.mailing.r2e-humanis.fr^
 ||r2prod.com^
-||info.r3.com^
-||email.everyonesocial.r3.com^
 ||bridgetrack.speedera.r3h.net^
 ||r5u.eu^
 ||r6i547.com^
@@ -53318,6 +53320,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||diagnosis.ad.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
 ||xiawen.uno^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-21 01:15:01Z
+! Last Modified: 2022-03-21 06:21:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -33088,7 +33088,6 @@
 ||www6.ns1.name^
 ||nsb.org.uk^
 ||creative.nscash.com^
-||www2.nsf.org^
 ||go.nsfocusglobal.com^
 ||nsifqowf10iwhg.bar^
 ||m1.nsimg.net^
@@ -52455,6 +52454,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||data.mistat.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -52891,7 +52891,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

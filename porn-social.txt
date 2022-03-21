@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-21 01:14:58Z
+! Last Modified: 2022-03-21 06:21:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3310,6 +3310,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||rtb.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -5218,6 +5219,9 @@
 ||atlkse.aosom.it^
 ||www1.aozorabank.co.jp^
 ||ap-ms.net^
+||te.ap.org^
+||ads.mm.ap.org^
+||discover.ap.org^
 ||apartadox.com^
 ||apartamentypoleska.pl^
 ||aparthema.org.pl^
@@ -34748,7 +34752,6 @@
 ||enews.learninga-z.com^
 ||go.learningagency.co.jp^
 ||stats.learnlinux.tv^
-||go.learnosity.com^
 ||ablinks.news.learnwithhomer.com^
 ||www2.lease-partners.jp^
 ||www3.leasemd.mx^
@@ -51064,6 +51067,7 @@
 ||tgw-masdk.3g.qq.com^
 ||tgw-sasdk.3g.qq.com^
 ||analytics.map.qq.com^
+||aexception.bugly.qq.com^
 ||qq8.ag^
 ||qqhr2008.com^
 ||qqqporn.com^
@@ -68447,6 +68451,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||cdn.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -69546,6 +69551,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -69731,6 +69737,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst0.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
@@ -71192,7 +71199,6 @@
 ||acc.labarketing.net.zooplus.es^
 ||authenticateing.net.zooplus.es^
 ||testingfirewall.net.zooplus.es^
-||admins.marketing.net.zooplus.es^
 ||backendmarketing.net.zooplus.es^
 ||elastic.privswag.net.zooplus.es^
 ||gatewayssl-azure.net.zooplus.es^
@@ -71200,7 +71206,6 @@
 ||apidocs.viviotech.net.zooplus.es^
 ||beta-wwwmarketing.net.zooplus.es^
 ||applicationswebapp.net.zooplus.es^
-||asanawww.marketing.net.zooplus.es^
 ||azure.elastic.swag.net.zooplus.es^
 ||elastic.regionswag.net.zooplus.es^
 ||elastic.secure.org.net.zooplus.es^
