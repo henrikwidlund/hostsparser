@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-20 18:19:44Z
+! Last Modified: 2022-03-21 01:14:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7014,6 +7014,11 @@
 ||informacje-polsat-73936775591.azureedge.net^
 ||informacje-interia-20433903321.azureedge.net^
 ||azureus.es^
+||wp-login.azurewebsites.net^
+||vodus-api.azurewebsites.net^
+||teraz-polska.azurewebsites.net^
+||vodus-api-serverless.azurewebsites.net^
+||ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net^
 ||azwpikiran.co.vu^
 ||azziana.com^
 ||azzporn.com^

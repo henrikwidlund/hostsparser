@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-20 18:19:58Z
+! Last Modified: 2022-03-21 01:14:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12830,6 +12830,7 @@
 ||contentsleuth.com^
 ||contentstream.pl^
 ||stats.contentwritingjobs.com^
+||adserver9.contextad.com^
 ||contextad.pl^
 ||go.contexte.com^
 ||contextualyield.com^
@@ -28592,6 +28593,7 @@
 ||eulerian.look-voyages.fr^
 ||lookbingo.com^
 ||app.cdn.lookbookhq.com^
+||brands.lookfantastic.com^
 ||looking4fuck.com^
 ||ad.looktraffic.com^
 ||evs.sgmt.loom.com^

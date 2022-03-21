@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-20 18:20:04Z
+! Last Modified: 2022-03-21 01:15:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -52888,11 +52888,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ae.adserver.yahoo.com^
-||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -53979,7 +53978,6 @@
 ||appsmgmt.sslpromo.net.zooplus.de^
 ||asanaapi.disabled.net.zooplus.de^
 ||assets.train-mgmt.net.zooplus.de^
-||assetssupport.api.net.zooplus.de^
 ||authenticatecsr11.net.zooplus.de^
 ||dockerapi.paywall.net.zooplus.de^
 ||server-gw.roberts.net.zooplus.de^
