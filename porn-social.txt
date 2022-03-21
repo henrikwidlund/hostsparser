@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-21 06:21:49Z
+! Last Modified: 2022-03-21 12:28:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3310,7 +3310,6 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||rtb.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -34752,6 +34751,7 @@
 ||enews.learninga-z.com^
 ||go.learningagency.co.jp^
 ||stats.learnlinux.tv^
+||go.learnosity.com^
 ||ablinks.news.learnwithhomer.com^
 ||www2.lease-partners.jp^
 ||www3.leasemd.mx^
@@ -51067,7 +51067,6 @@
 ||tgw-masdk.3g.qq.com^
 ||tgw-sasdk.3g.qq.com^
 ||analytics.map.qq.com^
-||aexception.bugly.qq.com^
 ||qq8.ag^
 ||qqhr2008.com^
 ||qqqporn.com^
@@ -68451,7 +68450,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||cdn.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -69737,7 +69735,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst0.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

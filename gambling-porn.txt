@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-21 06:21:45Z
+! Last Modified: 2022-03-21 12:28:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20601,7 +20601,6 @@
 ||marten.emperor-creative.com^
 ||empflix.com^
 ||empflix.icu^
-||ifa.empflixlive.com^
 ||empiezatupodcast.com^
 ||empireamateurs.com^
 ||get.empireblue.com^
@@ -44209,7 +44208,6 @@
 ||welcome.nwac.us^
 ||nwafablab.com^
 ||yourhealth.nwh.org^
-||go.nwhealth.edu^
 ||nworks.co^
 ||nwsgifs.com^
 ||metric.nwsource.com^
@@ -57466,6 +57464,11 @@
 ||odnlj.snap-affairs.com^
 ||snapads.com^
 ||snapcamsforum.cc^
+||ads.snapchat.com^
+||tr6.snapchat.com^
+||adsapi.snapchat.com^
+||app-analytics-v2.snapchat.com^
+||learn.advertising.snapchat.com^
 ||snapcheat.app^
 ||snapka.com.pl^
 ||snapmobile.asia^
