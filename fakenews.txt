@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-21 12:28:51Z
+! Last Modified: 2022-03-21 18:21:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17097,6 +17097,7 @@
 ||ads.epi.sk^
 ||go.epicbrokers.com^
 ||epicdankbot.com^
+||tracking.epicgames.com^
 ||a.epicgoo.com^
 ||epiciek.com^
 ||ewalxb.epicsports.com^
@@ -55881,7 +55882,6 @@
 ||gatewayssl-azure.net.zooplus.es^
 ||adm-marketing.eng.net.zooplus.es^
 ||apidocs.viviotech.net.zooplus.es^
-||applications.mail.net.zooplus.es^
 ||beta-wwwmarketing.net.zooplus.es^
 ||applicationswebapp.net.zooplus.es^
 ||azure.elastic.swag.net.zooplus.es^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-21 12:29:01Z
+! Last Modified: 2022-03-21 18:21:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15836,7 +15836,6 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
-||dsum.casalemedia.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -16580,6 +16579,7 @@
 ||ads.epi.sk^
 ||go.epicbrokers.com^
 ||epicdankbot.com^
+||tracking.epicgames.com^
 ||a.epicgoo.com^
 ||epiciek.com^
 ||ewalxb.epicsports.com^
@@ -33306,7 +33306,6 @@
 ||oaktreeventuresllc.com^
 ||oamtrk.com^
 ||webstats.oanda.com^
-||signup.oasisnow.net^
 ||telemetry.firstpartyapps.oaspapps.com^
 ||oav4trk.com^
 ||oawyr.com^

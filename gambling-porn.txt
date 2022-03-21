@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-21 12:28:54Z
+! Last Modified: 2022-03-21 18:21:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20601,6 +20601,7 @@
 ||marten.emperor-creative.com^
 ||empflix.com^
 ||empflix.icu^
+||ifa.empflixlive.com^
 ||empiezatupodcast.com^
 ||empireamateurs.com^
 ||get.empireblue.com^
@@ -20862,6 +20863,7 @@
 ||epicbikini.com^
 ||go.epicbrokers.com^
 ||epicdankbot.com^
+||tracking.epicgames.com^
 ||a.epicgoo.com^
 ||epiciek.com^
 ||epicomg.com^
@@ -44208,6 +44210,7 @@
 ||welcome.nwac.us^
 ||nwafablab.com^
 ||yourhealth.nwh.org^
+||go.nwhealth.edu^
 ||nworks.co^
 ||nwsgifs.com^
 ||metric.nwsource.com^

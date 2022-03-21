@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-21 12:28:46Z
+! Last Modified: 2022-03-21 18:21:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20063,7 +20063,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||ma193-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -20930,6 +20929,7 @@
 ||epicbikini.com^
 ||go.epicbrokers.com^
 ||epicdankbot.com^
+||tracking.epicgames.com^
 ||a.epicgoo.com^
 ||epiciek.com^
 ||epicomg.com^
@@ -42742,8 +42742,6 @@
 ||nerminyazar.com^
 ||metrics.nero.com^
 ||nerodavolasicilia.it^
-||ads.nerve.com^
-||oascentral.nerve.com^
 ||pine.nervecentral.com^
 ||catshark.nervecentral.com^
 ||nerwa.space^
@@ -71705,7 +71703,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
