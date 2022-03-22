@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-22 01:13:48Z
+! Last Modified: 2022-03-22 06:20:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -56079,6 +56079,8 @@
 ||sleeperpresentenced.pl^
 ||sleepingbagsandtents.com^
 ||sleepingbitch.com^
+||pulse.sleepnumber.com^
+||smetrics.sleepnumber.com^
 ||sleepstarlite-ozark.com^
 ||myuyvl.slendertone.com^
 ||sleuthlike-phantasiastic-handsome.xyz^
@@ -70918,7 +70920,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
