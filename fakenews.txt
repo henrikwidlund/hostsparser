@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-22 18:20:14Z
+! Last Modified: 2022-03-23 01:20:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22218,7 +22218,6 @@
 ||tracking.healthitsecurity.com^
 ||healthknowledge.my^
 ||ads.healthline.com^
-||go.healthnet.com^
 ||healthnutnews.com^
 ||smetrics.healthpartners.com^
 ||tracking.healthpayerintelligence.com^
