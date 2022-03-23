@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-23 01:20:08Z
+! Last Modified: 2022-03-23 06:21:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -59200,6 +59200,7 @@
 ||ablink.arch.sofi.org^
 ||ablink.info.sofi.org^
 ||smetrics.sofina.co.jp^
+||smetrics.sofina.com^
 ||soft-babez.cc^
 ||soft-porn.net^
 ||ads.soft32.com^
@@ -74341,10 +74342,8 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||pn1.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
