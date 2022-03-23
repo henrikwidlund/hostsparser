@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-23 06:21:44Z
+! Last Modified: 2022-03-23 12:30:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -54720,7 +54720,6 @@
 ||appschef.net.zooplus.de^
 ||aspencrm.net.zooplus.de^
 ||gw-csr31.net.zooplus.de^
-||1.ctl.api.net.zooplus.de^
 ||admindata.net.zooplus.de^
 ||alpha.ext.net.zooplus.de^
 ||api.login.net.zooplus.de^
@@ -54901,7 +54900,6 @@
 ||futterbarowa.origin.net.zooplus.de^
 ||getter-priv-decsr11.net.zooplus.de^
 ||parcel-cdnphp-csr31.net.zooplus.de^
-||admindata.cloudfront.net.zooplus.de^
 ||administrators.csr41.net.zooplus.de^
 ||admins-marketing.ext.net.zooplus.de^
 ||api.disabled.paywall.net.zooplus.de^
@@ -54940,7 +54938,6 @@
 ||auth-mgmt.cloud-docker.net.zooplus.de^
 ||backend-management.ids.net.zooplus.de^
 ||server-gw.docker-csr31.net.zooplus.de^
-||admineuropewest.7secret.net.zooplus.de^
 ||admins-appsmgmt.kubectl.net.zooplus.de^
 ||analytics.gitmanagement.net.zooplus.de^
 ||api.disabled.restricted.net.zooplus.de^

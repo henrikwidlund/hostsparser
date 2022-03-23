@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-23 06:21:30Z
+! Last Modified: 2022-03-23 12:29:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24677,8 +24677,6 @@
 ||imobiles.pk^
 ||mreulz.imobiliare.ro^
 ||imonellipizzeria.pl^
-||rot2.imoti.net^
-||openx.imoti.net^
 ||go.imotions.com^
 ||impact-ad.jp^
 ||js.impact.ne.jp^
@@ -51387,6 +51385,7 @@
 ||marketing.upmc.ie^
 ||upnew.site^
 ||go.eu.uponor.com^
+||go.uponor.info^
 ||uppdragledning.se^
 ||upperbuckstoday.com^
 ||upperclassinvetstments.com^
