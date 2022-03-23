@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-23 12:29:47Z
+! Last Modified: 2022-03-23 18:20:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -52441,6 +52441,7 @@
 ||partners.priceline.com^
 ||stat.priceprice.com^
 ||info.pricer.com^
+||pplpiq.pricerunner.se^
 ||ads.pricescan.com^
 ||locate.pricespider.com^
 ||stats.pricewell.io^
@@ -74424,7 +74425,6 @@
 ||zoozootube.com^
 ||oasis.zmh.zope.com^
 ||oassis.zmh.zope.com^
-||oasis.zmh.zope.net^
 ||ad2.zophar.net^
 ||cdn1.zopiny.com^
 ||zoplm.com^

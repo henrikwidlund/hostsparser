@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-23 12:30:02Z
+! Last Modified: 2022-03-23 18:21:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30484,6 +30484,7 @@
 ||rtb.metrigo.com^
 ||metrilo.com^
 ||analytics.metro-cc.ru^
+||analytics.metro-tr.com^
 ||analytics.metro.co.in^
 ||analytics.metro.com.kz^
 ||analytics.metro.de^
@@ -46325,7 +46326,6 @@
 ||tadoms.space^
 ||visit.tafensw.edu.au^
 ||taffr.com^
-||go.tafs.com^
 ||go.sm.taftc.org^
 ||ens.tagblatt.ch^
 ||taggingfortalent.com^

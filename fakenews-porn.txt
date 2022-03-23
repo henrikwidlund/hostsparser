@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-23 12:29:53Z
+! Last Modified: 2022-03-23 18:20:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5884,6 +5884,9 @@
 ||asia999.website^
 ||asiablue.com^
 ||asiacinematic.xyz^
+||ads.asiafriendfinder.com^
+||banners.asiafriendfinder.com^
+||adserver.asiafriendfinder.com^
 ||asiamoviepass.com^
 ||asian-bondage.com^
 ||asian-m.com^
@@ -73038,7 +73041,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
@@ -74185,12 +74187,14 @@
 ||zimadeals.pl^
 ||zimb.space^
 ||zimbio.com^
+||j.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||smetrics.zimmerbiomet.com^
 ||nnivvr.zimmo.be^
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||banner.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||zingknowev.tk^
 ||zingyporntube.com^
