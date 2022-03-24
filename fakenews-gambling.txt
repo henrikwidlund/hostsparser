@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-23 18:20:52Z
+! Last Modified: 2022-03-24 01:13:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22075,7 +22075,6 @@
 ||graplinsprezes.com^
 ||grarpg.pl^
 ||tr.emailing.grassavoye.com^
-||ablink.offers.grassdoor.com^
 ||graszobon.com^
 ||gratefulmodels.com^
 ||gratemena.com^
@@ -42799,7 +42798,6 @@
 ||products.ricoh.ie^
 ||itservices.ricoh.ie^
 ||application.ricoh.ie^
-||imagine.ricoh.nl^
 ||go.ricordi.co.jp^
 ||riden.network^
 ||ridepush.com^
@@ -55912,6 +55910,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ae.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

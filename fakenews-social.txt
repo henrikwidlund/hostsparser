@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-23 18:20:58Z
+! Last Modified: 2022-03-24 01:13:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16452,6 +16452,7 @@
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
+||eus.rubiconproject.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
@@ -36870,8 +36871,6 @@
 ||vinlted-pl.pay-859345.xyz^
 ||pay-id-bank.eu^
 ||olx.pay-id183413.company^
-||polska-olx.pay-id63524.top^
-||lnpost-polska.pay-id63524.top^
 ||polska-pay-olx.pay-id694375.top^
 ||olx-pl.pay-id74553.me^
 ||allegrolokalnie-polska.pay-id76664.top^
@@ -41775,6 +41774,7 @@
 ||reviewrecap.co^
 ||reviews-shop.com^
 ||revistamundomelhor.com^
+||stats.revit-content.com^
 ||demo.reviveadservermod.com^
 ||info.revizto.com^
 ||ads.revjet.com^
@@ -54716,6 +54716,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
