@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-24 01:13:24Z
+! Last Modified: 2022-03-24 06:21:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1700,6 +1700,7 @@
 ||abdulkanjo.com^
 ||abdullahturan.com^
 ||abdurantom.com^
+||data.abebooks.com^
 ||fbvbyi.abekker.ru^
 ||abeldanger.net^
 ||abellalist.com^
@@ -59907,6 +59908,9 @@
 ||suncityazbeeremoval.com^
 ||suncontract.su^
 ||assets1.suncorp.co.nz^
+||assets1.suncorp.com.au^
+||smetrics.suncorp.com.au^
+||activate.suncorp.com.au^
 ||metrics.suncorpbank.com.au^
 ||somni.sundancecatalog.com^
 ||opwcuo.sundancecatalog.com^

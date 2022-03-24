@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-24 01:13:33Z
+! Last Modified: 2022-03-24 06:21:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -41279,7 +41279,6 @@
 ||p.reuters.com^
 ||info.reutersagency.com^
 ||enterprise.rev.com^
-||mdws.revcu.com^
 ||reveal-app.com^
 ||transform.revealvalue.com^
 ||elqtracking.revenera.com^
@@ -47026,6 +47025,7 @@
 ||texturesimilar.com^
 ||textyob-upqps.info^
 ||mtoxtg.tezenis.com^
+||push.tf-cdn.net^
 ||openad.tf1.fr^
 ||openadext.tf1.fr^
 ||tfag.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-24 01:13:22Z
+! Last Modified: 2022-03-24 06:21:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22075,6 +22075,7 @@
 ||graplinsprezes.com^
 ||grarpg.pl^
 ||tr.emailing.grassavoye.com^
+||ablink.offers.grassdoor.com^
 ||graszobon.com^
 ||gratefulmodels.com^
 ||gratemena.com^
@@ -42798,6 +42799,7 @@
 ||products.ricoh.ie^
 ||itservices.ricoh.ie^
 ||application.ricoh.ie^
+||imagine.ricoh.nl^
 ||go.ricordi.co.jp^
 ||riden.network^
 ||ridepush.com^
@@ -46022,6 +46024,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
@@ -55910,7 +55913,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ae.adserver.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -57191,6 +57194,7 @@
 ||gatewayssl-azure.net.zooplus.es^
 ||adm-marketing.eng.net.zooplus.es^
 ||apidocs.viviotech.net.zooplus.es^
+||applications.mail.net.zooplus.es^
 ||beta-wwwmarketing.net.zooplus.es^
 ||applicationswebapp.net.zooplus.es^
 ||azure.elastic.swag.net.zooplus.es^
