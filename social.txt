@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-24 12:30:06Z
+! Last Modified: 2022-03-24 18:21:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2435,7 +2435,6 @@
 ||texghwwpl.agendatr.site^
 ||info.agent-v.com^
 ||marketing.agentsync.io^
-||go.agf.com^
 ||aggia.pl^
 ||aggie.com.pl^
 ||app.aggiorna-dati.com^
@@ -18155,7 +18154,6 @@
 ||smetrics.fingerhut.com^
 ||ads.fingersoft.net^
 ||ads3.fingersoft.net^
-||page.fingertip.fi^
 ||metrics.finishline.com^
 ||smetrics.finishline.com^
 ||finlay.capital^
@@ -33796,9 +33794,6 @@
 ||olxkonstosx.cyou^
 ||olxkonstosx.shop^
 ||olxkonstosx.xyz^
-||olx.olxkontosos.casa^
-||inpost.olxkontosos.casa^
-||polskapoczta.olxkontosos.casa^
 ||olx.olxkontosos.cyou^
 ||inpost.olxkontosos.cyou^
 ||olx.olxkontosos.shop^
@@ -52889,6 +52884,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

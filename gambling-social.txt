@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-24 12:30:01Z
+! Last Modified: 2022-03-24 18:20:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31132,6 +31132,9 @@
 ||mobrand.net^
 ||mobrevflwms.com^
 ||mobsfun.com^
+||adv.mobsmart.net^
+||tags.mobsmart.net^
+||prebid.mobsmart.net^
 ||adserver.mobsmith.com^
 ||cdn.mobsocmedia.com^
 ||mobstarr.com^
@@ -54239,14 +54242,13 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||eu-pn2.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
