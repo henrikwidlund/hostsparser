@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-24 06:21:29Z
+! Last Modified: 2022-03-24 12:30:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -53756,6 +53756,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn1.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -54947,6 +54948,7 @@
 ||asana.europe.management.net.zooplus.de^
 ||asana.server-management.net.zooplus.de^
 ||service-cgd2iptccmpin21.net.zooplus.de^
+||administrators.marketing.net.zooplus.de^
 ||algiers.webhotel.testbed.net.zooplus.de^
 ||api-accounting.login.ops.net.zooplus.de^
 ||api.loadbalancerbackends.net.zooplus.de^

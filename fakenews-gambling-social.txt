@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-24 06:21:14Z
+! Last Modified: 2022-03-24 12:29:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -55965,6 +55965,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
 ||xiawen.uno^
@@ -57680,6 +57681,7 @@
 ||gatewayssl-azure.net.zooplus.es^
 ||adm-marketing.eng.net.zooplus.es^
 ||apidocs.viviotech.net.zooplus.es^
+||applications.mail.net.zooplus.es^
 ||beta-wwwmarketing.net.zooplus.es^
 ||applicationswebapp.net.zooplus.es^
 ||azure.elastic.swag.net.zooplus.es^
