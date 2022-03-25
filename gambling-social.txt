@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-25 06:22:06Z
+! Last Modified: 2022-03-25 12:59:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9623,6 +9623,7 @@
 ||centrum-zamowien.pl^
 ||ad.centrum.cz^
 ||contact-update.centrum24consumer.me^
+||mlycqb.centrumkrzesel.pl^
 ||centrummarek.pl^
 ||centrummedycyny.pl^
 ||centrumnaukowe.eu^
@@ -14225,7 +14226,6 @@
 ||darekfoks.pl^
 ||daretodreamfarm.com^
 ||dqs3.darjeeling.fr^
-||hamster.darkbit.io^
 ||darkchemical.com^
 ||dc.darkhorsewine.com^
 ||darknagar.ru^
@@ -16673,7 +16673,6 @@
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
-||cdn.flashtalking.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
@@ -86887,8 +86886,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||acc.labarketing.net.zooplus.es^
-||gatewayssl-azure.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
