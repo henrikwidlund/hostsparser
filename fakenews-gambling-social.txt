@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-25 12:59:18Z
+! Last Modified: 2022-03-25 18:21:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16078,6 +16078,7 @@
 ||donationukraine.io^
 ||donbaham.com^
 ||dondolino.it^
+||ncxxek.donedeal.ie^
 ||adv.donejty.pl^
 ||mautic.dongdomedia.vn^
 ||dongnaitw.com^
@@ -23057,7 +23058,6 @@
 ||ad.hankooki.com^
 ||cname-ade.hankoya.com^
 ||hanksly.pl^
-||refer.hannaandersson.com^
 ||hannawolska1.co.pl^
 ||hanplayer.com^
 ||dil.hansel.io^
@@ -89060,6 +89060,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||apache.ssl.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

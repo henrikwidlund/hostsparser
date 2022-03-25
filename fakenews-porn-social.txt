@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-25 12:59:21Z
+! Last Modified: 2022-03-25 18:21:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5231,6 +5231,8 @@
 ||answerhub.com^
 ||a.answers.com^
 ||snip.answers.com^
+||engage.ansys.com^
+||smetrics.ansys.com^
 ||ant.com^
 ||antalya.ru^
 ||antares.trade^
@@ -51839,7 +51841,6 @@
 ||powtarzasie.info^
 ||powtowa.xyz^
 ||pluto.r.powuta.com^
-||ads.powweb.com^
 ||poyents.net^
 ||poziomzrozumiale.site^
 ||poznaj3miasto.pl^
