@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-24 18:21:02Z
+! Last Modified: 2022-03-25 01:10:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31548,7 +31548,6 @@
 ||adserver.ision.de^
 ||isistech.com.tw^
 ||isitmymom.com^
-||pardot.islacanela.es^
 ||islamipedia.org^
 ||islamiyaat.com^
 ||islandmob.com^
@@ -69822,9 +69821,8 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||data.mistat.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||zeus.ad.intl.xiaomi.com^
-||sdkconfig.ad.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
 ||xiawen.uno^
@@ -70927,7 +70925,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||eu-pn4.adserver.yahoo.com^
+||global.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -72456,6 +72454,7 @@
 ||futterbarowa.origin.net.zooplus.de^
 ||getter-priv-decsr11.net.zooplus.de^
 ||parcel-cdnphp-csr31.net.zooplus.de^
+||admindata.cloudfront.net.zooplus.de^
 ||administrators.csr41.net.zooplus.de^
 ||admins-marketing.ext.net.zooplus.de^
 ||api.disabled.paywall.net.zooplus.de^

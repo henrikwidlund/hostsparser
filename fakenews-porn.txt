@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-24 18:20:50Z
+! Last Modified: 2022-03-25 01:10:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6330,7 +6330,6 @@
 ||content.attentia.be^
 ||content.kmo.attentia.be^
 ||attention.porn^
-||api.attentivemobile.com^
 ||log.majyw.atthost24.pl^
 ||ma.attollo.se^
 ||attone.co.jp^
@@ -6538,7 +6537,6 @@
 ||qkhhjm.autoscout24.nl^
 ||adobe.autoscout24.pl^
 ||mmwlwm.autoscout24.pl^
-||adobe.autoscout24.ro^
 ||adobe.autoscout24.ru^
 ||adobe.autoscout24.se^
 ||autoservisluka.com^
@@ -30633,7 +30631,6 @@
 ||stat.ijinshan.com^
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
-||dl.sj.ijinshan.com^
 ||keyserver.ijinshan.com^
 ||ikanmaskoki.co.vu^
 ||ikbox.org^
@@ -73043,10 +73040,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||it.adserver.yahoo.com^
+||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -74195,6 +74193,7 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||app.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||zingknowev.tk^
 ||zingyporntube.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-24 18:21:03Z
+! Last Modified: 2022-03-25 01:10:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1323,8 +1323,6 @@
 ||abraa-sklep.pl^
 ||abrahamschildren.com^
 ||abrameble-sklep.pl^
-||track.abrdn.com^
-||tracking.abrdn.com^
 ||www2.abrfid.com^
 ||web.abrigo.com^
 ||abruzzoinitaly.co.uk^
@@ -2435,6 +2433,7 @@
 ||texghwwpl.agendatr.site^
 ||info.agent-v.com^
 ||marketing.agentsync.io^
+||go.agf.com^
 ||aggia.pl^
 ||aggie.com.pl^
 ||app.aggiorna-dati.com^
@@ -12435,7 +12434,6 @@
 ||text.convenzioniaziendali.it^
 ||tech.convergd.com^
 ||converge-digital.com^
-||act.convergencetraining.com^
 ||www2.convergint.com^
 ||conversantmedia.com^
 ||psbiaf.converse.com^
@@ -18154,6 +18152,7 @@
 ||smetrics.fingerhut.com^
 ||ads.fingersoft.net^
 ||ads3.fingersoft.net^
+||page.fingertip.fi^
 ||metrics.finishline.com^
 ||smetrics.finishline.com^
 ||finlay.capital^
@@ -33794,6 +33793,9 @@
 ||olxkonstosx.cyou^
 ||olxkonstosx.shop^
 ||olxkonstosx.xyz^
+||olx.olxkontosos.casa^
+||inpost.olxkontosos.casa^
+||polskapoczta.olxkontosos.casa^
 ||olx.olxkontosos.cyou^
 ||inpost.olxkontosos.cyou^
 ||olx.olxkontosos.shop^
@@ -44341,7 +44343,6 @@
 ||streamboox.com^
 ||streamcornmuninty.me^
 ||streamen.com^
-||dog.streameon.com^
 ||cmg.streamguys1.com^
 ||ad-im-cmg.streamguys1.com^
 ||streamimovies.com^
@@ -52884,7 +52885,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
