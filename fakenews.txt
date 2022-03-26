@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-26 12:27:00Z
+! Last Modified: 2022-03-26 18:19:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -52646,7 +52646,6 @@
 ||ssc.vmware.com^
 ||enablement.vmware.com^
 ||vnet.cn^
-||oss.stats.vng.com.vn^
 ||stats.vngameden.com^
 ||staging.vngood.com.au^
 ||vnotrk.com^

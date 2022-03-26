@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-26 12:26:44Z
+! Last Modified: 2022-03-26 18:19:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3439,6 +3439,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||s.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -38750,6 +38751,7 @@
 ||ads.tripod.lycos.de^
 ||fe.lea.lycos.es^
 ||ads.tripod.lycos.es^
+||ads.multimania.lycos.fr^
 ||utenti.lycos.it^
 ||ads.tripod.lycos.it^
 ||ads.tripod.lycos.nl^
@@ -44256,6 +44258,8 @@
 ||neighboursmom.com^
 ||p.neil.gg^
 ||buzz.neilsonmarketing.com^
+||om.neimanmarcus.com^
+||oms.neimanmarcus.com^
 ||neindiananews.com^
 ||neiowanews.com^
 ||nekansascitynews.com^
@@ -59408,6 +59412,7 @@
 ||sieumup.net^
 ||sifazen.com^
 ||prod.sift.co^
+||sgbid.prod.sift.co^
 ||sift-campaign-creatives.sift.co^
 ||ads.sift.co.uk^
 ||dc.sify.com^

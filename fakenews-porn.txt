@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-26 12:26:56Z
+! Last Modified: 2022-03-26 18:19:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25595,8 +25595,6 @@
 ||metrics.gapcanada.ca^
 ||securemetrics.gapcanada.ca^
 ||gapemaster.com^
-||metrics.gapfactory.com^
-||securemetrics.gapfactory.com^
 ||gapingangels.com^
 ||protection.gapolice.com^
 ||gar-tech.com^

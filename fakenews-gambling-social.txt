@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-26 12:26:50Z
+! Last Modified: 2022-03-26 18:19:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35748,7 +35748,6 @@
 ||nonla.hu^
 ||nonlandownerstrasher.com^
 ||nonparticipantsentombed.info^
-||camel.nonpopularopinion.com^
 ||stats.nonprofit.foundation^
 ||gamefowl.nonprofit.foundation^
 ||nonstopvideos.pl^
@@ -37155,6 +37154,8 @@
 ||onetpolska.pl^
 ||onetpomoc.eu^
 ||li.onetravel.com^
+||info.onetrust.com^
+||geolocation.onetrust.com^
 ||info.onetrustgrc.com^
 ||info.onetrustpro.com^
 ||campaign.onetrustpro.com^
