@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-26 06:20:20Z
+! Last Modified: 2022-03-26 12:27:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14675,6 +14675,7 @@
 ||deryl.pl^
 ||derzhava.click^
 ||woowjy.desa.com.tr^
+||porpoise.deschtimes.com^
 ||desdeelring.com^
 ||marketing.desertcart.com^
 ||cookie.solutions.desertfinancial.com^
@@ -31656,7 +31657,6 @@
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
-||api.df.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
 ||ad.mobadme.jp^
@@ -53170,6 +53170,7 @@
 ||in.webcounter.cc^
 ||webcounter.com^
 ||webcounter.cz^
+||om.webcrawler.com^
 ||sprintgr.webd.pl^
 ||dworzec2.webd.pro^
 ||onet1111.webd.pro^

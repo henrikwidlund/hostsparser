@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-26 06:20:02Z
+! Last Modified: 2022-03-26 12:26:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24992,6 +24992,7 @@
 ||a.foxsportskansascity.com^
 ||a.foxsportslocal.com^
 ||a.foxsportsmidwest.com^
+||a.foxsportsnorth.com^
 ||a.foxsportsohio.com^
 ||a.foxsportssandiego.com^
 ||a.foxsportssouth.com^
@@ -73376,7 +73377,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -74488,7 +74488,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||in.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
