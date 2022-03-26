@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-26 01:08:38Z
+! Last Modified: 2022-03-26 06:20:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13326,6 +13326,7 @@
 ||crazywinnings.com^
 ||marketing.crbcunninghams.co.uk^
 ||crca.pl^
+||info.crd.com^
 ||albatross.creacoon.com^
 ||go.creaform3d.com^
 ||creambmp.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-26 01:08:51Z
+! Last Modified: 2022-03-26 06:20:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16102,6 +16102,7 @@
 ||stickyadstv.com.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
+||tags.bluekai.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
@@ -35937,6 +35938,7 @@
 ||deeplinks.padmapper.com^
 ||padronismhepaticae.com^
 ||padsdel.com^
+||x.padsquad.com^
 ||digital.pagar.me^
 ||dpd-info.page-delivery.xyz^
 ||page-host.net^
