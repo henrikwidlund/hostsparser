@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-25 18:21:35Z
+! Last Modified: 2022-03-26 01:08:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -858,6 +858,7 @@
 ||engage.3m.com.ar^
 ||engage.3m.com.au^
 ||engage.3m.com.bo^
+||engage.3m.com.br^
 ||engage.3m.com.by^
 ||engage.3m.com.cn^
 ||engage.3m.com.co^
@@ -39669,7 +39670,6 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
-||api.verify.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^
@@ -40621,7 +40621,6 @@
 ||mobileleads.msn.com^
 ||adsyndication.msn.com^
 ||advertising.jp.msn.com^
-||images.adsyndication.msn.com^
 ||msn1.com^
 ||aamt.msnbc.com^
 ||analytics.msnbc.com^
@@ -50978,6 +50977,7 @@
 ||privatehdcams.com^
 ||privatehomeclips.com^
 ||privatelivewebcams.com^
+||ads.privatemedia.co^
 ||edm.privatemedia.com.au^
 ||privatemilfpics.com^
 ||privatemomsvideos.com^
@@ -58474,6 +58474,8 @@
 ||squirtingorpissing.com^
 ||srandel.com^
 ||big.srax.com^
+||nav.srcdn.xyz^
+||free.srcdn.xyz^
 ||go.sre-group.co.jp^
 ||go.srectrade.com^
 ||srednia802.rest^
@@ -103945,7 +103947,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||elastic.org.frontresetdatassl.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
