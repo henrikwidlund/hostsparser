@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-27 01:17:28Z
+! Last Modified: 2022-03-27 06:20:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2740,6 +2740,7 @@
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
+||prebid-server.rubiconproject.net.akadns.net^
 ||akaflieg-sb.de^
 ||akama.com^
 ||a50.g2.akamai.net^
@@ -14570,7 +14571,6 @@
 ||denverguardian.com^
 ||a8.denwa-hikari.com^
 ||denyio.com^
-||metrics.depakoteer.com^
 ||departed.co^
 ||departedmedia.info^
 ||depay2021.cyou^
@@ -55659,7 +55659,6 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
-||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -56109,7 +56108,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -87320,6 +87318,7 @@
 ||v3-demoing.net.zooplus.fr^
 ||1eo0ozlzntn.net.zooplus.fr^
 ||analysispro.net.zooplus.fr^
+||ci.security.net.zooplus.fr^
 ||demoing-acc.net.zooplus.fr^
 ||disableding.net.zooplus.fr^
 ||monetiwebgh.net.zooplus.fr^

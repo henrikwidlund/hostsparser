@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-27 01:17:37Z
+! Last Modified: 2022-03-27 06:20:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -27955,8 +27955,6 @@
 ||om.healthgrades.com^
 ||hrm.healthgrades.com^
 ||som.healthgrades.com^
-||edward.hrm.healthgrades.com^
-||genesishealth.hrm.healthgrades.com^
 ||tracking.healthitanalytics.com^
 ||tracking.healthitsecurity.com^
 ||healthknowledge.my^
@@ -72377,11 +72375,6 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
-||developlegacy.net.zooplus.com^
-||firewall.proxy.net.zooplus.com^
-||apiserver.partner.net.zooplus.com^
-||oster-schermaschine.net.zooplus.com^
-||acc-repository-legacy.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||2.net.zooplus.de^
