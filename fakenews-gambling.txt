@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-26 18:19:37Z
+! Last Modified: 2022-03-27 01:17:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8212,6 +8212,7 @@
 ||brikee.com^
 ||www2.brill.com^
 ||net.brillen.at^
+||marketing.net.brillen.at^
 ||marketing.net.brillen.com^
 ||marketing.net.brillen.pl^
 ||in.brilliant.org^
@@ -18822,6 +18823,7 @@
 ||faanuus.com^
 ||faber.de^
 ||fabfloors.com^
+||stats.fabiofranchino.com^
 ||fabiotv.com^
 ||links.fabletics.co.uk^
 ||links.fabletics.com^
@@ -46310,7 +46312,6 @@
 ||t.silvinst.com^
 ||stats.sim.de^
 ||go.simco-ion.com^
-||s.simcoe.com^
 ||go.simeio.com^
 ||marketing.simeiosolutions.com^
 ||go.simetry.com^

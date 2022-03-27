@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-26 18:19:39Z
+! Last Modified: 2022-03-27 01:17:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3705,6 +3705,7 @@
 ||aljazeera-channel.com^
 ||tags.aljazeera.com^
 ||tags.aljazeera.net^
+||smetrics.alka.dk^
 ||info.alkami.com^
 ||smetrics.alkamobil.dk^
 ||alkily.com^
@@ -73187,6 +73188,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -104745,7 +104747,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||elastic.org.apache.frontpagessl.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

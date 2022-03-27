@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-26 18:19:51Z
+! Last Modified: 2022-03-27 01:17:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32357,6 +32357,7 @@
 ||arc1.msn.com^
 ||popup.msn.com^
 ||rmads.msn.com^
+||a.rad.msn.com^
 ||ads.eu.msn.com^
 ||c.latam.msn.com^
 ||preview.msn.com^
@@ -86399,8 +86400,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||beta-wwwmarketing.net.zooplus.es^
-||azure.elastic.swag.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
@@ -86918,7 +86917,6 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||assist.int.net.zooplus.nl^
 ||dii1.zooplus.no^
 ||dii2.zooplus.no^
 ||dii1.zooplus.pl^
