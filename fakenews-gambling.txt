@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-27 06:20:15Z
+! Last Modified: 2022-03-27 12:27:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34774,7 +34774,6 @@
 ||go.net2phone.ca^
 ||netadclick.com^
 ||netaffiliation.com^
-||aktualizacja-platnosci.netafix-pl.com^
 ||sprawdz-identyfikacje.netafix-pl.digital^
 ||aktualizacja-platnosci.netafix-pl.me^
 ||aktualizacja-platnosci.netafix-pl.net^
@@ -46482,6 +46481,7 @@
 ||analytics.sixfigureswine.com^
 ||sixsigmatraffic.com^
 ||analytics.sixt.ch^
+||analytics.sixt.cn^
 ||twjobq.sixt.com^
 ||analytics.sixt.com^
 ||twjobq.sixt.de^
@@ -88572,6 +88572,8 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||cmrds.actionfrancaise.net.zooplus.es^
+||elastic.ops.client.org.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

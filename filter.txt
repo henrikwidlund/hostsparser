@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-27 06:20:08Z
+! Last Modified: 2022-03-27 12:27:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8334,6 +8334,7 @@
 ||betcatalinasports.com^
 ||betcave.com^
 ||betcc.com^
+||promo.betcity.net^
 ||betcityru.com^
 ||betclic.com^
 ||betclic.pl^
@@ -28244,6 +28245,7 @@
 ||adx.groupstate.com^
 ||grouptrot.xyz^
 ||information.grovepointfinancial.com^
+||go.grow-up1.co.jp^
 ||grow1maid.com^
 ||marketing.growbinmaster.com^
 ||growhackr.com^
@@ -75826,6 +75828,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
