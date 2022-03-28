@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-28 12:30:18Z
+! Last Modified: 2022-03-28 18:20:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9577,7 +9577,6 @@
 ||bluenationreview.com^
 ||hobbes.blueoxtech.com^
 ||blizzard.blueoxtech.com^
-||go.blueplanet-works.com^
 ||blueporns.com^
 ||blueprintglobalpartners.com^
 ||adserver.bluereactor.com^
@@ -19433,6 +19432,8 @@
 ||mail.dolce-gusto.ie^
 ||doll9jiva.com^
 ||metrics.dollar.com^
+||metrics.dollargeneral.com^
+||analytics-secure.dollargeneral.com^
 ||dollarrentcar.com^
 ||dollfuck.top^
 ||dolly-land.ir^
@@ -59403,7 +59404,6 @@
 ||pabgey.siepomaga.pl^
 ||sierrameta.net^
 ||tracking.sierrawireless.com^
-||d.t.sieu-viet.com^
 ||sieumup.net^
 ||sifazen.com^
 ||prod.sift.co^
@@ -74715,7 +74715,6 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||diagnosis.ad.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
 ||xiawen.uno^

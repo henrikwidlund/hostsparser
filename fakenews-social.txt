@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-28 12:30:29Z
+! Last Modified: 2022-03-28 18:20:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9775,7 +9775,6 @@
 ||jtyutq.chaussures.fr^
 ||chaveiroemgoiania.com^
 ||chayotesdealtura.com^
-||cl.chaytonloan.com^
 ||chcemyschudnac.pl^
 ||ads.cheabit.com^
 ||cheapapartmentsaroundme.com^
@@ -16713,7 +16712,6 @@
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ds-www.addthis.com.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -31942,6 +31940,7 @@
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
+||api.df.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
 ||ad.mobadme.jp^
