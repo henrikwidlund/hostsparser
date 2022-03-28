@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-28 01:22:58Z
+! Last Modified: 2022-03-28 06:21:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2333,8 +2333,6 @@
 ||adwordsecommerce.com.br^
 ||adworldnetwork.com^
 ||adworx.nl^
-||d.adx.io^
-||s.adx.io^
 ||cf.adxcel.com^
 ||hbps.adxcg.net^
 ||hbarxs.adxcg.net^
@@ -38909,8 +38907,6 @@
 ||inpost.pl-savedpay.icu^
 ||pl-savemoney.xyz^
 ||inpost.pl-saveorder.life^
-||olx.pl-saveorder.work^
-||inpost.pl-saveorder.work^
 ||inpost.pl-savepayout.work^
 ||olx.pl-savepayouts.shop^
 ||inpost.pl-savepayouts.shop^
@@ -56445,7 +56441,6 @@
 ||logger.yp.ca^
 ||info.businesscentre.yp.ca^
 ||ypmate.com^
-||communications.ypo.org^
 ||inpostpl.yqpo81ncal99.cc^
 ||yrals.com^
 ||clownfish.yrgo.se^

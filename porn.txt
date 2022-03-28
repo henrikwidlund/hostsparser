@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-28 01:23:11Z
+! Last Modified: 2022-03-28 06:22:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2894,8 +2894,6 @@
 ||adwordsecommerce.com.br^
 ||adworldnetwork.com^
 ||adworx.nl^
-||d.adx.io^
-||s.adx.io^
 ||cf.adxcel.com^
 ||hbps.adxcg.net^
 ||hbarxs.adxcg.net^
@@ -5808,6 +5806,7 @@
 ||sstats.asadventure.com^
 ||sstats.asadventure.fr^
 ||sstats.asadventure.lu^
+||sstats.asadventure.nl^
 ||a8clk.asahi-net.or.jp^
 ||adnet.asahi.com^
 ||info.asahigloval.co.jp^
@@ -35659,9 +35658,6 @@
 ||lfkommersiella.se^
 ||pywiia.lfmall.co.kr^
 ||lfscpttracking.com^
-||soxnwz.lg.com^
-||tracking.lg.com^
-||omniture.lg.com^
 ||pages.lg.com.br^
 ||ibis.lgappstv.com^
 ||lgayanimalsexl.com^
@@ -71297,7 +71293,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -72410,7 +72405,6 @@
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

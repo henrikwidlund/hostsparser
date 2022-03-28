@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-28 01:22:57Z
+! Last Modified: 2022-03-28 06:21:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2387,8 +2387,6 @@
 ||adwordsecommerce.com.br^
 ||adworldnetwork.com^
 ||adworx.nl^
-||d.adx.io^
-||s.adx.io^
 ||cf.adxcel.com^
 ||hbps.adxcg.net^
 ||hbarxs.adxcg.net^
@@ -26007,7 +26005,6 @@
 ||ismailersoz.com^
 ||aas.ismet.kz^
 ||go.isminc.com^
-||info.isnetworld.com^
 ||ads.isoftmarketing.com^
 ||banman.isoftmarketing.com^
 ||banners.isoftmarketing.com^

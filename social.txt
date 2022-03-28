@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-28 01:23:13Z
+! Last Modified: 2022-03-28 06:22:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2312,8 +2312,6 @@
 ||adwordsecommerce.com.br^
 ||adworldnetwork.com^
 ||adworx.nl^
-||d.adx.io^
-||s.adx.io^
 ||cf.adxcel.com^
 ||hbps.adxcg.net^
 ||hbarxs.adxcg.net^
@@ -9576,6 +9574,8 @@
 ||stats.chronoslabs.net^
 ||chrs-mln-krs.com^
 ||chrysalis.net.in^
+||metrics.chrysler.com^
+||smetrics.chrysler.com^
 ||chuansong.buzz^
 ||chubaka.org^
 ||chuckfaganco.com^
@@ -55546,6 +55546,7 @@
 ||ctlapac.net.zooplus.de^
 ||cvs-ctl.net.zooplus.de^
 ||cvsapis.net.zooplus.de^
+||data.ci.net.zooplus.de^
 ||data.hw.net.zooplus.de^
 ||dataapi.net.zooplus.de^
 ||decsnet.net.zooplus.de^
@@ -85612,6 +85613,7 @@
 ||emeamonetiweb.net.zooplus.fr^
 ||europeschools.net.zooplus.fr^
 ||mail-nautilus.net.zooplus.fr^
+||promo.demoing.net.zooplus.fr^
 ||ci-application.net.zooplus.fr^
 ||ci-xe58b9ijigq.net.zooplus.fr^
 ||ci.nefkdclgi7b.net.zooplus.fr^
