@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-28 06:21:42Z
+! Last Modified: 2022-03-28 12:30:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16194,6 +16194,8 @@
 ||conseils.dotbase.com^
 ||dotcomsecrets.com^
 ||analytics.home.dotcs.me^
+||adserve.doteasy.com^
+||pbg2cs01.doteasy.com^
 ||go.dotmatics.com^
 ||adserver.dotmusic.com^
 ||a8cv.dotpro.tokyo^
@@ -17132,6 +17134,7 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
+||t.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -17167,7 +17170,6 @@
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ds-www.addthis.com.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -30827,7 +30829,6 @@
 ||mail-promise.pl^
 ||mail-vtg.com^
 ||ads.mail.bg^
-||ad.mail.ru^
 ||top.mail.ru^
 ||top5.mail.ru^
 ||1l-view.mail.ru^

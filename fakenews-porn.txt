@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-28 06:21:47Z
+! Last Modified: 2022-03-28 12:30:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38174,7 +38174,6 @@
 ||mail-promise.pl^
 ||mail-vtg.com^
 ||ads.mail.bg^
-||ad.mail.ru^
 ||top.mail.ru^
 ||top5.mail.ru^
 ||1l-view.mail.ru^
@@ -39626,7 +39625,6 @@
 ||meigue.com^
 ||sstats.meijer.com^
 ||go.meiko-trading.co.jp^
-||tr.news.meillandrichardier.com^
 ||tr.newsletter.meilleurmobile.com^
 ||collect.meilleurtaux.com^
 ||meiluziai.info^
@@ -53336,6 +53334,7 @@
 ||ad.qq.com^
 ||fw.qq.com^
 ||rh.qq.com^
+||c.l.qq.com^
 ||rs1.qq.com^
 ||rs2.qq.com^
 ||msdk.qq.com^
@@ -73417,6 +73416,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^

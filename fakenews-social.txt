@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-28 06:21:49Z
+! Last Modified: 2022-03-28 12:30:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16713,6 +16713,7 @@
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ds-www.addthis.com.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -26005,6 +26006,7 @@
 ||ismailersoz.com^
 ||aas.ismet.kz^
 ||go.isminc.com^
+||info.isnetworld.com^
 ||ads.isoftmarketing.com^
 ||banman.isoftmarketing.com^
 ||banners.isoftmarketing.com^
@@ -30043,7 +30045,6 @@
 ||mail-promise.pl^
 ||mail-vtg.com^
 ||ads.mail.bg^
-||ad.mail.ru^
 ||top.mail.ru^
 ||top5.mail.ru^
 ||1l-view.mail.ru^

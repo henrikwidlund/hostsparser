@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-28 06:21:45Z
+! Last Modified: 2022-03-28 12:30:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38272,7 +38272,6 @@
 ||mail-promise.pl^
 ||mail-vtg.com^
 ||ads.mail.bg^
-||ad.mail.ru^
 ||top.mail.ru^
 ||top5.mail.ru^
 ||1l-view.mail.ru^
@@ -67163,7 +67162,6 @@
 ||m.uzit.co.il^
 ||uznanie24.fyi^
 ||uznanie24.live^
-||accpay-kontontf.uztvkont.co.pl^
 ||uzupelniaj-dane.ml^
 ||uzupelniajacawgore.site^
 ||uzupelniajdane.ga^
@@ -73186,10 +73184,12 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

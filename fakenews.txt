@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-28 06:21:51Z
+! Last Modified: 2022-03-28 12:30:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29892,7 +29892,6 @@
 ||mail-promise.pl^
 ||mail-vtg.com^
 ||ads.mail.bg^
-||ad.mail.ru^
 ||top.mail.ru^
 ||top5.mail.ru^
 ||1l-view.mail.ru^
@@ -38907,6 +38906,8 @@
 ||inpost.pl-savedpay.icu^
 ||pl-savemoney.xyz^
 ||inpost.pl-saveorder.life^
+||olx.pl-saveorder.work^
+||inpost.pl-saveorder.work^
 ||inpost.pl-savepayout.work^
 ||olx.pl-savepayouts.shop^
 ||inpost.pl-savepayouts.shop^
@@ -56441,6 +56442,7 @@
 ||logger.yp.ca^
 ||info.businesscentre.yp.ca^
 ||ypmate.com^
+||communications.ypo.org^
 ||inpostpl.yqpo81ncal99.cc^
 ||yrals.com^
 ||clownfish.yrgo.se^
@@ -87483,6 +87485,7 @@
 ||d1keranlvjp6yg-demoing.net.zooplus.fr^
 ||d2eeipcrcdle6monetiweb.net.zooplus.fr^
 ||d2wui234q47rhe-demoing.net.zooplus.fr^
+||d3btvgynhtgdi4.demoing.net.zooplus.fr^
 ||delr0oeek8lybmonetiweb.net.zooplus.fr^
 ||demoing-d19w7ujrisjplz.net.zooplus.fr^
 ||demoing-d1p7h8ec9bz33s.net.zooplus.fr^

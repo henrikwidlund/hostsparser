@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-28 06:21:43Z
+! Last Modified: 2022-03-28 12:30:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26596,6 +26596,7 @@
 ||itmarketngue2.info^
 ||fc.itmedia.co.jp^
 ||go.itmedia.co.jp^
+||dlv.itmedia.jp^
 ||mautic.itnavi.com.vn^
 ||ij.itojuku.co.jp^
 ||workstyle.itoki.jp^
@@ -30729,7 +30730,6 @@
 ||mail-promise.pl^
 ||mail-vtg.com^
 ||ads.mail.bg^
-||ad.mail.ru^
 ||top.mail.ru^
 ||top5.mail.ru^
 ||1l-view.mail.ru^

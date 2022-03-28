@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-28 06:21:56Z
+! Last Modified: 2022-03-28 12:30:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24536,6 +24536,7 @@
 ||782b.in-group.xyz^
 ||in-post-senddata.xyz^
 ||in-post.su^
+||go.in-situ.com^
 ||bichtf.in-themode.com^
 ||in-weather.com^
 ||pover.in.net^
@@ -29887,7 +29888,6 @@
 ||mail-promise.pl^
 ||mail-vtg.com^
 ||ads.mail.bg^
-||ad.mail.ru^
 ||top.mail.ru^
 ||top5.mail.ru^
 ||1l-view.mail.ru^
