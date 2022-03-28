@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-27 18:19:40Z
+! Last Modified: 2022-03-28 01:23:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5808,7 +5808,6 @@
 ||sstats.asadventure.com^
 ||sstats.asadventure.fr^
 ||sstats.asadventure.lu^
-||sstats.asadventure.nl^
 ||a8clk.asahi-net.or.jp^
 ||adnet.asahi.com^
 ||info.asahigloval.co.jp^
@@ -45896,6 +45895,8 @@
 ||ornovosummer.space^
 ||go.oroinc.com^
 ||marketing.orolia.com^
+||s.oroll.com^
+||static.oroll.com^
 ||nmo1.orpi.com^
 ||orsaybielizna.com^
 ||orsm.net^
@@ -71296,6 +71297,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -72408,6 +72410,7 @@
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

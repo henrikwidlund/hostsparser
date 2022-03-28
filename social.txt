@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-27 18:19:41Z
+! Last Modified: 2022-03-28 01:23:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9576,8 +9576,6 @@
 ||stats.chronoslabs.net^
 ||chrs-mln-krs.com^
 ||chrysalis.net.in^
-||metrics.chrysler.com^
-||smetrics.chrysler.com^
 ||chuansong.buzz^
 ||chubaka.org^
 ||chuckfaganco.com^
@@ -47865,6 +47863,10 @@
 ||t.ticketatlantic.com^
 ||app.ticketatlantic.com^
 ||info.ticketbud.com^
+||metrics.ticketmaster.com^
+||smetrics.ticketmaster.com^
+||click2.email.ticketmaster.com^
+||ads.as4x.tmcs.ticketmaster.com^
 ||tickets.pl^
 ||glxdlf.tickets.ua^
 ||smetrics.ticketsatwork.com^

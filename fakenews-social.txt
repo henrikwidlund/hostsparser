@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-27 18:19:28Z
+! Last Modified: 2022-03-28 01:22:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17474,6 +17474,7 @@
 ||lxmnrl.eobuv.sk^
 ||fyccsw.eobuwie.com.pl^
 ||eom-nv.com^
+||email.eomega.org^
 ||planet.eon.net^
 ||a8.eonet.jp^
 ||wa.eonline.com^
@@ -57825,7 +57826,6 @@
 ||csr12lb.net.zooplus.de^
 ||csr1prd.net.zooplus.de^
 ||csraws1.net.zooplus.de^
-||ctl.app.net.zooplus.de^
 ||ctlapac.net.zooplus.de^
 ||cvs-ctl.net.zooplus.de^
 ||cvsapis.net.zooplus.de^
