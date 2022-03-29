@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-29 06:22:13Z
+! Last Modified: 2022-03-29 12:32:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2704,7 +2704,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||ag.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -52297,6 +52296,8 @@
 ||webrobi.pl^
 ||webs-up.com^
 ||info.webscale.com^
+||is2.websearch.com^
+||ads.websearch.com^
 ||webanalyticsssl.websense.com^
 ||webanalyticsnossl.websense.com^
 ||webseoanalytics.com^
@@ -85521,7 +85522,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||cust01-cucm-sub-06-cl6.int.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-29 06:22:00Z
+! Last Modified: 2022-03-29 12:32:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38620,6 +38620,7 @@
 ||pixelgame.pl^
 ||broadcast.piximedia.fr^
 ||ads.pixiq.com^
+||ocelot.pixlwebs.nl^
 ||ahhrtt.pixnet.net^
 ||piz7ohhujogi.com^
 ||stats.pizzapizza.io^
@@ -56100,6 +56101,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn1.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -57257,6 +57259,7 @@
 ||api.aws.net.zooplus.de^
 ||api.cms.net.zooplus.de^
 ||api.lax.net.zooplus.de^
+||api.net.net.zooplus.de^
 ||api.old.net.zooplus.de^
 ||api.org.net.zooplus.de^
 ||apislab.net.zooplus.de^

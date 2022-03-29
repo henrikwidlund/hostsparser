@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-29 06:21:52Z
+! Last Modified: 2022-03-29 12:32:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28807,8 +28807,6 @@
 ||emarketing.landisgyr.com^
 ||caribou.landlordsguild.com^
 ||landmarkbahrain.com^
-||metrics.landolakes.com^
-||smetrics.landolakes.com^
 ||smetrics.landolakesinc.com^
 ||extra.landorandfitch.com^
 ||landrypost.com^
@@ -33389,6 +33387,7 @@
 ||arc1.msn.com^
 ||popup.msn.com^
 ||rmads.msn.com^
+||a.ads1.msn.com^
 ||ads.eu.msn.com^
 ||c.latam.msn.com^
 ||preview.msn.com^

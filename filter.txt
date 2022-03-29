@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-29 06:21:45Z
+! Last Modified: 2022-03-29 12:31:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -47292,14 +47292,6 @@
 ||onet-wydarzenia.xyz^
 ||onet-wydarzenie.xyz^
 ||onet-zamosc.xyz^
-||ds.onet.pl^
-||banki.onet.pl^
-||boksy.onet.pl^
-||novem.onet.pl^
-||banery.onet.pl^
-||reklama.onet.pl^
-||boksy.dir.onet.pl^
-||republika.onet.pl^
 ||onet24.live^
 ||wwv.onetad.com^
 ||go.onetadano.com^
@@ -60578,6 +60570,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||i.newssuite.sony.net^
 ||smetrics.sony.pl^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
