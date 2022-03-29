@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-29 01:17:41Z
+! Last Modified: 2022-03-29 06:21:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -27520,8 +27520,6 @@
 ||jvzoo.com^
 ||jwi3ofp9gpgu8e9x9.xyz^
 ||info.jwpepper.com^
-||info.jwplayer.com^
-||entitlements.jwplayer.com^
 ||g.jwpsrv.com^
 ||h5.jxjz570.xyz^
 ||jxliu.com^
@@ -52491,6 +52489,7 @@
 ||twist-kompromis.site^
 ||promo.twistyscash.com^
 ||twitchy.com^
+||adserver.twitpic.com^
 ||twitter.cm^
 ||twitter.com^
 ||twittercounter.com^
@@ -57977,6 +57976,7 @@
 ||yellowstonetimes.com^
 ||yellowstudio.pl^
 ||stat.yellowtracker.com^
+||simg.yemeksepeti.com^
 ||yepads.com^
 ||xml.yepmedia.com^
 ||web.info.yeppon.it^

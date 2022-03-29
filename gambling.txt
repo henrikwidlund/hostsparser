@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-29 01:17:57Z
+! Last Modified: 2022-03-29 06:22:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8935,6 +8935,8 @@
 ||caragudigital.com.mx^
 ||caramail.com^
 ||carambaba.com^
+||sdc.caranddriver.com^
+||metrics.caranddriver.com^
 ||caraopweveyo.com^
 ||carasalegres.org^
 ||adbmetrics.caravantur.eus^
@@ -44697,7 +44699,6 @@
 ||ad.simgames.net^
 ||haddock.simgenie.app^
 ||metrics.similac.com.tr^
-||go.similarweb.com^
 ||choose.simione.com^
 ||simon-31.com^
 ||pardot.simon-hegele.com^

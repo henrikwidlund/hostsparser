@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-29 01:17:48Z
+! Last Modified: 2022-03-29 06:21:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3542,7 +3542,6 @@
 ||go.amazonsellerservices.com^
 ||banner.ambercoastcasino.com^
 ||smetrics.ambetterhealth.com^
-||smetrics.ambetterofillinois.com^
 ||info.ambientbp.com^
 ||te.ambria.de^
 ||ambrosiaenterprise.biz^
@@ -12406,8 +12405,6 @@
 ||d.cntv.cn^
 ||cnw-offers.live^
 ||co2stats.com^
-||smetrics.coach.com^
-||analytics.coach.com^
 ||coachellatoday.com^
 ||metrics.coachfactory.com^
 ||smetrics.coachfactory.com^
