@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-29 12:31:56Z
+! Last Modified: 2022-03-29 18:20:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -47292,6 +47292,14 @@
 ||onet-wydarzenia.xyz^
 ||onet-wydarzenie.xyz^
 ||onet-zamosc.xyz^
+||ds.onet.pl^
+||banki.onet.pl^
+||boksy.onet.pl^
+||novem.onet.pl^
+||banery.onet.pl^
+||reklama.onet.pl^
+||boksy.dir.onet.pl^
+||republika.onet.pl^
 ||onet24.live^
 ||wwv.onetad.com^
 ||go.onetadano.com^
@@ -60570,7 +60578,6 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
-||i.newssuite.sony.net^
 ||smetrics.sony.pl^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
@@ -74707,6 +74714,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -75817,7 +75825,9 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
+||ca.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

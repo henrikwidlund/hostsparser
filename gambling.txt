@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-29 12:32:21Z
+! Last Modified: 2022-03-29 18:20:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4129,8 +4129,6 @@
 ||tracking.apptrackerlink.com^
 ||apptrader.com^
 ||appupstarttech.online^
-||update-paymentnow.appverident.co.pl^
-||informacja-ver-platnosci.appverident.co.pl^
 ||appwheeldatatech.online^
 ||appyaviator.com^
 ||aadata.april-international.com^
@@ -46226,7 +46224,6 @@
 ||pages.ssi-schaefer.com^
 ||campaigns.ssi-schaefer.com^
 ||ssl-cert.pl^
-||fem-staffservice.ssl-lolipop.jp^
 ||ssl-profile.pl^
 ||sslbind.com^
 ||sso-github.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-29 12:32:26Z
+! Last Modified: 2022-03-29 18:20:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30828,6 +30828,7 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
+||api.verify.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^

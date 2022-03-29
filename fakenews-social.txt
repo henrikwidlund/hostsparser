@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-29 12:32:10Z
+! Last Modified: 2022-03-29 18:20:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3164,7 +3164,6 @@
 ||allegrou.pl^
 ||smetrics.allenedmonds.com^
 ||smelt.allenpike.com^
-||login.alleor.sbs^
 ||alleqrolokalne.pl^
 ||alleqrolokalnie.com^
 ||allergiques.com^
@@ -31312,6 +31311,8 @@
 ||go.metacompliance.com^
 ||metacount.com^
 ||om.metacrawler.com^
+||aa.metacritic.com^
+||saa.metacritic.com^
 ||metadsp.co.uk^
 ||metagalaxymetagalaxy.com^
 ||metal-flossie.com^
@@ -33894,6 +33895,8 @@
 ||nedera.xyz^
 ||go.nedo24.pl^
 ||nedznaodpowiadac.site^
+||cm.need2find.com^
+||kz.search.need2find.com^
 ||needadvertising.com^
 ||needforfile.net^
 ||needmorehits.com^
