@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-28 18:21:13Z
+! Last Modified: 2022-03-29 01:18:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2704,7 +2704,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||bs-geo.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -51101,6 +51100,7 @@
 ||cdr.votiro.com^
 ||vouchsafedalleged.com^
 ||vovpl.fun^
+||concertads-configs.vox-cdn.com^
 ||www2.voxco.com^
 ||content.voxpopme.com^
 ||voxusou2.xyz^
@@ -53596,7 +53596,6 @@
 ||wtlive.com^
 ||wtoruniu.xyz^
 ||urk.wtrst.com^
-||wtvertnet.com^
 ||wtymileprawdy.xyz^
 ||wu4652.com.tw^
 ||wulkanvegas.org^

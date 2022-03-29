@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-28 18:21:00Z
+! Last Modified: 2022-03-29 01:17:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -52777,6 +52777,7 @@
 ||cdr.votiro.com^
 ||vouchsafedalleged.com^
 ||vovpl.fun^
+||concertads-configs.vox-cdn.com^
 ||www2.voxco.com^
 ||content.voxpopme.com^
 ||voxusou2.xyz^
@@ -55310,7 +55311,6 @@
 ||wtlive.com^
 ||wtoruniu.xyz^
 ||urk.wtrst.com^
-||wtvertnet.com^
 ||wtymileprawdy.xyz^
 ||wu4652.com.tw^
 ||wulkanvegas.org^
