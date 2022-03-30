@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-30 12:31:24Z
+! Last Modified: 2022-03-30 18:21:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2520,6 +2520,7 @@
 ||links-anz.afterpay.com^
 ||metrics.aftonbladet.se^
 ||smetrics.aftonbladet.se^
+||banners.aftrk.com^
 ||afunnygames.com^
 ||smetrics.afvclub.com^
 ||afyonmagazin.com^
@@ -15509,8 +15510,6 @@
 ||mail.dolce-gusto.ro^
 ||doll9jiva.com^
 ||metrics.dollar.com^
-||metrics.dollargeneral.com^
-||analytics-secure.dollargeneral.com^
 ||dollarrentcar.com^
 ||dolly-land.ir^
 ||dolodos.top^
@@ -42226,7 +42225,6 @@
 ||rossmanie.xyz^
 ||jvznla.rossmann.com.tr^
 ||asamgd.rossmann.de^
-||rossoad.com^
 ||webtrackingvet.rossu.edu^
 ||connect.medical.rossu.edu^
 ||webtracking.medical.rossu.edu^
@@ -53574,6 +53572,7 @@
 ||go.willof.jp^
 ||cln.willyporn.com^
 ||willysy.com^
+||pardot.wilmacco.com^
 ||wilmaks.website^
 ||marketing.wilmingtonandbeaches.com^
 ||adsrv.wilmingtonstar.com^

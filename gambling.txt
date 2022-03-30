@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-30 12:31:25Z
+! Last Modified: 2022-03-30 18:21:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2783,7 +2783,6 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||bs-wlb-uswest.dvgtm.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -16524,7 +16523,6 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||wl.aniview.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -42117,7 +42115,6 @@
 ||rossmanie.xyz^
 ||jvznla.rossmann.com.tr^
 ||asamgd.rossmann.de^
-||rossoad.com^
 ||webtrackingvet.rossu.edu^
 ||connect.medical.rossu.edu^
 ||webtracking.medical.rossu.edu^

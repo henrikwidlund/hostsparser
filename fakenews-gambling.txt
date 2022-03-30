@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-30 12:31:10Z
+! Last Modified: 2022-03-30 18:21:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30354,6 +30354,7 @@
 ||mahindrainsurance.com^
 ||mahjongline.com^
 ||ad2.maho.jp^
+||img.ad2.maho.jp^
 ||dmusic.maidhd.com^
 ||da.maif.fr^
 ||maikiki.com^
@@ -37961,6 +37962,7 @@
 ||textad.passionsearch.com^
 ||passive-czinvline.com^
 ||passiveincome-tesla.biz^
+||mackerel.passiveincome.io^
 ||passpport.com^
 ||stats.pasteapp.io^
 ||pastedputrefy.com^
@@ -43610,7 +43612,6 @@
 ||rossmanie.xyz^
 ||jvznla.rossmann.com.tr^
 ||asamgd.rossmann.de^
-||rossoad.com^
 ||webtrackingvet.rossu.edu^
 ||connect.medical.rossu.edu^
 ||webtracking.medical.rossu.edu^
