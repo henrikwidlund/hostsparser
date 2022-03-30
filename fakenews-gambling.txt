@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-30 06:22:32Z
+! Last Modified: 2022-03-30 12:31:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22481,6 +22481,8 @@
 ||partner-ts.groupon.de^
 ||ad.groupon.fr^
 ||partner-ts.groupon.fr^
+||ad.groupon.net^
+||partner-ts.groupon.net^
 ||ad.groupon.nl^
 ||partner-ts.groupon.nl^
 ||ad.groupon.pl^
@@ -37959,7 +37961,6 @@
 ||textad.passionsearch.com^
 ||passive-czinvline.com^
 ||passiveincome-tesla.biz^
-||mackerel.passiveincome.io^
 ||passpport.com^
 ||stats.pasteapp.io^
 ||pastedputrefy.com^

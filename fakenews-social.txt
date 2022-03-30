@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-30 06:22:38Z
+! Last Modified: 2022-03-30 12:31:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21840,6 +21840,7 @@
 ||graniteandmarblebycastillo.com^
 ||granitestatetimes.com^
 ||stats.granot.dev^
+||tracking.granular.ag^
 ||muvhqe.graodegente.com.br^
 ||graphemicshypoderm.com^
 ||graphemicsstraightener.com^
@@ -61400,7 +61401,6 @@
 ||ns.machinevision-owa.net.zooplus.it^
 ||ns.machinevision-scm.net.zooplus.it^
 ||ns.machinevision-ssl.net.zooplus.it^
-||ns.machinevision.ftp.net.zooplus.it^
 ||ns.machinevisionhelp.net.zooplus.it^
 ||ns.machinevisionleto.net.zooplus.it^
 ||ns.machinevisionlive.net.zooplus.it^

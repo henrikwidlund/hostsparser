@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-30 06:22:44Z
+! Last Modified: 2022-03-30 12:31:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -61319,6 +61319,9 @@
 ||www2.telcobridges.com^
 ||telcointoken.com^
 ||tele-monitoring.eu^
+||ads.tele.net^
+||sdc.tele.net^
+||adserver.tele.net^
 ||2.tele2iot.com^
 ||teleargentina.com^
 ||aoc.teleaudio.pl^
@@ -77523,13 +77526,11 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||github-zoossl.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||repo.owa.net.zooplus.fr^
 ||sbserver.net.zooplus.fr^
 ||sip-mail.net.zooplus.fr^
 ||srd4-pdx.net.zooplus.fr^
@@ -79109,7 +79110,6 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||mdc-cas.net.zooplus.nl^
 ||demo-mail.net.zooplus.nl^
 ||documents.net.zooplus.nl^
 ||email-ssl.net.zooplus.nl^
