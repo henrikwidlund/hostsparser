@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-30 01:17:46Z
+! Last Modified: 2022-03-30 06:22:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23243,6 +23243,7 @@
 ||hs-banner.com^
 ||hsaanime.com^
 ||info.hsabank.com^
+||smetrics.hsamuel.co.uk^
 ||hsb-canada.com^
 ||hsbc-international.com^
 ||insight.business.hsbc.com^
@@ -58698,9 +58699,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||ssl.net.zooplus.es^
-||w3ssl.net.zooplus.es^
-||cvslatin.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
@@ -60278,6 +60276,8 @@
 ||ns.machinevisionshop-wall-preview-zooplus-pl.net.zooplus.it^
 ||ns.machinevision-shop-wall-preview-zooplus-de.net.zooplus.it^
 ||ns.machinevision-shop-wall-preview-zooplus-hu.net.zooplus.it^
+||ns.machinevision-shop-wall-prod-zooplus-co-uk.net.zooplus.it^
+||ns.machineviuxt-checkout-middle-banner-prodon.net.zooplus.it^
 ||shop-wall-preview-zooplus-it.ns.machinevision.net.zooplus.it^
 ||shop-wall-preview-zooplus-pt.ns.machinevision.net.zooplus.it^
 ||ns-shop-wall-preview-bitiba-co-uk.machinevision.net.zooplus.it^

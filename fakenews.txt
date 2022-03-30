@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-30 01:17:40Z
+! Last Modified: 2022-03-30 06:22:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8354,6 +8354,8 @@
 ||corporatecommunications.bvifsc.vg^
 ||bvlgarijapan.com^
 ||info.bvo.nl^
+||olx-pl.bvvkkj12z1.com^
+||vinted-pl.bvvkkj12z1.com^
 ||go.bwater.com^
 ||img.bwin.com^
 ||simg.bwin.com^
@@ -59568,7 +59570,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||pl.ssl.net.zooplus.fr^
 ||sbserver.net.zooplus.fr^
 ||sip-mail.net.zooplus.fr^
 ||srd4-pdx.net.zooplus.fr^
