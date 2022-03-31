@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-31 06:21:23Z
+! Last Modified: 2022-03-31 12:31:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -37678,6 +37678,7 @@
 ||newsletter.lyreco.com^
 ||announcement.lyreco.com^
 ||tr.trafficnews.lyria.com^
+||salesforce.lyricfind.com^
 ||lyrics-explorer.com^
 ||ad.lyricswire.com^
 ||b.lyst.com^
@@ -78622,8 +78623,6 @@
 ||ns.machinevisionshop-wall-preview-zooplus-pl.net.zooplus.it^
 ||ns.machinevision-shop-wall-preview-zooplus-de.net.zooplus.it^
 ||ns.machinevision-shop-wall-preview-zooplus-hu.net.zooplus.it^
-||ns.machinevision-shop-wall-prod-zooplus-co-uk.net.zooplus.it^
-||ns.machineviuxt-checkout-middle-banner-prodon.net.zooplus.it^
 ||shop-wall-preview-zooplus-it.ns.machinevision.net.zooplus.it^
 ||shop-wall-preview-zooplus-pt.ns.machinevision.net.zooplus.it^
 ||ns-shop-wall-preview-bitiba-co-uk.machinevision.net.zooplus.it^

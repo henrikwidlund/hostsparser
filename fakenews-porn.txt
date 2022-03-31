@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-31 06:21:25Z
+! Last Modified: 2022-03-31 12:31:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3383,6 +3383,7 @@
 ||vungle.akadns.net^
 ||turn.com.akadns.net^
 ||eyeblaster.akadns.net^
+||api.vungle.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
@@ -6562,6 +6563,7 @@
 ||adobe.autoscout24.ru^
 ||adobe.autoscout24.se^
 ||autoservisluka.com^
+||rverxn.autosphere.fr^
 ||anblzv.autospot.ru^
 ||autosurfpro.com^
 ||metrics.autotrader.co.uk^
@@ -55717,7 +55719,6 @@
 ||scandentsubjacently.com^
 ||smetrics.scandichotels.com^
 ||smetrics.scandichotels.de^
-||smetrics.scandichotels.dk^
 ||smetrics.scandichotels.fi^
 ||smetrics.scandichotels.no^
 ||smetrics.scandichotels.se^
@@ -55933,7 +55934,6 @@
 ||stats.blog.sean-wright.com^
 ||seancody.com^
 ||seancodynetwork.com^
-||louse.seanconnolly.dev^
 ||seandougherty.com^
 ||seans24.com.pl^
 ||seansikowo.pl^

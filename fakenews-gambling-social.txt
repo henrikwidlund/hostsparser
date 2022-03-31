@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-31 06:21:19Z
+! Last Modified: 2022-03-31 12:31:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29144,6 +29144,7 @@
 ||info.lgsolarusa.com^
 ||ant.lgtinvesting.site^
 ||dnag.lgtinvesting.site^
+||aic.cdpbeacon.lgtvcommon.com^
 ||smartshare.lgtvsdp.com^
 ||lgw500.com^
 ||cukierniatylczynscy.lh.pl^
@@ -52184,7 +52185,6 @@
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
-||cdn-webview-pge.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
@@ -57234,6 +57234,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst0.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||b2b.yimixiangchou.com^
 ||yinbolallruick.com^
@@ -61360,7 +61361,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||apachearketing.net.zooplus.es^
+||gatewayssl.adm.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
@@ -62945,6 +62946,7 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
+||ro.net.zooplus.nl^
 ||demo-mail.net.zooplus.nl^
 ||documents.net.zooplus.nl^
 ||email-ssl.net.zooplus.nl^
