@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-30 18:21:23Z
+! Last Modified: 2022-03-31 01:16:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15510,6 +15510,8 @@
 ||mail.dolce-gusto.ro^
 ||doll9jiva.com^
 ||metrics.dollar.com^
+||metrics.dollargeneral.com^
+||analytics-secure.dollargeneral.com^
 ||dollarrentcar.com^
 ||dolly-land.ir^
 ||dolodos.top^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-30 18:21:17Z
+! Last Modified: 2022-03-31 01:16:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -55305,6 +55305,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn1.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -61148,6 +61149,7 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
+||s3.net.zooplus.nl^
 ||demo-mail.net.zooplus.nl^
 ||documents.net.zooplus.nl^
 ||email-ssl.net.zooplus.nl^
