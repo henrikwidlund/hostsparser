@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-31 01:16:37Z
+! Last Modified: 2022-03-31 06:21:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29144,7 +29144,6 @@
 ||info.lgsolarusa.com^
 ||ant.lgtinvesting.site^
 ||dnag.lgtinvesting.site^
-||aic.cdpbeacon.lgtvcommon.com^
 ||smartshare.lgtvsdp.com^
 ||lgw500.com^
 ||cukierniatylczynscy.lh.pl^
@@ -52185,6 +52184,7 @@
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
+||cdn-webview-pge.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
@@ -57094,7 +57094,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -61361,6 +61360,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||apachearketing.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
