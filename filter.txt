@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-01 12:34:01Z
+! Last Modified: 2022-04-01 18:21:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5845,7 +5845,6 @@
 ||7lbd4.armandthiery.fr^
 ||armantark.com^
 ||armconsul.ru^
-||pi.armentekort.be^
 ||armia-pana.pl^
 ||go.armor-tt.com^
 ||armsart.com^
@@ -31022,6 +31021,7 @@
 ||scrollingads.hustlermegapass.com^
 ||hustlervip.net^
 ||hut1.ru^
+||info.hutchcraft.com^
 ||crosspromo.hutchgames.io^
 ||hutchtoday.com^
 ||huttisabel.com^
@@ -75424,7 +75424,6 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||cn2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -75621,6 +75620,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst0.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||b2b.yimixiangchou.com^
 ||yinbolallruick.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-01 12:34:11Z
+! Last Modified: 2022-04-01 18:21:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36472,8 +36472,6 @@
 ||metrics.oregonlive.com^
 ||college.business.oregonstate.edu^
 ||oregoo.com^
-||metrics.oreilly.com^
-||smetrics.oreilly.com^
 ||oreillypost.com^
 ||hphtjv.orellfuessli.ch^
 ||orelnew.com^
@@ -62087,6 +62085,7 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
+||owa.cdn.net.zooplus.nl^
 ||demo-mail.net.zooplus.nl^
 ||documents.net.zooplus.nl^
 ||email-ssl.net.zooplus.nl^

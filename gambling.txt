@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-01 12:34:19Z
+! Last Modified: 2022-04-01 18:22:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19437,6 +19437,7 @@
 ||sanalytics.fnbo.com^
 ||sanalytics.fnbodirect.com^
 ||fncash.com^
+||giraffe.fnd.info^
 ||nxovay.fo-online.jp^
 ||fo4n.com^
 ||foamfinafmaf.bar^
@@ -30513,6 +30514,8 @@
 ||pardot.analytics.mcgill.ca^
 ||plausible.mcj.co^
 ||logowanie-facebook.mcjust.pl^
+||aa.mclaren.com^
+||aas.mclaren.com^
 ||mcleanvahomes.com^
 ||marketing.mcloudcorp.com^
 ||mcloudjs.com^
@@ -59092,7 +59095,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||adm-marketing.eng.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
@@ -60677,6 +60679,7 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
+||co.net.zooplus.nl^
 ||demo-mail.net.zooplus.nl^
 ||documents.net.zooplus.nl^
 ||email-ssl.net.zooplus.nl^
