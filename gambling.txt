@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-31 18:21:20Z
+! Last Modified: 2022-04-01 01:25:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25080,6 +25080,7 @@
 ||instacasino.com^
 ||instagarm.pl^
 ||installer892.site^
+||collect.installeranalytics.com^
 ||installm.net^
 ||installmac.com^
 ||site.instamed.com^

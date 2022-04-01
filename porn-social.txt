@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-31 18:21:22Z
+! Last Modified: 2022-04-01 01:25:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31511,6 +31511,7 @@
 ||connect.intel.com^
 ||webinar.intel.com^
 ||elqtrkstg.intel.com^
+||plan.seek.intel.com^
 ||elqtrk.thailand.intel.com^
 ||www91.intel.com.au^
 ||elqtrk.intel.com.au^
@@ -75274,8 +75275,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||containerarketing.net.zooplus.es^
-||elastic.regionswag.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
@@ -76860,7 +76859,6 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||oredira.net.zooplus.nl^
 ||demo-mail.net.zooplus.nl^
 ||documents.net.zooplus.nl^
 ||email-ssl.net.zooplus.nl^

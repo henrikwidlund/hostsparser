@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-03-31 18:21:19Z
+! Last Modified: 2022-04-01 01:25:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3635,6 +3635,8 @@
 ||amicusinvest.net^
 ||ct2.amigasa.jp^
 ||www1.amigo2.ne.jp^
+||ads.amigos.com^
+||banners.amigos.com^
 ||stats.amiibo.life^
 ||offers.amilia.com^
 ||parcel.qzyz3dzq80rzbl3.amin-sharifi.ir^
@@ -43698,6 +43700,7 @@
 ||selectionreport.com^
 ||tracking.selective.com^
 ||beuniquelyinsured.selective.com^
+||wp.seletoh.com^
 ||stats.self.com^
 ||sstats.self.com^
 ||stats2.self.com^
