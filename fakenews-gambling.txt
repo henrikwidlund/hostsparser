@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-01 06:21:57Z
+! Last Modified: 2022-04-01 12:34:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -675,6 +675,7 @@
 ||engage.3mcanada.ca^
 ||engage.3mcesko.cz^
 ||engage.3mchile.cl^
+||engage.3mcompany.jp^
 ||engage.3mcompany.lk^
 ||engage.3mdanmark.dk^
 ||engage.3mdeutschland.de^
@@ -17141,6 +17142,7 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||wildcard.aniview.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -23398,6 +23400,7 @@
 ||helpeachothergb90.club^
 ||helpeachothergb975.club^
 ||helpeachothergb975.work^
+||vulkanvegasbonus.helpinghandimmigration.com^
 ||aardvark.helpingpets.org.uk^
 ||helpingtrk.com^
 ||helpishere577.casa^

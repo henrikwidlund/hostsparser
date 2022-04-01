@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-01 06:21:51Z
+! Last Modified: 2022-04-01 12:34:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31022,7 +31022,6 @@
 ||scrollingads.hustlermegapass.com^
 ||hustlervip.net^
 ||hut1.ru^
-||info.hutchcraft.com^
 ||crosspromo.hutchgames.io^
 ||hutchtoday.com^
 ||huttisabel.com^
@@ -75425,6 +75424,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||cn2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
