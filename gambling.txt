@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-01 01:25:21Z
+! Last Modified: 2022-04-01 06:22:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2663,8 +2663,6 @@
 ||go.aidma-hd.jp^
 ||aiea6gaza.com^
 ||fufoir.aif.ru^
-||tracking.aifsabroad.com^
-||experience.aifsabroad.com^
 ||www-171.aig.com^
 ||www-172.aig.com^
 ||www-105.aig.com^
@@ -16614,6 +16612,7 @@
 ||marketo.com.edgekey.net^
 ||mathtag.com.edgekey.net^
 ||mookie1.com.edgekey.net^
+||san.push.io.edgekey.net^
 ||marketo.net.edgekey.net^
 ||owneriq.net.edgekey.net^
 ||taboola.com.edgekey.net^

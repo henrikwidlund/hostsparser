@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-01 01:25:03Z
+! Last Modified: 2022-04-01 06:21:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11801,6 +11801,7 @@
 ||caribsports.com^
 ||wvw.caringbridge.org^
 ||connect.caringcrowd.org^
+||www2.cariot.jp^
 ||cariustadz.org^
 ||ora.carlaarrabitoarchitetto.com^
 ||carlhardwick.com^
@@ -20877,6 +20878,7 @@
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
+||wildcard.marketo.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
@@ -31854,6 +31856,7 @@
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
 ||keyserver.ijinshan.com^
+||sdk.mobad.ijinshan.com^
 ||info.ijungo.com^
 ||ikanmaskoki.co.vu^
 ||ikbox.org^
@@ -42764,7 +42767,6 @@
 ||my1tube.com^
 ||my3dhentai.com^
 ||my3dsex.com^
-||faktinvestmetns.mya5.ru^
 ||go.myacn.com^
 ||myadmission.top^
 ||myads.company^
@@ -57886,10 +57888,6 @@
 ||seoprofit.biz^
 ||seotop1google.net^
 ||sepa-wissen.de^
-||app.sephora.com^
-||trk.s.sephora.com^
-||metrics.sephora.com^
-||smetrics.sephora.com^
 ||ltzpth.sephora.fr^
 ||liacod.sephora.ru^
 ||sepladenveva.tk^

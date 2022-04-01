@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-01 01:25:16Z
+! Last Modified: 2022-04-01 06:22:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3441,22 +3441,6 @@
 ||aka-root.com^
 ||akademia-kursow-rozwojowych-app.com^
 ||akademia-mil.space^
-||dvgtm.akadns.net^
-||vungle.akadns.net^
-||turn.com.akadns.net^
-||eyeblaster.akadns.net^
-||innovid.com.akadns.net^
-||tidaltv.com.akadns.net^
-||weighted.com.akadns.net^
-||adgrx.com.tech.akadns.net^
-||stickyadstv.com.akadns.net^
-||schemas.microsoft.akadns.net^
-||rubiconproject.net.akadns.net^
-||beacon-cdn.walmart.com.akadns.net^
-||jadserve.postrelease.com.akadns.net^
-||adlanding.admarketplace.net.akadns.net^
-||beacon-cdn-custom.walmart.com.akadns.net^
-||analytics.mobile-cdn.walmart.com.akadns.net^
 ||akaflieg-sb.de^
 ||akama.com^
 ||a50.g2.akamai.net^
@@ -40516,6 +40500,7 @@
 ||mic.mob.com^
 ||sms.mob.com^
 ||data.mob.com^
+||f.gm.mob.com^
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
@@ -52105,8 +52090,6 @@
 ||aff.promodeals.nl^
 ||go.promon.co^
 ||oasis.promon.cz^
-||tr.info.promoneuve.fr^
-||ressources.promoneuve.fr^
 ||promoreclame.info^
 ||promoreclame.nl^
 ||promoserver12.com^
