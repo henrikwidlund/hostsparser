@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-02 01:17:05Z
+! Last Modified: 2022-04-02 06:20:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12415,8 +12415,6 @@
 ||stats.chronoslabs.net^
 ||chrs-mln-krs.com^
 ||chrysalis.net.in^
-||metrics.chrysler.com^
-||smetrics.chrysler.com^
 ||chuansong.buzz^
 ||chubaka.org^
 ||chubby-teen.com^
@@ -19869,6 +19867,7 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||wildcard.evidon.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -20629,6 +20628,7 @@
 ||strack.entegris.com^
 ||publicidad.entelchile.net^
 ||e-marketing.entelchile.net^
+||webnetra.entelnet.bo^
 ||entensity.net^
 ||enterbuty.com.pl^
 ||entercasino.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-02 01:16:50Z
+! Last Modified: 2022-04-02 06:20:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -56998,7 +56998,10 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
+||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -62846,7 +62849,6 @@
 ||ns.machinevisionshop-wall-preview-zooplus-pl.net.zooplus.it^
 ||ns.machinevision-shop-wall-preview-zooplus-de.net.zooplus.it^
 ||ns.machinevision-shop-wall-preview-zooplus-hu.net.zooplus.it^
-||ns.machinevision-shop-wall-prod-zooplus-co-uk.net.zooplus.it^
 ||shop-wall-preview-zooplus-it.ns.machinevision.net.zooplus.it^
 ||shop-wall-preview-zooplus-pt.ns.machinevision.net.zooplus.it^
 ||ns-shop-wall-preview-bitiba-co-uk.machinevision.net.zooplus.it^
@@ -62854,7 +62856,6 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||colt.net.zooplus.nl^
 ||demo-mail.net.zooplus.nl^
 ||documents.net.zooplus.nl^
 ||email-ssl.net.zooplus.nl^
