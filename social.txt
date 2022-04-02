@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-01 18:22:09Z
+! Last Modified: 2022-04-02 01:17:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20549,7 +20549,6 @@
 ||etherdelta.githulb.io^
 ||infoee.gitlab.io^
 ||komolot.gitlab.io^
-||etherdelta.gitlhub.io^
 ||etherdelta.gitnub.io^
 ||truehits2.gits.net.th^
 ||gitte-brun.dk^
@@ -27344,10 +27343,6 @@
 ||laviniia.com^
 ||sadbmetrics.lavozdegalicia.es^
 ||sadbmetrics.lavozdigital.es^
-||b.law.com^
-||a.law.com^
-||bc.law.com^
-||oascentral.law.com^
 ||communications.law360.com^
 ||plausible.lawdeeda.com^
 ||oascentral.laweekly.com^
@@ -59807,6 +59802,7 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
+||mp.net.zooplus.nl^
 ||demo-mail.net.zooplus.nl^
 ||documents.net.zooplus.nl^
 ||email-ssl.net.zooplus.nl^
