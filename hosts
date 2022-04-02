@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-02 06:20:31Z
+! Last Modified: 2022-04-02 12:27:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -41346,6 +41346,7 @@
 ||contentz.mkt61.net^
 ||contentz.mkt912.com^
 ||content.mkt922.com^
+||content.mkt931.com^
 ||content.mkt932.com^
 ||contentz.mkt932.com^
 ||go.mktgcampaigns.com^
@@ -73204,6 +73205,10 @@
 ||winningsidenow.com^
 ||winoandfriends.pl^
 ||winowajca.icu^
+||cdn1.winpit.com^
+||cdn2.winpit.com^
+||cdn3.winpit.com^
+||cdn4.winpit.com^
 ||winporn.com^
 ||winscholarship.com^
 ||stats.winsim.de^
