@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-03 01:22:01Z
+! Last Modified: 2022-04-03 06:20:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -41205,7 +41205,6 @@
 ||tgw-masdk.3g.qq.com^
 ||tgw-sasdk.3g.qq.com^
 ||analytics.map.qq.com^
-||aexception.bugly.qq.com^
 ||qq8.ag^
 ||qqhr2008.com^
 ||qqsms.in^
@@ -55245,8 +55244,8 @@
 ||xiahuo.net^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||a.stat.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
-||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -55702,12 +55701,13 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn1.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||eu-pn4.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -61541,7 +61541,6 @@
 ||ns.machinevisionshop-wall-preview-zooplus-pl.net.zooplus.it^
 ||ns.machinevision-shop-wall-preview-zooplus-de.net.zooplus.it^
 ||ns.machinevision-shop-wall-preview-zooplus-hu.net.zooplus.it^
-||ns.machineviuxt-checkout-middle-banner-prodon.net.zooplus.it^
 ||shop-wall-preview-zooplus-it.ns.machinevision.net.zooplus.it^
 ||shop-wall-preview-zooplus-pt.ns.machinevision.net.zooplus.it^
 ||ns-shop-wall-preview-bitiba-co-uk.machinevision.net.zooplus.it^

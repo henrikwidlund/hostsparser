@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-03 01:21:52Z
+! Last Modified: 2022-04-03 06:20:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26018,7 +26018,6 @@
 ||connect.intel.com^
 ||webinar.intel.com^
 ||elqtrkstg.intel.com^
-||education.seek.intel.com^
 ||elqtrk.thailand.intel.com^
 ||www91.intel.com.au^
 ||elqtrk.intel.com.au^
@@ -57493,6 +57492,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -58507,7 +58507,6 @@
 ||apogee.net.zooplus.de^
 ||data.1.net.zooplus.de^
 ||devops.net.zooplus.de^
-||fw.api.net.zooplus.de^
 ||idmapp.net.zooplus.de^
 ||lb.tpe.net.zooplus.de^
 ||signed.net.zooplus.de^
@@ -63336,6 +63335,7 @@
 ||ns.machinevisionshop-wall-preview-zooplus-pl.net.zooplus.it^
 ||ns.machinevision-shop-wall-preview-zooplus-de.net.zooplus.it^
 ||ns.machinevision-shop-wall-preview-zooplus-hu.net.zooplus.it^
+||ns.machineviuxt-checkout-middle-banner-prodon.net.zooplus.it^
 ||shop-wall-preview-zooplus-it.ns.machinevision.net.zooplus.it^
 ||shop-wall-preview-zooplus-pt.ns.machinevision.net.zooplus.it^
 ||ns-shop-wall-preview-bitiba-co-uk.machinevision.net.zooplus.it^
@@ -63343,6 +63343,7 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
+||co.net.zooplus.nl^
 ||demo-mail.net.zooplus.nl^
 ||documents.net.zooplus.nl^
 ||email-ssl.net.zooplus.nl^

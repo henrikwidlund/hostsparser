@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-03 01:22:09Z
+! Last Modified: 2022-04-03 06:20:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8154,6 +8154,8 @@
 ||analyticsapi.bsbportal.com^
 ||bshellz.pl^
 ||bsi.com.vn^
+||page.bsigroup.com^
+||pages.bsigroup.com^
 ||olx.pl.bskiikcom.pw^
 ||bslcorporationltd.co^
 ||bsmadwokaci.pl^
@@ -13072,8 +13074,6 @@
 ||coordino.com^
 ||cootlogix.com^
 ||omni.copaair.com^
-||metrics.copart.com^
-||smetrics.copart.com^
 ||smetrics.copd-aktuell.de^
 ||copelandscapes.com^
 ||copernicusdm.pl^
@@ -21529,6 +21529,8 @@
 ||smetrics.gomastercard.com.au^
 ||gomaxits.com^
 ||gomboapp.com^
+||metrics.gomedigap.com^
+||smetrics.gomedigap.com^
 ||gommoneusato.it^
 ||t.gomocs.com^
 ||gonococcusconfecting.com^
@@ -45259,7 +45261,6 @@
 ||b.sonorousporn.com^
 ||click.email.sonos.com^
 ||secure.sonosite.com^
-||in.secure.sonosite.com^
 ||sonovivi.com^
 ||tradedoubler.sonvideopro.com^
 ||info.sony-semicon.co.jp^

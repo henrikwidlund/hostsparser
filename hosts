@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-03 01:21:46Z
+! Last Modified: 2022-04-03 06:20:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20143,6 +20143,7 @@
 ||securecookies.dustinhome.dk^
 ||securecookies.dustinhome.fi^
 ||securecookies.dustinhome.no^
+||securecookies.dustinhome.se^
 ||dutapoker.co^
 ||dutchangels.nl^
 ||dutchaparel.com^
@@ -53184,7 +53185,6 @@
 ||go.proact.eu^
 ||sanalytics.proactiv.com^
 ||proapsoluciones.com.ar^
-||naj22.proasdf.com^
 ||proba-wsparcia.eu^
 ||api.proba.ai^
 ||probabday.xyz^
@@ -73188,7 +73188,6 @@
 ||winfreetoday.com^
 ||o0.winfuture.de^
 ||alpaca.wingmantracker.com^
-||email.wingocard.com^
 ||join1.winhundred.com^
 ||winia.pl^
 ||winin-spect.xyz^
@@ -75423,6 +75422,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
