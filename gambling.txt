@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-03 06:20:42Z
+! Last Modified: 2022-04-03 12:27:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13074,6 +13074,8 @@
 ||coordino.com^
 ||cootlogix.com^
 ||omni.copaair.com^
+||metrics.copart.com^
+||smetrics.copart.com^
 ||smetrics.copd-aktuell.de^
 ||copelandscapes.com^
 ||copernicusdm.pl^
@@ -30216,9 +30218,6 @@
 ||ad.mastermedia.ru^
 ||stats.mastermeup.com^
 ||mastermind.com^
-||pril4kuz.masterpprz.xyz^
-||pril5kuz.masterpprz.xyz^
-||pril6kuz.masterpprz.xyz^
 ||sticketsmetrics.masters.com^
 ||masterspace.biz^
 ||mastersummer.fun^
@@ -59093,6 +59092,10 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||apachearketing.net.zooplus.es^
+||testingfirewall.net.zooplus.es^
+||backendmarketing.net.zooplus.es^
+||elastic.privswag.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^

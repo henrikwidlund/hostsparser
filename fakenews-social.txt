@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-03 06:20:33Z
+! Last Modified: 2022-04-03 12:27:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3409,6 +3409,7 @@
 ||campaign.amadeus.com^
 ||campaigns.amadeus.com^
 ||marketing.amadeus.com^
+||metrics.amaguiz.com^
 ||amakeshpl.xyz^
 ||ads.amakings.com^
 ||adtools2.amakings.com^
