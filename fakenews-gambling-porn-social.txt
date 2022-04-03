@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-02 18:19:28Z
+! Last Modified: 2022-04-03 01:21:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29333,6 +29333,7 @@
 ||detnmz.healthfully.com^
 ||hrm.healthgrades.com^
 ||som.healthgrades.com^
+||yourupmcsusquehanna.hrm.healthgrades.com^
 ||healthimpactnews.com^
 ||tracking.healthitanalytics.com^
 ||tracking.healthitsecurity.com^
@@ -39684,6 +39685,7 @@
 ||metrics.matlabexpo.com^
 ||matomy.com^
 ||matpor.com^
+||adtools.matrix-cash.com^
 ||matrujayurveda.com^
 ||zudver.matsmart.se^
 ||adebis8628.matsui.co.jp^
@@ -63140,6 +63142,7 @@
 ||facebookcom-49851167.techsso.com^
 ||techstats.net^
 ||spinbox.techtracker.com^
+||ads.techvibes.com^
 ||techvisionco.com^
 ||ads.techweb.com^
 ||techwest-pgepl.info^
@@ -74081,12 +74084,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
-||fr.adserver.yahoo.com^
-||nl.adserver.yahoo.com^
-||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

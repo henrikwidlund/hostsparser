@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-02 18:19:30Z
+! Last Modified: 2022-04-03 01:21:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26018,6 +26018,7 @@
 ||connect.intel.com^
 ||webinar.intel.com^
 ||elqtrkstg.intel.com^
+||education.seek.intel.com^
 ||elqtrk.thailand.intel.com^
 ||www91.intel.com.au^
 ||elqtrk.intel.com.au^
@@ -47861,6 +47862,10 @@
 ||startnowrush.com^
 ||startrainst.com^
 ||saa.startrek.com^
+||oas.startribune.com^
+||tste.startribune.com^
+||metrics.startribune.com^
+||smetrics.startribune.com^
 ||startup-orlen.biz^
 ||startup-orlen.us^
 ||www2.startuploans.co.uk^
@@ -58502,6 +58507,7 @@
 ||apogee.net.zooplus.de^
 ||data.1.net.zooplus.de^
 ||devops.net.zooplus.de^
+||fw.api.net.zooplus.de^
 ||idmapp.net.zooplus.de^
 ||lb.tpe.net.zooplus.de^
 ||signed.net.zooplus.de^
