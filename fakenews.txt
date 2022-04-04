@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-04 01:21:45Z
+! Last Modified: 2022-04-04 06:21:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -43273,7 +43273,6 @@
 ||safoobody.info^
 ||collection.saga.co.uk^
 ||info.response.sagaftra.org^
-||go.sagasix.jp^
 ||fpc.sage.com^
 ||get.sage.com^
 ||refer.sage.com^
@@ -43864,6 +43863,7 @@
 ||searchingzone.com^
 ||searchinquire.com^
 ||beacon.searchlinks.com^
+||go.searchlock.com^
 ||searchmachine.com^
 ||searchmagna.com^
 ||searchmagnified.com^

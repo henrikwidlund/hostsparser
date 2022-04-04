@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-04 01:21:53Z
+! Last Modified: 2022-04-04 06:22:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3387,10 +3387,8 @@
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
-||sync.tidaltv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||sync-usva.tidaltv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -38504,8 +38502,6 @@
 ||ads.mediasmart.es^
 ||mediasmart.io^
 ||shop.mediasova.ru^
-||pbs-front.mediasquare.fr^
-||bidder-test.mediasquare.fr^
 ||ad.mediastorm.hu^
 ||www2.mediatemple.net^
 ||mediatext.com^
@@ -76860,7 +76856,6 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||mail-git.net.zooplus.nl^
 ||demo-mail.net.zooplus.nl^
 ||documents.net.zooplus.nl^
 ||email-ssl.net.zooplus.nl^
