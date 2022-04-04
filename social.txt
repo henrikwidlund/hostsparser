@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-04 06:22:03Z
+! Last Modified: 2022-04-04 12:30:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34285,7 +34285,6 @@
 ||oleksy.net.pl^
 ||olemissrebels.com^
 ||olenka2.pl^
-||cdn.olep.xyz^
 ||oliciem.com^
 ||info.oliftrade.site^
 ||a8.olightstore.jp^
@@ -53978,9 +53977,12 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||in.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
@@ -58223,6 +58225,9 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||wwwlab.marketing.net.zooplus.es^
+||webstatsmarketing.net.zooplus.es^
+||containerarketing.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^

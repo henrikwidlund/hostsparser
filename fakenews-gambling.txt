@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-04 06:21:45Z
+! Last Modified: 2022-04-04 12:30:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36503,7 +36503,6 @@
 ||oleksy.net.pl^
 ||olemissrebels.com^
 ||olenka2.pl^
-||cdn.olep.xyz^
 ||olg.ca^
 ||olgslotsandcasinos.ca^
 ||oliciem.com^
@@ -61274,6 +61273,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||node-owa.net.zooplus.fr^
 ||sbserver.net.zooplus.fr^
 ||sip-mail.net.zooplus.fr^
 ||srd4-pdx.net.zooplus.fr^
@@ -62853,6 +62853,7 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
+||ww.owa.net.zooplus.nl^
 ||demo-mail.net.zooplus.nl^
 ||documents.net.zooplus.nl^
 ||email-ssl.net.zooplus.nl^
