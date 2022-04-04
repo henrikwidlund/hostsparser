@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-04 12:30:38Z
+! Last Modified: 2022-04-04 18:22:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12760,6 +12760,7 @@
 ||oascentralnx.comcast.net^
 ||www2.comcasttechnologysolutions.com^
 ||comcoms.info^
+||smetrics.comdata.com^
 ||come-inside.pl^
 ||ranklet.come.cc^
 ||comeanonymity.top^
@@ -56122,7 +56123,6 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
-||adtima.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||zingknowev.tk^
 ||ziniba.space^

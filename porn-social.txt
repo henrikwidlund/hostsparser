@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-04 12:30:41Z
+! Last Modified: 2022-04-04 18:22:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19680,6 +19680,7 @@
 ||hbadz.eboz.com^
 ||csv4.ebs-paris.fr^
 ||ebtmarketing.com^
+||go.on.ebury.com^
 ||ebusiness-elotos.website^
 ||ebusiness-elotoss.website^
 ||ebusiness-lotoss.website^
@@ -19830,7 +19831,6 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
-||a.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -27711,7 +27711,6 @@
 ||go.hks.harvard.edu^
 ||smetrics.hbsp.harvard.edu^
 ||stats.berkman.harvard.edu^
-||info.harvardapparatus.com^
 ||go.harveyperformance.com^
 ||omn2.hasbro.com^
 ||tarantula.hashicorp.com^
@@ -57608,6 +57607,7 @@
 ||sonorousporn.com^
 ||click.email.sonos.com^
 ||secure.sonosite.com^
+||in.secure.sonosite.com^
 ||sonovivi.com^
 ||tradedoubler.sonvideopro.com^
 ||info.sony-semicon.co.jp^
@@ -76857,7 +76857,6 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||radius2.net.zooplus.nl^
 ||demo-mail.net.zooplus.nl^
 ||documents.net.zooplus.nl^
 ||email-ssl.net.zooplus.nl^

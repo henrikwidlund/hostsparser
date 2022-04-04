@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-04 12:30:32Z
+! Last Modified: 2022-04-04 18:22:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26344,6 +26344,7 @@
 ||im.jiguang.cn^
 ||sdk.jiguang.cn^
 ||verification.jiguang.cn^
+||sdk.verification.jiguang.cn^
 ||jihadwatch.org^
 ||jikamemangg.co.vu^
 ||jilarohtas.com^
@@ -31970,7 +31971,6 @@
 ||monsantomafia.com^
 ||securedata.monspar.be^
 ||www2.monstar-lab.com^
-||cookie.monster.com^
 ||mein.monster.de^
 ||monsterpops.com^
 ||faceboook-replyei0ki.montadalitihad.com^
