@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-05 01:15:59Z
+! Last Modified: 2022-04-05 06:21:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -903,6 +903,16 @@
 ||5kstore.com^
 ||5kv261gjmq04c9.com^
 ||ads.5min.at^
+||wykaz.5p.pl^
+||rejestr.5p.pl^
+||plikgier.5p.pl^
+||status24.5p.pl^
+||rejestr24.5p.pl^
+||wylaczone.5p.pl^
+||zawieszone.5p.pl^
+||topgryusluga.5p.pl^
+||uslugatopgry.5p.pl^
+||uslugitopgry.5p.pl^
 ||5rambiental.com.br^
 ||5rocks.io^
 ||5sms.xyz^
@@ -7781,6 +7791,7 @@
 ||ncvsbz.bonds.com.au^
 ||bgrel.bonedmilfs.com^
 ||bongacams.com^
+||bongdadem.net^
 ||bonhomia.cl^
 ||nym5c.bonlook.com^
 ||record.bonniergaming.com^
@@ -12711,6 +12722,7 @@
 ||cobusinessdaily.com^
 ||ae.cobweb.com^
 ||data.latinamerica.coca-cola.com^
+||ads-target.coccoc.com^
 ||cocinaeljibarazo.com^
 ||cockiestvestibuling.pl^
 ||cocktailbingo.com^
@@ -18781,6 +18793,7 @@
 ||inpost-pl.ezdeliveries.eu^
 ||bmpxoq.ezebra.pl^
 ||uvgxhu.ezgif.com^
+||ezimar.com^
 ||ezinemark.top^
 ||go.ezinvoicefactoring.com^
 ||ezl.com^
@@ -30808,6 +30821,7 @@
 ||mangayhentai.com^
 ||tr.info.mango-mobilites.fr^
 ||qzcxtm.mango.com^
+||mangoads.vn^
 ||adv.mangoadv.com^
 ||metrics.manheim.com^
 ||smetrics.manheim.com^
@@ -51528,6 +51542,7 @@
 ||wygraj-iphone-x.tujest.pl^
 ||tula9mari.com^
 ||tularetimes.com^
+||tulipluv.xyz^
 ||t.tulsahurricane.com^
 ||tulsastandard.com^
 ||metrics.tulsaworld.com^
@@ -52342,6 +52357,7 @@
 ||pardot.upwork.com^
 ||engage.uq.edu.au^
 ||hsn.uqhv.net^
+||uqoxh.icu^
 ||a8cventry.uqwimax.jp^
 ||uqz.com^
 ||a8clk.ur-s.me^
@@ -52754,6 +52770,7 @@
 ||vcentury01.com^
 ||track.msadcenter.vcf.com^
 ||i.vcimg.jp^
+||vclick.vn^
 ||smetrics.vcm.com^
 ||admicro4.vcmedia.vn^
 ||admicro5.vcmedia.vn^
@@ -53130,6 +53147,7 @@
 ||fabryczna.viessmann.pl^
 ||kistacity.viessmann.se^
 ||drau.viessmann.si^
+||omarketer.viettelpost.vn^
 ||view-post.pl^
 ||view4cash.de^
 ||polska.viewclub.xyz^
@@ -53699,6 +53717,7 @@
 ||insightxe.vtsgonline.com^
 ||zazu.vtube.to^
 ||flare.vtube.to^
+||vtvcab.xyz^
 ||vu-betredirect1.com^
 ||study.vu.edu.au^
 ||communicatie.vub.be^
@@ -56532,6 +56551,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
 ||xiawen.uno^
@@ -57465,6 +57485,7 @@
 ||allegro-pl.zakupy-internetowe.click^
 ||smetrics.zales.com^
 ||events.zaloapp.com^
+||log.o2o.service.zaloapp.com^
 ||109222.zalogujkonto-weryfikacja.xyz^
 ||zalukaj-cda.pl^
 ||zalukaj-online.pl^
@@ -61258,6 +61279,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||ssl.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
