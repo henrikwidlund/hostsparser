@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-05 06:21:54Z
+! Last Modified: 2022-04-05 12:28:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -55152,6 +55152,7 @@
 ||smetrics.rolex.com^
 ||xhrplq.rolf-probeg.ru^
 ||rolihost.com^
+||api.rollbar.com^
 ||stat.rolledwil.biz^
 ||rollingfhr.xyz^
 ||as.rollingstone.de^
