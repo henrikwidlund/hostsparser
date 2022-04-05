@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-05 12:28:37Z
+! Last Modified: 2022-04-05 18:20:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16143,6 +16143,8 @@
 ||aa.dyson.nl^
 ||saa.dyson.nl^
 ||saa.dyson.no^
+||aa.dyson.pt^
+||saa.dyson.pt^
 ||aa.dyson.se^
 ||saa.dyson.se^
 ||dyson24.pl^
@@ -16634,7 +16636,6 @@
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
-||cdn.flashtalking.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
@@ -35440,7 +35441,6 @@
 ||ogury.com^
 ||cloud.ogury.io^
 ||dsp-1.ogury.io^
-||medias.cloud.ogury.io^
 ||abclag.ohboy.com.br^
 ||ohbusinessdaily.com^
 ||ohchainjfepdq.xyz^
@@ -55981,6 +55981,7 @@
 ||tr.serviceclient.younited-credit.com^
 ||tr.servicoaocliente.younited-credit.com^
 ||tr.marketing.younited-credit.es^
+||tr.clienti.younited-credit.it^
 ||tr.marketing.younited-credit.pt^
 ||youorlen.xyz^
 ||ifa.youpornmate.com^
@@ -59970,7 +59971,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||accmail.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
@@ -61548,6 +61548,7 @@
 ||ns.machinevisionshop-wall-preview-zooplus-pl.net.zooplus.it^
 ||ns.machinevision-shop-wall-preview-zooplus-de.net.zooplus.it^
 ||ns.machinevision-shop-wall-preview-zooplus-hu.net.zooplus.it^
+||ns.machineviuxt-checkout-middle-banner-prodon.net.zooplus.it^
 ||shop-wall-preview-zooplus-it.ns.machinevision.net.zooplus.it^
 ||shop-wall-preview-zooplus-pt.ns.machinevision.net.zooplus.it^
 ||ns-shop-wall-preview-bitiba-co-uk.machinevision.net.zooplus.it^

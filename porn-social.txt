@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-05 12:28:45Z
+! Last Modified: 2022-04-05 18:20:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23602,6 +23602,7 @@
 ||metrics.foodnavigator-asia.com^
 ||metrics.foodnavigator-latam.com^
 ||metrics.foodnavigator-usa.com^
+||metrics.foodnavigator.com^
 ||ssa.foodnetwork.com^
 ||link.foodnetwork.com^
 ||img.foodspring.se^
@@ -42109,7 +42110,6 @@
 ||geo.nbcsports.com^
 ||ijaabm.nbcsports.com^
 ||osimg.nbcuni.com^
-||banners.nbcupromotes.com^
 ||nbf9b5aurl.com^
 ||nbilaser.com^
 ||business.nbnco.com.au^
@@ -75283,12 +75283,12 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||ssl.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||repo.owa.net.zooplus.fr^
 ||sbserver.net.zooplus.fr^
 ||sip-mail.net.zooplus.fr^
 ||srd4-pdx.net.zooplus.fr^
@@ -76868,7 +76868,6 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||api-owa.net.zooplus.nl^
 ||demo-mail.net.zooplus.nl^
 ||documents.net.zooplus.nl^
 ||email-ssl.net.zooplus.nl^

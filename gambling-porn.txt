@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-05 12:28:40Z
+! Last Modified: 2022-04-05 18:20:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20318,6 +20318,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma156-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -80215,6 +80216,8 @@
 ||zooyouporn.com^
 ||zoozooporn.com^
 ||zoozootube.com^
+||oasis.zmh.zope.com^
+||oassis.zmh.zope.com^
 ||oasis.zmh.zope.net^
 ||ad2.zophar.net^
 ||cdn1.zopiny.com^
