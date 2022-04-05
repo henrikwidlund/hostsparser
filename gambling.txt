@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-04 18:22:16Z
+! Last Modified: 2022-04-05 01:16:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -54846,6 +54846,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -59099,6 +59100,8 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||repo.owa.net.zooplus.fr^
+||sbs2.owa.net.zooplus.fr^
 ||sbserver.net.zooplus.fr^
 ||sip-mail.net.zooplus.fr^
 ||srd4-pdx.net.zooplus.fr^
@@ -60671,6 +60674,7 @@
 ||ns.machinevisionshop-wall-preview-zooplus-pl.net.zooplus.it^
 ||ns.machinevision-shop-wall-preview-zooplus-de.net.zooplus.it^
 ||ns.machinevision-shop-wall-preview-zooplus-hu.net.zooplus.it^
+||ns.machineviuxt-checkout-middle-banner-prodon.net.zooplus.it^
 ||shop-wall-preview-zooplus-it.ns.machinevision.net.zooplus.it^
 ||shop-wall-preview-zooplus-pt.ns.machinevision.net.zooplus.it^
 ||ns-shop-wall-preview-bitiba-co-uk.machinevision.net.zooplus.it^

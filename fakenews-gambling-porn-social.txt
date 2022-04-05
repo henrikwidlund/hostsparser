@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-04 18:21:56Z
+! Last Modified: 2022-04-05 01:15:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20914,7 +20914,6 @@
 ||somni.edisonfinancial.ca^
 ||edisonlee.net^
 ||tr.news.editions-lva.fr^
-||stats.edkimo.com^
 ||edland.pro^
 ||orli.edlandigs.com^
 ||edmedsnow.com^
@@ -72961,7 +72960,6 @@
 ||xiahuo.net^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -74083,9 +74081,8 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
-||dk.adserver.yahoo.com^
-||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -75252,7 +75249,6 @@
 ||mjp.zimad.com^
 ||zimadeals.pl^
 ||zimbio.com^
-||static.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||raven.zimristats.com^
