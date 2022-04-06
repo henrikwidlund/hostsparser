@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-06 01:18:39Z
+! Last Modified: 2022-04-06 06:20:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -45319,6 +45319,8 @@
 ||supload.com^
 ||flqjny.supplementler.com^
 ||supplementqwe.online^
+||ads.supplyframe.com^
+||search.supplyframe.com^
 ||shop.supplysmart.com^
 ||sh.support-allegrolokalnie.pl^
 ||support-ip.com^
@@ -53752,6 +53754,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

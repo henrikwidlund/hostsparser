@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-06 01:18:29Z
+! Last Modified: 2022-04-06 06:20:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -176,6 +176,9 @@
 ||121phonesex.co.uk^
 ||123-tracker.com^
 ||inpost-pl.123241.site^
+||inpost-vdeq.123441.me^
+||inpost-polska-gz.123441.me^
+||inpost-polska-nv.123441.me^
 ||inpost-pl.12354.site^
 ||123any.com^
 ||123banners.com^
@@ -5767,8 +5770,6 @@
 ||areyoulivingwell.com^
 ||ca24.argcle.sbs^
 ||smetrics.argenta.be^
-||metrics.argenta.eu^
-||smetrics.argenta.eu^
 ||argentinacar.org^
 ||argentinalove.net^
 ||arghya53genesh.com^
@@ -58501,7 +58502,6 @@
 ||aolsvc.snowqueen.ru^
 ||sno1.snowrental.com^
 ||tr.info.snpden.net^
-||com-upday-main.collector.snplow.net^
 ||tc.snpsresidential.com^
 ||snrcash.com^
 ||swa.snsbank.nl^
@@ -60335,6 +60335,8 @@
 ||suppinpin.com^
 ||flqjny.supplementler.com^
 ||supplementqwe.online^
+||ads.supplyframe.com^
+||search.supplyframe.com^
 ||shop.supplysmart.com^
 ||sh.support-allegrolokalnie.pl^
 ||support-ip.com^
@@ -69616,6 +69618,7 @@
 ||thumbs.wikifeet.com^
 ||wikifeetx.com^
 ||wikiforosh.ir^
+||manatee.wikijob.co.uk^
 ||wikiporn.tv^
 ||wikiporno.org^
 ||wikmostwantedxc.pl^

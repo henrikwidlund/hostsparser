@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-06 01:18:36Z
+! Last Modified: 2022-04-06 06:20:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -59139,6 +59139,8 @@
 ||suppinpin.com^
 ||flqjny.supplementler.com^
 ||supplementqwe.online^
+||ads.supplyframe.com^
+||search.supplyframe.com^
 ||shop.supplysmart.com^
 ||sh.support-allegrolokalnie.pl^
 ||support-ip.com^
@@ -68508,6 +68510,7 @@
 ||wiserapps.site^
 ||wisevirgin.com^
 ||analytics.wishabi.ca^
+||b.wishabi.com^
 ||wishdownget.com^
 ||dutapp.wisolve.co.za^
 ||wispishpostponement.pl^
@@ -70642,7 +70645,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||launch.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

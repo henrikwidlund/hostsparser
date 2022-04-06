@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-06 01:18:26Z
+! Last Modified: 2022-04-06 06:20:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -47189,6 +47189,8 @@
 ||flqjny.supplementler.com^
 ||supplementqwe.online^
 ||supplementsreport.com^
+||ads.supplyframe.com^
+||search.supplyframe.com^
 ||shop.supplysmart.com^
 ||sh.support-allegrolokalnie.pl^
 ||support-ip.com^
@@ -51137,7 +51139,6 @@
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
-||publisher-config.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
@@ -56018,8 +56019,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||cn.adserver.yahoo.com^
-||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -59310,7 +59309,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||alpha5ail.net.zooplus.es^
+||adm-marketing.eng.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

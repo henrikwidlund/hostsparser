@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-06 01:18:19Z
+! Last Modified: 2022-04-06 06:20:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17128,7 +17128,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||ma788-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -48334,6 +48333,8 @@
 ||flqjny.supplementler.com^
 ||supplementqwe.online^
 ||supplementsreport.com^
+||ads.supplyframe.com^
+||search.supplyframe.com^
 ||shop.supplysmart.com^
 ||sh.support-allegrolokalnie.pl^
 ||support-ip.com^
@@ -58457,6 +58458,7 @@
 ||nautilus.net.zooplus.de^
 ||net.2lab.net.zooplus.de^
 ||owa.apac.net.zooplus.de^
+||page.api.net.zooplus.de^
 ||pay.2lab.net.zooplus.de^
 ||sslyusop.net.zooplus.de^
 ||ww-csr31.net.zooplus.de^
