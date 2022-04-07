@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-07 01:17:32Z
+! Last Modified: 2022-04-07 06:21:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28458,7 +28458,6 @@
 ||lkvkgk.levis.com.tr^
 ||levisklep.com^
 ||leviswyprzedaz.com^
-||info.leviton.com^
 ||levohistam.com^
 ||go.levtech.jp^
 ||conveyor.lewcoinc.com^
@@ -56162,6 +56161,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst3.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
@@ -57231,7 +57231,6 @@
 ||sftp.2lab.net.zooplus.de^
 ||ssl.azure.net.zooplus.de^
 ||train-scm.net.zooplus.de^
-||train.api.net.zooplus.de^
 ||zooplus-2.net.zooplus.de^
 ||0-firewall.net.zooplus.de^
 ||1-privfile.net.zooplus.de^
@@ -59310,7 +59309,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||dashboard.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
