@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-06 18:21:15Z
+! Last Modified: 2022-04-07 01:17:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2837,7 +2837,6 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||rtb.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -44278,6 +44277,7 @@
 ||refer.sage.com^
 ||share.na.sage.com^
 ||wissen.sage.de^
+||go.sageglass.com^
 ||sagent.io^
 ||saharabet.com^
 ||go.saiassurance.com^
@@ -57287,7 +57287,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
@@ -58497,7 +58496,6 @@
 ||car40.aws.net.zooplus.de^
 ||csr11-ebs.net.zooplus.de^
 ||csr12.aws.net.zooplus.de^
-||csr31.acc.net.zooplus.de^
 ||csr31.adm.net.zooplus.de^
 ||data.pass.net.zooplus.de^
 ||datacsr31.net.zooplus.de^
@@ -60589,6 +60587,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||develop-ids.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

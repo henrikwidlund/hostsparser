@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-06 18:21:34Z
+! Last Modified: 2022-04-07 01:17:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11929,9 +11929,6 @@
 ||update-paymentnow.centrenowtv.co.pl^
 ||accpayment-now.centrentfx.online^
 ||accpayment-now.centrentfxtv.icu^
-||paynow-app.centretvntf.co.pl^
-||appkonto-payment.centretvntf.co.pl^
-||update-paymentnow.centretvntf.co.pl^
 ||centrichotel.com^
 ||www2.centricsoftware.com^
 ||brand.centrifuge-now.com^
@@ -72010,6 +72007,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ca.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
