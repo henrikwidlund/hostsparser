@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-07 06:21:25Z
+! Last Modified: 2022-04-07 12:31:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4761,6 +4761,7 @@
 ||aussiemethod.com^
 ||fpc.austinspurs.com^
 ||austintxnews.com^
+||somni.australia.com^
 ||autcus.org^
 ||auth-digitale.com^
 ||auth-google.site^
@@ -16730,7 +16731,6 @@
 ||go.eidebailly.com^
 ||7mx.eider.com^
 ||eidoss.mx^
-||stat-ssl.eiga.com^
 ||eigafilms.com^
 ||eighteenpixels.in^
 ||eightmarket.com^
