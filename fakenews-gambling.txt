@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-07 12:31:10Z
+! Last Modified: 2022-04-07 18:20:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2833,7 +2833,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||s.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -9360,7 +9359,6 @@
 ||sanalytics.cartoonnetwork.com.tr^
 ||sanalytics.cartoonnetwork.de^
 ||sanalytics.cartoonnetwork.es^
-||sanalytics.cartoonnetwork.fr^
 ||sanalytics.cartoonnetwork.it^
 ||analytics.cartoonnetwork.jp^
 ||sanalytics.cartoonnetwork.jp^
@@ -16523,7 +16521,6 @@
 ||rcom-eu.dynamicyield.com^
 ||async-px.dynamicyield.com^
 ||async-px-eu.dynamicyield.com^
-||dlt-beacon.dynatrace-managed.com^
 ||js-cdn.dynatrace.com^
 ||bf20578xco.bf.dynatrace.com^
 ||dns-info.dyndns.pro^
@@ -60100,8 +60097,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||apac-scmaws.marketing.net.zooplus.es^
-||control-prod.ssl-global.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

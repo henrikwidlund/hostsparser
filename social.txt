@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-07 12:31:30Z
+! Last Modified: 2022-04-07 18:20:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15565,7 +15565,6 @@
 ||rcom-eu.dynamicyield.com^
 ||async-px.dynamicyield.com^
 ||async-px-eu.dynamicyield.com^
-||dlt-beacon.dynatrace-managed.com^
 ||js-cdn.dynatrace.com^
 ||bf20578xco.bf.dynatrace.com^
 ||dns-info.dyndns.pro^
@@ -18898,7 +18897,6 @@
 ||auth.follow-apps.com^
 ||sor-sdk.follow-apps.com^
 ||folloyu.com^
-||load.fomo.com^
 ||fonexpress.com.my^
 ||fongyi.com.tw^
 ||home.foni.net^
@@ -52145,7 +52143,6 @@
 ||whatsappsupport.net^
 ||whatseek.com^
 ||tracking.whattoexpect.com^
-||stats.whattopack.com^
 ||wheelersrecharging.pl^
 ||stats.whenpigsflybbq.com^
 ||whensmyferry.com^
@@ -54988,6 +54985,7 @@
 ||auth-csr12.net.zooplus.de^
 ||authgitlab.net.zooplus.de^
 ||authmarket.net.zooplus.de^
+||awsctl.api.net.zooplus.de^
 ||backendapi.net.zooplus.de^
 ||backupmail.net.zooplus.de^
 ||bdzp6ccf3d.net.zooplus.de^
@@ -57028,6 +57026,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||mailsecurity.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

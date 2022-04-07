@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-07 12:31:04Z
+! Last Modified: 2022-04-07 18:20:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3886,6 +3886,7 @@
 ||allegrolokalnie.shop^
 ||allegrolokalnie.site^
 ||allegrolokalnii.digital^
+||464.allegrolokolnie.com^
 ||allegromall.co^
 ||allegropay08.info^
 ||allegropayu.com^
@@ -20204,7 +20205,6 @@
 ||rcom-eu.dynamicyield.com^
 ||async-px.dynamicyield.com^
 ||async-px-eu.dynamicyield.com^
-||dlt-beacon.dynatrace-managed.com^
 ||js-cdn.dynatrace.com^
 ||bf20578xco.bf.dynatrace.com^
 ||dns-info.dyndns.pro^
@@ -34997,6 +34997,7 @@
 ||info.kanden-rd.co.jp^
 ||smetrics.kanebo-compact.com^
 ||smetrics.kanebo-cosmetics.co.jp^
+||smetrics.kanebo-cosmetics.jp^
 ||smetrics.kanebo-global.com^
 ||kanecountyreporter.com^
 ||info.kanetix.ca^
@@ -75458,7 +75459,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||eu-pn4.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

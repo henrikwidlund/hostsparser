@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-07 12:31:17Z
+! Last Modified: 2022-04-07 18:20:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16011,7 +16011,6 @@
 ||rcom-eu.dynamicyield.com^
 ||async-px.dynamicyield.com^
 ||async-px-eu.dynamicyield.com^
-||dlt-beacon.dynatrace-managed.com^
 ||js-cdn.dynatrace.com^
 ||bf20578xco.bf.dynatrace.com^
 ||dns-info.dyndns.pro^
@@ -16731,6 +16730,7 @@
 ||go.eidebailly.com^
 ||7mx.eider.com^
 ||eidoss.mx^
+||stat-ssl.eiga.com^
 ||eigafilms.com^
 ||eighteenpixels.in^
 ||eightmarket.com^
@@ -31041,6 +31041,7 @@
 ||v10c.events.data.microsoft.com^
 ||watson.telemetry.microsoft.com^
 ||wes.df.telemetry.microsoft.com^
+||browser.pipe.aria.microsoft.com^
 ||telecommand.telemetry.microsoft.com^
 ||microsoftcommunityxbox.com^
 ||ns1.microsoftonlines.net^
