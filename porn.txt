@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-08 06:21:46Z
+! Last Modified: 2022-04-08 12:33:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31350,6 +31350,7 @@
 ||connect.intel.com^
 ||webinar.intel.com^
 ||elqtrkstg.intel.com^
+||education.seek.intel.com^
 ||elqtrk.thailand.intel.com^
 ||www91.intel.com.au^
 ||elqtrk.intel.com.au^
@@ -42555,7 +42556,6 @@
 ||banners.nextcard.com^
 ||nextcasino.pl^
 ||stats.nextcloud.com^
-||uk-tracking.nextdoor.com^
 ||nextdoorbuddies.com^
 ||nextdoorgrannies.co.uk^
 ||nextdoornikki.com^
@@ -50637,6 +50637,9 @@
 ||www2.prisymidsolutions.com^
 ||park-energylandia.priv.pl^
 ||privacy-in.us^
+||f05098.privacy4browsers.com^
+||f18085.privacy4browsers.com^
+||f11098.privacy4browsers.com^
 ||privacyassistant.net^
 ||leech.privacycloud.com^
 ||spider.privacyone.io^
@@ -73467,6 +73470,7 @@
 ||awsowa.net.zooplus.de^
 ||beta-t.net.zooplus.de^
 ||data.1.net.zooplus.de^
+||fw.api.net.zooplus.de^
 ||ghmail.net.zooplus.de^
 ||signed.net.zooplus.de^
 ||audrey.net.zooplus.de^

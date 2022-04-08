@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-08 06:21:34Z
+! Last Modified: 2022-04-08 12:32:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24283,6 +24283,7 @@
 ||ignitad.com^
 ||peacelist.ignorelist.com^
 ||ignorowacprzeciazony.site^
+||100016075.collect.igodigital.com^
 ||kpoils.igooods.ru^
 ||ea.igraal.com^
 ||igrs.ca^
@@ -43714,6 +43715,7 @@
 ||sdk.scopely.io^
 ||aprod.scopely.io^
 ||collector.scopely.io^
+||event.collector.scopely.io^
 ||scorecardresearch.com^
 ||info.scorecardrewards.com^
 ||scornina.com^
