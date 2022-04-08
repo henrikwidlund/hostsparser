@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-08 01:16:30Z
+! Last Modified: 2022-04-08 06:21:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16882,11 +16882,6 @@
 ||tr.welcome.easyvoyage.com^
 ||tdf1.easyvoyage.de^
 ||tr.news.easyvoyage.de^
-||allegro-pl-7e2a33.ingress-daribow.easywp.com^
-||allegro-logowanie-8a27af.ingress-earth.easywp.com^
-||winfogoobnpsenline-a3aba7.ingress-earth.easywp.com^
-||wenerlabnppdonateweb-a3aba7.ingress-earth.easywp.com^
-||pocztapolskaplischved2ahukewjq1-906680.ingress-comporellon.easywp.com^
 ||eatandeasy.pl^
 ||woodpecker.eatfresh.tech^
 ||content.eaton.com^
@@ -17127,6 +17122,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
+||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
