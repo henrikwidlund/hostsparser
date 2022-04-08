@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-07 18:20:39Z
+! Last Modified: 2022-04-08 01:16:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10058,6 +10058,8 @@
 ||chap24pro.com^
 ||chapelhillreview.com^
 ||stats.chapterist.show^
+||a8clk.chapup.jp^
+||a8sup.chapup.jp^
 ||a8cv.www.chara-ani.com^
 ||charabancthimbleriggers.info^
 ||go.chard-snyder.com^
@@ -60584,7 +60586,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||admins-www.getter.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
