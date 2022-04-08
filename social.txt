@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-08 12:33:02Z
+! Last Modified: 2022-04-08 18:21:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19519,10 +19519,6 @@
 ||go.fuji.co.jp^
 ||campaign-fbsg.fujifilm.com^
 ||row.fujirebio.com^
-||promotion.pfu.fujitsu.com^
-||mkt-asia.global.fujitsu.com^
-||mkt-japan.global.fujitsu.com^
-||mkt-oceania.global.fujitsu.com^
 ||fukkad.com^
 ||a8clk.fuku-chan.jp^
 ||qysknb.fukuishimbun.co.jp^
@@ -57027,10 +57023,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||alpha5ail.net.zooplus.es^
-||apache.ssl.net.zooplus.es^
-||getarketing.net.zooplus.es^
-||disabledcorp.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
@@ -59215,7 +59207,6 @@
 ||ns.emailvision-cert.net.zooplus.it^
 ||ns.helpachinevision.net.zooplus.it^
 ||ns.machinevisionget.net.zooplus.it^
-||ns.machinevisionrpc.net.zooplus.it^
 ||ns.machinevisionscm.net.zooplus.it^
 ||ns.magroupinevision.net.zooplus.it^
 ||nsacc.machinevision.net.zooplus.it^
