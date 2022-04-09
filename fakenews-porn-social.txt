@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-09 06:21:21Z
+! Last Modified: 2022-04-09 12:27:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20161,6 +20161,7 @@
 ||a8redirect.cart.ec-sites.jp^
 ||cookies.ec4u.com^
 ||ecalabamanews.com^
+||metrics.ecampus.com^
 ||ecampuskbds.com^
 ||go.ecampusontario.ca^
 ||info.ecapital.com^

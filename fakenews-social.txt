@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-09 06:21:25Z
+! Last Modified: 2022-04-09 12:27:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -45347,6 +45347,7 @@
 ||ea.smartbox.com^
 ||aom.smartbrief.com^
 ||aon.smartbrief.com^
+||marketing.smartcamp.asia^
 ||smartcanvas.net^
 ||bd1.smartcheck.vn^
 ||ads.smartclick.com^

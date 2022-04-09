@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-09 06:21:33Z
+! Last Modified: 2022-04-09 12:27:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6502,7 +6502,6 @@
 ||wawi.birysinkahotel.ru^
 ||bis-dic15.com^
 ||estore.biscoind.com^
-||ads.biscom.net^
 ||biscuit-taste.net^
 ||biserzhivkov.com^
 ||bismillah.co.vu^
@@ -57924,10 +57923,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||cvslatin.net.zooplus.es^
-||mailserver.net.zooplus.es^
-||develop-ids.net.zooplus.es^
-||mailtoolbar.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
