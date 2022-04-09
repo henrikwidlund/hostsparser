@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-09 01:14:38Z
+! Last Modified: 2022-04-09 06:21:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6954,6 +6954,7 @@
 ||ayouou.com^
 ||aytani.top^
 ||go.ayudante.jp^
+||ebis.ayura.co.jp^
 ||obkzrcclean2.az.pl^
 ||az7t1.com^
 ||az7t2.com^
@@ -20160,7 +20161,6 @@
 ||a8redirect.cart.ec-sites.jp^
 ||cookies.ec4u.com^
 ||ecalabamanews.com^
-||metrics.ecampus.com^
 ||ecampuskbds.com^
 ||go.ecampusontario.ca^
 ||info.ecapital.com^
@@ -20359,7 +20359,6 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
-||cdn.spotxcdn.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
@@ -72791,9 +72790,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
-||sg.adserver.yahoo.com^
-||in.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
