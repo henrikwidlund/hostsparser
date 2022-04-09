@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-08 18:21:51Z
+! Last Modified: 2022-04-09 01:14:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25326,6 +25326,7 @@
 ||sw88.fxnetworks.com^
 ||oms.fxnowcanada.ca^
 ||fxpoint.co^
+||protection.fxpolice.com^
 ||fxporn.net^
 ||fxrsh.shop^
 ||fxstra.com^
@@ -73304,8 +73305,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
-||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -73497,6 +73496,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst9.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

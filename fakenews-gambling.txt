@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-08 18:21:39Z
+! Last Modified: 2022-04-09 01:14:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14485,6 +14485,7 @@
 ||tracksurf.daooda.com^
 ||dapolli.xyz^
 ||1uwcex4qf9z.test-115.dapp.ml^
+||plausible.tac.dappstar.io^
 ||darakht.com^
 ||daraz.com^
 ||marketing.net.daraz.com.bd^
@@ -17038,7 +17039,6 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
-||t.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -35654,6 +35654,8 @@
 ||npr.news^
 ||metrics.npr.org^
 ||smetrics.npr.org^
+||musk.nproghgxi.site^
+||tesla.nproghgxi.site^
 ||mdws.npscu.ca^
 ||npttech.com^
 ||publicystyczna.nq.pl^

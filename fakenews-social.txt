@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-08 18:21:45Z
+! Last Modified: 2022-04-09 01:14:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -37322,6 +37322,7 @@
 ||olx-pl.pay-id74553.me^
 ||allegrolokalnie-polska.pay-id76664.top^
 ||inpost-polska.pay-id76666.top^
+||polska-pay-olx.pay-id845689.top^
 ||olx-pl.pay-id87754.top^
 ||pl-inpost.pay-id87754.top^
 ||booking-eu.pay-id925856.top^

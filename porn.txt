@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-08 18:21:57Z
+! Last Modified: 2022-04-09 01:14:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19821,6 +19821,7 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
+||cdn-store-icons-akamai-prd.unityads.unity3d.com.edgekey.net^
 ||edgequeens.com^
 ||deep.edgequery.io^
 ||somniture.edgestar.com^
@@ -38407,6 +38408,9 @@
 ||tracking.medpagetoday.com^
 ||marketing.medprostaffing.com^
 ||ssl.o.medscape.co.uk^
+||as.medscape.com^
+||adv.medscape.com^
+||ssl.o.medscape.com^
 ||ssl.o.medscape.org^
 ||medshop.pl^
 ||medsource.top^

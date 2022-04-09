@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-08 18:21:43Z
+! Last Modified: 2022-04-09 01:14:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20308,6 +20308,7 @@
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
+||s-static.innovid.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
@@ -39778,6 +39779,7 @@
 ||metrics.mhn.com^
 ||content.mhs.net^
 ||web.care.mhs.net^
+||smetrics.mhsindiana.com^
 ||a.mhthemes.com^
 ||hy-brasil.mhwang.com^
 ||marx-brothers.mhwang.com^
@@ -74130,7 +74132,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

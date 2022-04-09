@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-08 18:21:58Z
+! Last Modified: 2022-04-09 01:14:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19519,6 +19519,10 @@
 ||go.fuji.co.jp^
 ||campaign-fbsg.fujifilm.com^
 ||row.fujirebio.com^
+||promotion.pfu.fujitsu.com^
+||mkt-asia.global.fujitsu.com^
+||mkt-japan.global.fujitsu.com^
+||mkt-oceania.global.fujitsu.com^
 ||fukkad.com^
 ||a8clk.fuku-chan.jp^
 ||qysknb.fukuishimbun.co.jp^
@@ -51623,7 +51627,6 @@
 ||orlnpost.webflow.io^
 ||quokka.webgems.io^
 ||webhaat.com^
-||ads.webheat.com^
 ||go.webhelp.com^
 ||ads.webhosting.info^
 ||webhostingcounter.com^
