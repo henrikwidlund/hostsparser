@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-10 06:21:07Z
+! Last Modified: 2022-04-10 12:28:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6876,6 +6876,7 @@
 ||smetrics.aviva.co.uk^
 ||metrics.aviva.com.sg^
 ||smetrics.aviva.com.sg^
+||go.avixa.org^
 ||avixxx.com^
 ||avizoone.com^
 ||avkzarabotok.info^
@@ -44538,6 +44539,10 @@
 ||novveullubionerzeczy.cyou^
 ||novvopaczka.site^
 ||novvvaggazetapolska.cyou^
+||cash-advance.now-cash.com^
+||payday-loans.now-cash.com^
+||mortgage-rates.now-cash.com^
+||credit-card-application.now-cash.com^
 ||now-online.net^
 ||minero-proxy-01.now.sh^
 ||minero-proxy-02.now.sh^
@@ -76140,8 +76145,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||w3ssl.net.zooplus.es^
-||engine.net.zooplus.es^
+||getarketing.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

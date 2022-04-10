@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-10 06:20:59Z
+! Last Modified: 2022-04-10 12:27:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20011,6 +20011,7 @@
 ||mlinks.fluz.app^
 ||url7542.fluz.app^
 ||flvrio.com^
+||k3vzn.flx10.com^
 ||flxly.pro^
 ||fly-analytics.com^
 ||go.flyairshare.com^
@@ -46143,6 +46144,7 @@
 ||cookies.siemens-energy.com^
 ||cookies.siemens.com^
 ||strack.sw.siemens.com^
+||go.siemon.com^
 ||sierrameta.net^
 ||tracking.sierrawireless.com^
 ||sifazen.com^
@@ -51848,8 +51850,6 @@
 ||tvn-uwaga.pl^
 ||tvn24.club^
 ||tvnowapp.net^
-||identityver-acc.tvonlinenow.co.pl^
-||update-paymentnow.tvonlinenow.co.pl^
 ||paynow-acc.tvonlinentfx.co.pl^
 ||kontopay-now.tvonlinentfx.co.pl^
 ||tvoyagrupa.xyz^

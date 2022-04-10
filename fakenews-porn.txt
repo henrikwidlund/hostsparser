@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-10 06:21:03Z
+! Last Modified: 2022-04-10 12:27:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -70841,6 +70841,8 @@
 ||knorzj.wearfigs.com^
 ||wearly.dk^
 ||weartexhibitions.com^
+||ads.weather.ca^
+||btn.counter.weather.ca^
 ||adstest.weather.com^
 ||airlytics.airlock.twcmobile.weather.com^
 ||weatherapi.co^
