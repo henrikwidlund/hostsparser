@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-10 01:21:10Z
+! Last Modified: 2022-04-10 06:21:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5982,6 +5982,8 @@
 ||artykuly-wp.eu^
 ||scambiobanner.aruba.it^
 ||etrack.ext.arubainstanton.com^
+||etrack.ext.arubanetworks.com^
+||connecttest.arubanetworks.com^
 ||analytics.arunraghavan.net^
 ||go.aruplab.com^
 ||arushagems.com^
@@ -6874,7 +6876,6 @@
 ||smetrics.aviva.co.uk^
 ||metrics.aviva.com.sg^
 ||smetrics.aviva.com.sg^
-||go.avixa.org^
 ||avixxx.com^
 ||avizoone.com^
 ||avkzarabotok.info^
@@ -7131,6 +7132,8 @@
 ||b7ax3cyzhq.com^
 ||ba8.jp^
 ||baanhnbeli.org.pk^
+||ads.baazee.com^
+||affiliate.baazee.com^
 ||baba-t.com^
 ||marketing-tracker.babbel.com^
 ||babblesex.com^
@@ -44535,10 +44538,6 @@
 ||novveullubionerzeczy.cyou^
 ||novvopaczka.site^
 ||novvvaggazetapolska.cyou^
-||cash-advance.now-cash.com^
-||payday-loans.now-cash.com^
-||mortgage-rates.now-cash.com^
-||credit-card-application.now-cash.com^
 ||now-online.net^
 ||minero-proxy-01.now.sh^
 ||minero-proxy-02.now.sh^
@@ -65604,7 +65603,6 @@
 ||go.ubtech.edu^
 ||ubvosre.host^
 ||feedback.uc.cn^
-||gj.applog.uc.cn^
 ||applogios.uc.cn^
 ||mparticle.uc.cn^
 ||woodpecker.uc.cn^
@@ -76142,6 +76140,8 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||w3ssl.net.zooplus.es^
+||engine.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
