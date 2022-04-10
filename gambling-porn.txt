@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-10 12:28:07Z
+! Last Modified: 2022-04-10 18:20:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -52993,6 +52993,7 @@
 ||tajs.qq.com^
 ||tcss.qq.com^
 ||ysdk.qq.com^
+||l2.l.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
 ||logsdk.qq.com^
@@ -73795,6 +73796,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -77485,6 +77487,9 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||marketing.net.zooplus.es^
+||mailserver.net.zooplus.es^
+||investorsssl.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
