@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-09 18:20:13Z
+! Last Modified: 2022-04-10 01:21:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34164,7 +34164,6 @@
 ||justbet.co^
 ||justbet.co.za^
 ||justbet.cx^
-||i.justblinds.com^
 ||justcasino.com^
 ||justchillbay.com^
 ||justclassicporn.com^
@@ -80348,6 +80347,7 @@
 ||ssl-ctl.net.zooplus.nl^
 ||ssl.app.net.zooplus.nl^
 ||ssl.aws.net.zooplus.nl^
+||ssl.lab.net.zooplus.nl^
 ||waf.owa.net.zooplus.nl^
 ||apd-dev.net.zooplus.nl^
 ||adm-mail.net.zooplus.nl^
@@ -81552,6 +81552,7 @@
 ||shop-discover-frontend-beta.net.zooplus.nl^
 ||ssl-mailinvestors.developer.net.zooplus.nl^
 ||accountinging.mailcloudfront.net.zooplus.nl^
+||c.ns.emailvision-tomcat.chef.net.zooplus.nl^
 ||c6gtfacus5moeskrr630.passowa.net.zooplus.nl^
 ||c6gtfafp2mf8bb230hhg.is-best.net.zooplus.nl^
 ||c6gtg4ncqbhnp2boaeh0.elastic.net.zooplus.nl^
