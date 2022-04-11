@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-10 18:20:55Z
+! Last Modified: 2022-04-11 01:20:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42740,6 +42740,7 @@
 ||www2.rrgprovo.com^
 ||gecko.rrrelax.app^
 ||topads.rrstar.com^
+||tr.email.rs-fr.com^
 ||stats.rs-online.com^
 ||rs.sh^
 ||rs6.net^

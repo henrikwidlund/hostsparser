@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-10 18:20:51Z
+! Last Modified: 2022-04-11 01:20:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -33863,8 +33863,6 @@
 ||vicuna.joblicant.de^
 ||hzzyhl.jobs.ch^
 ||smetrics.jobs.ie^
-||omtrdc.jobsdb.com^
-||somtrdc.jobsdb.com^
 ||ads.jobsite.co.uk^
 ||somtrdc.jobstreet.co.id^
 ||somtrdc.jobstreet.com^
@@ -52993,7 +52991,6 @@
 ||tajs.qq.com^
 ||tcss.qq.com^
 ||ysdk.qq.com^
-||l2.l.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
 ||logsdk.qq.com^
@@ -73796,7 +73793,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -74949,6 +74945,7 @@
 ||mjp.zimad.com^
 ||zimadeals.pl^
 ||zimbio.com^
+||static.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||raven.zimristats.com^
@@ -77487,9 +77484,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||marketing.net.zooplus.es^
-||mailserver.net.zooplus.es^
-||investorsssl.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

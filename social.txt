@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-10 18:21:00Z
+! Last Modified: 2022-04-11 01:20:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12062,6 +12062,8 @@
 ||ad.download.cnet.com^
 ||gserv.cneteu.net^
 ||analytics.cnfanart.com^
+||ads.cnixon.com^
+||chechla.cnixon.com^
 ||go.cnm.edu^
 ||cnn-africa.co^
 ||cnn.cm^
