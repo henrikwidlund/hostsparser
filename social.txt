@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-11 06:22:48Z
+! Last Modified: 2022-04-11 12:31:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22845,7 +22845,6 @@
 ||js.hscollectedforms.net^
 ||hseda.com^
 ||go.hslda.org^
-||js.hsleadflows.net^
 ||xljqqe.hsn.com^
 ||a.hspvst.com^
 ||form.hssv.org^
@@ -54242,6 +54241,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

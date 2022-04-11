@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-11 06:22:43Z
+! Last Modified: 2022-04-11 12:31:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16694,6 +16694,7 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||wildcard.aniview.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -23471,7 +23472,6 @@
 ||js.hscollectedforms.net^
 ||hseda.com^
 ||go.hslda.org^
-||js.hsleadflows.net^
 ||xljqqe.hsn.com^
 ||a.hspvst.com^
 ||form.hssv.org^
@@ -40917,7 +40917,6 @@
 ||ad.qq.com^
 ||fw.qq.com^
 ||rh.qq.com^
-||c.l.qq.com^
 ||rs1.qq.com^
 ||rs2.qq.com^
 ||msdk.qq.com^
@@ -55136,6 +55135,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

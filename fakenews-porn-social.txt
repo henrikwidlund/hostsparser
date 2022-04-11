@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-11 06:22:32Z
+! Last Modified: 2022-04-11 12:30:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30385,7 +30385,6 @@
 ||js.hscollectedforms.net^
 ||hseda.com^
 ||go.hslda.org^
-||js.hsleadflows.net^
 ||hslw.xyz^
 ||xljqqe.hsn.com^
 ||a.hspvst.com^
@@ -60702,6 +60701,8 @@
 ||data-ssl.stepstone.be^
 ||data.stepstone.de^
 ||data-ssl.stepstone.de^
+||data.stepstone.fr^
+||data-ssl.stepstone.fr^
 ||data.stepstone.nl^
 ||data-ssl.stepstone.nl^
 ||steranazgareaga.ml^
@@ -76980,9 +76981,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||sslgit.net.zooplus.es^
-||bloging.net.zooplus.es^
-||alpha5ail.net.zooplus.es^
+||containerarketing.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
