@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-11 01:20:10Z
+! Last Modified: 2022-04-11 06:22:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -60250,6 +60250,7 @@
 ||smile-secret.pl^
 ||a8clk.smile-zemi.jp^
 ||yjrcks.smile-zemi.jp^
+||saa.smilegeneration.com^
 ||openads.smithmag.net^
 ||ssc.smithsonianchannel.com^
 ||smithwick.net^
@@ -75941,6 +75942,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

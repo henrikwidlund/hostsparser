@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-11 01:20:30Z
+! Last Modified: 2022-04-11 06:22:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -40917,6 +40917,7 @@
 ||ad.qq.com^
 ||fw.qq.com^
 ||rh.qq.com^
+||c.l.qq.com^
 ||rs1.qq.com^
 ||rs2.qq.com^
 ||msdk.qq.com^

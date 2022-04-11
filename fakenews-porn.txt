@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-11 01:20:19Z
+! Last Modified: 2022-04-11 06:22:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6598,7 +6598,6 @@
 ||auto-overview.com^
 ||newsy.auto.pl^
 ||qmgwny.autobarn.com.au^
-||as.autobild.de^
 ||web.autobodytoolmart.com^
 ||metrics.autobytel.com^
 ||a8clk.autoc-one.jp^
@@ -48458,6 +48457,7 @@
 ||jdgtgb.pcgames.de^
 ||jdgtgb.pcgameshardware.de^
 ||pchactransfer.site^
+||stat.pchome.net^
 ||smetrics.pcid.ca^
 ||pcmatic.com^
 ||pcmax.jp^
@@ -74618,7 +74618,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
