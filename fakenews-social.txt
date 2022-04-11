@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-11 12:30:54Z
+! Last Modified: 2022-04-11 18:23:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16155,6 +16155,7 @@
 ||dump4barn.com^
 ||info.duncan-parnell.com^
 ||dwglgp.dunelm.com^
+||metrics.dunkindonuts.com^
 ||dunyaaslan.com^
 ||fm.duokanbox.com^
 ||controller.duokanbox.com^
@@ -16870,7 +16871,6 @@
 ||go.edynamiclearning.com^
 ||edziennik.xyz^
 ||smetrics.ee.co.uk^
-||cdn.eeco.xyz^
 ||adguanggao.eee114.com^
 ||web.care.eehealth.org^
 ||eelsoup.net^
@@ -28241,6 +28241,7 @@
 ||laptopy-komputery-naprawa.pl^
 ||laptopyinfo.pl^
 ||larati.net^
+||squirrel.laravel-mix.com^
 ||cat.laravel-news.com^
 ||boom.laravel.io^
 ||jackal.laravelpackage.com^
@@ -30990,7 +30991,6 @@
 ||ssl.o.medicinenet.com^
 ||info.medicinescomplete.com^
 ||medicreporters.com^
-||elqtracking.medidata.com^
 ||piwik.medienhaus.com^
 ||ads.medienhaus.de^
 ||medikopter.pl^

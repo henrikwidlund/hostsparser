@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-11 12:30:40Z
+! Last Modified: 2022-04-11 18:23:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17951,7 +17951,6 @@
 ||lungfish.datadividendproject.com^
 ||datadoghq-browser-agent.com^
 ||logs.datadoghq.com^
-||browser-http-intake.logs.datadoghq.com^
 ||api-sdk.datadome.co^
 ||dataentryworkfromhomejobs.com^
 ||app.datafastguru.info^
@@ -21028,7 +21027,6 @@
 ||go.edynamiclearning.com^
 ||edziennik.xyz^
 ||smetrics.ee.co.uk^
-||cdn.eeco.xyz^
 ||adguanggao.eee114.com^
 ||web.care.eehealth.org^
 ||eelsoup.net^
@@ -44537,6 +44535,7 @@
 ||xfzcds.netprint.ru^
 ||get.netprotections.com^
 ||offers.netpulse.com^
+||go.netradyne.com^
 ||osebgh.netrauta.fi^
 ||web1b.netreflector.com^
 ||ad2.netriota.hu^
@@ -75944,7 +75943,10 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
