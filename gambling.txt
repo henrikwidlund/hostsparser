@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-12 01:20:26Z
+! Last Modified: 2022-04-12 06:22:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4890,6 +4890,9 @@
 ||kiqwal.autoscout24.es^
 ||adobe.autoscout24.fr^
 ||adobe.autoscout24.hr^
+||adobe.autoscout24.it^
+||sadobe.autoscout24.it^
+||hmgnjf.autoscout24.it^
 ||adobe.autoscout24.lu^
 ||adobe.autoscout24.nl^
 ||sadobe.autoscout24.nl^
@@ -54672,7 +54675,6 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
