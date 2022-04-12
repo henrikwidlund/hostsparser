@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-12 06:22:04Z
+! Last Modified: 2022-04-12 12:30:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8543,6 +8543,10 @@
 ||binarium.global^
 ||binarium.link^
 ||binarium.trading^
+||teslch1.binarop.xyz^
+||teslch2.binarop.xyz^
+||teslch3.binarop.xyz^
+||teslch4.binarop.xyz^
 ||binaryforexcrypto.com^
 ||parrot.binarymoon.co.uk^
 ||binarysystem4u.com^
@@ -66194,7 +66198,6 @@
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
-||admediator.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
@@ -72495,10 +72498,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
-||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -74045,7 +74045,6 @@
 ||chwwwowa.net.zooplus.de^
 ||cloudssl.net.zooplus.de^
 ||csr11-ci.net.zooplus.de^
-||data.api.net.zooplus.de^
 ||document.net.zooplus.de^
 ||es-csr12.net.zooplus.de^
 ||gh-csr41.net.zooplus.de^
@@ -76182,8 +76181,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||containerarketing.net.zooplus.es^
-||elasticwwwauth.swag.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
@@ -80178,6 +80175,7 @@
 ||mail.developer.bucketowa.net.zooplus.nl^
 ||mail.dierentoebehorenids.net.zooplus.nl^
 ||mail.elastic-development.net.zooplus.nl^
+||ns.controlmarketing-beta.net.zooplus.nl^
 ||ns.emailvisionproduction.net.zooplus.nl^
 ||pratiques-algorithmiques.net.zooplus.nl^
 ||qa1.dr.na.sandbox.gwsweb.net.zooplus.nl^
