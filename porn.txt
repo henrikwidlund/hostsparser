@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-12 12:30:24Z
+! Last Modified: 2022-04-12 18:21:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51945,6 +51945,7 @@
 ||tajs.qq.com^
 ||tcss.qq.com^
 ||ysdk.qq.com^
+||l2.l.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
 ||logsdk.qq.com^
@@ -67990,7 +67991,6 @@
 ||volsex.com^
 ||go.voltactivedata.com^
 ||stats.voltamediahouse.com^
-||marketing.voltexelectrical.com.au^
 ||pl.volunteeringauckland.org.nz^
 ||pl.volunteeringwaikato.org.nz^
 ||pl.volunteermarlborough.org.nz^
@@ -74052,6 +74052,7 @@
 ||nautilus.net.zooplus.de^
 ||net.2lab.net.zooplus.de^
 ||owa.apac.net.zooplus.de^
+||page.api.net.zooplus.de^
 ||pay.2lab.net.zooplus.de^
 ||sslyusop.net.zooplus.de^
 ||ww-csr31.net.zooplus.de^
@@ -76181,6 +76182,9 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||sslgit.net.zooplus.es^
+||marketing.net.zooplus.es^
+||apache.ssl.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
@@ -80175,7 +80179,6 @@
 ||mail.developer.bucketowa.net.zooplus.nl^
 ||mail.dierentoebehorenids.net.zooplus.nl^
 ||mail.elastic-development.net.zooplus.nl^
-||ns.controlmarketing-beta.net.zooplus.nl^
 ||ns.emailvisionproduction.net.zooplus.nl^
 ||pratiques-algorithmiques.net.zooplus.nl^
 ||qa1.dr.na.sandbox.gwsweb.net.zooplus.nl^

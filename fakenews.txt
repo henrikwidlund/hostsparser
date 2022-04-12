@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-12 12:30:13Z
+! Last Modified: 2022-04-12 18:21:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1951,8 +1951,6 @@
 ||adgroups.net^
 ||api.adgrowth.jp^
 ||adgtracker.com^
-||email-clk.adguard.com^
-||email-opn.adguard.com^
 ||adhall.com^
 ||adhearus.com^
 ||adhesivecapsulitispedia.com^
@@ -45992,9 +45990,6 @@
 ||metrics.jp.sonystyle.com^
 ||ssc.sonystyle.com.cn^
 ||cfhjqg.sonyunara.jp^
-||assets.soom.la^
-||highway2.soom.la^
-||teleport.soom.la^
 ||soonerstatenews.com^
 ||click.em.soothe.com^
 ||link.email.soothe.com^
@@ -62202,6 +62197,7 @@
 ||ssl.kube.net.zooplus.nl^
 ||ssl.mail.net.zooplus.nl^
 ||ssl.node.net.zooplus.nl^
+||ssl.pass.net.zooplus.nl^
 ||swag.ids.net.zooplus.nl^
 ||caml-llg.net.zooplus.nl^
 ||dreamvoz.net.zooplus.nl^

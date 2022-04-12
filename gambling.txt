@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-12 12:30:20Z
+! Last Modified: 2022-04-12 18:21:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -41036,6 +41036,9 @@
 ||queenvegas.com^
 ||te.quelle.at^
 ||tp.quelle.at^
+||te.quelle.ch^
+||tp.quelle.ch^
+||rejnrb.quelle.ch^
 ||te.quelle.de^
 ||tp.quelle.de^
 ||seniorliving.querenciabartoncreek.com^
@@ -45961,7 +45964,6 @@
 ||spreadex.com^
 ||go.spreadsheetscheduler.com^
 ||spreadyourtentacles.com^
-||stats.sprechstunde.ai^
 ||ablink.hello.spriggy.com.au^
 ||9857064.hello.spriggy.com.au^
 ||ablink.notice.spriggy.com.au^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-12 12:30:05Z
+! Last Modified: 2022-04-12 18:21:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21632,6 +21632,8 @@
 ||getfilesfrom.net^
 ||getgamecheats.com^
 ||carp.getgift.me^
+||telemetry.servers.getgo.com^
+||api-telemetry.servers.getgo.com^
 ||links.info.getgocafe.com^
 ||links.email.getgocafe.com^
 ||gethomevaluerestoration.com^
@@ -42796,6 +42798,8 @@
 ||rmp.rakuten.com^
 ||brc.emails.rakuten.com^
 ||qa-brc.emails.rakuten.com^
+||rd.comm.rakuten.net^
+||rd.insight.rakuten.net^
 ||ralcenacupsinggan.cf^
 ||ralden.network^
 ||qitdsl.ralf.ru^
@@ -57769,7 +57773,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
