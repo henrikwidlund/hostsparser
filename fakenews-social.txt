@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-11 18:23:29Z
+! Last Modified: 2022-04-12 01:20:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30991,6 +30991,7 @@
 ||ssl.o.medicinenet.com^
 ||info.medicinescomplete.com^
 ||medicreporters.com^
+||elqtracking.medidata.com^
 ||piwik.medienhaus.com^
 ||ads.medienhaus.de^
 ||medikopter.pl^
@@ -56503,6 +56504,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sg.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

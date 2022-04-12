@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-11 18:23:30Z
+! Last Modified: 2022-04-12 01:20:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32669,7 +32669,6 @@
 ||mydomainbest.com^
 ||mydreamdegree.com^
 ||mydreamholidaysandresorts.com^
-||site.connect.mydrreddys.com^
 ||myeatherwallet.com^
 ||myedimate.ml^
 ||myeforsa.pl^
@@ -51151,7 +51150,6 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
-||cdn.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
