@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-13 01:24:41Z
+! Last Modified: 2022-04-13 06:22:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7886,6 +7886,7 @@
 ||places.britishland.com^
 ||britney.com.pl^
 ||britspizzeria.com^
+||www2.brivo.com^
 ||brnts.com.pl^
 ||brnts.net.pl^
 ||brnts.pl^
@@ -61577,6 +61578,7 @@
 ||system.appsssl-backend-owa.net.zooplus.nl^
 ||uxt-magazine-teaser-qa.owa.net.zooplus.nl^
 ||c.ns-cloudfront.emailvision.net.zooplus.nl^
+||c.ns.efirewallvision-tomcat.net.zooplus.nl^
 ||c6gtf9vcqbhnq8c0t2vg.active.net.zooplus.nl^
 ||de-muc-sbs-mailautodiscover.net.zooplus.nl^
 ||developer.administratormail.net.zooplus.nl^

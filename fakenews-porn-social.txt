@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-13 01:24:24Z
+! Last Modified: 2022-04-13 06:22:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7528,7 +7528,6 @@
 ||baramije.net^
 ||smetrics.barandblock.co.uk^
 ||barbcummings.com^
-||marketing.barbizon.com^
 ||barcaacademyistanbul.com^
 ||smetrics.barcainnovationhub.com^
 ||metric.barclaycardus.com^
@@ -46218,6 +46217,8 @@
 ||polskapoczta.olxkontosos.casa^
 ||olx.olxkontosos.cyou^
 ||inpost.olxkontosos.cyou^
+||olx.olxkontosos.shop^
+||inpost.olxkontosos.shop^
 ||olxoplata.pl^
 ||olxp-getpay.work^
 ||olxpay-bh.pw^
@@ -73274,6 +73275,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

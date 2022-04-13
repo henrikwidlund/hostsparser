@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-13 01:24:33Z
+! Last Modified: 2022-04-13 06:22:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -60946,6 +60946,8 @@
 ||syncfab.tech^
 ||somni.synchrony.com^
 ||analytics.synchrony.com^
+||e.synchronybank.com^
+||analytics.synchronybank.com^
 ||metrics.synchronybusiness.com^
 ||analytics.synchronybusiness.com^
 ||securemetrics.synchronybusiness.com^
@@ -81534,6 +81536,7 @@
 ||system.appsssl-backend-owa.net.zooplus.nl^
 ||uxt-magazine-teaser-qa.owa.net.zooplus.nl^
 ||c.ns-cloudfront.emailvision.net.zooplus.nl^
+||c.ns.efirewallvision-tomcat.net.zooplus.nl^
 ||c6gtf9vcqbhnq8c0t2vg.active.net.zooplus.nl^
 ||de-muc-sbs-mailautodiscover.net.zooplus.nl^
 ||developer.administratormail.net.zooplus.nl^

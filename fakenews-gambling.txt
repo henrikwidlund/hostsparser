@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-13 01:24:21Z
+! Last Modified: 2022-04-13 06:22:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29376,6 +29376,8 @@
 ||adserver.libero.it^
 ||adv-banner.libero.it^
 ||ads.liberte.pl^
+||verify.libertrust.com^
+||verification.libertrust.com^
 ||clk.liberty-e.com^
 ||eloqua.liberty.edu^
 ||liberty.news^
@@ -44936,7 +44938,6 @@
 ||smetrics.sce.com^
 ||scegli-vinci.it^
 ||sceh.net^
-||www2.scentair.com^
 ||info.scfederal.org^
 ||scgis.co.uk^
 ||scglobal.co.th^
@@ -45557,6 +45558,7 @@
 ||go.serversaustralia.com.au^
 ||info.serverworks.co.jp^
 ||servethis.com^
+||ubntrooters.serveuser.com^
 ||root20system20macosxdriver.serveusers.com^
 ||service-account-payment-genuinelsmath.eu^
 ||irc.service-exec.net^
