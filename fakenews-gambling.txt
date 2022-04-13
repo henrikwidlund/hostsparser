@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-13 06:22:17Z
+! Last Modified: 2022-04-13 12:30:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17367,7 +17367,6 @@
 ||detnmz.ehow.com^
 ||clientengagement.ehpartners.com^
 ||adserve.ehpub.com^
-||tracking.ehrintelligence.com^
 ||ehsanenterprises.com^
 ||metrics.ehstoday.com^
 ||ehtereum.org^
@@ -44938,6 +44937,7 @@
 ||smetrics.sce.com^
 ||scegli-vinci.it^
 ||sceh.net^
+||www2.scentair.com^
 ||info.scfederal.org^
 ||scgis.co.uk^
 ||scglobal.co.th^

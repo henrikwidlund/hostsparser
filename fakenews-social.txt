@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-13 06:22:23Z
+! Last Modified: 2022-04-13 12:30:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29994,6 +29994,7 @@
 ||top.mail.ru^
 ||top5.mail.ru^
 ||1l-view.mail.ru^
+||d6.c5.b0.a2.top.mail.ru^
 ||ads.mail3x.com^
 ||track.mailalert.io^
 ||mailbox-vantage.com^
@@ -31907,8 +31908,6 @@
 ||k1.mobileadsserver.com^
 ||avowtech.mobileadstrk.com^
 ||tracking.mobileadstrk.com^
-||track-east.mobileadtrading.com^
-||publisher-east.mobileadtrading.com^
 ||api.mobileanjian.com^
 ||ent.mobileanjian.com^
 ||analytics.lb.mobileapphelper.com^
@@ -43975,6 +43974,7 @@
 ||sc-tradingco.com^
 ||globalcommunications.sc.com^
 ||scabbardingneurotics.xyz^
+||ads.scabee.com^
 ||go.scad.edu^
 ||stats.scailable.net^
 ||scalaskanews.com^
