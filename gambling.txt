@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-12 18:21:15Z
+! Last Modified: 2022-04-13 01:24:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -40921,6 +40921,7 @@
 ||tajs.qq.com^
 ||tcss.qq.com^
 ||ysdk.qq.com^
+||l2.l.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
 ||logsdk.qq.com^
@@ -45964,6 +45965,7 @@
 ||spreadex.com^
 ||go.spreadsheetscheduler.com^
 ||spreadyourtentacles.com^
+||stats.sprechstunde.ai^
 ||ablink.hello.spriggy.com.au^
 ||9857064.hello.spriggy.com.au^
 ||ablink.notice.spriggy.com.au^
@@ -58421,6 +58423,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||marketing.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

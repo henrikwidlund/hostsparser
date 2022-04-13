@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-12 18:21:07Z
+! Last Modified: 2022-04-13 01:24:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28286,8 +28286,6 @@
 ||lasportivapolska.com^
 ||lasportivapolska.pl^
 ||lasportivasklep.com^
-||adbmetrics.lasprovincias.es^
-||sadbmetrics.lasprovincias.es^
 ||lassoesapostasy.com^
 ||last-chainleash.net^
 ||aa.last.fm^

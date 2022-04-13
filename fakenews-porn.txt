@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-12 18:21:05Z
+! Last Modified: 2022-04-13 01:24:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34834,6 +34834,8 @@
 ||go.minerva.kgi.edu^
 ||openx.kgmedia.eu^
 ||kgtpk.com^
+||ywrcqa.kgw.com^
+||metrics.kgw.com^
 ||kommersant.kh.ua^
 ||khaddikhaddar.pk^
 ||viowyf.khaiafi.com^
@@ -57654,7 +57656,6 @@
 ||sexyads.com^
 ||sexyads.net^
 ||pornve.sexyadsrun.com^
-||lp.sexyadults.eu^
 ||sexyandfunny.com^
 ||sexyaporno.com^
 ||sexyasian.fun^
@@ -73491,6 +73492,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -74615,6 +74617,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

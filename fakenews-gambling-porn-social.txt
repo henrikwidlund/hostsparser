@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-12 18:20:59Z
+! Last Modified: 2022-04-13 01:24:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21004,13 +21004,11 @@
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ds-www.addthis.com.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
-||s-static.innovid.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
@@ -74802,6 +74800,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst0.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
@@ -75779,7 +75778,6 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
-||app.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||zingknowev.tk^
 ||zingyporntube.com^
