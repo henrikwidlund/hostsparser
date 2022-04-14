@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-14 06:22:44Z
+! Last Modified: 2022-04-14 12:34:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36925,6 +36925,7 @@
 ||pl-cv19.pl^
 ||olx.pl-cx.top^
 ||olx.pl-dostawa.ru^
+||inpost.pl-dostawa55.eu^
 ||pl-fakt24.pl^
 ||pl-getcash.xyz^
 ||pl-getdeals.xyz^
@@ -53639,7 +53640,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -56919,7 +56919,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||apache.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^

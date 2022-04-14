@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-14 06:22:25Z
+! Last Modified: 2022-04-14 12:34:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17075,7 +17075,6 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
-||digicertwc.rubiconproject.com.edgekey.net^
 ||deep.edgequery.io^
 ||somniture.edgestar.com^
 ||c6.edgesuite.net^
@@ -64374,6 +64373,7 @@
 ||billingcontrolmarketing-emailvision-tomcat.net.zooplus.nl^
 ||controlmarketing-emailvision-tomcatrelease.net.zooplus.nl^
 ||ext-ns.controlmarketing-emailvision-tomcat.net.zooplus.nl^
+||ns.controlmarketing-emailvision-media-mail.net.zooplus.nl^
 ||sslbucketblogloadbalancer.controlmarketing.net.zooplus.nl^
 ||c.ns.controlmarketing-emailvision-tomcatphp.net.zooplus.nl^
 ||c.ns.controlmarketing-firewallvision-tomcat.net.zooplus.nl^
