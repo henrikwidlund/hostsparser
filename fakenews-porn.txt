@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-14 12:34:30Z
+! Last Modified: 2022-04-14 18:21:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8648,7 +8648,6 @@
 ||bilttrex.com^
 ||bimajostyle.com^
 ||stats.bimbase.nl^
-||bimbim.com^
 ||bimbo.cam^
 ||bimbolive.com^
 ||bimden.space^
@@ -58094,7 +58093,6 @@
 ||simpleads.net^
 ||simplecounter.net^
 ||simpledealers.com^
-||plausible.simplelogin.io^
 ||adsystem.simplemachines.org^
 ||sn.simplenexus.com^
 ||simplenu.com^
@@ -61376,7 +61374,6 @@
 ||tailormate.se^
 ||tailsweep.se^
 ||contact.tainavi-battery.com^
-||contact.tainavi-pp.com^
 ||contact.tainavi.com^
 ||click.taincash.com^
 ||tainster.com^
@@ -74037,6 +74034,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||dk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
