@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-13 18:20:55Z
+! Last Modified: 2022-04-14 01:26:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4617,6 +4617,7 @@
 ||tracking.go.atcc.org^
 ||atcofiles.com^
 ||atdmt.com^
+||kampanjat.atea.fi^
 ||cookiejar.atea.no^
 ||api.ateam-ad.jp^
 ||atech.ne.jp^
@@ -55361,6 +55362,7 @@
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -58656,6 +58658,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||login.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^
@@ -61441,6 +61444,7 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
+||ebs-ssl.net.zooplus.nl^
 ||owawwww.net.zooplus.nl^
 ||passing.net.zooplus.nl^
 ||php.owa.net.zooplus.nl^
