@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-15 01:21:13Z
+! Last Modified: 2022-04-15 06:21:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17057,7 +17057,6 @@
 ||stickyadstv.com.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
-||tags.bluekai.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
@@ -36845,7 +36844,6 @@
 ||oooc.in^
 ||ooogo.xyz^
 ||ooox.in^
-||keyade.ooreka.fr^
 ||oosms.in^
 ||op-pl.site^
 ||opads.us^
@@ -59989,7 +59987,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||sslops.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^
@@ -61693,7 +61690,6 @@
 ||internals.net.zooplus.it^
 ||mail-corp.net.zooplus.it^
 ||mail-data.net.zooplus.it^
-||mail.corp.net.zooplus.it^
 ||mail.file.net.zooplus.it^
 ||marketing.net.zooplus.it^
 ||mesos-owa.net.zooplus.it^
