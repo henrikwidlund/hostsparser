@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-15 06:22:02Z
+! Last Modified: 2022-04-15 12:29:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -140,7 +140,6 @@
 ||soft.110route.com^
 ||theporndude.com.1111supjavcom.xyz^
 ||notads.111javguru.xyz^
-||notads.111supjav.xyz^
 ||notads.111supjavcom.xyz^
 ||1120.com.tw^
 ||112121.space^
@@ -15864,7 +15863,6 @@
 ||click.dtiserv2.com^
 ||tracking.dtiserv2.com^
 ||dtmx.pl^
-||pop.dtoo1.space^
 ||ads.dtpnetwork.biz^
 ||2.dtxtck1.xyz^
 ||du-wizards.com^
@@ -18382,7 +18380,6 @@
 ||fanwestpge-pl1.info^
 ||fanyun.com^
 ||fanzinger.com^
-||a.fapcat.com^
 ||oi.fapnado.com^
 ||oi.fapnado.xxx^
 ||oi.fapnow.xxx^
@@ -58656,6 +58653,8 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||eisy.net.zooplus.fr^
+||apache.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^

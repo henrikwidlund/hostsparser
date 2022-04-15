@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-15 06:21:49Z
+! Last Modified: 2022-04-15 12:29:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -164,7 +164,6 @@
 ||soft.110route.com^
 ||theporndude.com.1111supjavcom.xyz^
 ||notads.111javguru.xyz^
-||notads.111supjav.xyz^
 ||notads.111supjavcom.xyz^
 ||1120.com.tw^
 ||112121.space^
@@ -20033,7 +20032,6 @@
 ||click.dtiserv2.com^
 ||tracking.dtiserv2.com^
 ||dtmx.pl^
-||pop.dtoo1.space^
 ||ads.dtpnetwork.biz^
 ||dtvideo.com^
 ||2.dtxtck1.xyz^
@@ -23200,7 +23198,6 @@
 ||fapbabe.com^
 ||fapcam.club^
 ||fapcams.club^
-||fapcat.com^
 ||fapd.com^
 ||fapdex.com^
 ||fapdig.com^
@@ -25524,7 +25521,6 @@
 ||pril2tro.fritoo.site^
 ||pril5tro.fritoo.site^
 ||zelten.fritz-berger.de^
-||secure.frog9alea.com^
 ||marketing.frogtape.com^
 ||frolicme.com^
 ||fromru.su^
@@ -75358,6 +75354,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ca.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
