@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-15 12:29:55Z
+! Last Modified: 2022-04-15 18:21:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36521,6 +36521,7 @@
 ||facebook-com.page-pl.xyz^
 ||page-productdeparture.xyz^
 ||oix.page-productdispatch.xyz^
+||0ix.page-productpay.xyz^
 ||pl-facebook.page-profile.sbs^
 ||olx.page-sendinggoods.xyz^
 ||asg.page-x.com^

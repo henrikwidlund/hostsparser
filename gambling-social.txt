@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-15 12:29:54Z
+! Last Modified: 2022-04-15 18:21:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3412,7 +3412,6 @@
 ||sol-b.alwayssunny.care^
 ||alworts.com^
 ||stats.am.ai^
-||bear.ama.so^
 ||go.amada-vfactory.com^
 ||campaign.amadeus.com^
 ||campaigns.amadeus.com^
@@ -58300,6 +58299,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||campus.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^
