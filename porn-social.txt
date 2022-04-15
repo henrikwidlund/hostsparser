@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-14 18:21:30Z
+! Last Modified: 2022-04-15 01:21:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19858,7 +19858,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||ma193-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -70545,10 +70544,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sg.adserver.yahoo.com^
-||dk.adserver.yahoo.com^
-||in.adserver.yahoo.com^
+||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||cn2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -74231,7 +74229,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||44.net.zooplus.fr^
+||redir.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^

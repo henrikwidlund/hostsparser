@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-14 18:21:26Z
+! Last Modified: 2022-04-15 01:21:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7930,6 +7930,7 @@
 ||boxes-mix.net^
 ||boxesfly.com^
 ||api.boxever.com^
+||fhkizh.boxil.jp^
 ||tykazy.boxing-club-legenda-ufa.ru^
 ||marketing.boxmanstudios.com^
 ||fahmta.boxrec.com^
@@ -55010,9 +55011,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
-||cn.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
