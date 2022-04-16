@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-16 01:17:48Z
+! Last Modified: 2022-04-16 06:21:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35881,6 +35881,9 @@
 ||inpost-polska-shj.order46899.me^
 ||inpost-polska-ifd.order469854.me^
 ||inpost-polska-ja.order483829.me^
+||inpost-noop.order4939292.me^
+||inpost-polska-mp.order4939292.me^
+||inpost-polska-lls.order4939292.me^
 ||inpost-polska-mi.order6457.me^
 ||inpost-polska-kpo.order74764.me^
 ||inpost-polska-wz.order7578.me^
@@ -55005,6 +55008,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||br.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -58296,6 +58300,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||cloud.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^
@@ -59917,8 +59922,10 @@
 ||k8smail.net.zooplus.it^
 ||kubectl.net.zooplus.it^
 ||nodeail.net.zooplus.it^
+||ns.3457.net.zooplus.it^
 ||ns.apex.net.zooplus.it^
 ||org.owa.net.zooplus.it^
+||owa.k8s.net.zooplus.it^
 ||owadata.net.zooplus.it^
 ||prd.owa.net.zooplus.it^
 ||activeww.net.zooplus.it^

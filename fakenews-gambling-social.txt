@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-16 01:17:35Z
+! Last Modified: 2022-04-16 06:20:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23271,6 +23271,8 @@
 ||hellcase.com^
 ||tr.helloartisan.info^
 ||sstats.hellobank.be^
+||tr.vous.hellobank.fr^
+||smetrics.hellobank.fr^
 ||hellobar.com^
 ||hellobloom.me^
 ||hellocasino.com^
@@ -62092,6 +62094,7 @@
 ||kubectl.net.zooplus.it^
 ||nodeail.net.zooplus.it^
 ||ns.apex.net.zooplus.it^
+||ns.crmp.net.zooplus.it^
 ||org.owa.net.zooplus.it^
 ||owadata.net.zooplus.it^
 ||prd.owa.net.zooplus.it^

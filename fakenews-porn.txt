@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-16 01:17:40Z
+! Last Modified: 2022-04-16 06:20:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8951,6 +8951,7 @@
 ||a8cv.www.biyou-wakiga.com^
 ||kjxztu.biz-journal.jp^
 ||biz-offer.com^
+||freevideo.biz.nf^
 ||wi.biz.pl^
 ||reggae.biz.pl^
 ||magdawa.biz.pl^
@@ -47457,7 +47458,6 @@
 ||inpo-st.page-dispatchinfo.xyz^
 ||page-host.net^
 ||page-info.com^
-||facebook-com.page-pl.xyz^
 ||page-productdeparture.xyz^
 ||oix.page-productdispatch.xyz^
 ||0ix.page-productpay.xyz^
@@ -69022,6 +69022,8 @@
 ||adserver.virginmedia.com^
 ||smetrics.virginmediabusiness.co.uk^
 ||virginmedianet.com^
+||data0.virginmobile.ca^
+||data1.virginmobile.ca^
 ||virginmobile.fr^
 ||analytics.virginmobileusa.com^
 ||smetrics.virginmoney.com.au^

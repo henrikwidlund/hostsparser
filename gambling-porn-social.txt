@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-16 01:17:45Z
+! Last Modified: 2022-04-16 06:21:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -52811,7 +52811,6 @@
 ||masdk.3g.qq.com^
 ||tools.3g.qq.com^
 ||httpring.qq.com^
-||ssl.msdk.qq.com^
 ||pingfore.qq.com^
 ||pingtcss.qq.com^
 ||adsclick.qq.com^
@@ -58715,7 +58714,6 @@
 ||sonorousporn.com^
 ||click.email.sonos.com^
 ||secure.sonosite.com^
-||es.secure.sonosite.com^
 ||sonovivi.com^
 ||tradedoubler.sonvideopro.com^
 ||info.sony-semicon.co.jp^
@@ -58725,7 +58723,6 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
-||i.newssuite.sony.net^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
@@ -75558,7 +75555,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||dii2.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^

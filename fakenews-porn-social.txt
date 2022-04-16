@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-16 01:17:38Z
+! Last Modified: 2022-04-16 06:20:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6878,6 +6878,7 @@
 ||avon-severozapad.ru^
 ||avon-ukraine.com^
 ||advertisement.avosapps.us^
+||marketing.avoxi.com^
 ||counter.avp2000.com^
 ||avpayments.com^
 ||avrakougioumtzi.gr^
@@ -33739,6 +33740,7 @@
 ||ad.jiguang.cn^
 ||im.jiguang.cn^
 ||sdk.jiguang.cn^
+||res-push.ad.jiguang.cn^
 ||verification.jiguang.cn^
 ||jihadwatch.org^
 ||jikamemangg.co.vu^
