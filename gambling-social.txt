@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-16 06:21:08Z
+! Last Modified: 2022-04-16 12:28:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -49294,7 +49294,6 @@
 ||trampoliny260.com^
 ||trampoliny275.com^
 ||trans-act.com^
-||smetrics.transact711.com^
 ||transakcja9381.net^
 ||transakcji.pl^
 ||tk.transavia.com^
@@ -55008,7 +55007,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||br.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -55142,6 +55140,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst9.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
@@ -58300,7 +58299,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||cloud.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^
@@ -59922,10 +59920,8 @@
 ||k8smail.net.zooplus.it^
 ||kubectl.net.zooplus.it^
 ||nodeail.net.zooplus.it^
-||ns.3457.net.zooplus.it^
 ||ns.apex.net.zooplus.it^
 ||org.owa.net.zooplus.it^
-||owa.k8s.net.zooplus.it^
 ||owadata.net.zooplus.it^
 ||prd.owa.net.zooplus.it^
 ||activeww.net.zooplus.it^

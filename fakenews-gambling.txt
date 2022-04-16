@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-16 06:20:53Z
+! Last Modified: 2022-04-16 12:28:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -56676,7 +56676,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||cn.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -59972,7 +59971,6 @@
 ||documentation-marketing.net.zooplus.es^
 ||gatewayssl.applications.net.zooplus.es^
 ||ns.accounting-emailvision.net.zooplus.es^
-||api.documentation-marketing.net.zooplus.es^
 ||uplonorthamerica-sslarketing.net.zooplus.es^
 ||mailshop-wall-prod-zooplus-ch.net.zooplus.es^
 ||elastic.org.email.frontpagessl.net.zooplus.es^
@@ -62713,6 +62711,7 @@
 ||enterpriseenrollmentocloudfronta.net.zooplus.it^
 ||enterpriseregistration-marketing.net.zooplus.it^
 ||ns.mft-sftp-server.machinevision.net.zooplus.it^
+||server2.dev3.goldenserviceawards.net.zooplus.it^
 ||activeshop-wall-beta-bitiba-co-uk.net.zooplus.it^
 ||enterpriseenrollment-ocloudfronta.net.zooplus.it^
 ||machinevienterpriseregistrationon.net.zooplus.it^

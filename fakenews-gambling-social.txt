@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-16 06:20:52Z
+! Last Modified: 2022-04-16 12:28:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9589,7 +9589,6 @@
 ||catbuty.top^
 ||catbutyoutlet.com^
 ||catbutysklep.pl^
-||pa.wme.catchmedia.com^
 ||caterpillar-polska.pl^
 ||caterpillarpolska.co^
 ||caterpillarpolska.com^
@@ -60472,6 +60471,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||owask.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^
@@ -62094,7 +62094,6 @@
 ||kubectl.net.zooplus.it^
 ||nodeail.net.zooplus.it^
 ||ns.apex.net.zooplus.it^
-||ns.crmp.net.zooplus.it^
 ||org.owa.net.zooplus.it^
 ||owadata.net.zooplus.it^
 ||prd.owa.net.zooplus.it^
