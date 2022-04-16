@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-15 18:21:17Z
+! Last Modified: 2022-04-16 01:17:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -50508,7 +50508,6 @@
 ||unblockfacebook.co.uk^
 ||unblocksit.es^
 ||go.unbosque.edu.co^
-||think.unbounce.com^
 ||unboundedcomprized.pl^
 ||unboxs.org^
 ||go.kenan-flagler.unc.edu^
@@ -55354,7 +55353,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||tw2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

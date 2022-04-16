@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-15 18:21:10Z
+! Last Modified: 2022-04-16 01:17:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23271,8 +23271,6 @@
 ||hellcase.com^
 ||tr.helloartisan.info^
 ||sstats.hellobank.be^
-||tr.vous.hellobank.fr^
-||smetrics.hellobank.fr^
 ||hellobar.com^
 ||hellobloom.me^
 ||hellocasino.com^
@@ -42574,6 +42572,8 @@
 ||randolphcountynews.com^
 ||random-logic.com^
 ||randomarm.info^
+||code.randomhouse.com^
+||scode.randomhouse.com^
 ||randomlane.net^
 ||adcentric.randomseed.com^
 ||randppro-cuts.com^
@@ -52157,7 +52157,6 @@
 ||unblockfacebook.co.uk^
 ||unblocksit.es^
 ||go.unbosque.edu.co^
-||think.unbounce.com^
 ||unboundedcomprized.pl^
 ||unboxs.org^
 ||go.kenan-flagler.unc.edu^
@@ -57301,7 +57300,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst3.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
