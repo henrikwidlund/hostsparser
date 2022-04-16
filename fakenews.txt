@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-16 12:28:50Z
+! Last Modified: 2022-04-16 18:20:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20965,6 +20965,7 @@
 ||rnybul.gismeteo.kz^
 ||rnybul.gismeteo.ru^
 ||git-hub.co^
+||vampirebat.git-tower.com^
 ||bob.gitclear.com^
 ||githb.co^
 ||pyro0.github.io^
@@ -25346,7 +25347,6 @@
 ||invitedcorp.xyz^
 ||invitefashion.com^
 ||invocacdn.com^
-||e.invodo.com^
 ||invoke.ml^
 ||invoksms.com^
 ||invol.co^

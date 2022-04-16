@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-16 12:28:59Z
+! Last Modified: 2022-04-16 18:20:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -57588,6 +57588,7 @@
 ||metrics.sony.jp^
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
+||newssuite.sony.net^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
 ||go.sonybsc.com^

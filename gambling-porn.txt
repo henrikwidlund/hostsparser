@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-16 12:28:54Z
+! Last Modified: 2022-04-16 18:20:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9197,6 +9197,7 @@
 ||m.blackberry.com^
 ||bb.blackberry.com^
 ||metrics.blackberry.com^
+||stats.blackblog.cz^
 ||go.blackboard.com^
 ||tracking.blackboard.com^
 ||blackbootypictures.com^
