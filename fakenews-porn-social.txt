@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-17 12:28:23Z
+! Last Modified: 2022-04-17 18:20:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20345,7 +20345,6 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
-||ms.applovin.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -41421,8 +41420,6 @@
 ||mpxxtrk.com^
 ||mr-mahmoud-hassan.com^
 ||mr-mondial.com^
-||r.mradx.net^
-||r0.mradx.net^
 ||smetrics.mrappliance.com^
 ||smartschool.mrbroadband.net^
 ||info.mrc.org^
@@ -76392,8 +76389,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||asa1.net.zooplus.fr^
-||ip16.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^
@@ -79179,7 +79174,6 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||gh.owa.net.zooplus.nl^
 ||owawwww.net.zooplus.nl^
 ||passing.net.zooplus.nl^
 ||php.owa.net.zooplus.nl^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-17 12:28:27Z
+! Last Modified: 2022-04-17 18:20:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16539,6 +16539,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma1275-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -16547,6 +16548,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||wildcard.applovin.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -35843,8 +35845,6 @@
 ||imbc.onthewifi.com^
 ||ontonagonguide.com^
 ||info.onupkeep.com^
-||lbgfqn.onward.co.jp^
-||smetrics.onward.co.jp^
 ||onwardclick.com^
 ||onwey.com^
 ||adserver.onwisconsin.com^
@@ -43727,6 +43727,7 @@
 ||smetrics.seb.lv^
 ||zknrhv.sebago.com^
 ||sebastea.pl^
+||stats.sebastiangale.ca^
 ||sebcotrk.com^
 ||sebluegrassnews.com^
 ||dev.sebpo.net^
@@ -43779,7 +43780,6 @@
 ||accounts.secure-ua.website^
 ||tewxda71.secure.ne.jp^
 ||park.secureaspot.com^
-||sanalytics.securebanklogin.com^
 ||banners.securedataimages.com^
 ||securedloading.com^
 ||securedlogin.org^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-17 12:28:36Z
+! Last Modified: 2022-04-17 18:20:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19863,6 +19863,7 @@
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
+||wildcard.marketo.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
@@ -32299,7 +32300,6 @@
 ||ablink.m.jackpocket.com^
 ||smetrics.jackson.com^
 ||learn.jacksonhewitt.com^
-||gcirm.jacksonsun.com^
 ||bxumze.jacksonville.com^
 ||stats.jackwhiting.co.uk^
 ||jackwolfskinpl.com^
@@ -37396,7 +37396,6 @@
 ||go.manebi.co.jp^
 ||kjlo41g.manegfavouritruger.com^
 ||manfilth.com^
-||plausible.mangadex.org^
 ||mangafap.com^
 ||mangahentai.me^
 ||mangamiso.net^
@@ -51745,6 +51744,7 @@
 ||ysdk.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
+||mi.gdt.qq.com^
 ||logsdk.qq.com^
 ||omgmta.qq.com^
 ||pingjs.qq.com^
@@ -70545,6 +70545,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||launch.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -74223,7 +74224,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||maude.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^
