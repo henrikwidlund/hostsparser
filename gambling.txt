@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-16 18:20:38Z
+! Last Modified: 2022-04-17 01:25:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28432,6 +28432,7 @@
 ||link2me.ru^
 ||syndication.link2nx.com^
 ||link4ads.com^
+||get24update.link4all.info^
 ||link4link.com^
 ||link4win.net^
 ||syndication.link5a.com^
@@ -42461,7 +42462,6 @@
 ||link.rubicon.com^
 ||rubiks.ca^
 ||email.everyonesocial.rubrik.com^
-||xsrzqh.rubrikk.no^
 ||rubris.org^
 ||rubyfortune.com^
 ||ruclicks.com^
@@ -57810,6 +57810,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||devm.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^
