@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-17 06:21:21Z
+! Last Modified: 2022-04-17 12:28:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16606,7 +16606,6 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
-||api.vungle.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -18479,6 +18478,7 @@
 ||fargonpozyczki.pl^
 ||a.farlex.com^
 ||farmafit.it^
+||uoblij.farmaline.be^
 ||metrics.farmfutures.com^
 ||metrics.farmindustrynews.com^
 ||farmius.org^
@@ -30520,6 +30520,7 @@
 ||media-playerz.com^
 ||touch.media-serving.com^
 ||banner.media-system.de^
+||i.media.cz^
 ||mediaarea.eu^
 ||03.mediaboard-03.cyou^
 ||mediabridge.cc^
@@ -36832,6 +36833,7 @@
 ||parnerimcarpich.com^
 ||parolabhushan.com^
 ||ad.parom.hu^
+||stats.parqet.com^
 ||www3.parqueexplora.org^
 ||parrandaice.com^
 ||parronnotandone.info^
@@ -58297,6 +58299,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||emea.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^

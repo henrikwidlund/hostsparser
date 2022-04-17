@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-17 06:21:22Z
+! Last Modified: 2022-04-17 12:28:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5757,6 +5757,7 @@
 ||smetrics.beatsbydre.com^
 ||smetrics.beatsbydre.com.cn^
 ||beatthebook.eu^
+||mdws.beaubear.ca^
 ||info.beaumont.org^
 ||beauteousmindtherapy.com^
 ||beautifulasaflower.com^
@@ -54522,7 +54523,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -57811,7 +57811,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||towa.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^
