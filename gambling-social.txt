@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-17 01:25:07Z
+! Last Modified: 2022-04-17 06:21:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4910,6 +4910,7 @@
 ||adobe.autoscout24.fr^
 ||sadobe.autoscout24.fr^
 ||tevzas.autoscout24.fr^
+||adobe.autoscout24.hr^
 ||adobe.autoscout24.it^
 ||sadobe.autoscout24.it^
 ||hmgnjf.autoscout24.it^
@@ -16605,6 +16606,7 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
+||api.vungle.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -18477,7 +18479,6 @@
 ||fargonpozyczki.pl^
 ||a.farlex.com^
 ||farmafit.it^
-||uoblij.farmaline.be^
 ||metrics.farmfutures.com^
 ||metrics.farmindustrynews.com^
 ||farmius.org^
@@ -30519,7 +30520,6 @@
 ||media-playerz.com^
 ||touch.media-serving.com^
 ||banner.media-system.de^
-||i.media.cz^
 ||mediaarea.eu^
 ||03.mediaboard-03.cyou^
 ||mediabridge.cc^
@@ -36832,7 +36832,6 @@
 ||parnerimcarpich.com^
 ||parolabhushan.com^
 ||ad.parom.hu^
-||stats.parqet.com^
 ||www3.parqueexplora.org^
 ||parrandaice.com^
 ||parronnotandone.info^
