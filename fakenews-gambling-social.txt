@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-18 06:22:55Z
+! Last Modified: 2022-04-18 12:31:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17121,6 +17121,7 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||wildcard.aniview.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -28527,7 +28528,6 @@
 ||kybusinessdaily.com^
 ||kyhanturner.com^
 ||adserver.kylemedia.com^
-||capybara.kylewinton.com^
 ||zeabyz.kyliecosmetics.com^
 ||marsupial.kymellis.co^
 ||tracking.kyobo.co.kr^
@@ -33455,6 +33455,7 @@
 ||mydomainbest.com^
 ||mydreamdegree.com^
 ||mydreamholidaysandresorts.com^
+||site.connect.mydrreddys.com^
 ||myeatherwallet.com^
 ||myeforsa.pl^
 ||myeherwallet.com^
@@ -57168,6 +57169,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||eu-pn4.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

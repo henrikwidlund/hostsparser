@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-18 06:22:50Z
+! Last Modified: 2022-04-18 12:31:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -41401,6 +41401,9 @@
 ||mobiapp-games.com^
 ||tr.info.mobibam.com^
 ||cdnaws.mobidea.com^
+||narwhal.mobidia.com^
+||mdmserver.mobidia.com^
+||wifi-test.mobidia.com^
 ||mobifcuk.com^
 ||cdn.mobify.com^
 ||online.mobify.net^
@@ -53483,8 +53486,6 @@
 ||propattuern.xyz^
 ||propawin.com^
 ||propdfconverter.com^
-||qrrhvh.propertyfinder.ae^
-||content.propertyfinder.ae^
 ||content.propertyfinder.qa^
 ||propertyinsurancewire.com^
 ||propertysex.com^
@@ -74232,7 +74233,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||cdn.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^

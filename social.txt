@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-18 06:23:16Z
+! Last Modified: 2022-04-18 12:31:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28550,6 +28550,7 @@
 ||lyttonparktennis.com^
 ||track.msadcenter.lyv.com^
 ||lyzkaporownanie.site^
+||track.msadcenter.lzwp.com^
 ||m-99.co.uk^
 ||c.m-a-d.jp^
 ||m-arata.com^
@@ -49022,6 +49023,7 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
+||pge.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -56913,7 +56915,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||jn.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^

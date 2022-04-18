@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-18 06:23:03Z
+! Last Modified: 2022-04-18 12:31:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26509,6 +26509,7 @@
 ||ssl.o.journalofhospitalmedicine.com^
 ||info2.jove.com^
 ||www2.joyce-meyer.de^
+||ebis202001.joyfit.jp^
 ||shrimp.joyfountainchurch.com^
 ||adv-op2.joygames.me^
 ||yazzuf.joyn.de^
@@ -51080,6 +51081,7 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
+||pge.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -55899,6 +55901,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

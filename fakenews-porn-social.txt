@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-18 06:22:59Z
+! Last Modified: 2022-04-18 12:31:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36814,6 +36814,7 @@
 ||banner.linksynergy.com^
 ||linktarget.com^
 ||info.linkties.com^
+||ads.linktracking.net^
 ||adserver.linktrader.co.uk^
 ||linkusup.com^
 ||s.linkv3c.com^
@@ -72690,6 +72691,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sg.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -80800,7 +80802,6 @@
 ||c.analyticsns.controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||ns.development-controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||c.nsmailuploads.controlmarketing-emailvision-tomcat.net.zooplus.nl^
-||c.ns.development-controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||ns.administrator.controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||controlmarketing-emailvision-tomcataccounting-appsssl.net.zooplus.nl^
 ||controlmarketing-emailvision-tomcat-wwwwprod-production.net.zooplus.nl^
