@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-18 01:43:07Z
+! Last Modified: 2022-04-18 06:23:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39305,6 +39305,7 @@
 ||newsyintera24.medianewsonline.com^
 ||interianewsy24.medianewsonline.com^
 ||ads.mediaodyssey.com^
+||info.mediapartners.com^
 ||kon.mediaplatform.group^
 ||mediaplayercodecpack.com^
 ||mediaplazza.com^
@@ -75554,6 +75555,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||devm.net.zooplus.fr^
 ||listas2.net.zooplus.fr^
 ||mail-nl.net.zooplus.fr^
 ||mail-ui.net.zooplus.fr^
@@ -79715,7 +79717,6 @@
 ||www-backendmail.developer.net.zooplus.nl^
 ||bucketowa-elasticbeanstalk.net.zooplus.nl^
 ||c.ns-frontpage.emailvision.net.zooplus.nl^
-||c.ns.emailvision.developer.net.zooplus.nl^
 ||container.elasticbeanstalk.net.zooplus.nl^
 ||de-muc-sbs-mailbackend-owa.net.zooplus.nl^
 ||de-muc-sbsmarketing-search.net.zooplus.nl^

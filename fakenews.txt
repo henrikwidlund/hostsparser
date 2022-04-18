@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-18 01:43:05Z
+! Last Modified: 2022-04-18 06:23:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16531,7 +16531,6 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||api.vungle.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -17896,6 +17895,8 @@
 ||evolutioncollogue.space^
 ||evolutionese.space^
 ||dot.evolutionnews.org^
+||media.evolv.ai^
+||participants.evolv.ai^
 ||evotrade.com^
 ||evroteplo.ru^
 ||metrics.evrysdi.com^
@@ -60121,6 +60122,7 @@
 ||marketing-shop-wall-preview-bitiba-de.net.zooplus.fr^
 ||marketinguxt-promotional-carousel-prod.net.zooplus.fr^
 ||ssl-uxt-product-group-top-section-prod.net.zooplus.fr^
+||server3.dev4.dr.globalredirector.gwsweb.net.zooplus.fr^
 ||shop-wall-preview-zooplus-com-marketing.net.zooplus.fr^
 ||uxt-promotional-carousel-prod.marketing.net.zooplus.fr^
 ||ssl-uxt-supplier-financed-middle-banner-prod.net.zooplus.fr^
