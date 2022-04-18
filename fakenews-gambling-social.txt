@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-17 18:20:36Z
+! Last Modified: 2022-04-18 01:42:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26918,7 +26918,6 @@
 ||jetrun.jp^
 ||jetseeker.com^
 ||jetshorka.info^
-||ad.jetsoftware.com^
 ||smtc.jetstar.com^
 ||jetwin.com^
 ||smetrics.jeugdbibliotheek.nl^
@@ -30150,6 +30149,9 @@
 ||www2.lseg.com^
 ||info.lsinc.co.jp^
 ||gcirm.lsj.com^
+||dc.lsosad.com^
+||adx.lsosad.com^
+||conf.lsosad.com^
 ||protection.lspolice.com^
 ||lspot.pl^
 ||info.lsta.org^

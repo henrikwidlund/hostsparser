@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-17 18:20:55Z
+! Last Modified: 2022-04-18 01:43:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16273,6 +16273,9 @@
 ||statystyki.ekspertyzy-szkolenia.pl^
 ||ekspres-sklep.pl^
 ||rabbit.ekstelu.info^
+||metrics.el-mundo.net^
+||smetrics.el-mundo.net^
+||active.cache.el-mundo.net^
 ||adv.elaana.com^
 ||elaboratedonor.com^
 ||elainehost.com^
@@ -26119,7 +26122,6 @@
 ||au.res.keymedia.com^
 ||keymedia.hu^
 ||keyofhealth.com^
-||stats.keyscore.me^
 ||elq.keysight.com^
 ||smetrics.keysight.com^
 ||ixia-elq.keysight.com^
@@ -43087,6 +43089,7 @@
 ||strack.sw.siemens.com^
 ||sierrameta.net^
 ||tracking.sierrawireless.com^
+||j.t.sieu-viet.com^
 ||sifazen.com^
 ||prod.sift.co^
 ||sift-campaign-creatives.sift.co^

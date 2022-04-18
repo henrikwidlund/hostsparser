@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-17 18:20:39Z
+! Last Modified: 2022-04-18 01:42:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -41420,6 +41420,8 @@
 ||mpxxtrk.com^
 ||mr-mahmoud-hassan.com^
 ||mr-mondial.com^
+||r.mradx.net^
+||r0.mradx.net^
 ||smetrics.mrappliance.com^
 ||smartschool.mrbroadband.net^
 ||info.mrc.org^
