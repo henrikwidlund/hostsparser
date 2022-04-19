@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-19 06:22:41Z
+! Last Modified: 2022-04-19 12:35:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39638,6 +39638,7 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
+||devs.data.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^
@@ -51858,6 +51859,7 @@
 ||masdk.3g.qq.com^
 ||tools.3g.qq.com^
 ||httpring.qq.com^
+||ssl.msdk.qq.com^
 ||pingfore.qq.com^
 ||pingtcss.qq.com^
 ||adsclick.qq.com^

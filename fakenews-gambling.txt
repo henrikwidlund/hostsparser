@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-19 06:22:27Z
+! Last Modified: 2022-04-19 12:35:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -791,7 +791,6 @@
 ||olx-pl.44112-online.sbs^
 ||inpostpl.44112-online.sbs^
 ||444sports.com^
-||inpost-pl.445091.xyz^
 ||448ff4fcfcd199a.com^
 ||44chan.me^
 ||a.44oo.icu^
@@ -45112,6 +45111,8 @@
 ||info.sellmarke.jp^
 ||sellmeyourtraffic.com^
 ||sellrvice.com^
+||mango.seloger.com^
+||metrics.seloger.com^
 ||seloskaz.xyz^
 ||semasa.icu^
 ||mk01.toshiba.semicon-storage.com^

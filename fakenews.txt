@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-19 06:22:33Z
+! Last Modified: 2022-04-19 12:35:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19236,7 +19236,6 @@
 ||adb.fling.com^
 ||ads.fling.com^
 ||track.fling.com^
-||banners.flingguru.com^
 ||flingswipe.com^
 ||phpads.flipcorp.com^
 ||proximityads.flipcorp.com^
