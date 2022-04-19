@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-19 01:38:35Z
+! Last Modified: 2022-04-19 06:22:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20400,6 +20400,7 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
+||akacdn.doubleverify.com.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
@@ -77679,6 +77680,7 @@
 ||marketing.blog.net.zooplus.es^
 ||team-marketing.net.zooplus.es^
 ||testingfirewall.net.zooplus.es^
+||control-prod.ssl.net.zooplus.es^
 ||frontpagessl.app.net.zooplus.es^
 ||gatewayssl-azure.net.zooplus.es^
 ||beta-wwwmarketing.net.zooplus.es^
@@ -79799,6 +79801,7 @@
 ||acc.mail.net.zooplus.nl^
 ||admining.net.zooplus.nl^
 ||alphaail.net.zooplus.nl^
+||apac.owa.net.zooplus.nl^
 ||asanaing.net.zooplus.nl^
 ||azuressl.net.zooplus.nl^
 ||beta-owa.net.zooplus.nl^
