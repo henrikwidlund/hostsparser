@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-18 18:22:58Z
+! Last Modified: 2022-04-19 01:38:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42223,6 +42223,9 @@
 ||mylf.com^
 ||assets.mylfcdn.net^
 ||mylfdom.com^
+||links.e.mylifetime.com^
+||links.em.mylifetime.com^
+||links.elmc.mylifetime.com^
 ||mylike.co.uk^
 ||mylink-today.com^
 ||mylivejasmin.org^
@@ -79849,7 +79852,6 @@
 ||srd1-chi.net.zooplus.nl^
 ||srd3-frf.net.zooplus.nl^
 ||ssl.form.net.zooplus.nl^
-||ssl.kube.net.zooplus.nl^
 ||blograft.net.zooplus.nl^
 ||caml-llg.net.zooplus.nl^
 ||detourer.net.zooplus.nl^

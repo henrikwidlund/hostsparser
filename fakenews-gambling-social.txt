@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-18 18:22:55Z
+! Last Modified: 2022-04-19 01:38:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23196,6 +23196,9 @@
 ||healthfreedom.news^
 ||hrm.healthgrades.com^
 ||som.healthgrades.com^
+||baptist-health.hrm.healthgrades.com^
+||lakelandhealth.hrm.healthgrades.com^
+||hcasouthatlantic.hrm.healthgrades.com^
 ||healthimpactnews.com^
 ||tracking.healthitanalytics.com^
 ||healthknowledge.my^
@@ -46237,6 +46240,7 @@
 ||plausible.test.sketch.com^
 ||plausible.staging.sketch.com^
 ||promo.skf.com^
+||cl.promo.skf.com^
 ||stats.ski.com^
 ||skidrowcrack.com^
 ||zgqgig.skillbox.ru^
@@ -57317,6 +57321,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

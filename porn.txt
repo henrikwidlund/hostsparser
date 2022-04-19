@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-18 18:23:14Z
+! Last Modified: 2022-04-19 01:38:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9035,6 +9035,9 @@
 ||marketing.bldgcontrols.com^
 ||bleachbit.com^
 ||bleacheritejayvees.com^
+||analytics.bleacherreport.com^
+||link.news.bleacherreport.com^
+||link.marketing.bleacherreport.com^
 ||bleachpixxx.com^
 ||bleedingvirgins.com^
 ||blekko.com^
@@ -49017,6 +49020,10 @@
 ||popcounter.com^
 ||saa.popculture.com^
 ||popec.net^
+||ablink.m.popeyes.com^
+||ablink.track.popeyes.com^
+||ablink.tchicken.popeyes.com^
+||ablink.thekitchen.popeyes.com^
 ||popfilm.pl^
 ||ads.popfolkstars.com^
 ||a.popin.cc^
