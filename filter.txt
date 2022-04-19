@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-19 12:35:35Z
+! Last Modified: 2022-04-19 18:22:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20835,7 +20835,6 @@
 ||spotxcdn.com.edgekey.net^
 ||yieldlab.net.edgekey.net^
 ||secure-adnxs.edgekey.net^
-||cdn.teads.tv.edgekey.net^
 ||adservrs.com.edgekey.net^
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
@@ -34975,7 +34974,6 @@
 ||stats.kafarowski.com^
 ||treefrog.kaffeknappen.no^
 ||kagbz.com^
-||a.kagiti.club^
 ||kagneylinnkarter.com^
 ||kaharmonie.nl^
 ||info.kahnlitwin.com^
@@ -46256,7 +46254,6 @@
 ||smetrics.o2online.de^
 ||sstats.o2tv.cz^
 ||sstats.o2vyhody.cz^
-||o313o.com^
 ||ticketer.o365-mail.com^
 ||office.o365-ticketer.com^
 ||o5team.com^
@@ -75509,7 +75506,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

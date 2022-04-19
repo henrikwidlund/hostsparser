@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-19 12:35:56Z
+! Last Modified: 2022-04-19 18:22:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20024,7 +20024,6 @@
 ||smetrics.ftd.ca^
 ||smetrics.ftd.com^
 ||ftdownload.com^
-||go.ftlfinance.com^
 ||pony.ftm.cat^
 ||connect.ftpresents.com^
 ||aaa.ftsafe.co.jp^
@@ -26513,7 +26512,6 @@
 ||smetrics.kaercher.com^
 ||stats.kafarowski.com^
 ||treefrog.kaffeknappen.no^
-||a.kagiti.club^
 ||kaharmonie.nl^
 ||info.kahnlitwin.com^
 ||kaidee.info^
@@ -34676,7 +34674,6 @@
 ||smetrics.o2online.de^
 ||sstats.o2tv.cz^
 ||sstats.o2vyhody.cz^
-||o313o.com^
 ||ticketer.o365-mail.com^
 ||office.o365-ticketer.com^
 ||o5team.com^
@@ -59109,11 +59106,13 @@
 ||elastic.swag-trial.net.zooplus.es^
 ||marketing-beta-www.net.zooplus.es^
 ||elasticwwwauth.swag.net.zooplus.es^
+||www-client.marketing.net.zooplus.es^
 ||account-v.labarketing.net.zooplus.es^
 ||account.latinarketing.net.zooplus.es^
 ||loadbalancermarketing.net.zooplus.es^
 ||chd.marketing.internal.net.zooplus.es^
 ||documentation-marketing.net.zooplus.es^
+||cert-wwwwwwlab.marketing.net.zooplus.es^
 ||cmsector-zooplusmail-aws.net.zooplus.es^
 ||ns.accounting-emailvision.net.zooplus.es^
 ||frontpage.www.marketing.kube.net.zooplus.es^

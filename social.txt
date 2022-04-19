@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-19 12:36:02Z
+! Last Modified: 2022-04-19 18:22:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2833,6 +2833,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||rtb.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -16662,8 +16663,6 @@
 ||energy-infoinv.com^
 ||energy-oilproject.info^
 ||energy-pgeproj.info^
-||ads.energy-torrent.com^
-||baner.energy-torrent.com^
 ||smetrics.energy953radio.ca^
 ||metrics.energyaustralia.com.au^
 ||smetrics.energyaustralia.com.au^
@@ -25835,7 +25834,6 @@
 ||smetrics.kaercher.com^
 ||stats.kafarowski.com^
 ||treefrog.kaffeknappen.no^
-||a.kagiti.club^
 ||kaharmonie.nl^
 ||info.kahnlitwin.com^
 ||kaidee.info^
@@ -33760,7 +33758,6 @@
 ||smetrics.o2online.de^
 ||sstats.o2tv.cz^
 ||sstats.o2vyhody.cz^
-||o313o.com^
 ||ticketer.o365-mail.com^
 ||office.o365-ticketer.com^
 ||o5team.com^
@@ -53785,6 +53782,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -58221,7 +58219,6 @@
 ||ns.accounting-emailvision.net.zooplus.es^
 ||frontpage.www.marketing.kube.net.zooplus.es^
 ||elastic.org.frontresetdatassl.net.zooplus.es^
-||backend-cert-wwwwwwlab.marketing.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

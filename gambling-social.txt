@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-19 12:35:54Z
+! Last Modified: 2022-04-19 18:22:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26608,7 +26608,6 @@
 ||smetrics.kaercher.com^
 ||stats.kafarowski.com^
 ||treefrog.kaffeknappen.no^
-||a.kagiti.club^
 ||kaharmonie.nl^
 ||info.kahnlitwin.com^
 ||kaidee.info^
@@ -34777,7 +34776,6 @@
 ||smetrics.o2online.de^
 ||sstats.o2tv.cz^
 ||sstats.o2vyhody.cz^
-||o313o.com^
 ||ticketer.o365-mail.com^
 ||office.o365-ticketer.com^
 ||o5team.com^
@@ -54719,6 +54717,8 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
 ||xiawen.uno^
