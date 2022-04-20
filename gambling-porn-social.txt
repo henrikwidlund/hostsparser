@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-20 01:46:17Z
+! Last Modified: 2022-04-20 06:23:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6434,6 +6434,7 @@
 ||athlete246.com^
 ||tracking.athlon.com^
 ||aa.athome.com^
+||irvnot.athome.lu^
 ||atibt.com^
 ||tag.aticdn.net^
 ||atichota.space^

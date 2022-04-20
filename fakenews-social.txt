@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-20 01:46:14Z
+! Last Modified: 2022-04-20 06:23:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42706,6 +42706,9 @@
 ||winonvulkan.ringhio.net^
 ||ringminersfx.com^
 ||banner.ringofon.com^
+||pril04nik.ringoinv.site^
+||pril05nik.ringoinv.site^
+||pril06nik.ringoinv.site^
 ||js4.ringrevenue.com^
 ||json4.ringrevenue.com^
 ||go.ringteacher.com^

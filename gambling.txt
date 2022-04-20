@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-20 01:46:24Z
+! Last Modified: 2022-04-20 06:23:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -433,7 +433,6 @@
 ||stats.24ways.org^
 ||24wydarzenia.pl^
 ||24xforex.com^
-||vlnted.25412.xyz^
 ||257639.com^
 ||inpost-rghl.2584902.me^
 ||259572.com^
@@ -2894,6 +2893,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||bs.eyeblaster.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -21356,6 +21356,7 @@
 ||goldenlion.sg^
 ||banner.goldenpalace.com^
 ||goldenrelations.pl^
+||contact.golder.com^
 ||goldflame.com^
 ||goldluckinvestment.com^
 ||go.goldmanpfm.com^
@@ -50088,6 +50089,7 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
+||auction.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -50390,6 +50392,8 @@
 ||mobileapi.usebutton.com^
 ||usedbarcode.com^
 ||stats.useeffect.dev^
+||img3.usefathom.com^
+||starman.usefathom.com^
 ||usefomo.com^
 ||ac-ebis-stb.usen.com^
 ||s.usenix.org^
@@ -55442,7 +55446,6 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
-||adtimabox.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||zingknowev.tk^
 ||ziniba.space^
@@ -59112,7 +59115,6 @@
 ||documentation-marketing.net.zooplus.es^
 ||cmsector-zooplusmail-aws.net.zooplus.es^
 ||ns.accounting-emailvision.net.zooplus.es^
-||developmentfeatucertpage.ssl.net.zooplus.es^
 ||frontpage.www.marketing.kube.net.zooplus.es^
 ||elastic.org.frontresetdatassl.net.zooplus.es^
 ||dii1.zooplus.fi^
