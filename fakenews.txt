@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-19 18:22:13Z
+! Last Modified: 2022-04-20 01:46:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17226,6 +17226,7 @@
 ||enijncoin.io^
 ||adsrv.ads.eniro.com^
 ||swebanalytics.eniro.se^
+||llama.eniston.io^
 ||enjincoin.me^
 ||enjincoin.pw^
 ||enjincoin.sale^

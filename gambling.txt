@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-19 18:22:21Z
+! Last Modified: 2022-04-20 01:46:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20024,6 +20024,7 @@
 ||smetrics.ftd.ca^
 ||smetrics.ftd.com^
 ||ftdownload.com^
+||go.ftlfinance.com^
 ||pony.ftm.cat^
 ||connect.ftpresents.com^
 ||aaa.ftsafe.co.jp^
@@ -21355,7 +21356,6 @@
 ||goldenlion.sg^
 ||banner.goldenpalace.com^
 ||goldenrelations.pl^
-||contact.golder.com^
 ||goldflame.com^
 ||goldluckinvestment.com^
 ||go.goldmanpfm.com^
@@ -50390,8 +50390,6 @@
 ||mobileapi.usebutton.com^
 ||usedbarcode.com^
 ||stats.useeffect.dev^
-||img3.usefathom.com^
-||starman.usefathom.com^
 ||usefomo.com^
 ||ac-ebis-stb.usen.com^
 ||s.usenix.org^
@@ -55444,6 +55442,7 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||adtimabox.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||zingknowev.tk^
 ||ziniba.space^
@@ -59106,15 +59105,14 @@
 ||elastic.swag-trial.net.zooplus.es^
 ||marketing-beta-www.net.zooplus.es^
 ||elasticwwwauth.swag.net.zooplus.es^
-||www-client.marketing.net.zooplus.es^
 ||account-v.labarketing.net.zooplus.es^
 ||account.latinarketing.net.zooplus.es^
 ||loadbalancermarketing.net.zooplus.es^
 ||chd.marketing.internal.net.zooplus.es^
 ||documentation-marketing.net.zooplus.es^
-||cert-wwwwwwlab.marketing.net.zooplus.es^
 ||cmsector-zooplusmail-aws.net.zooplus.es^
 ||ns.accounting-emailvision.net.zooplus.es^
+||developmentfeatucertpage.ssl.net.zooplus.es^
 ||frontpage.www.marketing.kube.net.zooplus.es^
 ||elastic.org.frontresetdatassl.net.zooplus.es^
 ||dii1.zooplus.fi^
