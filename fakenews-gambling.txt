@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-20 12:34:25Z
+! Last Modified: 2022-04-20 18:23:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21070,6 +21070,9 @@
 ||garss.jp^
 ||garss.tv^
 ||kdarje.garten-und-freizeit.de^
+||fpc.gartner.com^
+||elqact.gartner.com^
+||research.gartner.com^
 ||gartoninvest.co^
 ||garudaairlines.com^
 ||gasdero.host^
@@ -56830,6 +56833,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

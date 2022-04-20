@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-20 12:34:43Z
+! Last Modified: 2022-04-20 18:24:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25003,7 +25003,6 @@
 ||iterable.com^
 ||iteratehq.com^
 ||e.itgovernance.co.uk^
-||info.ithaka.org^
 ||forum.ithealth.ru^
 ||elk.itiden.se^
 ||www2.itiviti.com^
@@ -26079,6 +26078,7 @@
 ||ad.keenspace.com^
 ||keentrekkingi.com^
 ||keeotinoger.com^
+||vincenzefashione.keep.pl^
 ||secure.keep0bury.com^
 ||keepass.com^
 ||keepass.fr^
@@ -53915,6 +53915,8 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst1.ec.yimg.com^
+||ac.ybinst6.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
@@ -58218,6 +58220,7 @@
 ||ns.accounting-emailvision.net.zooplus.es^
 ||frontpage.www.marketing.kube.net.zooplus.es^
 ||elastic.org.frontresetdatassl.net.zooplus.es^
+||backend-cert-wwwwwwlab.marketing.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
