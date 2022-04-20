@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-20 06:23:12Z
+! Last Modified: 2022-04-20 12:34:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15123,6 +15123,7 @@
 ||clubanimesex.com^
 ||clubaudriannaangel.com^
 ||clubbestangels.de^
+||track.clubcar.com^
 ||clubcharismaxxx.com^
 ||go.clubcorp.com^
 ||banner.clubdicecasino.com^
@@ -20327,7 +20328,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ma1275-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -56145,9 +56145,6 @@
 ||scalemonk.com^
 ||api-test.scaleout.jp^
 ||stats.scalgo.com^
-||e-gazeta.osc-fr1.scalingo.io^
-||pl-gazeta.osc-fr1.scalingo.io^
-||gazeta24pl.osc-fr1.scalingo.io^
 ||visite.scambi.org^
 ||scan6show.com^
 ||scandalcolumn.com^

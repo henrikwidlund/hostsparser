@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-20 06:23:24Z
+! Last Modified: 2022-04-20 12:34:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -433,6 +433,7 @@
 ||stats.24ways.org^
 ||24wydarzenia.pl^
 ||24xforex.com^
+||vlnted.25412.xyz^
 ||257639.com^
 ||inpost-rghl.2584902.me^
 ||259572.com^
@@ -2893,7 +2894,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||bs.eyeblaster.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -50089,7 +50089,6 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
-||auction.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -54696,7 +54695,6 @@
 ||yamayaku.com^
 ||yami8alea.com^
 ||spads.yamx.com^
-||gov.yanao.ru^
 ||ttnet.yandex.com.tr^
 ||startup.mobile.yandex.net^
 ||ms.yandex.ru^

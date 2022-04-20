@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-20 06:23:02Z
+! Last Modified: 2022-04-20 12:34:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17888,6 +17888,7 @@
 ||lungfish.datadividendproject.com^
 ||datadoghq-browser-agent.com^
 ||logs.datadoghq.com^
+||browser-http-intake.logs.datadoghq.com^
 ||api-sdk.datadome.co^
 ||dataentryworkfromhomejobs.com^
 ||app.datafastguru.info^
@@ -31725,6 +31726,7 @@
 ||stat.ijinshan.com^
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
+||dl.sj.ijinshan.com^
 ||keyserver.ijinshan.com^
 ||ufloom.ijiwork.com^
 ||info.ijungo.com^
