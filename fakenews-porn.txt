@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-20 18:23:47Z
+! Last Modified: 2022-04-21 01:28:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3522,6 +3522,7 @@
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
+||pixel-us-east.rubiconproject.net.akadns.net^
 ||akaflieg-sb.de^
 ||pnuzyt.akaishionline.com^
 ||akama.com^
@@ -6612,8 +6613,6 @@
 ||as.autobild.de^
 ||web.autobodytoolmart.com^
 ||metrics.autobytel.com^
-||a8clk.autoc-one.jp^
-||jpluzr.autoc-one.jp^
 ||sadbmetrics.autocasion.com^
 ||autocratoutcrows.com^
 ||metrics.autodesk.com^
@@ -9466,6 +9465,8 @@
 ||bluemountain2.com^
 ||bluenationreview.com^
 ||lyegyo.bluenile.com^
+||hobbes.blueoxtech.com^
+||blizzard.blueoxtech.com^
 ||blueporns.com^
 ||blueprintglobalpartners.com^
 ||blueprogress.org^
@@ -11540,6 +11541,8 @@
 ||ladybug.cargolabs.com^
 ||go.cargomatic.com^
 ||cargoshipmentinfo.xyz^
+||marketing-info.cargurus.com^
+||dealerrelations.cargurus.com^
 ||sowa.carhartt.com^
 ||carhopjeyo.com^
 ||bmhprr.carhourshall.top^

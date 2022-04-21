@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-20 18:23:42Z
+! Last Modified: 2022-04-21 01:28:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -64926,7 +64926,6 @@
 ||oasis.zmh.zope.com^
 ||oassis.zmh.zope.com^
 ||oasis.zmh.zope.net^
-||ads.cluster01.oasis.zmh.zope.net^
 ||ad2.zophar.net^
 ||cdn1.zopiny.com^
 ||zoplm.com^
