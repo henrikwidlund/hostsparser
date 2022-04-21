@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-21 06:23:28Z
+! Last Modified: 2022-04-21 12:32:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39578,6 +39578,8 @@
 ||k1.mobileadsserver.com^
 ||avowtech.mobileadstrk.com^
 ||tracking.mobileadstrk.com^
+||track-east.mobileadtrading.com^
+||publisher-east.mobileadtrading.com^
 ||api.mobileanjian.com^
 ||ent.mobileanjian.com^
 ||analytics.lb.mobileapphelper.com^
@@ -57660,10 +57662,6 @@
 ||sos.xxx^
 ||marketing.sosintl.com^
 ||sosixxx.com^
-||dr.soso.com^
-||jzclick.soso.com^
-||toolbar.soso.com^
-||pingfore.soso.com^
 ||sosoru-web.com^
 ||sosulki.net^
 ||sosyalkeci.com^
@@ -77096,6 +77094,7 @@
 ||mailraw.net.zooplus.fr^
 ||nl-mail.net.zooplus.fr^
 ||nodeing.net.zooplus.fr^
+||old.owa.net.zooplus.fr^
 ||owa-rpc.net.zooplus.fr^
 ||owa-stg.net.zooplus.fr^
 ||owa.acc.net.zooplus.fr^

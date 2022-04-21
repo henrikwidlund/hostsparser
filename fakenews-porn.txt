@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-21 06:23:13Z
+! Last Modified: 2022-04-21 12:32:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -40538,6 +40538,7 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
+||udp.push.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^

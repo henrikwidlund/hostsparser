@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-21 06:23:17Z
+! Last Modified: 2022-04-21 12:32:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31972,6 +31972,7 @@
 ||eulerian.motoblouz.com^
 ||motoeast.pl^
 ||clnbze.motofakty.pl^
+||muqtti.motoin.de^
 ||motoprawko.pl^
 ||ads.motor-forum.nl^
 ||elqtrck.motor.no^
@@ -41090,6 +41091,7 @@
 ||fodder.qq.com^
 ||qqlogo.qq.com^
 ||pmir.3g.qq.com^
+||lives.l.qq.com^
 ||adsfile.qq.com^
 ||adshmct.qq.com^
 ||adsrich.qq.com^
@@ -55062,6 +55064,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||data.mistat.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
