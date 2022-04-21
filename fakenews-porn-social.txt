@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-21 01:28:15Z
+! Last Modified: 2022-04-21 06:23:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11044,7 +11044,6 @@
 ||metrics.calgary.ca^
 ||ads.calgarystampede.com^
 ||smetrics.caliastudio.com^
-||pardot.californiafamilyfitness.com^
 ||californiastateparks.com^
 ||activate.platform.californiatimes.com^
 ||californiavirgins.com^
@@ -20386,7 +20385,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^

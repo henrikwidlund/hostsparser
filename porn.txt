@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-21 01:28:34Z
+! Last Modified: 2022-04-21 06:23:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39578,8 +39578,6 @@
 ||k1.mobileadsserver.com^
 ||avowtech.mobileadstrk.com^
 ||tracking.mobileadstrk.com^
-||track-east.mobileadtrading.com^
-||publisher-east.mobileadtrading.com^
 ||api.mobileanjian.com^
 ||ent.mobileanjian.com^
 ||analytics.lb.mobileapphelper.com^

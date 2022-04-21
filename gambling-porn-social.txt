@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-21 01:28:23Z
+! Last Modified: 2022-04-21 06:23:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -63190,6 +63190,12 @@
 ||tiktokv.com^
 ||tiku.io^
 ||smetrics.tila.com^
+||orln.tilda.ws^
+||infotvp.tilda.ws^
+||pknorlen.tilda.ws^
+||daily-fresh.tilda.ws^
+||polskaorlen.tilda.ws^
+||yahoo-login.com.tilda.ws^
 ||tjnffp.tilebar.com^
 ||tilesto.xyz^
 ||tilido.com^
@@ -72012,6 +72018,7 @@
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-21 01:28:26Z
+! Last Modified: 2022-04-21 06:23:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16806,8 +16806,6 @@
 ||shahikhana.cstdevs.com^
 ||ublretailerdemo.cstdevs.com^
 ||cstrespsurvey.ca^
-||metrics.csu.edu.au^
-||smetrics.csu.edu.au^
 ||go.cpie.csulb.edu^
 ||go.csun.edu^
 ||statistics.csweapons.com^
@@ -36082,6 +36080,7 @@
 ||advert.leo.org^
 ||tr.newsletter.leocare.eu^
 ||leojackpot.com^
+||go.leolearning.com^
 ||stats.leoloso.com^
 ||leo1.leon-de-bruxelles.fr^
 ||leonbergery.com.pl^
