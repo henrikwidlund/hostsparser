@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-21 12:32:41Z
+! Last Modified: 2022-04-21 18:24:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14291,6 +14291,7 @@
 ||tr.devis-companeo.com^
 ||tr.devis-companeo.fr^
 ||tr.devis-express.be^
+||tr.devis-professionnels.com^
 ||tr.devis.digital^
 ||tr.news.devisdirect.be^
 ||plau.devitjobs.uk^
@@ -14551,9 +14552,6 @@
 ||xpig-dev.directservices.it^
 ||multi-cluster.directservices.it^
 ||metrics.directtv.com^
-||dc.directv.com^
-||metrics.directv.com^
-||smetrics.directv.com^
 ||directxex.com^
 ||ydccky.direnc.net^
 ||hiuplq.diretta.it^
@@ -32983,7 +32981,6 @@
 ||nieladagratka.pl^
 ||apps.nielsen.com^
 ||content.nielsen.com^
-||onsite-tag-logs.apps.nielsen.com^
 ||go.nielseniq.com^
 ||niemacogadacpolska.website^
 ||niemacogadacpolska1.website^
@@ -61292,7 +61289,6 @@
 ||c.ns.emailvision-nginxowaoidclient.net.zooplus.nl^
 ||controlmarketing-testvision-tomcat.net.zooplus.nl^
 ||developer.engineering-loadbalancer.net.zooplus.nl^
-||devsnautilus.bucketowa-release-www.net.zooplus.nl^
 ||elasticbeanstalk.aws.apacmarketing.net.zooplus.nl^
 ||elasticbeanstalk.certaws.marketing.net.zooplus.nl^
 ||frontpage.bucketowa-mailcloudfront.net.zooplus.nl^

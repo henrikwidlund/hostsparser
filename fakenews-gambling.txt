@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-21 12:32:22Z
+! Last Modified: 2022-04-21 18:24:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13399,6 +13399,9 @@
 ||plausible.corbettbarr.com^
 ||corbettreport.com^
 ||corbettsports.com^
+||be.cordial.com^
+||message-hub-svc.usw2.cordial.com^
+||events-stream-svc.usw2.cordial.com^
 ||cordilleranchuckawallas.com^
 ||core-rpg.com^
 ||coreclickhoo.com^
@@ -56826,6 +56829,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||cn2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -64291,6 +64295,7 @@
 ||server4.qa3.cmsearch.gwsweb.net.zooplus.nl^
 ||shop-wall-preview-bitiba-de.net.zooplus.nl^
 ||testbeanstalk.aws.marketing.net.zooplus.nl^
+||c.ns.emailvision-tomcat-demo.net.zooplus.nl^
 ||c.productions.ns.emailvision.net.zooplus.nl^
 ||confluence.mail.autodiscover.net.zooplus.nl^
 ||dev3.globalredirector.gwsweb.net.zooplus.nl^

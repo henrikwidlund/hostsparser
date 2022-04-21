@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-21 12:32:39Z
+! Last Modified: 2022-04-21 18:24:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -57662,6 +57662,10 @@
 ||sos.xxx^
 ||marketing.sosintl.com^
 ||sosixxx.com^
+||dr.soso.com^
+||jzclick.soso.com^
+||toolbar.soso.com^
+||pingfore.soso.com^
 ||sosoru-web.com^
 ||sosulki.net^
 ||sosyalkeci.com^
@@ -72057,6 +72061,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -77094,7 +77099,6 @@
 ||mailraw.net.zooplus.fr^
 ||nl-mail.net.zooplus.fr^
 ||nodeing.net.zooplus.fr^
-||old.owa.net.zooplus.fr^
 ||owa-rpc.net.zooplus.fr^
 ||owa-stg.net.zooplus.fr^
 ||owa.acc.net.zooplus.fr^
