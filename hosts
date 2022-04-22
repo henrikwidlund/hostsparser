@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-22 06:22:23Z
+! Last Modified: 2022-04-22 12:34:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -71801,6 +71801,7 @@
 ||ometrics.warnerbros.com^
 ||metrics.extratv.warnerbros.com^
 ||warnerrobinstoday.com^
+||smetrics.warners.com^
 ||sanalytics.warnertv.de^
 ||sanalytics.warnertv.pl^
 ||warofshoppings.com^

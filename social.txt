@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-22 06:22:49Z
+! Last Modified: 2022-04-22 12:35:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16232,7 +16232,6 @@
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
-||wildcard.moatads.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
@@ -28605,6 +28604,8 @@
 ||lowabutysklep.pl^
 ||www2.lowersriskgroup.com^
 ||lowervalues.com^
+||metrics.lowes.com^
+||smetrics.lowes.com^
 ||lowisko-podolsze.pl^
 ||lowoani.xyz^
 ||lowpay.net^
