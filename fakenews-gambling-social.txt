@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-22 01:42:23Z
+! Last Modified: 2022-04-22 06:22:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46244,7 +46244,6 @@
 ||pevftg.shopee.sg^
 ||pciidk.shopee.vn^
 ||connect.shopezrentals.com^
-||s.shopify.com^
 ||metrics.shopjapan.co.jp^
 ||smetrics.shopjapan.co.jp^
 ||activate.shopjustice.com^
@@ -56803,6 +56802,7 @@
 ||smetrics.workingadvantage.com^
 ||sparrow.workingincontent.com^
 ||orchestrate.workjam.com^
+||a8cv.workman.jp^
 ||wn.worknest.com^
 ||workoutnow.world^
 ||go.workspot.com^

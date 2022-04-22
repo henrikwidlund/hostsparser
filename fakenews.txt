@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-22 01:42:32Z
+! Last Modified: 2022-04-22 06:22:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -43346,6 +43346,7 @@
 ||go.rtscarrierservices.com^
 ||ads.rttnews.com^
 ||info.rtv.co.jp^
+||sadbmetrics.rtve.es^
 ||rtvmax.pl^
 ||rtxplatform.com^
 ||icloud.ru.com^
@@ -46077,7 +46078,6 @@
 ||b.sonorousporn.com^
 ||click.email.sonos.com^
 ||secure.sonosite.com^
-||es.secure.sonosite.com^
 ||sonovivi.com^
 ||tradedoubler.sonvideopro.com^
 ||info.sony-semicon.co.jp^

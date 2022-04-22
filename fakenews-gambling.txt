@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-22 01:42:25Z
+! Last Modified: 2022-04-22 06:22:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -27137,6 +27137,7 @@
 ||jicamasbar.pl^
 ||cv.jidoumail.com^
 ||jiedas.site^
+||tracking.jiffyworld.com^
 ||ad.jiguang.cn^
 ||im.jiguang.cn^
 ||sdk.jiguang.cn^
@@ -32845,7 +32846,6 @@
 ||moglesnieslyszszec.online^
 ||moglobytoooznaczac.website^
 ||mogrilla.pw^
-||www3.mogroup.com^
 ||affiliate.mogs.com^
 ||mohamedabdelrahman.org^
 ||mohammadsorkhabi.ir^
