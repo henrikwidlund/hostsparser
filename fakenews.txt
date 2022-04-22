@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-22 12:35:01Z
+! Last Modified: 2022-04-22 18:21:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10170,11 +10170,6 @@
 ||cirleci.net^
 ||ciroster.com^
 ||marketing.cisco-eagle.com^
-||smetrics.cisco.com^
-||engage2demand.cisco.com^
-||engagemetrics.cisco.com^
-||partnersuccess.cisco.com^
-||partnersuccessmetrics.cisco.com^
 ||learn.cisecurity.org^
 ||app.cision.com^
 ||prapi.cision.com^
