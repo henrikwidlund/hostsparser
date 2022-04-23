@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-23 01:21:34Z
+! Last Modified: 2022-04-23 06:21:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -67973,6 +67973,7 @@
 ||sweb.ulta.com^
 ||metrics.ultane.com^
 ||ulti.se^
+||app.3d.ultimaker.com^
 ||ultimate-erotic.com^
 ||ads.ultimate-guitar.com^
 ||onoztg.ultimate-guitar.com^
@@ -74672,6 +74673,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

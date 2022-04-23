@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-23 01:21:29Z
+! Last Modified: 2022-04-23 06:21:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8062,6 +8062,7 @@
 ||s.boom.ro^
 ||sanalytics.boomerang-tv.pl^
 ||sanalytics.boomerang.asia^
+||sanalytics.boomerangmena.com^
 ||analytics.boomerangtv.co.uk^
 ||sanalytics.boomerangtv.co.uk^
 ||sanalytics.boomerangtv.com.tr^
@@ -46648,6 +46649,7 @@
 ||plausible.test.sketch.com^
 ||plausible.staging.sketch.com^
 ||promo.skf.com^
+||iberian.promo.skf.com^
 ||skgroup.live^
 ||stats.ski.com^
 ||skidrowcrack.com^
@@ -65339,6 +65341,7 @@
 ||ns.emailvisiondocumentsmarketing.net.zooplus.nl^
 ||owa-shop-wall-preview-zooplus-nl.net.zooplus.nl^
 ||owa-uxt-checkout-side-banner-dev.net.zooplus.nl^
+||owa.shop-wall-preview-zooplus-pt.net.zooplus.nl^
 ||rawmail.engineering-loadbalancer.net.zooplus.nl^
 ||shop-wall-preview-zooplus-fi-owa.net.zooplus.nl^
 ||shop-wall-preview-zooplus-ie.owa.net.zooplus.nl^
