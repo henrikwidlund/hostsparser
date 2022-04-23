@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-23 06:21:18Z
+! Last Modified: 2022-04-23 12:29:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2894,10 +2894,8 @@
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
-||bsnj.eyeblaster.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||rtb.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -5962,6 +5960,7 @@
 ||jesnyxa.beep.com^
 ||mob.beeps.digital^
 ||beerfridgenyc.com^
+||rodent.beersport.com^
 ||bees.news^
 ||bees.beesbeesbeesbees.com^
 ||beespace.com.ua^
@@ -15844,7 +15843,6 @@
 ||info.dplus-flat7.com^
 ||dprintergerman.com^
 ||www2.dpsj.co.jp^
-||imap.dpsl.net^
 ||dqionic.uno^
 ||dialog.dqs.de^
 ||bidbpo.dr-10.com^
@@ -23715,6 +23713,7 @@
 ||hunterstyle24.com^
 ||huntertanio.com^
 ||hunterwyprzedaz.com^
+||marketing.huntingandfishing.co.nz^
 ||smetrics.huntington.com^
 ||ensighten.huntingtonbank.com^
 ||huntingtontimes.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-23 06:21:26Z
+! Last Modified: 2022-04-23 12:29:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8554,6 +8554,9 @@
 ||bustadice.com^
 ||bustcream-pro.com^
 ||bustimer.net^
+||link.alerts.busuu.app^
+||link.announce.busuu.app^
+||link.notifications.busuu.app^
 ||pqciix.busuu.com^
 ||busyserviceinc.com^
 ||butbecause.xyz^
@@ -9766,7 +9769,6 @@
 ||med.cerexa.com^
 ||cerine-posals.icu^
 ||cerisesuccessors.com^
-||content.ceriumnetworks.com^
 ||cerkov-od.ru^
 ||go.cerner.com^
 ||ceromobi.club^
@@ -33573,10 +33575,6 @@
 ||neo-technologies.fr^
 ||neocam.pl^
 ||myetherwallett.neocities.org^
-||mkt.emea.neogen.com^
-||mkt.foodsafety.neogen.com^
-||mkt.animalsafety.neogen.com^
-||mkt.lifesciences.neogen.com^
 ||aas.neom.com^
 ||neon81552.site^
 ||www2.neonone.com^
