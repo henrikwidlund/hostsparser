@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-22 18:21:33Z
+! Last Modified: 2022-04-23 01:21:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8062,7 +8062,6 @@
 ||s.boom.ro^
 ||sanalytics.boomerang-tv.pl^
 ||sanalytics.boomerang.asia^
-||sanalytics.boomerangmena.com^
 ||analytics.boomerangtv.co.uk^
 ||sanalytics.boomerangtv.co.uk^
 ||sanalytics.boomerangtv.com.tr^
@@ -47351,6 +47350,7 @@
 ||link.hello.soothe.com^
 ||soperson.com^
 ||tabex.sopharma.bg^
+||lp.sophos.com^
 ||sophosdefence.com^
 ||ts.sopornvideos.com^
 ||go.soprema.ca^
