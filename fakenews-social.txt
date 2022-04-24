@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-23 18:20:23Z
+! Last Modified: 2022-04-24 01:20:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34416,6 +34416,7 @@
 ||eu.nextah.com^
 ||banners.nextcard.com^
 ||nextcasino.pl^
+||stats.nextcloud.com^
 ||uk-tracking.nextdoor.com^
 ||vte.nexteramedia.com^
 ||nextflix.club^

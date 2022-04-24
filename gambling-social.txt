@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-23 18:20:29Z
+! Last Modified: 2022-04-24 01:21:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5794,6 +5794,8 @@
 ||asd.bauhaus.at^
 ||asd.bauhaus.es^
 ||asd.bauhaus.hr^
+||asd.bauhaus.info^
+||tqxpnv.bauhaus.info^
 ||cdn7.baunetz.de^
 ||te.baur.de^
 ||tp.baur.de^
@@ -63157,7 +63159,6 @@
 ||mail.ids-uxt-static-assets-prod.net.zooplus.nl^
 ||ns.analytics-emailvision-tomcat.net.zooplus.nl^
 ||owa.frontpage.jenkins.bucketowa.net.zooplus.nl^
-||owa.shop-wall-preview-bitiba-de.net.zooplus.nl^
 ||shop-wall-preview-zooplus-noowa.net.zooplus.nl^
 ||shop-wall-preview-zooplus-ptssl.net.zooplus.nl^
 ||ssl.shop-wall-preview-bitiba-se.net.zooplus.nl^
@@ -63199,7 +63200,6 @@
 ||testerelasticbeanstalk.aws.marketing.net.zooplus.nl^
 ||w-sbsmarketingdevsnautilus.bucketowa.net.zooplus.nl^
 ||apidocsgit-marketing.autodiscover-ssl.net.zooplus.nl^
-||c.ns.emailvision-apidocsgit-marketing.net.zooplus.nl^
 ||emailvision-tomcat-documentsmarketing.net.zooplus.nl^
 ||ns.controlsecurity-emailvision-tomcat.net.zooplus.nl^
 ||c.ns.controlmarketing-emailvision-beta.net.zooplus.nl^

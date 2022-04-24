@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-23 18:20:26Z
+! Last Modified: 2022-04-24 01:20:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -49530,8 +49530,6 @@
 ||inpost.pl-receive.work^
 ||pl-receive.xyz^
 ||olx.pl-receivepaid.icu^
-||olx.pl-receivepaid.work^
-||inpost.pl-receivepaid.work^
 ||pl-receivepays.xyz^
 ||pl-safebuy.shop^
 ||pl-safedeal.shop^
@@ -74301,6 +74299,7 @@
 ||mailcsr12.net.zooplus.de^
 ||marketing.net.zooplus.de^
 ||msoidmail.net.zooplus.de^
+||org.alpha.net.zooplus.de^
 ||org.login.net.zooplus.de^
 ||owa.reset.net.zooplus.de^
 ||php.car40.net.zooplus.de^
