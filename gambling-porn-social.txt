@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-24 12:28:56Z
+! Last Modified: 2022-04-24 18:20:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3597,6 +3597,7 @@
 ||rubiconproject.net.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
+||pixel.rubiconproject.net.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
@@ -72502,8 +72503,8 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
+||tw.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -74112,7 +74113,6 @@
 ||beta-t.net.zooplus.de^
 ||mail03.net.zooplus.de^
 ||origen.net.zooplus.de^
-||owa.ci.net.zooplus.de^
 ||owavpn.net.zooplus.de^
 ||region.net.zooplus.de^
 ||sslext.net.zooplus.de^
@@ -77348,6 +77348,7 @@
 ||marketing.blog.net.zooplus.es^
 ||team-marketing.net.zooplus.es^
 ||testingfirewall.net.zooplus.es^
+||control-prod.ssl.net.zooplus.es^
 ||frontpagessl.app.net.zooplus.es^
 ||gatewayssl-azure.net.zooplus.es^
 ||beta-wwwmarketing.net.zooplus.es^

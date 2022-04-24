@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-24 12:28:50Z
+! Last Modified: 2022-04-24 18:20:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42200,10 +42200,6 @@
 ||mycoinwallet.net^
 ||info.mycoitracking.com^
 ||www2.mycomm.fr^
-||counter.mycomputer.com^
-||123counter.mycomputer.com^
-||media-adrunner.mycomputer.com^
-||phoenix-adrunner.mycomputer.com^
 ||smetrics.mycontrolcard.com^
 ||mycpvlife.com^
 ||mycrazyasians.com^
