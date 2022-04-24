@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-24 01:20:57Z
+! Last Modified: 2022-04-24 06:21:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25081,6 +25081,9 @@
 ||analytics.inlinemanual.com^
 ||inlink.casa^
 ||www2.inlite.com.au^
+||sdk.inlocomedia.com^
+||visits.inlocomedia.com^
+||sdk-analytics.inlocomedia.com^
 ||inmaaltakhtit.sa^
 ||partnerships.inman.com^
 ||rasmas.inmar.com^
@@ -51494,6 +51497,7 @@
 ||urzedy9.net^
 ||apple.us-locate.info^
 ||us-microsoft-store.com^
+||apple.us-track.email^
 ||myetherwallet.us.com^
 ||giftcardsurveys.us.com^
 ||ad.track.us.org^
