@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-25 06:24:11Z
+! Last Modified: 2022-04-25 12:32:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -49647,6 +49647,7 @@
 ||go.toksan.jp^
 ||go.tokyo-chumon.com^
 ||tokyoportland.com^
+||go.tokyu-resort.co.jp^
 ||adebis.tokyuhotels.co.jp^
 ||tolansstithies.com^
 ||tolaoladiji.com^
@@ -52684,7 +52685,6 @@
 ||tw-api.vpadn.com^
 ||ids-dmp.vpadn.com^
 ||dailymotion-cs.vpadn.com^
-||scadobe.vpay.co.kr^
 ||vpm.hu^
 ||vpn4test.net^
 ||vpnaffiliates.com^
