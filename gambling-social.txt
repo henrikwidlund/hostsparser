@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-24 18:20:43Z
+! Last Modified: 2022-04-25 01:22:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16795,6 +16795,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
+||ma312-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -24333,7 +24334,6 @@
 ||smetrics.ig.ca^
 ||ig.ig.com^
 ||sig.ig.com^
-||ig.ig.ig.com^
 ||pxbnou.ig.com.br^
 ||adserver-2.ig.com.br^
 ||adserver-4.ig.com.br^
@@ -31960,7 +31960,6 @@
 ||mojetestery.pl^
 ||refwkk.mojewypieki.com^
 ||mojezyciemojasprawa.site^
-||counter.mojgorod.ru^
 ||olx-pl.mojid05236941675.buzz^
 ||inpostpl.mojid05236941675.buzz^
 ||inpostpl.mojid056934915.shop^
@@ -34520,6 +34519,7 @@
 ||ekino.nojo.tv^
 ||torrenteo.nojo.tv^
 ||tracking.nokai.jp^
+||sdfaswaed2.nokiadns.com^
 ||noknok.co^
 ||ads.nola.com^
 ||bonobo.nola.today^
@@ -50928,7 +50928,6 @@
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
-||httpkafka.unityads.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
