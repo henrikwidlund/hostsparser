@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-25 01:22:37Z
+! Last Modified: 2022-04-25 06:24:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1646,6 +1646,7 @@
 ||absoluteclickscom.com^
 ||pltesla.3.absolutelynew.live^
 ||pltesla.4.absolutelynew.live^
+||r4nds.absorba.com^
 ||abstractivebiggie.pl^
 ||absurd.news^
 ||absystem.pro^
@@ -4530,6 +4531,8 @@
 ||insight.armsreliability.com^
 ||metric.armstrong.com^
 ||metrics.armstrong.com^
+||metric.armstrongceilings.com^
+||metrics.armstrongceilings.com^
 ||info.armstronginternational.com^
 ||www2.connect.armstrongltd.in^
 ||xivafk.armut.com^

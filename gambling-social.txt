@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-25 01:22:46Z
+! Last Modified: 2022-04-25 06:24:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16795,7 +16795,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||ma312-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -20909,6 +20908,7 @@
 ||gemverify.com^
 ||smetrics.gemvisa.com.au^
 ||tr.clients.gemy.fr^
+||ad.realist.gen.tr^
 ||sw88.disneymagicmoments.gen.tr^
 ||gen2server.com^
 ||genccagdas.com.tr^
@@ -31960,6 +31960,7 @@
 ||mojetestery.pl^
 ||refwkk.mojewypieki.com^
 ||mojezyciemojasprawa.site^
+||counter.mojgorod.ru^
 ||olx-pl.mojid05236941675.buzz^
 ||inpostpl.mojid05236941675.buzz^
 ||inpostpl.mojid056934915.shop^
@@ -41156,6 +41157,7 @@
 ||ad.qq.com^
 ||fw.qq.com^
 ||rh.qq.com^
+||p.l.qq.com^
 ||rs1.qq.com^
 ||rs2.qq.com^
 ||msdk.qq.com^
@@ -55517,7 +55519,6 @@
 ||xnutilovnboryt.com^
 ||img.xnxx.com^
 ||multi.xnxx.com^
-||im.xo.pl^
 ||allboard.xobor.de^
 ||housead.xofapp.xyz^
 ||xokldfa3rmogi9gkdsp.xyz^

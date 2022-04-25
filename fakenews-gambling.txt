@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-25 01:22:30Z
+! Last Modified: 2022-04-25 06:24:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9303,7 +9303,6 @@
 ||protection.capolice.com^
 ||spider.capricciocolumbus.org^
 ||marketing.capsahealthcare.com^
-||supersuite.xapp.acemall.capstonesfcu.us^
 ||captainbicycle.com^
 ||ads.captifymedia.com^
 ||capturedcovers.com^
@@ -57322,7 +57321,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||eu-pn2.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -63365,6 +63363,7 @@
 ||ns.nl.machinevision.net.zooplus.it^
 ||nsiad.machinevision.net.zooplus.it^
 ||nslab.machinevision.net.zooplus.it^
+||php.activemarketing.net.zooplus.it^
 ||portalcdn.analytics.net.zooplus.it^
 ||redirect-ssl.active.net.zooplus.it^
 ||stage.machinevision.net.zooplus.it^

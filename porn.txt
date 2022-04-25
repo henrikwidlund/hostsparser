@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-25 01:22:51Z
+! Last Modified: 2022-04-25 06:24:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28057,6 +28057,7 @@
 ||ablinks.comms.healthengine.com.au^
 ||hrm.healthgrades.com^
 ||som.healthgrades.com^
+||tracking.healthitanalytics.com^
 ||healthkeylifescience.com^
 ||healthknowledge.my^
 ||ads.healthline.com^
@@ -32559,6 +32560,7 @@
 ||adserver.janes.net^
 ||adserver.janes.org^
 ||janesguide.com^
+||stats.jani.to^
 ||t.janieandjack.com^
 ||hakuba.janis.or.jp^
 ||info.janitza.com^
