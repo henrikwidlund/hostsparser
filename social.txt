@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-25 18:25:15Z
+! Last Modified: 2022-04-26 01:41:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12004,7 +12004,6 @@
 ||rhinoceros.codeagain.com^
 ||codeandwork.pl^
 ||codearoma.co.in^
-||dragonfly.codebar.ch^
 ||codebiogblog.com^
 ||codebrew.nl^
 ||ptarmigan.codebycorey.com^
@@ -24872,7 +24871,6 @@
 ||ivalemn.com^
 ||stats.ivankahl.com^
 ||ivanovawear.ru^
-||tracking.info.ivanti.com^
 ||marketing.ivctechnologies.com^
 ||iverifyids.pl^
 ||info.ivfdonostia.com^
@@ -56167,6 +56165,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||gatewayssl-azure.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
@@ -57562,6 +57561,7 @@
 ||elastic-owa.net.zooplus.it^
 ||emailvision.net.zooplus.it^
 ||europe-mail.net.zooplus.it^
+||f-lga1.f.de.net.zooplus.it^
 ||file-portal.net.zooplus.it^
 ||hackertyper.net.zooplus.it^
 ||help-portal.net.zooplus.it^

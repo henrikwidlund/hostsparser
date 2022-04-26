@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-25 18:24:55Z
+! Last Modified: 2022-04-26 01:41:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24754,6 +24754,7 @@
 ||marketing.iloveny.com^
 ||jupiter.ilovequake.care^
 ||ilpem-ar.com^
+||protection.ilpolice.com^
 ||web.x.ilpost.it^
 ||stats.ilsemedia.nl^
 ||rc.bt.ilsemedia.nl^
@@ -35568,7 +35569,6 @@
 ||nwwaynenews.com^
 ||nwwyomingnews.com^
 ||l.email.nxtwowcher.co.uk^
-||g.nxxxn.ga^
 ||ny79641.com^
 ||smetrics.nyandcompany.com^
 ||nybusinessdaily.com^
@@ -38316,8 +38316,6 @@
 ||pdfhj.shop^
 ||vhodzh.pdonna.ru^
 ||pdxor02.com^
-||ads.pe.com^
-||metrics.pe.com^
 ||hd.pe.fr^
 ||galatransmisja.pe.hu^
 ||peacegardennews.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-25 18:24:48Z
+! Last Modified: 2022-04-26 01:41:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -47936,6 +47936,11 @@
 ||lnpost-pl.out-of-the-box.site^
 ||out1ook.pl^
 ||outbrain.com^
+||log.outbrain.org^
+||sadc1.outbrain.org^
+||alldcs.outbrain.org^
+||chidc2.outbrain.org^
+||nychi2.outbrain.org^
 ||zem.outbrainimg.com^
 ||images.outbrainimg.com^
 ||outbreak.news^
@@ -75107,6 +75112,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||global.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
