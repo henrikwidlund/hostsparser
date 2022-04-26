@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-26 12:36:03Z
+! Last Modified: 2022-04-26 18:21:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31244,7 +31244,6 @@
 ||mediterraneanroom.org^
 ||read.medium.com^
 ||halowniaszymon0123.medium.com^
-||lightstep.medium.systems^
 ||popit.mediumpimpin.com^
 ||www2.medius.com^
 ||medlaexpert.pl^
@@ -56422,6 +56421,7 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
+||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||app.ssp.yahoo.com^
 ||ads.yap.yahoo.com^
@@ -59244,7 +59244,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||mx.net.zooplus.fr^
 ||ssldii1.net.zooplus.fr^
 ||sslinfo.net.zooplus.fr^
 ||ssljobs.net.zooplus.fr^

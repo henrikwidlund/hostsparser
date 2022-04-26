@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-26 12:35:57Z
+! Last Modified: 2022-04-26 18:21:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16225,7 +16225,6 @@
 ||cu-cn-north00002.gala.convection.cn^
 ||metrics.conveniencestore.co.uk^
 ||cs0113sbeda.convenient-smooth.net^
-||text.convenzioniaziendali.it^
 ||tech.convergd.com^
 ||converge-digital.com^
 ||act.convergencetraining.com^
@@ -39990,7 +39989,6 @@
 ||mediterraneanroom.org^
 ||read.medium.com^
 ||halowniaszymon0123.medium.com^
-||lightstep.medium.systems^
 ||popit.mediumpimpin.com^
 ||cdn1.mediumtube.pro^
 ||cdn2.mediumtube.pro^
@@ -75106,9 +75104,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||cn.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

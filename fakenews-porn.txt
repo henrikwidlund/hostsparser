@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-26 12:36:07Z
+! Last Modified: 2022-04-26 18:22:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20234,6 +20234,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||wildcard.outbrain.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -39109,7 +39110,6 @@
 ||mediterraneanroom.org^
 ||read.medium.com^
 ||halowniaszymon0123.medium.com^
-||lightstep.medium.systems^
 ||popit.mediumpimpin.com^
 ||cdn1.mediumtube.pro^
 ||cdn2.mediumtube.pro^
@@ -52575,6 +52575,8 @@
 ||li.purch.com^
 ||assets.purch.com^
 ||inpost-pl.purchaseitem.pw^
+||refer.purchasingpower.com^
+||smetrics.purchasingpower.com^
 ||t.purduesports.com^
 ||pure-angel.net^
 ||pure-bbw.com^
