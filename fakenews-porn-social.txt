@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-26 06:22:07Z
+! Last Modified: 2022-04-26 12:36:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13108,13 +13108,6 @@
 ||cleanuninstall.com^
 ||cleanup-your-computer.com^
 ||cleanwater.news^
-||inpost-pl-3ds.clear-dostawa.xyz^
-||inpost-pl-safe.clear-dostawa.xyz^
-||inpost-pl-3dsec.clear-dostawa.xyz^
-||inpost-pl-3dsafe.clear-dostawa.xyz^
-||inpost-pl-3dsecure.clear-dostawa.xyz^
-||allegrolokalnie-pl-3dsec.clear-dostawa.xyz^
-||allegrolokalnie-pl-cybersec.clear-dostawa.xyz^
 ||inpost-pl-3ds.clear-id.xyz^
 ||inpost-pl-3dsafe.clear-id.xyz^
 ||inpost-pl-3dseif.clear-id.xyz^
@@ -18871,7 +18864,6 @@
 ||go.docnetwork.org^
 ||rec1.smt.docomo.ne.jp^
 ||bizsolution.docomo.ne.jp^
-||adw.addlv.smt.docomo.ne.jp^
 ||cdn.adnwif.smt.docomo.ne.jp^
 ||docs-downloading.com^
 ||docsgonebad.com^
@@ -20285,6 +20277,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
+||r.casalemedia.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -75644,6 +75637,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||account-v.labarketing.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^

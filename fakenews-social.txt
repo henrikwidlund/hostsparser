@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-26 06:22:10Z
+! Last Modified: 2022-04-26 12:36:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15383,7 +15383,6 @@
 ||go.docnetwork.org^
 ||rec1.smt.docomo.ne.jp^
 ||bizsolution.docomo.ne.jp^
-||adw.addlv.smt.docomo.ne.jp^
 ||cdn.adnwif.smt.docomo.ne.jp^
 ||docs-downloading.com^
 ||docsgonebad.com^
@@ -26171,7 +26170,6 @@
 ||mesotherapy.jino-net.ru^
 ||sunhe.jinr.ru^
 ||ebis.jinzai-business.com^
-||stats.jippii.com^
 ||jirafit.com^
 ||jitindua.com^
 ||jiztini.com^
@@ -58454,7 +58452,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||idsing.net.zooplus.fr^
 ||ssldii1.net.zooplus.fr^
 ||sslinfo.net.zooplus.fr^
 ||ssljobs.net.zooplus.fr^

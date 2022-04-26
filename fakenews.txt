@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-26 06:22:12Z
+! Last Modified: 2022-04-26 12:36:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15274,7 +15274,6 @@
 ||go.docnetwork.org^
 ||rec1.smt.docomo.ne.jp^
 ||bizsolution.docomo.ne.jp^
-||adw.addlv.smt.docomo.ne.jp^
 ||cdn.adnwif.smt.docomo.ne.jp^
 ||docs-downloading.com^
 ||docsgonebad.com^
