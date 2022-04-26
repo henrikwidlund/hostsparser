@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-26 01:41:28Z
+! Last Modified: 2022-04-26 06:22:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2561,6 +2561,7 @@
 ||affiliate-fr.com^
 ||kliks.affiliate4you.nl^
 ||affiliateclick.com^
+||ads.affiliateclub.com^
 ||affiliatefuture.co.uk^
 ||adserver.affiliatemg.com^
 ||affiliatemillionaire.online^
@@ -2867,6 +2868,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||ads.stickyadstv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -16557,6 +16559,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||criteo-sync.teads.tv.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -25306,6 +25309,7 @@
 ||trk.iotworldtoday.com^
 ||iovation.co.uk^
 ||iovation.com^
+||t.iowawild.com^
 ||plts1.iownprllk.xyz^
 ||nasdyh1.iownprllk.xyz^
 ||maxtsla66.iownproject2.xyz^
@@ -39641,7 +39645,6 @@
 ||prismaliquid.xyz^
 ||prismaliquld.xyz^
 ||abo.prismamediadigital.com^
-||tk.prismashop.fr^
 ||park-energylandia.priv.pl^
 ||privacy-in.us^
 ||f05098.privacy4browsers.com^
@@ -57552,6 +57555,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||corp.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^

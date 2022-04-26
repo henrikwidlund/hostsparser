@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-26 01:41:26Z
+! Last Modified: 2022-04-26 06:22:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35380,7 +35380,6 @@
 ||scnd.landsend.com^
 ||scnd.landsend.de^
 ||landser.uno^
-||info.landstar.com^
 ||landtisciochanle.cf^
 ||awuapj.landwatch.com^
 ||connect.landy.com^
@@ -36916,7 +36915,6 @@
 ||loltrain.com^
 ||lomalindasda.org^
 ||lombard-kolobrzeg.pl^
-||sc.lombard.ie^
 ||lombardfhu.net^
 ||lombardjanusz.com^
 ||adbmetrics.lomejordelvinoderioja.com^
@@ -72955,6 +72953,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -76149,6 +76148,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||gatewayssl-azure.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
