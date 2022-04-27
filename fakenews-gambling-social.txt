@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-26 18:21:56Z
+! Last Modified: 2022-04-27 01:43:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29619,6 +29619,8 @@
 ||go.lohika.com^
 ||lojho.xyz^
 ||lokal101.com^
+||657.allokalne.lokalbuy.biz^
+||970.allokalne.lokalbuy.biz^
 ||lokalne-zdarzeenia.cyou^
 ||lokalne24ogloszenia.pl^
 ||lokalneinformacje.pl^
@@ -38334,6 +38336,8 @@
 ||paypltickets188398438.info^
 ||content.paypoint.com^
 ||payrant.com^
+||inpost-pl.payregisway.pw^
+||allegrolokalnie-pl.payregisway.pw^
 ||payrots.net^
 ||olx-pl.pays-delivery-online.ru^
 ||pays-olx.gq^
@@ -52001,6 +52005,7 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
+||geocdn.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^

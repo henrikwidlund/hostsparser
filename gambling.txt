@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-26 18:22:12Z
+! Last Modified: 2022-04-27 01:44:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -50430,6 +50430,7 @@
 ||a.vfgtb.com^
 ||vfocus.net^
 ||tracker.vgame.us^
+||ads.vgchartz.com^
 ||vgdny.com^
 ||sc.vh1.com^
 ||ssc.vh1.com^
@@ -57068,6 +57069,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||cvs.net.zooplus.fr^
 ||ssldii1.net.zooplus.fr^
 ||sslinfo.net.zooplus.fr^
 ||ssljobs.net.zooplus.fr^
