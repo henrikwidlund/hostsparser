@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-27 12:33:35Z
+! Last Modified: 2022-04-27 18:22:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16577,7 +16577,6 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
-||api.vungle.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -19761,7 +19760,6 @@
 ||t.foxtheatre.org^
 ||app.foxtheatre.org^
 ||bderbn.foxtrot.com.ua^
-||communications.foyston.com^
 ||fpagro.com.pl^
 ||www2.comunicacions.fpc.es^
 ||fpcclicks.com^
@@ -31372,7 +31370,6 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
-||sdk.guard.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^
@@ -55203,6 +55200,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||track.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -58450,13 +58448,14 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||elastic.secure.org.net.zooplus.es^
+||mobilearketing.net.zooplus.es^
+||elastic.org-lab.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||app.net.zooplus.fr^
+||owacms.net.zooplus.fr^
 ||ssldii1.net.zooplus.fr^
 ||sslinfo.net.zooplus.fr^
 ||ssljobs.net.zooplus.fr^

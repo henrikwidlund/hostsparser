@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-27 12:33:37Z
+! Last Modified: 2022-04-27 18:22:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46709,7 +46709,6 @@
 ||ads.supplyframe.com^
 ||enews.supplyframe.com^
 ||search.supplyframe.com^
-||images.ads.supplyframe.com^
 ||sh.support-allegrolokalnie.pl^
 ||support-ip.com^
 ||learn.supportlogic.io^
@@ -51714,6 +51713,7 @@
 ||imp.voiceads.cn^
 ||adtrack.voicestar.com^
 ||voiceunfortunate.info^
+||cqpmvc.voici.fr^
 ||voilok-ru.ru^
 ||voiptrainers.com^
 ||johannes.voith.com^
