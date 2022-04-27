@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-27 06:22:51Z
+! Last Modified: 2022-04-27 12:33:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10006,6 +10006,7 @@
 ||bramka-sms-za-darmo.pl^
 ||s.bramptonguardian.com^
 ||bramyioslony.pl^
+||branch.io^
 ||igorsgtest.branch.rocks^
 ||branchguide.com^
 ||sephora-qa.branchstaging.com^
@@ -20225,6 +20226,8 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
+||ds-s7.addthis.com.edgekey.net^
+||pixel.mathtag.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^

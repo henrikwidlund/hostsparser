@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-27 06:22:45Z
+! Last Modified: 2022-04-27 12:33:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8138,6 +8138,7 @@
 ||bramka-sms-za-darmo.pl^
 ||s.bramptonguardian.com^
 ||bramyioslony.pl^
+||branch.io^
 ||igorsgtest.branch.rocks^
 ||branchguide.com^
 ||sephora-qa.branchstaging.com^
@@ -56916,6 +56917,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||fr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -57867,7 +57869,6 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
-||history.csr31.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-27 06:22:52Z
+! Last Modified: 2022-04-27 12:33:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7899,6 +7899,7 @@
 ||bramka-sms-za-darmo.pl^
 ||s.bramptonguardian.com^
 ||bramyioslony.pl^
+||branch.io^
 ||igorsgtest.branch.rocks^
 ||branchguide.com^
 ||sephora-qa.branchstaging.com^
@@ -16576,6 +16577,7 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
+||api.vungle.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -31370,6 +31372,7 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
+||sdk.guard.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^
@@ -33470,6 +33473,7 @@
 ||netscae.com^
 ||bombrw.netshoes.com.br^
 ||net1.netski.com^
+||ads.netsol.com^
 ||smetrics.netspend.com^
 ||netsponsors.com^
 ||netstrikeforce.com^
@@ -58446,11 +58450,13 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||elastic.secure.org.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||app.net.zooplus.fr^
 ||ssldii1.net.zooplus.fr^
 ||sslinfo.net.zooplus.fr^
 ||ssljobs.net.zooplus.fr^
