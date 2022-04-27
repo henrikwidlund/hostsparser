@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-27 01:43:53Z
+! Last Modified: 2022-04-27 06:22:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -52005,7 +52005,6 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
-||geocdn.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -57868,6 +57867,7 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||history.csr31.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^

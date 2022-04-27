@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-27 01:44:11Z
+! Last Modified: 2022-04-27 06:23:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20149,6 +20149,7 @@
 ||metrics.elgiganten.se^
 ||elherdelta.io^
 ||syndication.elink12.com^
+||s.elink2c.com^
 ||syndication.elink77.com^
 ||banner.elisa.net^
 ||elite-crack.ml^
@@ -70288,6 +70289,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||cn2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -73477,6 +73479,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||owafw.net.zooplus.fr^
 ||ssldii1.net.zooplus.fr^
 ||sslinfo.net.zooplus.fr^
 ||ssljobs.net.zooplus.fr^

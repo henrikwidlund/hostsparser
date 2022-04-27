@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-27 01:43:55Z
+! Last Modified: 2022-04-27 06:22:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15371,6 +15371,8 @@
 ||direct-stats.com^
 ||a8cv.direct-teleshop.jp^
 ||direct-xxx-access.com^
+||ads.directcorp.de^
+||adserver.directcorp.de^
 ||directech.co^
 ||tr.news.directeo.fr^
 ||stats.directexpose.com^
@@ -41775,7 +41777,6 @@
 ||tajs.qq.com^
 ||tcss.qq.com^
 ||ysdk.qq.com^
-||l2.l.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
 ||logsdk.qq.com^
@@ -59238,21 +59239,13 @@
 ||net.zooplus.es^
 ||dii2.zooplus.es^
 ||apimail.net.zooplus.es^
-||blogssl.net.zooplus.es^
-||dashboard.net.zooplus.es^
-||marketing.net.zooplus.es^
-||chd.apacing.net.zooplus.es^
-||filecmsector.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||muc.ssl.net.zooplus.fr^
-||owa.pay.net.zooplus.fr^
-||raw-ssl.net.zooplus.fr^
-||ssl-pay.net.zooplus.fr^
-||ssl-stg.net.zooplus.fr^
+||241.net.zooplus.fr^
+||idsing.net.zooplus.fr^
 ||ssldii1.net.zooplus.fr^
 ||sslinfo.net.zooplus.fr^
 ||ssljobs.net.zooplus.fr^

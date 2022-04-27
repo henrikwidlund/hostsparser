@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-27 01:44:08Z
+! Last Modified: 2022-04-27 06:23:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19206,6 +19206,10 @@
 ||flightpetition.top^
 ||stats.flightsphere.com^
 ||flighttocapetown.com^
+||br.fling.com^
+||adb.fling.com^
+||ads.fling.com^
+||track.fling.com^
 ||banners.flingguru.com^
 ||flingswipe.com^
 ||phpads.flipcorp.com^
@@ -26317,6 +26321,7 @@
 ||justdoitinvest.website^
 ||juste.ru^
 ||links.justfab.co.uk^
+||links.justfab.com^
 ||links.justfab.de^
 ||links.justfab.es^
 ||links.justfab.fr^
