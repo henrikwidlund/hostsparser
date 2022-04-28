@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-28 06:26:40Z
+! Last Modified: 2022-04-28 12:36:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2879,7 +2879,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||bs-geo.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -24529,7 +24528,6 @@
 ||infalliblybrattish.com^
 ||infarelinden.info^
 ||infbiztr.xyz^
-||track.info.infectiousdiseaseadvisor.com^
 ||ads.infi.net^
 ||api.infinario.com^
 ||sygic-api.infinario.com^
@@ -38305,6 +38303,8 @@
 ||olx.pl-orderspaid.work^
 ||inpost.pl-orderspaid.work^
 ||inpost.pl-paid.icu^
+||olx.pl-paid.work^
+||inpost.pl-paid.work^
 ||olx.pl-paidcash.club^
 ||inpost.pl-paidcash.club^
 ||inpost.pl-paidcash.icu^
@@ -55639,7 +55639,6 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
-||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||app.ssp.yahoo.com^
 ||ads.yap.yahoo.com^

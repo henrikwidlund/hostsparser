@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-28 06:26:49Z
+! Last Modified: 2022-04-28 12:36:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4754,6 +4754,7 @@
 ||www2.autify.com^
 ||auto-bannertausch.de^
 ||auto-overview.com^
+||newsy.auto.pl^
 ||as.autobild.de^
 ||web.autobodytoolmart.com^
 ||metrics.autobytel.com^
@@ -57064,6 +57065,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||mailserver.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
