@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-28 02:06:54Z
+! Last Modified: 2022-04-28 06:26:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -59711,7 +59711,6 @@
 ||mail.shop-wall-beta-bitiba-dk.ids.net.zooplus.nl^
 ||mail.shop-wall-preview-zooplus-no.net.zooplus.nl^
 ||marketing-elasticbeanstalkprivate.net.zooplus.nl^
-||mirror.marketing-elasticbeanstalk.net.zooplus.nl^
 ||ns.controlmarketing-devops-tomcat.net.zooplus.nl^
 ||owadii2ingeuropewest.frontelastic.net.zooplus.nl^
 ||shop-wall-beta-bitiba-esmarketing.net.zooplus.nl^
