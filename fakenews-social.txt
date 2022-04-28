@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-27 18:22:32Z
+! Last Modified: 2022-04-28 02:06:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19760,6 +19760,7 @@
 ||t.foxtheatre.org^
 ||app.foxtheatre.org^
 ||bderbn.foxtrot.com.ua^
+||communications.foyston.com^
 ||fpagro.com.pl^
 ||www2.comunicacions.fpc.es^
 ||fpcclicks.com^
@@ -55200,7 +55201,6 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||track.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -58448,14 +58448,11 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||mobilearketing.net.zooplus.es^
-||elastic.org-lab.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||owacms.net.zooplus.fr^
 ||ssldii1.net.zooplus.fr^
 ||sslinfo.net.zooplus.fr^
 ||ssljobs.net.zooplus.fr^

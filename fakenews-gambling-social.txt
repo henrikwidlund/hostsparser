@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-27 18:22:24Z
+! Last Modified: 2022-04-28 02:06:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2897,7 +2897,6 @@
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
-||pixel-apac.rubiconproject.net.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
 ||akaflieg-sb.de^
 ||akama.com^
@@ -15900,6 +15899,7 @@
 ||mail.dolce-gusto.dk^
 ||mail.dolce-gusto.es^
 ||mail.dolce-gusto.fi^
+||mail.dolce-gusto.gr^
 ||mail.dolce-gusto.hk^
 ||mail.dolce-gusto.hu^
 ||mail.dolce-gusto.it^
@@ -51947,6 +51947,7 @@
 ||unibet.co.uk^
 ||unibet.com^
 ||unibet.com.au^
+||insight.unibuddy.com^
 ||unicaitaly.it^
 ||uniccamodaintima.com.br^
 ||unicorpbrunei.com^
@@ -56915,13 +56916,13 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -59732,6 +59733,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||s160.net.zooplus.fr^
 ||ssldii1.net.zooplus.fr^
 ||sslinfo.net.zooplus.fr^
 ||ssljobs.net.zooplus.fr^

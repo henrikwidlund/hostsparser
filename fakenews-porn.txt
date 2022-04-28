@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-27 18:22:30Z
+! Last Modified: 2022-04-28 02:06:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8495,6 +8495,8 @@
 ||bigbrandpromotions.com^
 ||bigbrandrewards.com^
 ||enter.bigbuttslikeitbig.com^
+||ads.bigchurch.com^
+||banners.bigchurch.com^
 ||bigclicks.com^
 ||bigcock.one^
 ||bigcocker.com^
@@ -46154,7 +46156,6 @@
 ||oproapspst.com^
 ||oprodopst.com^
 ||digital.opsbase.com^
-||look.opskln.com^
 ||smetrics.opsm.co.nz^
 ||smetrics.opsm.com.au^
 ||opsonew3org.sg^
