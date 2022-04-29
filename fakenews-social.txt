@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-29 12:35:48Z
+! Last Modified: 2022-04-29 18:23:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46726,6 +46726,7 @@
 ||sultanatebushy.info^
 ||suluklima.com.tr^
 ||cv.sumaho-hoken.jp^
+||stat-ssl.sumaity.com^
 ||sumapo.org^
 ||sumienieperforowac.site^
 ||smetrics.sumitclub.jp^
@@ -55641,7 +55642,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||uk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -58448,7 +58448,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||csr31.net.zooplus.fr^
 ||ssldii1.net.zooplus.fr^
 ||sslinfo.net.zooplus.fr^
 ||ssljobs.net.zooplus.fr^
@@ -59585,6 +59584,7 @@
 ||shop-wall-preview-zoochic-eu-ru.net.zooplus.fr^
 ||ssl-shop-wall-preview-bitiba-dk.net.zooplus.fr^
 ||coupon-provider-service-test.owa.net.zooplus.fr^
+||customer.marketingd2x9pgnb7vwmga.net.zooplus.fr^
 ||enterpriseregistration-marketing.net.zooplus.fr^
 ||server4.www1.goldenserviceawards.net.zooplus.fr^
 ||shop-wall-beta-zoohit-czarketing.net.zooplus.fr^

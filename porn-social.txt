@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-29 12:36:00Z
+! Last Modified: 2022-04-29 18:23:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3249,8 +3249,6 @@
 ||roundrobin-log.agoop.net^
 ||tracking.agora.io^
 ||agorogha.shop^
-||1februaryalert.agrapost.com^
-||1februarypolice.agrapost.com^
 ||agregat48.pl^
 ||agregaty-ko.com^
 ||agregaty-mo.com^
@@ -28515,6 +28513,7 @@
 ||sc.hm.com^
 ||www2.hmarkets.com^
 ||adbsmetrics.ep.hmc.co.kr^
+||mdws.hmecu.com^
 ||marketing.hmg.eu^
 ||ma.hmhco.com^
 ||metrics.hmhco.com^
@@ -31028,6 +31027,8 @@
 ||inipost.net^
 ||init.sh^
 ||initialprotection.com^
+||ads.injersey.com^
+||gcirm.injersey.com^
 ||injuredworkersadvocates.com^
 ||adext.inkclub.com^
 ||inklineglobal.com^
@@ -75799,6 +75800,7 @@
 ||server1.net.zooplus.nl^
 ||ssl-ctl.net.zooplus.nl^
 ||ssl.aws.net.zooplus.nl^
+||ssl.bff.net.zooplus.nl^
 ||ssl.dav.net.zooplus.nl^
 ||ssl.muc.net.zooplus.nl^
 ||ssl.prd.net.zooplus.nl^

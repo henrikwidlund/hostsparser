@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-29 12:35:50Z
+! Last Modified: 2022-04-29 18:23:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -50345,6 +50345,7 @@
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
+||dsp-vast.unityads.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
