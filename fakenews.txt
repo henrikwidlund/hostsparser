@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-29 06:22:59Z
+! Last Modified: 2022-04-29 12:35:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34921,7 +34921,6 @@
 ||www2.ofsoptics.com^
 ||oftwominds.com^
 ||go.message.ofx.com^
-||media.og-affiliate.com^
 ||og10szenia.pl^
 ||a8cv.ogaland.com^
 ||ogarniamy-sprawe.eu^
@@ -55100,7 +55099,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||fr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

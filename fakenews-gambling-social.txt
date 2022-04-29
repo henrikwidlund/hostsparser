@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-29 06:22:50Z
+! Last Modified: 2022-04-29 12:35:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23902,6 +23902,8 @@
 ||ma.hottolink.co.jp^
 ||sanalytics.hottopic.com^
 ||jbvng.hottybabe.net^
+||om.hotwire.com^
+||som.hotwire.com^
 ||nsads.hotwired.com^
 ||netads.hotwired.com^
 ||a8cv.hotyoga-loive.com^
@@ -35991,7 +35993,6 @@
 ||www2.ofsoptics.com^
 ||oftwominds.com^
 ||go.message.ofx.com^
-||media.og-affiliate.com^
 ||og10szenia.pl^
 ||a8cv.ogaland.com^
 ||ogarniamy-sprawe.eu^
@@ -56910,6 +56911,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
@@ -59721,6 +59723,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||elastic.org-lab.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^

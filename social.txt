@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-29 06:23:11Z
+! Last Modified: 2022-04-29 12:36:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -33661,7 +33661,6 @@
 ||1.ofsnetwork.com^
 ||www2.ofsoptics.com^
 ||go.message.ofx.com^
-||media.og-affiliate.com^
 ||og10szenia.pl^
 ||a8cv.ogaland.com^
 ||ogarniamy-sprawe.eu^
@@ -38080,6 +38079,7 @@
 ||go.precor.com^
 ||predesignateshaversack.xyz^
 ||predictelnewv.top^
+||go.predicthq.com^
 ||go1.predictiveindex.com^
 ||predictivesearch.com^
 ||predictorr.com^
@@ -53380,6 +53380,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

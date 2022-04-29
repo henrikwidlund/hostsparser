@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-29 06:22:57Z
+! Last Modified: 2022-04-29 12:35:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35077,7 +35077,6 @@
 ||www2.ofsoptics.com^
 ||oftwominds.com^
 ||go.message.ofx.com^
-||media.og-affiliate.com^
 ||og10szenia.pl^
 ||a8cv.ogaland.com^
 ||ogarniamy-sprawe.eu^
@@ -46727,7 +46726,6 @@
 ||sultanatebushy.info^
 ||suluklima.com.tr^
 ||cv.sumaho-hoken.jp^
-||stat-ssl.sumaity.com^
 ||sumapo.org^
 ||sumienieperforowac.site^
 ||smetrics.sumitclub.jp^
@@ -55643,6 +55641,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||uk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -58449,6 +58448,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||csr31.net.zooplus.fr^
 ||ssldii1.net.zooplus.fr^
 ||sslinfo.net.zooplus.fr^
 ||ssljobs.net.zooplus.fr^
