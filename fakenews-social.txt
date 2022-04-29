@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-29 01:44:33Z
+! Last Modified: 2022-04-29 06:22:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1157,6 +1157,7 @@
 ||inpost-pl.785463-money-order.xyz^
 ||polska-lnpost.78693.space^
 ||polska-alegrolokalnle.78693.space^
+||78tdd75.com^
 ||791026.com^
 ||inpost-pl.794513-money-info.xyz^
 ||7adpower.com^
@@ -1866,6 +1867,7 @@
 ||ad-cupid.com^
 ||ad-feed.com^
 ||ad-feeds.com^
+||ad-gbn.com^
 ||ad-generator.net^
 ||ad-groups.com^
 ||ad-house.mobi^
@@ -20391,11 +20393,6 @@
 ||ads.game.net^
 ||track.game18click.com^
 ||game9time.com^
-||n.gameads.io^
-||api.gameads.io^
-||cdn.gameads.io^
-||node.gameads.io^
-||shapez.gameads.io^
 ||gameangel.com^
 ||gameatlas.com^
 ||gameblab.com^
@@ -41353,7 +41350,6 @@
 ||info.rapidminer.com^
 ||go.rapidpaycard.com^
 ||rapidredirecting.com^
-||cdn.rapolok.com^
 ||raport-drogowe.pl^
 ||raport.cyou^
 ||raqmnh.com^
@@ -51464,6 +51460,7 @@
 ||vendorcentral-identifier-amazon.com^
 ||info.vendorpedia.com^
 ||oms.venere.com^
+||go.venichu.co.jp^
 ||vensostred.site^
 ||ventanasyaluminios.com.mx^
 ||ea.vente-unique.be^
@@ -58447,13 +58444,11 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||accmail.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||s147.net.zooplus.fr^
 ||ssldii1.net.zooplus.fr^
 ||sslinfo.net.zooplus.fr^
 ||ssljobs.net.zooplus.fr^

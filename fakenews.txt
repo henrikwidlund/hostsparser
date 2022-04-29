@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-29 01:44:34Z
+! Last Modified: 2022-04-29 06:22:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1102,6 +1102,7 @@
 ||inpost-pl.785463-money-order.xyz^
 ||polska-lnpost.78693.space^
 ||polska-alegrolokalnle.78693.space^
+||78tdd75.com^
 ||791026.com^
 ||inpost-pl.794513-money-info.xyz^
 ||7adpower.com^
@@ -1811,6 +1812,7 @@
 ||ad-cupid.com^
 ||ad-feed.com^
 ||ad-feeds.com^
+||ad-gbn.com^
 ||ad-generator.net^
 ||ad-groups.com^
 ||ad-house.mobi^
@@ -20249,11 +20251,6 @@
 ||ads.game.net^
 ||track.game18click.com^
 ||game9time.com^
-||n.gameads.io^
-||api.gameads.io^
-||cdn.gameads.io^
-||node.gameads.io^
-||shapez.gameads.io^
 ||gameangel.com^
 ||gameatlas.com^
 ||gameblab.com^
@@ -41194,7 +41191,6 @@
 ||info.rapidminer.com^
 ||go.rapidpaycard.com^
 ||rapidredirecting.com^
-||cdn.rapolok.com^
 ||raport-drogowe.pl^
 ||raport.cyou^
 ||raqmnh.com^
@@ -55104,6 +55100,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||fr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

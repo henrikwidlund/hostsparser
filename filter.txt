@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-29 01:44:20Z
+! Last Modified: 2022-04-29 06:22:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1503,6 +1503,7 @@
 ||inpost-pl.785463-money-order.xyz^
 ||polska-lnpost.78693.space^
 ||polska-alegrolokalnle.78693.space^
+||78tdd75.com^
 ||791026.com^
 ||inpost-pl.794513-money-info.xyz^
 ||7adpower.com^
@@ -2321,6 +2322,7 @@
 ||ad-cupid.com^
 ||ad-feed.com^
 ||ad-feeds.com^
+||ad-gbn.com^
 ||ad-generator.net^
 ||ad-groups.com^
 ||ad-house.mobi^
@@ -25987,11 +25989,6 @@
 ||ads.game.net^
 ||track.game18click.com^
 ||game9time.com^
-||n.gameads.io^
-||api.gameads.io^
-||cdn.gameads.io^
-||node.gameads.io^
-||shapez.gameads.io^
 ||gameangel.com^
 ||gameatlas.com^
 ||gameblab.com^
@@ -28103,6 +28100,8 @@
 ||partner-ts.groupon.be^
 ||ad.groupon.co.uk^
 ||partner-ts.groupon.co.uk^
+||ad.groupon.com^
+||partner-ts.groupon.com^
 ||ad.groupon.de^
 ||partner-ts.groupon.de^
 ||ad.groupon.fr^
@@ -54387,7 +54386,6 @@
 ||go.rapidpaycard.com^
 ||rapidredirecting.com^
 ||rapidzona.tv^
-||cdn.rapolok.com^
 ||raport-drogowe.pl^
 ||raport.cyou^
 ||raqmnh.com^
@@ -73924,6 +73922,7 @@
 ||xfreeservice.com^
 ||xfrenchies.com^
 ||xfski.shop^
+||xfuckbook.com^
 ||xg4ken.com^
 ||xg5qs-upqs.club^
 ||xgallsx.com^
@@ -75107,7 +75106,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

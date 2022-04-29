@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-29 01:44:40Z
+! Last Modified: 2022-04-29 06:23:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1133,6 +1133,7 @@
 ||inpost-pl.785463-money-order.xyz^
 ||polska-lnpost.78693.space^
 ||polska-alegrolokalnle.78693.space^
+||78tdd75.com^
 ||791026.com^
 ||inpost-pl.794513-money-info.xyz^
 ||7adpower.com^
@@ -1852,6 +1853,7 @@
 ||ad-cupid.com^
 ||ad-feed.com^
 ||ad-feeds.com^
+||ad-gbn.com^
 ||ad-generator.net^
 ||ad-groups.com^
 ||ad-house.mobi^
@@ -20301,11 +20303,6 @@
 ||ads.game.net^
 ||track.game18click.com^
 ||game9time.com^
-||n.gameads.io^
-||api.gameads.io^
-||cdn.gameads.io^
-||node.gameads.io^
-||shapez.gameads.io^
 ||gameangel.com^
 ||gameatlas.com^
 ||gameblab.com^
@@ -33295,7 +33292,6 @@
 ||smetrics.newark.com^
 ||newarrivals.club^
 ||smetrics.newbalance.com^
-||ydvsok.newbalance.jp^
 ||newbud-project1.info^
 ||newbudimex-inpl.info^
 ||nkydma.newbuild.studio^
@@ -40905,7 +40901,6 @@
 ||info.rapidminer.com^
 ||go.rapidpaycard.com^
 ||rapidredirecting.com^
-||cdn.rapolok.com^
 ||raport-drogowe.pl^
 ||raport.cyou^
 ||raqmnh.com^
@@ -46977,6 +46972,7 @@
 ||tealium.com^
 ||partners.team-cymru.com^
 ||developer.team1global.com.au^
+||secure.team8save.com^
 ||teamadvertise.info^
 ||teamazmog.xyz^
 ||metrics.teambeachbody.com^
@@ -54758,6 +54754,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
@@ -55693,6 +55690,7 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||csr31.signed.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^
