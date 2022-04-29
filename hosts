@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-28 18:23:02Z
+! Last Modified: 2022-04-29 01:44:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9528,6 +9528,12 @@
 ||stats.blogger.com^
 ||js1.bloggerads.net^
 ||bloggingbits.com^
+||cpanel.blogi-finansowe.xyz^
+||pudelek.blogi-finansowe.xyz^
+||webdisk.blogi-finansowe.xyz^
+||webmail.blogi-finansowe.xyz^
+||cpcontacts.blogi-finansowe.xyz^
+||cpcalendars.blogi-finansowe.xyz^
 ||cpanel.blogi-zfinansowe.xyz^
 ||webdisk.blogi-zfinansowe.xyz^
 ||webmail.blogi-zfinansowe.xyz^
@@ -28097,8 +28103,6 @@
 ||partner-ts.groupon.be^
 ||ad.groupon.co.uk^
 ||partner-ts.groupon.co.uk^
-||ad.groupon.com^
-||partner-ts.groupon.com^
 ||ad.groupon.de^
 ||partner-ts.groupon.de^
 ||ad.groupon.fr^
@@ -28612,6 +28616,9 @@
 ||refer.hannaandersson.com^
 ||hannawolska1.co.pl^
 ||hanplayer.com^
+||dil.hansel.io^
+||sdk.hansel.io^
+||ujm.hansel.io^
 ||hansondirectory.com^
 ||hansvanderwerf.nl^
 ||hanulik.pl^
@@ -75100,6 +75107,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

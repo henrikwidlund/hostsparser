@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-28 18:23:23Z
+! Last Modified: 2022-04-29 01:44:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -47503,6 +47503,7 @@
 ||go.thelawreviews.co.uk^
 ||smetrics.thelawyer.com^
 ||adx.theledger.com^
+||tr.email.thelem-assurances.fr^
 ||tls.thelibrarystore.com^
 ||thelightscapestudio.com^
 ||w88.thelionking.co.uk^
