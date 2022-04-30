@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-30 12:29:11Z
+! Last Modified: 2022-04-30 18:21:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23443,7 +23443,6 @@
 ||swa.gifts.com^
 ||giftube.com^
 ||gig.porn^
-||www2.giga-jp.com^
 ||giga-web.jp^
 ||jdgtgb.giga.de^
 ||ret.giganticprogs.site^
@@ -39637,6 +39636,7 @@
 ||banners.nbcupromotes.com^
 ||nbf9b5aurl.com^
 ||nbilaser.com^
+||lp.nbk1560.com^
 ||business.nbnco.com.au^
 ||nbpolska.pl^
 ||nbpolskaonline.com^
@@ -70845,13 +70845,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||in.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||ir2.beap.gemini.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

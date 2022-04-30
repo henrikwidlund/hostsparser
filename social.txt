@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-30 12:29:35Z
+! Last Modified: 2022-04-30 18:21:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12995,7 +12995,6 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
-||wildcard.marketo.net.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -31441,6 +31440,7 @@
 ||parkwooddoors.co.nz^
 ||communications.parmenion-im.co.uk^
 ||parnerimcarpich.com^
+||ad.parom.hu^
 ||stats.parqet.com^
 ||www3.parqueexplora.org^
 ||parrandaice.com^
@@ -44535,7 +44535,6 @@
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
-||dsp-vast.unityads.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
@@ -48003,7 +48002,6 @@
 ||vinted-pl.wniosek0469234.xyz^
 ||olx-pl.wniosek04723091.shop^
 ||vinted-pl.wniosek04723091.shop^
-||vinted-pl.wniosek05673194.pics^
 ||olx-pl.wniosek05739164.club^
 ||olx-pl.wniosek0672097.mom^
 ||vinted-pl.wniosek0672097.mom^

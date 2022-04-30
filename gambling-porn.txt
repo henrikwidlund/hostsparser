@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-30 12:29:27Z
+! Last Modified: 2022-04-30 18:21:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35416,6 +35416,8 @@
 ||mg2connext.com^
 ||mgjmp.com^
 ||clam.mglaman.dev^
+||metrics.mgmresorts.com^
+||smetrics.mgmresorts.com^
 ||pubs.mgn.net^
 ||ads.mgnetwork.com^
 ||www2.mgnevents.co.uk^
@@ -42527,7 +42529,6 @@
 ||nychi2.outbrain.org^
 ||zem.outbrainimg.com^
 ||images.outbrainimg.com^
-||alinks.outcomes4me.com^
 ||api.outcondigital.com^
 ||affiliates.outdoor-mature.com^
 ||outdoorjp.com^
@@ -59170,7 +59171,6 @@
 ||training-scrutinize.space^
 ||training-searchable.space^
 ||training-short.space^
-||stats.training.fit^
 ||www2.trainingindustry.com^
 ||ablink.comms.trainline.com^
 ||ablink.commsinfo.trainline.com^
@@ -68692,7 +68692,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -71895,7 +71894,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||gatewayssl.marketing-frontpage.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^

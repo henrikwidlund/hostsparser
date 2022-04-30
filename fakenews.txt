@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-30 12:29:23Z
+! Last Modified: 2022-04-30 18:21:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46004,6 +46004,7 @@
 ||ummchcf.org^
 ||c0p.cepsum.umontreal.ca^
 ||b1n.carabins.umontreal.ca^
+||dpd-com.umowa-p.site^
 ||allegro-fxyd.umowa24.site^
 ||a.umpornozinho.com^
 ||t.umterps.com^
@@ -50840,7 +50841,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
@@ -53656,8 +53656,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||3457.net.zooplus.fr^
-||sslcms.net.zooplus.fr^
 ||ssldii1.net.zooplus.fr^
 ||sslinfo.net.zooplus.fr^
 ||ssljobs.net.zooplus.fr^
