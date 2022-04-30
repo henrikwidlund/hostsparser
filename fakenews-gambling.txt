@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-30 01:45:22Z
+! Last Modified: 2022-04-30 06:21:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2969,6 +2969,7 @@
 ||allegrolokalne.site^
 ||allegrolokalnie.co^
 ||allegrolokalnie.com.ru^
+||464.allegrolokolnie.com^
 ||allegropay08.info^
 ||allegropayu.com^
 ||allegrou.pl^

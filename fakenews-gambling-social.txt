@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-30 01:45:20Z
+! Last Modified: 2022-04-30 06:21:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14462,6 +14462,7 @@
 ||tr.smtp1.email-mediapost.fr^
 ||click.email-stubhub.com^
 ||solutions.emailbalboacapital.com^
+||gamefowl.emailforward.mx^
 ||tr.client.emailing.bnpparibas^
 ||tr.reglementaire.emailing.bnpparibas^
 ||tr.emailium.fr^
@@ -48565,8 +48566,6 @@
 ||verticalislands.com^
 ||verticalmass.com^
 ||ads.verticalresponse.com^
-||ads.p.veruta.com^
-||adserver.veruta.com^
 ||vervemobile.com^
 ||vervewireless.com^
 ||verxiowireless.com^
@@ -55472,6 +55471,8 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||applicationslb.net.zooplus.es^
+||elastic.org-lab.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^

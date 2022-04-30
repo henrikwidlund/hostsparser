@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-30 01:45:44Z
+! Last Modified: 2022-04-30 06:22:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14287,6 +14287,10 @@
 ||darmowetesty.com^
 ||firefly.daroncreative.co^
 ||darshan-babitha.com^
+||clickserve.dartsearch.net^
+||clickserve.eu.dartsearch.net^
+||clickserve.uk.dartsearch.net^
+||clickserve.us2.dartsearch.net^
 ||ch0p.darty.com^
 ||mczpco.darty.com^
 ||metrics.darty.com^
@@ -35265,6 +35269,8 @@
 ||k1.mobileadsserver.com^
 ||avowtech.mobileadstrk.com^
 ||tracking.mobileadstrk.com^
+||track-east.mobileadtrading.com^
+||publisher-east.mobileadtrading.com^
 ||api.mobileanjian.com^
 ||ent.mobileanjian.com^
 ||analytics.lb.mobileapphelper.com^

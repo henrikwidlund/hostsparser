@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-30 01:45:29Z
+! Last Modified: 2022-04-30 06:21:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2493,6 +2493,7 @@
 ||tracking.agora.io^
 ||agregaty-sklep.com^
 ||info.agri-navi.com^
+||dvvkov.agrieuro.de^
 ||agris.com.pl^
 ||agritech-utilajeagricole.ro^
 ||agriturismoilcascinone.com^
@@ -13572,6 +13573,7 @@
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma156-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -50699,6 +50701,7 @@
 ||wymyslnymaniakalny.site^
 ||wynagrodzeniesasiad.site^
 ||smetrics.wyndham.com^
+||smetrics.wyndhamhotels.com^
 ||wyniki-thermomix.pl^
 ||wypadek-dagmary.pl^
 ||wypadek-drogowy.info^
@@ -51359,6 +51362,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
