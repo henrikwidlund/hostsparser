@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-30 06:22:06Z
+! Last Modified: 2022-04-30 12:29:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12978,7 +12978,6 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
-||cdn.cxense.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -12996,6 +12995,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||wildcard.marketo.net.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -23848,6 +23848,8 @@
 ||log-allegr0.org^
 ||logcivil.com^
 ||loggerx.com^
+||logs.loggly.com^
+||logs-01.loggly.com^
 ||www1.logicalis.de^
 ||www2.logicworks.net^
 ||content.logile.com^
@@ -31439,7 +31441,6 @@
 ||parkwooddoors.co.nz^
 ||communications.parmenion-im.co.uk^
 ||parnerimcarpich.com^
-||ad.parom.hu^
 ||stats.parqet.com^
 ||www3.parqueexplora.org^
 ||parrandaice.com^
@@ -44533,9 +44534,8 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
-||auiopt.unityads.unity3d.com^
-||geocdn.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
+||dsp-vast.unityads.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-30 06:21:50Z
+! Last Modified: 2022-04-30 12:29:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17307,7 +17307,6 @@
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
-||wildcard.applovin.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -38760,7 +38759,6 @@
 ||server990916.nazwa.pl^
 ||server998611.nazwa.pl^
 ||server560960.nazwa.pl^
-||cache.server560960.nazwa.pl^
 ||nazwa5.pl^
 ||olx-pl.nazwa5051212.com^
 ||olx-pl.nazwaid045923481.xyz^
