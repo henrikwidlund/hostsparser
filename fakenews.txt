@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-01 12:30:40Z
+! Last Modified: 2022-05-01 18:20:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13484,7 +13484,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ma1275-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -18418,8 +18417,6 @@
 ||ads.guardian.co.uk^
 ||hits.guardian.co.uk^
 ||adimage.guardian.co.uk^
-||www2.guardian.com^
-||www3.guardian.com^
 ||guardianapps.co.uk^
 ||www2.guardianfall.com^
 ||ads.guardianunlimited.co.uk^
