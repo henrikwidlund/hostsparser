@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-01 06:21:58Z
+! Last Modified: 2022-05-01 12:30:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13843,8 +13843,6 @@
 ||info.credicomer.com.sv^
 ||crediko.pl^
 ||credit-dreams.com^
-||tr.gestion.credit-moderne.fr^
-||tr.notification.credit-moderne.fr^
 ||sdc2.credit-suisse.com^
 ||ca.creditacceptance.com^
 ||login.creditals-email.space^
@@ -69348,7 +69346,6 @@
 ||mjp.zimad.com^
 ||zimadeals.pl^
 ||zimbio.com^
-||static.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||raven.zimristats.com^
@@ -69534,6 +69531,7 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||active-partner.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^
