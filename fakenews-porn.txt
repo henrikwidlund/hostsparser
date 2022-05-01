@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-01 01:59:24Z
+! Last Modified: 2022-05-01 06:22:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36607,6 +36607,7 @@
 ||tr.mondevis-pro.com^
 ||ea.mondial-assistance.fr^
 ||tr.nl.mondo-shop.fr^
+||ads.mondogames.com^
 ||mondoliquido.com^
 ||syndicated.mondominishows.com^
 ||analytics.mondotv.jp^
@@ -63134,7 +63135,6 @@
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
-||admediator.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
