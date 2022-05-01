@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-30 18:21:26Z
+! Last Modified: 2022-05-01 01:59:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4455,6 +4455,7 @@
 ||metrics.automobilemag.com^
 ||smetrics.automobilemag.com^
 ||smetrics.automobilwoche.de^
+||automoc.net^
 ||automoneygenerator.com^
 ||b2b.automotive-mediaventions.nl^
 ||automotive-offer.com^

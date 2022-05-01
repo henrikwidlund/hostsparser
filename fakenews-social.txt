@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-30 18:21:18Z
+! Last Modified: 2022-05-01 01:59:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2211,11 +2211,6 @@
 ||sstats.adultswim.com^
 ||newt1.adultworld.com^
 ||cluster.adultworld.com^
-||fota4.adups.cn^
-||fota5.adups.cn^
-||fota5s.adups.cn^
-||fota5t.adups.cn^
-||appswitch.adups.cn^
 ||adups.com^
 ||ad.aduserver.com^
 ||klaussbarros.adv.br^
@@ -4543,6 +4538,7 @@
 ||metrics.automobilemag.com^
 ||smetrics.automobilemag.com^
 ||smetrics.automobilwoche.de^
+||automoc.net^
 ||automoneygenerator.com^
 ||b2b.automotive-mediaventions.nl^
 ||automotive-offer.com^
@@ -54175,7 +54171,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||chdssl.net.zooplus.fr^
 ||ssldii1.net.zooplus.fr^
 ||sslinfo.net.zooplus.fr^
 ||ssljobs.net.zooplus.fr^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-04-30 18:21:20Z
+! Last Modified: 2022-05-01 01:59:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4467,6 +4467,7 @@
 ||metrics.automobilemag.com^
 ||smetrics.automobilemag.com^
 ||smetrics.automobilwoche.de^
+||automoc.net^
 ||automoneygenerator.com^
 ||b2b.automotive-mediaventions.nl^
 ||automotive-offer.com^
@@ -13114,7 +13115,6 @@
 ||baldeagle.e-ma.re^
 ||ecos.e-mailcom.co.uk^
 ||images.e-mailcom.co.uk^
-||bobcatminer-store.e-mantra.in^
 ||zdads.e-media.com^
 ||e-miasto.eu^
 ||abuajs.e-monsite.com^
@@ -13483,6 +13483,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma1169-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -31719,7 +31720,6 @@
 ||lnpost-pl.order-id572857.xyz^
 ||alegrolokalnle-pl.order-id572857.xyz^
 ||polska-inpost.order-id64382.xyz^
-||pl-dpd.order-id75438.xyz^
 ||polska-inpost.order-id836549.xyz^
 ||polska-vinlted.order-id842846.xyz^
 ||pl-lnpost.order-id845763.xyz^
@@ -50842,11 +50842,13 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||europe.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -51792,6 +51794,7 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||66.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^
