@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-02 06:23:15Z
+! Last Modified: 2022-05-02 12:34:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5769,6 +5769,7 @@
 ||metrics.bet.com^
 ||smetrics.bet.com^
 ||ssc.bet.plus^
+||mobile.bet.pt^
 ||bet1128.com^
 ||bet11888.com^
 ||bet2290.com^
@@ -44275,6 +44276,7 @@
 ||taborpurgers.com^
 ||guerria-skateboard-tommy.tabrays.com^
 ||aid-golf-golfdust-training.tabrays.com^
+||aa-metrics.tabroom.jp^
 ||ads.tabuflix.com^
 ||tabxolabs.com^
 ||activate.tacdn.com^
@@ -52648,15 +52650,17 @@
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
 ||adspecs.yahoo.com^
-||app.ssp.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||hk.adserver.yahoo.com^
+||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -57138,6 +57142,7 @@
 ||azure-ocloudfronta.net.zooplus.it^
 ||beta-tredirect-ssl.net.zooplus.it^
 ||cloud-ocloudfronta.net.zooplus.it^
+||co.activemarketing.net.zooplus.it^
 ||dashboardmarketing.net.zooplus.it^
 ||devopsocloudfronta.net.zooplus.it^
 ||fileportalarketing.net.zooplus.it^

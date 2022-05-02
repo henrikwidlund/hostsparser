@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-02 06:23:17Z
+! Last Modified: 2022-05-02 12:34:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29304,6 +29304,8 @@
 ||ad-ebis.mynavi-job20s.jp^
 ||go.mynavi-works.jp^
 ||mynavyfedral.org^
+||ads2.mynet.com^
+||servad.mynet.com^
 ||mynetcoin.com^
 ||mynevyfedera1.org^
 ||b.mynewplace.com^
@@ -52160,7 +52162,6 @@
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
 ||adspecs.yahoo.com^
-||app.ssp.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
@@ -54984,6 +54985,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||documentssl.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^

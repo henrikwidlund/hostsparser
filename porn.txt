@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-02 06:23:33Z
+! Last Modified: 2022-05-02 12:34:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -62993,7 +62993,6 @@
 ||vosmas.icu^
 ||vouchsafedalleged.com^
 ||vovpl.fun^
-||concertads-configs.vox-cdn.com^
 ||angelicbebe.vox.com^
 ||www2.voxco.com^
 ||content.voxpopme.com^
@@ -67394,7 +67393,6 @@
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
 ||adspecs.yahoo.com^
-||app.ssp.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
@@ -70598,6 +70596,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||70-139.net.zooplus.fr^
 ||ssldii1.net.zooplus.fr^
 ||sslinfo.net.zooplus.fr^
 ||ssljobs.net.zooplus.fr^
