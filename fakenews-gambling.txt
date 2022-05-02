@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-01 18:20:41Z
+! Last Modified: 2022-05-02 01:44:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2518,6 +2518,9 @@
 ||agneticsnif.top^
 ||banner.agoda.com^
 ||agonyfrown.info^
+||log.agoop.net^
+||latency.agoop.net^
+||roundrobin-log.agoop.net^
 ||tracking.agora.io^
 ||agregaty-sklep.com^
 ||info.agri-navi.com^
@@ -36735,9 +36738,6 @@
 ||prezent500zl.site^
 ||creative.prf.hn^
 ||aos-creative.prf.hn^
-||cdn-assets.prfct.cc^
-||cdn-otf-cas.prfct.cc^
-||cdn-resources.prfct.cc^
 ||prfolder.com^
 ||stats.pri.org^
 ||pri12mel.com^
@@ -47740,7 +47740,6 @@
 ||user-shield.com^
 ||useractiv.com^
 ||hot.useractive.com^
-||resources.usercentrics.com^
 ||orangutan.userflow.com^
 ||stream.useriq.com^
 ||go.userlane.io^

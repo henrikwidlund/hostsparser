@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-01 18:20:58Z
+! Last Modified: 2022-05-02 01:44:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12953,7 +12953,6 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
-||t.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -49122,6 +49121,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

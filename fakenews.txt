@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-01 18:20:47Z
+! Last Modified: 2022-05-02 01:44:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18417,6 +18417,8 @@
 ||ads.guardian.co.uk^
 ||hits.guardian.co.uk^
 ||adimage.guardian.co.uk^
+||www2.guardian.com^
+||www3.guardian.com^
 ||guardianapps.co.uk^
 ||www2.guardianfall.com^
 ||ads.guardianunlimited.co.uk^
@@ -53650,6 +53652,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||cmsector-zooplusmail-aws.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
