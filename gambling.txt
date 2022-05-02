@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-02 01:44:30Z
+! Last Modified: 2022-05-02 06:23:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7461,6 +7461,7 @@
 ||www2.breakthroughfuel.com^
 ||breakthroughtrend.com^
 ||stats.breathly.app^
+||ivzxsd.bredenkids.ee^
 ||breeds.cl^
 ||business.breezeline.com^
 ||meter.bref.sh^
@@ -16315,7 +16316,6 @@
 ||a.foxsportscarolinas.com^
 ||a.foxsportsdetroit.com^
 ||a.foxsportsflorida.com^
-||a.foxsportshouston.com^
 ||a.foxsportskansascity.com^
 ||a.foxsportslocal.com^
 ||a.foxsportsmidwest.com^
@@ -36309,7 +36309,6 @@
 ||questionee.com^
 ||info.questmarkflooring.com^
 ||fpc.questoraclecommunity.org^
-||tls.telemetry.swe.quicinc.com^
 ||quick-eye.pl^
 ||quickandeasy.co.za^
 ||www2.quickattach.com^
@@ -49562,8 +49561,10 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||zeus.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||abtest.mistat.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -50010,10 +50011,12 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

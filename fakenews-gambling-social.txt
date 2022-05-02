@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-02 01:44:12Z
+! Last Modified: 2022-05-02 06:23:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5769,7 +5769,6 @@
 ||metrics.bet.com^
 ||smetrics.bet.com^
 ||ssc.bet.plus^
-||mobile.bet.pt^
 ||bet1128.com^
 ||bet11888.com^
 ||bet2290.com^
@@ -44276,7 +44275,6 @@
 ||taborpurgers.com^
 ||guerria-skateboard-tommy.tabrays.com^
 ||aid-golf-golfdust-training.tabrays.com^
-||aa-metrics.tabroom.jp^
 ||ads.tabuflix.com^
 ||tabxolabs.com^
 ||activate.tacdn.com^
@@ -47787,6 +47785,7 @@
 ||ads.unison.bg^
 ||czpidg.unisportstore.fr^
 ||uniswap.services^
+||nspt.unitag.jp^
 ||unitdotto.club^
 ||mckbpe.united-arrows.co.jp^
 ||ua.united-athle.jp^

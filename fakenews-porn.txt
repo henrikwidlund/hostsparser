@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-02 01:44:19Z
+! Last Modified: 2022-05-02 06:23:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3087,6 +3087,7 @@
 ||agnesangel.com^
 ||agness.com.pl^
 ||agneticsnif.top^
+||banner.agoda.com^
 ||agonyfrown.info^
 ||log.agoop.net^
 ||latency.agoop.net^
@@ -3842,7 +3843,6 @@
 ||alpcity.pl^
 ||go.alpco.com^
 ||a8cv.store.alpen-group.jp^
-||tracking.alphacard.com^
 ||wac.2ddcc.alphacdn.net^
 ||alphaerotic.com^
 ||alphafxc.com^
@@ -70898,9 +70898,6 @@
 ||net.zooplus.it^
 ||dii1.zooplus.it^
 ||dii2.zooplus.it^
-||net.zooplus.nl^
-||dii1.zooplus.nl^
-||dii2.zooplus.nl^
 ||dii1.zooplus.no^
 ||dii2.zooplus.no^
 ||dii1.zooplus.pl^
