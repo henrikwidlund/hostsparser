@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-02 12:34:14Z
+! Last Modified: 2022-05-02 18:21:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15667,6 +15667,7 @@
 ||dealabs.digidip.net^
 ||stats.digiexpert.store^
 ||digimedia.com^
+||www2.business.digiposte.fr^
 ||digital-ark.com^
 ||www2.digital-business-school.de^
 ||ads.digital-digest.com^
@@ -18471,10 +18472,6 @@
 ||tr.urfk03u.espmp-nifr.net^
 ||tr.urfk06y.espmp-nifr.net^
 ||tr.urfk07s.espmp-nifr.net^
-||log.espn.com^
-||dcf.espn.com^
-||sw88.espn.com^
-||dcfdata.espn.com^
 ||espnsportsbook.com^
 ||protection.espolice.com^
 ||analytics.esporteinterativo.com.br^
@@ -71886,7 +71883,6 @@
 ||owa.devs.net.zooplus.it^
 ||owa.docs.net.zooplus.it^
 ||owa.edge.net.zooplus.it^
-||owa.emea.net.zooplus.it^
 ||ssl.chef.net.zooplus.it^
 ||ssl.info.net.zooplus.it^
 ||activeadm.net.zooplus.it^

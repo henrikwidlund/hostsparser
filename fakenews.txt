@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-02 12:34:12Z
+! Last Modified: 2022-05-02 18:21:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2630,7 +2630,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||bs-geo.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -11537,7 +11536,6 @@
 ||dcwhispers.com^
 ||images.ddc.com^
 ||dddcc.com^
-||insights.ddiworld.com^
 ||ads.ddj.com^
 ||mktg.ddn.com^
 ||install.ddns.info^
