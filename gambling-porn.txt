@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-03 06:22:38Z
+! Last Modified: 2022-05-03 12:37:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6242,8 +6242,6 @@
 ||adobe.autoscout24.com^
 ||adobe.autoscout24.com.tr^
 ||adobe.autoscout24.com.ua^
-||adobe.autoscout24.cz^
-||gedozw.autoscout24.cz^
 ||adobe.autoscout24.de^
 ||sadobe.autoscout24.de^
 ||svoywu.autoscout24.de^
@@ -68693,6 +68691,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
