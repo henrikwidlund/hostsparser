@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-02 18:21:34Z
+! Last Modified: 2022-05-03 01:46:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7696,6 +7696,7 @@
 ||go.c2g.com^
 ||c4dl.com^
 ||go.c4weld.com^
+||logic.c55.com.au^
 ||c73gfhdsjs8.bar^
 ||ing.pl.proxy.c7s.io^
 ||ca-conv.jp^
@@ -45347,6 +45348,7 @@
 ||bqacmp.vidaxl.no^
 ||vidaxl.pl^
 ||plbcsd.vidaxl.se^
+||eennme.vidaxl.sk^
 ||pl.vidazoo.com^
 ||bis.vidazoo.com^
 ||bisdr.vidazoo.com^
@@ -48674,6 +48676,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -50051,6 +50054,7 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||fw-images.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^
@@ -51910,7 +51914,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||cvslatin.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^

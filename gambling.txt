@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-02 18:21:30Z
+! Last Modified: 2022-05-03 01:45:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30228,7 +30228,6 @@
 ||nutrired.org^
 ||metrics.nutrisystem.com^
 ||marketing.nuveen.com^
-||notify.nuviad.com^
 ||nvcnet.cn^
 ||nvfjvtntt.cf^
 ||metrics.nvidia.com^
@@ -50010,6 +50009,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
+||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
