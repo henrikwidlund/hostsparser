@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-03 01:45:52Z
+! Last Modified: 2022-05-03 06:22:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9355,8 +9355,6 @@
 ||smetrics.claris.com^
 ||ablinks.mail.claritymoney.com^
 ||protected-by.clarium.io^
-||discover.clarivate.com^
-||tracking.clarivate.com^
 ||clarkeunionnews.com^
 ||clarkssklep.co^
 ||clarkssklep.com^
@@ -20380,6 +20378,7 @@
 ||stat.ijinshan.com^
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
+||lb3d.tj.ijinshan.com^
 ||keyserver.ijinshan.com^
 ||info.ijungo.com^
 ||icas.ikea.com^
@@ -26709,9 +26708,6 @@
 ||crayfish.miamilo.com^
 ||miaminawhatsapp.com^
 ||miapeuwheelfeeda.tk^
-||ads.miarroba.com^
-||online.miarroba.com^
-||hitcounters.miarroba.com^
 ||miasesy.com^
 ||miasto-online.net.pl^
 ||miasto24informacje.pl^
@@ -36247,7 +36243,6 @@
 ||platnosci-payu.prv.pl^
 ||transakcje-payu.prv.pl^
 ||transakcja-alleplatnosci.prv.pl^
-||ip.prvtx.net^
 ||analytics.prx.org^
 ||pardot.pryconsa.es^
 ||pardot.prygesa.es^
@@ -50843,6 +50838,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
@@ -51792,6 +51788,8 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||44.net.zooplus.com^
+||511.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^
@@ -53651,11 +53649,14 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||apac-scm.engineering.net.zooplus.es^
+||account-v.labarketing.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||chd.net.zooplus.fr^
 ||ssldii1.net.zooplus.fr^
 ||sslinfo.net.zooplus.fr^
 ||ssljobs.net.zooplus.fr^

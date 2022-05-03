@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-03 01:45:59Z
+! Last Modified: 2022-05-03 06:22:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13495,6 +13495,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||api.vungle.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -30228,6 +30229,7 @@
 ||nutrired.org^
 ||metrics.nutrisystem.com^
 ||marketing.nuveen.com^
+||notify.nuviad.com^
 ||nvcnet.cn^
 ||nvfjvtntt.cf^
 ||metrics.nvidia.com^
@@ -35855,7 +35857,6 @@
 ||platnosci-payu.prv.pl^
 ||transakcje-payu.prv.pl^
 ||transakcja-alleplatnosci.prv.pl^
-||ip.prvtx.net^
 ||analytics.prx.org^
 ||pardot.pryconsa.es^
 ||pardot.prygesa.es^
@@ -50009,8 +50010,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
-||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-03 01:45:43Z
+! Last Modified: 2022-05-03 06:22:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2866,7 +2866,6 @@
 ||alessandraleone.com^
 ||alexanderjonesi.com^
 ||go.alexandermannsolutions.com^
-||tk.alexandermcqueen.com^
 ||alexanderromanovsky.com^
 ||alexandria-locksmithservice.com^
 ||alexianer-service.de^
@@ -14093,7 +14092,6 @@
 ||ads.pro-market.net.edgesuite.net^
 ||ads.bridgetrack.com.edgesuite.net^
 ||citi.bridgetrack.com.edgesuite.net^
-||content.yieldmanager.edgesuite.net^
 ||static.ak.facebook.com.edgesuite.net^
 ||profile.ak.facebook.com.edgesuite.net^
 ||instagramstatic-a.akamaihd.net.edgesuite.net^
@@ -37397,7 +37395,6 @@
 ||platnosci-payu.prv.pl^
 ||transakcje-payu.prv.pl^
 ||transakcja-alleplatnosci.prv.pl^
-||ip.prvtx.net^
 ||analytics.prx.org^
 ||pardot.pryconsa.es^
 ||pardot.prygesa.es^
@@ -52207,7 +52204,6 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
@@ -52656,6 +52652,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
@@ -53616,6 +53613,7 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||application-csr21.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^
@@ -55475,6 +55473,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||gatewayssl.marketing-frontpage.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
