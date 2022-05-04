@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-04 12:37:00Z
+! Last Modified: 2022-05-04 18:21:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -38453,7 +38453,6 @@
 ||media.lovercash.com^
 ||loversdolls.com^
 ||loverslab.com^
-||plausible.lovesdata.com^
 ||loveshack.org^
 ||lovesingle.xyz^
 ||lovevoodoo.com^
@@ -76980,7 +76979,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst0.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
@@ -78213,6 +78211,8 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||dii1.zooplus.gr^
+||dii2.zooplus.gr^
 ||dii1.zooplus.hr^
 ||dii2.zooplus.hr^
 ||dii1.zooplus.hu^
