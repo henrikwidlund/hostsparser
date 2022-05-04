@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-04 06:24:28Z
+! Last Modified: 2022-05-04 12:37:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16047,7 +16047,6 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
-||cdn-3.convertexperiments.com.edgekey.net^
 ||deep.edgequery.io^
 ||somniture.edgestar.com^
 ||c6.edgesuite.net^
@@ -27431,6 +27430,7 @@
 ||lededata.com^
 ||ozowis.ledger.com^
 ||ledgerwallet.by^
+||marketing.ledgeviewpartners.com^
 ||ledradn.com^
 ||info.leecompany.com^
 ||leedstrades.co.uk^
@@ -30134,6 +30134,7 @@
 ||smetrics.michaelkors.global^
 ||smetrics.michaelkors.it^
 ||smetrics.michaelkors.uk^
+||stats.michaell.io^
 ||smetrics.michaels.com^
 ||wavzlt.michaelstars.com^
 ||michalmt.pl^
@@ -58316,7 +58317,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||dmz.net.zooplus.fr^
 ||mgmting.net.zooplus.fr^
 ||mobatek.net.zooplus.fr^
 ||net-owa.net.zooplus.fr^

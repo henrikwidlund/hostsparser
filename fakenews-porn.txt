@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-04 06:24:13Z
+! Last Modified: 2022-05-04 12:37:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5777,7 +5777,6 @@
 ||sstats.asadventure.lu^
 ||sstats.asadventure.nl^
 ||a8clk.asahi-net.or.jp^
-||adnet.asahi.com^
 ||ag.asahiglassplaza.net^
 ||info.asahigloval.co.jp^
 ||knopnf.asambeauty.com^
@@ -20278,6 +20277,7 @@
 ||stickyadstv.com.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
+||tags.bluekai.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
