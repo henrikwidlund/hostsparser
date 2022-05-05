@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-05 12:37:09Z
+! Last Modified: 2022-05-05 18:21:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7017,6 +7017,7 @@
 ||marketing.baltimore.org^
 ||link.bambu.social^
 ||obzukb.banak.com^
+||smetrics.banamex.com^
 ||bananabunny.com^
 ||bananaguide.com^
 ||bananarepubic.com^
@@ -19762,6 +19763,7 @@
 ||marketo.com.edgekey.net^
 ||mathtag.com.edgekey.net^
 ||mookie1.com.edgekey.net^
+||san.push.io.edgekey.net^
 ||marketo.net.edgekey.net^
 ||owneriq.net.edgekey.net^
 ||taboola.com.edgekey.net^
@@ -74537,7 +74539,6 @@
 ||zielonewariacje.pl^
 ||zieticartchit.ga^
 ||ziffdavis.com^
-||li.ziffimages.com^
 ||static.ziftsolutions.com^
 ||a.zillastream.com^
 ||zilliaq.com^

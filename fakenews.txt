@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-05 12:36:57Z
+! Last Modified: 2022-05-05 18:21:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -57646,6 +57646,7 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||adtima.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||zingknowev.tk^
 ||ziniba.space^

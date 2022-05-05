@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-05 12:37:05Z
+! Last Modified: 2022-05-05 18:21:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16556,7 +16556,6 @@
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
-||cdn-dsa.clicktale.net.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
@@ -41815,6 +41814,7 @@
 ||api.ranking.rakuten.co.jp^
 ||shopapi.ranking.rakuten.co.jp^
 ||rmp.rakuten.com^
+||s-clk.rmp.rakuten.com^
 ||brc.emails.rakuten.com^
 ||qa-brc.emails.rakuten.com^
 ||rd.insight.rakuten.net^
@@ -55946,10 +55946,14 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
