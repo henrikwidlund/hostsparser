@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-05 01:39:19Z
+! Last Modified: 2022-05-05 06:23:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17036,7 +17036,6 @@
 ||spotxcdn.com.edgekey.net^
 ||yieldlab.net.edgekey.net^
 ||secure-adnxs.edgekey.net^
-||cdn.teads.tv.edgekey.net^
 ||adservrs.com.edgekey.net^
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
@@ -58099,7 +58098,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sg.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

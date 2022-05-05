@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-05 01:39:25Z
+! Last Modified: 2022-05-05 06:23:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2651,6 +2651,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||bs.eyeblaster.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -39581,7 +39582,6 @@
 ||thepringlefamily.plus.com^
 ||webstats.plus.net^
 ||statto.plus8.net^
-||info.plusad.co.jp^
 ||plusgazeta.xyz^
 ||plusmedia.pl^
 ||metrics.plusrewards.com.au^
@@ -60069,7 +60069,6 @@
 ||owa-rpc.net.zooplus.fr^
 ||owa-stg.net.zooplus.fr^
 ||owa-waf.net.zooplus.fr^
-||owa.cgi.net.zooplus.fr^
 ||owa.raw.net.zooplus.fr^
 ||owabeta.net.zooplus.fr^
 ||owadii1.net.zooplus.fr^
