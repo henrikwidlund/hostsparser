@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-04 18:22:07Z
+! Last Modified: 2022-05-05 01:39:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35086,6 +35086,7 @@
 ||numerai-token.com^
 ||numerai.tech^
 ||tr.communication.numericable.fr^
+||inpostpl.numerid057206943.top^
 ||5363316.marketing.numi.com^
 ||ablinks.marketing.numi.com^
 ||nummimouf.tk^
@@ -60068,6 +60069,7 @@
 ||owa-rpc.net.zooplus.fr^
 ||owa-stg.net.zooplus.fr^
 ||owa-waf.net.zooplus.fr^
+||owa.cgi.net.zooplus.fr^
 ||owa.raw.net.zooplus.fr^
 ||owabeta.net.zooplus.fr^
 ||owadii1.net.zooplus.fr^
