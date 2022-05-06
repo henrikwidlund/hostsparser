@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-06 06:25:06Z
+! Last Modified: 2022-05-06 12:34:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22509,6 +22509,7 @@
 ||ad.hbv.de^
 ||ads.hbv.de^
 ||pebble-adhese.hbvl.be^
+||hcg82f2b.com^
 ||go.hcm-jinjer.com^
 ||hcpchiksi.com^
 ||hcsnet.com.br^
@@ -59550,6 +59551,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||apps.net.zooplus.fr^
 ||mgmting.net.zooplus.fr^
 ||mobatek.net.zooplus.fr^
 ||net-owa.net.zooplus.fr^
