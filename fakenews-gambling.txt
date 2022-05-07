@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-07 06:22:15Z
+! Last Modified: 2022-05-07 12:30:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35087,6 +35087,7 @@
 ||news-37876-mshome.com^
 ||news-389767-mshome.com^
 ||news-bussnse.info^
+||tr.news-chocolat.com^
 ||tr.news-companeo.fr^
 ||tr.news-companeo.mx^
 ||tr.news-companeo.pl^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-07 06:22:17Z
+! Last Modified: 2022-05-07 12:30:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6689,6 +6689,7 @@
 ||secureanalytics.avis.de^
 ||secureanalytics.avis.dk^
 ||secureanalytics.avis.es^
+||secureanalytics.avis.fr^
 ||secureanalytics.avis.lu^
 ||secureanalytics.avis.nl^
 ||secureanalytics.avis.no^
@@ -35240,6 +35241,7 @@
 ||cvs.kireimo.jp^
 ||kirgo.at^
 ||go.kirimojio.com^
+||adebis.kirin.co.jp^
 ||cattle.kirkebaekke.dk^
 ||kirkik.com^
 ||metric.kirklands.com^
@@ -73349,6 +73351,8 @@
 ||xianyujc.com^
 ||xiaoluy.cn^
 ||api.d.xiaomi.com^
+||cdn.ad.xiaomi.com^
+||a.stat.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
@@ -82565,6 +82569,7 @@
 ||ns-pantheon.controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||ns.aws-mail-controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||c.testing-ns.controlmarketing-emailvision-tomcat.net.zooplus.nl^
+||mailjet.c.ns.controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||ns.controlmarketing-blogloadbalancer-stage-tomcat.net.zooplus.nl^
 ||mailcloudfront.ns.controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||ns.controlmarketing-emailvision-tomcat-marketinguploads.net.zooplus.nl^
