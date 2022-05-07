@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-06 18:22:35Z
+! Last Modified: 2022-05-07 01:19:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11802,7 +11802,6 @@
 ||cds-provetus.de^
 ||cdsissycaps.com^
 ||travels.cdtscorp.com^
-||ebis.ce-parfait.com^
 ||ceabis.cf^
 ||ceadresort.pl^
 ||fpc.cebglobal.com^
@@ -48623,6 +48622,8 @@
 ||inpost.pl-giveordered.cyou^
 ||olx.pl-giveordered.icu^
 ||inpost.pl-giveordered.icu^
+||olx.pl-giveordered.shop^
+||inpost.pl-giveordered.shop^
 ||olx.pl-giveordered.work^
 ||inpost.pl-giveordered.work^
 ||olx.pl-giveordered.xyz^

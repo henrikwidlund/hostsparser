@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-06 18:22:19Z
+! Last Modified: 2022-05-07 01:19:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31088,6 +31088,9 @@
 ||marchadvertisingnetwork7.com^
 ||marchadvertisingnetwork8.com^
 ||marchadvertisingnetwork9.com^
+||adfeed.marchex.com^
+||ppc.adhere.marchex.com^
+||call-ad-network-api.marchex.com^
 ||www2.marcloudconsulting.com^
 ||pardot.marcloudconsulting.com^
 ||marcofama.it^
@@ -40355,8 +40358,6 @@
 ||olx.pl-savedpay.xyz^
 ||inpost.pl-savedpay.xyz^
 ||pl-savemoney.xyz^
-||olx.pl-savepaid.cyou^
-||inpost.pl-savepaid.cyou^
 ||olx.pl-savepaid.icu^
 ||inpost.pl-savepaid.icu^
 ||olx.pl-savepaid.shop^
@@ -58462,6 +58463,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ae.adserver.yahoo.com^
+||ca.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

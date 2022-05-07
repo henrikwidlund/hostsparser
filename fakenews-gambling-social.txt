@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-06 18:22:17Z
+! Last Modified: 2022-05-07 01:19:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3264,6 +3264,7 @@
 ||alphafxc.com^
 ||alphahaul.com^
 ||ads.alphaporno.com^
+||clientservice.alphasimplex.com^
 ||engage.alphastarcm.com^
 ||alpimade.pl^
 ||alpinehandlingsystems.com^
@@ -45661,7 +45662,6 @@
 ||sandneed.com^
 ||sandomir.pl^
 ||sandovalnews.com^
-||hffttk.sandro-paris.ru^
 ||sandrografia.pl^
 ||sandrus.pl^
 ||nhkoze.saneibd.com^
