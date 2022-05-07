@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-07 01:19:43Z
+! Last Modified: 2022-05-07 06:22:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24585,7 +24585,6 @@
 ||illustratefgh.online^
 ||contact.illustrativemathematics.org^
 ||bnrs.ilm.ee^
-||fpxewa.ilmeteo.it^
 ||ilosc930.site^
 ||ilovecheating.com^
 ||ad.iloveinterracial.com^
@@ -57681,7 +57680,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -60932,6 +60930,8 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||a.net.zooplus.fr^
+||bison.net.zooplus.fr^
 ||mgmting.net.zooplus.fr^
 ||mobatek.net.zooplus.fr^
 ||net-owa.net.zooplus.fr^

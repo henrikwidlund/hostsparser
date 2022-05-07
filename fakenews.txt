@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-07 01:19:44Z
+! Last Modified: 2022-05-07 06:22:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30319,6 +30319,7 @@
 ||marketprotrade.com^
 ||marketrip.co^
 ||markets-adk.com^
+||info.markmonitor.com^
 ||markowyperfum.pl^
 ||metrics.marksandspencer.com^
 ||smetrics.marksandspencer.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-07 01:19:39Z
+! Last Modified: 2022-05-07 06:22:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6689,7 +6689,6 @@
 ||secureanalytics.avis.de^
 ||secureanalytics.avis.dk^
 ||secureanalytics.avis.es^
-||secureanalytics.avis.fr^
 ||secureanalytics.avis.lu^
 ||secureanalytics.avis.nl^
 ||secureanalytics.avis.no^
@@ -35241,7 +35240,6 @@
 ||cvs.kireimo.jp^
 ||kirgo.at^
 ||go.kirimojio.com^
-||adebis.kirin.co.jp^
 ||cattle.kirkebaekke.dk^
 ||kirkik.com^
 ||metric.kirklands.com^
@@ -46730,6 +46728,8 @@
 ||online-courses.co.il^
 ||online-dn.com^
 ||online-film.pl^
+||virgin.online-golie-skachat.info^
+||super-virgin.online-golie-skachat.info^
 ||online-loading.com^
 ||advertising.online-media24.de^
 ||online-metrix.net^
@@ -74473,7 +74473,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
