@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-07 12:30:10Z
+! Last Modified: 2022-05-07 18:20:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10220,7 +10220,6 @@
 ||cleusbmontreal.ca^
 ||ads.cleveland.com^
 ||metrics.cleveland.com^
-||te.cleveland.net^
 ||clevelandreporter.com^
 ||lzwnoy.clever-media.ru^
 ||clever-trade.com^
@@ -18042,6 +18041,7 @@
 ||duologinsupersdk.ewan.cn^
 ||ewao.com^
 ||ewarszawa.xyz^
+||lists.ewb.ca^
 ||marketing.ewi.org^
 ||mapp.ewm.co.uk^
 ||eworldtrack.com^
@@ -42625,6 +42625,7 @@
 ||banner.rbc.ru^
 ||rbebe.com^
 ||smetrics.rbfhealth.org^
+||go.rbfinance.com^
 ||sdc.rbistats.com^
 ||news.rbj.net^
 ||assets.rbl.ms^
@@ -57136,7 +57137,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -60390,7 +60390,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||150.net.zooplus.fr^
 ||mgmting.net.zooplus.fr^
 ||mobatek.net.zooplus.fr^
 ||net-owa.net.zooplus.fr^
