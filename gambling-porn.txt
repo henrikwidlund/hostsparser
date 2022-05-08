@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-07 18:20:50Z
+! Last Modified: 2022-05-08 01:37:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -59211,6 +59211,7 @@
 ||skylineprofits.co.uk^
 ||skylink.vn^
 ||skymanga.co^
+||link.skynamo.com^
 ||a8clk.skynet-c.jp^
 ||metrics.skynews.com.au^
 ||skynews.shop^
@@ -78649,7 +78650,6 @@
 ||owa-rpc.net.zooplus.fr^
 ||owa-stg.net.zooplus.fr^
 ||owa-waf.net.zooplus.fr^
-||owa.cgi.net.zooplus.fr^
 ||owa.raw.net.zooplus.fr^
 ||owabeta.net.zooplus.fr^
 ||owadii1.net.zooplus.fr^

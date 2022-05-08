@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-07 18:20:52Z
+! Last Modified: 2022-05-08 01:37:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3965,7 +3965,6 @@
 ||apple-login.in^
 ||metrics.apple.com^
 ||securemetrics.apple.com^
-||securemetrics.apple.com.cn^
 ||app.appleadwords.net^
 ||appleid-account.com^
 ||appleid-map.com^
@@ -16708,6 +16707,7 @@
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
+||ma80-r.analytics.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
@@ -42318,6 +42318,7 @@
 ||raucomtodentketp.cf^
 ||prism.raumgleiter.com^
 ||client.rave-api.com^
+||fipsta.ravensberger-matratzen.de^
 ||stats.ravivyas.com^
 ||ravm.tv^
 ||sshhfy.ray-ban.com^

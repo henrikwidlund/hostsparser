@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-07 18:20:34Z
+! Last Modified: 2022-05-08 01:36:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18113,12 +18113,6 @@
 ||dditscdn.com^
 ||insights.ddiworld.com^
 ||ads.ddj.com^
-||install.ddns.info^
-||security-update.ddns.info^
-||update-security.ddns.info^
-||secure-verify-info.ddns.info^
-||secure-verify-update.ddns.info^
-||secure-verify-account.ddns.info^
 ||tracking-dpd-polska.ddns.mobi^
 ||ddns.name^
 ||poczta-polska.ddns.net^
@@ -40505,7 +40499,6 @@
 ||inpost.pl.mebuyit.pw^
 ||p.mec-h.com^
 ||mecasoenmorelos.com^
-||smetrics.meccabingo.com^
 ||banners.meccahoo.com^
 ||mechanicaljoke.com^
 ||mechanizm-dzwiek.site^
@@ -58368,6 +58361,7 @@
 ||savannahstandard.com^
 ||savannavirgin.com^
 ||www2.savantwealth.com^
+||olx.pl.save-deal.me^
 ||save-plan.com^
 ||s.save.ca^
 ||savecapitalinvest.com^
@@ -74675,7 +74669,6 @@
 ||xianyujc.com^
 ||xiaoluy.cn^
 ||api.d.xiaomi.com^
-||log.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
