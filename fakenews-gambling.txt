@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-08 12:29:50Z
+! Last Modified: 2022-05-08 18:20:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19059,6 +19059,7 @@
 ||fanwestpge-pl1.info^
 ||fanyun.com^
 ||fanzinger.com^
+||a.fapcat.com^
 ||oi.fapnado.com^
 ||oi.fapnado.xxx^
 ||oi.fapnow.xxx^
@@ -59792,6 +59793,7 @@
 ||firewall.net.zooplus.de^
 ||mad.mail.net.zooplus.de^
 ||mail.app.net.zooplus.de^
+||mail.aws.net.zooplus.de^
 ||asanaing.net.zooplus.de^
 ||zooplusi.net.zooplus.de^
 ||0.perfing.net.zooplus.de^
@@ -61727,6 +61729,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||t.net.zooplus.fr^
 ||mgmting.net.zooplus.fr^
 ||mobatek.net.zooplus.fr^
 ||net-owa.net.zooplus.fr^
@@ -61740,6 +61743,7 @@
 ||owa-rpc.net.zooplus.fr^
 ||owa-stg.net.zooplus.fr^
 ||owa-waf.net.zooplus.fr^
+||owa.cgi.net.zooplus.fr^
 ||owa.raw.net.zooplus.fr^
 ||owabeta.net.zooplus.fr^
 ||owadii1.net.zooplus.fr^

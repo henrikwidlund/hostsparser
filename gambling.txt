@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-08 12:30:03Z
+! Last Modified: 2022-05-08 18:20:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16662,6 +16662,7 @@
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
+||wildcard.moatads.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -18502,6 +18503,7 @@
 ||fac.fanucamerica.com^
 ||fanwestpge-pl1.info^
 ||fanyun.com^
+||a.fapcat.com^
 ||oi.fapnado.com^
 ||oi.fapnado.xxx^
 ||oi.fapnow.xxx^
@@ -56313,6 +56315,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||europe.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -57529,7 +57532,6 @@
 ||backup.net.zooplus.de^
 ||beta-m.net.zooplus.de^
 ||fw.api.net.zooplus.de^
-||m.2lab.net.zooplus.de^
 ||region.net.zooplus.de^
 ||s3.api.net.zooplus.de^
 ||secapi.net.zooplus.de^
