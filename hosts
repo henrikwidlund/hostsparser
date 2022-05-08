@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-08 06:22:10Z
+! Last Modified: 2022-05-08 12:29:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18531,6 +18531,7 @@
 ||bpe2.destinia.co.il^
 ||rvz9.destinia.co.ro^
 ||oal2.destinia.co.uk^
+||gfv4.destinia.co.za^
 ||quk9.destinia.com.ar^
 ||exd4.destinia.com.au^
 ||mud4.destinia.com.eg^
@@ -19127,6 +19128,7 @@
 ||sw88.disney.it^
 ||sw88.disney.nl^
 ||sw88.disney.no^
+||sw88.disney.pl^
 ||sw88.disney.pt^
 ||sw88.disney.ro^
 ||sw88.disney.ru^
@@ -42698,7 +42700,6 @@
 ||c.prodigy.msn.com^
 ||mobileleads.msn.com^
 ||adsyndication.msn.com^
-||dub.mobileads.msn.com^
 ||advertising.jp.msn.com^
 ||msn1.com^
 ||aamt.msnbc.com^
