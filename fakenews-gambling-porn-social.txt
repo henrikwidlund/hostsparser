@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-08 01:36:56Z
+! Last Modified: 2022-05-08 06:22:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18113,6 +18113,12 @@
 ||dditscdn.com^
 ||insights.ddiworld.com^
 ||ads.ddj.com^
+||install.ddns.info^
+||security-update.ddns.info^
+||update-security.ddns.info^
+||secure-verify-info.ddns.info^
+||secure-verify-update.ddns.info^
+||secure-verify-account.ddns.info^
 ||tracking-dpd-polska.ddns.mobi^
 ||ddns.name^
 ||poczta-polska.ddns.net^
@@ -23791,7 +23797,6 @@
 ||femjoyangels.com^
 ||femjoyhunter.com^
 ||femjoynudeteens.com^
-||cqpmvc.femmeactuelle.fr^
 ||ads.femmefab.nl^
 ||ads2.femmefab.nl^
 ||femsexyjoy.com^
@@ -40499,6 +40504,7 @@
 ||inpost.pl.mebuyit.pw^
 ||p.mec-h.com^
 ||mecasoenmorelos.com^
+||smetrics.meccabingo.com^
 ||banners.meccahoo.com^
 ||mechanicaljoke.com^
 ||mechanizm-dzwiek.site^
