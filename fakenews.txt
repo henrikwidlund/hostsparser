@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-08 18:20:47Z
+! Last Modified: 2022-05-09 01:41:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26731,8 +26731,6 @@
 ||python.jukejuke.app^
 ||ebis.jukkou.com^
 ||juklotire.link^
-||adebis.juku.st^
-||adebis02.juku.st^
 ||juliasi.xyz^
 ||jumanji.icu^
 ||jumase.store^
