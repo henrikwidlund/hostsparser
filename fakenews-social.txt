@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 01:41:33Z
+! Last Modified: 2022-05-09 06:23:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16711,7 +16711,6 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
-||t.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -16737,7 +16736,6 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||sync.teads.tv.edgekey.net^
 ||pinterest.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -58918,6 +58916,7 @@
 ||audrey.net.zooplus.de^
 ||0-proxy.net.zooplus.de^
 ||01-mail.net.zooplus.de^
+||01.2lab.net.zooplus.de^
 ||0devops.net.zooplus.de^
 ||192-204.net.zooplus.de^
 ||2-csr12.net.zooplus.de^

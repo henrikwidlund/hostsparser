@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 01:41:32Z
+! Last Modified: 2022-05-09 06:23:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -43110,6 +43110,9 @@
 ||nationalissuepanel.com^
 ||go.nationallaserinstitute.com^
 ||nationalreport.net^
+||ad2.nationalreview.com^
+||ad3.nationalreview.com^
+||ads.nationalreview.com^
 ||nationalsecurity.news^
 ||nationalsurveypanel.com^
 ||smetrics.nationaltrust.org.uk^
