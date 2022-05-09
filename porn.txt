@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 12:34:02Z
+! Last Modified: 2022-05-09 18:22:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4294,6 +4294,7 @@
 ||metrics.amd.com^
 ||explore.amd.com^
 ||ads.amdmb.com^
+||ad.pr.ameba.jp^
 ||usrattr.ameba.jp^
 ||api.curation.ameba.jp^
 ||click.affiliate.ameba.jp^
@@ -18275,6 +18276,7 @@
 ||divafutura.com^
 ||rflrlt.divano.ru^
 ||cdn.divantheme.ir^
+||divascam.com^
 ||stats.divemap.uk^
 ||dog.diversityinjobs.com^
 ||divinaprovidenciaautlan.com^
@@ -66611,8 +66613,6 @@
 ||tutop.com^
 ||go.tutor.com^
 ||tutoriial.xyz^
-||go.tuv.com^
-||statistics.tuv.com^
 ||track.msadcenter.tux.com^
 ||tv-maniak.pl^
 ||tv-ogloszam.pl^
@@ -81768,7 +81768,6 @@
 ||ns-pantheon.controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||ns.aws-mail-controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||c.testing-ns.controlmarketing-emailvision-tomcat.net.zooplus.nl^
-||mailjet.c.ns.controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||ns.controlmarketing-blogloadbalancer-stage-tomcat.net.zooplus.nl^
 ||mailcloudfront.ns.controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||ns.controlmarketing-emailvision-tomcat-marketinguploads.net.zooplus.nl^

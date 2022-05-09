@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 12:33:36Z
+! Last Modified: 2022-05-09 18:22:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4451,6 +4451,7 @@
 ||metrics.amd.com^
 ||explore.amd.com^
 ||ads.amdmb.com^
+||ad.pr.ameba.jp^
 ||usrattr.ameba.jp^
 ||api.curation.ameba.jp^
 ||click.affiliate.ameba.jp^
@@ -19254,6 +19255,7 @@
 ||divafutura.com^
 ||rflrlt.divano.ru^
 ||cdn.divantheme.ir^
+||divascam.com^
 ||stats.divemap.uk^
 ||dog.diversityinjobs.com^
 ||divinaprovidenciaautlan.com^
@@ -71280,7 +71282,6 @@
 ||wagerup.eu^
 ||wagerweb.ag^
 ||wagerweb.eu^
-||hsa.wageworks.info^
 ||wagner-wellness.pl^
 ||clk.wagon-hire.com^
 ||wahaj-althuraya.com^
@@ -75802,7 +75803,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 12:33:33Z
+! Last Modified: 2022-05-09 18:22:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4408,6 +4408,7 @@
 ||metrics.amd.com^
 ||explore.amd.com^
 ||ads.amdmb.com^
+||ad.pr.ameba.jp^
 ||usrattr.ameba.jp^
 ||api.curation.ameba.jp^
 ||click.affiliate.ameba.jp^
@@ -19200,6 +19201,7 @@
 ||divafutura.com^
 ||rflrlt.divano.ru^
 ||cdn.divantheme.ir^
+||divascam.com^
 ||stats.divemap.uk^
 ||dog.diversityinjobs.com^
 ||divinaprovidenciaautlan.com^

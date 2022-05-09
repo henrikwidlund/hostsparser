@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 12:33:44Z
+! Last Modified: 2022-05-09 18:22:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4377,6 +4377,7 @@
 ||metrics.amd.com^
 ||explore.amd.com^
 ||ads.amdmb.com^
+||ad.pr.ameba.jp^
 ||usrattr.ameba.jp^
 ||api.curation.ameba.jp^
 ||click.affiliate.ameba.jp^
@@ -18754,6 +18755,7 @@
 ||divafutura.com^
 ||rflrlt.divano.ru^
 ||cdn.divantheme.ir^
+||divascam.com^
 ||stats.divemap.uk^
 ||dog.diversityinjobs.com^
 ||divinaprovidenciaautlan.com^
@@ -20452,6 +20454,7 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||wildcard.betrad.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -78130,6 +78133,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||vip.net.zooplus.fr^
 ||mgmting.net.zooplus.fr^
 ||mobatek.net.zooplus.fr^
 ||net-owa.net.zooplus.fr^
@@ -79394,7 +79398,6 @@
 ||origin-security-ssl.swagger.net.zooplus.fr^
 ||owa-marketinglogin-dwww.cgi.net.zooplus.fr^
 ||owashop-wall-beta-zoohit-cz.net.zooplus.fr^
-||qa4.globalredirector.gwsweb.net.zooplus.fr^
 ||riotgamespatcher-a.akamaihd.net.zooplus.fr^
 ||shop-wall-beta-bitiba-esail.net.zooplus.fr^
 ||shop-wall-prod-bitiba-co-uk.net.zooplus.fr^
@@ -80662,7 +80665,6 @@
 ||ns.apiserver-machinevision.net.zooplus.it^
 ||ns.applicationachinevision.net.zooplus.it^
 ||ns.container.machinevision.net.zooplus.it^
-||ns.controllermachinevision.net.zooplus.it^
 ||ns.developer-machinevision.net.zooplus.it^
 ||ns.documents.machinevision.net.zooplus.it^
 ||ns.europewestmachinevision.net.zooplus.it^

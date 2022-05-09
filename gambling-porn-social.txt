@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 12:33:52Z
+! Last Modified: 2022-05-09 18:22:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4411,6 +4411,7 @@
 ||metrics.amd.com^
 ||explore.amd.com^
 ||ads.amdmb.com^
+||ad.pr.ameba.jp^
 ||usrattr.ameba.jp^
 ||api.curation.ameba.jp^
 ||click.affiliate.ameba.jp^
@@ -18829,6 +18830,7 @@
 ||divafutura.com^
 ||rflrlt.divano.ru^
 ||cdn.divantheme.ir^
+||divascam.com^
 ||stats.divemap.uk^
 ||dog.diversityinjobs.com^
 ||divinaprovidenciaautlan.com^
@@ -59643,13 +59645,6 @@
 ||sms1.pw^
 ||sms1.site^
 ||sms1.world^
-||analog.sms13.de^
-||2560.fd.mobile.tv.sms13.de^
-||gratis.sms.senden.sms13.de^
-||bag.mobile.system.video.sms13.de^
-||analog.cell.phone.service.sms13.de^
-||akku.mondo.trium.mitsubishi.sms13.de^
-||a460.cell.phone.ringtone.samsung.sms13.de^
 ||sms2.pw^
 ||sms3.pw^
 ||sms4.pw^
@@ -81736,7 +81731,6 @@
 ||c.testing-ns.controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||ns.controlmarketing-blogloadbalancer-stage-tomcat.net.zooplus.nl^
 ||mailcloudfront.ns.controlmarketing-emailvision-tomcat.net.zooplus.nl^
-||c.mailcloudfront.ns.controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||ns.controlmarketing-emailvision-tomcat-marketinguploads.net.zooplus.nl^
 ||mail.u-do.net.au.websitedesignroom.net.websitedesignroom.net.zooplus.nl^
 ||c.loadbalancerarketingns.controlmarketing-emailvision-tomcat.net.zooplus.nl^

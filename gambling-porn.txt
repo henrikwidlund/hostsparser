@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 12:33:55Z
+! Last Modified: 2022-05-09 18:22:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4368,6 +4368,7 @@
 ||metrics.amd.com^
 ||explore.amd.com^
 ||ads.amdmb.com^
+||ad.pr.ameba.jp^
 ||usrattr.ameba.jp^
 ||api.curation.ameba.jp^
 ||click.affiliate.ameba.jp^
@@ -17509,7 +17510,6 @@
 ||lungfish.datadividendproject.com^
 ||datadoghq-browser-agent.com^
 ||logs.datadoghq.com^
-||rum-http-intake.logs.datadoghq.eu^
 ||api-sdk.datadome.co^
 ||dataentryworkfromhomejobs.com^
 ||app.datafastguru.info^
@@ -18776,6 +18776,7 @@
 ||divafutura.com^
 ||rflrlt.divano.ru^
 ||cdn.divantheme.ir^
+||divascam.com^
 ||stats.divemap.uk^
 ||dog.diversityinjobs.com^
 ||divinaprovidenciaautlan.com^
@@ -36858,6 +36859,7 @@
 ||tracking.lindtusa.com^
 ||lindylist.org^
 ||go.line-sm.com^
+||lap-click.tr.line.me^
 ||line6agar.com^
 ||linebox.in^
 ||resources.linengineering.com^
