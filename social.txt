@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 06:23:44Z
+! Last Modified: 2022-05-09 12:34:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2660,6 +2660,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||rtb.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -12381,6 +12382,7 @@
 ||comprehensiverabbit.com^
 ||ea.comprendrechoisir.com^
 ||compresorespereira.com^
+||noa0.compteczam.fr^
 ||cpr.comptoirdescotonniers.com^
 ||compucelunlock.net^
 ||compufixshop.com^
@@ -17965,7 +17967,6 @@
 ||fac.fanucamerica.com^
 ||fanwestpge-pl1.info^
 ||fanyun.com^
-||a.fapcat.com^
 ||oi.fapnado.com^
 ||oi.fapnado.xxx^
 ||oi.fapnow.xxx^
@@ -54965,6 +54966,7 @@
 ||xianyujc.com^
 ||xiaoluy.cn^
 ||api.d.xiaomi.com^
+||api.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
@@ -58652,6 +58654,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||fwail.net.zooplus.fr^
 ||mgmting.net.zooplus.fr^
 ||mobatek.net.zooplus.fr^
 ||net-owa.net.zooplus.fr^

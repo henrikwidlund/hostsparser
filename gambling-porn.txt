@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 06:23:36Z
+! Last Modified: 2022-05-09 12:33:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17509,6 +17509,7 @@
 ||lungfish.datadividendproject.com^
 ||datadoghq-browser-agent.com^
 ||logs.datadoghq.com^
+||rum-http-intake.logs.datadoghq.eu^
 ||api-sdk.datadome.co^
 ||dataentryworkfromhomejobs.com^
 ||app.datafastguru.info^
@@ -22764,7 +22765,6 @@
 ||fapbabe.com^
 ||fapcam.club^
 ||fapcams.club^
-||fapcat.com^
 ||fapd.com^
 ||fapdex.com^
 ||fapdig.com^

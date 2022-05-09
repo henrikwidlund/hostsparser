@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 06:23:27Z
+! Last Modified: 2022-05-09 12:33:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22833,7 +22833,6 @@
 ||fapbabe.com^
 ||fapcam.club^
 ||fapcams.club^
-||fapcat.com^
 ||fapd.com^
 ||fapdex.com^
 ||fapdig.com^
@@ -23167,6 +23166,7 @@
 ||fedsalert.com^
 ||fedup.tv^
 ||go.fee.org^
+||go.feeco.com^
 ||feed5baby.com^
 ||feed5mown.com^
 ||feeda.info^
@@ -74679,7 +74679,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst6.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
@@ -79395,6 +79394,7 @@
 ||origin-security-ssl.swagger.net.zooplus.fr^
 ||owa-marketinglogin-dwww.cgi.net.zooplus.fr^
 ||owashop-wall-beta-zoohit-cz.net.zooplus.fr^
+||qa4.globalredirector.gwsweb.net.zooplus.fr^
 ||riotgamespatcher-a.akamaihd.net.zooplus.fr^
 ||shop-wall-beta-bitiba-esail.net.zooplus.fr^
 ||shop-wall-prod-bitiba-co-uk.net.zooplus.fr^
@@ -80662,6 +80662,7 @@
 ||ns.apiserver-machinevision.net.zooplus.it^
 ||ns.applicationachinevision.net.zooplus.it^
 ||ns.container.machinevision.net.zooplus.it^
+||ns.controllermachinevision.net.zooplus.it^
 ||ns.developer-machinevision.net.zooplus.it^
 ||ns.documents.machinevision.net.zooplus.it^
 ||ns.europewestmachinevision.net.zooplus.it^

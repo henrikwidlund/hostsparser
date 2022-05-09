@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 06:23:43Z
+! Last Modified: 2022-05-09 12:34:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22201,7 +22201,6 @@
 ||fapbabe.com^
 ||fapcam.club^
 ||fapcams.club^
-||fapcat.com^
 ||fapd.com^
 ||fapdex.com^
 ||fapdig.com^
@@ -71094,6 +71093,7 @@
 ||gotoedm.whereyogi.com^
 ||syndication.whibd.com^
 ||syndication.whibp.com^
+||metrics.which.co.uk^
 ||go.whill.us^
 ||whipcrack.org^
 ||whippedass.com^
@@ -81768,6 +81768,7 @@
 ||ns-pantheon.controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||ns.aws-mail-controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||c.testing-ns.controlmarketing-emailvision-tomcat.net.zooplus.nl^
+||mailjet.c.ns.controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||ns.controlmarketing-blogloadbalancer-stage-tomcat.net.zooplus.nl^
 ||mailcloudfront.ns.controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||ns.controlmarketing-emailvision-tomcat-marketinguploads.net.zooplus.nl^
