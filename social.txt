@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-10 06:23:03Z
+! Last Modified: 2022-05-10 12:36:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2655,6 +2655,7 @@
 ||eyeblaster.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
+||ad.turn.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
@@ -55418,6 +55419,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn1.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

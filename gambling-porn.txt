@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-10 06:22:53Z
+! Last Modified: 2022-05-10 12:36:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36291,6 +36291,7 @@
 ||leeu.pl^
 ||engage.leeuniversity.edu^
 ||leeyongwoo.com^
+||sdc.lef.org^
 ||galop.leferacheval-saintcloud.com^
 ||leffler.pl^
 ||lefix.com.mx^
@@ -59608,6 +59609,11 @@
 ||odnlj.snap-affairs.com^
 ||snapads.com^
 ||snapcamsforum.cc^
+||ads.snapchat.com^
+||tr6.snapchat.com^
+||adsapi.snapchat.com^
+||app-analytics-v2.snapchat.com^
+||learn.advertising.snapchat.com^
 ||snapcheat.app^
 ||snapka.com.pl^
 ||snapmobile.asia^
