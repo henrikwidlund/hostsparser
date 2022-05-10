@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-10 12:36:14Z
+! Last Modified: 2022-05-10 18:22:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23521,6 +23521,7 @@
 ||tr.news.heredis.com^
 ||oascentral.herenb.com^
 ||a.heretv.com^
+||mdws.heritagecu.ca^
 ||heritagesports.eu^
 ||hermancain.com^
 ||hermarketing.ru^
@@ -55717,7 +55718,6 @@
 ||wcmissnews.com^
 ||wcmissourinews.com^
 ||wcnewmexiconews.com^
-||sing.wcoeaykv78.ru^
 ||wcpanews.com^
 ||wctc.net^
 ||wctexasnews.com^
@@ -59792,6 +59792,7 @@
 ||firewall.net.zooplus.de^
 ||mad.mail.net.zooplus.de^
 ||mail.app.net.zooplus.de^
+||pay.2lab.net.zooplus.de^
 ||asanaing.net.zooplus.de^
 ||zooplusi.net.zooplus.de^
 ||0.perfing.net.zooplus.de^
@@ -66140,6 +66141,7 @@
 ||ns.controlmarketing-emailvision-tomcat-us.net.zooplus.nl^
 ||ns.controlmarketing-firewallvision-tomcat.net.zooplus.nl^
 ||train.controlmarketing-emailvision-tomcat.net.zooplus.nl^
+||c.ns.sslbucketblogloadbalancer.emailvision.net.zooplus.nl^
 ||controlmarketing-administratorvision-tomcat.net.zooplus.nl^
 ||controlmarketing-emailvision-tomcat-account.net.zooplus.nl^
 ||elasticbeanstalk.webappkatten-aws.marketing.net.zooplus.nl^
