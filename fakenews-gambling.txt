@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 18:22:13Z
+! Last Modified: 2022-05-10 01:15:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29511,6 +29511,8 @@
 ||liberalsociety.com^
 ||dngpzy.liberation.fr^
 ||tesla.liberintr.site^
+||adserver.libero.it^
+||adv-banner.libero.it^
 ||ads.liberte.pl^
 ||verify.libertrust.com^
 ||verification.libertrust.com^
@@ -57891,6 +57893,7 @@
 ||x-tronik.pl^
 ||ro.x0.com^
 ||x0sms.in^
+||stats.x14.eu^
 ||ads.x17online.com^
 ||mediacdn.x1hub.com^
 ||x1sms.in^
@@ -63053,7 +63056,6 @@
 ||gist-marketingapiserverarketing.net.zooplus.fr^
 ||login-dev.ssl-disabledwwwengine.net.zooplus.fr^
 ||server2.qa4.goldenserviceawards.net.zooplus.fr^
-||server2.www1.dr.cmsearch.gwsweb.net.zooplus.fr^
 ||shop-wall-preview-bitiba-czmail.net.zooplus.fr^
 ||shop-wall-preview-bitiba-fr.ssl.net.zooplus.fr^
 ||ssl-shop-wall-preview-bitiba-dk.net.zooplus.fr^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 18:22:12Z
+! Last Modified: 2022-05-10 01:15:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -27507,6 +27507,8 @@
 ||js88.ag^
 ||go.jscom.jp^
 ||jsfactory.net^
+||crbcdn.jsfiddle.net^
+||crbsrv.jsfiddle.net^
 ||jsing.net^
 ||ao.jsitel.com^
 ||piranha.jsmobiledev.com^
@@ -48903,7 +48905,6 @@
 ||metrics.starhub.com^
 ||smetrics.starhub.com^
 ||stark-xie.com^
-||smetrics.stark.dk^
 ||go.starkeypro.com^
 ||www2.starleaf.com^
 ||juniper.starleaf.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 18:22:20Z
+! Last Modified: 2022-05-10 01:15:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16997,7 +16997,6 @@
 ||ellads.com^
 ||web.friends.ellaskitchen.co.uk^
 ||metrics.elle.com^
-||res.elle.fr^
 ||gmufag.elle.ru^
 ||metrics.ellentube.com^
 ||smetrics.ellentube.com^

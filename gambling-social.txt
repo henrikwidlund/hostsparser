@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 18:22:26Z
+! Last Modified: 2022-05-10 01:15:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17603,8 +17603,6 @@
 ||bpm.eroterest.net^
 ||kok.eroterest.net^
 ||textad.eroticmatch.com^
-||ads.erotism.com^
-||ads1.erotism.com^
 ||errorception.com^
 ||errorfixing.space^
 ||errornuker.com^
@@ -31285,7 +31283,6 @@
 ||hy-brasil.mhwang.com^
 ||marx-brothers.mhwang.com^
 ||rat-on-subway.mhwang.com^
-||tr.news.mi-oferta.es^
 ||mgvrst.mi-shop.com^
 ||go.mi.edu^
 ||go.miaaesthetics.com^
@@ -51742,6 +51739,7 @@
 ||umarkets.group^
 ||umarkets.io^
 ||t.umassathletics.com^
+||go.umassmed.edu^
 ||tracking.umbrella.com^
 ||umeng.co^
 ||umeng.com^

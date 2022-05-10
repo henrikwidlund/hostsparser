@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-09 18:22:33Z
+! Last Modified: 2022-05-10 01:15:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -31632,6 +31632,8 @@
 ||ad.musicmatch.com^
 ||musicmembersarea.com^
 ||pony.musicmixpro.co.uk^
+||c.musicradio.com^
+||s.musicradio.com^
 ||www2.musiikkitalo.fi^
 ||musika.pl^
 ||as.musikexpress.de^
