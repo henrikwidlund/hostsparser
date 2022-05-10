@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-10 01:15:50Z
+! Last Modified: 2022-05-10 06:22:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17603,6 +17603,8 @@
 ||bpm.eroterest.net^
 ||kok.eroterest.net^
 ||textad.eroticmatch.com^
+||ads.erotism.com^
+||ads1.erotism.com^
 ||errorception.com^
 ||errorfixing.space^
 ||errornuker.com^
@@ -31283,6 +31285,7 @@
 ||hy-brasil.mhwang.com^
 ||marx-brothers.mhwang.com^
 ||rat-on-subway.mhwang.com^
+||tr.news.mi-oferta.es^
 ||mgvrst.mi-shop.com^
 ||go.mi.edu^
 ||go.miaaesthetics.com^
@@ -61367,6 +61370,7 @@
 ||gist-marketingapiserverarketing.net.zooplus.fr^
 ||login-dev.ssl-disabledwwwengine.net.zooplus.fr^
 ||server2.qa4.goldenserviceawards.net.zooplus.fr^
+||server2.www1.dr.cmsearch.gwsweb.net.zooplus.fr^
 ||shop-wall-preview-bitiba-czmail.net.zooplus.fr^
 ||shop-wall-preview-bitiba-fr.ssl.net.zooplus.fr^
 ||ssl-shop-wall-preview-bitiba-dk.net.zooplus.fr^
