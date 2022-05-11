@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-11 15:33:45Z
+! Last Modified: 2022-05-11 18:22:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5729,7 +5729,6 @@
 ||beforpeople160.bar^
 ||beforpeople160.club^
 ||beforpeople160.rest^
-||befuglago.live^
 ||l67113b6.beget.tech^
 ||usam12hd.beget.tech^
 ||beggsguide.com^
@@ -15983,6 +15982,8 @@
 ||adtd.douglas.de^
 ||wttd.douglas.de^
 ||wttd.douglas.it^
+||adtd.douglas.nl^
+||wttd.douglas.nl^
 ||adtd.douglas.pl^
 ||wttd.douglas.pl^
 ||dougmlee.com^
@@ -21913,7 +21914,6 @@
 ||cname-ade.gom-in.com^
 ||smetrics.gomastercard.com.au^
 ||gomaxits.com^
-||gombmobil.store^
 ||gomboapp.com^
 ||metrics.gomedigap.com^
 ||gomerblog.com^
@@ -52640,6 +52640,7 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
+||auction.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
