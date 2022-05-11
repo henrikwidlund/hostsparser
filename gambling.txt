@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-11 12:38:16Z
+! Last Modified: 2022-05-11 15:33:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16910,6 +16910,7 @@
 ||emeraldtiger.com^
 ||exhibit.emeraldx.com^
 ||hello.emergeinteractive.com^
+||metric.emerils.com^
 ||www2.emeritus.org^
 ||emerse.com^
 ||go.comres.emerson.com^
@@ -47241,6 +47242,7 @@
 ||smetrics.sympany.ch^
 ||sympathi.pl^
 ||adtag.sympatico.ca^
+||info.synapse-i.jp^
 ||go.synapse.org.au^
 ||sync-share.com^
 ||syncaccess.net^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-11 12:38:12Z
+! Last Modified: 2022-05-11 15:33:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4370,9 +4370,6 @@
 ||swebstats.americanbar.org^
 ||marketing.americanbathgroup.com^
 ||www2.americanbible.org^
-||i.americanblinds.com^
-||s.americanblinds.com^
-||metrics.americanblinds.com^
 ||smetrics.americancentury.com^
 ||metrics.americancityandcounty.com^
 ||team.americaneagle.com^
@@ -74108,6 +74105,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ae.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -75621,6 +75619,7 @@
 ||corp.api.net.zooplus.de^
 ||data.aws.net.zooplus.de^
 ||emea-dev.net.zooplus.de^
+||git.2lab.net.zooplus.de^
 ||mad.mail.net.zooplus.de^
 ||mail.api.net.zooplus.de^
 ||mail.aws.net.zooplus.de^
@@ -75668,6 +75667,7 @@
 ||devopsail.net.zooplus.de^
 ||get-csr31.net.zooplus.de^
 ||hwcdn.api.net.zooplus.de^
+||info.2lab.net.zooplus.de^
 ||latin.api.net.zooplus.de^
 ||lbctl.api.net.zooplus.de^
 ||login.aws.net.zooplus.de^

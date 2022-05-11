@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-11 12:38:00Z
+! Last Modified: 2022-05-11 15:33:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8794,6 +8794,8 @@
 ||info.calabrio.com^
 ||hola.calamoycran.com^
 ||calaverasguide.com^
+||t.calbears.com^
+||app.calbears.com^
 ||go.calbright.org^
 ||secure.calcch.com^
 ||marketing.calchoice.com^
@@ -16990,6 +16992,7 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
+||cdn.cxense.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -47320,6 +47323,7 @@
 ||go.somu-lier.jp^
 ||somuchrain.com^
 ||ads.sonataplatform.com^
+||sonatns.sonatrach.dz^
 ||sondeerr.com^
 ||sonerastore.com^
 ||act.soneticscorp.com^

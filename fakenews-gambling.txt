@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-11 12:38:02Z
+! Last Modified: 2022-05-11 15:33:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15983,8 +15983,6 @@
 ||adtd.douglas.de^
 ||wttd.douglas.de^
 ||wttd.douglas.it^
-||adtd.douglas.nl^
-||wttd.douglas.nl^
 ||adtd.douglas.pl^
 ||wttd.douglas.pl^
 ||dougmlee.com^

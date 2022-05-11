@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-11 12:38:07Z
+! Last Modified: 2022-05-11 15:33:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1699,6 +1699,8 @@
 ||web.acumenpi.com^
 ||acutedisseminatedencephalomyelitispedia.com^
 ||acvrlive.com^
+||a.acxiom.com^
+||s.acxiom.com^
 ||aczarniecka.pl^
 ||ad-411.com^
 ||ad-alp.net^
