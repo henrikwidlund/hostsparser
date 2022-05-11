@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-11 06:26:33Z
+! Last Modified: 2022-05-11 12:37:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9088,6 +9088,7 @@
 ||biznesplanet-parlbabnp.com^
 ||bizony.eu^
 ||bizpacreview.com^
+||webads.bizservers.com^
 ||bizstandardnews.com^
 ||new.biztro.xyz^
 ||oni.biztro.xyz^

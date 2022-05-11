@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-11 06:26:56Z
+! Last Modified: 2022-05-11 12:38:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12824,6 +12824,7 @@
 ||clip.today^
 ||clip31.xyz^
 ||clipcake.com^
+||news.clipcanvas.com^
 ||clipcat.net^
 ||cliphunter.com^
 ||clips4free.is^
@@ -74156,7 +74157,6 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
-||proxy-core.windows.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^

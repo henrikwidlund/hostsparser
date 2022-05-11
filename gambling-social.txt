@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-11 06:26:51Z
+! Last Modified: 2022-05-11 12:38:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24394,6 +24394,9 @@
 ||ads.indya.com^
 ||indycasino.com^
 ||indyscribe.com^
+||ads.indystar.com^
+||gcirm.indystar.com^
+||gcirm2.indystar.com^
 ||ineediscounts.com^
 ||chimpanzee.ines-papert.com^
 ||go.inese.es^

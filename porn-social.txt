@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-11 06:26:54Z
+! Last Modified: 2022-05-11 12:38:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15746,6 +15746,7 @@
 ||course-program.us^
 ||course-project.biz^
 ||course4project.biz^
+||marketing.course5i.com^
 ||courseorlen.biz^
 ||courseorlen.us^
 ||courseprogram.biz^
@@ -34314,7 +34315,6 @@
 ||discover.de.korres.com^
 ||korriangel.com^
 ||korsad.win^
-||go.kortext.com^
 ||del.korto.xyz^
 ||kpb.korto.xyz^
 ||lon.korto.xyz^
