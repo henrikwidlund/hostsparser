@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-10 18:23:00Z
+! Last Modified: 2022-05-11 01:47:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20396,6 +20396,7 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||san-www.adobetag.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -75811,6 +75812,7 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
+||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^

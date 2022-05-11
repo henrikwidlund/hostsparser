@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-10 18:22:54Z
+! Last Modified: 2022-05-11 01:46:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17217,7 +17217,6 @@
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ma156-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -59796,7 +59795,6 @@
 ||go.zillowgroup.com^
 ||mjp.zimad.com^
 ||zimadeals.pl^
-||j.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||raven.zimristats.com^

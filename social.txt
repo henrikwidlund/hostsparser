@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-10 18:23:17Z
+! Last Modified: 2022-05-11 01:47:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14054,10 +14054,6 @@
 ||info.delphidigital.io^
 ||delphilawadvisory.com^
 ||dn.delta-net.com^
-||tms.delta.com^
-||pulse.delta.com^
-||metrics.delta.com^
-||smetrics.delta.com^
 ||deltacontinentalmail.co^
 ||info.deltadentalil.com^
 ||lideroxigenio.com.br.deltagases.com.br^
@@ -23681,7 +23677,6 @@
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
 ||keyserver.ijinshan.com^
-||sdk.mobad.ijinshan.com^
 ||info.ijungo.com^
 ||ikbox.org^
 ||icas.ikea.com^
@@ -36815,6 +36810,8 @@
 ||pdfhj.shop^
 ||pdstechnologyindia.com^
 ||pdxor02.com^
+||ads.pe.com^
+||metrics.pe.com^
 ||hd.pe.fr^
 ||galatransmisja.pe.hu^
 ||mdws.peacehills.com^

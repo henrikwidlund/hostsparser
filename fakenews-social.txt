@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-10 18:23:02Z
+! Last Modified: 2022-05-11 01:47:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16751,6 +16751,7 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||dsum.casalemedia.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -23803,7 +23804,6 @@
 ||hubs-weplay.com^
 ||js.hubspot.com^
 ||tracking.hubspot.com^
-||h0.t.hubspotemail.net^
 ||hubtraffic.com^
 ||links.huckleberry-labs.com^
 ||lusgle.hudabeauty.com^
@@ -60931,7 +60931,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||html.net.zooplus.fr^
 ||mgmting.net.zooplus.fr^
 ||mobatek.net.zooplus.fr^
 ||net-owa.net.zooplus.fr^

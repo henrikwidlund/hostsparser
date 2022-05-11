@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-10 18:23:15Z
+! Last Modified: 2022-05-11 01:47:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30461,10 +30461,6 @@
 ||tracking.igloosoftware.com^
 ||ig.igmarkets.com^
 ||igmholdings.com^
-||ads.ign.com^
-||stats.ign.com^
-||fimserve.ign.com^
-||adserver.ign.com^
 ||ignitad.com^
 ||mail.ignitorpro.xyz^
 ||peacelist.ignorelist.com^
@@ -60475,7 +60471,6 @@
 ||susanoo.com.pl^
 ||suscotrk.com^
 ||pigeon.sushi.com^
-||stats.sushibyte.io^
 ||susi.live^
 ||susm0q6jys.com^
 ||go.sustainablebrands.com^
