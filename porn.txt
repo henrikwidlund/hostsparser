@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-12 06:25:09Z
+! Last Modified: 2022-05-12 12:36:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3322,7 +3322,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||bs-geo.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -51466,6 +51465,7 @@
 ||protest302.rest^
 ||prothots.com^
 ||link.protime.eu^
+||protizer.net^
 ||countly.proto.school^
 ||protocolcashmere.com^
 ||protokol.mx^
@@ -76020,6 +76020,7 @@
 ||chd.signed-marketing.net.zooplus.es^
 ||account.latinarketing.net.zooplus.es^
 ||marketing.applications.net.zooplus.es^
+||proxy-europe.marketing.net.zooplus.es^
 ||admins-www.cgimarketing.net.zooplus.es^
 ||d-mirror.ns.emailvision.net.zooplus.es^
 ||gatewayssl.applications.net.zooplus.es^

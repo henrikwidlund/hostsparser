@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-12 06:24:48Z
+! Last Modified: 2022-05-12 12:36:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9151,7 +9151,6 @@
 ||stat-ssl.career-tasu.jp^
 ||b2b.careerbuilder.com^
 ||go.careerhouse.com.au^
-||jyyzvb.careerindex.jp^
 ||url1451.careerkarma.info^
 ||url7962.careerkarma.io^
 ||careersincorrectquickie.com^
@@ -49519,12 +49518,6 @@
 ||banner.tanto.de^
 ||tanyarabourn.com^
 ||tao123.com^
-||pcookie.taobao.com^
-||audid-api.taobao.com^
-||adashx.ut.taobao.com^
-||h-adashx.ut.taobao.com^
-||adashx4ae.ut.taobao.com^
-||h-adashx4ae.ut.taobao.com^
 ||taouxis.gr^
 ||tapair.com^
 ||minnow.tapas-software.net^
@@ -59232,6 +59225,7 @@
 ||betacsr11.net.zooplus.de^
 ||betacsr41.net.zooplus.de^
 ||bitbucket.net.zooplus.de^
+||blog.2lab.net.zooplus.de^
 ||car40.aws.net.zooplus.de^
 ||csr11-ebs.net.zooplus.de^
 ||csr11.aws.net.zooplus.de^
