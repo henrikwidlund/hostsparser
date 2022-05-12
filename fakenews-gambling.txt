@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-12 12:36:33Z
+! Last Modified: 2022-05-12 18:23:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21127,6 +21127,7 @@
 ||schoorsteen.geenstijl.nl^
 ||gees.com.pl^
 ||geezersnooses.com^
+||go.gefco.net^
 ||geflatware.pl^
 ||particuliers2.geg.fr^
 ||smetrics.gehealthcare.com^
@@ -57578,7 +57579,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -58732,7 +58732,6 @@
 ||affiliate.net.zooplus.de^
 ||alpha-api.net.zooplus.de^
 ||apac-mgmt.net.zooplus.de^
-||apac.2lab.net.zooplus.de^
 ||api.alpha.net.zooplus.de^
 ||apiserver.net.zooplus.de^
 ||apislatin.net.zooplus.de^
@@ -60594,7 +60593,6 @@
 ||system.net.zooplus.fr^
 ||t-mail.net.zooplus.fr^
 ||tomcat.net.zooplus.fr^
-||uk.ssl.net.zooplus.fr^
 ||uxtowa.net.zooplus.fr^
 ||v3-ssl.net.zooplus.fr^
 ||w3-owa.net.zooplus.fr^

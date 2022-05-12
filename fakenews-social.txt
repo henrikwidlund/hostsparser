@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-12 12:36:38Z
+! Last Modified: 2022-05-12 18:23:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -56334,9 +56334,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||a.stat.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
-||data.mistat.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -57611,7 +57609,6 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
-||adtimabox.brand.zing.vn^
 ||zingknowev.tk^
 ||ziniba.space^
 ||ziololecznictwo.pl^

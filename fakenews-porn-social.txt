@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-12 12:36:35Z
+! Last Modified: 2022-05-12 18:23:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -50502,7 +50502,6 @@
 ||metrics.polivy.com^
 ||smetrics.polivy.com^
 ||olx.polka-oferta.club^
-||olx.polka-oferta.work^
 ||polkadot-pl.club^
 ||mammal.polkadot.network^
 ||polkarton.com^
@@ -73593,6 +73592,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||uk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
