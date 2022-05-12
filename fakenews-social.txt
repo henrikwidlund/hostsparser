@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-12 01:43:31Z
+! Last Modified: 2022-05-12 06:24:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2740,12 +2740,11 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||bs-geo.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
+||sync.tidaltv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||dotomi.weighted.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -24779,6 +24778,8 @@
 ||servedby.informatm.com^
 ||informazionicoronavirus.it^
 ||jnpost.informdelivery.site^
+||web.informer.com^
+||pcbutts1.software.informer.com^
 ||informereng.com^
 ||informfound.biz^
 ||informuj-swiat.pl^
@@ -40929,7 +40930,6 @@
 ||program3.com^
 ||programattik.com^
 ||programdarmowy.pl^
-||prog-1.programm-one.site^
 ||polq.programm-onepl.xyz^
 ||ppro.programm-onepl.xyz^
 ||gp-tsl.programm-onepl.xyz^
@@ -56739,6 +56739,9 @@
 ||xxx-r.com^
 ||track.msadcenter.xxx.com^
 ||c4n.xxx8.me^
+||ard.xxxblackbook.com^
+||geo.xxxblackbook.com^
+||tour.xxxblackbook.com^
 ||ads.xxxbunker.com^
 ||counter.xxxcool.com^
 ||textad.xxxcupid.com^
@@ -57751,7 +57754,6 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
-||jenkins-partner.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^
@@ -63792,7 +63794,6 @@
 ||markpurizoneting.loadbalancer.net.zooplus.nl^
 ||ns.emailvision-tomcataws-mail.net.zooplus.nl^
 ||owa-shop-wall-beta-zooplus-at.net.zooplus.nl^
-||owa.azure-frontpage.bucketowa.net.zooplus.nl^
 ||shop-wall-beta-bitiba-ch-mail.net.zooplus.nl^
 ||shop-wall-beta-zooplus-at-ssl.net.zooplus.nl^
 ||shop-wall-beta-zooplus-be.owa.net.zooplus.nl^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-12 01:43:19Z
+! Last Modified: 2022-05-12 06:24:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6442,6 +6442,7 @@
 ||auroraworkandservices.com^
 ||inpost.pl.aus-payforitto.pw^
 ||o8.aus.cc^
+||info.ausa.org^
 ||inform.ausbuild.com.au^
 ||roadrunner.ausmv.com.au^
 ||guppy.ausowned.com.au^
@@ -20695,6 +20696,7 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
+||deluxe.onetag.io.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -20704,6 +20706,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||wildcard46.akstat.io.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
