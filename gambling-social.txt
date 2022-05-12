@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-11 18:22:59Z
+! Last Modified: 2022-05-12 01:43:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16498,7 +16498,6 @@
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ma1310-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -24049,6 +24048,7 @@
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
 ||keyserver.ijinshan.com^
+||sdk.mobad.ijinshan.com^
 ||ikarialeanbelly-review.com^
 ||ikbox.org^
 ||icas.ikea.com^
@@ -55911,6 +55911,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

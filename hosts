@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-11 18:22:39Z
+! Last Modified: 2022-05-12 01:43:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6442,7 +6442,6 @@
 ||auroraworkandservices.com^
 ||inpost.pl.aus-payforitto.pw^
 ||o8.aus.cc^
-||info.ausa.org^
 ||inform.ausbuild.com.au^
 ||roadrunner.ausmv.com.au^
 ||guppy.ausowned.com.au^
@@ -12834,6 +12833,7 @@
 ||chodzimiiotoze.site^
 ||choi-waru.com^
 ||choicedealz.com^
+||somni.choicehotels.com^
 ||ad.choiceradio.com^
 ||choicesurveypanel.com^
 ||adebis.chojyu.com^
@@ -76256,10 +76256,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
-||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
