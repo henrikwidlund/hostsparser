@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-13 06:26:36Z
+! Last Modified: 2022-05-13 12:41:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -40748,6 +40748,7 @@
 ||pm.redbull.com^
 ||factory.redbull.racing^
 ||hospitality.redbull.racing^
+||smetrics.redbull.tv^
 ||tracking.redbutton.de^
 ||marketing.redclassic.com^
 ||go.redcross.org^

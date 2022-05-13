@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-13 06:26:17Z
+! Last Modified: 2022-05-13 12:41:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5051,6 +5051,7 @@
 ||smetrics.azcompletehealth.com^
 ||azcybersec.com^
 ||azedge.net^
+||info.azek.com^
 ||azerbaijan-tourism.com^
 ||metrics.azfamily.com^
 ||www2.azimuthpsych.com^
@@ -51243,6 +51244,7 @@
 ||tobiasalmroth.se^
 ||go.tobiidynavox.com^
 ||go.tobiipro.com^
+||tas2.toboads.si^
 ||tobydevblog.com^
 ||tobylodzisranowtvv.cyou^
 ||tobytom.xyz^
