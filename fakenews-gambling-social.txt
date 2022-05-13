@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-12 18:23:29Z
+! Last Modified: 2022-05-13 01:46:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2617,7 +2617,6 @@
 ||mktg.aicipc.com^
 ||marketing.aicompanies.com^
 ||goat.aicontentdojo.com^
-||www2.aicross.co.jp^
 ||go.aidem.co.jp^
 ||go.aidma-hd.jp^
 ||aiea6gaza.com^
@@ -26403,8 +26402,6 @@
 ||it-mantra.com^
 ||go.it-novum.com^
 ||it-school.co.il^
-||stat.it168.com^
-||adshow.it168.com^
 ||itaglive.com^
 ||italiapagamen.com^
 ||oascentral.itbusiness.ca^
@@ -60881,6 +60878,7 @@
 ||derat-psn005.net.zooplus.es^
 ||filecmsector.net.zooplus.es^
 ||git.org-mail.net.zooplus.es^
+||login-dev.ssl.net.zooplus.es^
 ||backgroundmail.net.zooplus.es^
 ||mobilearketing.net.zooplus.es^
 ||devs-marketing.net.zooplus.es^
