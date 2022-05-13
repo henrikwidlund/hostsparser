@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-13 01:46:53Z
+! Last Modified: 2022-05-13 06:26:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12937,7 +12937,6 @@
 ||cjlekm.correiodopovo.com.br^
 ||smetrics.correos.es^
 ||correspondtyu.online^
-||ww3.corsec.com^
 ||metrics.cort.com^
 ||smetrics.cortefiel.com^
 ||smetrics.cortevents.com^
@@ -50979,6 +50978,7 @@
 ||demoq.use-trade.com^
 ||cdn.usebutton.com^
 ||mobileapi.usebutton.com^
+||app-6b7903104cffc647.mobileapi.usebutton.com^
 ||usedbarcode.com^
 ||stats.useeffect.dev^
 ||img3.usefathom.com^

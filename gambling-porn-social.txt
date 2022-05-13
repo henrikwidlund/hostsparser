@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-13 01:46:48Z
+! Last Modified: 2022-05-13 06:26:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20107,6 +20107,7 @@
 ||ecda.pl^
 ||ecdtrk.com^
 ||marketing.ece.org^
+||adserver.echdk.pl^
 ||echo-nomic.com^
 ||ywayoh.ecipo.hu^
 ||ecircle-ag.com^
@@ -20257,6 +20258,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
+||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
