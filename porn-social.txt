@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-13 12:41:40Z
+! Last Modified: 2022-05-13 18:24:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5306,6 +5306,8 @@
 ||apple-login-iphone.info^
 ||apple-login.in^
 ||metrics.apple.com^
+||ca.iadsdk.apple.com^
+||cf.iadsdk.apple.com^
 ||securemetrics.apple.com^
 ||securemetrics.apple.com.cn^
 ||app.appleadwords.net^
@@ -65389,7 +65391,6 @@
 ||utopia-privacy.com^
 ||info.utopia777.co.jp^
 ||utpalmannaconsultancy.com^
-||lizard.utropia.es^
 ||utrust.so^
 ||utrzymac.site^
 ||utsgruffily.com^
@@ -67103,6 +67104,7 @@
 ||wait8hurl.com^
 ||waitingtoload.com^
 ||marketing.waitrainer.com^
+||ssite.waitrose.com^
 ||go.wajax.com^
 ||wakacjelicencja.site^
 ||ct2.wakatono.jp^
