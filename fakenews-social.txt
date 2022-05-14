@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-14 01:51:44Z
+! Last Modified: 2022-05-14 06:38:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -62485,6 +62485,7 @@
 ||ribob04.net.zooplus.nl^
 ||service.net.zooplus.nl^
 ||sk.mail.net.zooplus.nl^
+||ssl.dav.net.zooplus.nl^
 ||v1.mail.net.zooplus.nl^
 ||w3.mail.net.zooplus.nl^
 ||acc.mail.net.zooplus.nl^

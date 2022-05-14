@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-14 01:51:57Z
+! Last Modified: 2022-05-14 06:38:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19671,6 +19671,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||wl.aniview.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -19678,6 +19679,7 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
+||ma193-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -34040,8 +34042,6 @@
 ||ivcxpw.kogan.com^
 ||go.kognity.com^
 ||kogojeszczepookazac.website^
-||kohlermetrics.kohler.com^
-||kohlermetricssecure.kohler.com^
 ||ww8.kohls.com^
 ||ww9.kohls.com^
 ||kohlsfit.com^
@@ -43885,7 +43885,6 @@
 ||ot.obi.de^
 ||ot.obi.hu^
 ||ot.obi.pl^
-||ot.obi.si^
 ||ot.obi.sk^
 ||obiegtaxi.site^
 ||stats.obiit.co^
@@ -74156,6 +74155,7 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||preview-partner.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^
