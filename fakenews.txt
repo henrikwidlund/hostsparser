@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-13 18:24:01Z
+! Last Modified: 2022-05-14 01:51:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4760,6 +4760,10 @@
 ||cpgo.avatacar.com^
 ||img.avatraffic.com^
 ||avax-gift.com^
+||ccaas.avaya.com^
+||ucaas.avaya.com^
+||events.avaya.com^
+||swebmetrics.avaya.com^
 ||avbtrk.com^
 ||ads.avct.cloud^
 ||st1.lg.avendrealouer.fr^
@@ -19949,7 +19953,6 @@
 ||fruits.news^
 ||porpoise.fruittreecottage.com.au^
 ||panel.home.pl.frustone.it^
-||med.frx.com^
 ||med.frxis.com^
 ||fryzjer.icu^
 ||piwik.fsf.org^
@@ -52154,6 +52157,7 @@
 ||gdyn.veryfunnyads.com^
 ||tracking.shop.verymobile.it^
 ||veryvoga.pl^
+||buyvicodinonline.veryweird.com^
 ||verywellfitnesse.com^
 ||vesen.xyz^
 ||go.veson.com^
