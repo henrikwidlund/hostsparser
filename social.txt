@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-14 06:38:24Z
+! Last Modified: 2022-05-14 12:35:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1087,6 +1087,7 @@
 ||polska-lnpost.924773.space^
 ||925.lt^
 ||925digital.com^
+||smetrics.925thechuck.ca^
 ||9281223.xyz^
 ||smetrics.931freshradio.ca^
 ||inpost-pl.9473873-info-mycash.xyz^
@@ -43054,6 +43055,7 @@
 ||info.serverworks.co.jp^
 ||servethis.com^
 ||ubntrooters.serveuser.com^
+||root20system20macosxdriver.serveusers.com^
 ||service-account-payment-genuinelsmath.eu^
 ||apple.service-localiser.com^
 ||service-software-gneblius.pl^
@@ -54071,7 +54073,6 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||a.stat.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^

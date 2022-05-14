@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-14 06:38:03Z
+! Last Modified: 2022-05-14 12:35:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3351,6 +3351,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||tvx.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -45603,6 +45604,7 @@
 ||ohgratisporrfilm.com^
 ||go.ohi.com^
 ||go.ohiodnr.gov^
+||content.ohiohealth.com^
 ||ohiomm.com^
 ||ohiovalleytimes.com^
 ||ohmature.pro^
@@ -73597,7 +73599,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -73867,6 +73868,7 @@
 ||info.yooralla.com.au^
 ||yoosexy.com^
 ||yoourfuture.site^
+||nlgzhd.yoox.com^
 ||yooyoo.info^
 ||yooztechnology.com^
 ||yoporns.com^
