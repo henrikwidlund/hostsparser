@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-14 18:22:08Z
+! Last Modified: 2022-05-15 01:48:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15722,6 +15722,11 @@
 ||li.mw.drhinternet.net^
 ||drift.click^
 ||api.drift.com^
+||ws.api.driftqa.com^
+||pages.api.driftqa.com^
+||file2.api.driftqa.com^
+||customer2.api.driftqa.com^
+||conversation2.api.driftqa.com^
 ||js.driftt.com^
 ||stats.drillisch-online.de^
 ||drilopscorsandtuwi.tk^
@@ -23713,7 +23718,6 @@
 ||go.iansresearch.com^
 ||sdk.iappgame.com^
 ||data.iappmobi.com^
-||go.iar.com^
 ||iaracrewood.pl^
 ||iasds01.com^
 ||go.updates.iata.org^
@@ -56111,6 +56115,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||abtest.mistat.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -57536,7 +57541,6 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
-||analytics.partner.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^
@@ -62268,6 +62272,7 @@
 ||ribob04.net.zooplus.nl^
 ||service.net.zooplus.nl^
 ||sk.mail.net.zooplus.nl^
+||ssl.raw.net.zooplus.nl^
 ||v1.mail.net.zooplus.nl^
 ||w3.mail.net.zooplus.nl^
 ||acc.mail.net.zooplus.nl^

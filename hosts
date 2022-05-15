@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-14 18:21:54Z
+! Last Modified: 2022-05-15 01:48:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -57543,6 +57543,7 @@
 ||sakurakikaku.net^
 ||sakuralive.com^
 ||sakuraset.top^
+||a8.sakuratravel.jp^
 ||sala5.it^
 ||salamtakehoh.info^
 ||www2.salary.com^
@@ -67117,7 +67118,6 @@
 ||tsgonline.com^
 ||go.tsi.com^
 ||mail.tsinghua.edu.cn^
-||d14op.tsinvss.xyz^
 ||metric.tsite.jp^
 ||smetric.tsite.jp^
 ||tsl-github.com^
