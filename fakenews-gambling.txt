@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-15 06:22:48Z
+! Last Modified: 2022-05-15 12:34:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30302,6 +30302,7 @@
 ||luxyhyu0.com^
 ||ens.luzernerzeitung.ch^
 ||luzernetimes.com^
+||tmsgi.lv.com^
 ||news.lvb.com^
 ||lvbet.pl^
 ||lveif.com^
@@ -59132,6 +59133,7 @@
 ||signed.api.net.zooplus.de^
 ||ssl.repo.2.net.zooplus.de^
 ||stg.admins.net.zooplus.de^
+||test.csr12.net.zooplus.de^
 ||tester.api.net.zooplus.de^
 ||tomcat.api.net.zooplus.de^
 ||upload.api.net.zooplus.de^

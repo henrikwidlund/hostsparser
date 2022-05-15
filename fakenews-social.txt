@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-15 06:22:54Z
+! Last Modified: 2022-05-15 12:34:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -41224,6 +41224,10 @@
 ||programattik.com^
 ||programdarmowy.pl^
 ||prog-1.programm-one.site^
+||polq.programm-onepl.xyz^
+||ppro.programm-onepl.xyz^
+||gp-tsl.programm-onepl.xyz^
+||pl-tsl.programm-onepl.xyz^
 ||programm-pat.xyz^
 ||res.programme-television.org^
 ||cqpmvc.programme-tv.net^
@@ -53292,7 +53296,6 @@
 ||marketing.visiteauclaire.com^
 ||a.visitefoz.com.br^
 ||marketing.visitgreaterpalmsprings.com^
-||marketing.visitgreenvillesc.com^
 ||marketing.visithamiltoncounty.com^
 ||marketing.visitindy.com^
 ||marketing.visitjamaica.com^
