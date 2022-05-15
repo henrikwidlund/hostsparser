@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-15 01:48:17Z
+! Last Modified: 2022-05-15 06:22:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24820,6 +24820,7 @@
 ||idolax.com^
 ||idolhairsalon.com^
 ||idolight.net^
+||stat-ssl.idou.me^
 ||inpostpl.idpl08439467.info^
 ||camion.idps.co.uk^
 ||eastwood35.idps.co.uk^

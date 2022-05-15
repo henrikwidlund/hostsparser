@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-15 01:48:26Z
+! Last Modified: 2022-05-15 06:22:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23718,6 +23718,7 @@
 ||go.iansresearch.com^
 ||sdk.iappgame.com^
 ||data.iappmobi.com^
+||go.iar.com^
 ||iaracrewood.pl^
 ||iasds01.com^
 ||go.updates.iata.org^
@@ -56115,7 +56116,6 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||abtest.mistat.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -62272,7 +62272,6 @@
 ||ribob04.net.zooplus.nl^
 ||service.net.zooplus.nl^
 ||sk.mail.net.zooplus.nl^
-||ssl.raw.net.zooplus.nl^
 ||v1.mail.net.zooplus.nl^
 ||w3.mail.net.zooplus.nl^
 ||acc.mail.net.zooplus.nl^

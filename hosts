@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-15 01:48:12Z
+! Last Modified: 2022-05-15 06:22:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26180,7 +26180,6 @@
 ||games-solution.com^
 ||trk.games-to-run123.com^
 ||games4u.ws^
-||ads.gameservers.com^
 ||gamesfly.com^
 ||gamesharck.com^
 ||gamesiteads.com^
@@ -28216,7 +28215,6 @@
 ||groundtruth.com^
 ||group-orlen.us^
 ||groupa.online^
-||tr.groupama-gne.fr^
 ||smetrics.groupama.fr^
 ||groupandsex.com^
 ||groupbehold.site^
@@ -67118,6 +67116,7 @@
 ||tsgonline.com^
 ||go.tsi.com^
 ||mail.tsinghua.edu.cn^
+||d14op.tsinvss.xyz^
 ||metric.tsite.jp^
 ||smetric.tsite.jp^
 ||tsl-github.com^
