@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-15 12:34:41Z
+! Last Modified: 2022-05-15 18:21:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -70093,6 +70093,16 @@
 ||upjav.cc^
 ||uplinksexpecting.com^
 ||www8.upload-pics.com^
+||filedrive.uploadbox.world^
+||gouploads.uploadbox.world^
+||tinyfiles.uploadbox.world^
+||cloudshare.uploadbox.world^
+||quicklinks.uploadbox.world^
+||smartfiles.uploadbox.world^
+||uberupload.uploadbox.world^
+||upandshare.uploadbox.world^
+||filestation.uploadbox.world^
+||secretfiles.uploadbox.world^
 ||acdn.uploads.mobi^
 ||uploadyourporn.com^
 ||uplooti.com^
@@ -75435,7 +75445,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
@@ -76567,6 +76576,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||tw2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
