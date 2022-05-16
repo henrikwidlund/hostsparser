@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-16 01:24:22Z
+! Last Modified: 2022-05-16 06:27:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20327,6 +20327,7 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||wildcard.aniview.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -49091,8 +49092,6 @@
 ||pkoinvestbank.site^
 ||pkoinvestition.site^
 ||pkoinvestition.space^
-||d8ngmj92ya444nmcuu8eaqg.pkopb.sbs^
-||d8ngmjfe2k7bjmq4x8jn4gqncyyawhkfmc.pkopb.sbs^
 ||pkopl.com^
 ||pkotfi.design^
 ||pkp-group.com^
@@ -50318,6 +50317,7 @@
 ||smetrics.politico.com^
 ||oascentral.politico.com^
 ||tr.politicolive.eu^
+||tr.politicomarketing.eu^
 ||smetrics.politicopro.com^
 ||polituracenny.site^
 ||politykaprywatnosci-onet.live^
@@ -64380,6 +64380,7 @@
 ||nicole.totalsupercuties.com^
 ||jessica.totalsupercuties.com^
 ||stephanie.totalsupercuties.com^
+||galleries.stephanie.totalsupercuties.com^
 ||smetrics.totalwine.com^
 ||info.totate.com^
 ||toteme.com^

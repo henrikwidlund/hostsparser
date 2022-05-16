@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-16 01:24:18Z
+! Last Modified: 2022-05-16 06:27:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -33557,7 +33557,6 @@
 ||neszmely.eu^
 ||ycembr.net-a-porter.com^
 ||metrics.net-a-porter.com^
-||t.net-ap19.stream^
 ||ads2.net-communities.co.uk^
 ||net-firewall.online^
 ||net-protector.com^
