@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-16 06:27:14Z
+! Last Modified: 2022-05-16 12:36:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2918,19 +2918,6 @@
 ||advertx.net^
 ||adserver.adverty.com^
 ||advertyz.com^
-||ads.adviad.com^
-||api.adviad.com^
-||cdn.adviad.com^
-||dmp.adviad.com^
-||app.adviad.com^
-||dsp.adviad.com^
-||ssp.adviad.com^
-||ads2.adviad.com^
-||ads3.adviad.com^
-||ads4.adviad.com^
-||sync.adviad.com^
-||cdnuz.adviad.com^
-||report.adviad.com^
 ||banners.advidi.com^
 ||adview.cn^
 ||adview.com^
@@ -27624,7 +27611,6 @@
 ||groundiesbuty.com^
 ||groundiespolska.com^
 ||groundiespolska.pl^
-||smetrics.groundsguys.com^
 ||groundtruth.com^
 ||group-orlen.us^
 ||groupa.online^
@@ -66551,7 +66537,6 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
-||pge.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^

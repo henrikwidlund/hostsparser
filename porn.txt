@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-16 06:27:22Z
+! Last Modified: 2022-05-16 12:36:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2860,19 +2860,6 @@
 ||advertx.net^
 ||adserver.adverty.com^
 ||advertyz.com^
-||ads.adviad.com^
-||api.adviad.com^
-||cdn.adviad.com^
-||dmp.adviad.com^
-||app.adviad.com^
-||dsp.adviad.com^
-||ssp.adviad.com^
-||ads2.adviad.com^
-||ads3.adviad.com^
-||ads4.adviad.com^
-||sync.adviad.com^
-||cdnuz.adviad.com^
-||report.adviad.com^
 ||banners.advidi.com^
 ||adview.cn^
 ||adview.com^
@@ -52710,7 +52697,6 @@
 ||go.rakumo.com^
 ||rakuprop.net^
 ||rd.rakuten.co.jp^
-||anz.rd.rakuten.co.jp^
 ||ba.afl.rakuten.co.jp^
 ||dynamic.rakuten.co.jp^
 ||api.ranking.rakuten.co.jp^
@@ -73122,7 +73108,6 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
-||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^
