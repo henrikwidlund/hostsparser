@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-16 12:36:26Z
+! Last Modified: 2022-05-16 18:27:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2738,6 +2738,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||bs.eyeblaster.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -57414,6 +57415,7 @@
 ||bcast-2lab.net.zooplus.de^
 ||beta-mmail.net.zooplus.de^
 ||billingail.net.zooplus.de^
+||blog.csr12.net.zooplus.de^
 ||car40-beta.net.zooplus.de^
 ||car40latin.net.zooplus.de^
 ||clientcert.net.zooplus.de^
@@ -59282,6 +59284,7 @@
 ||owa-prd.net.zooplus.fr^
 ||owa-raw.net.zooplus.fr^
 ||owa-web.net.zooplus.fr^
+||owa.git.net.zooplus.fr^
 ||owa.ids.net.zooplus.fr^
 ||owa.oid.net.zooplus.fr^
 ||owa.raw.net.zooplus.fr^
