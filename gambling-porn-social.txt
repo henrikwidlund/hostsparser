@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-17 01:36:53Z
+! Last Modified: 2022-05-17 06:23:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -76299,6 +76299,7 @@
 ||chd.signed-marketing.net.zooplus.es^
 ||account.latinarketing.net.zooplus.es^
 ||marketing.applications.net.zooplus.es^
+||proxy-europe.marketing.net.zooplus.es^
 ||admins-www.cgimarketing.net.zooplus.es^
 ||d-mirror.ns.emailvision.net.zooplus.es^
 ||gatewayssl.applications.net.zooplus.es^

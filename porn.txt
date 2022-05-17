@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-17 01:37:04Z
+! Last Modified: 2022-05-17 06:23:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9233,7 +9233,6 @@
 ||bnpparibas-securisation.fr^
 ||smetrics.bnpparibas.com^
 ||bnpparibas52697.info^
-||sstats.bnpparibasfortis.be^
 ||bnpparilbas.pl^
 ||goonline.bnpparlbas-pl.com^
 ||bnpparlbas.pl^
@@ -63833,8 +63832,6 @@
 ||trufork.com^
 ||sstats.truist.com^
 ||info.truitycu.org^
-||metric.trulia.com^
-||origin-tracking.trulia.com^
 ||smetrics.trulicity.com^
 ||sprawdz-identyfikacje.trupalsa.co.pl^
 ||trupornolabs.org^
@@ -73114,6 +73111,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -76529,7 +76527,6 @@
 ||bnc3ail.net.zooplus.fr^
 ||catalog.net.zooplus.fr^
 ||cdn.owa.net.zooplus.fr^
-||cgi.ssl.net.zooplus.fr^
 ||chdmail.net.zooplus.fr^
 ||cmsmail.net.zooplus.fr^
 ||demoing.net.zooplus.fr^
