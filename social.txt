@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-17 06:23:53Z
+! Last Modified: 2022-05-17 12:37:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35802,6 +35802,8 @@
 ||halibut.ozspeedtest.com^
 ||peafowl.ozspurs.com^
 ||ozzywebsites.com^
+||msr.p-antiaging.com^
+||a8cv.p-antiaging.com^
 ||p-n.io^
 ||allegro-fxyd.p-umowa.site^
 ||f1.p0y.com^
@@ -54378,7 +54380,6 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||log.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
