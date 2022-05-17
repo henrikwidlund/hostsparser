@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-17 12:37:03Z
+! Last Modified: 2022-05-17 18:22:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39337,7 +39337,6 @@
 ||app.events.philips.com^
 ||smetrics.marketing.lighting.philips.com^
 ||smetrics.marketing.lighting.philips.com.ar^
-||smetrics.marketing.lighting.philips.com.cn^
 ||smetrics.marketing.lighting.philips.com.co^
 ||smetrics.marketing.lighting.philips.com.hk^
 ||smetrics.marketing.lighting.philips.com.mx^
@@ -59199,6 +59198,7 @@
 ||go.zillowgroup.com^
 ||mjp.zimad.com^
 ||zimadeals.pl^
+||static.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||raven.zimristats.com^
@@ -59351,6 +59351,7 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||core.windows-client.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^
@@ -62880,6 +62881,7 @@
 ||ns.latin.net.zooplus.it^
 ||owa.chef.net.zooplus.it^
 ||portal.t.net.zooplus.it^
+||ssl.blog.net.zooplus.it^
 ||ssl.cert.net.zooplus.it^
 ||ssl.docs.net.zooplus.it^
 ||ezor-web.net.zooplus.it^

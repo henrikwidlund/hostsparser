@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-17 12:37:15Z
+! Last Modified: 2022-05-17 18:23:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3398,7 +3398,6 @@
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
-||rtr.innovid.com.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
@@ -21894,8 +21893,6 @@
 ||qfo.eurotierce.be^
 ||eurotrades.pl^
 ||eurovidporn.com^
-||metrics.eurowings.com^
-||smetrics.eurowings.com^
 ||vpf4.euskaltelofertas.com^
 ||eusta.de^
 ||email.eutelsat.com^
@@ -58283,11 +58280,9 @@
 ||go.siemonster.com^
 ||sierrameta.net^
 ||tracking.sierrawireless.com^
-||j.t.sieu-viet.com^
 ||sieumup.net^
 ||sifazen.com^
 ||prod.sift.co^
-||sgbid.prod.sift.co^
 ||sift-campaign-creatives.sift.co^
 ||ads.sift.co.uk^
 ||info.sifted.com^
