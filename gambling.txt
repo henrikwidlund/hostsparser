@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-16 18:27:54Z
+! Last Modified: 2022-05-17 01:37:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9979,7 +9979,6 @@
 ||cinematicfanatic.com^
 ||cinematraffic.com^
 ||register.cinematrix.net^
-||sanalytics.cinemax.tv^
 ||smetrics.cinemaxx.de^
 ||cineplaynow.com^
 ||omni.cineplex.com^
@@ -55725,6 +55724,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -56875,6 +56875,7 @@
 ||api.alpha.net.zooplus.de^
 ||apiserver.net.zooplus.de^
 ||apislatin.net.zooplus.de^
+||apld.2lab.net.zooplus.de^
 ||app-csr41.net.zooplus.de^
 ||auth.priv.net.zooplus.de^
 ||authpanel.net.zooplus.de^
