@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-18 01:20:47Z
+! Last Modified: 2022-05-18 06:23:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10520,7 +10520,6 @@
 ||clearshieldredirect.com^
 ||a8clk.www.cledepeau-beaute.com^
 ||cleeble.pl^
-||chicken.clerklabs.com^
 ||clermonttimes.com^
 ||cleusbmontreal.ca^
 ||ads.cleveland.com^
@@ -42728,6 +42727,7 @@
 ||ysdk.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
+||mi.gdt.qq.com^
 ||logsdk.qq.com^
 ||omgmta.qq.com^
 ||pingjs.qq.com^
@@ -49365,7 +49365,6 @@
 ||banners.sys-con.com^
 ||ads.syscdn.de^
 ||sysip.net^
-||eloqua.syslog-ng.com^
 ||plausible.sysloun.cz^
 ||ads.sysmesh.com^
 ||eu.syst-inf.xyz^
@@ -52013,6 +52012,7 @@
 ||ads.tripican.com^
 ||numbers.triplejack.com^
 ||triplelift.com^
+||ad.triplemind.com^
 ||go.triplepoint.co.uk^
 ||tracking.tripletex.no^
 ||ads.tripod.com^

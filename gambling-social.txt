@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-18 01:20:59Z
+! Last Modified: 2022-05-18 06:24:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32067,6 +32067,7 @@
 ||r.mradx.net^
 ||r0.mradx.net^
 ||go.mranet.org^
+||smetrics.mrappliance.com^
 ||smartschool.mrbroadband.net^
 ||info.mrc.org^
 ||mreco0.jp^
