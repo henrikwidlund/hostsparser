@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-18 12:37:55Z
+! Last Modified: 2022-05-18 18:22:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22309,6 +22309,7 @@
 ||favgayporn.com^
 ||favgroup.host^
 ||favicon.com^
+||click.favordelivery.com^
 ||favouritecash.com^
 ||favulous.xyz^
 ||favykui9.com^
@@ -30965,7 +30966,6 @@
 ||knzmrw.infojobs.net^
 ||infolinia-kontakt-telefon.pl^
 ||dpd.infoloadingdispatch.xyz^
-||lp.infomart.co.jp^
 ||infomazowsze-24.xyz^
 ||infomazowsze24.xyz^
 ||stats.infomedia.net^
@@ -73115,8 +73115,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||cn2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

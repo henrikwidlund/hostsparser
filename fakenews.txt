@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-18 12:37:47Z
+! Last Modified: 2022-05-18 18:22:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -26815,8 +26815,6 @@
 ||www1.kawasaki-motors.com^
 ||dc.kay.com^
 ||smetrics.kay.com^
-||smetrics.kayosports.com.au^
-||t.discover.kayosports.com.au^
 ||dc.kayoutlet.com^
 ||kaytri.com^
 ||kazaa.com^
@@ -42013,6 +42011,7 @@
 ||ba.afl.rakuten.co.jp^
 ||dynamic.rakuten.co.jp^
 ||api.ranking.rakuten.co.jp^
+||xml.affiliate.rakuten.co.jp^
 ||shopapi.ranking.rakuten.co.jp^
 ||rmp.rakuten.com^
 ||brc.emails.rakuten.com^
@@ -43528,6 +43527,8 @@
 ||core.royalads.net^
 ||marketing.royalalaskanmovers.com^
 ||royalcapitalinvestment.com^
+||metrics.royalcaribbean.com^
+||smetrics.royalcaribbean.com^
 ||royalearn.pl^
 ||metrics.royalmail.com^
 ||offers.royalvegascasino.com^
@@ -48444,7 +48445,6 @@
 ||tamarispolska.pl^
 ||tametc.pl^
 ||metrics.tamiflu.com^
-||go.tamko.com^
 ||go.tammuz.com^
 ||tamparepublic.com^
 ||tampopo-loveocarina.com^
@@ -56559,8 +56559,10 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||eu-pn2.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

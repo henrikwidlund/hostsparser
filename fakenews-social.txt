@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-18 12:37:45Z
+! Last Modified: 2022-05-18 18:22:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -41256,6 +41256,7 @@
 ||projectcourse4.us^
 ||narwhal.projectf.io^
 ||trk.projectfashionevents.com^
+||marketing.projectfoundry.com^
 ||projectgoals.net^
 ||projectorlen.biz^
 ||projectorlen.us^
@@ -56644,7 +56645,6 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||sdkconfig.ad.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -59934,6 +59934,7 @@
 ||chd.signed-marketing.net.zooplus.es^
 ||account.latinarketing.net.zooplus.es^
 ||marketing.applications.net.zooplus.es^
+||proxy-europe.marketing.net.zooplus.es^
 ||admins-www.cgimarketing.net.zooplus.es^
 ||d-mirror.ns.emailvision.net.zooplus.es^
 ||gatewayssl.applications.net.zooplus.es^
