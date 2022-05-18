@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-18 06:23:59Z
+! Last Modified: 2022-05-18 12:37:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14221,6 +14221,7 @@
 ||debusinessdaily.com^
 ||debymedia.buzz^
 ||prod-dcs-eventlog.decagames.com^
+||pge.decashteam.club^
 ||decathlon-pl.site^
 ||data.decathlon.de^
 ||data.decathlon.es^
@@ -28910,6 +28911,7 @@
 ||lmknjb1.com^
 ||ads.lmmob.com^
 ||strategy.lmobi.net^
+||lmodr.biz^
 ||lmwmm.com^
 ||ln-post-purchaser.xyz^
 ||lnaff.pl^
@@ -38280,6 +38282,7 @@
 ||phorm.com^
 ||phorm.dk^
 ||phormchina.com^
+||phormlabs.com^
 ||phoscal.net^
 ||photo-ads.co.uk^
 ||photobiologiessongful.com^
@@ -43525,8 +43528,6 @@
 ||core.royalads.net^
 ||marketing.royalalaskanmovers.com^
 ||royalcapitalinvestment.com^
-||metrics.royalcaribbean.com^
-||smetrics.royalcaribbean.com^
 ||royalearn.pl^
 ||metrics.royalmail.com^
 ||offers.royalvegascasino.com^
