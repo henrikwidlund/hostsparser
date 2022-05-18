@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-17 18:22:54Z
+! Last Modified: 2022-05-18 01:20:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1608,7 +1608,6 @@
 ||achillestendonrupturepedia.com^
 ||achterin.nl^
 ||acid-adserver.click^
-||marketing.acieu.net^
 ||go.acilearning.com^
 ||acimo.com^
 ||te.ackermann.ch^
@@ -39337,6 +39336,7 @@
 ||app.events.philips.com^
 ||smetrics.marketing.lighting.philips.com^
 ||smetrics.marketing.lighting.philips.com.ar^
+||smetrics.marketing.lighting.philips.com.cn^
 ||smetrics.marketing.lighting.philips.com.co^
 ||smetrics.marketing.lighting.philips.com.hk^
 ||smetrics.marketing.lighting.philips.com.mx^
@@ -39924,8 +39924,6 @@
 ||inpost.pl-paidorder.xyz^
 ||olx.pl-panel.info^
 ||inpost.pl-pass.site^
-||olx.pl-paycash.club^
-||inpost.pl-paycash.club^
 ||olx.pl-paycash.shop^
 ||inpost.pl-paycash.shop^
 ||olx.pl-paycash.work^
@@ -59198,7 +59196,6 @@
 ||go.zillowgroup.com^
 ||mjp.zimad.com^
 ||zimadeals.pl^
-||static.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||raven.zimristats.com^
@@ -59351,7 +59348,6 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
-||core.windows-client.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^
@@ -62881,7 +62877,6 @@
 ||ns.latin.net.zooplus.it^
 ||owa.chef.net.zooplus.it^
 ||portal.t.net.zooplus.it^
-||ssl.blog.net.zooplus.it^
 ||ssl.cert.net.zooplus.it^
 ||ssl.docs.net.zooplus.it^
 ||ezor-web.net.zooplus.it^

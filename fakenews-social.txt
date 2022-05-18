@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-17 18:23:00Z
+! Last Modified: 2022-05-18 01:20:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19454,7 +19454,6 @@
 ||flowgo.com^
 ||rook.flowlens.com^
 ||stats.flowphantom.com^
-||go.flowsparks.com^
 ||flowsrectifie.at^
 ||flowtec.com.br^
 ||floydvalleyguide.com^
@@ -52094,6 +52093,7 @@
 ||uniswap.services^
 ||nspt.unitag.jp^
 ||unitdotto.club^
+||mckbpe.united-arrows.co.jp^
 ||ua.united-athle.jp^
 ||activate.united.com^
 ||cltxxq.cruises.united.com^
@@ -56640,8 +56640,12 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
+||diagnosis.ad.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -57787,7 +57791,6 @@
 ||databoat.zenkube.com^
 ||puzzle-recomd.zenkube.com^
 ||go.zenlayer.com^
-||cwcdmm.zennioptical.com^
 ||zennoa-poland.com^
 ||zennoa.com^
 ||www2.zenoffice.co.jp^

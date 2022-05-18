@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-17 18:23:05Z
+! Last Modified: 2022-05-18 01:20:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2738,7 +2738,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||ag.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -13216,6 +13215,7 @@
 ||ebis.coyori.com^
 ||noexcuses.coyote.com^
 ||dakqbwpduu.coywolf.io^
+||banner.coza.com^
 ||cozino.com^
 ||coztyymjestnietak.club^
 ||go.cozuchi.com^
@@ -32067,7 +32067,6 @@
 ||r.mradx.net^
 ||r0.mradx.net^
 ||go.mranet.org^
-||smetrics.mrappliance.com^
 ||smartschool.mrbroadband.net^
 ||info.mrc.org^
 ||mreco0.jp^

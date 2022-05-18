@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-17 18:22:55Z
+! Last Modified: 2022-05-18 01:20:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5743,6 +5743,8 @@
 ||beciki.pl^
 ||webtracking.becker.com^
 ||e.beckmancoulter.com^
+||go.becn.com^
+||locations.becn.com^
 ||smetrics.becomeanex.org^
 ||becomeiguana.com^
 ||becrouxinvesting.website^
@@ -52011,7 +52013,6 @@
 ||ads.tripican.com^
 ||numbers.triplejack.com^
 ||triplelift.com^
-||ad.triplemind.com^
 ||go.triplepoint.co.uk^
 ||tracking.tripletex.no^
 ||ads.tripod.com^

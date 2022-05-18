@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-17 18:22:53Z
+! Last Modified: 2022-05-18 01:20:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17873,6 +17873,7 @@
 ||lungfish.datadividendproject.com^
 ||datadoghq-browser-agent.com^
 ||logs.datadoghq.com^
+||browser-http-intake.logs.datadoghq.com^
 ||api-sdk.datadome.co^
 ||dataentryworkfromhomejobs.com^
 ||app.datafastguru.info^
@@ -39296,6 +39297,8 @@
 ||mangoporn.net^
 ||mangovideo.club^
 ||server9.mangovideo.pw^
+||metrics.manheim.com^
+||smetrics.manheim.com^
 ||manhub.com^
 ||manhunt.net^
 ||manhwa18.com^
@@ -40616,8 +40619,6 @@
 ||mercola.com^
 ||smetrics.mercolamarket.com^
 ||go.mercurygate.com^
-||sadobe.mercuryinsurance.com^
-||agentcomm.mercuryinsurance.com^
 ||mercuryo.co^
 ||mercuryo.co.com^
 ||mercuryprotocol.live^
@@ -56717,6 +56718,7 @@
 ||communications.rightstar.com^
 ||rightwingnews.com^
 ||rigi9bury.com^
+||beyondmeasure.rigoltech.com^
 ||rigourdefoliators.com^
 ||rihoworld.com^
 ||rijpevrouwenwebcams.com^

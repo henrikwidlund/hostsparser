@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-17 18:23:11Z
+! Last Modified: 2022-05-18 01:21:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23016,7 +23016,6 @@
 ||commerce.www.ibm.com^
 ||l3wpk9kmumodtkr8.ibmassist.com^
 ||tealeaf.ibmcloud.com^
-||collector.tealeaf.ibmcloud.com^
 ||planning-analytics.ibmcloud.com^
 ||go.ibml.com^
 ||ibmvideo.com^
@@ -39003,7 +39002,6 @@
 ||presidentialagent.com^
 ||presidioinvestmentsltd.com^
 ||gcirm.press-citizen.com^
-||www2.pressance.co.jp^
 ||adserver.pressboard.ca^
 ||gcirm.pressconnects.com^
 ||ads.pressdemo.com^
@@ -43054,6 +43052,7 @@
 ||secure-ua.space^
 ||accounts.secure-ua.website^
 ||tewxda71.secure.ne.jp^
+||sanalytics.securebanklogin.com^
 ||banners.securedataimages.com^
 ||securedloading.com^
 ||securedlogin.org^
