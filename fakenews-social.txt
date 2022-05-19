@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-19 01:47:06Z
+! Last Modified: 2022-05-19 06:25:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16666,7 +16666,6 @@
 ||fastclick.com.edgesuite.net^
 ||cdn1sitescout.edgesuite.net^
 ||hosted.stats.com.edgesuite.net^
-||ma76-r.analytics.edgesuite.net^
 ||adinterax.cnet.com.edgesuite.net^
 ||ads.pro-market.net.edgesuite.net^
 ||ads.bridgetrack.com.edgesuite.net^
@@ -57099,6 +57098,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -57245,7 +57245,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst9.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
@@ -61681,7 +61680,6 @@
 ||mail.hwcdn.net.zooplus.it^
 ||owa-upload.net.zooplus.it^
 ||owa.getter.net.zooplus.it^
-||portal.git.net.zooplus.it^
 ||wcg.chefua.net.zooplus.it^
 ||16marketing.net.zooplus.it^
 ||activecloud.net.zooplus.it^

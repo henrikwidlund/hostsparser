@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-19 01:46:59Z
+! Last Modified: 2022-05-19 06:25:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -43370,6 +43370,7 @@
 ||rbth.com^
 ||rbxfree.com^
 ||rc-room.com^
+||go.rca.org^
 ||www2.rcav.org^
 ||signup.rcfp.org^
 ||rcfuneral.com.br^

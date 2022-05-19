@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-19 01:47:05Z
+! Last Modified: 2022-05-19 06:25:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22284,6 +22284,10 @@
 ||extinction.news^
 ||extra-gift.ru^
 ||extra-porno.cz^
+||61b547a2.java.extra-tegic.com^
+||6d28a6ed.java.extra-tegic.com^
+||cb4fdd7f.java.extra-tegic.com^
+||cd61600d.java.extra-tegic.com^
 ||server1.extra-web.cz^
 ||ordbng.extra.com.br^
 ||angelwhite.extra.hu^
@@ -43723,6 +43727,7 @@
 ||newsproduct.site^
 ||newsprofin.com^
 ||newspunch.com^
+||ads.newsquest.co.uk^
 ||newsredir.com^
 ||newsschoolspecialty.com^
 ||newsspypro.com^
@@ -75233,8 +75238,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
-||tw2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
