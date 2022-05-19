@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-19 06:25:29Z
+! Last Modified: 2022-05-19 12:37:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -76568,6 +76568,7 @@
 ||oid-ssl.net.zooplus.fr^
 ||oid.owa.net.zooplus.fr^
 ||org.owa.net.zooplus.fr^
+||org.ssl.net.zooplus.fr^
 ||owa-acc.net.zooplus.fr^
 ||owa-ext.net.zooplus.fr^
 ||owa-iad.net.zooplus.fr^

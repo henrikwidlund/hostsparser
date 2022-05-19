@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-19 06:25:19Z
+! Last Modified: 2022-05-19 12:36:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23320,6 +23320,8 @@
 ||ad1.hotel.com^
 ||ad2.hotel.com^
 ||hotelboard.org^
+||analytic.hotelclub.com^
+||analytics.hotelclub.com^
 ||fbu8.hoteldeparismontecarlo.com^
 ||oms.hoteles.com^
 ||hotelhadieh.ir^
@@ -61982,7 +61984,6 @@
 ||northamerica-ns.machinevision.net.zooplus.it^
 ||northamerica.ns.machinevision.net.zooplus.it^
 ||ns.maaccountingcsr31inevision.net.zooplus.it^
-||ns.machinevision-redirect-ssl.net.zooplus.it^
 ||ocloudfronta-ns.machinevision.net.zooplus.it^
 ||redirect-ssl.account-cdn-prod.net.zooplus.it^
 ||server4.qa4.na.sandbox.gwsweb.net.zooplus.it^
