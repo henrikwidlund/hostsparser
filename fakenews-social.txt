@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-19 12:36:42Z
+! Last Modified: 2022-05-19 18:30:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29129,7 +29129,6 @@
 ||locked3.com^
 ||locked4.com^
 ||lockeddeal.com^
-||lockercpa.pl^
 ||go.lockncharge.com^
 ||association.locktonaffinity.net^
 ||biz.locoguide.co.jp^
@@ -57097,6 +57096,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

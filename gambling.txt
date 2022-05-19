@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-19 12:36:55Z
+! Last Modified: 2022-05-19 18:30:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8619,6 +8619,7 @@
 ||cakeglobaloffers.com^
 ||cakepress.es^
 ||twojesprawy.cal24.pl^
+||info.calabrio.com^
 ||hola.calamoycran.com^
 ||t.calbears.com^
 ||app.calbears.com^
@@ -28855,7 +28856,6 @@
 ||locked3.com^
 ||locked4.com^
 ||lockeddeal.com^
-||lockercpa.pl^
 ||go.lockncharge.com^
 ||association.locktonaffinity.net^
 ||biz.locoguide.co.jp^
@@ -29309,8 +29309,6 @@
 ||smetrics.lululemon.co.nz^
 ||metrics.lululemon.co.uk^
 ||smetrics.lululemon.co.uk^
-||metrics.lululemon.com^
-||smetrics.lululemon.com^
 ||metrics.lululemon.com.au^
 ||smetrics.lululemon.com.au^
 ||smetrics.lululemon.com.hk^
@@ -62730,6 +62728,7 @@
 ||markpurizoneting.loadbalancer.net.zooplus.nl^
 ||ns.emailvision-tomcataws-mail.net.zooplus.nl^
 ||owa-shop-wall-beta-zooplus-at.net.zooplus.nl^
+||owa.azure-frontpage.bucketowa.net.zooplus.nl^
 ||shop-wall-beta-bitiba-ch-mail.net.zooplus.nl^
 ||shop-wall-beta-zooplus-at-ssl.net.zooplus.nl^
 ||shop-wall-beta-zooplus-be.owa.net.zooplus.nl^
