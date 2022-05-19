@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-18 18:22:29Z
+! Last Modified: 2022-05-19 01:47:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2738,6 +2738,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||cacp-hlb.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -59014,6 +59015,7 @@
 ||ppp-069.net.zooplus.es^
 ||prd-ssl.net.zooplus.es^
 ||testing.net.zooplus.es^
+||blog.mail.net.zooplus.es^
 ||marketing.net.zooplus.es^
 ||kubectlssl.net.zooplus.es^
 ||chd.apacing.net.zooplus.es^

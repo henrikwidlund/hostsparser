@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-18 18:22:33Z
+! Last Modified: 2022-05-19 01:47:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19857,6 +19857,7 @@
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
+||wildcard.outbrain.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -19865,6 +19866,7 @@
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
+||video-ads.rubiconproject.com-v1.edgekey.net^
 ||edgequeens.com^
 ||deep.edgequery.io^
 ||somniture.edgestar.com^
@@ -22308,7 +22310,6 @@
 ||fastcash4vehicles.com^
 ||fastclick.com^
 ||ads.fastcomgroup.it^
-||stats.fastcompany.com^
 ||fastcounter.com^
 ||fastcreditalbania.com^
 ||fastcryptofxtrade.com^
@@ -63476,6 +63477,7 @@
 ||totalexposure.com^
 ||totalfucktube.com^
 ||totalgals.com^
+||dioqto.totaljobs.com^
 ||totally-naked-girls.com^
 ||totallyfreecam.com^
 ||ads.totallyfreestuff.com^
