@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-20 06:49:48Z
+! Last Modified: 2022-05-20 12:36:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -61905,8 +61905,6 @@
 ||flamingo.stacking-club.com^
 ||armadillo.stacking.club^
 ||stats.stackingthebricks.com^
-||ads.stackoverflow.com^
-||rads.stackoverflow.com^
 ||stackoverflow.xyz^
 ||ads-lfi3olnec7fr.stackpathdns.com^
 ||sdk-assets-zy8pe3h4v8msjk6x2sq4.stackpathdns.com^
@@ -76356,7 +76354,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||de.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

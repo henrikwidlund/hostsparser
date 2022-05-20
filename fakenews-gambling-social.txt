@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-20 06:49:38Z
+! Last Modified: 2022-05-20 12:36:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34775,7 +34775,6 @@
 ||compdate.my03.com^
 ||my11circle.com^
 ||faktinvestmetns.mya5.ru^
-||go.myacn.com^
 ||myads.company^
 ||myads.net^
 ||myadsl.co.za^
@@ -50114,7 +50113,6 @@
 ||t1.stadiumgoods.com^
 ||cn1.stadiumgoods.com^
 ||cn2.stadiumgoods.com^
-||trk.m1.stadiumgoods.com^
 ||cephalopod.staff.design^
 ||go.stageright.com^
 ||lm.stagingarea.co.za^
@@ -61313,8 +61311,6 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
-||csr31-staging.net.zooplus.com^
-||webstats.beta.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^
@@ -64440,6 +64436,7 @@
 ||net.zooplus.it^
 ||dii1.zooplus.it^
 ||dii2.zooplus.it^
+||v.int.net.zooplus.it^
 ||krkarketing.net.zooplus.it^
 ||lbmarketing.net.zooplus.it^
 ||mail-docker.net.zooplus.it^
@@ -65276,7 +65273,6 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||owa.net.zooplus.nl^
 ||amp-res1.net.zooplus.nl^
 ||appsmail.net.zooplus.nl^
 ||auth-acc.net.zooplus.nl^
