@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-20 12:36:05Z
+! Last Modified: 2022-05-20 18:22:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20157,7 +20157,6 @@
 ||doodhwali.xxx^
 ||doomsdayerportholes.xyz^
 ||itoman.doorblog.jp^
-||collector.doordash.com^
 ||doors.co.kr^
 ||stats.doors.live^
 ||smetrics.doorsteps.com^
@@ -21468,7 +21467,6 @@
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ma1169-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -21688,6 +21686,7 @@
 ||eightwatersoldierone.live^
 ||go.eigyoh.com^
 ||eihpos.ru^
+||adingo.jp.eimg.jp^
 ||get.mobu.jp.eimg.jp^
 ||img.fluct.jp.eimg.jp^
 ||ein.xxx^
@@ -23378,6 +23377,8 @@
 ||exchangecash.de^
 ||exchangeclicksonline.com^
 ||exchangenerate.com^
+||adimp.excite.co.jp^
+||adimpkwd.excite.co.jp^
 ||ad-wisteria.excite.co.jp^
 ||wisteria-js.excite.co.jp^
 ||excitementcvb.online^
@@ -24227,6 +24228,7 @@
 ||dvrxgs.fc-moto.de^
 ||fc.co.mz^
 ||id.fc2-ppv.live^
+||aimg.fc2.com^
 ||live.fc2.com^
 ||error.fc2.com^
 ||media.fc2.com^
@@ -29388,7 +29390,11 @@
 ||gungoin.tk^
 ||gunh.xyz^
 ||gunnersgaming.com^
+||ad.gunosy.com^
+||adapi.gunosy.com^
 ||assets.gunosy.com^
+||adntokyo.gunosy.com^
+||creatives.gunosy.com^
 ||app.gunownersldn.com^
 ||gurgeoner.pl^
 ||gurmana.pl^
@@ -37855,8 +37861,6 @@
 ||lasseryberg.dk^
 ||lassoesapostasy.com^
 ||last-chainleash.net^
-||aa.last.fm^
-||saa.last.fm^
 ||bwp.lastfm.com.com^
 ||lastfrontiernews.com^
 ||metrics.lastminute.ch^
@@ -39033,6 +39037,7 @@
 ||beaver.livechatlabs.com^
 ||blog.livedooor.info^
 ||livedoor-plus.com^
+||adv.livedoor.com^
 ||image.click.livedoor.com^
 ||blogroll.livedoor.net^
 ||liveform-channel.ml^
@@ -46510,6 +46515,8 @@
 ||nikkanerog.com^
 ||go.marketingportal.nikkei.co.jp^
 ||sstatsbp.nikkei.com^
+||bizad.nikkeibp.co.jp^
+||adserve5.nikkeibp.co.jp^
 ||nikkens.info^
 ||nikkibenz.com^
 ||nikodem.net.pl^
@@ -56856,7 +56863,10 @@
 ||uhlagm.rakurakuseisan.jp^
 ||rd.rakuten.co.jp^
 ||ba.afl.rakuten.co.jp^
+||hb.afl.rakuten.co.jp^
 ||dynamic.rakuten.co.jp^
+||hbb.afl.rakuten.co.jp^
+||affiliate.rakuten.co.jp^
 ||api.ranking.rakuten.co.jp^
 ||shopapi.ranking.rakuten.co.jp^
 ||rmp.rakuten.com^
@@ -58004,7 +58014,6 @@
 ||resignsubtlety.top^
 ||i.resilio.com^
 ||okr.resily.com^
-||info.resimaxgroup.com.au^
 ||pinniped.resist.bot^
 ||resmiwepyr.ml^
 ||resolvingserver.com^
@@ -61448,6 +61457,7 @@
 ||shinilchurch.net^
 ||x3.shinobi.jp^
 ||xa.shinobi.jp^
+||adf.shinobi.jp^
 ||gad.shinobi.jp^
 ||v2st.shinobi.jp^
 ||bfile.shinobi.jp^
@@ -77158,6 +77168,11 @@
 ||yahhooo.net^
 ||listing.yahoo-net.jp^
 ||go.store.yahoo-net.jp^
+||ov.yahoo.co.jp^
+||ard.yahoo.co.jp^
+||yads.yahoo.co.jp^
+||yeas.yahoo.co.jp^
+||promotionalads.yahoo.co.jp^
 ||fc.yahoo.com^
 ||comet.yahoo.com^
 ||m.yap.yahoo.com^
@@ -78024,6 +78039,7 @@
 ||zamekignorant.site^
 ||zamkniety-duza.site^
 ||inpostpl.zamow44189745.click^
+||inpostpl.zamow4871305.me^
 ||vinted-pl.zamow5271946.info^
 ||inpostpl.zamow5749671.top^
 ||vinted-pl.zamow5749671.top^

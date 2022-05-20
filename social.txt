@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-20 12:36:28Z
+! Last Modified: 2022-05-20 18:22:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15587,7 +15587,6 @@
 ||doobraid.pl^
 ||doomsdayerportholes.xyz^
 ||itoman.doorblog.jp^
-||collector.doordash.com^
 ||doors.co.kr^
 ||stats.doors.live^
 ||smetrics.doorsteps.com^
@@ -16829,6 +16828,7 @@
 ||eightwatersoldierone.live^
 ||go.eigyoh.com^
 ||eihpos.ru^
+||adingo.jp.eimg.jp^
 ||get.mobu.jp.eimg.jp^
 ||img.fluct.jp.eimg.jp^
 ||dcclaa.einfachbacken.de^
@@ -18123,6 +18123,8 @@
 ||exchangead.com^
 ||exchangeclicksonline.com^
 ||exchangenerate.com^
+||adimp.excite.co.jp^
+||adimpkwd.excite.co.jp^
 ||ad-wisteria.excite.co.jp^
 ||wisteria-js.excite.co.jp^
 ||excitementcvb.online^
@@ -18696,6 +18698,7 @@
 ||dvrxgs.fc-moto.de^
 ||fc.co.mz^
 ||id.fc2-ppv.live^
+||aimg.fc2.com^
 ||error.fc2.com^
 ||media.fc2.com^
 ||assys01.fc2.com^
@@ -22279,7 +22282,11 @@
 ||fwejqe.gundrymd.com^
 ||gunggo.com^
 ||gunh.xyz^
+||ad.gunosy.com^
+||adapi.gunosy.com^
 ||assets.gunosy.com^
+||adntokyo.gunosy.com^
+||creatives.gunosy.com^
 ||app.gunownersldn.com^
 ||gurgeoner.pl^
 ||gurmana.pl^
@@ -29124,6 +29131,7 @@
 ||beaver.livechatlabs.com^
 ||blog.livedooor.info^
 ||livedoor-plus.com^
+||adv.livedoor.com^
 ||image.click.livedoor.com^
 ||blogroll.livedoor.net^
 ||liveform-channel.ml^
@@ -31296,6 +31304,7 @@
 ||analytics.metro.co.in^
 ||wa.metro.co.uk^
 ||cqubdd.metro.co.uk^
+||analytics.metro.com.kz^
 ||analytics.metro.de^
 ||sanalytics.metro.de^
 ||analytics.metro.md^
@@ -33468,6 +33477,7 @@
 ||natangas.pl^
 ||natashyabaydesign.com^
 ||natenczas.online^
+||ogb2.natessance.com^
 ||nathanielhawthorne.site^
 ||ea.natiloo.com^
 ||nation-news.com^
@@ -34476,6 +34486,8 @@
 ||evrget.nikkan-gendai.com^
 ||go.marketingportal.nikkei.co.jp^
 ||sstatsbp.nikkei.com^
+||bizad.nikkeibp.co.jp^
+||adserve5.nikkeibp.co.jp^
 ||nikkens.info^
 ||nikodem.net.pl^
 ||nikodemsz.pl^
@@ -42177,7 +42189,10 @@
 ||uhlagm.rakurakuseisan.jp^
 ||rd.rakuten.co.jp^
 ||ba.afl.rakuten.co.jp^
+||hb.afl.rakuten.co.jp^
 ||dynamic.rakuten.co.jp^
+||hbb.afl.rakuten.co.jp^
+||affiliate.rakuten.co.jp^
 ||api.ranking.rakuten.co.jp^
 ||shopapi.ranking.rakuten.co.jp^
 ||rmp.rakuten.com^
@@ -45369,6 +45384,7 @@
 ||shinilchurch.net^
 ||x3.shinobi.jp^
 ||xa.shinobi.jp^
+||adf.shinobi.jp^
 ||gad.shinobi.jp^
 ||v2st.shinobi.jp^
 ||bfile.shinobi.jp^
@@ -56770,6 +56786,11 @@
 ||yahhooo.net^
 ||listing.yahoo-net.jp^
 ||go.store.yahoo-net.jp^
+||ov.yahoo.co.jp^
+||ard.yahoo.co.jp^
+||yads.yahoo.co.jp^
+||yeas.yahoo.co.jp^
+||promotionalads.yahoo.co.jp^
 ||fc.yahoo.com^
 ||comet.yahoo.com^
 ||m.yap.yahoo.com^
