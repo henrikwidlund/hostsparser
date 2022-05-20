@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-20 01:37:48Z
+! Last Modified: 2022-05-20 06:23:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7205,6 +7205,11 @@
 ||blodkchainwallet.info^
 ||blodkchaln.com^
 ||bloementasje.nl^
+||cpanel.blog-finanse.xyz^
+||webdisk.blog-finanse.xyz^
+||webmail.blog-finanse.xyz^
+||cpcontacts.blog-finanse.xyz^
+||cpcalendars.blog-finanse.xyz^
 ||cpanel.blog-finansowe.xyz^
 ||pompon.blog-finansowe.xyz^
 ||webdisk.blog-finansowe.xyz^
@@ -42813,7 +42818,6 @@
 ||purryowl.com^
 ||push-notification.tools^
 ||ws.push-notifs.com^
-||push7.jp^
 ||pushazer.com^
 ||cdn.pushcrew.com^
 ||dacdn.pushcrew.com^
