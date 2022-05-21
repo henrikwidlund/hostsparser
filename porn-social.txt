@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-21 01:14:16Z
+! Last Modified: 2022-05-21 06:23:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3418,11 +3418,11 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||ads.stickyadstv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
+||aws-oregon-jrtr.rtr.innovid.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
 ||akaflieg-sb.de^
 ||akama.com^
@@ -75257,6 +75257,7 @@
 ||csr31.app.net.zooplus.de^
 ||fw.docker.net.zooplus.de^
 ||get-csr31.net.zooplus.de^
+||lbctl.api.net.zooplus.de^
 ||marketing.net.zooplus.de^
 ||mirrorssl.net.zooplus.de^
 ||server-gw.net.zooplus.de^
@@ -78490,7 +78491,6 @@
 ||ns.admachinevision.net.zooplus.it^
 ||ns.ebsachinevision.net.zooplus.it^
 ||ns.ek8s-prodvision.net.zooplus.it^
-||ns.maauthinevision.net.zooplus.it^
 ||ns.machinevibetaon.net.zooplus.it^
 ||ns.machinevisionuk.net.zooplus.it^
 ||ns.machinevisionv1.net.zooplus.it^

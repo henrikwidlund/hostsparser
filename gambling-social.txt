@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-21 01:14:12Z
+! Last Modified: 2022-05-21 06:23:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15028,7 +15028,6 @@
 ||allegrolokalne.dellveryinform.xyz^
 ||delmarpropertyservices.com^
 ||activate.delmartimes.net^
-||stat.delo.ua^
 ||preferences.deloitte.ca^
 ||stats.deloitte.com^
 ||sstats.deloitte.com^
@@ -17209,7 +17208,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||ma562-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -52143,6 +52141,8 @@
 ||trout.travelmassive.com^
 ||go.travelmediagroup.com^
 ||smetrics.travelmoneyonline.co.uk^
+||openad.travelnow.com^
+||affiliate.travelnow.com^
 ||travelocidy.com^
 ||travelocite.com^
 ||travelocitu.com^

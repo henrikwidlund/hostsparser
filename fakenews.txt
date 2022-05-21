@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-21 01:14:06Z
+! Last Modified: 2022-05-21 06:23:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9603,6 +9603,7 @@
 ||info.ccbjournal.com^
 ||ccc-office.com^
 ||m1.ccc.edu^
+||mdws.cccu.ca^
 ||www2.ccgiq.com^
 ||ccgoo.xyz^
 ||tr.info.rouen.cci.fr^
@@ -18129,6 +18130,7 @@
 ||coinbase.com.eslogin.co^
 ||eslprologmvp.com^
 ||eslprotourmvp.com^
+||go.esme.fr^
 ||new1.2f9yd85b3xz016m.esnapbbar.com^
 ||parcel.r1e3ymauqbg5oo0.esnapbbar.com^
 ||esneakers24.pl^
@@ -27280,6 +27282,7 @@
 ||im.jiguang.cn^
 ||sdk.jiguang.cn^
 ||verification.jiguang.cn^
+||sdk.verification.jiguang.cn^
 ||jihadwatch.org^
 ||jilarohtas.com^
 ||jilliancamwell.com^
@@ -47115,9 +47118,6 @@
 ||p.shure.com^
 ||prvizg.shurgard.be^
 ||marketing.shurtapemail.com^
-||os.shutterfly.com^
-||ou.shutterfly.com^
-||trk.bc.shutterfly.com^
 ||zrsetz.shutterstock.com^
 ||smb.info.shutterstock.com^
 ||m.custom.info.shutterstock.com^
@@ -52023,7 +52023,6 @@
 ||topinncohe.xyz^
 ||rvdnyq.topito.com^
 ||refwkk.topky.sk^
-||ads.toplayaffiliates.com^
 ||toplistcity.com^
 ||toplistim.com^
 ||topmeds10.com^
@@ -59508,7 +59507,6 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
-||lab-core.windows.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^
@@ -63470,7 +63468,6 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||owa-svc.net.zooplus.nl^
 ||amp-res1.net.zooplus.nl^
 ||appsmail.net.zooplus.nl^
 ||auth-acc.net.zooplus.nl^
