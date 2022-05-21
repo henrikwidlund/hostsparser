@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-21 12:31:04Z
+! Last Modified: 2022-05-21 18:21:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13875,6 +13875,9 @@
 ||dealersuccess.cross-sell.com^
 ||ads.crosscut.com^
 ||matomo.crossiety.app^
+||img.crossinstall.com^
+||creatives.crossinstall.com^
+||rtb-east-wins.crossinstall.com^
 ||impressions.crossinstall.io^
 ||step-service.crossinstall.io^
 ||creative-analytics.crossinstall.io^
