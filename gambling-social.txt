@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-21 06:23:42Z
+! Last Modified: 2022-05-21 12:31:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15028,6 +15028,7 @@
 ||allegrolokalne.dellveryinform.xyz^
 ||delmarpropertyservices.com^
 ||activate.delmartimes.net^
+||stat.delo.ua^
 ||preferences.deloitte.ca^
 ||stats.deloitte.com^
 ||sstats.deloitte.com^
@@ -17218,6 +17219,7 @@
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
+||wildcard.outbrain.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -22241,8 +22243,6 @@
 ||goggl.com^
 ||goggle.com^
 ||events.gogoair.com^
-||wat.gogoinflight.com^
-||wats.gogoinflight.com^
 ||marketing.gogreat.com^
 ||digitalmarketing.gogsg.com^
 ||frbdzc.goguynet.jp^
@@ -60906,6 +60906,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||106.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^

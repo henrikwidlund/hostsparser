@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-21 06:23:43Z
+! Last Modified: 2022-05-21 12:31:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13612,6 +13612,7 @@
 ||gcirm.courierpostonline.com^
 ||srepdata.courierpostonline.com^
 ||srepdata.courierpress.com^
+||btkbei.courir.com^
 ||hal.courrierinternational.com^
 ||course-orlen.biz^
 ||course-orlen.us^
@@ -13874,9 +13875,6 @@
 ||dealersuccess.cross-sell.com^
 ||ads.crosscut.com^
 ||matomo.crossiety.app^
-||img.crossinstall.com^
-||creatives.crossinstall.com^
-||rtb-east-wins.crossinstall.com^
 ||impressions.crossinstall.io^
 ||step-service.crossinstall.io^
 ||creative-analytics.crossinstall.io^
@@ -21838,6 +21836,7 @@
 ||glams.pl^
 ||click.glamsquad.com^
 ||links.glamsquad.com^
+||pciokm.glamuse.com^
 ||ads.glasove.com^
 ||glassesofwine.com^
 ||yueqal.glassesusa.com^

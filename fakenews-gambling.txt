@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-21 06:23:29Z
+! Last Modified: 2022-05-21 12:30:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2849,6 +2849,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||bs-wlb-uswest.dvgtm.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -36653,7 +36654,6 @@
 ||go.njc.co.jp^
 ||go.njit.edu^
 ||ma.njkk.co.jp^
-||marketing.njoyn.com^
 ||media.nk-net.pl^
 ||xstatic.nk-net.pl^
 ||ay.nktostip.xyz^
@@ -40557,7 +40557,6 @@
 ||jsovks.perrysport.nl^
 ||persconsbesorcourt.tk^
 ||persecutes.com^
-||ads.persgroep.net^
 ||images.persgroepadvertising.be^
 ||persgroepadvertising.nl^
 ||go.persistent.com^
@@ -62598,6 +62597,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||cmsdev.net.zooplus.fr^
 ||moo1slb.net.zooplus.fr^
 ||net-owa.net.zooplus.fr^
 ||net.owa.net.zooplus.fr^

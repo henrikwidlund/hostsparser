@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-21 06:23:36Z
+! Last Modified: 2022-05-21 12:30:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -27282,7 +27282,6 @@
 ||im.jiguang.cn^
 ||sdk.jiguang.cn^
 ||verification.jiguang.cn^
-||sdk.verification.jiguang.cn^
 ||jihadwatch.org^
 ||jilarohtas.com^
 ||jilliancamwell.com^
@@ -47118,6 +47117,9 @@
 ||p.shure.com^
 ||prvizg.shurgard.be^
 ||marketing.shurtapemail.com^
+||os.shutterfly.com^
+||ou.shutterfly.com^
+||trk.bc.shutterfly.com^
 ||zrsetz.shutterstock.com^
 ||smb.info.shutterstock.com^
 ||m.custom.info.shutterstock.com^
@@ -52023,6 +52025,7 @@
 ||topinncohe.xyz^
 ||rvdnyq.topito.com^
 ||refwkk.topky.sk^
+||ads.toplayaffiliates.com^
 ||toplistcity.com^
 ||toplistim.com^
 ||topmeds10.com^

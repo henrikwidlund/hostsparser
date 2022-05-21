@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-21 06:23:35Z
+! Last Modified: 2022-05-21 12:30:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17238,6 +17238,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||cdn2.teads.tv.edgekey.net^
 ||pinterest.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
@@ -60053,6 +60054,7 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||partner.proxy.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^
@@ -63613,6 +63615,7 @@
 ||ns.machinevisioncert.net.zooplus.it^
 ||ns.machinevisionmail.net.zooplus.it^
 ||ns.machinevisionolap.net.zooplus.it^
+||ns.machinevisionpass.net.zooplus.it^
 ||ns.machinevisionteam.net.zooplus.it^
 ||ns.machineviuploadon.net.zooplus.it^
 ||ns.madockerinevision.net.zooplus.it^
