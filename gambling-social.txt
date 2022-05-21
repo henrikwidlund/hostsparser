@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-20 18:22:44Z
+! Last Modified: 2022-05-21 01:14:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8240,6 +8240,7 @@
 ||sephora-qa.branchstaging.com^
 ||go.brand-satei.me^
 ||brand-tech.net^
+||k.brandalley.co.nl^
 ||adservices.brandcdn.com^
 ||brandcopy2016.com^
 ||brandedcorner.com^
@@ -17200,7 +17201,6 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
-||api.vungle.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -17209,6 +17209,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
+||ma562-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -52142,8 +52143,6 @@
 ||trout.travelmassive.com^
 ||go.travelmediagroup.com^
 ||smetrics.travelmoneyonline.co.uk^
-||openad.travelnow.com^
-||affiliate.travelnow.com^
 ||travelocidy.com^
 ||travelocite.com^
 ||travelocitu.com^

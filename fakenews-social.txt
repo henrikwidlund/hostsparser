@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-20 18:22:38Z
+! Last Modified: 2022-05-21 01:14:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2548,7 +2548,6 @@
 ||afilo.pl^
 ||go.afinialabel.com^
 ||afkarnasa.com^
-||newsletter.afklcargo.com^
 ||info.afl.com.au^
 ||app.aflink.com^
 ||tr.donateur.afm-telethon.fr^
@@ -60174,7 +60173,6 @@
 ||2labnode.net.zooplus.de^
 ||2swagger.net.zooplus.de^
 ||academic.net.zooplus.de^
-||acc.2lab.net.zooplus.de^
 ||acc.cert.net.zooplus.de^
 ||acccar40.net.zooplus.de^
 ||acccsr12.net.zooplus.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-20 18:22:48Z
+! Last Modified: 2022-05-21 01:14:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1206,6 +1206,16 @@
 ||5kteens.com^
 ||5kv261gjmq04c9.com^
 ||ads.5min.at^
+||wykaz.5p.pl^
+||rejestr.5p.pl^
+||plikgier.5p.pl^
+||status24.5p.pl^
+||rejestr24.5p.pl^
+||wylaczone.5p.pl^
+||zawieszone.5p.pl^
+||topgryusluga.5p.pl^
+||uslugatopgry.5p.pl^
+||uslugitopgry.5p.pl^
 ||5rambiental.com.br^
 ||5rocks.io^
 ||5sms.xyz^
@@ -40601,7 +40611,6 @@
 ||ecszdb.mirapodo.de^
 ||marketing.mirasf.com^
 ||yyezbr.miratorg.ru^
-||crm.miraxs.co.jp^
 ||ads.mircx.com^
 ||saemaeul.mireene.com^
 ||miresnahapsi.pro^
@@ -48765,7 +48774,6 @@
 ||penix.fr^
 ||penix.nl^
 ||azscgj.penningtons.com^
-||metrics.pennlive.com^
 ||cc.pennstatehealth.org^
 ||metrics.penny-reisen.de^
 ||pny.net.penny.de^
@@ -61049,7 +61057,6 @@
 ||dc.stenaline.dk^
 ||dc.stenaline.es^
 ||dc.stenaline.fr^
-||dc.stenaline.ie^
 ||dc.stenaline.lt^
 ||dc.stenaline.lv^
 ||dc.stenaline.nl^

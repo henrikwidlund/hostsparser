@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-20 18:22:30Z
+! Last Modified: 2022-05-21 01:13:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -37861,6 +37861,8 @@
 ||lasseryberg.dk^
 ||lassoesapostasy.com^
 ||last-chainleash.net^
+||aa.last.fm^
+||saa.last.fm^
 ||bwp.lastfm.com.com^
 ||lastfrontiernews.com^
 ||metrics.lastminute.ch^
@@ -58014,6 +58016,7 @@
 ||resignsubtlety.top^
 ||i.resilio.com^
 ||okr.resily.com^
+||info.resimaxgroup.com.au^
 ||pinniped.resist.bot^
 ||resmiwepyr.ml^
 ||resolvingserver.com^
