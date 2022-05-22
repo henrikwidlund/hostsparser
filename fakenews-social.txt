@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-22 06:22:34Z
+! Last Modified: 2022-05-22 12:31:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15866,9 +15866,6 @@
 ||mkmree.dmm.co.jp^
 ||ad.dmm.com^
 ||gcirm.dmregister.com^
-||sdc.dn.no^
-||maling.dn.no^
-||maling.ue.dn.no^
 ||oas.dn.se^
 ||marketing.dnacenter.com^
 ||dnatestsale.com^
