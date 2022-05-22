@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-22 01:26:36Z
+! Last Modified: 2022-05-22 06:22:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2110,6 +2110,7 @@
 ||bestoffers.activeshopper.com^
 ||e-zshopper.activeshopper.com^
 ||ads.activestate.com^
+||app.activetrail.com^
 ||activewatch.ro^
 ||med.actonel.com^
 ||actonservice.com^

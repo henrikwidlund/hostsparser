@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-22 01:26:17Z
+! Last Modified: 2022-05-22 06:22:30Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16860,8 +16860,6 @@
 ||teslainfo.droptox.xyz^
 ||teslachart.droptox.xyz^
 ||drossmnfg.com^
-||saa.drphil.com^
-||oascentral.drphil.com^
 ||myapi.drreddys.com^
 ||tracking.drreddys.com^
 ||drsamidavid.com^
@@ -17645,6 +17643,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||cdn2.teads.tv.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -24582,7 +24581,6 @@
 ||hjkotor.site^
 ||hjyed.shop^
 ||pardot.hkex.com.hk^
-||pardot.hkexgroup.com^
 ||hkg518.com^
 ||bet.hkjc.com^
 ||protection.hkpolice.com^
@@ -33740,6 +33738,7 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
+||udp.push.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^

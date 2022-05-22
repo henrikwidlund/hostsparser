@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-22 01:26:14Z
+! Last Modified: 2022-05-22 06:22:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6961,7 +6961,6 @@
 ||avon-severozapad.ru^
 ||avon-ukraine.com^
 ||secured.online.avon.com^
-||advertisement.avosapps.us^
 ||marketing.avoxi.com^
 ||counter.avp2000.com^
 ||avpayments.com^
@@ -21471,7 +21470,6 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
-||wildcard.aniview.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^

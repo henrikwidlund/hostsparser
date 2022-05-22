@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-22 01:26:25Z
+! Last Modified: 2022-05-22 06:22:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23181,8 +23181,6 @@
 ||ct2.harisen.jp^
 ||adserver.harktheherald.com^
 ||sstats.harlequin.com^
-||metrics.harley-davidson.com^
-||smetrics.harley-davidson.com^
 ||harleyqueretaro.com^
 ||harm6stop.com^
 ||goembed.harman.com^
