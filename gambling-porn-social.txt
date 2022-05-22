@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-22 12:31:13Z
+! Last Modified: 2022-05-22 18:21:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2152,7 +2152,6 @@
 ||ablink.mail.activearcade.ai^
 ||metrics.activecommunities.com^
 ||smetrics.activecommunities.com^
-||avworld.activehosted.com^
 ||activeideas.net^
 ||panther.activelink.ie^
 ||smetrics.activenetwork.com^
@@ -11797,6 +11796,9 @@
 ||pol.capital-prg5.site^
 ||pro.capital-prg5.site^
 ||uk1.capital-prg5.site^
+||br.capital-prg6.site^
+||ce.capital-prg6.site^
+||ce1.capital-prg6.site^
 ||fg.capital-prog.xyz^
 ||rn.capital-prog.xyz^
 ||tk.capital-prog.xyz^
@@ -20111,6 +20113,8 @@
 ||teslainfo.droptox.xyz^
 ||teslachart.droptox.xyz^
 ||drossmnfg.com^
+||saa.drphil.com^
+||oascentral.drphil.com^
 ||drpornofilme.com^
 ||drporntube.com^
 ||myapi.drreddys.com^
@@ -79534,6 +79538,7 @@
 ||net.zooplus.it^
 ||dii1.zooplus.it^
 ||dii2.zooplus.it^
+||68-131.net.zooplus.it^
 ||krkarketing.net.zooplus.it^
 ||lbmarketing.net.zooplus.it^
 ||mail-docker.net.zooplus.it^
@@ -80370,6 +80375,7 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
+||ov3a.net.zooplus.nl^
 ||amp-res1.net.zooplus.nl^
 ||appsmail.net.zooplus.nl^
 ||auth-acc.net.zooplus.nl^
