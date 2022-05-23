@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-23 01:25:57Z
+! Last Modified: 2022-05-23 06:25:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9877,7 +9877,6 @@
 ||centerpointmedia.com^
 ||centersession.com^
 ||centertrk.com^
-||metrics.centex.com^
 ||centogx.com^
 ||centra-token.com^
 ||centra.credit^
@@ -39053,6 +39052,7 @@
 ||parkwooddoors.co.nz^
 ||communications.parmenion-im.co.uk^
 ||parnerimcarpich.com^
+||ad.parom.hu^
 ||stats.parqet.com^
 ||www3.parqueexplora.org^
 ||parrandaice.com^

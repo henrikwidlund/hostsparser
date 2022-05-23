@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-23 01:25:59Z
+! Last Modified: 2022-05-23 06:25:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -43396,8 +43396,6 @@
 ||quickcash-system.com^
 ||quickcreditscore.co.uk^
 ||quickdates1.com^
-||omni.quickenloans.com^
-||somni.quickenloans.com^
 ||click.quickenloansnow.com^
 ||quickfilmz.com^
 ||quickmarketingcampaigns.com^
@@ -62875,7 +62873,6 @@
 ||marketing.docsapi.net.zooplus.it^
 ||marketing.jenkins.net.zooplus.it^
 ||marketing.machine.net.zooplus.it^
-||na.sandbox.gwsweb.net.zooplus.it^
 ||ns.checkoutvision.net.zooplus.it^
 ||ns.ciachinevision.net.zooplus.it^
 ||ns.externalvision.net.zooplus.it^

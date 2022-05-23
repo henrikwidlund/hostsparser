@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-23 01:26:08Z
+! Last Modified: 2022-05-23 06:25:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42362,6 +42362,7 @@
 ||proservcomercio.com^
 ||discover.proshipinc.com^
 ||hbbtv-track.prosieben.de^
+||hbbtv-track.prosiebensat1puls4.com^
 ||proslimin.com^
 ||prosoc.nl^
 ||y84rq7enige9s5.prosoftmlm.com^
@@ -57689,7 +57690,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
@@ -62630,7 +62630,6 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||chd-v2.net.zooplus.nl^
 ||amp-res1.net.zooplus.nl^
 ||appsmail.net.zooplus.nl^
 ||auth-acc.net.zooplus.nl^
