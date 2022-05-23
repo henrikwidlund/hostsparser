@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-22 18:21:13Z
+! Last Modified: 2022-05-23 01:25:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8914,6 +8914,7 @@
 ||om.businessweek.com^
 ||ads.businessweek.com^
 ||oascentral.businessweeks.com^
+||centipede.buskersbern.ch^
 ||busloadbeezers.pl^
 ||buss-pl.website^
 ||bustabit.com^
@@ -65291,6 +65292,7 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
+||fra1.net.zooplus.nl^
 ||amp-res1.net.zooplus.nl^
 ||appsmail.net.zooplus.nl^
 ||auth-acc.net.zooplus.nl^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-22 18:21:25Z
+! Last Modified: 2022-05-23 01:25:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17142,7 +17142,6 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
-||wildcard46.akstat.io.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -62876,6 +62875,7 @@
 ||marketing.docsapi.net.zooplus.it^
 ||marketing.jenkins.net.zooplus.it^
 ||marketing.machine.net.zooplus.it^
+||na.sandbox.gwsweb.net.zooplus.it^
 ||ns.checkoutvision.net.zooplus.it^
 ||ns.ciachinevision.net.zooplus.it^
 ||ns.externalvision.net.zooplus.it^
@@ -63472,7 +63472,6 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||owa-ci.net.zooplus.nl^
 ||amp-res1.net.zooplus.nl^
 ||appsmail.net.zooplus.nl^
 ||auth-acc.net.zooplus.nl^
@@ -64839,7 +64838,6 @@
 ||frontpage.developer-blogloadbalancerowa.net.zooplus.nl^
 ||node-production-c.ns.emailvision-tomcat.net.zooplus.nl^
 ||ns.controlmarketing-eazurevision-tomcat.net.zooplus.nl^
-||c.ns.controlmarketing-erepovision-tomcat.net.zooplus.nl^
 ||controlmarketing-emailvision-tomcat.auth.net.zooplus.nl^
 ||controlmarketing-emailvision-tomcat.cert.net.zooplus.nl^
 ||emailvision-tomcatblogloadbalancer-stage.net.zooplus.nl^

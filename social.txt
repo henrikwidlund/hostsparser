@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-22 18:21:41Z
+! Last Modified: 2022-05-23 01:26:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29025,7 +29025,6 @@
 ||cli.linksynergy.com^
 ||track.linksynergy.com^
 ||banner.linksynergy.com^
-||mproxy.banner.linksynergy.com^
 ||linktarget.com^
 ||info.linkties.com^
 ||ads.linktracking.net^
