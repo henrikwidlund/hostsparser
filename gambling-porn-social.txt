@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-23 12:34:18Z
+! Last Modified: 2022-05-23 18:23:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42772,63 +42772,6 @@
 ||global.msmtrakk06d.com^
 ||asu.msmu.ru^
 ||adtag.msn.ca^
-||r.msn.com^
-||h1.msn.com^
-||ads.msn.com^
-||otf.msn.com^
-||rad.msn.com^
-||ads2.msn.com^
-||rads.msn.com^
-||ads1.msn.com^
-||flex.msn.com^
-||c.no.msn.com^
-||c.ar.msn.com^
-||c.at.msn.com^
-||c.be.msn.com^
-||c.br.msn.com^
-||c.ca.msn.com^
-||c.cl.msn.com^
-||c.de.msn.com^
-||c.dk.msn.com^
-||c.es.msn.com^
-||c.fi.msn.com^
-||c.fr.msn.com^
-||c.gr.msn.com^
-||c.hk.msn.com^
-||c.id.msn.com^
-||c.ie.msn.com^
-||c.il.msn.com^
-||c.in.msn.com^
-||c.it.msn.com^
-||c.jp.msn.com^
-||c.my.msn.com^
-||c.nl.msn.com^
-||c.ph.msn.com^
-||c.pt.msn.com^
-||c.ru.msn.com^
-||c.se.msn.com^
-||c.sg.msn.com^
-||c.th.msn.com^
-||c.tr.msn.com^
-||c.tw.msn.com^
-||c.uk.msn.com^
-||c.za.msn.com^
-||arc1.msn.com^
-||popup.msn.com^
-||rmads.msn.com^
-||ads.eu.msn.com^
-||c.latam.msn.com^
-||preview.msn.com^
-||ads1.jp.msn.com^
-||rmads.eu.msn.com^
-||amer.rel.msn.com^
-||apac.rel.msn.com^
-||emea.rel.msn.com^
-||analytics.msn.com^
-||c.prodigy.msn.com^
-||mobileleads.msn.com^
-||adsyndication.msn.com^
-||advertising.jp.msn.com^
 ||msn1.com^
 ||aamt.msnbc.com^
 ||analytics.msnbc.com^
@@ -67884,7 +67827,6 @@
 ||go.tyntec.com^
 ||woutkw.type.jp^
 ||landfowl.typegang.com^
-||pptz.typografix.de^
 ||ltc.typoten.com^
 ||test.typoten.com^
 ||ga.typstade.xyz^
@@ -75035,9 +74977,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -78187,6 +78131,7 @@
 ||owa-ssl.net.zooplus.fr^
 ||owa-svc.net.zooplus.fr^
 ||owa-www.net.zooplus.fr^
+||owa.acc.net.zooplus.fr^
 ||owa.api.net.zooplus.fr^
 ||owa.git.net.zooplus.fr^
 ||owa.net.net.zooplus.fr^
@@ -80372,6 +80317,7 @@
 ||uxt-product-group-top-section-dev.activemarketing.net.zooplus.it^
 ||machinevisionuxt-supplier-financed-middle-banner-qa.net.zooplus.it^
 ||machinevision-uxt-supplier-financed-middle-banner-dev.net.zooplus.it^
+||ns.machinevisionuxt-supplier-financed-middle-banner-qa.net.zooplus.it^
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
