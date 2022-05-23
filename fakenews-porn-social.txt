@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-23 06:25:29Z
+! Last Modified: 2022-05-23 12:34:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12779,6 +12779,7 @@
 ||charms-tech.com^
 ||charmstroy.info^
 ||stg.charoll.org^
+||media.charter.com^
 ||chartersbe.pl^
 ||info.chartspan.com^
 ||t.chartwayarena.com^
@@ -19460,8 +19461,6 @@
 ||track.docusign.jp^
 ||track.docusign.mx^
 ||mk.doda-challenge.jp^
-||remnkv.doda.jp^
-||go.campus.doda.jp^
 ||dodac.site^
 ||dodajogloszenia.pl^
 ||tjitde.dodo.it^
