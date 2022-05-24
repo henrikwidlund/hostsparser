@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-24 01:43:13Z
+! Last Modified: 2022-05-24 06:23:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7766,7 +7766,6 @@
 ||bnpparibas-nouvelle-securite.info^
 ||bnpparibas-secure-biznes.at^
 ||bnpparibas-securisation.fr^
-||smetrics.bnpparibas.com^
 ||bnpparibas52697.info^
 ||sstats.bnpparibasfortis.be^
 ||bnpparilbas.pl^
@@ -8322,7 +8321,6 @@
 ||brie5jiff.com^
 ||zlolhl.briefly.ru^
 ||content.brigadegroup.co.in^
-||nvpdaa.brightcellars.com^
 ||brightcom.com^
 ||info.brightcove.com^
 ||goku.brightcove.com^
@@ -30688,9 +30686,6 @@
 ||go.lt-empower.com^
 ||inpost.lt-item.eu^
 ||lt-product.info^
-||1roof.ltd.uk^
-||hexusads.fluent.ltd.uk^
-||adserver4.fluent.ltd.uk^
 ||smetrics.ltdcommodities.com^
 ||stats.ltdhunt.com^
 ||ltg.ltd^
@@ -33354,6 +33349,7 @@
 ||refer.moo.com^
 ||mood-crpt.site^
 ||llama.moodgym.com.au^
+||rook.moodgym.de^
 ||info.moodle.com^
 ||moodoo.com.cn^
 ||radio.moodybible.org^
@@ -60142,6 +60138,7 @@
 ||accemea.net.zooplus.de^
 ||accmail.net.zooplus.de^
 ||acex201.net.zooplus.de^
+||adm.api.net.zooplus.de^
 ||airwave.net.zooplus.de^
 ||alphaus.net.zooplus.de^
 ||amp-se1.net.zooplus.de^
