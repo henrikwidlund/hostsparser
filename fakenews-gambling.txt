@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-23 18:23:38Z
+! Last Modified: 2022-05-24 01:43:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30376,6 +30376,12 @@
 ||xyxgbs.lezhin.com^
 ||lezrweb.com^
 ||lfeeder.com^
+||ads1.lfengmobile.com^
+||dnm.scloud.lfengmobile.com^
+||push.scloud.lfengmobile.com^
+||agnes.scloud.lfengmobile.com^
+||control.scloud.lfengmobile.com^
+||xfeedback.scloud.lfengmobile.com^
 ||lincolnfinancialgroup.lfg.com^
 ||c4l.lfgsm.edu^
 ||lfkommersiella.se^
@@ -60958,7 +60964,6 @@
 ||2labnode.net.zooplus.de^
 ||2swagger.net.zooplus.de^
 ||academic.net.zooplus.de^
-||acc.2lab.net.zooplus.de^
 ||acc.cert.net.zooplus.de^
 ||acccar40.net.zooplus.de^
 ||acccsr12.net.zooplus.de^

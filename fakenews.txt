@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-23 18:23:43Z
+! Last Modified: 2022-05-24 01:43:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7514,7 +7514,6 @@
 ||pstats.blogworks.com^
 ||blok-gp.com.pl^
 ||blokclbain.info^
-||www3.counter.bloke.com^
 ||ads.bloodhorse.com^
 ||adserver.bloodhorse.com^
 ||bloodrootsalve.com^
@@ -34220,6 +34219,8 @@
 ||myvisitors.com.au^
 ||anmcm-azmon.myvnc.com^
 ||myway.com^
+||prywatne-fotki.mywebcommunity.org^
+||gift-token-events.mywebcommunity.org^
 ||mywebsearch.com^
 ||adserv.mywebtimes.com^
 ||mywetherwailiet.com^
@@ -59567,6 +59568,7 @@
 ||csr12.net.zooplus.de^
 ||eupvf.net.zooplus.de^
 ||redir.net.zooplus.de^
+||0.data.net.zooplus.de^
 ||1-priv.net.zooplus.de^
 ||2-2lab.net.zooplus.de^
 ||2-prod.net.zooplus.de^
@@ -61259,7 +61261,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||proding.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||net.zooplus.fr^
@@ -63471,6 +63472,7 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
+||om.net.zooplus.nl^
 ||amp-res1.net.zooplus.nl^
 ||appsmail.net.zooplus.nl^
 ||auth-acc.net.zooplus.nl^
@@ -64866,7 +64868,6 @@
 ||legacy-c.ns.controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||ns-pantheon.controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||ns.aws-mail-controlmarketing-emailvision-tomcat.net.zooplus.nl^
-||c.ns.controlmarketing-emailvision-tomcatzoopluet.net.zooplus.nl^
 ||owa.engineering-loadbalancer-frontpage.bucketowa.net.zooplus.nl^
 ||testbed.c.ns.controlmarketing-emailvision-tomcat.net.zooplus.nl^
 ||ns.accounting-appssslmarketing-emailvision-tomcat.net.zooplus.nl^
