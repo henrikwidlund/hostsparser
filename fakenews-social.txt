@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-24 12:36:44Z
+! Last Modified: 2022-05-24 18:24:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6227,7 +6227,6 @@
 ||bernicey.shop^
 ||bernleftheater.nl^
 ||info.bernstein.com^
-||web7320.web07.bero-webspace.de^
 ||berp.com^
 ||go.berry.edu^
 ||berryen.com^
@@ -17016,6 +17015,9 @@
 ||ox.ebalus.com^
 ||pre.ebasos.club^
 ||clicked.ebates.com^
+||adn.ebay.com^
+||www2.export.ebay.com^
+||go.partnernetwork.ebay.com^
 ||ebayadvertising.com^
 ||ebaybanner.com^
 ||ads.ebc.li^
@@ -59069,7 +59071,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -64012,8 +64013,6 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||node.net.zooplus.nl^
-||login.net.zooplus.nl^
 ||amp-res1.net.zooplus.nl^
 ||appsmail.net.zooplus.nl^
 ||auth-acc.net.zooplus.nl^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-24 12:36:53Z
+! Last Modified: 2022-05-24 18:24:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -58669,6 +58669,7 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||mad-partner.net.zooplus.com^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
 ||1.net.zooplus.de^
@@ -60424,6 +60425,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||owaiad.net.zooplus.fr^
 ||moo1slb.net.zooplus.fr^
 ||net-owa.net.zooplus.fr^
 ||net.owa.net.zooplus.fr^
@@ -64001,7 +64003,6 @@
 ||emailvision-tomcatblogloadbalancer-stage.net.zooplus.nl^
 ||marketing-shop-discover-frontend-release.net.zooplus.nl^
 ||ns.controlmarketing-emailvision-mailapac.net.zooplus.nl^
-||ns.emailvision-tomcat-documentsmarketing.net.zooplus.nl^
 ||ns.engineering-loadbalancervision-tomcat.net.zooplus.nl^
 ||elasticbeanstalk.aws.restricted-marketing.net.zooplus.nl^
 ||controlelasticbeanstalk-emailvision-tomcat.net.zooplus.nl^
