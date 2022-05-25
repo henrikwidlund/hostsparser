@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-25 01:42:43Z
+! Last Modified: 2022-05-25 06:23:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8195,7 +8195,6 @@
 ||data1.bell.ca^
 ||solutions.bell.ca^
 ||enterprisesolutions.bell.ca^
-||capybara.bell0bytes.eu^
 ||furnishings.bellacor.com^
 ||bellagals.com^
 ||bellaporn.xyz^
@@ -78526,7 +78525,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

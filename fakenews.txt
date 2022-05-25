@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-25 01:42:57Z
+! Last Modified: 2022-05-25 06:23:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4226,6 +4226,7 @@
 ||arbusinessdaily.com^
 ||weld.arc-zone.com^
 ||arcadefree.com^
+||go.arcadia.edu^
 ||go.arcesb.com^
 ||go.arcfertility.com^
 ||adserver.archant.co.uk^
@@ -12870,6 +12871,7 @@
 ||coinmaximalist.com^
 ||coinparc.com^
 ||coinpayhub.ltd^
+||limpet.coinponent.com^
 ||coinrbase.com^
 ||amazon.coins-swap.io^
 ||pd.coinshares.com^

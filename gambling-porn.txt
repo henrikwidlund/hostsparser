@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-25 01:43:01Z
+! Last Modified: 2022-05-25 06:23:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24305,7 +24305,6 @@
 ||first-eth.info^
 ||go.first-finance.fr^
 ||first-handcalm.com^
-||delivery.first-impression.com^
 ||marketing.first-insight.com^
 ||first-mature.com^
 ||vinted.first-order.online^
@@ -36260,6 +36259,7 @@
 ||sdkapi.kookong.com^
 ||koopon.pl^
 ||g.koowo.com^
+||go.kooyonggroup.com.au^
 ||kopaniebitcoin.pl^
 ||kopece.site^
 ||kopeda.com^
@@ -76372,7 +76372,9 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -77810,6 +77812,7 @@
 ||csr12.net.zooplus.de^
 ||eupvf.net.zooplus.de^
 ||redir.net.zooplus.de^
+||0.data.net.zooplus.de^
 ||1-priv.net.zooplus.de^
 ||2-2lab.net.zooplus.de^
 ||2-prod.net.zooplus.de^
