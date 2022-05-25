@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-25 06:24:05Z
+! Last Modified: 2022-05-25 12:36:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18100,6 +18100,8 @@
 ||www2.exacthire.com^
 ||exactitudepaginate.com^
 ||ads.exactseek.com^
+||scmetrics.exacttarget.com^
+||sc2metrics.exacttarget.com^
 ||exacttargetapis.com^
 ||ams.exad.jp^
 ||exaf.jp^
@@ -43500,6 +43502,8 @@
 ||ads.roblox.com^
 ||metrics.roblox.com^
 ||roboinside.me^
+||gazp1.robot-trade.xyz^
+||gazp2.robot-trade.xyz^
 ||robotechcity.com^
 ||go.roboticcrowd.com^
 ||robotixpenedes.com^

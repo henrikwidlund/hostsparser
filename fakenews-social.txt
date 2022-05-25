@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-25 06:23:50Z
+! Last Modified: 2022-05-25 12:36:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8129,6 +8129,7 @@
 ||bpsjambi.id^
 ||bpsmoguide.com^
 ||br-stone.online^
+||tm.br.de^
 ||ablink.watch.br.live^
 ||ablink.notifications.br.live^
 ||blog.br0vvnn.io^
@@ -18751,6 +18752,8 @@
 ||www2.exacthire.com^
 ||exactitudepaginate.com^
 ||ads.exactseek.com^
+||scmetrics.exacttarget.com^
+||sc2metrics.exacttarget.com^
 ||exacttargetapis.com^
 ||ams.exad.jp^
 ||exaf.jp^

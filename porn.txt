@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-25 06:24:04Z
+! Last Modified: 2022-05-25 12:36:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22198,6 +22198,8 @@
 ||www2.exacthire.com^
 ||exactitudepaginate.com^
 ||ads.exactseek.com^
+||scmetrics.exacttarget.com^
+||sc2metrics.exacttarget.com^
 ||exacttargetapis.com^
 ||ams.exad.jp^
 ||exaf.jp^
@@ -46952,6 +46954,9 @@
 ||inpost-polska-qwb.order48382.info^
 ||inpost-polska-tnd.order48382.info^
 ||inpost-polska-xwx.order48382.info^
+||inpost-noop.order4939292.me^
+||inpost-polska-mp.order4939292.me^
+||inpost-polska-lls.order4939292.me^
 ||order548920.info^
 ||fjf.order574820.info^
 ||oferta-128.order574820.info^
@@ -80408,6 +80413,7 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
+||idsweb.net.zooplus.nl^
 ||amp-res1.net.zooplus.nl^
 ||appsmail.net.zooplus.nl^
 ||auth-acc.net.zooplus.nl^

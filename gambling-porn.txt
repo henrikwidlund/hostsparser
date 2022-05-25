@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-25 06:23:56Z
+! Last Modified: 2022-05-25 12:36:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20998,7 +20998,6 @@
 ||smetrics.ee.co.uk^
 ||eecakesconf.at^
 ||info.eecoonline.com^
-||adguanggao.eee114.com^
 ||web.care.eehealth.org^
 ||eelsoup.net^
 ||eenany.com^
@@ -22746,6 +22745,8 @@
 ||www2.exacthire.com^
 ||exactitudepaginate.com^
 ||ads.exactseek.com^
+||scmetrics.exacttarget.com^
+||sc2metrics.exacttarget.com^
 ||exacttargetapis.com^
 ||ams.exad.jp^
 ||exaf.jp^
@@ -24305,6 +24306,7 @@
 ||first-eth.info^
 ||go.first-finance.fr^
 ||first-handcalm.com^
+||delivery.first-impression.com^
 ||marketing.first-insight.com^
 ||first-mature.com^
 ||vinted.first-order.online^
@@ -66207,7 +66209,6 @@
 ||totolotek.pl^
 ||totowatch.biz^
 ||totszentmarton.hu^
-||stats.tou.tv^
 ||touch2explore.com^
 ||elv3-tslogging.touchcommerce.com^
 ||touchmylips.com^
@@ -75234,6 +75235,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
@@ -76372,9 +76374,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -77812,7 +77812,6 @@
 ||csr12.net.zooplus.de^
 ||eupvf.net.zooplus.de^
 ||redir.net.zooplus.de^
-||0.data.net.zooplus.de^
 ||1-priv.net.zooplus.de^
 ||2-2lab.net.zooplus.de^
 ||2-prod.net.zooplus.de^

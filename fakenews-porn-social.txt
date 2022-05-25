@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-25 06:23:46Z
+! Last Modified: 2022-05-25 12:36:00Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22801,6 +22801,8 @@
 ||www2.exacthire.com^
 ||exactitudepaginate.com^
 ||ads.exactseek.com^
+||scmetrics.exacttarget.com^
+||sc2metrics.exacttarget.com^
 ||exacttargetapis.com^
 ||ams.exad.jp^
 ||exaf.jp^
@@ -48143,7 +48145,6 @@
 ||oppressionsjagers.xyz^
 ||opprobriumsopprobriums.xyz^
 ||pa.opqr.co^
-||ssa.oprah.com^
 ||oprbophpst.com^
 ||opritho.xyz^
 ||oprjopdpst.com^
@@ -75867,7 +75868,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-25 06:23:48Z
+! Last Modified: 2022-05-25 12:36:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20859,7 +20859,6 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
-||a.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -22738,6 +22737,8 @@
 ||www2.exacthire.com^
 ||exactitudepaginate.com^
 ||ads.exactseek.com^
+||scmetrics.exacttarget.com^
+||sc2metrics.exacttarget.com^
 ||exacttargetapis.com^
 ||ams.exad.jp^
 ||exaf.jp^
@@ -60869,7 +60870,6 @@
 ||ocbhqr.skillmodernplan.top^
 ||skillsforest.net^
 ||alpaca.skillsnt.io^
-||go.skillsurvey.com^
 ||a8clk.skima.jp^
 ||static.skimlinks.com^
 ||3amcouk.skimlinks.com^
