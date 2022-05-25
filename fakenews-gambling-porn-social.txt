@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-24 18:24:01Z
+! Last Modified: 2022-05-25 01:42:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21472,6 +21472,7 @@
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
+||s-static.innovid.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
@@ -25444,6 +25445,8 @@
 ||fongyi.com.tw^
 ||home.foni.net^
 ||fontecmobile.com^
+||demo.fontecsys.net^
+||test.fontecsys.net^
 ||fontostudni.club^
 ||foo6bordelsonthenet.info^
 ||trk.food-management.com^
@@ -36964,7 +36967,6 @@
 ||gplayer.kmpmedia.net^
 ||smetrics.kmshair.com^
 ||brands.kmsmep.com^
-||metrics.kmsmep.com^
 ||brand-sdk.kmsmep.com^
 ||otomoto.kn2lm19a23.com^
 ||knacads.com^
@@ -56497,6 +56499,7 @@
 ||masdk.3g.qq.com^
 ||tools.3g.qq.com^
 ||httpring.qq.com^
+||ssl.msdk.qq.com^
 ||pingfore.qq.com^
 ||pingtcss.qq.com^
 ||adsclick.qq.com^
@@ -59250,7 +59253,6 @@
 ||smetrics.sainsburysbank.co.uk^
 ||go.saintleo.edu^
 ||go.saintmedia.co.jp^
-||apps.saintsoporte.com^
 ||sainzim.co.za^
 ||sitecatalysts.saisoncard.co.jp^
 ||saisuvidharestaurant.com^

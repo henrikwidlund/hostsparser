@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-24 18:24:13Z
+! Last Modified: 2022-05-25 01:43:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28369,7 +28369,6 @@
 ||gplayer.kmpmedia.net^
 ||smetrics.kmshair.com^
 ||brands.kmsmep.com^
-||metrics.kmsmep.com^
 ||brand-sdk.kmsmep.com^
 ||otomoto.kn2lm19a23.com^
 ||knacads.com^
@@ -31814,6 +31813,7 @@
 ||mecreative.xyz^
 ||marlin.mecv.xyz^
 ||smetrics.med-iq.com^
+||wolski.med.pl^
 ||pardot.medair.org^
 ||o.medallia.com^
 ||enterprise.medbridgeed.com^
@@ -59277,7 +59277,6 @@
 ||2labnode.net.zooplus.de^
 ||2swagger.net.zooplus.de^
 ||academic.net.zooplus.de^
-||acc.2lab.net.zooplus.de^
 ||acc.cert.net.zooplus.de^
 ||acccar40.net.zooplus.de^
 ||acccsr12.net.zooplus.de^
@@ -60912,7 +60911,6 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||campus.net.zooplus.fr^
 ||moo1slb.net.zooplus.fr^
 ||net-owa.net.zooplus.fr^
 ||net.owa.net.zooplus.fr^

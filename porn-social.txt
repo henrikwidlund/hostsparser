@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-24 18:24:16Z
+! Last Modified: 2022-05-25 01:43:06Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3418,7 +3418,6 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||tps-wlb-uswest.dvgtm.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -20457,7 +20456,6 @@
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
-||s-static.innovid.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
@@ -35379,7 +35377,6 @@
 ||gplayer.kmpmedia.net^
 ||smetrics.kmshair.com^
 ||brands.kmsmep.com^
-||metrics.kmsmep.com^
 ||brand-sdk.kmsmep.com^
 ||otomoto.kn2lm19a23.com^
 ||knacads.com^
@@ -54001,7 +53998,6 @@
 ||ysdk.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
-||mi.gdt.qq.com^
 ||logsdk.qq.com^
 ||omgmta.qq.com^
 ||pingjs.qq.com^

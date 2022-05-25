@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-24 18:24:17Z
+! Last Modified: 2022-05-25 01:43:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -28953,7 +28953,6 @@
 ||helpeachothergb975.club^
 ||helpeachothergb975.shop^
 ||helpeachothergb975.work^
-||vulkanvegasbonus.helpinghandimmigration.com^
 ||helpingtrk.com^
 ||helpishere577.casa^
 ||helpishere577.club^
@@ -31154,7 +31153,6 @@
 ||server.idreams.pl^
 ||shipsmarter.idrivelogistics.com^
 ||tracking.idsuperstore.com^
-||ukzjce.idus.com^
 ||angel.bk.idv.tw^
 ||idvipteam.com^
 ||tracking.idwholesaler.com^
@@ -35282,7 +35280,6 @@
 ||gplayer.kmpmedia.net^
 ||smetrics.kmshair.com^
 ||brands.kmsmep.com^
-||metrics.kmsmep.com^
 ||brand-sdk.kmsmep.com^
 ||otomoto.kn2lm19a23.com^
 ||knacads.com^
@@ -75081,10 +75078,13 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||uk.adserver.yahoo.com^
+||de.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -78206,6 +78206,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||242.net.zooplus.fr^
 ||moo1slb.net.zooplus.fr^
 ||net-owa.net.zooplus.fr^
 ||net.owa.net.zooplus.fr^
@@ -80412,6 +80413,8 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
+||fra1.net.zooplus.nl^
+||mia1.net.zooplus.nl^
 ||amp-res1.net.zooplus.nl^
 ||appsmail.net.zooplus.nl^
 ||auth-acc.net.zooplus.nl^
