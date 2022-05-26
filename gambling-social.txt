@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-25 18:22:56Z
+! Last Modified: 2022-05-26 01:44:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35631,8 +35631,6 @@
 ||olympusholding.co^
 ||olympusmarkets.com^
 ||ads.omaha.com^
-||sstats.omahasteaks.com^
-||business.omahasteaks.com^
 ||info.omax.com^
 ||ombrapiatta.com^
 ||investment.ombria.com^
@@ -51605,7 +51603,6 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
-||adsx.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -60748,7 +60745,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||accountingarketing.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

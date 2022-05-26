@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-25 18:22:40Z
+! Last Modified: 2022-05-26 01:44:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3450,6 +3450,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||tvx.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -57280,6 +57281,7 @@
 ||kd.rosnewss7.xyz^
 ||rossmanie.xyz^
 ||jvznla.rossmann.com.tr^
+||webtracking.medical.rossu.edu^
 ||rotaalquiler.com^
 ||rotabanner.com^
 ||rotanaz.com^
@@ -60931,6 +60933,7 @@
 ||smartmovies.net^
 ||ww2.smartmtgs.com^
 ||b.smartnews.be^
+||ads.smartolution.com^
 ||ape.smartplanschema.se^
 ||minnow.smartquotesforsmartpeople.com^
 ||branch-io.smartr365.com^
@@ -62527,6 +62530,7 @@
 ||stiffville.com^
 ||stiflersmoms.com^
 ||vampirebat.stiftung-palliativ-zuhause.de^
+||tracking.stihl.be^
 ||tracking.stihl.de^
 ||tracking.stihl.es^
 ||tracking.stihl.fr^
