@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-26 06:23:37Z
+! Last Modified: 2022-05-26 12:35:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36603,6 +36603,8 @@
 ||college.business.oregonstate.edu^
 ||communications.engineering.oregonstate.edu^
 ||oregoo.com^
+||metrics.oreilly.com^
+||smetrics.oreilly.com^
 ||hphtjv.orellfuessli.ch^
 ||orelnew.com^
 ||oreware.com^
@@ -62244,6 +62246,7 @@
 ||owa.shop-wall-beta-zooplus-com.net.zooplus.fr^
 ||owashop-wall-beta-bitiba-co-uk.net.zooplus.fr^
 ||owauxt-promotional-carousel-qa.net.zooplus.fr^
+||qa4.dr.globalredirector.gwsweb.net.zooplus.fr^
 ||server1.dev4.na.sandbox.gwsweb.net.zooplus.fr^
 ||server2.qa2.dr.cmsearch.gwsweb.net.zooplus.fr^
 ||shop-wall-beta-bitiba-co-ukowa.net.zooplus.fr^

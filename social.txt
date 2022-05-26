@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-26 06:23:44Z
+! Last Modified: 2022-05-26 12:35:52Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16148,6 +16148,8 @@
 ||ecube.com.mx^
 ||t.ecupirates.com^
 ||ed-clr-01.com^
+||go.wao.ed.jp^
+||ebiscname.clark.ed.jp^
 ||edaa.eu^
 ||geoip.edagames.com^
 ||edamcorp.com^
@@ -23733,6 +23735,7 @@
 ||open.phone.igexin.com^
 ||igfb.one^
 ||iglieve.gq^
+||tracking.igloosoftware.com^
 ||frnass.igluski.com^
 ||ig.igmarkets.com^
 ||igmholdings.com^
