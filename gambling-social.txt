@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-26 01:44:26Z
+! Last Modified: 2022-05-26 06:23:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -35631,6 +35631,8 @@
 ||olympusholding.co^
 ||olympusmarkets.com^
 ||ads.omaha.com^
+||sstats.omahasteaks.com^
+||business.omahasteaks.com^
 ||info.omax.com^
 ||ombrapiatta.com^
 ||investment.ombria.com^
@@ -36601,8 +36603,6 @@
 ||college.business.oregonstate.edu^
 ||communications.engineering.oregonstate.edu^
 ||oregoo.com^
-||metrics.oreilly.com^
-||smetrics.oreilly.com^
 ||hphtjv.orellfuessli.ch^
 ||orelnew.com^
 ||oreware.com^
