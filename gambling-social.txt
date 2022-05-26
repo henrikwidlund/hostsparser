@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-26 12:35:47Z
+! Last Modified: 2022-05-26 18:23:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -59169,6 +59169,7 @@
 ||mgmt-csr11.net.zooplus.de^
 ||mgmt.asana.net.zooplus.de^
 ||promocsr41.net.zooplus.de^
+||ssl.active.net.zooplus.de^
 ||ssl.admins.net.zooplus.de^
 ||ssl.apache.net.zooplus.de^
 ||static.api.net.zooplus.de^
@@ -60747,6 +60748,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||marketing-frontpage.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
@@ -62246,7 +62248,6 @@
 ||owa.shop-wall-beta-zooplus-com.net.zooplus.fr^
 ||owashop-wall-beta-bitiba-co-uk.net.zooplus.fr^
 ||owauxt-promotional-carousel-qa.net.zooplus.fr^
-||qa4.dr.globalredirector.gwsweb.net.zooplus.fr^
 ||server1.dev4.na.sandbox.gwsweb.net.zooplus.fr^
 ||server2.qa2.dr.cmsearch.gwsweb.net.zooplus.fr^
 ||shop-wall-beta-bitiba-co-ukowa.net.zooplus.fr^
@@ -64776,6 +64777,7 @@
 ||emailvision-tomcatblogloadbalancer-stage.net.zooplus.nl^
 ||ns.controlmarketing-emailvision-mailapac.net.zooplus.nl^
 ||ns.controlmarketing-emailvision-tomcat-us.net.zooplus.nl^
+||c.ns.sslbucketblogloadbalancer.emailvision.net.zooplus.nl^
 ||controlelasticbeanstalk-emailvision-tomcat.net.zooplus.nl^
 ||ns.controladministrator-emailvision-tomcat.net.zooplus.nl^
 ||ns.controlmarketing-emailvision-media-mail.net.zooplus.nl^

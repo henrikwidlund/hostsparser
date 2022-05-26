@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-26 12:35:38Z
+! Last Modified: 2022-05-26 18:23:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18046,6 +18046,8 @@
 ||demible.info^
 ||demiverse.com^
 ||democide.news^
+||ads.democratandchronicle.com^
+||gcirm.democratandchronicle.com^
 ||democraticreview.com^
 ||demoncmon.com^
 ||demonia-poiska.com^
@@ -55491,6 +55493,7 @@
 ||reniucha.pl^
 ||asmail.renkim.com^
 ||renoreporter.com^
+||getstarted.renorun.com^
 ||qgscbx.renote.jp^
 ||orangutan.renovare.org^
 ||renovatesystem.com^
