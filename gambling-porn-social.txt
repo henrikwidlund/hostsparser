@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-27 01:40:27Z
+! Last Modified: 2022-05-27 06:24:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -63836,6 +63836,7 @@
 ||thenudegirl.com^
 ||thenudepictures.com^
 ||tracking.theoceanac.online^
+||go.theoceancleanup.com^
 ||l2k30jsa.theochu.com^
 ||go.theofficegroup.com^
 ||tdep.theofficeservice.com^
@@ -73344,6 +73345,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
