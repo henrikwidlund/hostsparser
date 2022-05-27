@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-27 06:24:20Z
+! Last Modified: 2022-05-27 12:37:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25612,6 +25612,7 @@
 ||smetrics.intervalworld.com^
 ||interviewquant.com^
 ||tr.interviews-mediametrie.fr^
+||metrics.interweave.com^
 ||interwetten.com^
 ||info.interworks.cloud^
 ||intffabril.pl^
@@ -38964,7 +38965,6 @@
 ||inpost.pl-safeorder.com^
 ||olx.pl-safeorder.icu^
 ||olx.pl-safeordered.cyou^
-||olx.pl-safeordered.icu^
 ||olx.pl-safeordered.xyz^
 ||olx.pl-safepaid.cyou^
 ||inpost.pl-safepaid.cyou^

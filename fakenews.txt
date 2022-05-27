@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-27 06:24:14Z
+! Last Modified: 2022-05-27 12:36:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -56373,6 +56373,7 @@
 ||ifa.xhamstercams.com^
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
+||e.ad.xiaomi.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
@@ -56840,6 +56841,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||launch.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -61101,6 +61103,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||di2-marketing.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
@@ -62600,6 +62603,7 @@
 ||owa.shop-wall-beta-zooplus-com.net.zooplus.fr^
 ||owashop-wall-beta-bitiba-co-uk.net.zooplus.fr^
 ||owauxt-promotional-carousel-qa.net.zooplus.fr^
+||qa4.dr.globalredirector.gwsweb.net.zooplus.fr^
 ||server1.dev4.na.sandbox.gwsweb.net.zooplus.fr^
 ||server2.qa2.dr.cmsearch.gwsweb.net.zooplus.fr^
 ||shop-wall-beta-bitiba-co-ukowa.net.zooplus.fr^

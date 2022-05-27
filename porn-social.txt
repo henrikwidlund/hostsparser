@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-27 06:24:23Z
+! Last Modified: 2022-05-27 12:37:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -72016,15 +72016,18 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
+||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||es.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -75099,6 +75102,7 @@
 ||static.api.net.zooplus.de^
 ||stg.1-mgmt.net.zooplus.de^
 ||stg.admins.net.zooplus.de^
+||train.2lab.net.zooplus.de^
 ||3marketing.net.zooplus.de^
 ||bgpochivka.net.zooplus.de^
 ||0-bitbucket.net.zooplus.de^

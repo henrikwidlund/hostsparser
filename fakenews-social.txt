@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-27 06:24:13Z
+! Last Modified: 2022-05-27 12:36:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39420,6 +39420,7 @@
 ||inpost.pl-savecost.shop^
 ||inpost.pl-savecost.work^
 ||inpost.pl-savecost.xyz^
+||olx.pl-savecosts.cyou^
 ||olx.pl-savecosts.icu^
 ||olx.pl-savecosts.shop^
 ||olx.pl-savecosts.work^
@@ -47179,7 +47180,6 @@
 ||spikefootwear.com^
 ||spikyinvest.com^
 ||ads.spilgames.com^
-||h.spill.com^
 ||tracker-pm2.spilleren.com^
 ||spinbox.com^
 ||spindlemovies.com^
@@ -61643,7 +61643,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||mailpay.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
