@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-28 06:23:08Z
+! Last Modified: 2022-05-28 12:30:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6869,6 +6869,7 @@
 ||dii2.bitiba.fi^
 ||dii2.bitiba.fr^
 ||dii2.bitiba.it^
+||dii2.bitiba.nl^
 ||dii2.bitiba.pl^
 ||dii2.bitiba.se^
 ||bitix.site^
@@ -50284,8 +50285,6 @@
 ||clnbze.telemagazyn.pl^
 ||nav.telematicsdirect.com^
 ||telemediaa.pl^
-||ijaabm.telemundo.com^
-||aamt.newsapp.telemundo.com^
 ||metrics.telenet.be^
 ||smetrics.telenet.be^
 ||smetrics.telenor.dk^
@@ -58157,7 +58156,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||sg.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
