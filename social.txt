@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-28 12:30:59Z
+! Last Modified: 2022-05-28 18:22:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4407,6 +4407,8 @@
 ||aspenholding.com^
 ||leadership.aspeninstitute.org^
 ||ads.aspentimes.com^
+||deeplink.aspiration.com^
+||deeplink.alpha.aspiration.com^
 ||images.aspireclicks.com^
 ||cloud.aspiresys.com^
 ||bigdata.aspiresys.com^
@@ -16216,7 +16218,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||ma193-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^

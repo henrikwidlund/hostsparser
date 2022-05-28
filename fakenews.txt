@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-28 12:30:45Z
+! Last Modified: 2022-05-28 18:21:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5650,6 +5650,7 @@
 ||marketing-agro.basf.com^
 ||basiakurier.top^
 ||basicproduce.com^
+||go.basinc.com^
 ||analytics.basistheory.com^
 ||baskidunyasi.net^
 ||info.baslerweb.com^
@@ -30840,7 +30841,6 @@
 ||banner.media-system.de^
 ||media-trust-info.com^
 ||media-truth.com^
-||i.media.cz^
 ||mediaarea.eu^
 ||03.mediaboard-03.cyou^
 ||mediabridge.cc^
@@ -61100,9 +61100,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||alpha5ail.net.zooplus.es^
-||chd.apacing.net.zooplus.es^
-||customering.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-28 12:30:37Z
+! Last Modified: 2022-05-28 18:21:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -50285,6 +50285,8 @@
 ||clnbze.telemagazyn.pl^
 ||nav.telematicsdirect.com^
 ||telemediaa.pl^
+||ijaabm.telemundo.com^
+||aamt.newsapp.telemundo.com^
 ||metrics.telenet.be^
 ||smetrics.telenet.be^
 ||smetrics.telenor.dk^
@@ -63922,6 +63924,7 @@
 ||shop-wall-prod-bitiba-nl-mail.net.zooplus.fr^
 ||shop-wall-prod-bitiba-se.mail.net.zooplus.fr^
 ||shop-wall-prod-zoobee-de.mail.net.zooplus.fr^
+||ssl.shop-wall-prod-zooplus-be.net.zooplus.fr^
 ||uxt-side-banner-dev.marketing.net.zooplus.fr^
 ||c6gs1t7cqbhn4ai7npe0.marketing.net.zooplus.fr^
 ||customer-settings-service.mail.net.zooplus.fr^
