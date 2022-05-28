@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-28 01:36:15Z
+! Last Modified: 2022-05-28 06:23:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6869,7 +6869,6 @@
 ||dii2.bitiba.fi^
 ||dii2.bitiba.fr^
 ||dii2.bitiba.it^
-||dii2.bitiba.nl^
 ||dii2.bitiba.pl^
 ||dii2.bitiba.se^
 ||bitix.site^
@@ -58158,6 +58157,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sg.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -62433,7 +62433,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||accountingarketing.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
@@ -66226,7 +66225,6 @@
 ||ns-frontpage.emailvision.net.zooplus.nl^
 ||ns.controlmarketing-beta.net.zooplus.nl^
 ||ns.emailvision.documents.net.zooplus.nl^
-||ns.form-swww-emailvision.net.zooplus.nl^
 ||nsconfluence.emailvision.net.zooplus.nl^
 ||owa-dii2ingacc.frontpage.net.zooplus.nl^
 ||owa.dii2ingacc.frontpage.net.zooplus.nl^

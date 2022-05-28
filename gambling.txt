@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-28 01:36:30Z
+! Last Modified: 2022-05-28 06:23:23Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2771,6 +2771,7 @@
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
+||pixel-us-east.rubiconproject.net.akadns.net^
 ||marketing.akaes.com^
 ||akaflieg-sb.de^
 ||akama.com^
@@ -35235,6 +35236,7 @@
 ||go-rilla.offerstrack.net^
 ||adcanopus.offerstrack.net^
 ||fuzeclick.offerstrack.net^
+||inpost-pl.offertopay.icu^
 ||offertrakking.info^
 ||offerx.co.uk^
 ||affiliate.offgamers.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-28 01:36:27Z
+! Last Modified: 2022-05-28 06:23:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3425,10 +3425,8 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||rtb.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
-||pixel.rubiconproject.net.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
@@ -68505,7 +68503,6 @@
 ||affiliates.usa-mature.com^
 ||link.usa-network.com^
 ||usa-webcams.com^
-||go.usa.gov^
 ||cdn.usabilitytracker.com^
 ||usachoice.net^
 ||usadserver.com^
@@ -74687,8 +74684,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
-||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -79348,7 +79343,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||marketing.cvs.net.zooplus.es^
+||mailpay.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
