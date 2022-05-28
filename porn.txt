@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-27 18:23:08Z
+! Last Modified: 2022-05-28 01:36:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7949,7 +7949,6 @@
 ||info.bendigotafe.edu.au^
 ||education.bendigotafe.edu.au^
 ||go.bendix.com.au^
-||go.benefit-one.co.jp^
 ||metrics.benefitcosmetics.de^
 ||text.benefitsatwork.be^
 ||text.benefitsatwork.ch^
@@ -73392,6 +73391,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||dk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

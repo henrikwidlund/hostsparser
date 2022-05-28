@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-27 18:23:07Z
+! Last Modified: 2022-05-28 01:36:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3356,7 +3356,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||cacp-hlb.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -20033,7 +20032,6 @@
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
-||ma156-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -29718,6 +29716,10 @@
 ||hpjav.top^
 ||hpjav.tv^
 ||hpphhpph.com^
+||rp.hpplay.cn^
+||logu.hpplay.cn^
+||imdns.hpplay.cn^
+||ssdkauth.hpplay.cn^
 ||hpsart.net^
 ||hptransparts.com^
 ||generatorkodow.hpu.pl^
@@ -78989,6 +78991,7 @@
 ||ns.machinevision-prd.net.zooplus.it^
 ||ns.machinevision-scm.net.zooplus.it^
 ||ns.machinevision.get.net.zooplus.it^
+||ns.machinevisionmail.net.zooplus.it^
 ||ns.machinevisionolap.net.zooplus.it^
 ||ns.machinevisionwall.net.zooplus.it^
 ||nschef.machinevision.net.zooplus.it^
