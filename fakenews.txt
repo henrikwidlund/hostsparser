@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-29 06:24:35Z
+! Last Modified: 2022-05-29 12:31:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6167,7 +6167,6 @@
 ||promo.betcity.net^
 ||betclic.com^
 ||betcounter.com^
-||banners.betcris.com^
 ||betelavower.com^
 ||smetrics.beterhoren.nl^
 ||pqmbxd.betersport.nl^
@@ -16723,6 +16722,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||wildcard.marketo.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -38631,6 +38631,7 @@
 ||go.phhlending.com^
 ||phikunprogramming.com^
 ||philadelphiaweddingguitarist.com^
+||stats.phili.pe^
 ||clownfish.philipkiely.com^
 ||philippschoch.ch^
 ||smetrics.marketing.philips-hue.com^
@@ -42899,8 +42900,6 @@
 ||regionalna-gazeta24.art^
 ||regionalnyportal.eu^
 ||regionews.net^
-||metrics.regions.com^
-||smetrics.regions.com^
 ||info.regis.edu^
 ||explore.regis.edu^
 ||registe.xyz^
@@ -61100,6 +61099,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||mail-nautilus.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

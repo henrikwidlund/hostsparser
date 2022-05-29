@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-29 06:24:41Z
+! Last Modified: 2022-05-29 12:31:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16788,6 +16788,7 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
+||deluxe.onetag.io.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
@@ -64715,7 +64716,6 @@
 ||owa.shop-wall-preview-zooplus-pt.net.zooplus.nl^
 ||ssl.shop-wall-preview-zooplus-fr.net.zooplus.nl^
 ||autodiscover-loadbalancerarketing.net.zooplus.nl^
-||c.ns.dierentoebehoren.emailvision.net.zooplus.nl^
 ||controlmailjet-emailvision-tomcat.net.zooplus.nl^
 ||controlsupport-emailvision-tomcat.net.zooplus.nl^
 ||devsnautilus.bucketowarelease-www.net.zooplus.nl^
