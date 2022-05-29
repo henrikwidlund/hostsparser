@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-28 18:21:48Z
+! Last Modified: 2022-05-29 01:45:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30841,6 +30841,7 @@
 ||banner.media-system.de^
 ||media-trust-info.com^
 ||media-truth.com^
+||i.media.cz^
 ||mediaarea.eu^
 ||03.mediaboard-03.cyou^
 ||mediabridge.cc^
