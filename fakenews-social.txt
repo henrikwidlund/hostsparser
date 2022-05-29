@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-29 01:45:23Z
+! Last Modified: 2022-05-29 06:24:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42501,9 +42501,7 @@
 ||affiliate.rakuten.co.jp^
 ||api.ranking.rakuten.co.jp^
 ||shopapi.ranking.rakuten.co.jp^
-||static.affiliate.rakuten.co.jp^
 ||rmp.rakuten.com^
-||s-bid.rmp.rakuten.com^
 ||brc.emails.rakuten.com^
 ||qa-brc.emails.rakuten.com^
 ||rd.comm.rakuten.net^
@@ -52770,7 +52768,6 @@
 ||tracking.uwindsor.ca^
 ||go.pace.uwinnipegcourses.ca^
 ||go.uws.edu^
-||go.uwstout.edu^
 ||quail.uxgigs.co^
 ||analytics.uxmetrics.com^
 ||ads.uxs.at^
@@ -58195,10 +58192,12 @@
 ||go.zillowgroup.com^
 ||mjp.zimad.com^
 ||zimadeals.pl^
+||j.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||nnivvr.zimmo.be^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||adtima.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||zingknowev.tk^
 ||ziniba.space^
@@ -61646,8 +61645,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||fw-ssl.net.zooplus.es^
-||searchssl.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
