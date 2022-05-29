@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-29 12:31:27Z
+! Last Modified: 2022-05-29 18:21:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3422,10 +3422,10 @@
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
+||dts.innovid.com.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||tps-wlb-uswest.dvgtm.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -80896,6 +80896,7 @@
 ||shop-wall-preview-zooplus-bearketing.net.zooplus.fr^
 ||shop-wall-preview-bitiba-nl-marketing.net.zooplus.fr^
 ||marketing-shop-wall-preview-zooplus-at.net.zooplus.fr^
+||server3.dev4.dr.globalredirector.gwsweb.net.zooplus.fr^
 ||uxt-supplier-financed-side-banner-prod.ssl.net.zooplus.fr^
 ||dii1.zooplus.gr^
 ||dii2.zooplus.gr^

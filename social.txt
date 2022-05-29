@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-29 12:31:33Z
+! Last Modified: 2022-05-29 18:21:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2694,6 +2694,7 @@
 ||vungle.akadns.net^
 ||turn.com.akadns.net^
 ||eyeblaster.akadns.net^
+||api.vungle.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
@@ -15939,6 +15940,7 @@
 ||mdws.eastcoastcu.ca^
 ||0koryu0.easter.ne.jp^
 ||admissions.easterncollege.ca^
+||mdws.easternedgecu.com^
 ||ay.eastmoney.com^
 ||eastpost.online^
 ||smetrics.eastwestbank.com^
@@ -59361,6 +59363,9 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||admlabarketing.net.zooplus.es^
+||firewalltwitch.net.zooplus.es^
+||testingfirewall.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

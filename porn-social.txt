@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-29 12:31:31Z
+! Last Modified: 2022-05-29 18:21:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3356,6 +3356,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||bs.eyeblaster.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -20035,6 +20036,7 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||wildcard.evidon.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -48791,6 +48793,8 @@
 ||olx.pl-otrzymac.shop^
 ||olx.pl-otrzymac.work^
 ||inpost.pl-otrzymac.work^
+||olx.pl-otrzymac.xyz^
+||inpost.pl-otrzymac.xyz^
 ||inpost.pl-paid.icu^
 ||olx.pl-paid.work^
 ||inpost.pl-paid.work^
