@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-30 06:27:39Z
+! Last Modified: 2022-05-30 12:34:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3060,6 +3060,7 @@
 ||ads.alive.com^
 ||blog.alivedoors.com^
 ||acjs.aliyun.com^
+||fineboost-loghub.ap-southeast-1.log.aliyuncs.com^
 ||aljassarengineering.com^
 ||aljazeera-channel.com^
 ||tags.aljazeera.com^
@@ -34424,6 +34425,7 @@
 ||tr.news-chocolat.com^
 ||tr.news-companeo.fr^
 ||tr.news-companeo.mx^
+||tr.news-companeo.pl^
 ||news-finances.com^
 ||news-flash.net^
 ||news-l.info^
@@ -43109,7 +43111,6 @@
 ||recruitments-moderator-academy.com^
 ||go.recrutement.co^
 ||rectangledownloads.com^
-||med.rectiv.com^
 ||recuerdosfm.com^
 ||recursosenaccion.com^
 ||b.recwwcc5.info^
@@ -60284,6 +60285,7 @@
 ||adm-docker.net.zooplus.de^
 ||admincar40.net.zooplus.de^
 ||adtm-csr12.net.zooplus.de^
+||api.active.net.zooplus.de^
 ||api.server.net.zooplus.de^
 ||apidocsowa.net.zooplus.de^
 ||apps-csr12.net.zooplus.de^
@@ -61891,6 +61893,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||applicationswebapp.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

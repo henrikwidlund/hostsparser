@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-30 06:27:49Z
+! Last Modified: 2022-05-30 12:34:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3675,6 +3675,7 @@
 ||alivegirls.com^
 ||alivesex.org^
 ||acjs.aliyun.com^
+||fineboost-loghub.ap-southeast-1.log.aliyuncs.com^
 ||aljassarengineering.com^
 ||tags.aljazeera.com^
 ||tags.aljazeera.net^
@@ -20112,7 +20113,6 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
-||wl.aniview.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -77053,7 +77053,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||chd.apacing.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

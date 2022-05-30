@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-30 06:27:34Z
+! Last Modified: 2022-05-30 12:34:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -693,7 +693,6 @@
 ||engage.3mireland.ie^
 ||engage.3mitalia.it^
 ||engage.3mlietuva.lt^
-||engage.3mmagyarorszag.hu^
 ||engage.3mmaroc.ma^
 ||engage.3mnederland.nl^
 ||engage.3mnz.co.nz^
@@ -3034,6 +3033,7 @@
 ||ads.alive.com^
 ||blog.alivedoors.com^
 ||acjs.aliyun.com^
+||fineboost-loghub.ap-southeast-1.log.aliyuncs.com^
 ||aljassarengineering.com^
 ||aljazeera-channel.com^
 ||tags.aljazeera.com^

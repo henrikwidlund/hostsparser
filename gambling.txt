@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-30 06:27:48Z
+! Last Modified: 2022-05-30 12:34:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3004,6 +3004,7 @@
 ||ads.alive.com^
 ||blog.alivedoors.com^
 ||acjs.aliyun.com^
+||fineboost-loghub.ap-southeast-1.log.aliyuncs.com^
 ||aljassarengineering.com^
 ||tags.aljazeera.com^
 ||tags.aljazeera.net^
@@ -24776,6 +24777,7 @@
 ||inbet88.com^
 ||inblfhnd.com^
 ||inbox-messages.net^
+||adbox.inbox-online.com^
 ||download.inboxace.com^
 ||inbreedingscallow.info^
 ||inbreedingspulverizations.info^
@@ -55790,7 +55792,9 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -56389,6 +56393,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst8.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
@@ -60511,6 +60516,9 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||acc.labarketing.net.zooplus.es^
+||control-prod.ssl.net.zooplus.es^
+||containerarketing.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

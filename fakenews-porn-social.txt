@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-30 06:27:36Z
+! Last Modified: 2022-05-30 12:34:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3705,6 +3705,7 @@
 ||alivegirls.com^
 ||alivesex.org^
 ||acjs.aliyun.com^
+||fineboost-loghub.ap-southeast-1.log.aliyuncs.com^
 ||aljassarengineering.com^
 ||aljazeera-channel.com^
 ||tags.aljazeera.com^
@@ -74747,6 +74748,8 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst0.ec.yimg.com^
+||ac.ybinst5.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

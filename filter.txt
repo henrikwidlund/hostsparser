@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-30 06:27:28Z
+! Last Modified: 2022-05-30 12:34:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3734,6 +3734,7 @@
 ||alivegirls.com^
 ||alivesex.org^
 ||acjs.aliyun.com^
+||fineboost-loghub.ap-southeast-1.log.aliyuncs.com^
 ||aljassarengineering.com^
 ||aljazeera-channel.com^
 ||tags.aljazeera.com^
@@ -60588,7 +60589,6 @@
 ||siliconbeachusc.com^
 ||analytics.siliconexpert.com^
 ||siliconwives.com^
-||metrics.silive.com^
 ||secure.silk0palm.com^
 ||silkangels.com^
 ||silkengirl.com^
@@ -77215,6 +77215,7 @@
 ||m.yap.yahoo.com^
 ||gemini.yahoo.com^
 ||pclick.yahoo.com^
+||na.ads.yahoo.com^
 ||adspecs.yahoo.com^
 ||ads.yap.yahoo.com^
 ||beap.adx.yahoo.com^
