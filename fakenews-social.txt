@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-30 12:34:39Z
+! Last Modified: 2022-05-30 18:22:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -43111,6 +43111,7 @@
 ||recruitments-moderator-academy.com^
 ||go.recrutement.co^
 ||rectangledownloads.com^
+||med.rectiv.com^
 ||recuerdosfm.com^
 ||recursosenaccion.com^
 ||b.recwwcc5.info^
@@ -60285,7 +60286,6 @@
 ||adm-docker.net.zooplus.de^
 ||admincar40.net.zooplus.de^
 ||adtm-csr12.net.zooplus.de^
-||api.active.net.zooplus.de^
 ||api.server.net.zooplus.de^
 ||apidocsowa.net.zooplus.de^
 ||apps-csr12.net.zooplus.de^
@@ -61893,7 +61893,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||applicationswebapp.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^
