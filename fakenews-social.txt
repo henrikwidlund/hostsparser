@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-30 01:42:11Z
+! Last Modified: 2022-05-30 06:27:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34424,7 +34424,6 @@
 ||tr.news-chocolat.com^
 ||tr.news-companeo.fr^
 ||tr.news-companeo.mx^
-||tr.news-companeo.pl^
 ||news-finances.com^
 ||news-flash.net^
 ||news-l.info^
@@ -63733,7 +63732,6 @@
 ||marketing.m.net.zooplus.it^
 ||ns.cloudapp.net.zooplus.it^
 ||ns.ghvision.net.zooplus.it^
-||owa.kubectl.net.zooplus.it^
 ||partnermail.net.zooplus.it^
 ||account-mail.net.zooplus.it^
 ||activeeurope.net.zooplus.it^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-30 01:42:04Z
+! Last Modified: 2022-05-30 06:27:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22180,6 +22180,7 @@
 ||go-moderation-exam.com^
 ||go-rank.de^
 ||jkzdny.go-sport.com^
+||analytics.ext.go-tellm.com^
 ||ipdswg.go-to-sport.ru^
 ||go.biz^
 ||ad.go.com^
