@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-31 01:42:24Z
+! Last Modified: 2022-05-31 06:23:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24698,7 +24698,6 @@
 ||ablink.mail1.iheart.com^
 ||my.iheartradio.com^
 ||analytics.ihg.com^
-||secure.analytics.ihg.com^
 ||adsrv2.ihlassondakika.com^
 ||marketing.ihrdc.com^
 ||owss.ihs.com^
@@ -25156,6 +25155,7 @@
 ||tr.info-btob-leaders.com^
 ||olx.info-buyerdelivery.xyz^
 ||tr.info-companeo.be^
+||vjnted.info-deliveryuser.site^
 ||info-dla-kazdego.pl^
 ||info-dla-kazdego.xyz^
 ||info-dla-wszystkich.pl^
@@ -57631,6 +57631,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||launch.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -61893,6 +61894,10 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||customering.net.zooplus.es^
+||frontpagessl.net.zooplus.es^
+||di2-marketing.net.zooplus.es^
+||mailmarketing.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

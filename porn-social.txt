@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-31 01:42:33Z
+! Last Modified: 2022-05-31 06:23:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -42618,7 +42618,6 @@
 ||link.nbcadmin.com^
 ||lpbhnv.nbcchicago.com^
 ||lpbhnv.nbcdfw.com^
-||lpbhnv.nbclosangeles.com^
 ||lpbhnv.nbcmiami.com^
 ||aamt.nbcnews.com^
 ||links.nbcnews.com^
@@ -42643,6 +42642,7 @@
 ||agility.ncaa.com^
 ||analytics.ncaa.com^
 ||branchct.ncapp04.com^
+||marketing.ncbrunswick.com^
 ||nccsc.net^
 ||ads.nccwebs.com^
 ||ncfws.cn^
@@ -72401,6 +72401,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

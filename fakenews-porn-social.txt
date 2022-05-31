@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-31 01:42:20Z
+! Last Modified: 2022-05-31 06:23:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -40330,6 +40330,7 @@
 ||meteon.org^
 ||pixel.meteora.us^
 ||lrhyty.meteovista.be^
+||werbung.meteoxpress.com^
 ||go.meter.group^
 ||meterotica.com^
 ||metheaven.com^
@@ -70542,7 +70543,6 @@
 ||wcmissourinews.com^
 ||wcnewmexiconews.com^
 ||wcpanews.com^
-||enter.wcpclub.com^
 ||wctc.net^
 ||wctexasnews.com^
 ||wcwisconsinnews.com^
@@ -74553,6 +74553,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sg.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
