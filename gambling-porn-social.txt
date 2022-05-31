@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-31 12:36:32Z
+! Last Modified: 2022-05-31 18:23:07Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24799,6 +24799,7 @@
 ||a8clk.francfranc.com^
 ||business.franchiseforsale.com^
 ||info.franchisegator.com^
+||subscriber.franchiseinsights.com^
 ||business.franchiseopportunities.com^
 ||news.franchiseparis.com^
 ||unl1zvy2zuyn.franchiseplus.nl^
@@ -73728,6 +73729,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

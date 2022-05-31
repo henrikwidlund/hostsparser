@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-31 12:36:34Z
+! Last Modified: 2022-05-31 18:23:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3432,6 +3432,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||bs.eyeblaster.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -27467,6 +27468,8 @@
 ||gopogle.com^
 ||tcn.goprogstu.xyz^
 ||marketing.goprovidence.com^
+||t.gopsusports.com^
+||app.gopsusports.com^
 ||gor03.ru^
 ||gorace-info.pl^
 ||gorace-informacje.pl^
@@ -36806,6 +36809,13 @@
 ||info.lexipol.com^
 ||tracking.risk.lexisnexis.co.uk^
 ||solutions.risk.lexisnexis.co.uk^
+||bis.lexisnexis.com^
+||law.lexisnexis.com^
+||software.lexisnexis.com^
+||professional.lexisnexis.com^
+||tracking.risk.lexisnexis.com^
+||solutions.risk.lexisnexis.com^
+||solutions2.risk.lexisnexis.com^
 ||information.lexisnexis.jp^
 ||campaign.lexjet.com^
 ||tracking.health.lexmed.com^
@@ -52963,6 +52973,7 @@
 ||prisma.ae^
 ||prismaliquid.xyz^
 ||prismaliquld.xyz^
+||abo.prismamediadigital.com^
 ||tk.prismashop.fr^
 ||park-energylandia.priv.pl^
 ||privacy-tools-for-you-103.xyz^
