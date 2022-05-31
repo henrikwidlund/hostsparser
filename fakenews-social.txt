@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-30 18:22:34Z
+! Last Modified: 2022-05-31 01:42:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -24698,6 +24698,7 @@
 ||ablink.mail1.iheart.com^
 ||my.iheartradio.com^
 ||analytics.ihg.com^
+||secure.analytics.ihg.com^
 ||adsrv2.ihlassondakika.com^
 ||marketing.ihrdc.com^
 ||owss.ihs.com^
@@ -25155,7 +25156,6 @@
 ||tr.info-btob-leaders.com^
 ||olx.info-buyerdelivery.xyz^
 ||tr.info-companeo.be^
-||vjnted.info-deliveryuser.site^
 ||info-dla-kazdego.pl^
 ||info-dla-kazdego.xyz^
 ||info-dla-wszystkich.pl^
