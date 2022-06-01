@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-01 12:40:17Z
+! Last Modified: 2022-06-01 18:24:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17700,7 +17700,6 @@
 ||d-serv.net^
 ||d1886-urps.co^
 ||cats.d20.rs^
-||d2c.ne.jp^
 ||d2cmedia.ca^
 ||d2pass.com^
 ||d3d02-uppps.click^
@@ -28608,6 +28607,8 @@
 ||smetrics.gshock.com^
 ||sanalytics.adobe.tp.gskpro.com^
 ||ads.gsm-exchange.com^
+||a.gsmarena.com^
+||adsnew.gsmarena.com^
 ||ads.gsmexchange.com^
 ||smetrics.gsretail.com^
 ||vphsiv.gsshop.com^
@@ -76418,6 +76419,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

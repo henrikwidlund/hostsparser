@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-01 12:40:07Z
+! Last Modified: 2022-06-01 18:23:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2857,7 +2857,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||s.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -14869,7 +14868,6 @@
 ||d-road.com^
 ||d1886-urps.co^
 ||cats.d20.rs^
-||d2c.ne.jp^
 ||d2cmedia.ca^
 ||d3d02-uppps.click^
 ||realmedia-a800.d4p.net^
@@ -60252,7 +60250,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -62625,7 +62622,6 @@
 ||production.emailvision.net.zooplus.nl^
 ||virginia-keller.fgt-f1.net.zooplus.nl^
 ||accounting-appssslcsr41.net.zooplus.nl^
-||administrator.auth-mail.net.zooplus.nl^
 ||bucketowa-mailcloudfront.net.zooplus.nl^
 ||dii2ing-marketinguploads.net.zooplus.nl^
 ||mail.developer.bucketowa.net.zooplus.nl^
