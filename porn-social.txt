@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-31 18:23:15Z
+! Last Modified: 2022-06-01 01:55:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39955,6 +39955,24 @@
 ||qgssfa.missme.com^
 ||missogyny.com^
 ||misstpinups.co.nz^
+||599.stats.misstrends.com^
+||602.stats.misstrends.com^
+||604.stats.misstrends.com^
+||606.stats.misstrends.com^
+||654.stats.misstrends.com^
+||671.stats.misstrends.com^
+||680.stats.misstrends.com^
+||699.stats.misstrends.com^
+||726.stats.misstrends.com^
+||750.stats.misstrends.com^
+||803.stats.misstrends.com^
+||879.stats.misstrends.com^
+||986.stats.misstrends.com^
+||1559.stats.misstrends.com^
+||1800.stats.misstrends.com^
+||1867.stats.misstrends.com^
+||2278.stats.misstrends.com^
+||4184.stats.misstrends.com^
 ||missx.co.il^
 ||ai.mist.com^
 ||mistchem.com^
@@ -72382,7 +72400,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||us.adserver.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
@@ -77035,7 +77052,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||control-prod.ssl.net.zooplus.es^
 ||dii1.zooplus.fi^
 ||dii2.zooplus.fi^
 ||dii1.zooplus.fr^

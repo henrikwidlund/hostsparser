@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-05-31 18:23:07Z
+! Last Modified: 2022-06-01 01:55:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -72591,6 +72591,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||cdn.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
@@ -73729,7 +73730,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -80110,6 +80110,7 @@
 ||ns.alpha.net.zooplus.it^
 ||owa.wwww.net.zooplus.it^
 ||portal.t.net.zooplus.it^
+||ssl.docs.net.zooplus.it^
 ||activeadm.net.zooplus.it^
 ||activeaws.net.zooplus.it^
 ||activeids.net.zooplus.it^
@@ -80228,6 +80229,7 @@
 ||mail-webxch.net.zooplus.it^
 ||mail.bucket.net.zooplus.it^
 ||mail.github.net.zooplus.it^
+||mail.header.net.zooplus.it^
 ||marketing.m.net.zooplus.it^
 ||ns.cloudapp.net.zooplus.it^
 ||ns.ghvision.net.zooplus.it^
