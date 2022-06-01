@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-01 06:28:41Z
+! Last Modified: 2022-06-01 12:40:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8861,6 +8861,7 @@
 ||ads.bidstreamserver.com^
 ||bidtellect.com^
 ||bidtraffic.com^
+||www2.bidtravel.es^
 ||secure.bidvertiserr.com^
 ||biedronka-global.biz^
 ||biedronka-global.us^
@@ -16249,6 +16250,7 @@
 ||comsysnet.com^
 ||mdws.comtechcu.com^
 ||mdws.comtechfirecu.com^
+||www2.comunicaciones-correosexpress.com^
 ||tracker.comunidadmarriott.com^
 ||comusume.net^
 ||fix.comvis.site^
@@ -28606,8 +28608,6 @@
 ||smetrics.gshock.com^
 ||sanalytics.adobe.tp.gskpro.com^
 ||ads.gsm-exchange.com^
-||a.gsmarena.com^
-||adsnew.gsmarena.com^
 ||ads.gsmexchange.com^
 ||smetrics.gsretail.com^
 ||vphsiv.gsshop.com^
