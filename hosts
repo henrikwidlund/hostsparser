@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-02 12:39:55Z
+! Last Modified: 2022-06-02 18:22:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19910,7 +19910,6 @@
 ||revive.docmatic.org^
 ||rec1.smt.docomo.ne.jp^
 ||bizsolution.docomo.ne.jp^
-||cdn.adnwif.smt.docomo.ne.jp^
 ||docs-downloading.com^
 ||docsgonebad.com^
 ||docsmartenspolska.pl^
@@ -29691,6 +29690,8 @@
 ||halx.live^
 ||hamajim.com^
 ||hamalibg.biz^
+||elq.hamamatsu.com^
+||saa-aem.hamamatsu.com^
 ||openx.hamarepo.com^
 ||s.hamiltonnews.com^
 ||hamiltonpainters.ca^
@@ -41793,6 +41794,7 @@
 ||meridianites.com^
 ||merijntjeaanderijn.nl^
 ||merinde-delivery.com^
+||connect.meringcarson.com^
 ||info.meriwest.com^
 ||www2.merkleinc.com^
 ||merkuryi.pl^
@@ -78570,7 +78572,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-02 12:40:17Z
+! Last Modified: 2022-06-02 18:22:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2848,45 +2848,6 @@
 ||a1843.g.akamai.net^
 ||e7876.dscg.akamaiedge.net^
 ||e37364.dscd.akamaiedge.net^
-||redge-a.akamaihd.net^
-||twimg0-0.akamaihd.net^
-||middycdn-a.akamaihd.net^
-||fbstatic-a.akamaihd.net^
-||greatfind-a.akamaihd.net^
-||fbexternal-a.akamaihd.net^
-||spotxchange-a.akamaihd.net^
-||fbcdn-photos-a.akamaihd.net^
-||fbcdn-vthumb-a.akamaihd.net^
-||cdn2sitescout-a.akamaihd.net^
-||fbcdn-profile-a.akamaihd.net^
-||fbcdn-sphotos-a.akamaihd.net^
-||fbcdn-video-a-a.akamaihd.net^
-||fbcdn-video-b-a.akamaihd.net^
-||fbcdn-video-c-a.akamaihd.net^
-||fbcdn-video-d-a.akamaihd.net^
-||fbcdn-video-e-a.akamaihd.net^
-||fbcdn-video-f-a.akamaihd.net^
-||fbcdn-video-g-a.akamaihd.net^
-||fbcdn-video-h-a.akamaihd.net^
-||fbcdn-video-i-a.akamaihd.net^
-||fbcdn-video-j-a.akamaihd.net^
-||fbcdn-video-k-a.akamaihd.net^
-||fbcdn-video-l-a.akamaihd.net^
-||fbcdn-video-m-a.akamaihd.net^
-||fbcdn-video-n-a.akamaihd.net^
-||fbcdn-video-o-a.akamaihd.net^
-||fbcdn-video-p-a.akamaihd.net^
-||fbcdn-creative-a.akamaihd.net^
-||fbcdn-photos-e-a.akamaihd.net^
-||fbcdn-sphotos-a-a.akamaihd.net^
-||fbcdn-sphotos-b-a.akamaihd.net^
-||fbcdn-sphotos-c-a.akamaihd.net^
-||fbcdn-sphotos-d-a.akamaihd.net^
-||fbcdn-sphotos-e-a.akamaihd.net^
-||fbcdn-sphotos-f-a.akamaihd.net^
-||fbcdn-sphotos-g-a.akamaihd.net^
-||fbcdn-sphotos-h-a.akamaihd.net^
-||instagramstatic-a.akamaihd.net^
 ||abcd.mdc.akamaized.net^
 ||cdn-guile.akamaized.net^
 ||dyn-beacon.akamaized.net^
@@ -15959,7 +15920,6 @@
 ||revive.docmatic.org^
 ||rec1.smt.docomo.ne.jp^
 ||bizsolution.docomo.ne.jp^
-||cdn.adnwif.smt.docomo.ne.jp^
 ||docs-downloading.com^
 ||docsgonebad.com^
 ||docsmartenspolska.pl^
@@ -49530,7 +49490,6 @@
 ||guerria-skateboard-tommy.tabrays.com^
 ||aid-golf-golfdust-training.tabrays.com^
 ||aa-metrics.tabroom.jp^
-||ads.tabuflix.com^
 ||tabxolabs.com^
 ||activate.tacdn.com^
 ||tachcinchonines.com^

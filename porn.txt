@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-02 12:40:21Z
+! Last Modified: 2022-06-02 18:22:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18983,7 +18983,6 @@
 ||revive.docmatic.org^
 ||rec1.smt.docomo.ne.jp^
 ||bizsolution.docomo.ne.jp^
-||cdn.adnwif.smt.docomo.ne.jp^
 ||docs-downloading.com^
 ||docsgonebad.com^
 ||docsmartenspolska.pl^
@@ -77751,6 +77750,7 @@
 ||all-gem-stones.net.zooplus.nl^
 ||backend-owaiad.net.zooplus.nl^
 ||billingappsssl.net.zooplus.nl^
+||c.ns.eghvision.net.zooplus.nl^
 ||cert-marketing.net.zooplus.nl^
 ||concdn.ribob01.net.zooplus.nl^
 ||management-owa.net.zooplus.nl^
