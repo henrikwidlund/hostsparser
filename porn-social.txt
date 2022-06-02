@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-02 01:44:18Z
+! Last Modified: 2022-06-02 06:24:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10960,7 +10960,6 @@
 ||buycheapadvertising.com^
 ||stats.buycostumes.com^
 ||buycutegifts.com^
-||response2.buydomains.com^
 ||ihpost.buyer-deljveryinfo.xyz^
 ||jnpost.buyer-shipmentgoods.xyz^
 ||inp0st.buyercargopaypage.xyz^
@@ -37687,6 +37686,7 @@
 ||logsss.com^
 ||lnpost-polsca.loherpobicetopl03.click^
 ||go.lohika.com^
+||marketing.loim.com^
 ||lojarfstore.com.br^
 ||ztqnls.lojasrenner.com.br^
 ||lojho.xyz^
@@ -73747,9 +73747,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

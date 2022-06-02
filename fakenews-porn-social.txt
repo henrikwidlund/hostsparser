@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-02 01:44:03Z
+! Last Modified: 2022-06-02 06:24:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5029,6 +5029,7 @@
 ||angelsfeetsite.com^
 ||angelsfire.nl^
 ||angelsfirstaid.com^
+||openx.angelsgroup.org.uk^
 ||angelshot.net^
 ||angelsinnmanali.com^
 ||angelsinsatin.com^
@@ -75899,6 +75900,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-02 01:44:10Z
+! Last Modified: 2022-06-02 06:24:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19431,7 +19431,6 @@
 ||dlscotd.com^
 ||dlscrod-game.ru^
 ||dlsite.com^
-||img.dlsite.jp^
 ||dlsordnltros.gifts^
 ||dlsscord-gift.com^
 ||dluxrelax.com^
@@ -75081,6 +75080,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
