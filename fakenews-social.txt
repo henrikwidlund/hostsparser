@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-02 06:24:33Z
+! Last Modified: 2022-06-02 12:40:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -4794,7 +4794,6 @@
 ||go.atomos.com^
 ||connect.atonix.com^
 ||engage.atos.net^
-||go.atoss.com^
 ||atousoft.com^
 ||atout-energie-69.com^
 ||abemms.atp-autoteile.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-02 06:24:27Z
+! Last Modified: 2022-06-02 12:40:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46132,6 +46132,7 @@
 ||roundupbarandgrill.com^
 ||go.roush.com^
 ||a8.route-roller.info^
+||tr.route-solutiondata.fr^
 ||route31.org^
 ||go.routegenie.com^
 ||go.routematch.com^

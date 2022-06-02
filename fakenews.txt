@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-02 06:24:34Z
+! Last Modified: 2022-06-02 12:40:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36086,6 +36086,7 @@
 ||accpayment-now.ntfxcentretv.pl^
 ||nthus.online^
 ||communicatie.nti.nl^
+||stats.ntietz.com^
 ||ntkrnlpa.info^
 ||ntlligent.info^
 ||metrics.ntnews.com.au^
@@ -57964,7 +57965,6 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
-||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
