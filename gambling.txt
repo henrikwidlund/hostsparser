@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-01 18:24:07Z
+! Last Modified: 2022-06-02 01:44:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22208,7 +22208,6 @@
 ||goldlinkcapital.com^
 ||goldluckinvestment.com^
 ||goldmedalbingo.com^
-||info.goldmine.com^
 ||goldoverseas.in^
 ||go.goldprospectors.org^
 ||advertising.goldseek.com^
@@ -57135,6 +57134,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||globalapi.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -58434,7 +58434,6 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
-||app.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||zingknowev.tk^
 ||ziniba.space^
