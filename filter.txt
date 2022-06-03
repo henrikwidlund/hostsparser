@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-03 06:21:48Z
+! Last Modified: 2022-06-03 12:31:40Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2401,7 +2401,6 @@
 ||ssl.o.additudemag.com^
 ||addjump.com^
 ||addme.com^
-||realestate.addmeet.com^
 ||dhlamp.addmore.co.kr^
 ||clk.addmt.com^
 ||api.addnow.com^
@@ -58284,6 +58283,7 @@
 ||rexxx.com^
 ||rexxx.org^
 ||reynders.info^
+||inpost-pl.rezerwacja-srodkow.com^
 ||lnpost.rezerwsrodkow.site^
 ||rem.rezonmedia.eu^
 ||hiuplq.rezultati.com^
@@ -76342,7 +76342,6 @@
 ||elyxvt.wilsonamplifiers.com^
 ||wilsonbet.com^
 ||wilsonguide.com^
-||smetrics.wilsonniblett.com^
 ||csmetrics.wilton.com^
 ||wiltonreview.com^
 ||smetrics.wimbledon.com^
