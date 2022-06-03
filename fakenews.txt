@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-02 18:22:29Z
+! Last Modified: 2022-06-03 01:21:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2704,7 +2704,6 @@
 ||tk.airfrance.co.uk^
 ||tk.airfrance.com^
 ||tk.airfrance.cz^
-||tk.airfrance.de^
 ||tk.airfrance.fr^
 ||tk.airfrance.ga^
 ||tk.airfrance.gr^
@@ -15051,7 +15050,6 @@
 ||dersay.pl^
 ||dersfoi.win^
 ||metrics.dertour-reisebuero.de^
-||metrics.dertour.de^
 ||dertyn.xyz^
 ||deryl.com.pl^
 ||deryl.pl^
@@ -57963,7 +57961,6 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^

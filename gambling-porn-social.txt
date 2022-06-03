@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-02 18:22:30Z
+! Last Modified: 2022-06-03 01:21:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1063,9 +1063,6 @@
 ||info.439610.com^
 ||44-trk-srv.com^
 ||adv.440network.com^
-||dpd-pl.44112-online.sbs^
-||olx-pl.44112-online.sbs^
-||inpostpl.44112-online.sbs^
 ||polska-pay-dpd.442443.pw^
 ||444sports.com^
 ||inpost-pl.445091.xyz^
@@ -1731,7 +1728,6 @@
 ||aaaf.jp^
 ||aaannuairex.com^
 ||aaaporn.net^
-||smetrics.aaas.org^
 ||smetrics.aaasouth.com^
 ||aaaurgentcare.net^
 ||aaavids.com^
@@ -18405,6 +18401,7 @@
 ||jnpost.deliveryjnfouser.xyz^
 ||deliverylnfo.xyz^
 ||deliveryme.org^
+||dpd.deliverypay-form.xyz^
 ||impost.deliverypay-inform.xyz^
 ||olx.deliveryuser-deniedpl.xyz^
 ||inpost.deliveryuser-jnfo.xyz^

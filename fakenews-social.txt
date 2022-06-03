@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-02 18:22:27Z
+! Last Modified: 2022-06-03 01:21:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7061,6 +7061,7 @@
 ||us.bksn.se^
 ||prebid.bksn.se^
 ||smetrics.bkstr.com^
+||email.m1.bktrksmail.com^
 ||s.bl-1.com^
 ||ads.bl-consulting.net^
 ||cpanel.bl2ogi-finansowe.xyz^
@@ -24267,6 +24268,7 @@
 ||track.homestead.com^
 ||track2.homestead.com^
 ||detnmz.homesteady.com^
+||adimages.homestore.com^
 ||homestoretpg.com^
 ||stats.homestow.com^
 ||lzvwxy.hometogo.pl^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-02 18:22:36Z
+! Last Modified: 2022-06-03 01:21:13Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -53945,6 +53945,7 @@
 ||ad.qq.com^
 ||fw.qq.com^
 ||rh.qq.com^
+||c.l.qq.com^
 ||rs1.qq.com^
 ||rs2.qq.com^
 ||msdk.qq.com^
@@ -77750,7 +77751,6 @@
 ||all-gem-stones.net.zooplus.nl^
 ||backend-owaiad.net.zooplus.nl^
 ||billingappsssl.net.zooplus.nl^
-||c.ns.eghvision.net.zooplus.nl^
 ||cert-marketing.net.zooplus.nl^
 ||concdn.ribob01.net.zooplus.nl^
 ||management-owa.net.zooplus.nl^
