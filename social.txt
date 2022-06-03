@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-03 12:32:05Z
+! Last Modified: 2022-06-03 18:21:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9940,6 +9940,7 @@
 ||chilyregistrycleaner.com^
 ||chimericalagly.pl^
 ||marlin.chimpessentials.com^
+||ads.china.com^
 ||chinchincargo.com^
 ||chinesefiredrill.org^
 ||v5.chinoc.net^
@@ -32337,6 +32338,7 @@
 ||mp3helpdesk.com^
 ||mp3red.cc^
 ||ads.mp3searchy.com^
+||ax.mpapis.xyz^
 ||olx-pl.mpay-fs.info^
 ||mpestudios.pt^
 ||smetrics.mphasis.com^
@@ -38600,7 +38602,6 @@
 ||ads.phonepe.com^
 ||phones4you.be^
 ||phonesecure.mobi^
-||phontomsasa.cfd^
 ||phorm.ch^
 ||phorm.co.uk^
 ||phorm.com^
@@ -39075,6 +39076,8 @@
 ||olx.pl-paidcash.shop^
 ||inpost.pl-paidcash.work^
 ||inpost.pl-paidcash.xyz^
+||olx.pl-paidmoney.cyou^
+||inpost.pl-paidmoney.cyou^
 ||olx.pl-paidmoney.icu^
 ||inpost.pl-paidmoney.icu^
 ||olx.pl-paidmoney.shop^

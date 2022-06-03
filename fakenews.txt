@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-03 12:31:54Z
+! Last Modified: 2022-06-03 18:21:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9194,6 +9194,8 @@
 ||loere.capitalnoster.site^
 ||ppdos.capitalnoster.site^
 ||pl.pgnig.capitalnoster.site^
+||tms.capitalone.com^
+||metrics.capitalone.com^
 ||info.capitalonesettlement.com^
 ||in.capitalpol.xyz^
 ||la.capitalpol.xyz^
@@ -30273,6 +30275,7 @@
 ||lonsgus.com^
 ||adserver.lonuncavisto.com^
 ||loofbreeze.com^
+||eulerian.look-voyages.fr^
 ||app.cdn.lookbookhq.com^
 ||brands.lookfantastic.com^
 ||sbrands.lookfantastic.com^
@@ -31165,6 +31168,7 @@
 ||marian-wasilewski.pl^
 ||djbztw.marimekko.com^
 ||cjulor.marimekko.jp^
+||oxtrmw.marinarinaldi.com^
 ||discover.maringeneral.org^
 ||marinleader.com^
 ||marinoderosas.com^
@@ -33314,6 +33318,7 @@
 ||mp3helpdesk.com^
 ||mp3red.cc^
 ||ads.mp3searchy.com^
+||ax.mpapis.xyz^
 ||olx-pl.mpay-fs.info^
 ||mpestudios.pt^
 ||smetrics.mphasis.com^
@@ -39925,7 +39930,6 @@
 ||ads.phonepe.com^
 ||phones4you.be^
 ||phonesecure.mobi^
-||phontomsasa.cfd^
 ||phorm.ch^
 ||phorm.co.uk^
 ||phorm.com^

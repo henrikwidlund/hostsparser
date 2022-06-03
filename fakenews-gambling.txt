@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-03 12:31:47Z
+! Last Modified: 2022-06-03 18:20:55Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -34224,6 +34224,7 @@
 ||mp3helpdesk.com^
 ||mp3red.cc^
 ||ads.mp3searchy.com^
+||ax.mpapis.xyz^
 ||olx-pl.mpay-fs.info^
 ||mpcasino.com^
 ||mpestudios.pt^
@@ -40938,7 +40939,6 @@
 ||ads.phonepe.com^
 ||phones4you.be^
 ||phonesecure.mobi^
-||phontomsasa.cfd^
 ||phorm.ch^
 ||phorm.co.uk^
 ||phorm.com^
