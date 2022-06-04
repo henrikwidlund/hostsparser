@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-04 12:27:33Z
+! Last Modified: 2022-06-04 18:19:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17127,7 +17127,6 @@
 ||go.ecok.co.jp^
 ||ecoklahomanews.com^
 ||ecolife-home.com.pl^
-||go.ecology-plan.co.jp^
 ||ecomadserver.com^
 ||ecomerce-businesslotos.website^
 ||ecomerce-fin.website^
@@ -46352,6 +46351,7 @@
 ||smetrics.seat.dz^
 ||smetrics.seat.es^
 ||smetrics.seat.fi^
+||smetrics.seat.fr^
 ||smetrics.seat.ie^
 ||smetrics.seat.mx^
 ||smetrics.seat.pl^

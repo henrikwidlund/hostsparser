@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-04 12:27:35Z
+! Last Modified: 2022-06-04 18:19:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -47479,7 +47479,6 @@
 ||openx.skinet.cz^
 ||skinfars.com^
 ||sanalytics.skinny.co.nz^
-||b.skinstore.com^
 ||skinstrip.net^
 ||skinvisits.me^
 ||skippyfile.com^
@@ -53864,6 +53863,8 @@
 ||go.marshall.usc.edu^
 ||go.uscengineer.com^
 ||uschronicle.com^
+||t.usctrojans.com^
+||app.usctrojans.com^
 ||data.nal.usda.gov^
 ||usdcrisis.com^
 ||usdefensewatch.com^
