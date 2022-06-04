@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-04 06:19:54Z
+! Last Modified: 2022-06-04 12:27:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13905,7 +13905,6 @@
 ||wp1.cor-natty.com^
 ||coral.co.uk^
 ||siusmv.coraltravel.pl^
-||smetrics.corazon.cl^
 ||corbalanlopez.com^
 ||plausible.corbettbarr.com^
 ||corbettreport.com^
@@ -41367,7 +41366,6 @@
 ||olx.pl-give.shop^
 ||olx.pl-give.xyz^
 ||inpost.pl-give.xyz^
-||olx.pl-givecash.cyou^
 ||olx.pl-givecash.icu^
 ||olx.pl-givecash.shop^
 ||olx.pl-givecash.xyz^
@@ -60397,9 +60395,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
-||fr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

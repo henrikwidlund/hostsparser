@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-04 06:19:52Z
+! Last Modified: 2022-06-04 12:27:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39940,6 +39940,8 @@
 ||smetrics.lululemon.co.uk^
 ||metrics.lululemon.com^
 ||smetrics.lululemon.com^
+||metrics.lululemon.com.au^
+||smetrics.lululemon.com.au^
 ||smetrics.lululemon.com.hk^
 ||smetrics.lululemon.de^
 ||metrics.lululemon.jp^
@@ -71388,8 +71390,6 @@
 ||go.vertex-group.co.jp^
 ||demo.vertexinfo.in^
 ||vertexinvestinc.com^
-||syn.verticalacuity.com^
-||scripts.verticalacuity.com^
 ||verticalislands.com^
 ||verticalmass.com^
 ||ads.verticalresponse.com^
@@ -72408,6 +72408,7 @@
 ||smatning.volkswagen.se^
 ||fan.volleyball.world^
 ||volleyclub.pl^
+||email.vollrathco.com^
 ||vols7feed.com^
 ||volsex.com^
 ||go.voltactivedata.com^

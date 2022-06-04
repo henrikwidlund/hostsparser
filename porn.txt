@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-04 06:20:10Z
+! Last Modified: 2022-06-04 12:27:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15725,6 +15725,7 @@
 ||columbiaoutletpolska.pl^
 ||columbiapolska.com^
 ||go.columbusjcc.org^
+||createyou.columbusstate.edu^
 ||columngym.top^
 ||com-auth.site^
 ||g1-globo.com-b4.info^
@@ -70339,6 +70340,8 @@
 ||efficiency.visma.lv^
 ||tracking.visma.net^
 ||tracking.visma.nl^
+||tracking.visma.no^
+||tracking.lonnogpersonalabc.visma.no^
 ||tracking.visma.ro^
 ||tracking.visma.se^
 ||efficiency.visma.se^
@@ -75269,7 +75272,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
