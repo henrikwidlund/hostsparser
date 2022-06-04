@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-04 01:21:20Z
+! Last Modified: 2022-06-04 06:19:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6135,7 +6135,6 @@
 ||trustwalet.bdi24.life^
 ||xsrzqh.bdnews24.com^
 ||bdoaustralia.bdo.com.au^
-||sa.bdoaustralia.bdo.com.au^
 ||connect.bdoalliance.com^
 ||adserver.bdoce.cl^
 ||badger.bdon.org^
@@ -17188,6 +17187,8 @@
 ||aa.dyson.com^
 ||saa.dyson.com^
 ||business.dyson.com^
+||aa.dyson.de^
+||saa.dyson.de^
 ||aa.dyson.dk^
 ||aa.dyson.es^
 ||saa.dyson.es^
@@ -60396,7 +60397,9 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
+||fr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

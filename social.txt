@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-04 01:21:42Z
+! Last Modified: 2022-06-04 06:20:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14425,8 +14425,6 @@
 ||decorusfinancial.com^
 ||decouvre.la^
 ||cdn.decpo.xyz^
-||fpa-cdn.decrypt.co^
-||fpa-events.decrypt.co^
 ||decydujacymeble.site^
 ||dedera.tech^
 ||server274.dedicated-webhosting.xyz^
@@ -15805,7 +15803,6 @@
 ||dpdpl-receipt.xyz^
 ||info.dpf-support.com^
 ||advertising-cdn.dpgmedia.cloud^
-||go.dpgmedia.nl^
 ||dprintergerman.com^
 ||imap.dpsl.net^
 ||dqionic.uno^
@@ -56394,6 +56391,8 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||track.ad.xiaomi.com^
+||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
