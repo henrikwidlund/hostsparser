@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-03 18:21:00Z
+! Last Modified: 2022-06-04 01:21:28Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23997,6 +23997,7 @@
 ||hims1nice.com^
 ||sep02.hinagiku-life.jp^
 ||hindstoday.com^
+||analyse.hinemos.info^
 ||marketing.hines.com^
 ||odd-onead.cdn.hinet.net^
 ||osd-onead.cdn.hinet.net^
@@ -59123,6 +59124,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

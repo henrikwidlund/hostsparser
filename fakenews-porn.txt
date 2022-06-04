@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-03 18:20:59Z
+! Last Modified: 2022-06-04 01:21:26Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16118,7 +16118,6 @@
 ||hookworm.commanddot.com^
 ||commatube.com^
 ||xxlefq.commentcamarche.net^
-||go.commercehub.com^
 ||commetvidsnow.com^
 ||commindo-media-ressourcen.de^
 ||commissionempire.com^
@@ -25496,6 +25495,7 @@
 ||freelivesex.tv^
 ||freelivesex8.com^
 ||adverts.freeloader.com^
+||mx1.freemail.ne.jp^
 ||freemao.com^
 ||freemature.pro^
 ||freematureporn.xyz^
@@ -77390,6 +77390,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-03 18:21:08Z
+! Last Modified: 2022-06-04 01:21:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3430,10 +3430,12 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||ag.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||tvx.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -17593,6 +17595,7 @@
 ||trk.datacenterknowledge.com^
 ||trk.datacenterworld.com^
 ||comms.datacom.com^
+||comms.datacomgroup.net^
 ||info.datacore.com^
 ||datacquence.com^
 ||lungfish.datadividendproject.com^
@@ -19226,7 +19229,6 @@
 ||tlx.domtraded.xyz^
 ||domywife.com^
 ||donacalenta.com^
-||smetrics.donaldson.com^
 ||donateaccidental.com^
 ||visit.donateblood.com.au^
 ||donationukraine.io^
