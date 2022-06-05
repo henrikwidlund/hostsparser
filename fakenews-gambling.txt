@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-04 18:19:12Z
+! Last Modified: 2022-06-05 01:42:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2856,7 +2856,6 @@
 ||vungle.akadns.net^
 ||turn.com.akadns.net^
 ||eyeblaster.akadns.net^
-||api.vungle.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
@@ -21371,9 +21370,6 @@
 ||fromtj.com^
 ||fromwhereigo.com^
 ||toad.frontendmentor.io^
-||connect.frontier.com^
-||metrics.frontier.com^
-||smetrics.frontier.com^
 ||corporate.frontierconsul.net^
 ||pardot.frontiertruckparts.com^
 ||metrics.frontline.com^
@@ -27876,7 +27872,6 @@
 ||adserve.jbs.org^
 ||go.jbtc.com^
 ||jbvmix.link^
-||smetrics.jcb.co.jp^
 ||info.jccc.edu^
 ||jcedu.org^
 ||a8clk.asp.jcity.co.jp^
@@ -57102,6 +57097,7 @@
 ||wearelovelive.com^
 ||engage.wearemarketing.com^
 ||content.wearephenix.com^
+||go.weareworkforce.co.uk^
 ||knorzj.wearfigs.com^
 ||weargas.org^
 ||wearly.dk^

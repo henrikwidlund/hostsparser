@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-04 18:19:06Z
+! Last Modified: 2022-06-05 01:41:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12339,7 +12339,6 @@
 ||sanalytics.cartoonnetworkarabic.com^
 ||analytics.cartoonnetworkasia.com^
 ||sanalytics.cartoonnetworkasia.com^
-||sanalytics.cartoonnetworkclimatechampions.com^
 ||sanalytics.cartoonnetworkhq.com^
 ||sanalytics.cartoonnetworkindia.com^
 ||sanalytics.cartoonnetworkla.com^
@@ -22845,6 +22844,7 @@
 ||buy-hydrocodone.este.ru^
 ||estelaz.pl^
 ||estengrove.com^
+||dc.esterethyl.com^
 ||go.estes-express.com^
 ||sadbmetrics.estiloydecoracion.es^
 ||estiloymadera.com.py^
@@ -58515,7 +58515,6 @@
 ||ert5.rmcsport.tv^
 ||marketing.rmhoist.com^
 ||info.rmi.org^
-||horse.rmrk.app^
 ||shynet.rmrm.io^
 ||rmycevre.com^
 ||icdn02.igayporn.tv.sds.rncdn7.com^
@@ -78718,9 +78717,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
