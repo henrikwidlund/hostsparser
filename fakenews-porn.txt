@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-05 06:20:07Z
+! Last Modified: 2022-06-05 12:28:41Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -50635,6 +50635,8 @@
 ||pg-pl.work^
 ||pgalvaoteles.pt^
 ||branch.pgatour-mail.com^
+||analytics.pgatour.com^
+||swebanalytics.pgatour.com^
 ||pge-bok.net^
 ||pge-dystrybucja.net^
 ||pge-energyproj.info^
@@ -57170,7 +57172,6 @@
 ||rewardsflow.com^
 ||rewardsnow.co.uk^
 ||rewardszoneusa.com^
-||metrics.rewe-reisen.de^
 ||rw.net.rewe.de^
 ||metrics.rewe.de^
 ||rewelacja010.site^

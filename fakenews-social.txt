@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-05 06:20:08Z
+! Last Modified: 2022-06-05 12:28:43Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29054,6 +29054,7 @@
 ||laanchoa.it^
 ||smetrics.labaie.com^
 ||avp.labanquepostale.fr^
+||go.labarchives.com^
 ||marketing.labdepotinc.com^
 ||labebe.com^
 ||info.label-seal-print.com^
@@ -42985,6 +42986,7 @@
 ||prostagroup.host^
 ||prostezycie.click^
 ||prostozpolski365.pl^
+||trax.prostrax.com^
 ||eti.prosyst1.site^
 ||tip.prosyst1.site^
 ||tlxs.prosyst1.site^
@@ -59123,6 +59125,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

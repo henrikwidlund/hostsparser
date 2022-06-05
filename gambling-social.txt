@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-05 06:20:14Z
+! Last Modified: 2022-06-05 12:28:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -45839,7 +45839,6 @@
 ||smetrics.seat.co.uk^
 ||smetrics.seat.com^
 ||smetrics.seat.de^
-||smetrics.seat.dz^
 ||smetrics.seat.es^
 ||smetrics.seat.fi^
 ||smetrics.seat.fr^
@@ -50814,6 +50813,7 @@
 ||engage.thechicagocouncil.org^
 ||click1.e.thechive.com^
 ||mongoose.thechocolatelife.com^
+||web.healthnews.thechristhospital.com^
 ||metrics.thechronicle.com.au^
 ||oascentral.thechronicleherald.ca^
 ||stats.thechurchfactory.com^
@@ -60586,6 +60586,7 @@
 ||mail.engine.developer.net.zooplus.nl^
 ||accountinging-beta-www.net.zooplus.nl^
 ||c.ns.emailvision-hwcdn.net.zooplus.nl^
+||mail.administrator-ids.net.zooplus.nl^
 ||mailalpha.autodiscover.net.zooplus.nl^
 ||mailapac.edgedeveloper.net.zooplus.nl^
 ||marketing.form-submwww.net.zooplus.nl^
