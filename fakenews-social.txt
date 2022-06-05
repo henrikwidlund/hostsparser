@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-05 12:28:43Z
+! Last Modified: 2022-06-05 18:20:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32922,6 +32922,7 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
+||api.verify.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^
@@ -46175,7 +46176,6 @@
 ||scientific.news^
 ||scierka.icu^
 ||ads.scifi.com^
-||adserver.sciflicks.com^
 ||sciganie-oprawcy.eu^
 ||sciganie-winnych.eu^
 ||e1.scimedjrnlopenpub.biz^
@@ -59125,7 +59125,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
