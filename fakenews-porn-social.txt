@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-05 01:42:04Z
+! Last Modified: 2022-06-05 06:20:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32244,7 +32244,6 @@
 ||ablink.mail1.iheart.com^
 ||my.iheartradio.com^
 ||analytics.ihg.com^
-||secure.analytics.ihg.com^
 ||adsrv2.ihlassondakika.com^
 ||ihookup.com^
 ||ihpc.info^
@@ -35197,7 +35196,6 @@
 ||jotsex.com^
 ||jouer-casino-canada.ca^
 ||smetrics.joules.com^
-||eagle.joulescope.com^
 ||smetrics.joulesusa.com^
 ||jourlacy.com^
 ||journal-neo.org^
@@ -70407,7 +70405,6 @@
 ||selvi.viessmann.com.tr^
 ||salzwerk.viessmann.de^
 ||kallerupstone.viessmann.dk^
-||torropinto.viessmann.es^
 ||uusimaa.viessmann.fi^
 ||faucons.viessmann.fr^
 ||zagrabiti.viessmann.hr^
@@ -76052,6 +76049,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ae.adserver.yahoo.com^
+||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-05 01:42:19Z
+! Last Modified: 2022-06-05 06:20:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6585,7 +6585,6 @@
 ||go.bioporto.com^
 ||smetrics.biore.com^
 ||bioscreencast.com^
-||nyt1.biosens-leanature.fr^
 ||bioslimin.pl^
 ||info.biotronik.com^
 ||tk.biovea.com^
@@ -7531,9 +7530,6 @@
 ||blueazure.pl^
 ||bluebadgecenters.tk^
 ||go.bluebeam.com^
-||cdn.bluebillywig.com^
-||vms.bluebillywig.com^
-||pbs.bluebillywig.com^
 ||somni.bluebird.com^
 ||js.blueblade.co.jp^
 ||beaver.bluebunnypaper.com^
@@ -21456,6 +21452,7 @@
 ||hyeorg.gmarket.co.kr^
 ||gmarketigita8.info^
 ||gmarketit9.info^
+||pdmsmrt.gmc.com^
 ||pdmsmrt.gmccanada.ca^
 ||gmdtrk.com^
 ||go.gmercyu.edu^
@@ -56393,6 +56390,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||zeus.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^

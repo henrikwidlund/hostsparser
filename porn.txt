@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-05 01:42:18Z
+! Last Modified: 2022-06-05 06:20:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16032,6 +16032,7 @@
 ||contentsleuth.com^
 ||contentstream.pl^
 ||stats.contentwritingjobs.com^
+||adserver9.contextad.com^
 ||contextad.pl^
 ||contextualyield.com^
 ||contigorentacar.com^
@@ -75268,7 +75269,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||br.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -76452,7 +76452,6 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
-||adtima.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||zingknowev.tk^
 ||zingyporntube.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-05 01:42:02Z
+! Last Modified: 2022-06-05 06:20:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21370,6 +21370,9 @@
 ||fromtj.com^
 ||fromwhereigo.com^
 ||toad.frontendmentor.io^
+||connect.frontier.com^
+||metrics.frontier.com^
+||smetrics.frontier.com^
 ||corporate.frontierconsul.net^
 ||pardot.frontiertruckparts.com^
 ||metrics.frontline.com^
@@ -27872,6 +27875,7 @@
 ||adserve.jbs.org^
 ||go.jbtc.com^
 ||jbvmix.link^
+||smetrics.jcb.co.jp^
 ||info.jccc.edu^
 ||jcedu.org^
 ||a8clk.asp.jcity.co.jp^
@@ -60056,6 +60060,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst1.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
