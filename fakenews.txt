@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-06 12:36:10Z
+! Last Modified: 2022-06-06 18:20:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -45999,6 +45999,7 @@
 ||metric.sciencemag.org^
 ||smetrics.sciencemagazinedigital.org^
 ||tr.scienceshumaines.info^
+||tr.scienceshumaines.pro^
 ||sciencetyranny.com^
 ||go.scienceworld.ca^
 ||detnmz.sciencing.com^
@@ -48100,6 +48101,7 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
+||j.newssuite.sony.net^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
@@ -58579,6 +58581,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

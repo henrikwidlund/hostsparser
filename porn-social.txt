@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-06 12:36:17Z
+! Last Modified: 2022-06-06 18:21:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -33514,6 +33514,8 @@
 ||donkey.jackellis.me^
 ||jackholland.eu^
 ||jackjonespolska.com^
+||ablink.e.jackpocket.com^
+||ablink.m.jackpocket.com^
 ||smetrics.jackson.com^
 ||go.jacksonphysiciansearch.com^
 ||gcirm.jacksonsun.com^
@@ -73895,6 +73897,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
