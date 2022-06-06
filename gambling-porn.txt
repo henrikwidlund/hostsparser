@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-05 18:20:21Z
+! Last Modified: 2022-06-06 01:40:34Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -9258,6 +9258,9 @@
 ||bitcoinup.trade^
 ||bitconnect.co^
 ||bitconvert.bar^
+||stats.bitdefender.com^
+||sstats.bitdefender.com^
+||metrics.bitdefender.com^
 ||e62ndy5gz80q.bitdomain.biz^
 ||f0tiojboxnc1.bitdomain.biz^
 ||bitequals.com^
@@ -9742,6 +9745,12 @@
 ||plotek.bloguje-teraz.xyz^
 ||pompon.bloguje-teraz.xyz^
 ||finanse.bloguje-teraz.xyz^
+||cpanel.bloguje-teraz8w.xyz^
+||sposob.bloguje-teraz8w.xyz^
+||webdisk.bloguje-teraz8w.xyz^
+||webmail.bloguje-teraz8w.xyz^
+||cpcontacts.bloguje-teraz8w.xyz^
+||cpcalendars.bloguje-teraz8w.xyz^
 ||cpanel.bloguje-zteraz.xyz^
 ||tojest.bloguje-zteraz.xyz^
 ||finanse.bloguje-zteraz.xyz^
