@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-06 06:22:42Z
+! Last Modified: 2022-06-06 12:35:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -6986,6 +6986,8 @@
 ||awmads.com^
 ||awms-network.com^
 ||marketing.awptraffic.com^
+||img.awr.im^
+||tracker.awr.im^
 ||aws-update.net^
 ||awsdesksupport.com^
 ||go.awspartner.com^
@@ -12546,7 +12548,6 @@
 ||catalpaswaxworks.info^
 ||mdws.cataractsavings.ca^
 ||catarrhallycrepitate.com^
-||cyohmj.catawiki.com^
 ||catbuty.top^
 ||catbutyoutlet.com^
 ||catbutysklep.pl^
@@ -16893,8 +16894,6 @@
 ||corbinfisher.com^
 ||corbon.xyz^
 ||info.cordenpharma.com^
-||message-hub-svc.usw2.cordial.com^
-||events-stream-svc.usw2.cordial.com^
 ||cordilleranchuckawallas.com^
 ||core-rpg.com^
 ||coreclickhoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-06 06:22:55Z
+! Last Modified: 2022-06-06 12:36:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13590,8 +13590,6 @@
 ||corbettreport.com^
 ||corbon.xyz^
 ||info.cordenpharma.com^
-||message-hub-svc.usw2.cordial.com^
-||events-stream-svc.usw2.cordial.com^
 ||cordilleranchuckawallas.com^
 ||core-rpg.com^
 ||coreclickhoo.com^
@@ -17239,6 +17237,7 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||c.oracleinfinity.io.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^

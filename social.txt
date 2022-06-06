@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-06 06:23:10Z
+! Last Modified: 2022-06-06 12:36:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13143,8 +13143,6 @@
 ||plausible.corbettbarr.com^
 ||corbon.xyz^
 ||info.cordenpharma.com^
-||message-hub-svc.usw2.cordial.com^
-||events-stream-svc.usw2.cordial.com^
 ||cordilleranchuckawallas.com^
 ||core-rpg.com^
 ||coreclickhoo.com^

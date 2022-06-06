@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-06 06:22:57Z
+! Last Modified: 2022-06-06 12:36:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13482,8 +13482,6 @@
 ||corbettreport.com^
 ||corbon.xyz^
 ||info.cordenpharma.com^
-||message-hub-svc.usw2.cordial.com^
-||events-stream-svc.usw2.cordial.com^
 ||cordilleranchuckawallas.com^
 ||core-rpg.com^
 ||coreclickhoo.com^
@@ -24729,6 +24727,7 @@
 ||ads.ibest.com.br^
 ||tracking.ibexnetwork.com^
 ||go.ibf.org.sg^
+||smetrics.ibfd.org^
 ||go.ibhs.org^
 ||adx.ibibo.com^
 ||kite.ibirthdayclub.com^
@@ -46000,7 +45999,6 @@
 ||metric.sciencemag.org^
 ||smetrics.sciencemagazinedigital.org^
 ||tr.scienceshumaines.info^
-||tr.scienceshumaines.pro^
 ||sciencetyranny.com^
 ||go.scienceworld.ca^
 ||detnmz.sciencing.com^

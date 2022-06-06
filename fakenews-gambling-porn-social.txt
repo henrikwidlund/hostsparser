@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-06 06:22:45Z
+! Last Modified: 2022-06-06 12:36:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16948,8 +16948,6 @@
 ||corbinfisher.com^
 ||corbon.xyz^
 ||info.cordenpharma.com^
-||message-hub-svc.usw2.cordial.com^
-||events-stream-svc.usw2.cordial.com^
 ||cordilleranchuckawallas.com^
 ||core-rpg.com^
 ||coreclickhoo.com^
@@ -63804,6 +63802,7 @@
 ||ssfco.info^
 ||smetrics.ssfcu.org^
 ||hnytrd.ssfshop.com^
+||dwbotr.ssg.com^
 ||pages.ssi-schaefer.com^
 ||ssl-cert.pl^
 ||ssl-chat.com^
