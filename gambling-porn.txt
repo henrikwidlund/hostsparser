@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-07 12:36:27Z
+! Last Modified: 2022-06-07 18:24:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -7671,6 +7671,7 @@
 ||bannerbackup.com^
 ||bannerboxes.com^
 ||bannerco-op.com^
+||bannerconnect.com^
 ||bc.bannerengineering.com^
 ||ad.bannerhost.ru^
 ||ad2.bannerhost.ru^
@@ -60892,6 +60893,8 @@
 ||smithwick.net^
 ||smitt.nl^
 ||static.smni.com^
+||old.smoder.com^
+||tube.smoder.com^
 ||smoggyorlen.site^
 ||smokersopinionpoll.com^
 ||smoketech.pl^
@@ -76563,7 +76566,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||se.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-07 12:36:18Z
+! Last Modified: 2022-06-07 18:24:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -5831,6 +5831,7 @@
 ||bannerbackup.com^
 ||bannerboxes.com^
 ||bannerco-op.com^
+||bannerconnect.com^
 ||bc.bannerengineering.com^
 ||ad.bannerhost.ru^
 ||ad2.bannerhost.ru^
@@ -17632,6 +17633,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||cdn.cxense.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -50302,7 +50304,6 @@
 ||dc.stenaline.ru^
 ||dc.stenaline.se^
 ||dc.stenalinetravel.com^
-||ablink.mail.step.com^
 ||step1studios.com^
 ||go.stepan.com^
 ||stephens-laughlin.com^
@@ -59908,7 +59909,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||au.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
