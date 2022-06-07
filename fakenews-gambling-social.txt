@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-07 01:25:22Z
+! Last Modified: 2022-06-07 06:21:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10277,6 +10277,8 @@
 ||identityver-acc.centreapptv.co.pl^
 ||centrebet.com^
 ||marketing.centreforaviation.com^
+||t.centreinthesquare.com^
+||app.centreinthesquare.com^
 ||update-paymentnow.centrenowtv.co.pl^
 ||accpayment-now.centrentfx.online^
 ||accpayment-now.centrentfxtv.icu^
@@ -59924,9 +59926,12 @@
 ||ifa.xhamstercams.com^
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
+||e.ad.xiaomi.com^
 ||api.d.xiaomi.com^
+||api.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||diagnosis.ad.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-07 01:25:39Z
+! Last Modified: 2022-06-07 06:21:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25215,7 +25215,6 @@
 ||smetrics.illinois.gov^
 ||prdt.illumina.com^
 ||smetrics.illumina.com^
-||smetrics.illumina.com.cn^
 ||ads.illuminatednation.com^
 ||go.illuminateed.com^
 ||illustratefgh.online^

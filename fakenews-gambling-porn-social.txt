@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-07 01:25:20Z
+! Last Modified: 2022-06-07 06:21:09Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21491,7 +21491,6 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
-||c.oracleinfinity.io.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -38468,6 +38467,7 @@
 ||letsbewinners.com^
 ||letsdoeit.com^
 ||letsfinder.com^
+||m.b2b.letsgetchecked.com^
 ||letsgobi.com^
 ||letsgodirty.com^
 ||letshentai.com^
@@ -45439,7 +45439,6 @@
 ||server990916.nazwa.pl^
 ||server998611.nazwa.pl^
 ||server560960.nazwa.pl^
-||cache.server560960.nazwa.pl^
 ||inpostpl.nazwa451376.cloud^
 ||inpostpl.nazwa549725.club^
 ||vinted-pl.nazwa573486.click^
@@ -77582,6 +77581,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst4.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

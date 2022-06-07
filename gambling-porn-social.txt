@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-07 01:25:34Z
+! Last Modified: 2022-06-07 06:21:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -55217,6 +55217,7 @@
 ||rh.qq.com^
 ||rs1.qq.com^
 ||rs2.qq.com^
+||w.l.qq.com^
 ||msdk.qq.com^
 ||tajs.qq.com^
 ||tcss.qq.com^
