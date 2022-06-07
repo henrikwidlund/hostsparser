@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-06 18:20:59Z
+! Last Modified: 2022-06-07 01:25:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12783,6 +12783,7 @@
 ||ae.cobweb.com^
 ||data.europe.coca-cola.com^
 ||data.latinamerica.coca-cola.com^
+||ntrb.qc.coccoc.com^
 ||qgbnjd.coches.net^
 ||cocinaeljibarazo.com^
 ||cockiestvestibuling.pl^
@@ -48101,7 +48102,6 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
-||j.newssuite.sony.net^
 ||woqcfy.sony.ru^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
@@ -58581,7 +58581,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

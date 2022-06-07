@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-06 18:20:48Z
+! Last Modified: 2022-06-07 01:25:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21491,6 +21491,7 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||c.oracleinfinity.io.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -38467,7 +38468,6 @@
 ||letsbewinners.com^
 ||letsdoeit.com^
 ||letsfinder.com^
-||m.b2b.letsgetchecked.com^
 ||letsgobi.com^
 ||letsgodirty.com^
 ||letshentai.com^
@@ -43977,6 +43977,8 @@
 ||go.munters.com^
 ||track.msadcenter.mur.com^
 ||murarzplus.pl^
+||metrics.murata.com^
+||smetrics.murata.com^
 ||murcia-ban.es^
 ||omn.murdoch.edu.au^
 ||omns.murdoch.edu.au^
@@ -45437,6 +45439,7 @@
 ||server990916.nazwa.pl^
 ||server998611.nazwa.pl^
 ||server560960.nazwa.pl^
+||cache.server560960.nazwa.pl^
 ||inpostpl.nazwa451376.cloud^
 ||inpostpl.nazwa549725.club^
 ||vinted-pl.nazwa573486.click^
@@ -76230,11 +76233,8 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||track.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||zeus.ad.intl.xiaomi.com^
-||diagnosis.ad.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-06 18:21:14Z
+! Last Modified: 2022-06-07 01:25:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -44508,6 +44508,7 @@
 ||uk-int.schroders.email^
 ||metal.schrott24.de^
 ||success.schulthess.ch^
+||www2.schumacherhomes.com^
 ||pfuyhr.schutz.com.br^
 ||schutzpolska.pl^
 ||metric.schwab.com^
@@ -57000,8 +57001,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst0.ec.yimg.com^
-||ac.ybinst2.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
