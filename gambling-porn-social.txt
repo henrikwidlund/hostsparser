@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-08 06:21:38Z
+! Last Modified: 2022-06-08 12:37:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3648,7 +3648,6 @@
 ||albamargroup.com^
 ||smetrics.albankaldawli.org^
 ||albanypowerexchange.com^
-||ads.albawaba.com^
 ||alberguecasaanita.com^
 ||albertinn.co.uk^
 ||albertodionigi.it^
@@ -20872,6 +20871,7 @@
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
+||wildcard.bkrtx.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
