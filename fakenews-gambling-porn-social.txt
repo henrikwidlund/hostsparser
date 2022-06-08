@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-08 01:27:18Z
+! Last Modified: 2022-06-08 06:21:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -18917,6 +18917,7 @@
 ||track.info.dermatologyadvisor.com^
 ||cnameforitp.dermed.jp^
 ||gyvyoc.dermoeczanem.com^
+||fkd.derpcity.ru^
 ||derpibooru.org^
 ||derpost.xyz^
 ||derrso.date^
@@ -20783,6 +20784,9 @@
 ||saa.dyson.ch^
 ||aa.dyson.co.uk^
 ||saa.dyson.co.uk^
+||aa.dyson.com^
+||saa.dyson.com^
+||business.dyson.com^
 ||aa.dyson.de^
 ||saa.dyson.de^
 ||aa.dyson.dk^

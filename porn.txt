@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-08 01:27:41Z
+! Last Modified: 2022-06-08 06:21:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -51998,6 +51998,7 @@
 ||premiumpornsites.net^
 ||premiumproductsonline.com^
 ||premiumqualitybeef.com^
+||stats.premiumsim.de^
 ||premiumsnitro.com^
 ||premiumtrade.shop^
 ||premiumvideoupdates.com^
@@ -60982,6 +60983,7 @@
 ||suj.ru^
 ||sukansaree.com^
 ||sukces.pl^
+||go.suke-dachi.jp^
 ||sukebegazou.com^
 ||sukhumvithomes.com^
 ||sukkisukki.com^
@@ -69030,6 +69032,7 @@
 ||filmbest.video.blog^
 ||video1tube.com^
 ||video69.ru^
+||ads.videoadvertising.com^
 ||videoamateurporn.com^
 ||videoamp.com^
 ||videoangels.com^
@@ -74485,11 +74488,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -74679,7 +74680,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst2.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

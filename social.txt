@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-08 01:27:42Z
+! Last Modified: 2022-06-08 06:21:47Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -49573,6 +49573,7 @@
 ||toggletools.com^
 ||adb.toggo.de^
 ||sadb.toggo.de^
+||sadb.toggoeltern.de^
 ||togliwice.xyz^
 ||aftership-dpd-polska.toh.info^
 ||adebis.tohshin.co.jp^
@@ -49932,6 +49933,12 @@
 ||www2.toyoknife.co.jp^
 ||lp.toyokoken.co.jp^
 ||t0y.toyota.ca^
+||go.toyota.com^
+||nexus.toyota.com^
+||metrics.toyota.com^
+||p.pulse.toyota.com^
+||smetrics.toyota.com^
+||gst.pulse.toyota.com^
 ||metric.toyotacertificados.com^
 ||metric.toyotacertified.com^
 ||n.toyotafinancial.com^
@@ -56878,7 +56885,6 @@
 ||nnivvr.zimmo.be^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
-||banner.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||zingknowev.tk^
 ||ziniba.space^

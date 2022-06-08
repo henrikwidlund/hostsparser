@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-08 01:27:22Z
+! Last Modified: 2022-06-08 06:21:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8888,6 +8888,7 @@
 ||businesssolve.info^
 ||om.businessweek.com^
 ||ads.businessweek.com^
+||oascentral.businessweeks.com^
 ||centipede.buskersbern.ch^
 ||busloadbeezers.pl^
 ||buss-pl.website^
