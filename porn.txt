@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-08 12:37:12Z
+! Last Modified: 2022-06-08 18:21:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2477,8 +2477,6 @@
 ||info.admtech.com.au^
 ||admtpmp123.com^
 ||admtpmp124.com^
-||api.adnation.com^
-||admin.adnation.com^
 ||ads.adnet.am^
 ||adnet.com.ua^
 ||adnetinteractive.com^

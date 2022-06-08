@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-08 12:37:02Z
+! Last Modified: 2022-06-08 18:21:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -29801,7 +29801,6 @@
 ||logowan-4224.xyz^
 ||logowan-8234.xyz^
 ||vjnted-polsca.logowanie0283415.xyz^
-||vjnted-polsca.logowanie0292809.cloud^
 ||lnpost-polsca.logowanie0327046.pics^
 ||vjnted-polsca.logowanie0339428.autos^
 ||vjnted-polsca.logowanie03491279.shop^
@@ -57339,6 +57338,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
