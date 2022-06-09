@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-09 12:43:12Z
+! Last Modified: 2022-06-09 18:25:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -48294,7 +48294,6 @@
 ||summerinvest2021.site^
 ||summerinvest2021.website^
 ||tracking.summitmedia.co.uk^
-||info.summitministries.org^
 ||bayarea.summitry.com^
 ||sumoldont.cf^
 ||ads.sumotorrent.com^
@@ -56974,6 +56973,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

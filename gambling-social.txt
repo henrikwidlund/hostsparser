@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-09 12:43:11Z
+! Last Modified: 2022-06-09 18:25:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -548,6 +548,7 @@
 ||polska-vlnted.344657.com^
 ||vlnted-polska.344657.com^
 ||ma.3448.jp^
+||winted.34512-sendinggoods.xyz^
 ||inpost-delivery.3451758.xyz^
 ||polska-alegrolokalnle.345544.xyz^
 ||pl-inpost.345895.org^
@@ -2841,7 +2842,6 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||sync-usva.tidaltv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
