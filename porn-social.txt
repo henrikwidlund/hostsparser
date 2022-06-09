@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-09 06:22:13Z
+! Last Modified: 2022-06-09 12:43:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25700,8 +25700,6 @@
 ||securemetrics.gap.co.jp^
 ||metrics.gap.co.uk^
 ||securemetrics.gap.co.uk^
-||metrics.gap.com^
-||securemetrics.gap.com^
 ||securemetrics.gap.eu^
 ||pjljqp.gap.ru^
 ||securemetrics.gapcanada.ca^
@@ -39174,6 +39172,7 @@
 ||mbljpu9.com^
 ||link.mbna.co.uk^
 ||mbnk-bezpieczne.com^
+||www2.mbopartners.com^
 ||likethis.mbosoft.com^
 ||mboxs.org^
 ||go.mbs.com.vn^
@@ -59402,6 +59401,9 @@
 ||snrcash.com^
 ||swa.snsbank.nl^
 ||snta0034.com^
+||ssmr.so-net.ne.jp^
+||aesus.so-net.ne.jp^
+||ssmr2.so-net.ne.jp^
 ||tracking.eloq.soa.org^
 ||soam.co^
 ||soapbeginshops.com^
@@ -73117,6 +73119,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

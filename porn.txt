@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-09 06:22:14Z
+! Last Modified: 2022-06-09 12:43:16Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -48542,6 +48542,7 @@
 ||smetrics.penfed.org^
 ||mdws.penfinancial.com^
 ||banner.penguin.cz^
+||adver.pengyou.com^
 ||penisbot.com^
 ||peniscat.com^
 ||penix.fr^
@@ -74486,7 +74487,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

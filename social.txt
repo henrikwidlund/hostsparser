@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-09 06:22:16Z
+! Last Modified: 2022-06-09 12:43:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16492,8 +16492,6 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
-||wl.aniview.com.edgekey.net^
-||79423.analytics.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -16517,7 +16515,6 @@
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
-||ds-api-public.addthis.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -24163,7 +24160,6 @@
 ||smetrics.ifc.org^
 ||go.ifco.com^
 ||y3.ifengimg.com^
-||jhm3.ifgexecutive.com^
 ||ifileyou.com^
 ||ifmsaifnisamdisamdoiasmf.bar^
 ||ifmsainfisamdoisakodmsafia.bar^
@@ -42832,7 +42828,6 @@
 ||wpc.32df9.rhocdn.net^
 ||rhythmone.com^
 ||cname.ri-chel.com^
-||eofwfj.ria.com^
 ||riaden.network^
 ||rialikland.ml^
 ||smetrics.riamoneytransfer.com^
@@ -56081,7 +56076,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
