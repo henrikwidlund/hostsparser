@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-09 01:36:24Z
+! Last Modified: 2022-06-09 06:22:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39873,6 +39873,8 @@
 ||maymaychihai.com^
 ||go.maynemedia.com.au^
 ||oascentral.mayoclinic.com^
+||secure.diet.mayoclinic.org^
+||links.e.response.mayoclinic.org^
 ||mayonez.pl^
 ||mayuripadhi.com^
 ||mazandarane.ir^
@@ -43870,7 +43872,6 @@
 ||aamt.nbcnews.com^
 ||links.nbcnews.com^
 ||lpbhnv.nbcphiladelphia.com^
-||scrooge.nbcsandiego.com^
 ||xml.nbcsearch.com^
 ||xml2.nbcsearch.com^
 ||geo.nbcsports.com^
@@ -61030,7 +61031,6 @@
 ||sponsorships.net^
 ||spookylinks.com^
 ||spooniestcalks.com^
-||s.sporks.space^
 ||sport-gewin.com^
 ||sport-nc.ir^
 ||sport-to.com^

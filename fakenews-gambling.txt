@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-09 01:36:13Z
+! Last Modified: 2022-06-09 06:22:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -55296,8 +55296,6 @@
 ||a8.virus-gekitai.com^
 ||virusandroid.net^
 ||smetrics.virusbuster.jp^
-||soma-store.visa-usa.ru^
-||hydrocodone.visa-usa.ru^
 ||go.visaplace.com^
 ||p.visiativ.com^
 ||sanalytics.visible.com^
@@ -58666,9 +58664,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||test.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
-||data.mistat.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -59072,6 +59068,7 @@
 ||ard.xxxblackbook.com^
 ||geo.xxxblackbook.com^
 ||tour.xxxblackbook.com^
+||static.ard.xxxblackbook.com^
 ||ads.xxxbunker.com^
 ||counter.xxxcool.com^
 ||textad.xxxcupid.com^

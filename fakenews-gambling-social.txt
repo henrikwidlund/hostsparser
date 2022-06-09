@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-09 01:36:12Z
+! Last Modified: 2022-06-09 06:22:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -52561,6 +52561,7 @@
 ||ugdcxl.timeout.com^
 ||smetrics.timeout.com^
 ||goonline.times0912.xyz^
+||go.timesaerospace.aero^
 ||adx.timesdaily.com^
 ||srepdata.timesrecordnews.com^
 ||ads.timesunion.com^
@@ -59099,6 +59100,8 @@
 ||o.xbox.com^
 ||xbox1emulator.org^
 ||xbox360emulator.com^
+||api.player.xcal.tv^
+||metricscollector.lp.xcal.tv^
 ||c22x1.xcdn.ovh^
 ||client2009x25.xcdn.ovh^
 ||solutions.xceedance.com^
@@ -59615,6 +59618,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
