@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-08 18:21:16Z
+! Last Modified: 2022-06-09 01:36:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21959,6 +21959,7 @@
 ||gdnsk-lts.site^
 ||gds786bomyc.com^
 ||gdsis.cl^
+||go.gdt.com^
 ||www2.gdx.net^
 ||gdzieonline.pl^
 ||gdziepaczka.com.pl^
@@ -52560,7 +52561,6 @@
 ||ugdcxl.timeout.com^
 ||smetrics.timeout.com^
 ||goonline.times0912.xyz^
-||go.timesaerospace.aero^
 ||adx.timesdaily.com^
 ||srepdata.timesrecordnews.com^
 ||ads.timesunion.com^
@@ -59099,8 +59099,6 @@
 ||o.xbox.com^
 ||xbox1emulator.org^
 ||xbox360emulator.com^
-||api.player.xcal.tv^
-||metricscollector.lp.xcal.tv^
 ||c22x1.xcdn.ovh^
 ||client2009x25.xcdn.ovh^
 ||solutions.xceedance.com^

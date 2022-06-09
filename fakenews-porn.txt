@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-08 18:21:21Z
+! Last Modified: 2022-06-09 01:36:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20601,6 +20601,7 @@
 ||ebusiness-lotoss.website^
 ||ebut.tv^
 ||ebutiklatika.pl^
+||go.ec-force.com^
 ||a8redirect.cart.ec-sites.jp^
 ||ecalabamanews.com^
 ||ecampuskbds.com^
@@ -69684,7 +69685,6 @@
 ||ads.ukclimbing.com^
 ||ukcoffe.com^
 ||ukdevilz.com^
-||angelicavamp.ukf.net^
 ||get.ukg.in^
 ||ukgrandma.com^
 ||ukguk71.ru^
@@ -76608,6 +76608,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||br.adserver.yahoo.com^
+||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

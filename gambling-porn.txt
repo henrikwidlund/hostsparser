@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-08 18:21:28Z
+! Last Modified: 2022-06-09 01:36:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3498,7 +3498,6 @@
 ||eyeblaster.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
-||ad.turn.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
@@ -23634,6 +23633,8 @@
 ||femjoyhunter.com^
 ||femjoynudeteens.com^
 ||cqpmvc.femmeactuelle.fr^
+||ads.femmefab.nl^
+||ads2.femmefab.nl^
 ||femsexyjoy.com^
 ||stats.femtobill.com^
 ||femwrestlingrooms.com^
@@ -39872,8 +39873,6 @@
 ||maymaychihai.com^
 ||go.maynemedia.com.au^
 ||oascentral.mayoclinic.com^
-||secure.diet.mayoclinic.org^
-||links.e.response.mayoclinic.org^
 ||mayonez.pl^
 ||mayuripadhi.com^
 ||mazandarane.ir^
@@ -56058,6 +56057,7 @@
 ||adebis.report.clinic^
 ||srepdata.reporternews.com^
 ||reppos-urps.co^
+||stats.reprage.com^
 ||api.repro.io^
 ||reptahost.com^
 ||ad.repubblica.it^
@@ -75787,7 +75787,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

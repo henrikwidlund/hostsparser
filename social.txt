@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-08 18:21:36Z
+! Last Modified: 2022-06-09 01:36:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2773,7 +2773,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||bs-geo.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -9461,7 +9460,6 @@
 ||ads.cdnow.com^
 ||i.cdnpark.com^
 ||ads.cdnslate.com^
-||adserver.cdnstream.com^
 ||cdnvid.com^
 ||cdnwa.com^
 ||cdnwidget.com^
