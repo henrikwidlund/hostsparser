@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-09 18:25:54Z
+! Last Modified: 2022-06-10 01:44:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -30852,6 +30852,7 @@
 ||mgcpakistan.com^
 ||tracking.go.mge.com^
 ||mgjmp.com^
+||clam.mglaman.dev^
 ||smetrics.mgmresorts.com^
 ||pubs.mgn.net^
 ||ads.mgnetwork.com^
@@ -49167,7 +49168,6 @@
 ||thewiadomosci.host^
 ||thewiadomosci.site^
 ||attribution.theworks.co.uk^
-||metrics.theworlds50best.com^
 ||a.thexfactorusa.com^
 ||thexmedium.com^
 ||links.theyes.com^
@@ -56082,6 +56082,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-09 18:25:37Z
+! Last Modified: 2022-06-10 01:43:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -40820,6 +40820,7 @@
 ||inpost.pl-givesale.icu^
 ||inpost.pl-givesale.shop^
 ||olx.pl-givesales.cyou^
+||olx.pl-givesales.icu^
 ||olx.pl-givesales.shop^
 ||olx.pl-givesales.xyz^
 ||olx.pl-givesold.cyou^

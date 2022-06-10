@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-09 18:25:32Z
+! Last Modified: 2022-06-10 01:43:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2808,8 +2808,6 @@
 ||ads.adtrustmedia.com^
 ||ads.adtube.de^
 ||adturtle.biz^
-||ads.adual.net^
-||cdn.adual.net^
 ||aduanasctpp.com^
 ||aduhsemogalancarngab.com^
 ||adult-arab.com^
@@ -78139,7 +78137,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst9.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
