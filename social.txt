@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-10 06:21:26Z
+! Last Modified: 2022-06-10 12:36:20Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2800,6 +2800,7 @@
 ||eyeblaster.akadns.net^
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
+||ad.turn.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
@@ -18805,7 +18806,6 @@
 ||fctms.fidelitycharitable.org^
 ||tracker.cl1.fidelizador.com^
 ||sstats.myfidm.fidm.edu^
-||metric.fidmscholarshipfoundation.org^
 ||oms.fido.ca^
 ||marketing.net.fidor.de^
 ||confirm.fiduciadlt.com^

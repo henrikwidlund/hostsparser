@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-10 06:21:16Z
+! Last Modified: 2022-06-10 12:36:05Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15516,6 +15516,8 @@
 ||info.24gaz.dingocif.site^
 ||inform.ingl.dingocif.site^
 ||dingohapht.pl^
+||go.diningalliance.com^
+||marketing.diningalliance.com^
 ||linktrace.diningcity.cn^
 ||marketing.net.dinlokaleoptiker.dk^
 ||dinnero.xyz^
