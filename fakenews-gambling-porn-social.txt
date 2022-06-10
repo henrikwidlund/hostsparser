@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-10 12:35:55Z
+! Last Modified: 2022-06-10 18:22:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21398,6 +21398,7 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
+||a.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -63699,7 +63700,6 @@
 ||dc.stenaline.co.uk^
 ||dc.stenaline.cz^
 ||dc.stenaline.de^
-||dc.stenaline.dk^
 ||dc.stenaline.es^
 ||dc.stenaline.fr^
 ||dc.stenaline.ie^
@@ -70307,7 +70307,6 @@
 ||usanewsflash.com^
 ||usanewshome.com^
 ||usanewsinsider.com^
-||usapglobal.usapglobal.org^
 ||usapolice.com^
 ||usapoliticsnow.com^
 ||usapriceperhead.com^
@@ -76809,6 +76808,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||fr.adserver.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

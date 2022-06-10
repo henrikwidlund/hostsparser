@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-10 12:36:01Z
+! Last Modified: 2022-06-10 18:22:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11785,6 +11785,14 @@
 ||kdoe.capitalforester.site^
 ||klor.capitalforester.site^
 ||tesla.com.capitalforester.site^
+||ay.capitalforetof.site^
+||fsr.capitalforetof.site^
+||pgn.capitalforetof.site^
+||sgo.capitalforetof.site^
+||lotera.capitalforetof.site^
+||turech.capitalforetof.site^
+||kroderos.capitalforetof.site^
+||pgnig.open.capitalforetof.site^
 ||analytics.capitalgroup.com^
 ||frex.capitalkorpor.site^
 ||setv.capitalloed.site^
@@ -75470,7 +75478,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

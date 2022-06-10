@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-10 12:35:51Z
+! Last Modified: 2022-06-10 18:22:24Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16196,11 +16196,6 @@
 ||coffetube.com^
 ||coffetubehd.com^
 ||ea.coffrefortplus.com^
-||data.cofinoga.fr^
-||tr.ra.cofinoga.fr^
-||tr.gestion.cofinoga.fr^
-||tr.contrats.cofinoga.fr^
-||tr.notification-gdpr.cofinoga.fr^
 ||cogdybynieto2.cyou^
 ||affaires.cogeco.ca^
 ||go.cogent.co.jp^
@@ -66640,6 +66635,11 @@
 ||thermolabilethermolabile.com^
 ||thermomix24.pl^
 ||info.thermondo.de^
+||info1.thermoscientific.com^
+||info3.thermoscientific.com^
+||sstats.thermoscientific.com^
+||event1.thermoscientific.com^
+||event3.thermoscientific.com^
 ||thermoshape.info^
 ||therntacantiosaumo.tk^
 ||theroamingjew.com^
@@ -78147,7 +78147,9 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
