@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-10 18:22:44Z
+! Last Modified: 2022-06-11 01:27:36Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8115,6 +8115,8 @@
 ||brie5jiff.com^
 ||content.brigadegroup.co.in^
 ||brightcom.com^
+||info.brightcove.com^
+||goku.brightcove.com^
 ||brightfinance.co^
 ||go.brighthorizons.com^
 ||brightinfo.com^
@@ -52717,7 +52719,6 @@
 ||ssc.voabambara.com^
 ||ssc.voabangla.com^
 ||ssc.voacantonese.com^
-||ssc.voakorea.com^
 ||pgnig.dev01.vobacom.info^
 ||sadbmetrics.vocento.com^
 ||vocoptions.net^

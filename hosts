@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-10 18:22:24Z
+! Last Modified: 2022-06-11 01:27:15Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16196,6 +16196,11 @@
 ||coffetube.com^
 ||coffetubehd.com^
 ||ea.coffrefortplus.com^
+||data.cofinoga.fr^
+||tr.ra.cofinoga.fr^
+||tr.gestion.cofinoga.fr^
+||tr.contrats.cofinoga.fr^
+||tr.notification-gdpr.cofinoga.fr^
 ||cogdybynieto2.cyou^
 ||affaires.cogeco.ca^
 ||go.cogent.co.jp^
@@ -21368,6 +21373,7 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
+||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -78147,9 +78153,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-10 18:22:31Z
+! Last Modified: 2022-06-11 01:27:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -56313,11 +56313,6 @@
 ||redtube.onl^
 ||redtube.xxx^
 ||redtube.zone^
-||img01.redtubefiles.com^
-||img02.redtubefiles.com^
-||img03.redtubefiles.com^
-||img04.redtubefiles.com^
-||img.l3.cdn.redtubefiles.com^
 ||redtubelesbian.com^
 ||redtubelive.com^
 ||reducelant.com^
@@ -61006,7 +61001,6 @@
 ||b.smartnews.be^
 ||ads.smartolution.com^
 ||ape.smartplanschema.se^
-||minnow.smartquotesforsmartpeople.com^
 ||branch-io.smartr365.com^
 ||smartraport.pl^
 ||smartredirect.de^
