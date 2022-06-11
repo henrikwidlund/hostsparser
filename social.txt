@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-11 06:20:44Z
+! Last Modified: 2022-06-11 12:29:46Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16531,6 +16531,7 @@
 ||evidon.com.edgekey.net^
 ||vungle.com.edgekey.net^
 ||moatpixel1.edgekey.net^
+||a.teads.tv.edgekey.net^
 ||applovinres.edgekey.net^
 ||addthis.com.edgekey.net^
 ||aniview.com.edgekey.net^
@@ -16565,7 +16566,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -24206,6 +24206,7 @@
 ||stat-ssl.idou.me^
 ||lnpost-polsca.idpl031578946.cloud^
 ||vjnted-polsca.idpl031578946.cloud^
+||vjnted-polsca.idpl0457180649.pics^
 ||lnpost-polsca.idpl048154947.mom^
 ||vjnted-polsca.idpl048154947.mom^
 ||lnpost-polsca.idpl0497408694.shop^
@@ -47210,6 +47211,7 @@
 ||stsroyal.com^
 ||pardot.stthomas.edu^
 ||sttvisa.com^
+||analytics.stuartweitzman.com^
 ||wa.stubhub.com^
 ||was.stubhub.com^
 ||clickmail.stubhub.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-11 06:20:21Z
+! Last Modified: 2022-06-11 12:29:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22789,8 +22789,6 @@
 ||stats2.golfdigest.com^
 ||smetrics.golfgalaxy.com^
 ||golfpak.com^
-||content.golfpride.com^
-||securetracking.golfpride.com^
 ||log1.golfrival.net^
 ||ads.golfweek.com^
 ||goliathcasino.com^

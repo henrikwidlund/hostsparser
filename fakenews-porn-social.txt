@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-11 06:20:23Z
+! Last Modified: 2022-06-11 12:29:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -36269,7 +36269,6 @@
 ||inpostpl.konto-klasyczne.sbs^
 ||dpd-pl.konto-spszedawcy.online^
 ||inpostpl.konto-spszedawcy.online^
-||inpostpl.konto24-serwis.space^
 ||konto452142342342.online^
 ||lnpost.kontogivecash-inform.space^
 ||platnosci-app.kontopayntf.co.pl^
@@ -72166,8 +72165,6 @@
 ||webanalyticsnossl.websense.com^
 ||webseoanalytics.com^
 ||websexgay.com^
-||ads.webshots.com^
-||redir.webshots.com^
 ||engage.webshrinker.com^
 ||a3.websitealive.com^
 ||tracking.websitealive.com^

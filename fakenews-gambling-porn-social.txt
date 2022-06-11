@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-11 06:20:17Z
+! Last Modified: 2022-06-11 12:29:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21427,7 +21427,6 @@
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
-||wildcard.ntv.io.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
@@ -21444,12 +21443,10 @@
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
-||cdn-dsa.clicktale.net.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
-||ds-api-public.addthis.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
