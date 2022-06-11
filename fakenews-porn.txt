@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-11 01:27:24Z
+! Last Modified: 2022-06-11 06:20:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -23531,7 +23531,6 @@
 ||fb-wp-informacje24.pl^
 ||fb.sv^
 ||fbbtop100.com^
-||sonar-iad.xx.fbcdn.net^
 ||fbd.de^
 ||fbdogfoodbeta.com^
 ||fbhrobud.pl^
@@ -25088,6 +25087,7 @@
 ||msnads-wm9.fplive.net^
 ||fpo.xxx^
 ||fprnradio.com^
+||fptad.com^
 ||fqfqf.com^
 ||angel-x.fr.st^
 ||angelica.fr.st^
@@ -51759,6 +51759,8 @@
 ||plutocrat-sui.space^
 ||plutocrat-willing.space^
 ||plutostreams.com^
+||xl.plvb.xyz^
+||vb.plvb.xyz^
 ||plvz.com^
 ||maspl2.plwasinve7.site^
 ||x-prog1.plwasinve7.site^
@@ -63981,7 +63983,6 @@
 ||srepdata.tcpalm.com^
 ||tcpmarkets.com^
 ||smetrics.tcs.com^
-||mdws.tcufinancialgroup.com^
 ||metrics.td.com^
 ||engage.td.org^
 ||stats.tdameritrade.com^

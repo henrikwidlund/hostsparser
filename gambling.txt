@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-11 01:27:32Z
+! Last Modified: 2022-06-11 06:20:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20369,6 +20369,7 @@
 ||metrics.fpl.com^
 ||smetrics.fpl.com^
 ||msnads-wm9.fplive.net^
+||fptad.com^
 ||fqfqf.com^
 ||ebisfracora.fracora.com^
 ||favor1.fractal.jp^
@@ -40315,6 +40316,8 @@
 ||plutocrat-sui.space^
 ||plutocrat-willing.space^
 ||plutostreams.com^
+||xl.plvb.xyz^
+||vb.plvb.xyz^
 ||plvz.com^
 ||maspl2.plwasinve7.site^
 ||x-prog1.plwasinve7.site^
@@ -55856,9 +55859,6 @@
 ||sstats.wired.com^
 ||pie.wirelessregistry.com^
 ||go.wiremasters.net^
-||email.wirexapp.com^
-||email-test.wirexapp.com^
-||ablinksemail.wirexapp.com^
 ||wirtualnaczestochowa.xyz^
 ||wirtualnapolska-wiadomosci24.pl^
 ||wirtualnapolskanews.pl^
@@ -57182,6 +57182,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

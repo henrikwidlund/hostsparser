@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-11 01:27:36Z
+! Last Modified: 2022-06-11 06:20:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -16565,6 +16565,7 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
+||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -19827,6 +19828,7 @@
 ||metrics.fpl.com^
 ||smetrics.fpl.com^
 ||msnads-wm9.fplive.net^
+||fptad.com^
 ||fqfqf.com^
 ||ebisfracora.fracora.com^
 ||favor1.fractal.jp^
@@ -24204,7 +24206,6 @@
 ||stat-ssl.idou.me^
 ||lnpost-polsca.idpl031578946.cloud^
 ||vjnted-polsca.idpl031578946.cloud^
-||vjnted-polsca.idpl0457180649.pics^
 ||lnpost-polsca.idpl048154947.mom^
 ||vjnted-polsca.idpl048154947.mom^
 ||lnpost-polsca.idpl0497408694.shop^
@@ -39340,6 +39341,8 @@
 ||plutocrat-sui.space^
 ||plutocrat-willing.space^
 ||plutostreams.com^
+||xl.plvb.xyz^
+||vb.plvb.xyz^
 ||plvz.com^
 ||maspl2.plwasinve7.site^
 ||x-prog1.plwasinve7.site^
@@ -47207,7 +47210,6 @@
 ||stsroyal.com^
 ||pardot.stthomas.edu^
 ||sttvisa.com^
-||analytics.stuartweitzman.com^
 ||wa.stubhub.com^
 ||was.stubhub.com^
 ||clickmail.stubhub.com^
@@ -52719,6 +52721,7 @@
 ||ssc.voabambara.com^
 ||ssc.voabangla.com^
 ||ssc.voacantonese.com^
+||ssc.voakorea.com^
 ||pgnig.dev01.vobacom.info^
 ||sadbmetrics.vocento.com^
 ||vocoptions.net^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-11 01:27:21Z
+! Last Modified: 2022-06-11 06:20:21Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20971,6 +20971,7 @@
 ||smetrics.fpl.com^
 ||msnads-wm9.fplive.net^
 ||fprnradio.com^
+||fptad.com^
 ||fqfqf.com^
 ||fracking.news^
 ||ebisfracora.fracora.com^
@@ -41703,6 +41704,8 @@
 ||plutocrat-sui.space^
 ||plutocrat-willing.space^
 ||plutostreams.com^
+||xl.plvb.xyz^
+||vb.plvb.xyz^
 ||plvz.com^
 ||maspl2.plwasinve7.site^
 ||x-prog1.plwasinve7.site^

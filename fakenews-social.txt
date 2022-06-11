@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-11 01:27:25Z
+! Last Modified: 2022-06-11 06:20:27Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20539,6 +20539,7 @@
 ||smetrics.fpl.com^
 ||msnads-wm9.fplive.net^
 ||fprnradio.com^
+||fptad.com^
 ||fqfqf.com^
 ||fracking.news^
 ||ebisfracora.fracora.com^
@@ -40838,6 +40839,8 @@
 ||plutocrat-sui.space^
 ||plutocrat-willing.space^
 ||plutostreams.com^
+||xl.plvb.xyz^
+||vb.plvb.xyz^
 ||plvz.com^
 ||maspl2.plwasinve7.site^
 ||x-prog1.plwasinve7.site^
@@ -58553,6 +58556,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

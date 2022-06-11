@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-11 01:27:28Z
+! Last Modified: 2022-06-11 06:20:31Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25152,6 +25152,7 @@
 ||smetrics.fpl.com^
 ||msnads-wm9.fplive.net^
 ||fpo.xxx^
+||fptad.com^
 ||fqfqf.com^
 ||angel-x.fr.st^
 ||angelica.fr.st^
@@ -51506,6 +51507,8 @@
 ||plutocrat-sui.space^
 ||plutocrat-willing.space^
 ||plutostreams.com^
+||xl.plvb.xyz^
+||vb.plvb.xyz^
 ||plvz.com^
 ||maspl2.plwasinve7.site^
 ||x-prog1.plwasinve7.site^

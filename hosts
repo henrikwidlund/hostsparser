@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-11 01:27:15Z
+! Last Modified: 2022-06-11 06:20:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21373,7 +21373,6 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
-||ds-s7.addthis.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -25664,6 +25663,7 @@
 ||msnads-wm9.fplive.net^
 ||fpo.xxx^
 ||fprnradio.com^
+||fptad.com^
 ||fqfqf.com^
 ||angel-x.fr.st^
 ||angelica.fr.st^
@@ -32698,6 +32698,7 @@
 ||stat.ijinshan.com^
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
+||dl.sj.ijinshan.com^
 ||keyserver.ijinshan.com^
 ||content.ikawacoffee.com^
 ||ikbox.org^
@@ -48649,7 +48650,6 @@
 ||oralse.cx^
 ||oralsexshot.com^
 ||orang-orang.com^
-||code.orange-jelly.net^
 ||tr.orange-lease.fr^
 ||orange-updates.com^
 ||wlkojk.orange.ro^
@@ -52786,6 +52786,8 @@
 ||plutocrat-sui.space^
 ||plutocrat-willing.space^
 ||plutostreams.com^
+||xl.plvb.xyz^
+||vb.plvb.xyz^
 ||plvz.com^
 ||maspl2.plwasinve7.site^
 ||x-prog1.plwasinve7.site^
