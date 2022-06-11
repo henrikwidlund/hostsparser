@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-11 12:29:43Z
+! Last Modified: 2022-06-11 18:19:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13416,6 +13416,7 @@
 ||xml.click9.com^
 ||clickability.com^
 ||clickaction.net^
+||ads2.clickad.com^
 ||ads.clickad.com.pl^
 ||clickadu.com^
 ||clickadz.com^
@@ -25098,9 +25099,6 @@
 ||freshgrannyfuck.com^
 ||freshhotgirls.com^
 ||freshiuz.com^
-||refer.freshly.com^
-||link.tr.freshly.com^
-||link.cdl.freshly.com^
 ||qrtqsy.freshlycosmetics.com^
 ||ads.freshmeat.net^
 ||images-aud.freshmeat.net^
@@ -73328,10 +73326,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
-||tw.adserver.yahoo.com^
-||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -73526,7 +73521,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst2.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

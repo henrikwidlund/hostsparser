@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-11 12:29:18Z
+! Last Modified: 2022-06-11 18:19:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25087,6 +25087,7 @@
 ||flirtwedwoje.com^
 ||flirtymania.plus^
 ||flixcdn.com^
+||top.flixmax.stream^
 ||flixprice.com^
 ||flixsport.co^
 ||a.flizmovies.cc^
@@ -35339,7 +35340,6 @@
 ||smtc.jetstar.com^
 ||jetwin.com^
 ||stats.jetzt-aktivieren.de^
-||smetrics.jeugdbibliotheek.nl^
 ||jeunesseglobal.com^
 ||ads1.jev.co.za^
 ||tr.jevoteenligne.fr^
@@ -78150,13 +78150,13 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
