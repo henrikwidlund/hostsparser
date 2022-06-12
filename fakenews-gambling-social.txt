@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-12 12:28:08Z
+! Last Modified: 2022-06-12 18:19:22Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19775,8 +19775,6 @@
 ||fayingvisc.de^
 ||faymobi.com^
 ||go.faymonville.com^
-||mseeru.faz.net^
-||smetrics.faz.net^
 ||fazendacampoformoso.com.br^
 ||fb-accounts.com^
 ||fb-ads.me^
@@ -57883,7 +57881,6 @@
 ||app.business.westernunion.com^
 ||trk.business.westernunion.com^
 ||trk.en-cz.business.westernunion.com^
-||trk.business.westernunion.de^
 ||trk.business.westernunion.fr^
 ||trk.business.westernunion.it^
 ||westernwaynetoday.com^
