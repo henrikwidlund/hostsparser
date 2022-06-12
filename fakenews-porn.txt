@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-11 18:19:26Z
+! Last Modified: 2022-06-12 01:47:18Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12226,6 +12226,7 @@
 ||stats.catholicluv.com^
 ||catholicmasslive.com^
 ||cati.com.tw^
+||ea.catimini.com^
 ||catoonfuck.com^
 ||catpolska.com^
 ||asg.catraff.com^
@@ -63580,10 +63581,6 @@
 ||a8cv.t-bang.jp^
 ||t-h-u-m-b-s.com^
 ||info.t-marketing.jp^
-||now.t-mobile.com^
-||now1.t-mobile.com^
-||smetrics.t-mobile.com^
-||go.business.t-mobile.com^
 ||smetrics.t-mobilemoney.com^
 ||krgtzg.t-nation.com^
 ||t-o-kitano.com^

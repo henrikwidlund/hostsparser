@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-11 18:19:22Z
+! Last Modified: 2022-06-12 01:47:11Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -32616,6 +32616,8 @@
 ||meidian.wang^
 ||metrics.meiers-weltreisen.de^
 ||meierweb.com^
+||stats.meijer.com^
+||sstats.meijer.com^
 ||paupud.meillandrichardier.com^
 ||tr.news.meillandrichardier.com^
 ||tr.newsletter.meilleurmobile.com^
