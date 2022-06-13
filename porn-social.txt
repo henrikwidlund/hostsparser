@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-13 12:34:51Z
+! Last Modified: 2022-06-13 18:23:19Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3462,7 +3462,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||ag.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -38649,6 +38648,7 @@
 ||marketinxyzpl.com^
 ||marketium.com^
 ||success.marketleader.com^
+||bnpparibasfortis.marketlogicsoftware.com^
 ||marketnewsmail.site^
 ||marketnginfopl.com^
 ||marketnsit.info^
