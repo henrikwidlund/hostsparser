@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-13 06:24:22Z
+! Last Modified: 2022-06-13 12:34:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10940,7 +10940,6 @@
 ||content.climateworks.org^
 ||go.clin-edge.com^
 ||cdn.clinch.co^
-||trk.clinch.co^
 ||img-cdn.clinch.co^
 ||realtime.clinch.co^
 ||wiadomosci-news.clinecap.com^
@@ -20456,6 +20455,7 @@
 ||smetrics.fpl.com^
 ||msnads-wm9.fplive.net^
 ||fptad.com^
+||ads.fptplay.vn^
 ||fqfqf.com^
 ||ebisfracora.fracora.com^
 ||favor1.fractal.jp^
@@ -57816,6 +57816,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst9.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

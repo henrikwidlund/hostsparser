@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-13 06:24:04Z
+! Last Modified: 2022-06-13 12:34:33Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -8478,6 +8478,7 @@
 ||best--erotica.com^
 ||best-free-games.ru^
 ||best-free-porn-sites.com^
+||only.best-games.today^
 ||best-gay-lesbian-dating-websites.com^
 ||best-girl-gifs.com^
 ||best-iphone6s.com^
@@ -14089,7 +14090,6 @@
 ||content.climateworks.org^
 ||go.clin-edge.com^
 ||cdn.clinch.co^
-||trk.clinch.co^
 ||img-cdn.clinch.co^
 ||realtime.clinch.co^
 ||wiadomosci-news.clinecap.com^
@@ -25663,6 +25663,7 @@
 ||fpo.xxx^
 ||fprnradio.com^
 ||fptad.com^
+||ads.fptplay.vn^
 ||fqfqf.com^
 ||angel-x.fr.st^
 ||angelica.fr.st^

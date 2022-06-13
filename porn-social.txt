@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-13 06:24:26Z
+! Last Modified: 2022-06-13 12:34:51Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3462,6 +3462,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||ag.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -13487,7 +13488,6 @@
 ||content.climateworks.org^
 ||go.clin-edge.com^
 ||cdn.clinch.co^
-||trk.clinch.co^
 ||img-cdn.clinch.co^
 ||realtime.clinch.co^
 ||wiadomosci-news.clinecap.com^
@@ -20428,7 +20428,6 @@
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
-||ipv6-wildcard.applovin.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -24579,6 +24578,7 @@
 ||msnads-wm9.fplive.net^
 ||fpo.xxx^
 ||fptad.com^
+||ads.fptplay.vn^
 ||fqfqf.com^
 ||angel-x.fr.st^
 ||angelica.fr.st^
@@ -37911,6 +37911,7 @@
 ||orl.lukoil-inv.xyz^
 ||lukplotno.site^
 ||tk.lulli-sur-la-toile.com^
+||smetrics.lululemon.co.kr^
 ||smetrics.lululemon.co.nz^
 ||metrics.lululemon.co.uk^
 ||smetrics.lululemon.co.uk^
@@ -38648,7 +38649,6 @@
 ||marketinxyzpl.com^
 ||marketium.com^
 ||success.marketleader.com^
-||bnpparibasfortis.marketlogicsoftware.com^
 ||marketnewsmail.site^
 ||marketnginfopl.com^
 ||marketnsit.info^
@@ -43294,6 +43294,9 @@
 ||go.nesic.co.jp^
 ||smetrics.nesn.com^
 ||tracking.nesox.com^
+||tr.nespresso.com^
+||metrics.nespresso.com^
+||data.eca.nespresso.com^
 ||nestam.space^
 ||nestandland.com^
 ||nesterowicz.pl^
@@ -66762,7 +66765,6 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
-||pge.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^

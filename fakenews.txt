@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-13 06:24:17Z
+! Last Modified: 2022-06-13 12:34:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10820,7 +10820,6 @@
 ||content.climateworks.org^
 ||go.clin-edge.com^
 ||cdn.clinch.co^
-||trk.clinch.co^
 ||img-cdn.clinch.co^
 ||realtime.clinch.co^
 ||wiadomosci-news.clinecap.com^
@@ -17061,7 +17060,6 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
-||ma788-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -17072,7 +17070,6 @@
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
-||cdn-dsa.clicktale.net.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
@@ -20399,6 +20396,7 @@
 ||msnads-wm9.fplive.net^
 ||fprnradio.com^
 ||fptad.com^
+||ads.fptplay.vn^
 ||fqfqf.com^
 ||fracking.news^
 ||ebisfracora.fracora.com^
@@ -58013,6 +58011,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

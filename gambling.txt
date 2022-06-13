@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-13 06:24:24Z
+! Last Modified: 2022-06-13 12:34:50Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10888,7 +10888,6 @@
 ||content.climateworks.org^
 ||go.clin-edge.com^
 ||cdn.clinch.co^
-||trk.clinch.co^
 ||img-cdn.clinch.co^
 ||realtime.clinch.co^
 ||wiadomosci-news.clinecap.com^
@@ -20370,6 +20369,7 @@
 ||smetrics.fpl.com^
 ||msnads-wm9.fplive.net^
 ||fptad.com^
+||ads.fptplay.vn^
 ||fqfqf.com^
 ||ebisfracora.fracora.com^
 ||favor1.fractal.jp^
@@ -25424,6 +25424,7 @@
 ||app.email.influitive.com^
 ||br.potato1.influitive.com^
 ||info-3.me^
+||inp0st.info-32-delivery.xyz^
 ||tr.info-btob-leaders.com^
 ||olx.info-buyerdelivery.xyz^
 ||tr.info-companeo.be^
@@ -56720,6 +56721,7 @@
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -57185,9 +57187,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-13 06:24:08Z
+! Last Modified: 2022-06-13 12:34:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11236,7 +11236,6 @@
 ||content.climateworks.org^
 ||go.clin-edge.com^
 ||cdn.clinch.co^
-||trk.clinch.co^
 ||img-cdn.clinch.co^
 ||realtime.clinch.co^
 ||wiadomosci-news.clinecap.com^
@@ -21058,6 +21057,7 @@
 ||msnads-wm9.fplive.net^
 ||fprnradio.com^
 ||fptad.com^
+||ads.fptplay.vn^
 ||fqfqf.com^
 ||fracking.news^
 ||ebisfracora.fracora.com^

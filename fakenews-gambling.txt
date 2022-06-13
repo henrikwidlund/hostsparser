@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-13 06:24:10Z
+! Last Modified: 2022-06-13 12:34:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11184,7 +11184,6 @@
 ||content.climateworks.org^
 ||go.clin-edge.com^
 ||cdn.clinch.co^
-||trk.clinch.co^
 ||img-cdn.clinch.co^
 ||realtime.clinch.co^
 ||wiadomosci-news.clinecap.com^
@@ -17592,6 +17591,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||criteo-sync.teads.tv.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -20972,6 +20972,7 @@
 ||msnads-wm9.fplive.net^
 ||fprnradio.com^
 ||fptad.com^
+||ads.fptplay.vn^
 ||fqfqf.com^
 ||fracking.news^
 ||ebisfracora.fracora.com^
@@ -48112,7 +48113,6 @@
 ||plausible.test.sketch.com^
 ||plausible.staging.sketch.com^
 ||promo.skf.com^
-||de.promo.skf.com^
 ||stats.ski.com^
 ||skidrowcrack.com^
 ||skillduty.com^

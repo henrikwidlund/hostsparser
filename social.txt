@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-13 06:24:29Z
+! Last Modified: 2022-06-13 12:34:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10523,7 +10523,6 @@
 ||content.climateworks.org^
 ||go.clin-edge.com^
 ||cdn.clinch.co^
-||trk.clinch.co^
 ||img-cdn.clinch.co^
 ||realtime.clinch.co^
 ||wiadomosci-news.clinecap.com^
@@ -19828,6 +19827,7 @@
 ||smetrics.fpl.com^
 ||msnads-wm9.fplive.net^
 ||fptad.com^
+||ads.fptplay.vn^
 ||fqfqf.com^
 ||ebisfracora.fracora.com^
 ||favor1.fractal.jp^
@@ -29510,6 +29510,7 @@
 ||ads.tripod.lycos.de^
 ||fe.lea.lycos.es^
 ||ads.tripod.lycos.es^
+||ads.multimania.lycos.fr^
 ||utenti.lycos.it^
 ||ads.tripod.lycos.it^
 ||lycosgamesville.com^
@@ -48235,6 +48236,7 @@
 ||reports.teamemo-solutions.de^
 ||teamhalvarsnoren.se^
 ||teamhunt.in^
+||go.teaminc.com^
 ||marketing.teaminx.com^
 ||medicalsupplies.teammed.com.au^
 ||tdep.teamnijhuis.com^

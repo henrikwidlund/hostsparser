@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-13 06:24:21Z
+! Last Modified: 2022-06-13 12:34:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -13799,7 +13799,6 @@
 ||content.climateworks.org^
 ||go.clin-edge.com^
 ||cdn.clinch.co^
-||trk.clinch.co^
 ||img-cdn.clinch.co^
 ||realtime.clinch.co^
 ||wiadomosci-news.clinecap.com^
@@ -25067,6 +25066,7 @@
 ||msnads-wm9.fplive.net^
 ||fpo.xxx^
 ||fptad.com^
+||ads.fptplay.vn^
 ||fqfqf.com^
 ||angel-x.fr.st^
 ||angelica.fr.st^
@@ -35349,7 +35349,6 @@
 ||multimedia-projector.katrina.ru^
 ||kau.li^
 ||ea.kauf-unique.at^
-||ea.kauf-unique.de^
 ||swasc.kaufland.bg^
 ||swasc.kaufland.com^
 ||swasc.kaufland.cz^
