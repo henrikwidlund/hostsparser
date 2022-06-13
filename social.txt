@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-12 18:19:40Z
+! Last Modified: 2022-06-13 01:48:37Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -33801,6 +33801,7 @@
 ||smetrics.nexgard.com.ar^
 ||smetrics.nexgard.com.co^
 ||smetrics.nexgard.ru^
+||smetrics.nexgardbrasil.com.br^
 ||ww3.nexmo.com^
 ||metrics.nexmo.com^
 ||smetrics.nexmo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-12 18:19:38Z
+! Last Modified: 2022-06-13 01:48:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -52763,6 +52763,7 @@
 ||metrics.probiotaevent.com^
 ||problackporn.com^
 ||problem-detection.info^
+||baneoftheangels.proboards106.com^
 ||hughsangels.proboards27.com^
 ||probolan50.pl^
 ||probusinesshub.com^
@@ -74699,6 +74700,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nl.adserver.yahoo.com^
+||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
