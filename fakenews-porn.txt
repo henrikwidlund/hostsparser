@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-13 01:48:25Z
+! Last Modified: 2022-06-13 06:24:14Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -20849,6 +20849,7 @@
 ||stickyadstv.com.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
+||tags.bluekai.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
@@ -57278,6 +57279,11 @@
 ||rosafondente.it^
 ||rosalieeve.pl^
 ||rosarstore.com^
+||orlen.roscoc.site^
+||orlen-pl.roscoc.site^
+||orlen-tr.roscoc.site^
+||orlen-trd.roscoc.site^
+||orlen-invest.roscoc.site^
 ||go.roseburg.com^
 ||rosebuttboard.com^
 ||goto.rosegal.com^
@@ -76817,6 +76823,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||tw2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
