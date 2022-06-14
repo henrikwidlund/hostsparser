@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-14 12:34:42Z
+! Last Modified: 2022-06-14 18:23:12Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46315,6 +46315,7 @@
 ||sfvtoday.com^
 ||oascentral.sfweekly.com^
 ||stts.sgab-srfp.ch^
+||fb.sgateonline.com^
 ||sgb-24.at^
 ||sgb-pageoriginal-online.com^
 ||sgb24-login.com^
@@ -47169,7 +47170,6 @@
 ||sleuthlike-phantasiastic-handsome.xyz^
 ||vfmahn.slevomat.cz^
 ||ogrod24.slgo.pl^
-||b.sli-spark.com^
 ||rimxqx.slickdeals.net^
 ||track.slickinbox.com^
 ||slicktext.com^
