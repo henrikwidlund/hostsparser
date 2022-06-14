@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-14 01:54:10Z
+! Last Modified: 2022-06-14 06:22:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -15701,6 +15701,8 @@
 ||adtd.douglas.be^
 ||adtd.douglas.ch^
 ||wttd.douglas.ch^
+||adtd.douglas.de^
+||wttd.douglas.de^
 ||adtd.douglas.it^
 ||wttd.douglas.it^
 ||adtd.douglas.nl^
@@ -30086,7 +30088,6 @@
 ||stats.martinbetz.eu^
 ||go.martindale.com^
 ||martingrant.com^
-||marketing.martinhealth.org^
 ||martinipicnic.com^
 ||martinsmith.nl^
 ||martunia.pl^

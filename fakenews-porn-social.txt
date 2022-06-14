@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-14 01:53:52Z
+! Last Modified: 2022-06-14 06:22:32Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19176,7 +19176,6 @@
 ||w88.disney.it^
 ||sw88.disney.pt^
 ||sw88.disney.ro^
-||sw88.disney.ru^
 ||events.disneyadsales.com^
 ||t.visit.disneydestinations.com^
 ||t.vacations.disneydestinations.com^
@@ -75481,10 +75480,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
