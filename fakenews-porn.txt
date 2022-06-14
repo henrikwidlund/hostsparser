@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-13 18:23:07Z
+! Last Modified: 2022-06-14 01:53:54Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -25066,7 +25066,6 @@
 ||a.foxsportstennessee.com^
 ||a.foxsportswest.com^
 ||test.foxsportswest.com^
-||a.foxsportswisconsin.com^
 ||foxstarup.com^
 ||t.foxtheatre.org^
 ||app.foxtheatre.org^
@@ -56900,9 +56899,6 @@
 ||richmondleader.com^
 ||t.richmondspiders.com^
 ||richporn.com^
-||image.richrelevance.com^
-||media.richrelevance.com^
-||integration.richrelevance.com^
 ||fortuna.richway.eu^
 ||rickparty.com^
 ||rickrolling.com^
@@ -76821,7 +76817,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||mx.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
