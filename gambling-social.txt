@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-15 01:43:58Z
+! Last Modified: 2022-06-15 06:21:39Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -46870,6 +46870,8 @@
 ||smart4ads.com^
 ||smartaccess.biz^
 ||abp.smartadcheck.de^
+||erie.smartage.com^
+||ngads.smartage.com^
 ||tracking.smartbets.com^
 ||ea.smartbox.com^
 ||aom.smartbrief.com^

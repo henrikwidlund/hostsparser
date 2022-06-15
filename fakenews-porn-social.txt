@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-15 01:43:48Z
+! Last Modified: 2022-06-15 06:21:29Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22532,6 +22532,7 @@
 ||ssa.eurosport.pl^
 ||ssa.eurosport.ro^
 ||ssa.eurosport.ru^
+||ssa.eurosportplayer.com^
 ||jyupgi.eurostarshotels.co.uk^
 ||plausible.eurostocks.nl^
 ||euroteenerotica.com^
@@ -75482,6 +75483,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
