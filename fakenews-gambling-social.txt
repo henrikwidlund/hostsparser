@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-15 12:34:01Z
+! Last Modified: 2022-06-15 18:20:35Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -19642,7 +19642,6 @@
 ||fanzinger.com^
 ||oi.fapnado.com^
 ||oi.fapnado.xxx^
-||oi.fapnow.xxx^
 ||fapproove.pl^
 ||a.fapster.xxx^
 ||welcome.faptitans.com^
@@ -50263,6 +50262,7 @@
 ||banners.sublimedirectory.com^
 ||stats.sublimesecurity.com^
 ||stats.blog.sublimesecurity.com^
+||status.sublineover.net^
 ||assets.submer.com^
 ||landing.submer.com^
 ||go.submittable.com^
