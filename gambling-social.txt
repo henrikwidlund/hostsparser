@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-14 18:23:16Z
+! Last Modified: 2022-06-15 01:43:58Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10216,7 +10216,6 @@
 ||ads.channel4.com^
 ||webstat.channel4.com^
 ||webstats.channel4.com^
-||t.channeladvisor.com^
 ||mtcount.channeladvisor.com^
 ||trk.channelfutures.com^
 ||channelintelligence.com^
@@ -31337,6 +31336,7 @@
 ||mbankprognozy2022.pl^
 ||mbchainmonlkj.xyz^
 ||mbchainmonnba.xyz^
+||eagle.mbcharbonneau.com^
 ||mbet.co.za^
 ||mbga.jp^
 ||mbgrm.com^
@@ -32435,7 +32435,6 @@
 ||exc.mob.com^
 ||mic.mob.com^
 ||sms.mob.com^
-||data.mob.com^
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
@@ -46871,8 +46870,6 @@
 ||smart4ads.com^
 ||smartaccess.biz^
 ||abp.smartadcheck.de^
-||erie.smartage.com^
-||ngads.smartage.com^
 ||tracking.smartbets.com^
 ||ea.smartbox.com^
 ||aom.smartbrief.com^

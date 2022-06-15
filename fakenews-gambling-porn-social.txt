@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-14 18:23:04Z
+! Last Modified: 2022-06-15 01:43:42Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1185,6 +1185,8 @@
 ||4ricardo.xyz^
 ||4sex4.com^
 ||4sexwebcams.com^
+||openx.4shared.com^
+||epomads2.4shared.com^
 ||4shoes.pl^
 ||4takt-oel.de^
 ||4thmedia.org^
@@ -13197,7 +13199,6 @@
 ||webstats.channel4.com^
 ||channel45news.com^
 ||channel5000.com^
-||t.channeladvisor.com^
 ||mtcount.channeladvisor.com^
 ||channelerotica.com^
 ||trk.channelfutures.com^
@@ -42558,7 +42559,6 @@
 ||exc.mob.com^
 ||mic.mob.com^
 ||sms.mob.com^
-||data.mob.com^
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
@@ -68647,6 +68647,7 @@
 ||crane.trescolori.cloud^
 ||treseemon.click^
 ||analytics.tresensa.com^
+||stats.tresor.one^
 ||communication.treston.com^
 ||web.mapp.tretti.se^
 ||treyantok.website^
@@ -71689,6 +71690,8 @@
 ||vivid.com^
 ||vividcams.com^
 ||vividceleb.com^
+||dikhsb.vividseats.com^
+||metrics.vividseats.com^
 ||vividtranny.com^
 ||web.newsletter.viviennewestwood.com^
 ||viviporn.tv^

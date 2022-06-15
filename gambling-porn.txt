@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-14 18:23:15Z
+! Last Modified: 2022-06-15 01:43:56Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -12892,7 +12892,6 @@
 ||ads.channel4.com^
 ||webstat.channel4.com^
 ||webstats.channel4.com^
-||t.channeladvisor.com^
 ||mtcount.channeladvisor.com^
 ||channelerotica.com^
 ||trk.channelfutures.com^
@@ -41455,7 +41454,6 @@
 ||exc.mob.com^
 ||mic.mob.com^
 ||sms.mob.com^
-||data.mob.com^
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
@@ -76000,7 +75998,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn1.adserver.yahoo.com^
+||pn2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

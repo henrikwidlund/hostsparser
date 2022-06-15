@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-14 18:23:18Z
+! Last Modified: 2022-06-15 01:43:59Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10164,7 +10164,6 @@
 ||ads.channel4.com^
 ||webstat.channel4.com^
 ||webstats.channel4.com^
-||t.channeladvisor.com^
 ||mtcount.channeladvisor.com^
 ||trk.channelfutures.com^
 ||channelintelligence.com^
@@ -32334,7 +32333,6 @@
 ||exc.mob.com^
 ||mic.mob.com^
 ||sms.mob.com^
-||data.mob.com^
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
@@ -47748,7 +47746,6 @@
 ||goeloqua.sse.co.uk^
 ||ssfco.info^
 ||smetrics.ssfcu.org^
-||hnytrd.ssfshop.com^
 ||dwbotr.ssg.com^
 ||sshd.run^
 ||go.ssigroup.com^
@@ -56394,6 +56391,7 @@
 ||promos.wusc.ca^
 ||wuus.org.cn^
 ||stats.wvs.org.uk^
+||stats.wvsindia.org^
 ||t.wvusports.com^
 ||app.wvusports.com^
 ||wwaol.com^
@@ -57326,7 +57324,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst8.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^

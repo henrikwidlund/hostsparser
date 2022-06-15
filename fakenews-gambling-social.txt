@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-14 18:23:05Z
+! Last Modified: 2022-06-15 01:43:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10476,7 +10476,6 @@
 ||webstats.channel4.com^
 ||channel45news.com^
 ||channel5000.com^
-||t.channeladvisor.com^
 ||mtcount.channeladvisor.com^
 ||trk.channelfutures.com^
 ||channelintelligence.com^
@@ -33444,7 +33443,6 @@
 ||exc.mob.com^
 ||mic.mob.com^
 ||sms.mob.com^
-||data.mob.com^
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^

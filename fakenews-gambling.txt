@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-14 18:23:06Z
+! Last Modified: 2022-06-15 01:43:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -10424,7 +10424,6 @@
 ||webstats.channel4.com^
 ||channel45news.com^
 ||channel5000.com^
-||t.channeladvisor.com^
 ||mtcount.channeladvisor.com^
 ||trk.channelfutures.com^
 ||channelintelligence.com^
@@ -33342,7 +33341,6 @@
 ||exc.mob.com^
 ||mic.mob.com^
 ||sms.mob.com^
-||data.mob.com^
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
@@ -46922,8 +46920,6 @@
 ||mas.sector.sk^
 ||sectorbet.com^
 ||sectrack.org^
-||inpost-pl.secur-umowa.space^
-||allegro-fxyd.secur-umowa.space^
 ||update-paymentnow.securappnow.co.pl^
 ||kls.secure-cart.biz^
 ||secure-getin-bank.at^
