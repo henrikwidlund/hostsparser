@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-15 06:21:39Z
+! Last Modified: 2022-06-15 12:34:17Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2870,6 +2870,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||rtb.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -39130,8 +39131,6 @@
 ||pertzimatsbarle.ga^
 ||perukiwarszawa.com^
 ||pervas.top^
-||api.perzonalization.com^
-||cdn.perzonalization.com^
 ||pessaistore.com^
 ||petachu.co.il^
 ||petakpintar.com^
@@ -57671,6 +57670,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||de.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

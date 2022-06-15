@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-15 06:21:31Z
+! Last Modified: 2022-06-15 12:34:08Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1328,6 +1328,7 @@
 ||vlnted-es.63442.space^
 ||pl-olx.634585.org^
 ||inpost-pl.6352915-offerts.xyz^
+||polska-olx.64168.pw^
 ||inpost.642649.top^
 ||lnpost-pl.64574.space^
 ||dpd.64875-sendinggoods.xyz^
@@ -50242,8 +50243,6 @@
 ||pervnetwork.com^
 ||pervsonpatrol.com^
 ||pervygames.com^
-||api.perzonalization.com^
-||cdn.perzonalization.com^
 ||pessaistore.com^
 ||pesticides.news^
 ||petachu.co.il^
@@ -60190,6 +60189,7 @@
 ||go.siemon.com^
 ||sierrameta.net^
 ||tracking.sierrawireless.com^
+||j.t.sieu-viet.com^
 ||sieumup.net^
 ||sieuthiphutungxenang.com^
 ||msfvwi.sieuthiyte.com.vn^
@@ -76822,6 +76822,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||eu-pn2.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

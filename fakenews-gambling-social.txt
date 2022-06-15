@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-15 06:21:25Z
+! Last Modified: 2022-06-15 12:34:01Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -40501,8 +40501,6 @@
 ||pertzimatsbarle.ga^
 ||perukiwarszawa.com^
 ||pervas.top^
-||api.perzonalization.com^
-||cdn.perzonalization.com^
 ||pessaistore.com^
 ||pesticides.news^
 ||petachu.co.il^
@@ -50265,7 +50263,6 @@
 ||banners.sublimedirectory.com^
 ||stats.sublimesecurity.com^
 ||stats.blog.sublimesecurity.com^
-||status.sublineover.net^
 ||assets.submer.com^
 ||landing.submer.com^
 ||go.submittable.com^
@@ -59830,7 +59827,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

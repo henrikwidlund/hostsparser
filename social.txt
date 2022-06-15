@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-15 06:21:46Z
+! Last Modified: 2022-06-15 12:34:25Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -1736,7 +1736,6 @@
 ||retirementliving.actsretirement.org^
 ||tr.actu-companeo.com^
 ||at-cddc.actu-juridique.fr^
-||tr.mp.actu-pm.fr^
 ||actu24.online^
 ||actualdeals.com^
 ||actulite.com^
@@ -37280,6 +37279,8 @@
 ||click1.mail.paltalkpeople.com^
 ||palyazatfigyelo.info^
 ||pamataikaune.lt^
+||ad1.pamedia.com.au^
+||ad3.pamedia.com.au^
 ||pamelambarnettcounseling.com^
 ||pamomzacztabum.tk^
 ||pamoran.net^
@@ -38064,8 +38065,6 @@
 ||pertzimatsbarle.ga^
 ||perukiwarszawa.com^
 ||pervas.top^
-||api.perzonalization.com^
-||cdn.perzonalization.com^
 ||pessaistore.com^
 ||petachu.co.il^
 ||petakpintar.com^
@@ -56285,7 +56284,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||es.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

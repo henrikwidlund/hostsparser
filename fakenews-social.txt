@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-15 06:21:32Z
+! Last Modified: 2022-06-15 12:34:10Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -39547,8 +39547,6 @@
 ||pertzimatsbarle.ga^
 ||perukiwarszawa.com^
 ||pervas.top^
-||api.perzonalization.com^
-||cdn.perzonalization.com^
 ||pessaistore.com^
 ||pesticides.news^
 ||petachu.co.il^
@@ -45562,6 +45560,7 @@
 ||ablink.hello.sanvello.com^
 ||saon6harz.com^
 ||smetrics.sap.com^
+||bnpparibas.sapere.site^
 ||med.saphris.com^
 ||meds.saphris.com^
 ||med.saphrishcp.com^

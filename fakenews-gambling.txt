@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-15 06:21:26Z
+! Last Modified: 2022-06-15 12:34:03Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17574,10 +17574,10 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||79423.analytics.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
+||ma80-r.analytics.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
@@ -40401,8 +40401,6 @@
 ||pertzimatsbarle.ga^
 ||perukiwarszawa.com^
 ||pervas.top^
-||api.perzonalization.com^
-||cdn.perzonalization.com^
 ||pessaistore.com^
 ||pesticides.news^
 ||petachu.co.il^
@@ -59487,7 +59485,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst9.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
@@ -59887,6 +59884,7 @@
 ||mail.zantv.org^
 ||zanurzacsie.site^
 ||hgf4.zanzicar.fr^
+||zap588693-1.plesk10.zap-webspace.com^
 ||zapachwazyc.site^
 ||zapachymarzen.pl^
 ||zapadserver1.com^
