@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-16 12:37:45Z
+! Last Modified: 2022-06-16 18:23:04Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2826,7 +2826,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||s.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -2836,7 +2835,6 @@
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
-||pixel-us-east.rubiconproject.net.akadns.net^
 ||marketing.akaes.com^
 ||akaflieg-sb.de^
 ||akama.com^
@@ -18384,6 +18382,7 @@
 ||ssa.eurosportplayer.com^
 ||jyupgi.eurostarshotels.co.uk^
 ||plausible.eurostocks.nl^
+||qfo.eurotierce.be^
 ||eurotrades.pl^
 ||gnrmty.eurovaistine.lt^
 ||metrics.eurowings.com^
@@ -24941,9 +24940,6 @@
 ||oix-pl.idpl7183069.mom^
 ||kassa-olx.idpl7183069.mom^
 ||vinted-pi.idpl718493264.top^
-||camion.idps.co.uk^
-||eastwood35.idps.co.uk^
-||flowerdevon.idps.co.uk^
 ||idqrff-wpps.club^
 ||marketing.idquantique.com^
 ||rapido.idraetsmusik.dk^
