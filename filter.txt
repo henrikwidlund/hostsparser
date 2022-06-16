@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-16 01:42:34Z
+! Last Modified: 2022-06-16 06:21:02Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -21369,7 +21369,6 @@
 ||stickyadstv.com.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
-||tags.bluekai.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
