@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-15 18:20:48Z
+! Last Modified: 2022-06-16 01:42:57Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -22886,9 +22886,6 @@
 ||wiadomosci-net24.h2g.pl^
 ||wiadomosci-z-regionu.h2g.pl^
 ||regionalne-wiadomosci.h2g.pl^
-||ads.h2porn.com^
-||adv.h2porn.com^
-||webmasters.h2porn.com^
 ||smetrics.ha.com^
 ||haag0some.com^
 ||info.haas-fertigbau.de^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-15 18:20:45Z
+! Last Modified: 2022-06-16 01:42:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -11715,6 +11715,7 @@
 ||stat.canal-plus.com^
 ||eulerian.canal-plus.com^
 ||secure-stat.canal-plus.com^
+||secure.stat.canal-plus.net^
 ||tr.emailing.detours.canal.fr^
 ||adbmetrics.canal10tv.com^
 ||ads.canalblog.com^

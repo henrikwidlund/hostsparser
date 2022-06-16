@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-15 18:20:42Z
+! Last Modified: 2022-06-16 01:42:49Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -52706,6 +52706,8 @@
 ||elqview2.uclahealth.org^
 ||go.www2.ucm.be^
 ||uconservative.com^
+||xxx18.ucoz.com^
+||raskrutka.ucoz.com^
 ||s212.ucoz.net^
 ||a.ucoz.ru^
 ||ucranizabr.com^
@@ -58004,13 +58006,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||europe.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
