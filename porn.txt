@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-16 06:21:19Z
+! Last Modified: 2022-06-16 12:37:53Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17016,6 +17016,8 @@
 ||cu-pl2.cuspl00.site^
 ||tr.email.custom-campaign.com^
 ||gcirm.customcoupon.com^
+||assets.customer.io^
+||edge-west.customer.io^
 ||customernoble.com^
 ||customersupporthelp.com^
 ||go.customerthermometer.com^
@@ -20357,7 +20359,6 @@
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
-||wildcard.aniview.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
@@ -63132,8 +63133,6 @@
 ||tgtube.com^
 ||tgurl.tv^
 ||tgvrfc4.com^
-||metrics.tgw.com^
-||smetrics.tgw.com^
 ||thai-girls.org^
 ||thai-movs.com^
 ||thai-setup.com^

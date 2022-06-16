@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-16 06:21:05Z
+! Last Modified: 2022-06-16 12:37:38Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -17896,6 +17896,8 @@
 ||cu-pl2.cuspl00.site^
 ||tr.email.custom-campaign.com^
 ||gcirm.customcoupon.com^
+||assets.customer.io^
+||edge-west.customer.io^
 ||customernoble.com^
 ||customersupporthelp.com^
 ||go.customerthermometer.com^
@@ -19490,7 +19492,6 @@
 ||smetrics.directline.com^
 ||smetrics.directlineforbusiness.co.uk^
 ||directlink.jp^
-||guppy.directlyapply.com^
 ||directlyfrappes.com^
 ||ad.directmirror.com^
 ||directnetadvertising.net^
@@ -21430,7 +21431,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||pixel.mathtag.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^

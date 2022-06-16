@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-16 06:21:11Z
+! Last Modified: 2022-06-16 12:37:44Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -14298,6 +14298,8 @@
 ||cu-pl2.cuspl00.site^
 ||tr.email.custom-campaign.com^
 ||gcirm.customcoupon.com^
+||assets.customer.io^
+||edge-west.customer.io^
 ||customernoble.com^
 ||customersupporthelp.com^
 ||go.customerthermometer.com^
@@ -43123,7 +43125,6 @@
 ||ysdk.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
-||v.gdt.qq.com^
 ||logsdk.qq.com^
 ||omgmta.qq.com^
 ||pingjs.qq.com^
@@ -58555,6 +58556,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^

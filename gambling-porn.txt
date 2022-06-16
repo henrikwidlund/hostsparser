@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-16 06:21:15Z
+! Last Modified: 2022-06-16 12:37:48Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -3531,7 +3531,6 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||sync-usva.tidaltv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -6902,6 +6901,7 @@
 ||awstrack.me^
 ||awsum.me^
 ||smetrics.axa-direct-life.co.jp^
+||events.axa-im.com^
 ||tr.e-mail.axa.fr^
 ||axbet.com^
 ||pilne.axecart.com^
@@ -17488,6 +17488,8 @@
 ||cu-pl2.cuspl00.site^
 ||tr.email.custom-campaign.com^
 ||gcirm.customcoupon.com^
+||assets.customer.io^
+||edge-west.customer.io^
 ||customernoble.com^
 ||customersupporthelp.com^
 ||go.customerthermometer.com^
@@ -69440,9 +69442,6 @@
 ||go.unirufa.it^
 ||info.unis.edu.gt^
 ||engage.unisa.edu.au^
-||carreras.unisabana.edu.co^
-||tracking.unisabana.edu.co^
-||paginaseloqua.unisabana.edu.co^
 ||unisatrastreamento.com^
 ||go.unishippers.com^
 ||unisoftcc.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-16 06:21:12Z
+! Last Modified: 2022-06-16 12:37:45Z
 
 ||000free.us^
 ||err.000webhost.com^
@@ -2826,6 +2826,7 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
+||s.innovid.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -2835,6 +2836,7 @@
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
+||pixel-us-east.rubiconproject.net.akadns.net^
 ||marketing.akaes.com^
 ||akaflieg-sb.de^
 ||akama.com^
@@ -14188,6 +14190,8 @@
 ||cu-pl2.cuspl00.site^
 ||tr.email.custom-campaign.com^
 ||gcirm.customcoupon.com^
+||assets.customer.io^
+||edge-west.customer.io^
 ||customernoble.com^
 ||customersupporthelp.com^
 ||go.customerthermometer.com^
@@ -18380,7 +18384,6 @@
 ||ssa.eurosportplayer.com^
 ||jyupgi.eurostarshotels.co.uk^
 ||plausible.eurostocks.nl^
-||qfo.eurotierce.be^
 ||eurotrades.pl^
 ||gnrmty.eurovaistine.lt^
 ||metrics.eurowings.com^
