@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-17 06:22:39Z
+! Last Modified: 2022-06-17 12:36:08Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3702,7 +3702,6 @@
 ||alibestsale.com^
 ||li.alibris.com^
 ||da.alibuf.com^
-||info.alicat.com^
 ||gma.alicdn.com^
 ||xoomer.alice.it^
 ||alicejapan.co.jp^
@@ -75265,6 +75264,8 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||eu-pn2.adserver.yahoo.com^
+||launch.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -83608,6 +83609,7 @@
 ||marketing-previewm.net.zooplus.es^
 ||security-marketing.net.zooplus.es^
 ||alphaswag-trial.int.net.zooplus.es^
+||apiserver.asanamail.net.zooplus.es^
 ||bitbucketmailserver.net.zooplus.es^
 ||cgi.swag-trialhwcdn.net.zooplus.es^
 ||elastic.sgitag.apac.net.zooplus.es^

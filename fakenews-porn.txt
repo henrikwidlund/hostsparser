@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-17 06:22:20Z
+! Last Modified: 2022-06-17 12:35:53Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -21150,6 +21150,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||wildcard.applovin.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -35846,6 +35847,7 @@
 ||kataloggsm.pl^
 ||katasil.link^
 ||katastrofalnyzagiel.site^
+||ad.kataweb.it^
 ||katch.ne.jp^
 ||katcol.co.uk^
 ||katedra.icu^
@@ -67584,6 +67586,7 @@
 ||trialpay.com^
 ||trialvariable.net^
 ||trianglerank.net^
+||t.tribeathletics.com^
 ||account.paypal-inc.tribesiren.com^
 ||tribute-to.com^
 ||banners.tribute.ca^
@@ -77379,8 +77382,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ar.adserver.yahoo.com^
-||in.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
