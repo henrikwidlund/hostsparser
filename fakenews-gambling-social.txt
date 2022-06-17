@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-17 01:28:57Z
+! Last Modified: 2022-06-17 06:22:14Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -17924,6 +17924,7 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
+||api.vungle.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -17933,6 +17934,7 @@
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma1275-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -20676,6 +20678,10 @@
 ||finmsanfusandimasidma.bar^
 ||demo.finn.ai^
 ||resources.finn.ai^
+||banner.finn.no^
+||metrics.finn.no^
+||ametrics.finn.no^
+||sametrics.finn.no^
 ||smetrics.finning.com^
 ||catracking.finning.com^
 ||satracking.finning.com^
@@ -40598,7 +40604,6 @@
 ||paymbox.org^
 ||olx-pl.payment-bank.ga^
 ||payment-za-zamowienie.pl^
-||ads.paymonex.net^
 ||olx.pl.paymont.pl^
 ||payn.me^
 ||bpd.paynet1.xyz^
@@ -59921,6 +59926,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
@@ -61255,6 +61261,7 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
+||adtima.brand.zing.vn^
 ||zingknowev.tk^
 ||ziniba.space^
 ||ziololecznictwo.pl^
