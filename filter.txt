@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-18 01:41:12Z
+! Last Modified: 2022-06-18 06:20:14Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -26126,6 +26126,8 @@
 ||wvvw.france24.com^
 ||res.francedimanche.fr^
 ||wvvw.francemediasmonde.com^
+||a8clk.francfranc.com^
+||taldpq.francfranc.com^
 ||business.franchiseforsale.com^
 ||info.franchisegator.com^
 ||business.franchiseopportunities.com^
@@ -39226,6 +39228,8 @@
 ||livepornplace.com^
 ||liveprivates.com^
 ||liveprivates.us^
+||ads.livepromotools.com^
+||media.livepromotools.com^
 ||udr9.livera.nl^
 ||ad.livere.co.kr^
 ||lives.net^
@@ -71530,7 +71534,6 @@
 ||analyti.uber.space^
 ||uberads.com^
 ||uberads.net^
-||m.uberall.com^
 ||local-analytics.uberinternal.com^
 ||uberskins.net^
 ||uberstrip.com^
