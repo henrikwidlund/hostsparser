@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-17 18:21:27Z
+! Last Modified: 2022-06-18 01:41:25Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -17356,7 +17356,6 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
-||wildcard.outbrain.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -18847,6 +18846,7 @@
 ||exataweb.com.br^
 ||rep.exblog.jp^
 ||exceedingyou.top^
+||www2.excelitas.com^
 ||go.excellarate.com^
 ||excellentfxtrading.com^
 ||excelsales.co.in^
@@ -59428,7 +59428,6 @@
 ||go.zimperium.com^
 ||raven.zimristats.com^
 ||vietnam.zing.photos^
-||banner.brand.zing.vn^
 ||zingknowev.tk^
 ||ziniba.space^
 ||ziololecznictwo.pl^
@@ -66501,7 +66500,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||page-tpe.net.zooplus.es^
 ||alpha.servicioedge.net.zooplus.es^
 ||alpha4.preview-www.net.zooplus.es^
 ||apache.sslprofiles.net.zooplus.es^
@@ -72895,7 +72893,6 @@
 ||stageredirect-ssl.net.zooplus.it^
 ||aws.dii1.sslengine.net.zooplus.it^
 ||corpail.svcgateway.net.zooplus.it^
-||data-v3.repository.net.zooplus.it^
 ||global.engineering.net.zooplus.it^
 ||historyvision.repo.net.zooplus.it^
 ||hw.ghcpi-marketing.net.zooplus.it^
