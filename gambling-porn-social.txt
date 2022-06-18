@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-18 06:20:27Z
+! Last Modified: 2022-06-18 12:29:09Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -10428,6 +10428,7 @@
 ||boom.porn^
 ||a.boom.ro^
 ||s.boom.ro^
+||76.a.boom.ro^
 ||smetrics.boom997.com^
 ||szj.boombay.xyz^
 ||analytics.boomerangtv.co.uk^
@@ -83543,8 +83544,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||asanamail.net.zooplus.es^
-||accountssl.net.zooplus.es^
 ||alpha.servicioedge.net.zooplus.es^
 ||alpha4.preview-www.net.zooplus.es^
 ||apache.sslprofiles.net.zooplus.es^
