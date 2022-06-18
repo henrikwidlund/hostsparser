@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-18 12:29:07Z
+! Last Modified: 2022-06-18 18:20:32Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -46535,9 +46535,6 @@
 ||cont.sendenkaigi.com^
 ||sender-notification.xyz^
 ||sendfwd.com^
-||u19432194.ct.sendgrid.net^
-||u23444514.ct.sendgrid.net^
-||u27108692.ct.sendgrid.net^
 ||sendhtml.net^
 ||olx.sending-cargouser.xyz^
 ||inpost.sending-informpay.xyz^
@@ -57255,6 +57252,7 @@
 ||wisepops.com^
 ||wiserapps.site^
 ||analytics.wishabi.ca^
+||b.wishabi.com^
 ||wishdownget.com^
 ||dutapp.wisolve.co.za^
 ||wispishpostponement.pl^
