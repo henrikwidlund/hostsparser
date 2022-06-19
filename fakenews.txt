@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-18 18:20:32Z
+! Last Modified: 2022-06-19 01:46:34Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -2854,6 +2854,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||cdn.stickyadstv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -12954,8 +12955,6 @@
 ||d.cntv.cn^
 ||agility.cnvrm.com^
 ||co2stats.com^
-||psqsjg.coach.com^
-||analytics.coach.com^
 ||coachellatoday.com^
 ||metrics.coachfactory.com^
 ||smetrics.coachfactory.com^
@@ -46535,6 +46534,9 @@
 ||cont.sendenkaigi.com^
 ||sender-notification.xyz^
 ||sendfwd.com^
+||u19432194.ct.sendgrid.net^
+||u23444514.ct.sendgrid.net^
+||u27108692.ct.sendgrid.net^
 ||sendhtml.net^
 ||olx.sending-cargouser.xyz^
 ||inpost.sending-informpay.xyz^
@@ -66497,6 +66499,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||partner.page.net.zooplus.es^
 ||alpha.servicioedge.net.zooplus.es^
 ||alpha4.preview-www.net.zooplus.es^
 ||apache.sslprofiles.net.zooplus.es^

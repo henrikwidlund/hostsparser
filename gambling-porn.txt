@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-18 18:20:35Z
+! Last Modified: 2022-06-19 01:46:38Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -51099,7 +51099,6 @@
 ||olx.pl-giveordered.xyz^
 ||inpost.pl-giveordered.xyz^
 ||olx.pl-giveorders.cyou^
-||olx.pl-giveorders.icu^
 ||olx.pl-giveorders.shop^
 ||olx.pl-giveorders.xyz^
 ||inpost.pl-givesale.cyou^
@@ -70052,6 +70051,7 @@
 ||salesforce.unity.edu^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
+||dsp-tracking.unityads.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
@@ -74339,7 +74339,6 @@
 ||tracking.precollege.wisc.edu^
 ||tracking.continuingstudies.wisc.edu^
 ||wisdomsswedes.com^
-||feeds.wise-click.com^
 ||wisebanc.com^
 ||wisecartoon.com^
 ||wisenaturalhealing.com^
