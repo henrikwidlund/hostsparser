@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-19 01:46:47Z
+! Last Modified: 2022-06-19 06:20:56Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -24798,6 +24798,7 @@
 ||stat.ijinshan.com^
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
+||dl.sj.ijinshan.com^
 ||keyserver.ijinshan.com^
 ||content.ikawacoffee.com^
 ||ikbox.org^
@@ -42311,7 +42312,6 @@
 ||iadctest.qwapi.com^
 ||bidder.qwarry.co^
 ||qwgn-txt.icu^
-||erp.qwic.nl^
 ||ssl.o.qxmd.com^
 ||ad.qyer.com^
 ||qyh-shrt.club^
@@ -44297,8 +44297,6 @@
 ||salomompolska.com^
 ||salomon-polska.com^
 ||salomon-polska.pl^
-||tk.salomon.com^
-||smetrics.salomon.com^
 ||salomonbuty.com^
 ||salomonbuty.pl^
 ||salomonbutypl.com^
