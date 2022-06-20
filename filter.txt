@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-19 18:19:29Z
+! Last Modified: 2022-06-20 01:42:00Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -27110,6 +27110,7 @@
 ||fxlayer.net^
 ||b.fxnetworks.com^
 ||sw88.fxnetworks.com^
+||oms.fxnowcanada.ca^
 ||fxpins.com^
 ||fxpoint.co^
 ||protection.fxpolice.com^
@@ -71995,6 +71996,8 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
+||config.unityads.unity3d.com^
+||webview.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -80245,7 +80248,6 @@
 ||beacon.ztgame.com^
 ||ztod.com^
 ||ztrack.net^
-||ad.ztylez.com^
 ||zubby.com^
 ||zuceisseru.com^
 ||zuckerporno.com^
