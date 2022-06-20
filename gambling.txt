@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-20 06:24:32Z
+! Last Modified: 2022-06-20 12:33:25Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -2894,7 +2894,6 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||ads.stickyadstv.com.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -13331,9 +13330,6 @@
 ||metrics.business.comcast.com^
 ||smetrics.business.comcast.com^
 ||tracking.business.comcast.com^
-||serviceo.comcast.net^
-||oascentral.comcast.net^
-||oascentralnx.comcast.net^
 ||comcoms.info^
 ||marketing.comda.com^
 ||smetrics.comdata.com^
@@ -43128,7 +43124,6 @@
 ||masdk.3g.qq.com^
 ||tools.3g.qq.com^
 ||httpring.qq.com^
-||ssl.msdk.qq.com^
 ||pingfore.qq.com^
 ||pingtcss.qq.com^
 ||adsclick.qq.com^
@@ -57747,7 +57742,6 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -65670,6 +65664,9 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||static.ssl.net.zooplus.es^
+||mircketing.net.zooplus.es^
+||apimail-pay.net.zooplus.es^
 ||alpha.servicioedge.net.zooplus.es^
 ||alpha4.preview-www.net.zooplus.es^
 ||apache.sslprofiles.net.zooplus.es^
