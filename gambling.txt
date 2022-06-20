@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-20 12:33:25Z
+! Last Modified: 2022-06-20 18:22:04Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -6192,8 +6192,6 @@
 ||trk.bee-data.com^
 ||froling.bee.pl^
 ||beeabouttown.com^
-||ads.beeb.com^
-||adimages.beeb.com^
 ||smetrics.beefeater.co.uk^
 ||trk.beefmagazine.com^
 ||0.0.0.0.beeglivesex.com^
@@ -13330,6 +13328,9 @@
 ||metrics.business.comcast.com^
 ||smetrics.business.comcast.com^
 ||tracking.business.comcast.com^
+||serviceo.comcast.net^
+||oascentral.comcast.net^
+||oascentralnx.comcast.net^
 ||comcoms.info^
 ||marketing.comda.com^
 ||smetrics.comdata.com^
@@ -45419,7 +45420,6 @@
 ||sanalreklam.com^
 ||sancang-movies.com^
 ||m.sancdn.net^
-||ndl1pp1-a-fixed.sancharnet.in^
 ||biz5.sandai.net^
 ||mcfg.sandai.net^
 ||sandalybirkenstock.com^
@@ -65664,9 +65664,6 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
-||static.ssl.net.zooplus.es^
-||mircketing.net.zooplus.es^
-||apimail-pay.net.zooplus.es^
 ||alpha.servicioedge.net.zooplus.es^
 ||alpha4.preview-www.net.zooplus.es^
 ||apache.sslprofiles.net.zooplus.es^
