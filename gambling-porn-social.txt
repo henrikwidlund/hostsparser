@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-20 01:42:19Z
+! Last Modified: 2022-06-20 06:24:27Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -2924,7 +2924,6 @@
 ||adultimgshare.co.uk^
 ||adultinc.com^
 ||adultism.com^
-||adultium.com^
 ||adultjoy.net^
 ||adultlab.ru^
 ||adultlinksco.com^
@@ -41985,7 +41984,6 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
-||sdk.push.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^
@@ -83544,6 +83542,7 @@
 ||di2.zooplus.es^
 ||net.zooplus.es^
 ||dii2.zooplus.es^
+||waf.net.zooplus.es^
 ||alpha.servicioedge.net.zooplus.es^
 ||alpha4.preview-www.net.zooplus.es^
 ||apache.sslprofiles.net.zooplus.es^
