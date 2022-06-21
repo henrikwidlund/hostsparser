@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-21 06:22:30Z
+! Last Modified: 2022-06-21 12:38:50Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -1557,6 +1557,7 @@
 ||abrameble-sklep.pl^
 ||track.abrdn.com^
 ||tracking.abrdn.com^
+||www2.abrfid.com^
 ||abruzzoinitaly.co.uk^
 ||ads.abs-cbn.com^
 ||abscondsconfirming.com^
@@ -33866,6 +33867,7 @@
 ||exc.mob.com^
 ||mic.mob.com^
 ||sms.mob.com^
+||l.gm.mob.com^
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
@@ -36427,6 +36429,7 @@
 ||nextcasino.pl^
 ||stats.nextcloud.com^
 ||uk-tracking.nextdoor.com^
+||vte.nexteramedia.com^
 ||nextflix.club^
 ||stats.nextgen-email.com^
 ||ng.nextgen.com^
@@ -56180,7 +56183,6 @@
 ||ablink.test.vida.com^
 ||ablink.emails.vida.com^
 ||vidalegal.org^
-||adbmetrics.vidasolidaria.com^
 ||stliom.vidaxl.cz^
 ||cvzvun.vidaxl.de^
 ||yszedg.vidaxl.dk^
