@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-22 06:21:39Z
+! Last Modified: 2022-06-22 12:34:57Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -17865,6 +17865,7 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
+||wl.aniview.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -24590,8 +24591,6 @@
 ||link.hitachi-hightech.com^
 ||marketing.hitachi-ies.co.jp^
 ||plp.hitachi-solutions-create.co.jp^
-||go.hitachi-solutions.co.jp^
-||spscas.hitachi-solutions.co.jp^
 ||air.hitachiaircon.com^
 ||go.hitachienergy.com^
 ||trackingaa.hitachienergy.com^
@@ -34263,7 +34262,6 @@
 ||mutlum.pl^
 ||muttonchopsneologies.pl^
 ||smetrics.mutua.es^
-||a8clk.muumuu-domain.com^
 ||muwmedia.com^
 ||python.mux.com^
 ||muzyka.icu^
@@ -34601,6 +34599,7 @@
 ||mygiftresource.com^
 ||mygreatrewards.com^
 ||mygummyjelly.com^
+||myharavan.com^
 ||myhealthcareblog.com^
 ||myheartbuild.com^
 ||analytics.myhermes.de^
@@ -34694,6 +34693,7 @@
 ||pl.mysafesmartphone.com^
 ||mysagagame.com^
 ||metrics.mysanantonio.com^
+||mysapo.net^
 ||partners.mysavings.com^
 ||mysearch-engine.com^
 ||mysearch.com^
