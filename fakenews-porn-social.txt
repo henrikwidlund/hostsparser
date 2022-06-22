@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-22 12:35:00Z
+! Last Modified: 2022-06-22 18:22:50Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3046,6 +3046,8 @@
 ||as.adwise.bg^
 ||adwitty.com^
 ||rtb.adwmg.com^
+||r2.adwo.com^
+||static.adwo.com^
 ||adwokaci-24.pl^
 ||adwordsecommerce.com.br^
 ||adworldnetwork.com^
@@ -17962,7 +17964,6 @@
 ||metrics.dallasnews.com^
 ||go.dalton-education.com^
 ||discover.dalton.com^
-||med.dalvance.com^
 ||damadolove.com^
 ||damafinimmobiliare.it^
 ||go.damcogroup.com^
@@ -32348,6 +32349,7 @@
 ||js.impact.ne.jp^
 ||adserv.impactengine.com^
 ||metrics.impactengine.com^
+||count.mail.163.com.impactmedfoundation.com^
 ||campaigns.impactorder.com^
 ||impartportrayal.top^
 ||pix.impdesk.com^
@@ -73414,6 +73416,8 @@
 ||wniosek9581.info^
 ||inpostpl.wniosekid0357168.pics^
 ||inpostpl.wniosekid04493475.beauty^
+||olx-pl.wniosekid04719367.shop^
+||inpostpl.wniosekid04719367.shop^
 ||olx-pl.wniosekid05719384.buzz^
 ||inpostpl.wniosekid057496723.click^
 ||wnioski-kredytowe.pl^

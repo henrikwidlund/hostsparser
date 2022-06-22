@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-22 12:34:58Z
+! Last Modified: 2022-06-22 18:22:48Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -1369,7 +1369,6 @@
 ||metrics.client-eng.a2z.com^
 ||analytics.console.aws.a2z.com^
 ||notify.bugsnag.appstore.a2z.com^
-||pw.analytics.console.aws.a2z.com^
 ||global.telemetry.insights.video.a2z.com^
 ||us-east-1.telemetry.insights.video.a2z.com^
 ||a2zgroup.in^
@@ -4593,7 +4592,6 @@
 ||meds.asacolhdhcp.com^
 ||visitors.asadis.net^
 ||sstats.asadventure.com^
-||sstats.asadventure.fr^
 ||sstats.asadventure.lu^
 ||a8clk.asahi-net.or.jp^
 ||adnet.asahi.com^
@@ -9062,6 +9060,7 @@
 ||bumerang.cc^
 ||meadowlark.bump.sh^
 ||blog.bumpclubandbeyond.com^
+||m.bumrungrad1378.com^
 ||bunchgrass.pl^
 ||bunclok.pl^
 ||bundle-deals.com^
@@ -55560,7 +55559,6 @@
 ||marketing.visitnapavalley.com^
 ||marketing.visitnepa.org^
 ||marketing.visitoakland.com^
-||marketing.visitomaha.com^
 ||info.visitorlando.com^
 ||tourism.visitorlando.com^
 ||marketing.visitorlando.com^
@@ -59337,6 +59335,7 @@
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
