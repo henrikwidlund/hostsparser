@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-21 18:21:31Z
+! Last Modified: 2022-06-22 01:52:46Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -25142,8 +25142,6 @@
 ||a.foxsports.com^
 ||b.foxsports.com^
 ||analytics.nova.foxsports.com^
-||metrics.foxsports.com.au^
-||ablinks.e.foxsports.com.au^
 ||a.foxsportsarizona.com^
 ||a.foxsportscarolinas.com^
 ||a.foxsportsdetroit.com^
@@ -57982,6 +57980,7 @@
 ||sebastea.pl^
 ||stats.sebastiangale.ca^
 ||sebcotrk.com^
+||smetrics.sebkort.com^
 ||dev.sebpo.net^
 ||sec-checker.com^
 ||secborks.site^
@@ -75930,6 +75929,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
