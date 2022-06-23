@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-22 18:22:48Z
+! Last Modified: 2022-06-23 01:40:43Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -4592,6 +4592,7 @@
 ||meds.asacolhdhcp.com^
 ||visitors.asadis.net^
 ||sstats.asadventure.com^
+||sstats.asadventure.fr^
 ||sstats.asadventure.lu^
 ||a8clk.asahi-net.or.jp^
 ||adnet.asahi.com^
@@ -9526,7 +9527,6 @@
 ||camgeil.com^
 ||camiliana.pl^
 ||go.camillorentalhomes.com^
-||camilo4free.cfd^
 ||content.cammackhealth.com^
 ||camminachetipassa.it^
 ||refytq.camp-fire.jp^
@@ -29705,7 +29705,6 @@
 ||laugh-mail.net^
 ||antlion.launch.fyi^
 ||launchbuffer.com^
-||kite.launchcdn.com^
 ||mobile.launchdarkly.com^
 ||nym5c.laura.ca^
 ||lauraboerci.com^
@@ -55559,6 +55558,7 @@
 ||marketing.visitnapavalley.com^
 ||marketing.visitnepa.org^
 ||marketing.visitoakland.com^
+||marketing.visitomaha.com^
 ||info.visitorlando.com^
 ||tourism.visitorlando.com^
 ||marketing.visitorlando.com^
@@ -59331,11 +59331,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
