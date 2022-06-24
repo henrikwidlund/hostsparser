@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-24 12:38:09Z
+! Last Modified: 2022-06-24 18:23:11Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -31449,6 +31449,7 @@
 ||hostinnigeria.com^
 ||adserver.hostinteractive.com^
 ||hostkrd.ovh^
+||sstats.hostplus.com.au^
 ||hostujmy.pl^
 ||analytics.hostyour.video^
 ||hot-animal-porn.biz^
@@ -46834,6 +46835,7 @@
 ||nu26.com^
 ||nu7.pl^
 ||nubdsm.com^
+||plausible.nubemia.com^
 ||nubilefilm.xxx^
 ||nubilefilms.com^
 ||nubilefilms.org^
@@ -76803,7 +76805,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
