@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-24 06:22:14Z
+! Last Modified: 2022-06-24 12:38:12Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -33672,6 +33672,7 @@
 ||inzaghi.pl^
 ||inzoomat.se^
 ||moje-olx.io52351251.pw^
+||ivint-pl.io599042344.xyz^
 ||ivint-pl.io767224221.top^
 ||ivint-pl.io788433321.top^
 ||act-on.ioactive.com^
@@ -41359,7 +41360,6 @@
 ||feed.minpos.com^
 ||stats.mint.ca^
 ||mintajdw.icu^
-||mintegral.com^
 ||wildfowl.minter.io^
 ||mintj.com^
 ||mintladies.com^
@@ -75474,7 +75474,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
+||tw.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-24 06:22:30Z
+! Last Modified: 2022-06-24 12:38:23Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3757,6 +3757,9 @@
 ||aliencoding.com^
 ||aliensi.com^
 ||alieokazje.pl^
+||s.click.aliexpress.com^
+||pcookie.aliexpress.com^
+||adservice.aliexpress.com^
 ||alif-ba-ta.com^
 ||alignmentdisabled.net^
 ||aligore.online^
@@ -40360,7 +40363,6 @@
 ||feed.minpos.com^
 ||stats.mint.ca^
 ||mintajdw.icu^
-||mintegral.com^
 ||wildfowl.minter.io^
 ||mintj.com^
 ||mintladies.com^

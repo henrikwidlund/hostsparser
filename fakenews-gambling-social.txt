@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-24 06:22:10Z
+! Last Modified: 2022-06-24 12:38:10Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -17926,6 +17926,7 @@
 ||bdbrtvrvavea.edns.biz^
 ||edoraseguros.com.br^
 ||comunicacao.edpcomunicacao.com.br^
+||vendor.edqart.com^
 ||xxsdtb.edreams.com^
 ||gwguyh.edreams.es^
 ||vhmewg.edreams.fr^
@@ -33176,7 +33177,6 @@
 ||feed.minpos.com^
 ||stats.mint.ca^
 ||mintajdw.icu^
-||mintegral.com^
 ||wildfowl.minter.io^
 ||mintj.com^
 ||minunfuanfsainmfisa.bar^
@@ -59759,7 +59759,6 @@
 ||xxsweety.com^
 ||xxx-r.com^
 ||track.msadcenter.xxx.com^
-||c4n.xxx8.me^
 ||ard.xxxblackbook.com^
 ||geo.xxxblackbook.com^
 ||tour.xxxblackbook.com^
@@ -59824,6 +59823,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||fr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
