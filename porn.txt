@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-24 18:23:27Z
+! Last Modified: 2022-06-25 01:50:32Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -20588,6 +20588,7 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||wildcard.aaxads.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -33489,7 +33490,6 @@
 ||jasminlive.mobi^
 ||jasminlive.news^
 ||jasminsangels.com^
-||harrier.jasonsantamaria.com^
 ||met.jasperforge.org^
 ||jaspersartsier.xyz^
 ||jaspersformularizer.xyz^
@@ -40545,6 +40545,7 @@
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
+||m.data.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
 ||ad.mobadme.jp^
@@ -74693,7 +74694,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
