@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-25 01:50:19Z
+! Last Modified: 2022-06-25 06:20:52Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -14413,7 +14413,6 @@
 ||a1-wazne-gazeta.cube-cologne.com^
 ||wiadomosci.wp.pl.32976516.cube-cologne.com^
 ||wiadomosci.wp.pl.52867366.cube-cologne.com^
-||ads.milliyet.cubecdn.net^
 ||gbtracking.cubiq.com^
 ||satracking.cubiq.com^
 ||cublatac.site^
@@ -58553,7 +58552,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||it.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
