@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-25 06:20:47Z
+! Last Modified: 2022-06-25 12:29:15Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -44264,7 +44264,6 @@
 ||ea.radiateurplus.com^
 ||radiation.news^
 ||radicaldog.info^
-||stats.radicitoscane.it^
 ||sdc.radio-canada.ca^
 ||stats.radio-canada.ca^
 ||adserver.radio-canada.ca^
@@ -51323,7 +51322,6 @@
 ||smetrics.telenet.be^
 ||erhverv.telenor.dk^
 ||smetrics.telenor.dk^
-||sstatistikk.telenor.no^
 ||a.telenor.se^
 ||go.telenor.se^
 ||sstats.telenor.se^
@@ -59336,12 +59334,10 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||cn.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^

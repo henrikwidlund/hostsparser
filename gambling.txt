@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-25 06:20:59Z
+! Last Modified: 2022-06-25 12:29:30Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -9287,6 +9287,7 @@
 ||caliente.mx^
 ||pardot.californiafamilyfitness.com^
 ||californiastateparks.com^
+||al.californiastreet.net^
 ||activate.platform.californiatimes.com^
 ||calistenix.pl^
 ||communications.calix.com^
@@ -17324,7 +17325,6 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
-||ds-api-public.addthis.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -57185,7 +57185,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||global.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

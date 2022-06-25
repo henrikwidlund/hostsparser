@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-25 06:20:46Z
+! Last Modified: 2022-06-25 12:29:13Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -579,6 +579,14 @@
 ||o-lx.35612-dispatchgoods.xyz^
 ||ads.359group.com^
 ||alum.35i.ru^
+||g.s.360.cn^
+||p.s.360.cn^
+||hao.360.cn^
+||eul.s.360.cn^
+||mclean.f.360.cn^
+||mvconf.f.360.cn^
+||care.help.360.cn^
+||aicleaner.shouji.360.cn^
 ||ssl.360antivirus.org^
 ||ideas.360factors.com^
 ||360in.com^
@@ -48846,7 +48854,6 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
-||d.newssuite.sony.net^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
 ||sonycrackle.club^
