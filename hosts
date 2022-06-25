@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-25 12:29:08Z
+! Last Modified: 2022-06-25 18:20:55Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -22538,6 +22538,10 @@
 ||equibooru.tk^
 ||go.equifax.ca^
 ||solutions.equifax.co.uk^
+||go.equifax.com^
+||awap.equifax.com^
+||sawap.equifax.com^
+||ewsdatahub.equifax.com^
 ||equilibrios.ga^
 ||equine.gq^
 ||somnit.equinox.com^
@@ -63542,6 +63546,7 @@
 ||www2.stef.com^
 ||stefaniakl.pl^
 ||stefaniehoefer.pl^
+||go.stefanini.com^
 ||stefanstrzalkowski.pl^
 ||a.steigenberger.com^
 ||marketing.net.steiner-vision.de^
