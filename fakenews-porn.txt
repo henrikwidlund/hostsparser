@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-26 06:20:17Z
+! Last Modified: 2022-06-26 12:29:56Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -23050,6 +23050,9 @@
 ||exeos.ws^
 ||go.exerp.com^
 ||exgf.party^
+||assets1.exgfnetwork.com^
+||adserver.exgfnetwork.com^
+||adserver2.exgfnetwork.com^
 ||exgfpass.com^
 ||exgfphotos.com^
 ||exgfsbucks.com^

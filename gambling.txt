@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-26 06:20:27Z
+! Last Modified: 2022-06-26 12:30:04Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -14633,6 +14633,7 @@
 ||ads.cvut.cz^
 ||cw.nu^
 ||mdws.cwbank.com^
+||www2.cwcbusiness.com^
 ||tr.m.cwisas.com^
 ||cwnealrealestate.com^
 ||cwnuf.com^
@@ -57774,6 +57775,7 @@
 ||ard.xxxblackbook.com^
 ||geo.xxxblackbook.com^
 ||tour.xxxblackbook.com^
+||static.ard.xxxblackbook.com^
 ||ads.xxxbunker.com^
 ||counter.xxxcool.com^
 ||textad.xxxcupid.com^
@@ -57835,11 +57837,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||dk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -59741,6 +59741,8 @@
 ||ghcpid23f6h5jpj26xu.corp-marketing-confluencecorp-dl6fh5ptkejqa.net.zooplus.fr^
 ||dii1.zooplus.gr^
 ||dii2.zooplus.gr^
+||dii1.zooplus.hr^
+||dii2.zooplus.hr^
 ||dii1.zooplus.hu^
 ||dii2.zooplus.hu^
 ||dii1.zooplus.ie^
