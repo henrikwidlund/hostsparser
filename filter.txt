@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-26 12:29:48Z
+! Last Modified: 2022-06-26 18:19:34Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -20330,6 +20330,7 @@
 ||mail.dolce-gusto.pl^
 ||mail.dolce-gusto.pt^
 ||mail.dolce-gusto.sk^
+||mail.dolce-gusto.us^
 ||dolegnicy.xyz^
 ||secure.doll8tune.com^
 ||doll9jiva.com^
@@ -21765,6 +21766,7 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
+||ds-api-public.addthis.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -22482,6 +22484,7 @@
 ||enigrna.co^
 ||enijncoin.io^
 ||enipig.com^
+||adsrv.ads.eniro.com^
 ||webanalytics.eniro.se^
 ||swebanalytics.eniro.se^
 ||llama.eniston.io^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-26 12:30:04Z
+! Last Modified: 2022-06-26 18:19:54Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -17455,6 +17455,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||perf.teads.tv.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -18241,7 +18242,6 @@
 ||epmclk.com^
 ||go.epoch.org.il^
 ||hits.epochstats.com^
-||ad.epochtimes.com^
 ||epodatk.net^
 ||cdn.epommarket.com^
 ||ad.eporner.com^
@@ -57775,7 +57775,6 @@
 ||ard.xxxblackbook.com^
 ||geo.xxxblackbook.com^
 ||tour.xxxblackbook.com^
-||static.ard.xxxblackbook.com^
 ||ads.xxxbunker.com^
 ||counter.xxxcool.com^
 ||textad.xxxcupid.com^
