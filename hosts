@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-27 01:51:01Z
+! Last Modified: 2022-06-27 06:26:03Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -47627,6 +47627,7 @@
 ||oamtrk.com^
 ||webstats.oanda.com^
 ||www2.oasisfinancial.com^
+||signup.oasisnow.net^
 ||telemetry.firstpartyapps.oaspapps.com^
 ||oav4trk.com^
 ||oawyr.com^
@@ -49066,12 +49067,6 @@
 ||inpost-polska-yoz.order1191966.info^
 ||inpost-polska-zam.order1191966.info^
 ||order1209501.info^
-||inpost-qdtk.order121212.info^
-||inpost-ustg.order121212.info^
-||inpost-polska-mh.order121212.info^
-||inpost-polska-zk.order121212.info^
-||inpost-polska-euy.order121212.info^
-||inpost-polska-lvx.order121212.info^
 ||mymarket-ge.order123657358.site^
 ||oferta-132.order125326.info^
 ||inpost-nwyr.order125326.info^
@@ -56631,7 +56626,6 @@
 ||fodder.qq.com^
 ||qqlogo.qq.com^
 ||pmir.3g.qq.com^
-||lives.l.qq.com^
 ||adsfile.qq.com^
 ||adshmct.qq.com^
 ||adsrich.qq.com^
@@ -78800,6 +78794,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
@@ -80025,6 +80020,7 @@
 ||mjp.zimad.com^
 ||zimadeals.pl^
 ||zimbio.com^
+||static.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||vietnam.zing.photos^

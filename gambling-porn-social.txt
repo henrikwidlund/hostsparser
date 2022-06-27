@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-27 01:51:13Z
+! Last Modified: 2022-06-27 06:26:22Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3591,7 +3591,6 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||tvx.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -57513,6 +57512,8 @@
 ||mdws.rpcul.com^
 ||rpgcoding.com^
 ||rpgmasterleague.com^
+||homepay-pl-48d33c44.rpm-technik.at^
+||paiementhome-pl-5b4f060c.rpm-technik.at^
 ||widget-cdn.rpxnow.com^
 ||api.rqmob.com^
 ||adcs.rqmob.com^
@@ -75308,7 +75309,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
