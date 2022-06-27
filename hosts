@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-27 06:26:03Z
+! Last Modified: 2022-06-27 12:36:52Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -49067,6 +49067,12 @@
 ||inpost-polska-yoz.order1191966.info^
 ||inpost-polska-zam.order1191966.info^
 ||order1209501.info^
+||inpost-qdtk.order121212.info^
+||inpost-ustg.order121212.info^
+||inpost-polska-mh.order121212.info^
+||inpost-polska-zk.order121212.info^
+||inpost-polska-euy.order121212.info^
+||inpost-polska-lvx.order121212.info^
 ||mymarket-ge.order123657358.site^
 ||oferta-132.order125326.info^
 ||inpost-nwyr.order125326.info^
@@ -72403,7 +72409,6 @@
 ||user-paypal.com^
 ||v1nted.user-sendjngproduct.xyz^
 ||01x.user-sendproduct.xyz^
-||user-shield-check.com^
 ||user-shield.com^
 ||hot.useractive.com^
 ||resources.usercentrics.com^
@@ -78794,7 +78799,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
@@ -80020,7 +80024,6 @@
 ||mjp.zimad.com^
 ||zimadeals.pl^
 ||zimbio.com^
-||static.zucks.net.zimg.jp^
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||vietnam.zing.photos^
