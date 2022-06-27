@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-26 18:19:47Z
+! Last Modified: 2022-06-27 01:51:11Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -17435,7 +17435,6 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||79423.analytics.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -24733,6 +24732,7 @@
 ||hymen-defloration.info^
 ||hymnodist.info^
 ||hypapa.com^
+||smetrics.hypedc.com^
 ||hypercounter.com^
 ||hypercuberecharging.pl^
 ||stats.hyperinzerce.cz^
