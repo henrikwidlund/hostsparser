@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-28 12:36:33Z
+! Last Modified: 2022-06-28 18:26:23Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -2558,8 +2558,6 @@
 ||adimg.com.com^
 ||adimg.net^
 ||click.adimmix.com^
-||sdk.adincube.com^
-||tag.adincube.com^
 ||adinjector.net^
 ||go.adinstruments.com^
 ||go.adinstruments.com.br^
@@ -36367,6 +36365,7 @@
 ||kartavarna.com^
 ||kartavisa.pl^
 ||kartawire.pl^
+||deal.karte.io^
 ||kartlab.it^
 ||kartools.site^
 ||kartowkop.xyz^
@@ -56940,6 +56939,7 @@
 ||radioaktywni.eu^
 ||stats2.radiocompanion.com^
 ||smetrics.radiole.com^
+||insights.radiometer.com^
 ||radiorage.com^
 ||radiospourlapaix.org^
 ||ebis.radish-pocket.com^
@@ -59368,7 +59368,6 @@
 ||omtr1.partners.salesforce.com^
 ||omtr2.partners.salesforce.com^
 ||d.la1-c2-iad.salesforceliveagent.com^
-||www2.salesloft.com^
 ||t.salesmatemail.com^
 ||go.salesrabbit.com^
 ||saletrybest.su^
@@ -77655,8 +77654,10 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||a.stat.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||abtest.mistat.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^

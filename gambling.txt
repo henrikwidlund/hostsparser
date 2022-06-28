@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-28 12:36:49Z
+! Last Modified: 2022-06-28 18:26:40Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -2933,7 +2933,6 @@
 ||rubiconproject.net.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
-||pixel.rubiconproject.net.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
@@ -27819,6 +27818,7 @@
 ||karta-podarunkowa-podaj-dane.gq^
 ||kartavisa.pl^
 ||kartawire.pl^
+||deal.karte.io^
 ||kartlab.it^
 ||kartools.site^
 ||kartowkop.xyz^
@@ -33878,6 +33878,12 @@
 ||myserviceconnect.net^
 ||olx.myshlnk.cc^
 ||inpost.myshlnk.cc^
+||vewvwm.myshopify.com^
+||artusor.myshopify.com^
+||pl-huda.myshopify.com^
+||phillshop.myshopify.com^
+||sunerlypl.myshopify.com^
+||nanimaly-shop.myshopify.com^
 ||myshopmarketim.com^
 ||myshovel.com^
 ||stats.mysideproject.rocks^
@@ -45199,7 +45205,6 @@
 ||omtr1.partners.salesforce.com^
 ||omtr2.partners.salesforce.com^
 ||d.la1-c2-iad.salesforceliveagent.com^
-||www2.salesloft.com^
 ||t.salesmatemail.com^
 ||go.salesrabbit.com^
 ||saletrybest.su^

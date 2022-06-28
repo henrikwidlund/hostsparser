@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-28 12:36:43Z
+! Last Modified: 2022-06-28 18:26:34Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -17434,13 +17434,11 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||api.vungle.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
-||tags.bluekai.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
@@ -27914,6 +27912,7 @@
 ||karta-podarunkowa-podaj-dane.gq^
 ||kartavisa.pl^
 ||kartawire.pl^
+||deal.karte.io^
 ||kartlab.it^
 ||kartools.site^
 ||kartowkop.xyz^
@@ -45624,7 +45623,6 @@
 ||omtr1.partners.salesforce.com^
 ||omtr2.partners.salesforce.com^
 ||d.la1-c2-iad.salesforceliveagent.com^
-||www2.salesloft.com^
 ||t.salesmatemail.com^
 ||go.salesrabbit.com^
 ||saletrybest.su^

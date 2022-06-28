@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-28 12:36:52Z
+! Last Modified: 2022-06-28 18:26:42Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -8222,6 +8222,7 @@
 ||a8cv.www.bedstyle.jp^
 ||bedziemy-zawsze.pl^
 ||informacje24.bedzin.pl^
+||trk.bee-data.com^
 ||froling.bee.pl^
 ||beeabouttown.com^
 ||ads.beeb.com^
@@ -20725,6 +20726,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||sync.teads.tv.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -34817,6 +34819,7 @@
 ||kartavarna.com^
 ||kartavisa.pl^
 ||kartawire.pl^
+||deal.karte.io^
 ||kartlab.it^
 ||kartools.site^
 ||kartowkop.xyz^
@@ -56775,7 +56778,6 @@
 ||omtr1.partners.salesforce.com^
 ||omtr2.partners.salesforce.com^
 ||d.la1-c2-iad.salesforceliveagent.com^
-||www2.salesloft.com^
 ||t.salesmatemail.com^
 ||go.salesrabbit.com^
 ||saletrybest.su^
@@ -75345,9 +75347,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sg.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
