@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-27 18:24:35Z
+! Last Modified: 2022-06-28 01:47:42Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -2134,6 +2134,7 @@
 ||go.adm.com^
 ||adman.se^
 ||admatchly.com^
+||s.admathhd.com^
 ||ads.admaximize.com^
 ||static.admaximize.com^
 ||ads1.admedia.ro^
@@ -18796,6 +18797,7 @@
 ||orangutan.equaliteam.com^
 ||equalitystatenews.com^
 ||equallyyolked.com^
+||clicks.equantum.com^
 ||go.equifax.ca^
 ||solutions.equifax.co.uk^
 ||go.equifax.com^
@@ -59988,11 +59990,13 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||no.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||global.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^

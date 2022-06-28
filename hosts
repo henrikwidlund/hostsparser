@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-27 18:24:28Z
+! Last Modified: 2022-06-28 01:47:35Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -22612,6 +22612,8 @@
 ||epayu.pl^
 ||syndication.epcmh.com^
 ||syndication.epcmk.com^
+||h.epelcdn.com^
+||helpdeskserver.epelcdn.com^
 ||epey.site^
 ||epgv01.fr^
 ||www2.ephox.com^
@@ -78797,7 +78799,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn1.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
