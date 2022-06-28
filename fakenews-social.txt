@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-28 06:23:14Z
+! Last Modified: 2022-06-28 12:36:42Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -4202,7 +4202,6 @@
 ||devtest.app-birdy.com^
 ||app-c.net^
 ||app-findmyweb.com^
-||app-measurement.com^
 ||app-transaction-payment-help.com^
 ||app-transactions-payments-help.com^
 ||jhqvy.app.link^
@@ -59206,6 +59205,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^

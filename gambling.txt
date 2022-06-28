@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-28 06:23:22Z
+! Last Modified: 2022-06-28 12:36:49Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -2933,6 +2933,7 @@
 ||rubiconproject.net.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
+||pixel.rubiconproject.net.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
@@ -4100,7 +4101,6 @@
 ||devtest.app-birdy.com^
 ||app-c.net^
 ||app-findmyweb.com^
-||app-measurement.com^
 ||app-transaction-payment-help.com^
 ||app-transactions-payments-help.com^
 ||jhqvy.app.link^
@@ -29876,6 +29876,8 @@
 ||lptag.liveperson.net^
 ||server.iad.liveperson.net^
 ||livepixelgames.com^
+||ads.livepromotools.com^
+||media.livepromotools.com^
 ||udr9.livera.nl^
 ||ad.livere.co.kr^
 ||hiuplq.livescore.in^
@@ -33876,12 +33878,6 @@
 ||myserviceconnect.net^
 ||olx.myshlnk.cc^
 ||inpost.myshlnk.cc^
-||vewvwm.myshopify.com^
-||artusor.myshopify.com^
-||pl-huda.myshopify.com^
-||phillshop.myshopify.com^
-||sunerlypl.myshopify.com^
-||nanimaly-shop.myshopify.com^
 ||myshopmarketim.com^
 ||myshovel.com^
 ||stats.mysideproject.rocks^
