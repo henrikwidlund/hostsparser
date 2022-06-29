@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-29 06:22:35Z
+! Last Modified: 2022-06-29 12:37:17Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -15160,7 +15160,6 @@
 ||go2.deliveroo.com^
 ||inpost-pl.deliverorder.pw^
 ||delivery-3265.xyz^
-||inpost.delivery-65983.xyz^
 ||inpost-pl.delivery-728192.xyz^
 ||delivery-olx.ml^
 ||allegrolokalnie.delivery-payform.xyz^
@@ -46758,6 +46757,7 @@
 ||track.msadcenter.sgq.com^
 ||sgraffito.com.pl^
 ||go.sgs.com^
+||ayboll.sgsrv.com^
 ||sgtreport.com^
 ||learn.sgu.edu^
 ||sgvstandard.com^
@@ -47440,6 +47440,7 @@
 ||plausible.prod.sketch.com^
 ||plausible.test.sketch.com^
 ||plausible.staging.sketch.com^
+||promo.skf.com^
 ||stats.ski.com^
 ||skidrowcrack.com^
 ||skillduty.com^
@@ -48087,7 +48088,6 @@
 ||metrics.sony.jp^
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
-||newssuite.sony.net^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
 ||sonycrackle.club^
@@ -52274,7 +52274,6 @@
 ||trackertracker.com^
 ||tracki112.com^
 ||tracking22.com^
-||trackingclick.net^
 ||trackingfestival.com^
 ||log.trackingio.com^
 ||slog.trackingio.com^
