@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-29 01:49:48Z
+! Last Modified: 2022-06-29 06:22:35Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3269,6 +3269,7 @@
 ||affiliates.allposters.com^
 ||metric.allrecipes.com^
 ||content.allsafe.nl^
+||ads.allsites.com^
 ||go.allsitestructures.com^
 ||pl.allsports4free.club^
 ||ad.allstar.cz^
@@ -46757,7 +46758,6 @@
 ||track.msadcenter.sgq.com^
 ||sgraffito.com.pl^
 ||go.sgs.com^
-||ayboll.sgsrv.com^
 ||sgtreport.com^
 ||learn.sgu.edu^
 ||sgvstandard.com^
@@ -47440,7 +47440,6 @@
 ||plausible.prod.sketch.com^
 ||plausible.test.sketch.com^
 ||plausible.staging.sketch.com^
-||promo.skf.com^
 ||stats.ski.com^
 ||skidrowcrack.com^
 ||skillduty.com^
@@ -58660,10 +58659,8 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||global.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
