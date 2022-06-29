@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-29 12:37:16Z
+! Last Modified: 2022-06-29 18:26:05Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -28378,6 +28378,7 @@
 ||metrics.kidsnews.com.au^
 ||go.kidsoutandabout.com^
 ||kidspantshangers.com^
+||metrics.kidspot.com.au^
 ||kiedinvest.website^
 ||kiedytomysliszpolska2.website^
 ||kiekx.com^
@@ -32895,6 +32896,7 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
+||api.applink.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^

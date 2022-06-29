@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-29 12:37:19Z
+! Last Modified: 2022-06-29 18:26:08Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -21313,6 +21313,7 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
+||cdn.spotxcdn.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
@@ -36449,7 +36450,6 @@
 ||interia.kontrola-bezpieczenstwa.space^
 ||kontrola-osoby.eu^
 ||kontrola-poczty.site^
-||usluga.kontrola-poczty.top^
 ||kontroluj-foty.eu^
 ||inpostpl.kontynuowac2681394.cloud^
 ||myvinted.kontynuowac37842.shop^
@@ -55854,6 +55854,7 @@
 ||info.rates.ca^
 ||info.ratesupermarket.ca^
 ||js.rating-widget.com^
+||analytics.ratioform.it^
 ||www2.ratpanat.com^
 ||rattletrapbaffing.com^
 ||rattletrapsagger.com^

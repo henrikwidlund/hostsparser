@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-29 12:37:17Z
+! Last Modified: 2022-06-29 18:26:06Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -15160,6 +15160,7 @@
 ||go2.deliveroo.com^
 ||inpost-pl.deliverorder.pw^
 ||delivery-3265.xyz^
+||inpost.delivery-65983.xyz^
 ||inpost-pl.delivery-728192.xyz^
 ||delivery-olx.ml^
 ||allegrolokalnie.delivery-payform.xyz^
@@ -17449,6 +17450,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||wildcard.applovin.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -48088,6 +48090,7 @@
 ||metrics.sony.jp^
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
+||newssuite.sony.net^
 ||sonyalpha.pl^
 ||go.sonybsc.com^
 ||sonycrackle.club^
