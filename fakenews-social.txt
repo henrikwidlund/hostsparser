@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-30 12:37:45Z
+! Last Modified: 2022-06-30 18:25:11Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -1745,6 +1745,7 @@
 ||trackingmms.accenture.com^
 ||trackingcareers.accenture.com^
 ||go.accertify.com^
+||ea.access-moto.com^
 ||access-transaction-payment-help.com^
 ||ewills.access.ly^
 ||mdws.accesscu.ca^
@@ -2224,6 +2225,22 @@
 ||prebids.adnsx.com^
 ||s.adnxtr.com^
 ||adobe-flashplayer.com^
+||geo.adobe.com^
+||tt11.adobe.com^
+||stats.adobe.com^
+||adelogs.adobe.com^
+||campaign.adobe.com^
+||atsmetrics.adobe.com^
+||adtag.primetime.adobe.com^
+||data.email-kpn.cjm.adobe.com^
+||data.email-tsb.cjm.adobe.com^
+||data.email-disney.cjm.adobe.com^
+||data.email-merkle.cjm.adobe.com^
+||data.email-signify.cjm.adobe.com^
+||data.email-mobiledx.cjm.adobe.com^
+||data.email-discovery.cjm.adobe.com^
+||data.email-lightroom.cjm.adobe.com^
+||data.wunderman-email.cjm.adobe.com^
 ||edge.adobedc.net^
 ||adobee.com^
 ||ablink.marketing.adobemailing.com^
@@ -32951,7 +32968,6 @@
 ||migog.xyz^
 ||miguelcantonzetina.com^
 ||migyxip.site^
-||a8clk.miidas.jp^
 ||miina.xyz^
 ||miirta.xyz^
 ||hpxsci.miista.com^
@@ -58541,7 +58557,6 @@
 ||vjnted-polsca.wniosek06081749.cloud^
 ||vjnted-polsca.wniosek0638142.mom^
 ||dpb-polsca.wniosek063847156.autos^
-||vjnted-polsca.wniosek0641873.pics^
 ||vjnted-polsca.wniosek0657184.shop^
 ||vjnted-polsca.wniosek06584374.click^
 ||vjnted-polsca.wniosek0672694.click^
