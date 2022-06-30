@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-30 06:23:32Z
+! Last Modified: 2022-06-30 12:37:57Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -17194,6 +17194,7 @@
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
 ||pinterest.com.edgekey.net^
+||ms.applovin.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -17211,6 +17212,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||criteo-sync.teads.tv.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -28964,7 +28966,6 @@
 ||led188.net^
 ||ledampenergy.net^
 ||lededata.com^
-||ozowis.ledger.com^
 ||ledgerwallet.by^
 ||marketing.ledgeviewpartners.com^
 ||ledradn.com^
@@ -53897,6 +53898,7 @@
 ||infos.vodafone.com.au^
 ||metric.vodafone.com.eg^
 ||metrics.vodafone.com.eg^
+||smetrics.vodafone.com.gh^
 ||smetrics.vodafone.com.tr^
 ||swa.vodafone.cz^
 ||was.vodafone.de^

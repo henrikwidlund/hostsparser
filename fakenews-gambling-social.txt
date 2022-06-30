@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-30 06:23:12Z
+! Last Modified: 2022-06-30 12:37:39Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -55639,6 +55639,8 @@
 ||ipost.umowa40067.top^
 ||moje-olx.umowa40067.top^
 ||ivint-pl.umowa42069x.xyz^
+||vented.umowa48702.shop^
+||moje-olx.umowa48702.shop^
 ||moje-olx.umowa54067.top^
 ||ipost.umowa58194b.top^
 ||inp0st.umowa58194b.top^
@@ -61004,6 +61006,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||hk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -72879,7 +72882,6 @@
 ||swag-apache.metrics.net.zooplus.es^
 ||marketing-documents.net.zooplus.es^
 ||git.emailvision.pass.net.zooplus.es^
-||metrics.www.marketing.net.zooplus.es^
 ||swag-firewall.metrics.net.zooplus.es^
 ||documentationmarketing.net.zooplus.es^
 ||swag-trial-tpe-payment.net.zooplus.es^
