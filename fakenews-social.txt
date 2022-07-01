@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-01 01:57:16Z
+! Last Modified: 2022-07-01 06:23:19Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -16561,6 +16561,8 @@
 ||bf35f69f2c6f6bcda64064b1f5b49218.domain.com.au^
 ||cattle.domaincomet.com^
 ||ad.domainfactory.de^
+||ti.domainforlite.com^
+||uu.domainforlite.com^
 ||domainfwd.com^
 ||domainfwding.com^
 ||domaining.in^
@@ -19259,8 +19261,6 @@
 ||host207.ewtn.com^
 ||ewymiana.com.pl^
 ||ewymianka.com.pl^
-||analytics.ewz.ch^
-||sanalytics.ewz.ch^
 ||ex-traffic.com^
 ||orl.ex2landings.com^
 ||affiliate.exabytes.com.my^
@@ -38499,6 +38499,9 @@
 ||olx.order7secure.site^
 ||allegrolokalnie.order7secure.site^
 ||inpost-polska-gk.order8851.me^
+||inpost-czlz.order8859.me^
+||inpost-lbza.order8859.me^
+||inpost-polska-scu.order8859.me^
 ||oferta-27.order887766.info^
 ||oferta-249.order887766.info^
 ||inpost-xuih.order887766.info^
@@ -50495,6 +50498,7 @@
 ||tour.sweetdiscreet.com^
 ||sweeteners.news^
 ||sweetocjuicorta.tk^
+||cdn.download.sweetpacks.com^
 ||sweetsforfree.com^
 ||vsqyaz.sweetwater.com^
 ||sweetzone.co^
@@ -59267,7 +59271,6 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||log.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-01 01:57:05Z
+! Last Modified: 2022-07-01 06:23:13Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -12613,6 +12613,7 @@
 ||ebis.care-tensyoku.com^
 ||metrics.care.com^
 ||care5alea.com^
+||go.carecentrix.com^
 ||stats.carecredit.com^
 ||analytics.carecredit.com^
 ||analytics.carecreditlearning.com^
@@ -30582,8 +30583,6 @@
 ||hawkab.se^
 ||go.hawkemedia.com^
 ||hawkeyereporter.com^
-||t.hawkeyesports.com^
-||app.hawkeyesports.com^
 ||analytics.haworth.com^
 ||1796kpkzuwj.www.hawpar.com^
 ||grow.hawthorne-gardening.com^
@@ -76844,6 +76843,10 @@
 ||xhwebsite.com^
 ||xhypnotube.com^
 ||xianyujc.com^
+||api.d.xiaomi.com^
+||cc.sys.intl.xiaomi.com^
+||ccc.sys.intl.xiaomi.com^
+||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
 ||xiawen.uno^
