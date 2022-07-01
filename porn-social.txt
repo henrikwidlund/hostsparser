@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-06-30 18:25:23Z
+! Last Modified: 2022-07-01 01:57:27Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -40808,6 +40808,7 @@
 ||v10c.events.data.microsoft.com^
 ||watson.telemetry.microsoft.com^
 ||wes.df.telemetry.microsoft.com^
+||advertise.bingads.microsoft.com^
 ||telecommand.telemetry.microsoft.com^
 ||microsoftcommunityxbox.com^
 ||ns1.microsoftonlines.net^
@@ -57032,7 +57033,6 @@
 ||advantage.rsabroker.ca^
 ||articles.rsdnation.com^
 ||contact.rsisecurity.com^
-||experience.rsm.com.au^
 ||elqtrk.rsmcanada.com^
 ||rsms.site^
 ||elqtrk.rsmus.com^
