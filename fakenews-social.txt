@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-02 01:44:29Z
+! Last Modified: 2022-07-02 06:20:48Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -8736,6 +8736,7 @@
 ||donkey.briangershon.com^
 ||bricklblock.io^
 ||go.bricks-corp.com^
+||tr.actu.bricodepot.com^
 ||tk.bricoprive.com^
 ||bridasa.site^
 ||bans.bride.ru^
@@ -25934,7 +25935,6 @@
 ||stat.ijinshan.com^
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
-||db.utag.ijinshan.com^
 ||keyserver.ijinshan.com^
 ||content.ikawacoffee.com^
 ||ikbox.org^
@@ -51498,7 +51498,6 @@
 ||9f33fc85bd3812760.temporary.link^
 ||31c5ff24944432411.temporary.link^
 ||96b4d58e213077161.temporary.link^
-||mail.5ce3ab6dfc9499285.temporary.link^
 ||tr.1mpc.temporium.fr^
 ||wazneechofakty24.temporizerecords.com^
 ||niezbitylokalnyfakt.temporizerecords.com^
