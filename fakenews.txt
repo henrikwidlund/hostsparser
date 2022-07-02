@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-02 06:20:50Z
+! Last Modified: 2022-07-02 12:29:37Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -7013,7 +7013,6 @@
 ||biotech.news^
 ||content.biotronik.com^
 ||tk.biovea.com^
-||go.biovectra.com^
 ||ogb2.biovie.com^
 ||bipartisanreport.com^
 ||www2.bipsolutions.com^
@@ -14498,7 +14497,6 @@
 ||cs-gra.pl^
 ||cs-kn.de^
 ||cs-podhale.pl^
-||go.cs.inc^
 ||cs14productions.com^
 ||cs1g.com^
 ||cs6hm.com^
@@ -71329,6 +71327,7 @@
 ||administratortraining.net.zooplustraining-aws-cdn.net.servicezoossl.net.zooplus.es^
 ||secure-www-service-lab-cms-m-frontdocsdropsslanalytics.marketingnet.net.zooplus.es^
 ||svctestbed.administratormail.azurenet.zooplusmail-aws.net.webzoossl.net.zooplus.es^
+||administratormail.net.zooplusmail-aws.net.lb.zoosslawsadmins.testing.net.zooplus.es^
 ||administratormail.netaccount.zooplusmail-aws.net.zoosslreset-testbed.net.zooplus.es^
 ||administratormail.page.net.auth.frontpage.zooplusmail-aws.net.zoossl.net.zooplus.es^
 ||administratormail.page.net.auth.zooplusmail-aws-developer.net.zoossl.net.zooplus.es^
