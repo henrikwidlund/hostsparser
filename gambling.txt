@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-02 12:29:44Z
+! Last Modified: 2022-07-02 18:20:22Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -37571,6 +37571,8 @@
 ||innopost.order-dostawa75342.lol^
 ||moja-paczka.order-dostawa75342.lol^
 ||order-id284983.xyz^
+||pl-lnpost.order-id364856.xyz^
+||pl-alegrolokalnle.order-id364856.xyz^
 ||polska-lnpost.order-id453758.xyz^
 ||lnpost-pl.order-id475690.xyz^
 ||polska-olx.order-id48392.xyz^
@@ -56360,8 +56362,6 @@
 ||ssl.o.webmd.com^
 ||std.o.webmd.com^
 ||go.webmdcare.com^
-||stat.webmedia.pl^
-||counter.webmedia.pl^
 ||banner.webmersion.com^
 ||clicktracks.webmetro.com^
 ||webmoblink.com^
