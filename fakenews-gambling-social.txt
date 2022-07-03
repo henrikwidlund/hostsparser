@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-03 01:53:11Z
+! Last Modified: 2022-07-03 06:21:00Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -26976,6 +26976,10 @@
 ||1zzs6w25i8n.tube.inflatevids.xyz^
 ||plausible.inflex.io^
 ||influencearabia.com^
+||events.influencemobile.com^
+||messaging.influencemobile.com^
+||targeting.influencemobile.com^
+||engage-network.influencemobile.com^
 ||image.influenster.com^
 ||cq.hq1.influitive.com^
 ||app.email.influitive.com^
@@ -46859,7 +46863,6 @@
 ||metric-android-am.road404.com^
 ||sdc.roadandtrack.com^
 ||roadbet.com^
-||info.roadie.com^
 ||roadwide.net^
 ||roamco.shop^
 ||roanconsol.top^

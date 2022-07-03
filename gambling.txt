@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-03 01:53:28Z
+! Last Modified: 2022-07-03 06:21:12Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -9010,7 +9010,6 @@
 ||kbvxbw.bugatti-fashion.com^
 ||api.bugfender.com^
 ||app.bugfender.com^
-||collector.bughd.com^
 ||buglife.com^
 ||app.bugreplay.com^
 ||ymail-activate1.bugs3.com^
@@ -17723,7 +17722,9 @@
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
+||ma479-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ds-www.addthis.com.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
@@ -17732,6 +17733,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||wildcard.outbrain.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -32723,6 +32725,7 @@
 ||v10c.events.data.microsoft.com^
 ||watson.telemetry.microsoft.com^
 ||wes.df.telemetry.microsoft.com^
+||advertise.bingads.microsoft.com^
 ||telecommand.telemetry.microsoft.com^
 ||microsoftcommunityxbox.com^
 ||ns1.microsoftonlines.net^
