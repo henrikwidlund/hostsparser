@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-03 12:29:59Z
+! Last Modified: 2022-07-03 18:19:59Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -27211,6 +27211,10 @@
 ||gazeta-pl.icu^
 ||gazeta-pl.tech^
 ||gazeta-swiatowa.pl^
+||ad.gazeta.pl^
+||adp.gazeta.pl^
+||adv.gazeta.pl^
+||mklik.gazeta.pl^
 ||gazeta997.pl^
 ||gazetalublin.pl^
 ||gazetaporannna.xyz^
@@ -51807,7 +51811,6 @@
 ||olx.pl-safecosts.cyou^
 ||olx.pl-safecosts.icu^
 ||olx.pl-safecosts.shop^
-||olx.pl-safecosts.xyz^
 ||olx.pl-safelycash.cyou^
 ||inpost.pl-safelycash.cyou^
 ||olx.pl-safelycash.icu^
