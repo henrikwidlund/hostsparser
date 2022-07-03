@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-02 18:20:26Z
+! Last Modified: 2022-07-03 01:53:31Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -12475,10 +12475,6 @@
 ||loansales.cbre.com^
 ||aa.cbs.com^
 ||saa.cbs.com^
-||aa.cbsi.com^
-||saa.cbsi.com^
-||som.cbsi.com^
-||production-cmp.isgprivacy.cbsi.com^
 ||cbsmarket.co^
 ||aa.cbsnews.com^
 ||saa.cbsnews.com^
@@ -88399,6 +88395,7 @@
 ||administratortraining.net.zooplustraining-aws-cdn.net.servicezoossl.net.zooplus.es^
 ||secure-www-service-lab-cms-m-frontdocsdropsslanalytics.marketingnet.net.zooplus.es^
 ||svctestbed.administratormail.azurenet.zooplusmail-aws.net.webzoossl.net.zooplus.es^
+||administratormail.net.zooplusmail-aws.net.lb.zoosslawsadmins.testing.net.zooplus.es^
 ||administratormail.netaccount.zooplusmail-aws.net.zoosslreset-testbed.net.zooplus.es^
 ||administratormail.page.net.auth.frontpage.zooplusmail-aws.net.zoossl.net.zooplus.es^
 ||administratormail.page.net.auth.zooplusmail-aws-developer.net.zoossl.net.zooplus.es^
