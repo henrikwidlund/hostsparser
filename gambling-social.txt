@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-04 01:56:58Z
+! Last Modified: 2022-07-04 06:27:42Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -15007,7 +15007,6 @@
 ||d4q8zgf756.com^
 ||asq.d6shiiwz.pw^
 ||d8x.pl^
-||acc.eligibility.d95679752134a2d9eb61dbd7b91c4bcc.ml^
 ||p2.d9media.cn^
 ||bk.da520.top^
 ||daatigo.online^
@@ -17791,6 +17790,7 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
+||wildcard.marketo.net.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -58952,8 +58952,9 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
-||it.adserver.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
