@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-04 12:40:56Z
+! Last Modified: 2022-07-04 18:22:48Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -2934,7 +2934,6 @@
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
-||pixel-apac.rubiconproject.net.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
 ||marketing.akaes.com^
 ||akaflieg-sb.de^
@@ -34607,8 +34606,6 @@
 ||ipost.newsprawa253991.top^
 ||moje-olx.newsprawa253991.top^
 ||moja-paczka.newsprawa253991.top^
-||vjnted.newsprawa832596.pics^
-||moje-olx.newsprawa832596.pics^
 ||moje-olx.newsprawa879324.beauty^
 ||moje-olx.newsprawa987230.click^
 ||newsproduct.site^
@@ -52645,7 +52642,6 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
-||auction.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -57109,6 +57105,7 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.intl.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
@@ -57570,6 +57567,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
+||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
