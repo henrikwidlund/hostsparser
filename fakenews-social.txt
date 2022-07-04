@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-03 18:19:52Z
+! Last Modified: 2022-07-04 01:56:50Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -1706,6 +1706,10 @@
 ||hubvera.ac.ug^
 ||wiwirdo.ac.ug^
 ||kodekode.ac.ug^
+||go.arden.ac.uk^
+||ads.ahds.ac.uk^
+||pardot.roffeypark.ac.uk^
+||exec-info.imperial.ac.uk^
 ||buy-adipex.aca.ru^
 ||buy-viagra.aca.ru^
 ||buy-hydrocodone.aca.ru^
@@ -31381,7 +31385,6 @@
 ||m.me^
 ||m1-shop.ru^
 ||smetrics.m1.com.sg^
-||m10.m1029.com^
 ||m1700.com^
 ||m1crosoft.com^
 ||hyena.m1guelpf.blog^
