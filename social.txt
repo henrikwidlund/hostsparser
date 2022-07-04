@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-04 06:27:48Z
+! Last Modified: 2022-07-04 12:40:56Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -2934,6 +2934,7 @@
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
+||pixel-apac.rubiconproject.net.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
 ||marketing.akaes.com^
 ||akaflieg-sb.de^
@@ -23098,7 +23099,6 @@
 ||refer.hannaandersson.com^
 ||dil.hansel.io^
 ||sdk.hansel.io^
-||ujm.hansel.io^
 ||hanslionel.com^
 ||info.hansonwade.com^
 ||hansvanderwerf.nl^
@@ -52645,6 +52645,7 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
+||auction.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-04 06:27:43Z
+! Last Modified: 2022-07-04 12:40:52Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -2999,7 +2999,10 @@
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
+||beacon-sjc2.rubiconproject.net.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
+||pixel-us-east.rubiconproject.net.akadns.net^
+||pixel-us-west.rubiconproject.net.akadns.net^
 ||marketing.akaes.com^
 ||akaflieg-sb.de^
 ||akama.com^
@@ -23704,7 +23707,6 @@
 ||hanplayer.com^
 ||dil.hansel.io^
 ||sdk.hansel.io^
-||ujm.hansel.io^
 ||hanslionel.com^
 ||info.hansonwade.com^
 ||hansvanderwerf.nl^
@@ -58464,9 +58466,7 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
-||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
