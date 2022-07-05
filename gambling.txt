@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-05 12:47:22Z
+! Last Modified: 2022-07-05 18:21:41Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -43379,6 +43379,7 @@
 ||promoreclame.info^
 ||promoreclame.nl^
 ||g.promosrv.com^
+||cdn.g.promosrv.com^
 ||marketing.pronaca.com^
 ||pronetadvertising.com^
 ||pronhubhd.com^
