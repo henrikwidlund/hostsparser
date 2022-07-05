@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-05 06:22:32Z
+! Last Modified: 2022-07-05 12:47:05Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -25728,6 +25728,7 @@
 ||hookedmediagroup.com^
 ||hookedupboatclub.com^
 ||affiliates.hookup.com^
+||click.hookupinyourcity.com^
 ||adserver1.hookyouup.com^
 ||notice.hoopladigital.com^
 ||hooqy.com^
@@ -61455,7 +61456,6 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||ir2.beap.gemini.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -63449,6 +63449,7 @@
 ||1.ctl.api.pamela.net.zooplus.de^
 ||adminnorthamerica.net.zooplus.de^
 ||applicationscsr11.net.zooplus.de^
+||service.admindata.net.zooplus.de^
 ||1-priv.clientcsr11.net.zooplus.de^
 ||administrators-owa.net.zooplus.de^
 ||servicedocker.2lab.net.zooplus.de^
