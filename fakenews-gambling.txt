@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-06 06:21:59Z
+! Last Modified: 2022-07-06 12:39:09Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -50459,6 +50459,8 @@
 ||spectre-ai.net^
 ||spectre-ai.org^
 ||spectre.site^
+||elqapp.spectrum.com^
+||sanalytics.enterprise.spectrum.com^
 ||spectrumprayer.info^
 ||go2.spectrumreach.com^
 ||email.spectrumvoip.com^
