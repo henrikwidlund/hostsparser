@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-06 12:39:05Z
+! Last Modified: 2022-07-06 18:22:02Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3288,8 +3288,6 @@
 ||strack.aetnafeds.com^
 ||pulse.svod.aetnd.com^
 ||insights.vip.aetnd.com^
-||links.e.aetv.com^
-||links.em.aetv.com^
 ||content.aew.com^
 ||aeyefilms.com^
 ||af-ad.co.uk^
@@ -20507,6 +20505,7 @@
 ||dizsords.xyz^
 ||dizzcloud.com^
 ||djkeun1bal.com^
+||somni.djoglobal.com^
 ||anz.djostore.com.au^
 ||djroomba.com^
 ||djs-teens.net^
@@ -78418,6 +78417,23 @@
 ||yads.yahoo.co.jp^
 ||yeas.yahoo.co.jp^
 ||promotionalads.yahoo.co.jp^
+||fc.yahoo.com^
+||comet.yahoo.com^
+||m.yap.yahoo.com^
+||gemini.yahoo.com^
+||pclick.yahoo.com^
+||adspecs.yahoo.com^
+||ads.yap.yahoo.com^
+||beap.adx.yahoo.com^
+||pr-bh.ybp.yahoo.com^
+||geo.query.yahoo.com^
+||us.adserver.yahoo.com^
+||advertising.yahoo.com^
+||ts.richmedia.yahoo.com^
+||ads-wc.v.ssp.yahoo.com^
+||ads.auctions.yahoo.com^
+||onepush.query.yahoo.com^
+||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -78612,6 +78628,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst7.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
