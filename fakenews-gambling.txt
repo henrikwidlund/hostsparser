@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-07 01:53:57Z
+! Last Modified: 2022-07-07 06:22:57Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -29666,6 +29666,7 @@
 ||metrics.kidsnews.com.au^
 ||go.kidsoutandabout.com^
 ||kidspantshangers.com^
+||metrics.kidspot.com.au^
 ||kiedinvest.website^
 ||kiedytomysliszpolska2.website^
 ||kieleckamasa.pl^
@@ -29768,6 +29769,9 @@
 ||adebis.kirin.co.jp^
 ||cattle.kirkebaekke.dk^
 ||kirkik.com^
+||metric.kirklands.com^
+||xqtcur.kirklands.com^
+||metrics.kirklands.com^
 ||ww2.kirkpatrickprice.com^
 ||kiroplefn.com^
 ||analytics.services.kirra.nl^
@@ -55869,10 +55873,10 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
+||pge.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
-||cdn-creatives-highwinds-prd.unityads.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
 ||unitymaineguide.com^
@@ -60960,6 +60964,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||gr.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -63002,7 +63007,6 @@
 ||authenticationssl.net.zooplus.es^
 ||preview-marketing.net.zooplus.es^
 ||securitymarketing.net.zooplus.es^
-||www-trial.marketing.net.zooplus.es^
 ||webns-prod.emailvision.pass.net.zooplus.es^
 ||webmail.net.europe-aws.net.test.net.zooplus.es^
 ||dii1.zooplus.fi^

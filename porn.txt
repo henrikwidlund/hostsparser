@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-07 01:54:14Z
+! Last Modified: 2022-07-07 06:23:14Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -21172,6 +21172,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||sync.teads.tv.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -28789,7 +28790,6 @@
 ||gtradersoft.com^
 ||balanced.gtsadsdistributed.com^
 ||go.gtschmidt.com^
-||cxrfns.gu-global.com^
 ||phar.gu-web.net^
 ||cheese.guac.live^
 ||guagua-linda.com^
@@ -71441,6 +71441,7 @@
 ||onrt-stsdk.vivo.com.cn^
 ||pnrt-stsdk.vivo.com.cn^
 ||picanalysis.vivo.com.cn^
+||bronrt.stsdk.vivo.com.cn^
 ||monitor-stsdk.vivo.com.cn^
 ||vcardsdkservice.vivo.com.cn^
 ||ads-marketing-vivofs.vivo.com.cn^
@@ -76317,6 +76318,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -78732,8 +78734,10 @@
 ||admlabarketing.net.zooplus.es^
 ||apps-marketing.net.zooplus.es^
 ||authenticationssl.net.zooplus.es^
+||cms-www.marketing.net.zooplus.es^
 ||preview-marketing.net.zooplus.es^
 ||securitymarketing.net.zooplus.es^
+||www-trial.marketing.net.zooplus.es^
 ||webns-prod.emailvision.pass.net.zooplus.es^
 ||webmail.net.europe-aws.net.test.net.zooplus.es^
 ||dii1.zooplus.fi^
