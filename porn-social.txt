@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-06 18:22:18Z
+! Last Modified: 2022-07-07 01:54:13Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3276,6 +3276,9 @@
 ||tr.donateur.afm-telethon.fr^
 ||n.afnet.jp^
 ||aforv.com^
+||tr.infos.afpa.fr^
+||tr.portail.afpa.fr^
+||tr.newsletter.afpa.fr^
 ||ads.afraccess.com^
 ||unlimited.movies.and.series.netflix.afraplants.ir^
 ||afrcon.info^
@@ -21219,6 +21222,7 @@
 ||spotxcdn.com.edgekey.net^
 ||yieldlab.net.edgekey.net^
 ||secure-adnxs.edgekey.net^
+||cdn.teads.tv.edgekey.net^
 ||adservrs.com.edgekey.net^
 ||i.pinimg.com.edgekey.net^
 ||s.pinimg.com.edgekey.net^
@@ -58194,7 +58198,6 @@
 ||smakomnganjuk.sch.id^
 ||smk01diponegoro.sch.id^
 ||smksmuhammadiyahsintang.sch.id^
-||secmetrics.schaefer-shop.at^
 ||secmetrics.schaefer-shop.be^
 ||secmetrics.schaefer-shop.ch^
 ||secmetrics.schaefer-shop.de^
@@ -74944,6 +74947,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||es.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -77368,7 +77372,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
-||ciing.net.zooplus.fr^
+||owa.control.net.zooplus.fr^
 ||dii1.zooplus.gr^
 ||dii2.zooplus.gr^
 ||dii1.zooplus.hr^

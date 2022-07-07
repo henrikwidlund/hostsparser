@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-06 18:22:10Z
+! Last Modified: 2022-07-07 01:54:04Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -15630,10 +15630,6 @@
 ||delorio.store^
 ||delphilawadvisory.com^
 ||dn.delta-net.com^
-||tms.delta.com^
-||pulse.delta.com^
-||metrics.delta.com^
-||smetrics.delta.com^
 ||int.deltafaucet.com^
 ||lideroxigenio.com.br.deltagases.com.br^
 ||sslstats.deltavacations.com^
@@ -18925,6 +18921,8 @@
 ||dcs.esprit.se^
 ||dcs.esprit.tw^
 ||espritensemble.com^
+||dcs.espritshop.ch^
+||ufqzrk.espritshop.ch^
 ||dcs.espritshop.it^
 ||dcs.espritshop.pl^
 ||esquiudigital.com^
@@ -59630,7 +59628,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||beap.gemini.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

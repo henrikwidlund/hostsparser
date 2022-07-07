@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-06 18:22:12Z
+! Last Modified: 2022-07-07 01:54:06Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -76283,6 +76283,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||europe.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -78704,6 +78705,7 @@
 ||authenticationssl.net.zooplus.es^
 ||preview-marketing.net.zooplus.es^
 ||securitymarketing.net.zooplus.es^
+||www-trial.marketing.net.zooplus.es^
 ||webns-prod.emailvision.pass.net.zooplus.es^
 ||webmail.net.europe-aws.net.test.net.zooplus.es^
 ||dii1.zooplus.fi^
