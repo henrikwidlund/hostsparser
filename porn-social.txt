@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-08 12:35:42Z
+! Last Modified: 2022-07-08 18:22:45Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -26608,6 +26608,8 @@
 ||saa.gamespot.com^
 ||trax.gamespot.com^
 ||poster.gamesprite.me^
+||counter.gamespy.com^
+||adcontent.gamespy.com^
 ||ads.gamespyid.com^
 ||gamesrotator.com^
 ||metrics.gamestop.ca^
