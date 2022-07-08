@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-07 18:22:38Z
+! Last Modified: 2022-07-08 01:51:01Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -47520,7 +47520,6 @@
 ||serialefilmy.pl^
 ||serialosy.pl^
 ||serialowo.pl^
-||smetrics.seriesplus.com^
 ||sernim.win^
 ||seropahoagency.buzz^
 ||sertifikatkendaraan.com^
@@ -57449,6 +57448,8 @@
 ||jdsbyb.webmd.com^
 ||go.webmdcare.com^
 ||go.webmdpracticepro.com^
+||stat.webmedia.pl^
+||counter.webmedia.pl^
 ||banner.webmersion.com^
 ||clicktracks.webmetro.com^
 ||webmoblink.com^
