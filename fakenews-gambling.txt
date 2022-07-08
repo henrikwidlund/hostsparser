@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-08 06:23:12Z
+! Last Modified: 2022-07-08 12:35:30Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -28787,6 +28787,7 @@
 ||im.jiguang.cn^
 ||sdk.jiguang.cn^
 ||verification.jiguang.cn^
+||sdk.verification.jiguang.cn^
 ||jihadwatch.org^
 ||jilarohtas.com^
 ||jilliancamwell.com^
@@ -34100,6 +34101,10 @@
 ||campaigns.mindplusmatter.com^
 ||url8196.mindrise.app^
 ||ads.mindsetnetwork.com^
+||banner.mindshare.de^
+||adserver.mindshare.de^
+||adserver1.mindshare.de^
+||adserver2.mindshare.de^
 ||www2.mindsquare.de^
 ||ads.mindviz.com^
 ||traffic.mindviz.com^

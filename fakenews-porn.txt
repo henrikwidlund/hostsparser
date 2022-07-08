@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts)
 ! Filters: adware + malware + fakenews + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-08 06:23:16Z
+! Last Modified: 2022-07-08 12:35:33Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -78442,6 +78442,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -78476,9 +78477,6 @@
 ||kiks.yandex.ru^
 ||bs-meta.yandex.ru^
 ||advertising.yandex.ru^
-||fid-2login.website.yandexcloud.net^
-||loginauthui.website.yandexcloud.net^
-||mail-loginui.website.yandexcloud.net^
 ||yandim.info^
 ||yangqi-miss.com^
 ||yanks.com^
