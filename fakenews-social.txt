@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-09 06:21:00Z
+! Last Modified: 2022-07-09 12:31:25Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -4569,7 +4569,6 @@
 ||earwig.architecturesofhiding.com^
 ||five.partner.archive-it.org^
 ||go.archomeloans.com^
-||go.archometpo.com^
 ||www2.archsystems.com^
 ||s.arclk.net^
 ||smetrics.arcobusinesssolutions.com^
@@ -14843,6 +14842,7 @@
 ||csk.ru^
 ||metrics.csmonitor.com^
 ||smetrics.csmonitor.com^
+||tracking-secure.csob.cz^
 ||tracking.cspire.com^
 ||campaigns.cspire.com^
 ||csprocup.com^
@@ -60180,12 +60180,12 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||launch.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
