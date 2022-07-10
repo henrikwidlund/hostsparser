@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-10 06:21:34Z
+! Last Modified: 2022-07-10 12:30:26Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -31134,6 +31134,7 @@
 ||hipyfacyagency.buzz^
 ||hir-tv.com^
 ||hirado.top^
+||ebis-tracking.hirakata-skin-clinic.com^
 ||explore.hireez.com^
 ||go.hireheroesusa.org^
 ||hirek-online.com^
@@ -77098,7 +77099,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||cn.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -79533,6 +79533,7 @@
 ||authenticationssl.net.zooplus.es^
 ||preview-marketing.net.zooplus.es^
 ||securitymarketing.net.zooplus.es^
+||www-trial.marketing.net.zooplus.es^
 ||webns-prod.emailvision.pass.net.zooplus.es^
 ||webmail.net.europe-aws.net.test.net.zooplus.es^
 ||dii1.zooplus.fi^
