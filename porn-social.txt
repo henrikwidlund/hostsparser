@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-10 01:57:49Z
+! Last Modified: 2022-07-10 06:21:49Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -74947,12 +74947,13 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||tp2.beap.gemini.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -77363,6 +77364,7 @@
 ||admlabarketing.net.zooplus.es^
 ||apps-marketing.net.zooplus.es^
 ||authenticationssl.net.zooplus.es^
+||cms-www.marketing.net.zooplus.es^
 ||preview-marketing.net.zooplus.es^
 ||securitymarketing.net.zooplus.es^
 ||webns-prod.emailvision.pass.net.zooplus.es^
@@ -77372,6 +77374,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||profilesing.net.zooplus.fr^
 ||dii1.zooplus.gr^
 ||dii2.zooplus.gr^
 ||dii1.zooplus.hr^
