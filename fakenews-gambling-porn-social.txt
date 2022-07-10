@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-10 12:30:22Z
+! Last Modified: 2022-07-10 18:20:42Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3716,6 +3716,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||tps-wlb-uswest.dvgtm.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -17603,7 +17604,6 @@
 ||cootlogix.com^
 ||omni.copaair.com^
 ||go.copado.com^
-||marketing.copc.com^
 ||smetrics.copd-aktuell.de^
 ||zkebwy.copenhagenstudios.com^
 ||copernicusdm.pl^
@@ -25078,7 +25078,6 @@
 ||ishinomakicatering.web.fc2.com^
 ||panchiragazoumania.blog.fc2.com^
 ||analyzer5.fc2cn.com^
-||150601.fc2rs.com^
 ||tr.compte.fca-capital-france.fr^
 ||metrics.fcacert.com^
 ||smetrics.fcacert.com^

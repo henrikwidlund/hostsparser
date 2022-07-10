@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-10 12:30:19Z
+! Last Modified: 2022-07-10 18:20:39Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3713,7 +3713,6 @@
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
-||rtr.innovid.com.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
@@ -24248,8 +24247,6 @@
 ||dl.health-programs.express-scripts.com^
 ||express-submit.de^
 ||express.co.uk^
-||metrics.express.com^
-||smetrics.express.com^
 ||jdgtgb.express.de^
 ||sanalytics.express.de^
 ||expressaffiliatesite.com^
