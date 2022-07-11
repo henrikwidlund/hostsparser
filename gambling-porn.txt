@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-10 18:20:59Z
+! Last Modified: 2022-07-11 01:48:43Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3691,6 +3691,7 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
+||rtb.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
@@ -42495,11 +42496,13 @@
 ||exc.mob.com^
 ||mic.mob.com^
 ||sms.mob.com^
+||l.gm.mob.com^
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
+||tcp.push.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^

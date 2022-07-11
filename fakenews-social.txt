@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-10 18:20:53Z
+! Last Modified: 2022-07-11 01:48:37Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -44807,6 +44807,7 @@
 ||api.ranking.rakuten.co.jp^
 ||shopapi.ranking.rakuten.co.jp^
 ||rmp.rakuten.com^
+||s-bid.rmp.rakuten.com^
 ||brc.emails.rakuten.com^
 ||qa-brc.emails.rakuten.com^
 ||rd.comm.rakuten.net^
@@ -61039,6 +61040,7 @@
 ||zimicaijing.com^
 ||go.zimperium.com^
 ||vietnam.zing.photos^
+||adtimabox.brand.zing.vn^
 ||zingknowev.tk^
 ||ziniba.space^
 ||ziololecznictwo.pl^
