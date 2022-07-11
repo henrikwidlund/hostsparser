@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-11 12:46:53Z
+! Last Modified: 2022-07-11 18:22:47Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -22219,6 +22219,9 @@
 ||frinblok.site^
 ||ms.fringe81.com^
 ||fringewithbenefitsburlesque.com^
+||pril1tro.fritoo.site^
+||pril2tro.fritoo.site^
+||pril5tro.fritoo.site^
 ||zelten.fritz-berger.de^
 ||frog9alea.com^
 ||marketing.frogtape.com^
@@ -61449,8 +61452,10 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||cms.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -61529,7 +61534,6 @@
 ||www2.yellow.ai^
 ||infos.yellow.com.au^
 ||smetrics.yellow.com.au^
-||hb.yellowblue.io^
 ||metrics.yellowbook.com^
 ||smetrics.yellowbook.com^
 ||yellowcat.site^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-11 12:47:11Z
+! Last Modified: 2022-07-11 18:23:03Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -50477,7 +50477,6 @@
 ||go.tabiiro.jp^
 ||go.tabitabigujo.com^
 ||clicks.tableau.com^
-||ao-mkt.tableausoftware.com^
 ||smetrics.tabletable.co.uk^
 ||tablica-fotos.eu^
 ||events.tabmo.io^
@@ -58806,12 +58805,13 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||de.adserver.yahoo.com^
+||es.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -58886,7 +58886,6 @@
 ||www2.yellow.ai^
 ||infos.yellow.com.au^
 ||smetrics.yellow.com.au^
-||hb.yellowblue.io^
 ||metrics.yellowbook.com^
 ||smetrics.yellowbook.com^
 ||yellowcat.site^
