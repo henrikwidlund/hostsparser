@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-11 18:23:03Z
+! Last Modified: 2022-07-12 01:54:07Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -13406,8 +13406,6 @@
 ||lcf.cmplay.cmcm.com^
 ||cmcxxmarket.com^
 ||cmdbet.com^
-||go.cmegroup.com^
-||go-optimization.cmegroup.com^
 ||cmentosrl.com^
 ||acv.cmf-hikari.net^
 ||cmgfeeds.cmgdigital.com^
@@ -41062,8 +41060,6 @@
 ||pol-orl.pl-propatern.xyz^
 ||pl-purchased.xyz^
 ||inpost.pl-receivepay.cyou^
-||olx.pl-receivepay.icu^
-||inpost.pl-receivepay.icu^
 ||inpost.pl-receivepay.shop^
 ||olx.pl-receivepay.xyz^
 ||inpost.pl-receivepay.xyz^
@@ -50477,6 +50473,7 @@
 ||go.tabiiro.jp^
 ||go.tabitabigujo.com^
 ||clicks.tableau.com^
+||ao-mkt.tableausoftware.com^
 ||smetrics.tabletable.co.uk^
 ||tablica-fotos.eu^
 ||events.tabmo.io^
@@ -58805,8 +58802,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||de.adserver.yahoo.com^
-||es.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
