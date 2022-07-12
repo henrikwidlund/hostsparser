@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-12 12:38:19Z
+! Last Modified: 2022-07-12 18:22:32Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -993,8 +993,6 @@
 ||lnpost-pl.5744930.xyz^
 ||olx.57849.space^
 ||57883.net^
-||olx-pl-ns.5812759.live^
-||inpost-pl-safe.5812759.live^
 ||58732.space^
 ||inp0ste-76searching11pay.5874935.xyz^
 ||polska-dpd.58966.space^
@@ -16990,8 +16988,6 @@
 ||adtd.douglas.at^
 ||wttd.douglas.at^
 ||adtd.douglas.be^
-||adtd.douglas.ch^
-||wttd.douglas.ch^
 ||adtd.douglas.de^
 ||wttd.douglas.de^
 ||adtd.douglas.it^
@@ -25943,9 +25939,7 @@
 ||stat.ijinshan.com^
 ||utag.ijinshan.com^
 ||liehu.ijinshan.com^
-||lb3d.tj.ijinshan.com^
 ||keyserver.ijinshan.com^
-||sdk.mobad.ijinshan.com^
 ||content.ikawacoffee.com^
 ||ikbox.org^
 ||vjnted-polsca.ikdrloebmafer84.cloud^
@@ -53858,6 +53852,7 @@
 ||unibet.co.uk^
 ||unibet.com^
 ||unibet.com.au^
+||insight.unibuddy.com^
 ||unicaitaly.it^
 ||igjytl.unice.com^
 ||a8cv.unico-fan.co.jp^
@@ -58341,6 +58336,8 @@
 ||ayerbo.xhost.ro^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||cdn.ad.xiaomi.com^
+||test.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
