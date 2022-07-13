@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-13 06:24:27Z
+! Last Modified: 2022-07-13 12:34:31Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -56465,6 +56465,8 @@
 ||prezent-500zl.site^
 ||prezent500-zl.site^
 ||prezent500zl.site^
+||creative.prf.hn^
+||aos-creative.prf.hn^
 ||cdn-assets.prfct.cc^
 ||cdn-otf-cas.prfct.cc^
 ||cdn-resources.prfct.cc^
@@ -78432,6 +78434,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

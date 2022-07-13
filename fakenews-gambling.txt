@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-13 06:24:31Z
+! Last Modified: 2022-07-13 12:34:35Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -18797,7 +18797,6 @@
 ||elonmuskstockfx.com^
 ||t.eloqua.com^
 ||now.eloqua.com^
-||s1325.t.eloqua.com^
 ||hipaa-p02.releasetesting.eloqua.com^
 ||hipaa-p03.releasetesting.eloqua.com^
 ||hipaa-p06.releasetesting.eloqua.com^
@@ -40838,6 +40837,13 @@
 ||b2bapac.page.com^
 ||b2blatam.page.com^
 ||b2blegacy.page.com^
+||tomuh.page.link^
+||fyripu.page.link^
+||petake.page.link^
+||quvahe.page.link^
+||lnkpayme.page.link^
+||delivery2you.page.link^
+||thisisclicksecured.page.link^
 ||page1monk.com^
 ||page9awry.com^
 ||pardot.pageantmedia.com^
@@ -50185,7 +50191,6 @@
 ||biz-sol.sony.jp^
 ||smetrics.sony.jp^
 ||newssuite.sony.net^
-||manage.newssuite.sony.net^
 ||sonyalpha.pl^
 ||sonycrackle.club^
 ||adserver1.sonymusiceurope.com^
