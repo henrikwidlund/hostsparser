@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-12 18:22:25Z
+! Last Modified: 2022-07-13 01:47:35Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -22256,7 +22256,6 @@
 ||ads.geekswithblogs.net^
 ||analytics.geekyminds.net^
 ||metrics.geelongadvertiser.com.au^
-||schoorsteen.geenstijl.nl^
 ||geezersnooses.com^
 ||go.gefco.net^
 ||geflatware.pl^
@@ -31821,6 +31820,7 @@
 ||ad.mangareader.net^
 ||mangayhentai.com^
 ||tr.info.mango-mobilites.fr^
+||qzcxtm.mango.com^
 ||adv.mangoadv.com^
 ||go.mangopay.com^
 ||metrics.manheim.com^
@@ -33491,6 +33491,7 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
+||devs.data.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^
@@ -61663,7 +61664,6 @@
 ||authenticationssl.net.zooplus.es^
 ||preview-marketing.net.zooplus.es^
 ||securitymarketing.net.zooplus.es^
-||www-trial.marketing.net.zooplus.es^
 ||webns-prod.emailvision.pass.net.zooplus.es^
 ||webmail.net.europe-aws.net.test.net.zooplus.es^
 ||dii1.zooplus.fi^

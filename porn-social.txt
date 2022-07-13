@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-12 18:22:34Z
+! Last Modified: 2022-07-13 01:47:52Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -42363,6 +42363,8 @@
 ||aserv.motorsgate.com^
 ||smetrics.motorsportreg.com^
 ||motorsxxx.com^
+||smetrics.motortrend.com^
+||ablink.marketing.motortrend.com^
 ||sstats.motosport.com^
 ||motys.pl^
 ||mouads.com^
@@ -73196,7 +73198,6 @@
 ||wp-informacje.eu^
 ||wp-nagranie.pl^
 ||wp-opinia.eu^
-||poczta.wp-pl-potwierdz-dostep.site^
 ||wp-plzysk.online^
 ||wp-portal.eu^
 ||wp-swiat24.com.pl^
@@ -74945,6 +74946,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||uk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
