@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-14 01:53:48Z
+! Last Modified: 2022-07-14 06:23:16Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -21581,6 +21581,7 @@
 ||electrocanada.online^
 ||ads.electrocelt.com^
 ||electroenchufe.com^
+||marketing.electroind.com^
 ||electroline.pl^
 ||electromost.com^
 ||electronicer.tech^
@@ -74866,13 +74867,11 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||ca.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||global.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -91456,7 +91455,6 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||devinfo-scm.net.zooplus.nl^
 ||iadcar40market.net.zooplus.nl^
 ||lb-v1dii2-edge.net.zooplus.nl^
 ||mail.apache-gh.net.zooplus.nl^
