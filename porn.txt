@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-13 18:21:21Z
+! Last Modified: 2022-07-14 01:53:49Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -21197,6 +21197,7 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
+||79423.analytics.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -44056,13 +44057,6 @@
 ||vinted-pl.nazwa573486.click^
 ||mojapaczka-inpost.nazwaid0584961.buzz^
 ||go.nazza.es^
-||gdyn.nba.com^
-||metrics.nba.com^
-||agility.nba.com^
-||smetrics.nba.com^
-||fpcsbulls.nba.com^
-||metrics.global.nba.com^
-||smetrics.global.nba.com^
 ||nbads.com^
 ||go.nbapremium.com^
 ||strack.nbastore.eu^
@@ -92825,6 +92819,7 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
+||asana-proxy.net.zooplus.nl^
 ||iadcar40market.net.zooplus.nl^
 ||lb-v1dii2-edge.net.zooplus.nl^
 ||mail.apache-gh.net.zooplus.nl^
