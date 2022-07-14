@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-14 06:22:53Z
+! Last Modified: 2022-07-14 12:36:11Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -22304,8 +22304,6 @@
 ||ftpadmin.edv-stumpf.de^
 ||edv-waldherr.at^
 ||edwan.pl^
-||m.edweek.org^
-||sm.edweek.org^
 ||smetrics.ee.co.uk^
 ||eecakesconf.at^
 ||info.eecoonline.com^
@@ -79691,6 +79689,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||dk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
