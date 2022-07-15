@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-15 06:22:54Z
+! Last Modified: 2022-07-15 12:37:44Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -21263,7 +21263,6 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||ssl2.twitter.com.edgekey.net^
-||ma479-r.analytics.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -74867,7 +74866,6 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
-||rtb.pclick.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
@@ -91441,6 +91439,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||mail.net.zooplus.fr^
 ||dii1.zooplus.gr^
 ||dii2.zooplus.gr^
 ||dii1.zooplus.hr^
@@ -91457,7 +91456,6 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||ghcpi-net17.net.zooplus.nl^
 ||iadcar40market.net.zooplus.nl^
 ||lb-v1dii2-edge.net.zooplus.nl^
 ||mail.apache-gh.net.zooplus.nl^
