@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-14 18:22:51Z
+! Last Modified: 2022-07-15 02:01:12Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -55997,6 +55997,8 @@
 ||marketing.vigon.com^
 ||med.viibryd.com^
 ||meds.viibryd.com^
+||med.viibrydhcp.com^
+||meds.viibrydhcp.com^
 ||go.vikan.com^
 ||www2.vikinggroupinc.biz^
 ||smetrics.vikingline.se^

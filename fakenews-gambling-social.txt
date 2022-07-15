@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-14 18:22:42Z
+! Last Modified: 2022-07-15 02:01:03Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3108,6 +3108,7 @@
 ||jadserve.postrelease.com.akadns.net^
 ||adobe-china.poc.redhat.com.akadns.net^
 ||adlanding.admarketplace.net.akadns.net^
+||pixel-eu.rubiconproject.net.akadns.net^
 ||beacon-cdn-custom.walmart.com.akadns.net^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
 ||marketing.akaes.com^
@@ -19834,7 +19835,6 @@
 ||ssa.eurosport.fr^
 ||ssa.eurosport.hu^
 ||ssa.eurosport.it^
-||ssa.eurosport.nl^
 ||ssa.eurosport.no^
 ||ssa.eurosport.ro^
 ||ssa.eurosportplayer.com^
@@ -77583,7 +77583,7 @@
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
-||c.acc.profile.net.zooplus.nl^
+||mail.app-gh.net.zooplus.nl^
 ||iadcar40market.net.zooplus.nl^
 ||lb-v1dii2-edge.net.zooplus.nl^
 ||mail.apache-gh.net.zooplus.nl^

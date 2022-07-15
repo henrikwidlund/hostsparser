@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts)
 ! Filters: adware + malware + fakenews + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-14 18:22:46Z
+! Last Modified: 2022-07-15 02:01:07Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -21773,6 +21773,7 @@
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
+||eus.rubiconproject.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
@@ -60240,7 +60241,6 @@
 ||sensexion.com^
 ||web.sensilab.se^
 ||web.sensilab.si^
-||newsletter.sensirion.com^
 ||ad.sensismediasmart.com^
 ||sensismediasmart.com.au^
 ||marketing.sensoft.ca^
@@ -77024,6 +77024,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||eu-pn4.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -93608,6 +93609,7 @@
 ||net.zooplus.fr^
 ||dii1.zooplus.fr^
 ||dii2.zooplus.fr^
+||swag-v1.net.zooplus.fr^
 ||dii1.zooplus.gr^
 ||dii2.zooplus.gr^
 ||dii1.zooplus.hr^
