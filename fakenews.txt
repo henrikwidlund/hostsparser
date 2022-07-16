@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-16 12:29:34Z
+! Last Modified: 2022-07-16 18:20:47Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -17925,6 +17925,7 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
+||ds-api-public.addthis.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -21834,6 +21835,7 @@
 ||gabro.com.br^
 ||gabusinessdaily.com^
 ||gacpropiedades.cl^
+||gacraft.jp^
 ||gaczynski.pl^
 ||gad-lx.com^
 ||gad6r4-uqps.club^
@@ -35299,6 +35301,7 @@
 ||server990916.nazwa.pl^
 ||server998611.nazwa.pl^
 ||server560960.nazwa.pl^
+||cache.server560960.nazwa.pl^
 ||inpostpl.nazwa451376.cloud^
 ||inpostpl.nazwa549725.club^
 ||vinted-pl.nazwa573486.click^
@@ -51549,7 +51552,6 @@
 ||partenaireslld.temsys.fr^
 ||go.ten-x.com^
 ||tracking1.tena.com^
-||sstats.tena.us^
 ||beacon.sparta.mig.tencent-cloud.net^
 ||tenczas.biz^
 ||tend.io^
@@ -59555,6 +59557,7 @@
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
+||sea.advertising.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
@@ -75751,9 +75754,17 @@
 ||net.zooplus.it^
 ||dii1.zooplus.it^
 ||dii2.zooplus.it^
+||share-marketing.net.zooplus.it^
+||administratorail.net.zooplus.it^
+||loadbalancer-owa.net.zooplus.it^
+||mailbackup-marketing.net.zooplus.it^
+||redirector.activemarketing.net.zooplus.it^
 ||net.zooplus.nl^
 ||dii1.zooplus.nl^
 ||dii2.zooplus.nl^
+||svc.net.zooplus.nl^
+||69-240.net.zooplus.nl^
+||cdn.fw.net.zooplus.nl^
 ||iadcar40market.net.zooplus.nl^
 ||lb-v1dii2-edge.net.zooplus.nl^
 ||mail.apache-gh.net.zooplus.nl^
