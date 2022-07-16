@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-16 06:20:55Z
+! Last Modified: 2022-07-16 12:29:23Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -22290,8 +22290,8 @@
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
-||wildcard.marketo.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
+||wildcard.moatads.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
@@ -43555,6 +43555,7 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
+||api.verify.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^
@@ -71457,6 +71458,7 @@
 ||eloqua-trackings.unity.com^
 ||email.everyonesocial.unity.com^
 ||salesforce.unity.edu^
+||auction.unityads.unity3d.com^
 ||eloqua-trackings.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -78352,6 +78354,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||es.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
