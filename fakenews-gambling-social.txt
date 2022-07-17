@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-17 12:31:21Z
+! Last Modified: 2022-07-17 18:20:14Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -11871,6 +11871,7 @@
 ||cheapapartmentsaroundme.com^
 ||stats.cheaphotelsomg.com^
 ||click.cheapstuff.com^
+||br.ac2.cheaptickets.com^
 ||cheapuggssaleonline.net^
 ||cheats4u.pl^
 ||api.cheatsheet.me^
@@ -15490,7 +15491,6 @@
 ||sync.cosmoshq.com^
 ||go.cosmosia.net^
 ||cosmossolitude.top^
-||ad.cosp.jp^
 ||costabingo.com^
 ||smetrics.costacruise.com^
 ||smetrics.costadelmar.com^
@@ -36606,8 +36606,10 @@
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
+||m.data.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
+||tcp.push.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^

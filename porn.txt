@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-17 12:31:37Z
+! Last Modified: 2022-07-17 18:20:32Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -22196,12 +22196,15 @@
 ||doubleverify.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||oracleinfinity.io.edgekey.net^
+||ma1275-r.analytics.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
+||wildcard.aniview.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
+||wildcard.marketo.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
@@ -35100,6 +35103,7 @@
 ||go.interep.com.br^
 ||smetrics.interestfree.com.au^
 ||interesujace-sprawy.me^
+||info.interfacesystems.com^
 ||adserver.interfree.it^
 ||newadserver.interfree.it^
 ||img.interhome.be^
@@ -35580,6 +35584,7 @@
 ||iron-jawed-angels.com^
 ||iron0walk.com^
 ||info.ironcad.com^
+||www2.ironhack.com^
 ||go.ironhorsefunding.com^
 ||reach.ironmountain.com^
 ||ironprize.xyz^
@@ -79888,6 +79893,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||br.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
