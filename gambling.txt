@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-18 01:50:38Z
+! Last Modified: 2022-07-18 06:24:52Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3228,6 +3228,7 @@
 ||weighted.com.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
+||sync.tidaltv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
@@ -35500,6 +35501,7 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
+||sdk.guard.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^
@@ -57249,7 +57251,6 @@
 ||config.unityads.unitychina.cn^
 ||mdws.unitycu.ca^
 ||sc.unitymedia.de^
-||linux.unitys3d.com^
 ||ssl.o.univadis.co.uk^
 ||ssl.o.univadis.com^
 ||ssl.o.univadis.de^

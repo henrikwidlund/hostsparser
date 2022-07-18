@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-18 01:50:35Z
+! Last Modified: 2022-07-18 06:24:50Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -23789,8 +23789,6 @@
 ||go.erisinfo.com^
 ||erito.com^
 ||enter.eritoavstars.com^
-||t-s.erivedge.com^
-||metrics.erivedge.com^
 ||erkiss.club^
 ||www2.erlang-solutions.com^
 ||stats.erlef.org^
@@ -43958,6 +43956,7 @@
 ||v10c.events.data.microsoft.com^
 ||watson.telemetry.microsoft.com^
 ||wes.df.telemetry.microsoft.com^
+||browser.pipe.aria.microsoft.com^
 ||telecommand.telemetry.microsoft.com^
 ||microsoftcommunityxbox.com^
 ||ns1.microsoftonlines.net^
