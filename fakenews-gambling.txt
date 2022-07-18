@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-18 12:35:25Z
+! Last Modified: 2022-07-18 18:21:31Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -2211,6 +2211,7 @@
 ||static.l3.cdn.adbucks.com^
 ||adbuka.com^
 ||adbunker.com^
+||ab163949.adbutler-kaon.com^
 ||ab159015.adbutler-zilon.com^
 ||static.adbutter.net^
 ||api.adcalls.nl^
@@ -10809,7 +10810,6 @@
 ||sdc.caranddriver.com^
 ||metrics.caranddriver.com^
 ||caraopweveyo.com^
-||adbmetrics.caravantur.eus^
 ||go.caravelautism.com^
 ||go.carbide.co.jp^
 ||go.carboline.com^
@@ -18676,8 +18676,6 @@
 ||dssclientdownloadsprospect.com^
 ||dstreet.pl^
 ||dstwa-do-rak-wlasnych.xyz^
-||omni.dsw.com^
-||somni.dsw.com^
 ||dsw44z5igdmmbo.com^
 ||assets.dsztfso.cn^
 ||ap.dt.gl^
@@ -65452,7 +65450,6 @@
 ||nnivvr.zimmo.be^
 ||go.zimperium.com^
 ||vietnam.zing.photos^
-||adtima.brand.zing.vn^
 ||bavvgo.zingat.com^
 ||zingknowev.tk^
 ||ziniba.space^
