@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-17 18:20:15Z
+! Last Modified: 2022-07-18 01:50:25Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -40329,6 +40329,8 @@
 ||vjnted-polsca.numerid03482174.store^
 ||inpostpl.numerid057206943.top^
 ||inpostpl.numerid06483492.cloud^
+||5363316.marketing.numi.com^
+||ablinks.marketing.numi.com^
 ||nummimouf.tk^
 ||nunawigs.shop^
 ||sstats.nuon.nl^
@@ -64531,6 +64533,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||es.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^

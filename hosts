@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-17 18:20:09Z
+! Last Modified: 2022-07-18 01:50:19Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -66017,6 +66017,9 @@
 ||metrics.sky.com^
 ||smetrics.sky.com^
 ||connectyourbusiness.sky.com^
+||omni.sky.de^
+||somni.sky.de^
+||smetrics.sky.de^
 ||metrics.sky.it^
 ||smetrics.sky.it^
 ||skybet.com^
@@ -83337,14 +83340,12 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||nz.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
-||eu-pn4.adserver.yahoo.com^
-||eu-pn2.adserver.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
 ||yahyas.info^
