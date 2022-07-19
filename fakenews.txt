@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-19 02:02:18Z
+! Last Modified: 2022-07-19 06:22:55Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -17972,7 +17972,6 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||api.vungle.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -33761,6 +33760,8 @@
 ||cqishr.mobile.de^
 ||mobile2tdcontact.com^
 ||k1.mobileadsserver.com^
+||avowtech.mobileadstrk.com^
+||tracking.mobileadstrk.com^
 ||track-east.mobileadtrading.com^
 ||publisher-east.mobileadtrading.com^
 ||api.mobileanjian.com^
