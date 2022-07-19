@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-19 12:36:34Z
+! Last Modified: 2022-07-19 18:25:42Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -18109,6 +18109,7 @@
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
+||wildcard.outbrain.com.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
@@ -55695,6 +55696,7 @@
 ||su.valley.ne.jp^
 ||mdws.valleycreditunion.com^
 ||mdws.valleyfirst.com^
+||marketing.valleyforge.org^
 ||valleyhomogeneous.top^
 ||vallianttoday.com^
 ||www2.valmet.com^
