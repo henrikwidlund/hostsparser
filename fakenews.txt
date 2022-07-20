@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)
 ! Filters: adware + malware + fakenews
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-20 01:47:42Z
+! Last Modified: 2022-07-20 06:23:40Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -17972,8 +17972,6 @@
 ||api.agoda.com.edgekey.net^
 ||clicktale.net.edgekey.net^
 ||everestjs.net.edgekey.net^
-||perf.teads.tv.edgekey.net^
-||wl.aniview.com.edgekey.net^
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
@@ -44455,7 +44453,6 @@
 ||tajs.qq.com^
 ||tcss.qq.com^
 ||ysdk.qq.com^
-||c2.l.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
 ||logsdk.qq.com^
@@ -44478,7 +44475,6 @@
 ||masdk.3g.qq.com^
 ||tools.3g.qq.com^
 ||httpring.qq.com^
-||ssl.msdk.qq.com^
 ||pingfore.qq.com^
 ||pingtcss.qq.com^
 ||adsclick.qq.com^
@@ -59317,7 +59313,6 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
-||sdkconfig.ad.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -59786,6 +59781,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||cn2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
