@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-20 18:22:03Z
+! Last Modified: 2022-07-21 01:49:52Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -55317,6 +55317,7 @@
 ||ysdk.qq.com^
 ||rich.qq.com^
 ||bugly.qq.com^
+||sdk.e.qq.com^
 ||logsdk.qq.com^
 ||omgmta.qq.com^
 ||pingjs.qq.com^
@@ -69951,6 +69952,7 @@
 ||smetrics.virusbuster.jp^
 ||soma-store.visa-usa.ru^
 ||hydrocodone.visa-usa.ru^
+||marketing.visailing.com^
 ||go.visaplace.com^
 ||crm.viscotec.de^
 ||go.visibilitysoftware.com^
@@ -73953,7 +73955,6 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||api.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
