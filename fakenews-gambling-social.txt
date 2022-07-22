@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-22 12:36:02Z
+! Last Modified: 2022-07-22 18:23:51Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -47770,7 +47770,6 @@
 ||inpost-pl.rezerwacja-srodkow.com^
 ||lnpost.rezerwsrodkow.site^
 ||rem.rezonmedia.eu^
-||customersuccess.rezstream.com^
 ||rf-arch.com^
 ||avrszc.rf.gd^
 ||axnzsvmz.rf.gd^
@@ -59333,7 +59332,6 @@
 ||kpbzar.warbyparker.com^
 ||warchain.org^
 ||warco.pl^
-||a.warddogs.com^
 ||wbcygu.wardow.com^
 ||trk.wardsauto.com^
 ||try.wardtlc.com^
@@ -62704,6 +62702,8 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||beap.gemini.yahoo.com^
+||es.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -63743,6 +63743,7 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||admin-ob.control-net.windows.net.zooplus.com^
 ||application.cirepository.nginxaws.net.zooplus.com^
 ||controller-testeranalytics.tester.net.zooplus.com^
 ||email-svcgateway.twitch-testerold.net.zooplus.com^

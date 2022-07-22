@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-22 12:36:04Z
+! Last Modified: 2022-07-22 18:23:53Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -6532,6 +6532,8 @@
 ||smetrics.bancomundial.org^
 ||bancontact.su^
 ||bancopostapremia.bancoposta.it^
+||smetrics.bancsabadell.com^
+||newsletters.bancsabadell.com^
 ||bandarklik4d.net^
 ||bandenmarkt.com^
 ||bandoleerb.pl^
