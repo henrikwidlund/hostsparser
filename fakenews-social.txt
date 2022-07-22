@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-22 06:25:04Z
+! Last Modified: 2022-07-22 12:36:11Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -44475,6 +44475,7 @@
 ||prisma.ae^
 ||go.prismahealth.org^
 ||abo.prismamediadigital.com^
+||tk.prismashop.fr^
 ||go.prismier.com^
 ||prisonplanet.com^
 ||park-energylandia.priv.pl^
@@ -45947,11 +45948,6 @@
 ||realbannerads.com^
 ||smetrics.realcanadiansuperstore.ca^
 ||realcastmedia.com^
-||ads.realcities.com^
-||ads1.realcities.com^
-||ads2.realcities.com^
-||ads3.realcities.com^
-||ads4.realcities.com^
 ||realclever.com^
 ||realclix.com^
 ||marketing.realcomm.com^
@@ -60962,6 +60958,7 @@
 ||xianyujc.com^
 ||api.d.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
+||data.mistat.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
@@ -62461,6 +62458,7 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||partner-prodcontrolblob.net.zooplus.com^
 ||application.cirepository.nginxaws.net.zooplus.com^
 ||controller-testeranalytics.tester.net.zooplus.com^
 ||email-svcgateway.twitch-testerold.net.zooplus.com^
