@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-23 01:49:07Z
+! Last Modified: 2022-07-23 06:21:54Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -5028,6 +5028,7 @@
 ||amren.com^
 ||go.amsa.org^
 ||go.amsive.com^
+||go.amsivedigital.com^
 ||nwbpsg.amso.pl^
 ||amsterdam-webcams.com^
 ||amsterdambrewboys.nl^
@@ -13394,6 +13395,7 @@
 ||smetrics.casio-intl.com^
 ||eduinfo-di.casio-intl.com^
 ||eduinfo-eu.casio-intl.com^
+||smetrics.casio.com^
 ||smetrics.casio.jp^
 ||fi.casiplay.com^
 ||casketliquate.com^

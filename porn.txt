@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-23 01:49:28Z
+! Last Modified: 2022-07-23 06:22:12Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -42376,7 +42376,6 @@
 ||exc.mob.com^
 ||mic.mob.com^
 ||sms.mob.com^
-||f.gm.mob.com^
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
@@ -73189,6 +73188,7 @@
 ||clicks.walla.co.il^
 ||wallaporno.com^
 ||wallawallaguardian.com^
+||evcharging-business.wallbox.com^
 ||wallet-ethereum.com^
 ||wallet-ethereum.net^
 ||wallet-ethereum.org^
