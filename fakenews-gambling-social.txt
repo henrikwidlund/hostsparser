@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-23 06:21:56Z
+! Last Modified: 2022-07-23 12:31:46Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -60680,8 +60680,6 @@
 ||konto.weryfikacja-uzytkownika.top^
 ||inpost.werynm.org^
 ||wescam.info^
-||sdk.wesdk.co^
-||track.wesdk.co^
 ||weselenet.pl^
 ||feeds.weselltraffic.com^
 ||jdgtgb.weser-kurier.de^
@@ -63743,6 +63741,8 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||partner-cdn.net.zooplus.com^
+||portal.images.net.zooplus.com^
 ||application.cirepository.nginxaws.net.zooplus.com^
 ||controller-testeranalytics.tester.net.zooplus.com^
 ||email-svcgateway.twitch-testerold.net.zooplus.com^
