@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-22 18:24:05Z
+! Last Modified: 2022-07-23 01:49:21Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3798,7 +3798,6 @@
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
 ||rubiconproject.net.akadns.net^
-||rtb.adgrx.com.tech.akadns.net^
 ||beacon-cdn.walmart.com.akadns.net^
 ||jadserve.postrelease.com.akadns.net^
 ||adobe-china.poc.redhat.com.akadns.net^
@@ -43279,6 +43278,7 @@
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
+||c.data.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
 ||ad.mobadme.jp^
@@ -57417,6 +57417,7 @@
 ||hbb.afl.rakuten.co.jp^
 ||affiliate.rakuten.co.jp^
 ||api.ranking.rakuten.co.jp^
+||xml.affiliate.rakuten.co.jp^
 ||shopapi.ranking.rakuten.co.jp^
 ||rmp.rakuten.com^
 ||brc.emails.rakuten.com^
