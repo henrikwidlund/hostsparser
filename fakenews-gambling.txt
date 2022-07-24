@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-24 12:32:35Z
+! Last Modified: 2022-07-24 18:21:39Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -8801,6 +8801,7 @@
 ||thirdparty.bnc.lt^
 ||smetrics.bnck-12.com^
 ||bncmobiqc.com^
+||smetrics.bncollege.com^
 ||smetrics.bncvirtual.com^
 ||bnemsot.website^
 ||bnewsb.com^
