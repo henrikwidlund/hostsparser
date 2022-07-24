@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-23 18:21:00Z
+! Last Modified: 2022-07-24 01:57:05Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -17254,8 +17254,6 @@
 ||inpost-pl.dostawa92343.xyz^
 ||moje-olx.dostawa98723.beauty^
 ||moje-olx.dostawa98723.top^
-||olx.dostawac73273.top^
-||inpost-pl.dostawac73273.top^
 ||olx.dostawac92344.top^
 ||inpost-pl.dostawac92344.top^
 ||olx.dostawac93283.top^
@@ -61353,6 +61351,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||sp.analytics.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -62378,7 +62377,6 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
-||imagesprivate.svc.tpe.net.zooplus.com^
 ||application.cirepository.nginxaws.net.zooplus.com^
 ||controller-testeranalytics.tester.net.zooplus.com^
 ||email-svcgateway.twitch-testerold.net.zooplus.com^

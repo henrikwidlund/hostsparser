@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-23 18:21:08Z
+! Last Modified: 2022-07-24 01:57:19Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -19101,7 +19101,6 @@
 ||derpibooru.org^
 ||derrso.date^
 ||dersfoi.win^
-||metrics.dertour-reisebuero.de^
 ||metrics.dertour.de^
 ||deryl.com.pl^
 ||deryl.pl^
@@ -75205,6 +75204,8 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||api.ad.xiaomi.com^
+||test.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
@@ -77787,6 +77788,7 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||testing.net.zooplus.com^
 ||application.cirepository.nginxaws.net.zooplus.com^
 ||controller-testeranalytics.tester.net.zooplus.com^
 ||email-svcgateway.twitch-testerold.net.zooplus.com^
