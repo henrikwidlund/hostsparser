@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)
 ! Filters: adware + malware + fakenews + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-24 01:56:58Z
+! Last Modified: 2022-07-24 06:22:03Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -18881,11 +18881,8 @@
 ||analytics.eikko.ai^
 ||eilitor.com^
 ||adingo.jp.eimg.jp^
-||c.adingo.jp.eimg.jp^
 ||get.mobu.jp.eimg.jp^
 ||img.fluct.jp.eimg.jp^
-||spap.adingo.jp.eimg.jp^
-||product.adingo.jp.eimg.jp^
 ||dcclaa.einfachbacken.de^
 ||ads.einmedia.com^
 ||smetrics.einsure.com.au^
@@ -63192,6 +63189,7 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||adm.production.core.apac.net.zooplus.com^
 ||application.cirepository.nginxaws.net.zooplus.com^
 ||controller-testeranalytics.tester.net.zooplus.com^
 ||email-svcgateway.twitch-testerold.net.zooplus.com^
