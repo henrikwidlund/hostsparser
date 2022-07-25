@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-25 06:24:20Z
+! Last Modified: 2022-07-25 12:37:58Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -32645,6 +32645,7 @@
 ||mangayhentai.com^
 ||tr.info.mango-mobilites.fr^
 ||qzcxtm.mango.com^
+||adv.mangoadv.com^
 ||metrics.manheim.com^
 ||smetrics.manheim.com^
 ||mania-perfum.pl^
@@ -34394,8 +34395,6 @@
 ||xknhwv.mobile01.com^
 ||mobile2tdcontact.com^
 ||k1.mobileadsserver.com^
-||avowtech.mobileadstrk.com^
-||tracking.mobileadstrk.com^
 ||track-east.mobileadtrading.com^
 ||publisher-east.mobileadtrading.com^
 ||api.mobileanjian.com^
@@ -61492,6 +61491,7 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
+||ac.ybinst9.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
