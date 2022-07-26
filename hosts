@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-25 18:23:23Z
+! Last Modified: 2022-07-26 01:59:08Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -37967,6 +37967,7 @@
 ||kikdolls.com^
 ||adserve.kikizo.com^
 ||znmtka.kikocosmetics.com^
+||kin.kikpro.co^
 ||kiksexting.com^
 ||kikuchitadahisa.com^
 ||kikuku.net^
@@ -41172,7 +41173,6 @@
 ||smetrics.lululemon.fr^
 ||ebis.lululun.com^
 ||ijhlca.lulus.com^
-||go.lum.it^
 ||www2.lumapps.com^
 ||analytics.lumberliquidators.com^
 ||stats.lumen-app.com^
@@ -56593,7 +56593,6 @@
 ||gcirm.press-citizen.com^
 ||www2.pressance.co.jp^
 ||adserver.pressboard.ca^
-||gcirm.pressconnects.com^
 ||ads.pressdemo.com^
 ||ads.pressflex.com^
 ||adserver.pressflex.com^
@@ -79578,8 +79577,10 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||track.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||zeus.ad.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -80749,10 +80750,13 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||dk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
+||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
@@ -80944,7 +80948,6 @@
 ||ybinst8.ec.yimg.com^
 ||ybinst9.ec.yimg.com^
 ||edgecast-vod.yimg.com^
-||ac.ybinst7.ec.yimg.com^
 ||yads.c.yimg.jp^
 ||yinbolallruick.com^
 ||resources-us.yinzcam.com^
