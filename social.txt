@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-26 01:59:42Z
+! Last Modified: 2022-07-26 06:24:20Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -33694,6 +33694,7 @@
 ||c.prodigy.msn.com^
 ||mobileleads.msn.com^
 ||adsyndication.msn.com^
+||dub.mobileads.msn.com^
 ||advertising.jp.msn.com^
 ||msn1.com^
 ||aamt.msnbc.com^
@@ -53207,6 +53208,7 @@
 ||analytics.ubs.com^
 ||ubvosre.host^
 ||feedback.uc.cn^
+||gj.track.uc.cn^
 ||applogios.uc.cn^
 ||mparticle.uc.cn^
 ||woodpecker.uc.cn^

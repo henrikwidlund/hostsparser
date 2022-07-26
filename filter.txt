@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-26 01:59:08Z
+! Last Modified: 2022-07-26 06:23:48Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3435,7 +3435,6 @@
 ||affiliater.pl^
 ||login.affiliatesit.cz^
 ||affiliatesuccess.net^
-||info.affiliatesummit.com^
 ||affiliatetracking.com^
 ||affiliatetracking.net^
 ||offers.affiliatetraction.com^
@@ -29453,6 +29452,7 @@
 ||dcapps.disney.go.com^
 ||seavideo-ak.espn.go.com^
 ||oascentral.abclocal.go.com^
+||ctologger01.analytics.go.com^
 ||bankdata.temanggungkab.go.id^
 ||directml.jfc.go.jp^
 ||efplso.epost.go.kr^
@@ -41173,6 +41173,7 @@
 ||smetrics.lululemon.fr^
 ||ebis.lululun.com^
 ||ijhlca.lulus.com^
+||go.lum.it^
 ||www2.lumapps.com^
 ||analytics.lumberliquidators.com^
 ||stats.lumen-app.com^
@@ -56593,6 +56594,7 @@
 ||gcirm.press-citizen.com^
 ||www2.pressance.co.jp^
 ||adserver.pressboard.ca^
+||gcirm.pressconnects.com^
 ||ads.pressdemo.com^
 ||ads.pressflex.com^
 ||adserver.pressflex.com^
@@ -79577,10 +79579,8 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
-||track.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
-||zeus.ad.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -80749,14 +80749,13 @@
 ||beap.adx.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
+||ush.adspecs.yahoo.com^
 ||advertising.yahoo.com^
-||dk.adserver.yahoo.com^
+||uk.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
-||ups.analytics.yahoo.com^
 ||onepush.query.yahoo.com^
-||opus.analytics.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||yahuslot.com^
