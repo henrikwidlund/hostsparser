@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-26 06:24:20Z
+! Last Modified: 2022-07-26 12:36:52Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3903,6 +3903,7 @@
 ||succjp.d28wlv1bs6a6s7.amplifyapp.com^
 ||dev5974.d3l0uo7x8px3be.amplifyapp.com^
 ||servebro.d3e41lumzevlo0.amplifyapp.com^
+||amplitude.com^
 ||ampower.me^
 ||amp-reddit-com.cdn.ampproject.org^
 ||analytics-digit-in.cdn.ampproject.org^
@@ -14952,6 +14953,7 @@
 ||dloeloqua.danskespil.dk^
 ||ensightenone.danskespil.dk^
 ||danto.co.in^
+||sentry.dantri.com.vn^
 ||danubefuture.eu^
 ||tracksurf.daooda.com^
 ||1uwcex4qf9z.test-115.dapp.ml^
@@ -20909,6 +20911,7 @@
 ||metrics.fpl.com^
 ||smetrics.fpl.com^
 ||msnads-wm9.fplive.net^
+||sentry.fptplay.net^
 ||fqfqf.com^
 ||content.fr-lafarge.com^
 ||ebisfracora.fracora.com^
@@ -32033,6 +32036,7 @@
 ||03.mediaboard-03.cyou^
 ||mediabridge.cc^
 ||ads1.mediacapital.pt^
+||sentry.mediacdn.vn^
 ||mediacharger.com^
 ||ad01.mediacorpsingapore.com^
 ||filter.mediacpc.com^
@@ -33694,7 +33698,6 @@
 ||c.prodigy.msn.com^
 ||mobileleads.msn.com^
 ||adsyndication.msn.com^
-||dub.mobileads.msn.com^
 ||advertising.jp.msn.com^
 ||msn1.com^
 ||aamt.msnbc.com^
@@ -46387,6 +46390,7 @@
 ||sendlngproductuser.xyz^
 ||sendmepixel.com^
 ||stats.sendngnt.com^
+||sentry.sendo.vn^
 ||sendori.com^
 ||sendspace.pl^
 ||embed.sendtonews.com^
@@ -50383,6 +50387,7 @@
 ||www2.teknorapex.com^
 ||stat.teknoring.com^
 ||eloqua.teknos.com^
+||cdn.tekoapis.com^
 ||tekstiluzmangorusu.com^
 ||adobeanalytic.teksystems.com^
 ||adobeanalytics.teksystems.com^
@@ -51497,6 +51502,7 @@
 ||throwingsevens.co.uk^
 ||thruport.com^
 ||thuaoluion.com^
+||sentry.thucuc.vn^
 ||thuexevanphong.com^
 ||thuirscoond.com^
 ||thumbeks.com^
@@ -53208,7 +53214,6 @@
 ||analytics.ubs.com^
 ||ubvosre.host^
 ||feedback.uc.cn^
-||gj.track.uc.cn^
 ||applogios.uc.cn^
 ||mparticle.uc.cn^
 ||woodpecker.uc.cn^
@@ -59080,6 +59085,8 @@
 ||zalandovip.shop^
 ||smetrics.zales.com^
 ||smetrics.zalesoutlet.com^
+||sentry-mini.zalo.me^
+||sentry.ministore.h5.zalo.me^
 ||events.zaloapp.com^
 ||vjnted-polsca.zalogowacsie0667438.pw^
 ||vjnted-polsca.zalogowacsie0671832.fun^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts)
 ! Filters: adware + malware + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-26 06:24:11Z
+! Last Modified: 2022-07-26 12:36:46Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3980,6 +3980,7 @@
 ||succjp.d28wlv1bs6a6s7.amplifyapp.com^
 ||dev5974.d3l0uo7x8px3be.amplifyapp.com^
 ||servebro.d3e41lumzevlo0.amplifyapp.com^
+||amplitude.com^
 ||ampower.me^
 ||amp-reddit-com.cdn.ampproject.org^
 ||analytics-digit-in.cdn.ampproject.org^
@@ -15494,6 +15495,7 @@
 ||danskespil.dk^
 ||danto.co.in^
 ||dantoto.dk^
+||sentry.dantri.com.vn^
 ||danubefuture.eu^
 ||tracksurf.daooda.com^
 ||1uwcex4qf9z.test-115.dapp.ml^
@@ -18144,6 +18146,7 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
+||secure.flashtalking.com.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
@@ -21546,6 +21549,7 @@
 ||metrics.fpl.com^
 ||smetrics.fpl.com^
 ||msnads-wm9.fplive.net^
+||sentry.fptplay.net^
 ||fqfqf.com^
 ||content.fr-lafarge.com^
 ||ebisfracora.fracora.com^
@@ -32983,6 +32987,7 @@
 ||03.mediaboard-03.cyou^
 ||mediabridge.cc^
 ||ads1.mediacapital.pt^
+||sentry.mediacdn.vn^
 ||mediacharger.com^
 ||ad01.mediacorpsingapore.com^
 ||filter.mediacpc.com^
@@ -33970,7 +33975,7 @@
 ||share.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
-||devs.data.mob.com^
+||sdk.guard.mob.com^
 ||ad.mobadme.jp^
 ||ds.mobadvent.com^
 ||et.mobadvent.com^
@@ -47560,6 +47565,7 @@
 ||sendlngproductuser.xyz^
 ||sendmepixel.com^
 ||stats.sendngnt.com^
+||sentry.sendo.vn^
 ||sendori.com^
 ||sendspace.pl^
 ||embed.sendtonews.com^
@@ -51672,6 +51678,7 @@
 ||www2.teknorapex.com^
 ||stat.teknoring.com^
 ||eloqua.teknos.com^
+||cdn.tekoapis.com^
 ||tekstiluzmangorusu.com^
 ||adobeanalytic.teksystems.com^
 ||adobeanalytics.teksystems.com^
@@ -52795,6 +52802,7 @@
 ||throwingsevens.co.uk^
 ||thruport.com^
 ||thuaoluion.com^
+||sentry.thucuc.vn^
 ||thuexevanphong.com^
 ||thuirscoond.com^
 ||thumbeks.com^
@@ -55997,6 +56005,7 @@
 ||vilene.bar^
 ||villabet.com^
 ||villagarden.pl^
+||communication.villagebuilding.com.au^
 ||analytics.villagehouse.jp^
 ||tr.satisfaction.villagesnature.com^
 ||oas.villagevoice.com^
@@ -60025,6 +60034,7 @@
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
+||latam.adspecs.yahoo.com^
 ||onepush.query.yahoo.com^
 ||partnerads.ysm.yahoo.com^
 ||flury-ycpi.gycpi.b.yahoodns.net^
@@ -60487,6 +60497,8 @@
 ||zalandovip.shop^
 ||smetrics.zales.com^
 ||smetrics.zalesoutlet.com^
+||sentry-mini.zalo.me^
+||sentry.ministore.h5.zalo.me^
 ||events.zaloapp.com^
 ||vjnted-polsca.zalogowacsie0667438.pw^
 ||vjnted-polsca.zalogowacsie0671832.fun^
