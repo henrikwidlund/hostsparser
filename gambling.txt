@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-27 01:51:32Z
+! Last Modified: 2022-07-27 06:23:59Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3124,7 +3124,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||cacp-hlb.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -18087,6 +18086,7 @@
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
+||ipv6-wildcard.applovin.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -23321,6 +23321,7 @@
 ||golem-network.net^
 ||golemairdrop.com^
 ||goleta105.com^
+||aa-metrics.golf-jalan.net^
 ||plausible.golfbreaks.com^
 ||wtgnmr.golfdigest.co.jp^
 ||stats2.golfdigest.com^
@@ -33141,7 +33142,6 @@
 ||menshealthweb.co^
 ||mensrioter.ga^
 ||mentalismnonending.com^
-||info.mention.com^
 ||mentise.com^
 ||strack.mentor.com^
 ||info.mentorcliq.com^
