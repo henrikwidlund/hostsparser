@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-27 06:23:48Z
+! Last Modified: 2022-07-27 12:40:34Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -18176,6 +18176,7 @@
 ||unityads.unity3d.com.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
+||cdn-dsa.clicktale.net.edgekey.net^
 ||convertexperiments.com.edgekey.net^
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
@@ -36516,6 +36517,8 @@
 ||vint-ed.neworder-pl23784.top^
 ||moja-paczka-pl-myid576xs.neworder-pl23813.click^
 ||polska-olx-girqz.neworder-pl39231.buzz^
+||inpost-pl-hid226ks.neworder-pl42983.beauty^
+||inpost-pl-my-id2g3ys.neworder-pl42983.beauty^
 ||moje-olx.neworder-pl58049.top^
 ||moja-paczka.neworder-pl58049.top^
 ||vint-ed.neworder-pl93242.xyz^
