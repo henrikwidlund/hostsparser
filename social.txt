@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts)
 ! Filters: adware + malware + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-28 01:48:15Z
+! Last Modified: 2022-07-28 06:23:34Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -33010,6 +33010,7 @@
 ||push.mob.com^
 ||guard.mob.com^
 ||share.mob.com^
+||c.data.mob.com^
 ||verify.mob.com^
 ||applink.mob.com^
 ||ad.mobadme.jp^
@@ -43721,6 +43722,7 @@
 ||informacje.radom.pl^
 ||informacyjnie.radom.pl^
 ||radox.online^
+||stats.radreiseglueck.de^
 ||go.radsource.us^
 ||eloqua.radware.com^
 ||radykalnywolowina.site^
@@ -44820,6 +44822,8 @@
 ||go.ric.edu^
 ||t9h2.ricardocuisine.com^
 ||riccardochinnici.it^
+||engage.richardsonrfpd.com^
+||elqtracking.richardsonrfpd.com^
 ||ping.richardtaylor.dev^
 ||richlandguardian.com^
 ||richmails.com^

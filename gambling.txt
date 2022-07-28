@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-28 01:48:09Z
+! Last Modified: 2022-07-28 06:23:12Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -54609,7 +54609,6 @@
 ||salesforce.unity.edu^
 ||eloqua-tracking.unity3d.com^
 ||eloqua-trackings.unity3d.com^
-||httpkafka.unityads.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||config.unityads.unitychina.cn^

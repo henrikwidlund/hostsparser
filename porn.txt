@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts)
 ! Filters: adware + malware + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-28 01:48:13Z
+! Last Modified: 2022-07-28 06:23:25Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -62509,6 +62509,7 @@
 ||srodek-na-pluskwy-pl.com^
 ||dpd-pl.srodkido-odebraniatu.xyz^
 ||commute.srpgo.com^
+||smetrics.srpnet.com^
 ||pages.srsmith.com^
 ||srv00infra.com^
 ||srv1010elan.com^
@@ -78695,8 +78696,6 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
-||239.net.zooplus.com^
-||alphafw.net.zooplus.com^
 ||application.cirepository.nginxaws.net.zooplus.com^
 ||controller-testeranalytics.tester.net.zooplus.com^
 ||email-svcgateway.twitch-testerold.net.zooplus.com^
