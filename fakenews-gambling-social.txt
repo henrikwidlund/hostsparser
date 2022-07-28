@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-28 12:40:12Z
+! Last Modified: 2022-07-28 18:24:15Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -18647,6 +18647,7 @@
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
+||ipv6-wildcard.applovin.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -31570,7 +31571,6 @@
 ||info.leviton.com^
 ||www2.levitt-safety.com^
 ||affiliate.levnoshop.cz^
-||conveyor.lewcoinc.com^
 ||lewell.fr^
 ||lewistontimes.com^
 ||stat.lex.pl^
@@ -35498,6 +35498,7 @@
 ||player.movenetworks.com^
 ||emarketing.moveo.com^
 ||movetaste.com^
+||go.movethisworld.com^
 ||tk.moveyourfit.com^
 ||moveyourmarket.com^
 ||movie-wiki.net^
@@ -62181,6 +62182,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||ar.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
