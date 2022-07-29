@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-29 06:24:06Z
+! Last Modified: 2022-07-29 12:37:26Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -2504,6 +2504,8 @@
 ||actonsoftware.com^
 ||actricesmexicanasdesnudas.com^
 ||go.acts29.com^
+||marketing.actsretirement.org^
+||retirementliving.actsretirement.org^
 ||acttab.com.au^
 ||tr.actu-companeo.com^
 ||at-cddc.actu-juridique.fr^
@@ -3814,7 +3816,6 @@
 ||innovid.com.akadns.net^
 ||tidaltv.com.akadns.net^
 ||weighted.com.akadns.net^
-||cacp-hlb.dvgtm.akadns.net^
 ||adgrx.com.tech.akadns.net^
 ||stickyadstv.com.akadns.net^
 ||schemas.microsoft.akadns.net^
@@ -79415,6 +79416,7 @@
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||pn1.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^

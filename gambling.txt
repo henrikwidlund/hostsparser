@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts)
 ! Filters: adware + malware + gambling
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-29 06:24:20Z
+! Last Modified: 2022-07-29 12:37:41Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -48028,6 +48028,7 @@
 ||sw88.shopdisney.it^
 ||vzeyba.shopee.co.id^
 ||lrdnuu.shopee.co.th^
+||lyxfra.shopee.com.my^
 ||pciidk.shopee.vn^
 ||connect.shopezrentals.com^
 ||s.shopify.com^
@@ -59538,7 +59539,9 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||tw.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
+||tw2.adserver.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
 ||onepush.query.yahoo.com^
