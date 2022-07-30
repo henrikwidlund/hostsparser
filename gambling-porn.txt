@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-30 06:21:11Z
+! Last Modified: 2022-07-30 12:30:15Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -77963,8 +77963,10 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||zeus.ad.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
+||diagnosis.ad.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||dental.xiaoxiao.media^
 ||ad-sdk.altamob.xiaoying.co^
@@ -80558,6 +80560,7 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||511-adm.net.zooplus.com^
 ||application.cirepository.nginxaws.net.zooplus.com^
 ||controller-testeranalytics.tester.net.zooplus.com^
 ||email-svcgateway.twitch-testerold.net.zooplus.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-30 06:21:06Z
+! Last Modified: 2022-07-30 12:30:11Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -673,12 +673,6 @@
 ||smetrics.360dx.com^
 ||360in.com^
 ||enquiry.360rto.com.au^
-||mclean.cloud.360safe.com^
-||mvconf.cloud.360safe.com^
-||mclean.uk.cloud.360safe.com^
-||mvconf.uk.cloud.360safe.com^
-||mclean.lato.cloud.360safe.com^
-||mvconf.lato.cloud.360safe.com^
 ||360wiesc.site^
 ||install.365-stream.com^
 ||ads.365.mk^
