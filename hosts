@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-30 01:47:58Z
+! Last Modified: 2022-07-30 06:20:55Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -3853,11 +3853,6 @@
 ||greatfind-a.akamaihd.net^
 ||spotxchange-a.akamaihd.net^
 ||cdn2sitescout-a.akamaihd.net^
-||abcd.mdc.akamaized.net^
-||cdn-guile.akamaized.net^
-||dyn-beacon.akamaized.net^
-||melonbooks.akamaized.net^
-||appsflyer.com.akamaized.net^
 ||akanaya.com^
 ||akane-ad.com^
 ||akariyer.com^
@@ -18653,6 +18648,7 @@
 ||wiadomosci.wp.pl.32976516.cube-cologne.com^
 ||wiadomosci.wp.pl.52867366.cube-cologne.com^
 ||ads.milliyet.cubecdn.net^
+||cubics.com^
 ||gbtracking.cubiq.com^
 ||cublatac.site^
 ||t.cubuffs.com^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-30 01:48:02Z
+! Last Modified: 2022-07-30 06:21:00Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -1548,6 +1548,7 @@
 ||metrics.client-eng.a2z.com^
 ||analytics.console.aws.a2z.com^
 ||notify.bugsnag.appstore.a2z.com^
+||pr.analytics.console.aws.a2z.com^
 ||global.telemetry.insights.video.a2z.com^
 ||us-east-1.telemetry.insights.video.a2z.com^
 ||a2zgroup.in^
@@ -15558,6 +15559,7 @@
 ||wiadomosci.wp.pl.32976516.cube-cologne.com^
 ||wiadomosci.wp.pl.52867366.cube-cologne.com^
 ||ads.milliyet.cubecdn.net^
+||cubics.com^
 ||gbtracking.cubiq.com^
 ||cublatac.site^
 ||t.cubuffs.com^
@@ -18755,7 +18757,6 @@
 ||casalemedia.com.edgekey.net^
 ||outbrainimg.com.edgekey.net^
 ||stickyadstv.com.edgekey.net^
-||ma80-r.analytics.edgekey.net^
 ||cdn-inner-active.edgekey.net^
 ||smetrics.att.com.edgekey.net^
 ||doubleverify.com.edgekey.net^
@@ -18770,7 +18771,6 @@
 ||insightexpressai.com.edgekey.net^
 ||stats.mediaforge.com.edgekey.net^
 ||unityads.unity3d.com.edgekey.net^
-||criteo-sync.teads.tv.edgekey.net^
 ||connect.facebook.net.edgekey.net^
 ||rubiconproject.com-v1.edgekey.net^
 ||convertexperiments.com.edgekey.net^
@@ -64626,6 +64626,8 @@
 ||net.zooplus.de^
 ||dii1.zooplus.de^
 ||dii2.zooplus.de^
+||ci.2lab.net.zooplus.de^
+||chwwwowa.net.zooplus.de^
 ||dii1.zooplus.dk^
 ||dii2.zooplus.dk^
 ||di2.zooplus.es^
