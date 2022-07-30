@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts)
 ! Filters: adware + malware + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-30 12:30:20Z
+! Last Modified: 2022-07-30 18:20:31Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -4211,6 +4211,8 @@
 ||wz.allianz.fr^
 ||collect.allianzcinema.ch^
 ||collect.allianzdriveincinema.ch^
+||metrics.allianzlife.com^
+||smetrics.allianzlife.com^
 ||allianzmarket.biz^
 ||allianzmarket.com^
 ||allibest.com^
@@ -76451,7 +76453,6 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
-||nl.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -77864,7 +77865,7 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
-||partner-3.net.zooplus.com^
+||ext-images-511.net.zooplus.com^
 ||application.cirepository.nginxaws.net.zooplus.com^
 ||controller-testeranalytics.tester.net.zooplus.com^
 ||email-svcgateway.twitch-testerold.net.zooplus.com^
