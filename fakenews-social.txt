@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts)
 ! Filters: adware + malware + fakenews + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-31 06:21:11Z
+! Last Modified: 2022-07-31 12:32:47Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -52735,6 +52735,7 @@
 ||aoc.teleaudio.pl^
 ||eulerian.telechargement.fr^
 ||telecharger-openoffice.fr^
+||ads.telecinco.es^
 ||telecom-info.com^
 ||ea.telecommandeonline.com^
 ||go.teledyneisco.com^
@@ -61417,6 +61418,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||geo.query.yahoo.com^
 ||advertising.yahoo.com^
+||be.adserver.yahoo.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||ads.auctions.yahoo.com^
@@ -62441,6 +62443,8 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
+||car21.net.zooplus.com^
+||csr31-vpn.net.zooplus.com^
 ||application.cirepository.nginxaws.net.zooplus.com^
 ||controller-testeranalytics.tester.net.zooplus.com^
 ||email-svcgateway.twitch-testerold.net.zooplus.com^
