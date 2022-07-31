@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts)
 ! Filters: adware + malware + fakenews + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-30 18:20:16Z
+! Last Modified: 2022-07-31 02:00:39Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -22597,6 +22597,7 @@
 ||v1.addthisedge.com.edgekey.net^
 ||i16-tb.isnssdk.com.edgekey.net^
 ||rubiconproject.com.edgekey.net^
+||wildcard.evidon.com.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||metrics.fidelity.com.edgekey.net^
 ||insightexpressai.com.edgekey.net^
@@ -29761,8 +29762,6 @@
 ||www3.gobrightdrop.com^
 ||gobusinessloan.com^
 ||gocael.com^
-||post.gocardless.com^
-||forms.gocardless.com^
 ||gocarosel.com^
 ||gocarrot.com^
 ||pd.gochikuru.com^
@@ -34264,6 +34263,19 @@
 ||ifmsaifnisamdisamdoiasmf.bar^
 ||ifmsainfisamdoisakodmsafia.bar^
 ||ifnaunfsanidmsaidnsafsa.bar^
+||vb.ifnprog.xyz^
+||2h5.ifnprog.xyz^
+||abd.ifnprog.xyz^
+||ae2.ifnprog.xyz^
+||br3.ifnprog.xyz^
+||ch3.ifnprog.xyz^
+||iet.ifnprog.xyz^
+||jwy.ifnprog.xyz^
+||mcn.ifnprog.xyz^
+||n4i.ifnprog.xyz^
+||s4y.ifnprog.xyz^
+||shn.ifnprog.xyz^
+||sy2.ifnprog.xyz^
 ||di.ifolor.ch^
 ||di.ifolor.de^
 ||di.ifolor.fi^
@@ -47069,6 +47081,7 @@
 ||server990916.nazwa.pl^
 ||server998611.nazwa.pl^
 ||server560960.nazwa.pl^
+||cache.server560960.nazwa.pl^
 ||inpostpl.nazwa451376.cloud^
 ||inpostpl.nazwa549725.club^
 ||vinted-pl.nazwa573486.click^

@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts)
 ! Filters: adware + malware + gambling + porn
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-30 18:20:27Z
+! Last Modified: 2022-07-31 02:00:55Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -60335,7 +60335,6 @@
 ||sdk.scopely.io^
 ||aprod.scopely.io^
 ||collector.scopely.io^
-||static.aprod.scopely.io^
 ||score-video.com^
 ||score99.net^
 ||scoreadate.com^
@@ -80559,8 +80558,6 @@
 ||net.zooplus.com^
 ||dii1.zooplus.com^
 ||dii2.zooplus.com^
-||511.analytics.net.zooplus.com^
-||hwcdn-nginx-metrics.net.zooplus.com^
 ||application.cirepository.nginxaws.net.zooplus.com^
 ||controller-testeranalytics.tester.net.zooplus.com^
 ||email-svcgateway.twitch-testerold.net.zooplus.com^

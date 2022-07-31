@@ -4,7 +4,7 @@
 ! StevenBlack/hosts: https://github.com/StevenBlack/hosts/ (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts)
 ! Filters: adware + malware + gambling + porn + social
 ! AdGuard DNS filter: https://github.com/AdguardTeam/AdguardSDNSFilter (https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
-! Last Modified: 2022-07-30 18:20:26Z
+! Last Modified: 2022-07-31 02:00:53Z
 
 ||allegrolokalnie.0-informdelivery.xyz^
 ||000free.us^
@@ -22111,6 +22111,7 @@
 ||metrics.hackerrank.com.edgekey.net^
 ||v6analytics.htmedia.in.edgekey.net^
 ||s-static.ak.facebook.com.edgekey.net^
+||ds-api-public.addthis.com.edgekey.net^
 ||tracking.admarketplace.net.edgekey.net^
 ||analytics.libertymutual.com.edgekey.net^
 ||marketingassets.staples.com.edgekey.net^
@@ -46236,7 +46237,6 @@
 ||aktualizacja-platnosci.netafix-pl.me^
 ||aktualizacja-platnosci.netafix-pl.net^
 ||aktualizacja-platnosci.netafix-pl.store^
-||ver-twojakonto.netafixa.sbs^
 ||platnosci-app.netafixpl.live^
 ||konto-updateplat.netaflixtu.live^
 ||zaktualizacja-platnosci.netaflixu.life^
@@ -76630,6 +76630,7 @@
 ||xhypnotube.com^
 ||xianyujc.com^
 ||api.d.xiaomi.com^
+||sgp.o2o.api.xiaomi.com^
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
@@ -80453,6 +80454,7 @@
 ||app.apiserver.net.zooplus.it^
 ||chdowa.admins.net.zooplus.it^
 ||cicdn.dii1lax.net.zooplus.it^
+||cms-v3.server.net.zooplus.it^
 ||corpail.skins.net.zooplus.it^
 ||devops-gitlab.net.zooplus.it^
 ||gw0.container.net.zooplus.it^
