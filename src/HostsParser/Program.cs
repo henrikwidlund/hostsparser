@@ -28,7 +28,7 @@ namespace HostsParser
                                                      CultureInfo.CurrentCulture.DateTimeFormat.LongTimePattern + " ";
                 });
             });
-            var logger = loggerFactory.CreateLogger("HostsParser");
+            var logger = loggerFactory.CreateLogger(nameof(HostsParser));
 
             logger.LogInformation("Running...");
             var stopWatch = new Stopwatch();
