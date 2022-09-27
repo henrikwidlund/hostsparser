@@ -107,7 +107,7 @@ namespace HostsParser
         /// <summary>
         /// Hosts formatted source, 127.0.0.1 example.com.
         /// </summary>
-        Hosts,
+        Hosts = 1,
         
         /// <summary>
         /// AdBlock formatted source, ||example.com^.
@@ -124,7 +124,7 @@ namespace HostsParser
         /// <summary>
         /// Entries will be combined into the result.
         /// </summary>
-        Combine,
+        Combine = 1,
         
         /// <summary>
         /// Entries will be excluded from the result.
