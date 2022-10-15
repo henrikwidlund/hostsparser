@@ -4,15 +4,14 @@
 using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Running;
 
-namespace HostsParser.Benchmarks
+namespace HostsParser.Benchmarks;
+
+internal static class Program
 {
-    internal static class Program
-    {
-        private static void Main(string[] args) =>
-            BenchmarkSwitcher
-                .FromAssembly(typeof(Program).Assembly)
-                .Run(args, DefaultConfig.Instance
-                    .WithOptions(ConfigOptions.DisableLogFile)
-                    .WithOptions(ConfigOptions.JoinSummary));
-    }
+    private static void Main(string[] args) =>
+        BenchmarkSwitcher
+            .FromAssembly(typeof(Program).Assembly)
+            .Run(args, DefaultConfig.Instance
+                .WithOptions(ConfigOptions.DisableLogFile)
+                .WithOptions(ConfigOptions.JoinSummary));
 }

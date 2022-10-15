@@ -4,22 +4,21 @@
 using System;
 using System.Collections.Generic;
 
-namespace HostsParser
+namespace HostsParser;
+
+/// <summary>
+/// Comparer for <see cref="char"/>-based <see cref="ReadOnlyMemory{T}"/>.
+/// </summary>
+public sealed class ReadOnlyMemoryCharComparer : IComparer<ReadOnlyMemory<char>>
 {
     /// <summary>
-    /// Comparer for <see cref="char"/>-based <see cref="ReadOnlyMemory{T}"/>.
+    /// Default instance of <see cref="ReadOnlyMemoryCharComparer"/>.
     /// </summary>
-    public sealed class ReadOnlyMemoryCharComparer : IComparer<ReadOnlyMemory<char>>
-    {
-        /// <summary>
-        /// Default instance of <see cref="ReadOnlyMemoryCharComparer"/>.
-        /// </summary>
-        public static readonly ReadOnlyMemoryCharComparer Default = new();
+    public static readonly ReadOnlyMemoryCharComparer Default = new();
 
-        /// <summary>
-        /// Compares <paramref name="x"/> against <paramref name="y"/> using <see cref="StringComparison.Ordinal"/>.
-        /// </summary>
-        public int Compare(ReadOnlyMemory<char> x, ReadOnlyMemory<char> y)
-            => x.Span.CompareTo(y.Span, StringComparison.Ordinal);
-    }
+    /// <summary>
+    /// Compares <paramref name="x"/> against <paramref name="y"/> using <see cref="StringComparison.Ordinal"/>.
+    /// </summary>
+    public int Compare(ReadOnlyMemory<char> x, ReadOnlyMemory<char> y)
+        => x.Span.CompareTo(y.Span, StringComparison.Ordinal);
 }

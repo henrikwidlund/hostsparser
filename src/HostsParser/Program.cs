@@ -12,99 +12,105 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace HostsParser
+namespace HostsParser;
+
+public static class Program
 {
-    public static class Program
+    public static async Task Main()
     {
-        public static async Task Main()
+        using var loggerFactory = LoggerFactory.Create(options =>
         {
-            using var loggerFactory = LoggerFactory.Create(options =>
+            options.AddDebug();
+            options.AddSimpleConsole(consoleOptions =>
             {
-                options.AddDebug();
-                options.AddSimpleConsole(consoleOptions =>
-                {
-                    consoleOptions.SingleLine = true;
-                    consoleOptions.TimestampFormat = CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern + " " +
-                                                     CultureInfo.CurrentCulture.DateTimeFormat.LongTimePattern + " ";
-                });
+                consoleOptions.SingleLine = true;
+                consoleOptions.TimestampFormat = CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern + " " +
+                                                 CultureInfo.CurrentCulture.DateTimeFormat.LongTimePattern + " ";
             });
-            var logger = loggerFactory.CreateLogger(nameof(HostsParser));
+        });
+        var logger = loggerFactory.CreateLogger(nameof(HostsParser));
 
-            logger.LogInformation("Running...");
-            var stopWatch = new Stopwatch();
-            stopWatch.Start();
+        logger.LogInformation("Running...");
+        var stopWatch = new Stopwatch();
+        stopWatch.Start();
 
-            var settings = JsonSerializer.Deserialize<Settings>(await File.ReadAllBytesAsync("appsettings.json"));
-            if (settings == null)
-            {
-                logger.LogError("Couldn't load settings. Terminating...");
-                return;
-            }
-
-            var decoder = Encoding.UTF8.GetDecoder();
-            using var httpClient = new HttpClient();
-
-            // Assumed length to reduce allocations
-            var combineLines = new HashSet<string>(170_000);
-            var externalCoverageLines = new HashSet<string>(50_000);
-            for (var i = 0; i < settings.Filters.Sources.Length; i++)
-            {
-                var sourceItem = settings.Filters.Sources[i];
-                await using var stream = await httpClient.GetStreamAsync(sourceItem.Uri);
-                if (sourceItem.Format == SourceFormat.Hosts)
-                {
-                    await HostUtilities.ProcessHostsBased(
-                        sourceItem.SourceAction == SourceAction.Combine ? combineLines : externalCoverageLines,
-                        stream,
-                        settings.Filters.SkipLinesBytes,
-                        sourceItem.SourcePrefixes,
-                        decoder);
-                }
-                else
-                {
-                    await HostUtilities.ProcessAdBlockBased(
-                        sourceItem.SourceAction == SourceAction.Combine ? combineLines : externalCoverageLines,
-                        stream,
-                        decoder);
-                }
-            }
-
-            combineLines.ExceptWith(externalCoverageLines);
-            combineLines = HostUtilities.RemoveKnownBadHosts(settings.KnownBadHosts, combineLines);
-            combineLines.UnionWith(settings.KnownBadHosts);
-            combineLines.UnionWith(externalCoverageLines);
-            CollectionUtilities.FilterGrouped(combineLines);
-
-            var sortedDnsList = CollectionUtilities.SortDnsList(combineLines);
-            HashSet<string> filteredCache = new(combineLines.Count);
-            sortedDnsList = settings.MultiPassFilter
-                ? ProcessingUtilities.ProcessCombinedWithMultipleRounds(sortedDnsList, externalCoverageLines, filteredCache)
-                : ProcessingUtilities.ProcessCombined(sortedDnsList, externalCoverageLines, filteredCache);
-
-            if (settings.ExtraFiltering)
-            {
-                logger.LogInformation("Start extra filtering of duplicates");
-                sortedDnsList = ProcessingUtilities.ProcessWithExtraFiltering(sortedDnsList, externalCoverageLines, filteredCache);
-                logger.LogInformation("Done extra filtering of duplicates");
-            }
-
-            await using StreamWriter streamWriter = new(settings.OutputFileName, false);
-            for (var i = 0; i < settings.HeaderLines.Length; i++)
-                await streamWriter.WriteLineAsync(settings.HeaderLines[i]);
-
-            await streamWriter.WriteLineAsync($"! Last Modified: {DateTime.UtcNow:u}");
-
-            foreach (var s in sortedDnsList)
-            {
-                await streamWriter.WriteLineAsync();
-                await streamWriter.WriteAsync((char)Constants.PipeSign);
-                await streamWriter.WriteAsync((char)Constants.PipeSign);
-                await streamWriter.WriteAsync(s);
-                await streamWriter.WriteAsync((char)Constants.HatSign);
-            }
-
-            stopWatch.Stop();
-            logger.LogInformation("Execution duration - {elapsed} | Produced {count} hosts", stopWatch.Elapsed, sortedDnsList.Count);
+        var settings = await JsonSerializer.DeserializeAsync<Settings>(File.OpenRead("appsettings.json"));
+        if (settings == null)
+        {
+            logger.LogError("Couldn't load settings. Terminating...");
+            return;
         }
+
+        var (combineLines, externalCoverageLines) = await ReadSources(settings);
+
+        combineLines.ExceptWith(externalCoverageLines);
+        combineLines = HostUtilities.RemoveKnownBadHosts(settings.KnownBadHosts, combineLines);
+        combineLines.UnionWith(settings.KnownBadHosts);
+        combineLines.UnionWith(externalCoverageLines);
+        CollectionUtilities.FilterGrouped(combineLines);
+
+        var sortedDnsList = CollectionUtilities.SortDnsList(combineLines);
+        HashSet<string> filteredCache = new(combineLines.Count);
+        sortedDnsList = settings.MultiPassFilter
+            ? ProcessingUtilities.ProcessCombinedWithMultipleRounds(sortedDnsList, externalCoverageLines, filteredCache)
+            : ProcessingUtilities.ProcessCombined(sortedDnsList, externalCoverageLines, filteredCache);
+
+        if (settings.ExtraFiltering)
+        {
+            logger.LogInformation("Start extra filtering of duplicates");
+            sortedDnsList = ProcessingUtilities.ProcessWithExtraFiltering(sortedDnsList, externalCoverageLines, filteredCache);
+            logger.LogInformation("Done extra filtering of duplicates");
+        }
+
+        await using StreamWriter streamWriter = new(settings.OutputFileName, false);
+        for (var i = 0; i < settings.HeaderLines.Length; i++)
+            await streamWriter.WriteLineAsync(settings.HeaderLines[i]);
+
+        await streamWriter.WriteLineAsync($"! Last Modified: {DateTime.UtcNow:u}");
+
+        foreach (var s in sortedDnsList)
+        {
+            await streamWriter.WriteLineAsync();
+            await streamWriter.WriteAsync((char)Constants.PipeSign);
+            await streamWriter.WriteAsync((char)Constants.PipeSign);
+            await streamWriter.WriteAsync(s);
+            await streamWriter.WriteAsync((char)Constants.HatSign);
+        }
+
+        stopWatch.Stop();
+        logger.LogInformation("Execution duration - {elapsed} | Produced {count} hosts", stopWatch.Elapsed, sortedDnsList.Count);
+    }
+
+    private static async Task<(HashSet<string> CombinedLines, HashSet<string> ExternalCoverageLines)> ReadSources(Settings settings)
+    {
+        var decoder = Encoding.UTF8.GetDecoder();
+        using var httpClient = new HttpClient();
+
+        // Assumed length to reduce allocations
+        var combineLines = new HashSet<string>(170_000);
+        var externalCoverageLines = new HashSet<string>(50_000);
+        for (var i = 0; i < settings.Filters.Sources.Length; i++)
+        {
+            var sourceItem = settings.Filters.Sources[i];
+            await using var stream = await httpClient.GetStreamAsync(sourceItem.Uri);
+            if (sourceItem.Format == SourceFormat.Hosts)
+            {
+                await HostUtilities.ProcessHostsBased(
+                    sourceItem.SourceAction == SourceAction.Combine ? combineLines : externalCoverageLines,
+                    stream,
+                    settings.Filters.SkipLinesBytes,
+                    sourceItem.SourcePrefixes,
+                    decoder);
+            }
+            else
+            {
+                await HostUtilities.ProcessAdBlockBased(
+                    sourceItem.SourceAction == SourceAction.Combine ? combineLines : externalCoverageLines,
+                    stream,
+                    decoder);
+            }
+        }
+
+        return (combineLines, externalCoverageLines);
     }
 }
