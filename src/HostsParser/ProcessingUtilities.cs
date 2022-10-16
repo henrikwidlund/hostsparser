@@ -68,9 +68,9 @@ public static class ProcessingUtilities
             var lookBack = ++round * 250;
             Parallel.For(0, sortedDnsList.Count, i =>
             {
+                var item = sortedDnsList[i];
                 for (var j = (i < lookBack ? 0 : i - lookBack); j < i; j++)
                 {
-                    var item = sortedDnsList[i];
                     var otherItem = sortedDnsList[j];
                     AddIfSubDomain(filteredCache, item, otherItem);
                 }
@@ -87,7 +87,7 @@ public static class ProcessingUtilities
             sortedDnsList = CollectionUtilities.SortDnsList(sortedDnsList);
         } while (filteredCache.Count > 0);
 
-        return sortedDnsList;
+        return CollectionUtilities.SortDnsList(sortedDnsList);
     }
 
     /// <summary>
