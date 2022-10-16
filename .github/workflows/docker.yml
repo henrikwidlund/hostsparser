@@ -54,7 +54,7 @@ jobs:
             type=semver,pattern={{major}}.{{minor}}.{{patch}}
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@v2
+        uses: docker/build-push-action@v3
         with:
           context: ./src/HostsParser/
           push: ${{ github.event_name != 'pull_request' }}
