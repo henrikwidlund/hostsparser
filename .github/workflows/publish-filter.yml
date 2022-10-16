@@ -8,6 +8,7 @@ on:
     - cron: '0 */6 * * *' # Every 6 hours
 
 concurrency:
+  group: "pages"
   cancel-in-progress: true
 
 jobs:
