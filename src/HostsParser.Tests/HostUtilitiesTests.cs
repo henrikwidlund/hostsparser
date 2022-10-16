@@ -36,6 +36,8 @@ public class HostUtilitiesTests
                                    + "\n"
                                    + "dns-a.com"
                                    + "\n"
+                                   + " \t #"
+                                   + "\n"
                                    + "0.0.0.0 dns-b.com"
                                    + "\n"
                                    + "0.0.0.0 dns-c.com #Comment";
@@ -77,7 +79,12 @@ public class HostUtilitiesTests
                                      + "\n"
                                      + "|| "
                                      + "\n"
+                                     + " \t"
+                                     + "\n"
+                                     + "ab"
+                                     + "\n"
                                      + "||dns-c.com^ #Comment"
+                                     + "\n"
                                      + "\n";
 
         var expected = new HashSet<string> { "dns-a.com", "dns-b.com", "dns-c.com" };

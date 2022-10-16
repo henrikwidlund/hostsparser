@@ -171,8 +171,6 @@ public static class HostUtilities
 
         realSlice = HandlePrefixes(realSlice, sourcePrefixes);
         HandleDelimiter(ref realSlice, Constants.HashSign);
-        if (IsWhiteSpace(realSlice))
-            return;
 
         decoder.GetChars(realSlice, Cache.Span, false);
         resultCollection.Add(Cache.Span[..realSlice.Length].Trim().ToString());
@@ -203,7 +201,9 @@ public static class HostUtilities
     private static bool HostsBasedShouldSkipLine(in ReadOnlySpan<byte> bytes,
         byte[][] skipLines)
     {
-        if (TrimStart(bytes)[0] == Constants.HashSign)
+        var trimmedStart = TrimStart(bytes);
+        if (trimmedStart.IsEmpty
+            || trimmedStart[0] == Constants.HashSign)
             return true;
 
         for (var i = 0; i < skipLines.Length; i++)
@@ -229,7 +229,7 @@ public static class HostUtilities
                 break;
         }
 
-        return span[start..];
+        return start >= span.Length ? ReadOnlySpan<byte>.Empty : span[start..];
     }
 
     private static bool IsWhiteSpace(in ReadOnlySpan<byte> span)
@@ -248,9 +248,7 @@ public static class HostUtilities
     private static ReadOnlySpan<byte> HandlePipe(in ReadOnlySpan<byte> lineBytes)
     {
         var lastPipe = lineBytes.LastIndexOf(Constants.PipeSign);
-        if (lastPipe > -1)
-            return lineBytes[(lastPipe == 0 ? 1 : lastPipe + 1)..];
-        return lineBytes;
+        return lineBytes[(lastPipe == 0 ? 1 : lastPipe + 1)..];
     }
 
     private static void HandleDelimiter(ref ReadOnlySpan<byte> lineChars,
