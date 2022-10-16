@@ -4,22 +4,21 @@
 using System.IO;
 using System.Text;
 
-namespace HostsParser.Benchmarks
+namespace HostsParser.Benchmarks;
+
+public abstract class BenchmarkStreamBase
 {
-    public abstract class BenchmarkStreamBase
+    protected static Stream PrepareStream()
     {
-        protected static Stream PrepareStream()
-        {
-            var stream = new MemoryStream();
+        var stream = new MemoryStream();
 
-            using var sw = new BinaryWriter(stream, Encoding.UTF8, true);
-            sw.Write(BenchmarkTestData.HostsBasedTestBytes);
-            sw.Write(BenchmarkTestData.AdBlockBasedTestBytes);
-            sw.Flush();
+        using var sw = new BinaryWriter(stream, Encoding.UTF8, true);
+        sw.Write(BenchmarkTestData.HostsBasedTestBytes);
+        sw.Write(BenchmarkTestData.AdBlockBasedTestBytes);
+        sw.Flush();
 
-            stream.Seek(0, SeekOrigin.Begin);
+        stream.Seek(0, SeekOrigin.Begin);
 
-            return stream;
-        }
+        return stream;
     }
 }
