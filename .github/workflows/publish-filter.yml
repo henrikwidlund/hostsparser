@@ -7,89 +7,56 @@ on:
   schedule:
     - cron: '0 */6 * * *' # Every 6 hours
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: 6.0.x
-          include-prerelease: false
+    - uses: actions/checkout@v3
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 6.0.x
+        include-prerelease: false
 
-      - name: Run build.sh
-        run: ./build.sh
-  
-      - name: Run HostsParser
-        run: |
-          cd ./artifacts
-          dotnet HostsParser.dll
+    - name: Run build.sh
+      run: ./build.sh
+ 
+    - name: Run HostsParser
+      run: |
+        cd ./artifacts
+        dotnet HostsParser.dll
 
-      - name: Create public directory
-        if: github.ref == 'refs/heads/main'
-        run: mkdir ./public
+    - name: Create public directory
+      if: github.ref == 'refs/heads/main'
+      run: mkdir ./public
 
-      - name: Copy filter to public directory
-        if: github.ref == 'refs/heads/main'
-        run: |
-          FILTER=./artifacts/filter.txt
-          cp $FILTER ./public
-          cp $FILTER ./public/hosts
+    - name: Copy filter to public directory
+      if: github.ref == 'refs/heads/main'
+      run: |
+        FILTER=./artifacts/filter.txt
+        cp $FILTER ./public
+        cp $FILTER ./public/hosts
 
-      - name: Create and copy alternates
-        if: github.ref == 'refs/heads/main'
-        run: |
-          cd ./artifacts
-          for filename in ../config/*.json; do
-              cp $filename ../artifacts/appsettings.json
-              dotnet HostsParser.dll
-              CONFIG_FILE=$(echo $filename | cut -d'/' -f 3)
-              CONFIG=${CONFIG_FILE//json/txt}
-              cp $CONFIG ../public/$CONFIG
-          done
+    - name: Create and copy alternates
+      if: github.ref == 'refs/heads/main'
+      run: |
+        cd ./artifacts
+        for filename in ../config/*.json; do
+            cp $filename ../artifacts/appsettings.json
+            dotnet HostsParser.dll
+            CONFIG_FILE=$(echo $filename | cut -d'/' -f 3)
+            CONFIG=${CONFIG_FILE//json/txt}
+            cp $CONFIG ../public/$CONFIG
+        done
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: './public'
-
-      - name: Checkout gh-pages
-        uses: actions/checkout@v3
-        with:
-          ref: gh-pages
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
-
-  deploy:
-    needs: build
-
-    permissions:
-      pages: write
-      id-token: write
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
+        commit_message: ${{ github.event.head_commit.message }}
