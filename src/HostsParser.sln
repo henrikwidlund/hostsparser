@@ -35,6 +35,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{056DB08C-D3C7-4FFD-9A74-CC2F5C78F46D}"
 ProjectSection(SolutionItems) = preProject
 	..\config\adware-malware.json = ..\config\adware-malware.json
+	..\config\custom-combined.json = ..\config\custom-combined.json
 	..\config\fakenews-gambling-social.json = ..\config\fakenews-gambling-social.json
 	..\config\fakenews-gambling-porn-social.json = ..\config\fakenews-gambling-porn-social.json
 	..\config\fakenews.json = ..\config\fakenews.json
