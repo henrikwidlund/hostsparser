@@ -75,7 +75,7 @@ Please refer to the [AdGuard Home Wiki](https://github.com/AdguardTeam/AdGuardHo
 
 ## Building from source code
 ### Prerequisites
-[dotnet 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0).
+[dotnet 7 SDK](https://dotnet.microsoft.com/download/dotnet/7.0).
 
 Run the following from the directory you cloned the repository to:
 
@@ -91,7 +91,7 @@ The built files will be put in the `artifacts` directory, in the root of the rep
 
 ## Running
 ### Prerequisites
-1. [dotnet 6 runtime](https://dotnet.microsoft.com/download/dotnet/6.0).
+1. [dotnet 7 runtime](https://dotnet.microsoft.com/download/dotnet/7.0).
 2. Downloaded binaries or binaries built from source code.
 
 Run the following (if you built from source code, this will be in `artifacts` directory, in the root of the repository):

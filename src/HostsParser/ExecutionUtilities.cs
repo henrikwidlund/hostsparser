@@ -108,7 +108,7 @@ public static class ExecutionUtilities
                     sourceItem.SourceAction == SourceAction.Combine ? combineLines : externalCoverageLines,
                     stream,
                     settings.Filters.SkipLinesBytes,
-                    sourceItem.SourcePrefixes,
+                    sourceItem.SourcePrefix,
                     decoder);
             }
             else

@@ -26,7 +26,7 @@ public class BenchmarkProcessHostsBased : BenchmarkStreamBase
         => await HostUtilities.ProcessHostsBased(new HashSet<string>(140_000),
             _stream!,
             BenchmarkTestData.Settings.Filters.SkipLinesBytes,
-            BenchmarkTestData.Settings.Filters.Sources[0].SourcePrefixes,
+            BenchmarkTestData.Settings.Filters.Sources[0].SourcePrefix,
             BenchmarkTestData.Decoder);
 }
 
@@ -70,7 +70,7 @@ public class BenchmarkRemoveKnownBadHosts : BenchmarkStreamBase
             .ProcessHostsBased(hostsBasedLines,
                 stream,
                 BenchmarkTestData.Settings.Filters.SkipLinesBytes,
-                BenchmarkTestData.Settings.Filters.Sources[0].SourcePrefixes,
+                BenchmarkTestData.Settings.Filters.Sources[0].SourcePrefix,
                 BenchmarkTestData.Decoder)
             .GetAwaiter().GetResult();
 
