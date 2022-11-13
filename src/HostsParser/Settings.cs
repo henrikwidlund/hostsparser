@@ -63,17 +63,17 @@ public sealed record SourceItem(
 )
 {
     /// <summary>
-    /// The <see cref="SourcePrefixes"/> for used for the current <see cref="SourceItem"/>.
+    /// The <see cref="SourcePrefix"/> for used for the current <see cref="SourceItem"/>.
     /// </summary>
-    public SourcePrefixes SourcePrefixes => new(Prefix);
+    public SourcePrefix SourcePrefix => new(Prefix);
 }
 
 /// <summary>
 /// Object used to define prefixes that should be removed when processing rows.
 /// </summary>
-public readonly record struct SourcePrefixes
+public readonly record struct SourcePrefix
 {
-    public SourcePrefixes(string prefix)
+    public SourcePrefix(string prefix)
     {
         if (string.IsNullOrEmpty(prefix))
         {

@@ -37,17 +37,17 @@ public class SettingsTests
         hostsSource.Uri.Should().Be("https://hosts-based.uri");
         hostsSource.Prefix.Should().Be("0.0.0.0 ");
         hostsSource.SourceAction.Should().Be(SourceAction.Combine);
-        hostsSource.SourcePrefixes.PrefixBytes.Should().NotBeNull();
-        hostsSource.SourcePrefixes.PrefixBytes.Should().BeEquivalentTo(Encoding.UTF8.GetBytes(hostsSource.Prefix));
-        hostsSource.SourcePrefixes.WwwPrefixBytes.Should().BeEquivalentTo(Encoding.UTF8.GetBytes(hostsSource.Prefix + "www."));
+        hostsSource.SourcePrefix.PrefixBytes.Should().NotBeNull();
+        hostsSource.SourcePrefix.PrefixBytes.Should().BeEquivalentTo(Encoding.UTF8.GetBytes(hostsSource.Prefix));
+        hostsSource.SourcePrefix.WwwPrefixBytes.Should().BeEquivalentTo(Encoding.UTF8.GetBytes(hostsSource.Prefix + "www."));
 
         var adBlockSource = settings.Filters.Sources.Should()
             .ContainSingle(item => item.Format == SourceFormat.AdBlock).Subject;
         adBlockSource.Uri.Should().Be("https://adblock-based.uri");
         adBlockSource.Prefix.Should().BeEmpty();
         adBlockSource.SourceAction.Should().Be(SourceAction.ExternalCoverage);
-        adBlockSource.SourcePrefixes.PrefixBytes.Should().BeNull();
-        adBlockSource.SourcePrefixes.PrefixBytes.Should().BeNull();
+        adBlockSource.SourcePrefix.PrefixBytes.Should().BeNull();
+        adBlockSource.SourcePrefix.PrefixBytes.Should().BeNull();
 
         settings.KnownBadHosts.Should().NotBeNull();
         settings.KnownBadHosts.Should().ContainSingle();

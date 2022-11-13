@@ -54,7 +54,7 @@ public abstract class BenchmarkCollectionUtilitiesBase : BenchmarkStreamBase
             .ProcessHostsBased(hostsBasedLines,
                 stream,
                 BenchmarkTestData.Settings.Filters.SkipLinesBytes,
-                BenchmarkTestData.Settings.Filters.Sources[0].SourcePrefixes,
+                BenchmarkTestData.Settings.Filters.Sources[0].SourcePrefix,
                 BenchmarkTestData.Decoder)
             .GetAwaiter().GetResult();
 
