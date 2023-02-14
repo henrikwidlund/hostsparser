@@ -89945,37 +89945,6 @@
                 ]
               },
               {
-                "id": "InnerHTMLJS",
-                "shortDescription": {
-                  "text": "Use of 'innerHTML' property"
-                },
-                "fullDescription": {
-                  "text": "Reports a JavaScript access to DOM nodes as text using the 'innerHTML' property. Most usages of 'innerHTML' are performed better with explicit DOM calls, such as 'getElementByID()' and 'createElement()'. Additionally, 'innerHTML' will not work with XML DOMs, including DOMs for XHTML if viewed as XML. This can lead to difficulties in diagnosing bugs.",
-                  "markdown": "Reports a JavaScript access to DOM nodes as text using the `innerHTML` property. Most usages of `innerHTML` are performed better with explicit DOM calls, such as `getElementByID()` and `createElement()`. Additionally, `innerHTML` will not work with XML DOMs, including DOMs for XHTML if viewed as XML. This can lead to difficulties in diagnosing bugs."
-                },
-                "defaultConfiguration": {
-                  "enabled": false,
-                  "level": "warning",
-                  "parameters": {
-                    "ideaSeverity": "WARNING"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "JavaScript and TypeScript/DOM issues",
-                      "index": 31,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "ES6UnusedImports",
                 "shortDescription": {
                   "text": "Unused import"
@@ -89996,6 +89965,37 @@
                     "target": {
                       "id": "JavaScript and TypeScript/Imports and dependencies",
                       "index": 60,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "InnerHTMLJS",
+                "shortDescription": {
+                  "text": "Use of 'innerHTML' property"
+                },
+                "fullDescription": {
+                  "text": "Reports a JavaScript access to DOM nodes as text using the 'innerHTML' property. Most usages of 'innerHTML' are performed better with explicit DOM calls, such as 'getElementByID()' and 'createElement()'. Additionally, 'innerHTML' will not work with XML DOMs, including DOMs for XHTML if viewed as XML. This can lead to difficulties in diagnosing bugs.",
+                  "markdown": "Reports a JavaScript access to DOM nodes as text using the `innerHTML` property. Most usages of `innerHTML` are performed better with explicit DOM calls, such as `getElementByID()` and `createElement()`. Additionally, `innerHTML` will not work with XML DOMs, including DOMs for XHTML if viewed as XML. This can lead to difficulties in diagnosing bugs."
+                },
+                "defaultConfiguration": {
+                  "enabled": false,
+                  "level": "warning",
+                  "parameters": {
+                    "ideaSeverity": "WARNING"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "JavaScript and TypeScript/DOM issues",
+                      "index": 31,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -99703,8 +99703,8 @@
       "versionControlProvenance": [
         {
           "repositoryUri": "https://github.com/henrikwidlund/hostsparser.git",
-          "revisionId": "cd900609ffb52b30d10caafd8ff27b04bfdef12d",
-          "branch": "feat/qodana",
+          "revisionId": "75fb97898b052362abfea783962cb62941202f83",
+          "branch": "main",
           "properties": {
             "repoUrl": "https://github.com/henrikwidlund/hostsparser.git",
             "lastAuthorName": "Henrik Widlund",
@@ -99760,6 +99760,7 @@
           "partialFingerprints": {
             "equalIndicator/v1": "d44f660c13b3cdf98b4cd2a55333fd8c1b52aca85ca3250f5b71812371569930"
           },
+          "baselineState": "new",
           "properties": {
             "ideaSeverity": "WARNING",
             "tags": [
@@ -99814,6 +99815,7 @@
           "partialFingerprints": {
             "equalIndicator/v1": "a368378aba2da4f90afedf242d1340f7b316aeb15abf7b0fedf6fceb80db58d2"
           },
+          "baselineState": "new",
           "properties": {
             "ideaSeverity": "WARNING",
             "tags": [
@@ -99825,9 +99827,9 @@
       ],
       "automationDetails": {
         "id": "HostsParser/qodana/2023-02-14",
-        "guid": "eb80ca01-3395-4300-ad82-c63103ad19b0",
+        "guid": "72533fde-be30-4f96-888e-05f29ae2cd1f",
         "properties": {
-          "jobUrl": "https://github.com/henrikwidlund/hostsparser/actions/runs/4176454094"
+          "jobUrl": "https://github.com/henrikwidlund/hostsparser/actions/runs/4176979026"
         }
       },
       "newlineSequences": [
