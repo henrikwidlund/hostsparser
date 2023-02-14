@@ -32,7 +32,7 @@ public class CollectionUtilitiesTests
             "a.first.com",
             "second.co.jp",
             "first.com",
-            "1.2.second.co.jp",
+            "1.2.second.co.jp"
         };
 
         // Act
