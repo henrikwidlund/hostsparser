@@ -2,6 +2,7 @@
 // GNU General Public License v3.0
 
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization;
@@ -45,7 +46,7 @@ public sealed record SourceEntry(
     SourceItem[] Sources,
     string[]? SkipLines)
 {
-    public readonly byte[][]? SkipLinesBytes = SkipLines?.Select(s => Encoding.UTF8.GetBytes(s)).ToArray();
+    public readonly IReadOnlyList<byte[]>? SkipLinesBytes = SkipLines?.Select(s => Encoding.UTF8.GetBytes(s)).ToArray();
 }
 
 /// <summary>

@@ -26,7 +26,7 @@ public static class HostUtilities
     /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
     public static Task ProcessHostsBased(HashSet<string> dnsHashSet,
         Stream stream,
-        byte[][]? skipLines,
+        IReadOnlyList<byte[]>? skipLines,
         in SourcePrefix sourcePrefix,
         Decoder decoder)
     {
@@ -96,7 +96,7 @@ public static class HostUtilities
 
     private static async Task ReadPipeAsync(PipeReader reader,
         ICollection<string> resultCollection,
-        byte[][]? skipLines,
+        IReadOnlyList<byte[]>? skipLines,
         SourcePrefix? sourcePrefix,
         Decoder decoder)
     {
@@ -130,7 +130,7 @@ public static class HostUtilities
     }
 
     private static void ProcessLastChunk(ICollection<string> resultCollection,
-        byte[][]? skipLines,
+        IReadOnlyList<byte[]>? skipLines,
         in SourcePrefix? sourcePrefix,
         Decoder decoder,
         in ReadOnlySequence<byte> buffer)
@@ -141,7 +141,7 @@ public static class HostUtilities
 
     private static void ProcessLine(in ReadOnlySequence<byte> slice,
         ICollection<string> resultCollection,
-        byte[][]? skipLines,
+        IReadOnlyList<byte[]>? skipLines,
         in SourcePrefix? sourcePrefix,
         Decoder decoder)
     {
@@ -153,7 +153,7 @@ public static class HostUtilities
 
     private static void ProcessHostsBasedLine(in ReadOnlySequence<byte> slice,
         ICollection<string> resultCollection,
-        byte[][] skipLines,
+        IReadOnlyList<byte[]> skipLines,
         in SourcePrefix? sourcePrefix,
         Decoder decoder)
     {
@@ -199,14 +199,14 @@ public static class HostUtilities
     }
 
     private static bool HostsBasedShouldSkipLine(in ReadOnlySpan<byte> bytes,
-        byte[][] skipLines)
+        IReadOnlyList<byte[]> skipLines)
     {
         var trimmedStart = TrimStart(bytes);
         if (trimmedStart.IsEmpty
             || trimmedStart[0] == Constants.HashSign)
             return true;
 
-        for (var i = 0; i < skipLines.Length; i++)
+        for (var i = 0; i < skipLines.Count; i++)
         {
             if (bytes.SequenceEqual(skipLines[i]))
                 return true;

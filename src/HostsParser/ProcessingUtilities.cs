@@ -69,7 +69,7 @@ public static class ProcessingUtilities
             Parallel.For(0, sortedDnsList.Count, i =>
             {
                 var item = sortedDnsList[i];
-                for (var j = (i < lookBack ? 0 : i - lookBack); j < i; j++)
+                for (var j = i < lookBack ? 0 : i - lookBack; j < i; j++)
                 {
                     var otherItem = sortedDnsList[j];
                     AddIfSubDomain(filteredCache, item, otherItem);
@@ -116,7 +116,7 @@ public static class ProcessingUtilities
         return CollectionUtilities.SortDnsList(sortedDnsList);
     }
 
-    private static void AddIfSubDomain(HashSet<string> filteredCache,
+    private static void AddIfSubDomain(ISet<string> filteredCache,
         string potentialSubDomain,
         string potentialDomain)
     {
