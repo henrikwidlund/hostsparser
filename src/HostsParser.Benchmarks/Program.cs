@@ -6,7 +6,7 @@ using BenchmarkDotNet.Running;
 
 namespace HostsParser.Benchmarks;
 
-internal static class Program
+file static class Program
 {
     private static void Main(string[] args) =>
         BenchmarkSwitcher

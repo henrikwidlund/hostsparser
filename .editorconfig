@@ -257,7 +257,6 @@ csharp_preserve_single_line_blocks = true
 csharp_preserve_single_line_statements = true
 
 # IDE0011: Add braces
-csharp_prefer_braces = false:suggestion
 # NOTE: We need the below severity entry for Add Braces due to https://github.com/dotnet/roslyn/issues/44201
 dotnet_diagnostic.IDE0011.severity = suggestion
 
