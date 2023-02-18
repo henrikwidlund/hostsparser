@@ -86,8 +86,8 @@ public static class ExecutionUtilities
         }
 
         stopWatch.Stop();
-        logger.LogInformation("Execution duration - {elapsed} | Produced {count} hosts", stopWatch.Elapsed.ToString(),
-            sortedDnsList.Count.ToString());
+        logger.LogInformation("Execution duration - {Elapsed} | Produced {Count} hosts", stopWatch.Elapsed.ToString(),
+            sortedDnsList.Count.ToString(CultureInfo.CurrentCulture));
     }
 
     private static async Task<(HashSet<string> CombinedLines, HashSet<string> ExternalCoverageLines)> ReadSources(Settings settings,
