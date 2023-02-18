@@ -5,4 +5,6 @@ using System.Net.Http;
 using HostsParser;
 
 using var httpClient = new HttpClient();
-await ExecutionUtilities.Execute(httpClient);
+using var loggerFactory = HostsParserLogger.Create();
+var logger = loggerFactory.CreateLogger();
+await ExecutionUtilities.Execute(httpClient, logger);

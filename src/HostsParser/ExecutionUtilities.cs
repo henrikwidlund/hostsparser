@@ -4,7 +4,6 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Globalization;
 using System.IO;
 using System.Net.Http;
 using System.Text;
@@ -23,28 +22,17 @@ public static class ExecutionUtilities
     /// Reads settings, fetches defined sources and generates a AdBlock file.
     /// </summary>
     /// <param name="httpClient">The <see cref="HttpClient"/> that will be used to read from external sources.</param>
-    public static async Task Execute(HttpClient httpClient)
+    /// <param name="logger">The <see cref="ILogger"/> that will be used for logging.</param>
+    public static async Task Execute(HttpClient httpClient, ILogger logger)
     {
-        using var loggerFactory = LoggerFactory.Create(options =>
-        {
-            options.AddDebug();
-            options.AddSimpleConsole(consoleOptions =>
-            {
-                consoleOptions.SingleLine = true;
-                consoleOptions.TimestampFormat = CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern + " " +
-                                                 CultureInfo.CurrentCulture.DateTimeFormat.LongTimePattern + " ";
-            });
-        });
-        var logger = loggerFactory.CreateLogger(nameof(HostsParser));
-
-        logger.LogInformation("Running...");
+        logger.Running();
         var stopWatch = new Stopwatch();
         stopWatch.Start();
 
         var settings = await JsonSerializer.DeserializeAsync<Settings>(File.OpenRead("appsettings.json"));
         if (settings == null)
         {
-            logger.LogError("Couldn't load settings. Terminating...");
+            logger.UnableToRun();
             return;
         }
 
@@ -64,10 +52,11 @@ public static class ExecutionUtilities
 
         if (settings.ExtraFiltering)
         {
-            logger.LogInformation("Start extra filtering of duplicates");
-            sortedDnsList =
-                ProcessingUtilities.ProcessWithExtraFiltering(sortedDnsList, externalCoverageLines, filteredCache);
-            logger.LogInformation("Done extra filtering of duplicates");
+            logger.StartExtraFiltering();
+            sortedDnsList = ProcessingUtilities.ProcessWithExtraFiltering(sortedDnsList,
+                externalCoverageLines,
+                filteredCache);
+            logger.DoneExtraFiltering();
         }
 
         await using StreamWriter streamWriter = new(settings.OutputFileName, false);
@@ -86,8 +75,7 @@ public static class ExecutionUtilities
         }
 
         stopWatch.Stop();
-        logger.LogInformation("Execution duration - {Elapsed} | Produced {Count} hosts", stopWatch.Elapsed.ToString(),
-            sortedDnsList.Count.ToString(CultureInfo.CurrentCulture));
+        logger.Finalized(stopWatch.Elapsed, sortedDnsList.Count);
     }
 
     private static async Task<(HashSet<string> CombinedLines, HashSet<string> ExternalCoverageLines)> ReadSources(Settings settings,
