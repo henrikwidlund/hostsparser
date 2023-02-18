@@ -89,7 +89,6 @@ include:
   - name: ShellCheck
   - name: NotAccessedOutParameterVariable
   - name: RedundantIfStatementThenKeyword
-  - name: SpellCheckingInspection
   - name: NullableWarningSuppressionIsUsed
   - name: ClassNeverInstantiated.Global
   - name: MsbuildTargetFrameworkTagInspection
