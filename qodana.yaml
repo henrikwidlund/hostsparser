@@ -26,7 +26,6 @@ include:
   - name: StructMemberCanBeMadeReadOnly
   - name: LocalFunctionCanBeMadeStatic
   - name: MemberCanBeMadeStatic.Local
-  - name: MemberCanBeFileLocal
   - name: StringEndsWithIsCultureSpecific
   - name: StringStartsWithIsCultureSpecific
   - name: ClassCanBeSealed.Local
@@ -68,7 +67,6 @@ include:
   - name: EditorConfigEmptySection
   - name: ArrangeConstructorOrDestructorBody
   - name: ArgumentsStyleOther
-  - name: UnnecessaryWhitespace
   - name: ArrangeMissingParentheses
   - name: SeparateControlTransferStatement
   - name: RedundantSetContainsBeforeAdding
@@ -112,7 +110,6 @@ include:
   - name: JsonSchemaRefReference
   - name: LossyEncoding
   - name: NonAsciiCharacters
-  - name: IncorrectFormatting
   - name: RiderSecurityErrorsInspection
   - name: RiderSolutionErrorsInspection
   - name: MissingBlankLines
