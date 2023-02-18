@@ -1,10 +1,6 @@
 version: "1.0"
 linter: jetbrains/qodana-dotnet:2023.1-eap
 exclude:
-  - name: All
-    paths:
-      - nalysislevel_7_default.editorconfig
-      - Microsoft.NET.Test.Sdk.Program.cs
   - name: ClassNeverInstantiated.Global
   - name: ForCanBeConvertedToForeach
   - name: LoopCanBeConvertedToQuery
