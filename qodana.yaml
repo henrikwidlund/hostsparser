@@ -38,7 +38,6 @@ include:
   - name: InconsistentLineSeparators
   - name: SyntaxError
   - name: EmptyDirectory
-  - name: LongLine
   - name: Annotator
   - name: InjectedReferences
   - name: EditorConfigNumerousWildcards
@@ -87,11 +86,6 @@ include:
   - name: YAMLUnresolvedAlias
   - name: YAMLUnusedAnchor
   - name: YAMLSchemaValidation
-  - name: CommentTypo
-  - name: IdentifierTypo
-  - name: MarkupAttributeTypo
-  - name: MarkupTextTypo
-  - name: StringLiteralTypo
   - name: ShellCheck
   - name: NotAccessedOutParameterVariable
   - name: RedundantIfStatementThenKeyword
