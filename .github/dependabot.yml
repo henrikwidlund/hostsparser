@@ -10,7 +10,7 @@ updates:
       - "henrikwidlund"
 
   - package-ecosystem: "docker"
-    directory: "/"
+    directory: "/src/HostsParser/"
     schedule:
       interval: "daily"
     assignees:
