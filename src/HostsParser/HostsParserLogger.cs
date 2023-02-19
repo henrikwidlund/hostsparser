@@ -2,47 +2,31 @@
 // GNU General Public License v3.0
 
 using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using Microsoft.Extensions.Logging;
 
 namespace HostsParser;
 
-internal static class HostsParserLogger
+public static partial class HostsParserLogger
 {
-    private static readonly Action<ILogger, Exception?> RunningAction =
-        LoggerMessage.Define(LogLevel.Information,
-            new EventId(1, nameof(Running)), 
-            "Running...");
+    [LoggerMessage(EventId = 1, EventName = nameof(Running), Level = LogLevel.Information, Message = "Running...")]
+    public static partial void Running(this ILogger logger);
+    
+    [LoggerMessage(EventId = 2, EventName = nameof(UnableToRun), Level = LogLevel.Error, Message = "Couldn't load settings. Terminating...")]
+    public static partial void UnableToRun(this ILogger logger);
+    
+    [LoggerMessage(EventId = 3, EventName = nameof(StartExtraFiltering), Level = LogLevel.Information, Message = "Start extra filtering of duplicates.")]
+    public static partial void StartExtraFiltering(this ILogger logger);
+    
+    [LoggerMessage(EventId = 4, EventName = nameof(DoneExtraFiltering), Level = LogLevel.Information, Message = "Done extra filtering of duplicates.")]
+    public static partial void DoneExtraFiltering(this ILogger logger);
 
-    private static readonly Action<ILogger, Exception?> UnableToRunAction =
-        LoggerMessage.Define(LogLevel.Error,
-            new EventId(2, nameof(UnableToRun)), 
-            "Couldn't load settings. Terminating...");
+    [LoggerMessage(EventId = 5, EventName = nameof(Finalized), Level = LogLevel.Information, Message = "Execution duration - {Elapsed} | Produced {Count} hosts.")]
+    public static partial void Finalized(this ILogger logger, TimeSpan elapsed, int count);
 
-    private static readonly Action<ILogger, Exception?> StartExtraFilteringAction =
-        LoggerMessage.Define(LogLevel.Information,
-            new EventId(3, nameof(StartExtraFiltering)), 
-            "Start extra filtering of duplicates.");
-
-    private static readonly Action<ILogger, Exception?> DoneExtraFilteringAction =
-        LoggerMessage.Define(LogLevel.Information,
-            new EventId(4, nameof(DoneExtraFiltering)), 
-            "Done extra filtering of duplicates.");
-
-    private static readonly Action<ILogger, TimeSpan, int, Exception?> FinalizedAction =
-        LoggerMessage.Define<TimeSpan, int>(LogLevel.Information,
-            new EventId(5, nameof(Finalized)), 
-            "Execution duration - {Elapsed} | Produced {Count} hosts.");
-
-    internal static void Running(this ILogger logger) => RunningAction(logger, null);
-    internal static void UnableToRun(this ILogger logger) => UnableToRunAction(logger, null);
-    internal static void StartExtraFiltering(this ILogger logger) => StartExtraFilteringAction(logger, null);
-    internal static void DoneExtraFiltering(this ILogger logger) => DoneExtraFilteringAction(logger, null);
-
-    internal static void Finalized(this ILogger logger, TimeSpan elapsed, int count)
-        => FinalizedAction(logger, elapsed, count, null);
-
-    internal static ILoggerFactory Create() =>
+    [ExcludeFromCodeCoverage(Justification = "Helper method, private type returned.")]
+    public static ILoggerFactory Create() =>
         LoggerFactory.Create(options =>
         {
             options.AddDebug();
@@ -54,6 +38,7 @@ internal static class HostsParserLogger
             });
         });
 
-    internal static ILogger CreateLogger(this ILoggerFactory loggerFactory) =>
+    [ExcludeFromCodeCoverage(Justification = "Helper method, private type returned.")]
+    public static ILogger CreateLogger(this ILoggerFactory loggerFactory) =>
         loggerFactory.CreateLogger(nameof(HostsParser));
 }
