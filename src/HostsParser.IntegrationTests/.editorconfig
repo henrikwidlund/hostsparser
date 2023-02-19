@@ -1,3 +1,3 @@
-[*.{cs,vb}]
-dotnet_analyzer_diagnostic.category-Naming.severity = none
-dotnet_analyzer_diagnostic.category-Reliability.severity = none
+[*.cs]
+dotnet_diagnostic.CA1707.severity = none
+dotnet_diagnostic.CA2007.severity = none
