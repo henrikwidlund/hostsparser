@@ -24,7 +24,7 @@ public class HostsParserLoggerTests
         // Assert
         store.Should().HaveCount(1).And.ContainSingle(s => s == "Information-1-Running-Running...");
     }
-    
+
     [Fact]
     public void UnableToRun_Should_Log_Text()
     {
@@ -38,7 +38,7 @@ public class HostsParserLoggerTests
         // Assert
         store.Should().HaveCount(1).And.ContainSingle(s => s == "Error-2-UnableToRun-Couldn't load settings. Terminating...");
     }
-    
+
     [Fact]
     public void StartExtraFiltering_Should_Log_Text()
     {
@@ -52,7 +52,7 @@ public class HostsParserLoggerTests
         // Assert
         store.Should().HaveCount(1).And.ContainSingle(s => s == "Information-3-StartExtraFiltering-Start extra filtering of duplicates.");
     }
-    
+
     [Fact]
     public void DoneExtraFiltering_Should_Log_Text()
     {
@@ -66,7 +66,7 @@ public class HostsParserLoggerTests
         // Assert
         store.Should().HaveCount(1).And.ContainSingle(s => s == "Information-4-DoneExtraFiltering-Done extra filtering of duplicates.");
     }
-    
+
     [Fact]
     public void Finalized_Should_Log_Text()
     {

@@ -265,7 +265,7 @@ public static class HostUtilities
         if (sourcePrefix?.WwwPrefixBytes != null
             && lineBytes.StartsWith(sourcePrefix.Value.WwwPrefixBytes))
             return lineBytes[sourcePrefix.Value.WwwPrefixBytes.Length..];
-            
+
         if (sourcePrefix?.PrefixBytes != null
             && lineBytes.StartsWith(sourcePrefix.Value.PrefixBytes))
             return lineBytes[sourcePrefix.Value.PrefixBytes.Length..];

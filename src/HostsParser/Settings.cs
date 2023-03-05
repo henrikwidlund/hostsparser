@@ -87,18 +87,18 @@ public readonly record struct SourcePrefix
             WwwPrefixBytes = Encoding.UTF8.GetBytes(prefix + "www.");
         }
     }
-        
+
     /// <summary>
     /// <see cref="byte"/> representation of the prefix.
     /// </summary>
     public byte[]? PrefixBytes { get; }
-        
+
     /// <summary>
     /// <see cref="byte"/> representation of the prefix with www added to it.
     /// </summary>
     public byte[]? WwwPrefixBytes { get; }
 }
-    
+
 /// <summary>
 /// Defines the format of the source.
 /// </summary>
@@ -109,13 +109,13 @@ public enum SourceFormat
     /// Hosts formatted source, 127.0.0.1 example.com.
     /// </summary>
     Hosts = 1,
-        
+
     /// <summary>
     /// AdBlock formatted source, ||example.com^.
     /// </summary>
     AdBlock
 }
-    
+
 /// <summary>
 /// Definition of the action to be taken on the source.
 /// </summary>
@@ -126,7 +126,7 @@ public enum SourceAction
     /// Entries will be combined into the result.
     /// </summary>
     Combine = 1,
-        
+
     /// <summary>
     /// Entries will be excluded from the result.
     /// </summary>

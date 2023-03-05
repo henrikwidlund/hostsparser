@@ -22,7 +22,7 @@ public class BenchmarkExecutionUtilities : BenchmarkStreamBase
         _loggerFactory = new NullLoggerFactory();
         _logger = _loggerFactory.CreateLogger(nameof(Benchmarks));
     }
-    
+
     private StreamHttpMessageHandler? _streamHttpMessageHandler;
     private HttpClient? _httpClient;
     private ILoggerFactory? _loggerFactory;
@@ -39,7 +39,7 @@ public class BenchmarkExecutionUtilities : BenchmarkStreamBase
         _streamHttpMessageHandler?.Dispose();
         _loggerFactory?.Dispose();
     }
-    
+
     private sealed class StreamHttpMessageHandler : HttpMessageHandler
     {
         protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
