@@ -127,8 +127,6 @@ public static class ProcessingUtilities
 
     private static bool ShouldSkip(string potentialDomain,
         string potentialSubDomain)
-    {
-        return potentialDomain.Length + 1 > potentialSubDomain.Length
-               || potentialSubDomain == potentialDomain;
-    }
+        => potentialDomain.Length + 1 > potentialSubDomain.Length
+           || potentialSubDomain == potentialDomain;
 }

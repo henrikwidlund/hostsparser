@@ -82,7 +82,7 @@ public static class ExecutionUtilities
         HttpClient httpClient)
     {
         var decoder = Encoding.UTF8.GetDecoder();
-        
+
         // Assumed length to reduce allocations
         var combineLines = new HashSet<string>(170_000);
         var externalCoverageLines = new HashSet<string>(50_000);

@@ -25,7 +25,7 @@ public class ExecutionUtilitiesTests
         using var httpClient = new HttpClient(streamHttpMessageHandler);
         using var loggerFactory = new NullLoggerFactory();
         var logger = loggerFactory.CreateLogger(nameof(IntegrationTests));
-        
+
         // Act
         await ExecutionUtilities.Execute(httpClient, logger);
         var linesWithoutMultiPass = (await File.ReadAllLinesAsync("filter.txt"))[7..];
@@ -43,7 +43,7 @@ public class ExecutionUtilitiesTests
         linesWithoutMultiPass.Except(linesWithMultiPass).Should().HaveCountLessOrEqualTo(5);
         linesWithMultiPass.Except(linesWithoutMultiPass).Should().HaveCountLessOrEqualTo(5);
     }
-    
+
     private sealed class StreamHttpMessageHandler : HttpMessageHandler
     {
         protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
