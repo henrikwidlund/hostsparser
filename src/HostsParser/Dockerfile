@@ -15,4 +15,8 @@ RUN dotnet publish "HostsParser.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+RUN adduser -D hostsparseru
+RUN addgroup hostsparserg && addgroup hostsparseru hostsparserg
+RUN touch filter.txt && chown hostsparseru:hostsparserg filter.txt
+USER hostsparseru
 ENTRYPOINT ["dotnet", "HostsParser.dll"]
