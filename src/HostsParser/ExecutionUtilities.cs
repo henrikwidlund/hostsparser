@@ -29,7 +29,8 @@ public static class ExecutionUtilities
         var stopWatch = new Stopwatch();
         stopWatch.Start();
 
-        var settings = await JsonSerializer.DeserializeAsync<Settings>(File.OpenRead("appsettings.json"));
+        await using var fileStream = File.OpenRead("appsettings.json");
+        var settings = await JsonSerializer.DeserializeAsync(fileStream, SourceGenerationContext.Default.Settings);
         if (settings == null)
         {
             logger.UnableToRun();
