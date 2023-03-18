@@ -24,13 +24,13 @@ jobs:
           dotnet-version: 7.0.x
 
       - name: Restore Dependencies
-        run: dotnet restore ./src
+        run: dotnet restore
 
       - name: Build
-        run: dotnet build ./src --no-restore
+        run: dotnet build --no-restore
 
       - name: Run Unit Tests
-        run: dotnet test ./src --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+        run: dotnet test --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
 
       - uses: codecov/codecov-action@v3
         with:
