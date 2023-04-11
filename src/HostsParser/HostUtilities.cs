@@ -115,8 +115,7 @@ public static class HostUtilities
 
                 ProcessLine(buffer.Slice(0, position.Value), resultCollection, skipLines, sourcePrefix, decoder);
                 buffer = buffer.Slice(buffer.GetPosition(1, position.Value));
-            }
-            while (position is not null);
+            } while (position is not null);
 
             reader.AdvanceTo(buffer.Start, buffer.End);
 

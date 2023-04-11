@@ -36,7 +36,8 @@ public class HostsParserLoggerTests
         logger.UnableToRun();
 
         // Assert
-        store.Should().HaveCount(1).And.ContainSingle(s => s == "Error-2-UnableToRun-Couldn't load settings. Terminating...");
+        store.Should().HaveCount(1).And
+            .ContainSingle(s => s == "Error-2-UnableToRun-Couldn't load settings. Terminating...");
     }
 
     [Fact]
@@ -50,7 +51,8 @@ public class HostsParserLoggerTests
         logger.StartExtraFiltering();
 
         // Assert
-        store.Should().HaveCount(1).And.ContainSingle(s => s == "Information-3-StartExtraFiltering-Start extra filtering of duplicates.");
+        store.Should().HaveCount(1).And.ContainSingle(s =>
+            s == "Information-3-StartExtraFiltering-Start extra filtering of duplicates.");
     }
 
     [Fact]
@@ -64,7 +66,8 @@ public class HostsParserLoggerTests
         logger.DoneExtraFiltering();
 
         // Assert
-        store.Should().HaveCount(1).And.ContainSingle(s => s == "Information-4-DoneExtraFiltering-Done extra filtering of duplicates.");
+        store.Should().HaveCount(1).And
+            .ContainSingle(s => s == "Information-4-DoneExtraFiltering-Done extra filtering of duplicates.");
     }
 
     [Fact]
@@ -80,7 +83,8 @@ public class HostsParserLoggerTests
         logger.Finalized(timeSpan, Count);
 
         // Assert
-        store.Should().HaveCount(1).And.ContainSingle(s => s == $"Information-5-Finalized-Execution duration - {timeSpan} | Produced {Count} hosts.");
+        store.Should().HaveCount(1).And.ContainSingle(s =>
+            s == $"Information-5-Finalized-Execution duration - {timeSpan} | Produced {Count} hosts.");
     }
 }
 
@@ -90,7 +94,8 @@ file class TestLogger : ILogger
 
     public TestLogger(List<string> store) => _store = store;
 
-    public void Log<TState>(LogLevel logLevel, EventId eventId, TState state, Exception? exception, Func<TState, Exception?, string> formatter)
+    public void Log<TState>(LogLevel logLevel, EventId eventId, TState state, Exception? exception,
+        Func<TState, Exception?, string> formatter)
         => _store.Add($"{logLevel}-{eventId.Id}-{eventId.Name}-{state}");
 
     public bool IsEnabled(LogLevel logLevel) => true;

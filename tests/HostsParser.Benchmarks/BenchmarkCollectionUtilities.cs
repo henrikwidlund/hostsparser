@@ -13,8 +13,7 @@ public class BenchmarkSortDnsList : BenchmarkCollectionUtilitiesBase
     [Benchmark]
     [BenchmarkCategory(nameof(SortDnsList), nameof(CollectionUtilities))]
     [ArgumentsSource(nameof(Source))]
-    public List<string> SortDnsList(HashSet<string> data)
-        => CollectionUtilities.SortDnsList(data);
+    public List<string> SortDnsList(HashSet<string> data) => CollectionUtilities.SortDnsList(data);
 }
 
 [MemoryDiagnoser]
@@ -24,8 +23,7 @@ public class BenchmarkGroupDnsList : BenchmarkCollectionUtilitiesBase
     [Benchmark]
     [BenchmarkCategory(nameof(GroupDnsList), nameof(CollectionUtilities))]
     [ArgumentsSource(nameof(Source))]
-    public Dictionary<int, List<string>> GroupDnsList(HashSet<string> data)
-        => CollectionUtilities.GroupDnsList(data);
+    public Dictionary<int, List<string>> GroupDnsList(HashSet<string> data) => CollectionUtilities.GroupDnsList(data);
 }
 
 [MemoryDiagnoser]

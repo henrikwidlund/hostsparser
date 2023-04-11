@@ -2,14 +2,14 @@ name: GitHub Release
 
 on:
   release:
-    types: [published]
+    types: [ published ]
 
 jobs:
   release:
     name: Release
     strategy:
       matrix:
-        kind: ['linux', 'macos', 'windows']
+        kind: [ 'linux', 'macos', 'windows' ]
         include:
           - kind: linux
             os: ubuntu-latest

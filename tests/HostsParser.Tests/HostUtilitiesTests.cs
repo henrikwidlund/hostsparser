@@ -57,7 +57,11 @@ public class HostUtilitiesTests
         var dnsCollection = new HashSet<string>();
 
         // Act
-        await HostUtilities.ProcessHostsBased(dnsCollection, memoryStream, skipLines, new SourcePrefix(Prefix), decoder);
+        await HostUtilities.ProcessHostsBased(dnsCollection,
+            memoryStream,
+            skipLines,
+            new SourcePrefix(Prefix),
+            decoder);
 
         // Assert
         dnsCollection.Should().NotBeEmpty();

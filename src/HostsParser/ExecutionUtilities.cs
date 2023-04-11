@@ -80,7 +80,8 @@ public static class ExecutionUtilities
         logger.Finalized(stopWatch.Elapsed, sortedDnsList.Count);
     }
 
-    private static async Task<(HashSet<string> CombinedLines, HashSet<string> ExternalCoverageLines)> ReadSources(Settings settings,
+    private static async Task<(HashSet<string> CombinedLines, HashSet<string> ExternalCoverageLines)> ReadSources(
+        Settings settings,
         HttpClient httpClient)
     {
         var decoder = Encoding.UTF8.GetDecoder();
