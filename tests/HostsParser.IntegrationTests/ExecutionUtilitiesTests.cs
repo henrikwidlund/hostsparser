@@ -43,12 +43,12 @@ public class ExecutionUtilitiesTests
         linesWithoutMultiPass.Except(linesWithMultiPass).Should().HaveCountLessOrEqualTo(5);
         linesWithMultiPass.Except(linesWithoutMultiPass).Should().HaveCountLessOrEqualTo(5);
     }
+}
 
-    private sealed class StreamHttpMessageHandler : HttpMessageHandler
-    {
-        protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
-            => Task.FromResult(new HttpResponseMessage(HttpStatusCode.OK) {Content = new StreamContent(PrepareStream())});
-    }
+file sealed class StreamHttpMessageHandler : HttpMessageHandler
+{
+    protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+        => Task.FromResult(new HttpResponseMessage(HttpStatusCode.OK) {Content = new StreamContent(PrepareStream())});
 
     private static Stream PrepareStream()
     {
