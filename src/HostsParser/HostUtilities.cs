@@ -91,7 +91,7 @@ public static class HostUtilities
             || potentialDomain.Equals(potentialSubDomain, StringComparison.Ordinal))
             return false;
 
-        return potentialSubDomain[(potentialSubDomain.IndexOf(potentialDomain) - 1)..][0] == Constants.DotSign;
+        return potentialSubDomain[(potentialSubDomain.LastIndexOf(potentialDomain) - 1)..][0] == Constants.DotSign;
     }
 
     private static async Task ReadPipeAsync(PipeReader reader,
