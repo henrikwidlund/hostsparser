@@ -14,6 +14,11 @@ namespace HostsParser.Benchmarks;
 [MemoryDiagnoser]
 public class BenchmarkExecutionUtilities : BenchmarkStreamBase
 {
+    private StreamHttpMessageHandler? _streamHttpMessageHandler;
+    private HttpClient? _httpClient;
+    private ILoggerFactory? _loggerFactory;
+    private ILogger? _logger;
+
     [GlobalSetup]
     public void Setup()
     {
@@ -22,11 +27,6 @@ public class BenchmarkExecutionUtilities : BenchmarkStreamBase
         _loggerFactory = new NullLoggerFactory();
         _logger = _loggerFactory.CreateLogger(nameof(Benchmarks));
     }
-
-    private StreamHttpMessageHandler? _streamHttpMessageHandler;
-    private HttpClient? _httpClient;
-    private ILoggerFactory? _loggerFactory;
-    private ILogger? _logger;
 
     [Benchmark]
     [BenchmarkCategory(nameof(Execute), nameof(BenchmarkExecutionUtilities))]
@@ -42,7 +42,8 @@ public class BenchmarkExecutionUtilities : BenchmarkStreamBase
 
     private sealed class StreamHttpMessageHandler : HttpMessageHandler
     {
-        protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+        protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request,
+            CancellationToken cancellationToken)
             => Task.FromResult(new HttpResponseMessage(HttpStatusCode.OK) {Content = new StreamContent(PrepareStream())});
     }
 }

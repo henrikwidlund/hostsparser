@@ -47,7 +47,11 @@ public class ExecutionUtilitiesTests
 
 file sealed class StreamHttpMessageHandler : HttpMessageHandler
 {
-    protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+    private static readonly byte[] HostsBasedTestBytes = File.ReadAllBytes("hostsbased.txt");
+    private static readonly byte[] AdBlockBasedTestBytes = File.ReadAllBytes("adbockbased.txt");
+
+    protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request,
+        CancellationToken cancellationToken)
         => Task.FromResult(new HttpResponseMessage(HttpStatusCode.OK) {Content = new StreamContent(PrepareStream())});
 
     private static Stream PrepareStream()
@@ -63,7 +67,4 @@ file sealed class StreamHttpMessageHandler : HttpMessageHandler
 
         return stream;
     }
-
-    private static readonly byte[] HostsBasedTestBytes = File.ReadAllBytes("hostsbased.txt");
-    private static readonly byte[] AdBlockBasedTestBytes = File.ReadAllBytes("adbockbased.txt");
 }

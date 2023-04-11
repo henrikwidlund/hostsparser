@@ -39,7 +39,8 @@ public class SettingsTests
         hostsSource.SourceAction.Should().Be(SourceAction.Combine);
         hostsSource.SourcePrefix.PrefixBytes.Should().NotBeNull();
         hostsSource.SourcePrefix.PrefixBytes.Should().BeEquivalentTo(Encoding.UTF8.GetBytes(hostsSource.Prefix));
-        hostsSource.SourcePrefix.WwwPrefixBytes.Should().BeEquivalentTo(Encoding.UTF8.GetBytes(hostsSource.Prefix + "www."));
+        hostsSource.SourcePrefix.WwwPrefixBytes.Should()
+            .BeEquivalentTo(Encoding.UTF8.GetBytes(hostsSource.Prefix + "www."));
 
         var adBlockSource = settings.Filters.Sources.Should()
             .ContainSingle(item => item.Format == SourceFormat.AdBlock).Subject;
