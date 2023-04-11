@@ -23,16 +23,15 @@ public static class ProcessingUtilities
     {
         filteredCache.Clear();
 
-        Parallel.For(0, sortedDnsList.Count, i =>
+        Parallel.ForEach(sortedDnsList, (item, _, i) =>
         {
-            var item = sortedDnsList[i];
             var lookUpCount = i + 250;
             if (lookUpCount > sortedDnsList.Count)
                 lookUpCount = sortedDnsList.Count;
 
             for (var j = i + 1; j < lookUpCount; j++)
             {
-                var sortedItem = sortedDnsList[j];
+                var sortedItem = sortedDnsList[(int)j];
                 AddIfSubDomain(filteredCache, sortedItem, item);
             }
         });
@@ -66,12 +65,11 @@ public static class ProcessingUtilities
             filteredCache.Clear();
             // Increase the number of items processed in each run since we'll have fewer items to loop and they'll be further apart.
             var lookBack = ++round * 250;
-            Parallel.For(0, sortedDnsList.Count, i =>
+            Parallel.ForEach(sortedDnsList, (item, _, i) =>
             {
-                var item = sortedDnsList[i];
                 for (var j = i < lookBack ? 0 : i - lookBack; j < i; j++)
                 {
-                    var otherItem = sortedDnsList[j];
+                    var otherItem = sortedDnsList[(int)j];
                     AddIfSubDomain(filteredCache, item, otherItem);
                 }
             });
@@ -105,9 +103,8 @@ public static class ProcessingUtilities
     {
         Parallel.ForEach(CollectionUtilities.SortDnsList(externalCoverageLines), item =>
         {
-            for (var i = 0; i < sortedDnsList.Count; i++)
+            foreach (var localItem in sortedDnsList)
             {
-                var localItem = sortedDnsList[i];
                 if (HostUtilities.IsSubDomainOf(localItem, item))
                     filteredCache.Add(localItem);
             }

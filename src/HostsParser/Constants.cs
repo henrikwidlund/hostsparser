@@ -14,6 +14,7 @@ internal readonly ref struct Constants
     internal const byte Tab = (byte)'\t';
     internal const char DotSign = '.';
     internal const byte HashSign = (byte)'#';
+    internal static readonly ReadOnlyMemory<byte> SpaceTab = new(" \t"u8.ToArray());
 
     internal readonly ref struct TopDomains
     {

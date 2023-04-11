@@ -26,7 +26,7 @@ public static class HostUtilities
     /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
     public static Task ProcessHostsBased(HashSet<string> dnsHashSet,
         Stream stream,
-        IReadOnlyList<byte[]>? skipLines,
+        List<byte[]>? skipLines,
         in SourcePrefix sourcePrefix,
         Decoder decoder)
     {
@@ -61,9 +61,9 @@ public static class HostUtilities
         foreach (var host in hosts)
         {
             var found = false;
-            for (var j = 0; j < knownBadHosts.Length; j++)
+            foreach (var knownBadHost in knownBadHosts)
             {
-                if (!IsSubDomainOf(host, knownBadHosts[j])) continue;
+                if (!IsSubDomainOf(host, knownBadHost)) continue;
                 found = true;
                 break;
             }
@@ -96,7 +96,7 @@ public static class HostUtilities
 
     private static async Task ReadPipeAsync(PipeReader reader,
         ICollection<string> resultCollection,
-        IReadOnlyList<byte[]>? skipLines,
+        List<byte[]>? skipLines,
         SourcePrefix? sourcePrefix,
         Decoder decoder)
     {
@@ -111,12 +111,12 @@ public static class HostUtilities
             {
                 position = buffer.PositionOf(Constants.NewLine);
 
-                if (position == null) continue;
+                if (position is null) continue;
 
                 ProcessLine(buffer.Slice(0, position.Value), resultCollection, skipLines, sourcePrefix, decoder);
                 buffer = buffer.Slice(buffer.GetPosition(1, position.Value));
             }
-            while (position != null);
+            while (position is not null);
 
             reader.AdvanceTo(buffer.Start, buffer.End);
 
@@ -130,7 +130,7 @@ public static class HostUtilities
     }
 
     private static void ProcessLastChunk(ICollection<string> resultCollection,
-        IReadOnlyList<byte[]>? skipLines,
+        List<byte[]>? skipLines,
         in SourcePrefix? sourcePrefix,
         Decoder decoder,
         in ReadOnlySequence<byte> buffer)
@@ -141,11 +141,11 @@ public static class HostUtilities
 
     private static void ProcessLine(in ReadOnlySequence<byte> slice,
         ICollection<string> resultCollection,
-        IReadOnlyList<byte[]>? skipLines,
+        List<byte[]>? skipLines,
         in SourcePrefix? sourcePrefix,
         Decoder decoder)
     {
-        if (skipLines == null)
+        if (skipLines is null)
             ProcessAdBlockBasedLine(slice, resultCollection, decoder);
         else
             ProcessHostsBasedLine(slice, resultCollection, skipLines, sourcePrefix, decoder);
@@ -153,7 +153,7 @@ public static class HostUtilities
 
     private static void ProcessHostsBasedLine(in ReadOnlySequence<byte> slice,
         ICollection<string> resultCollection,
-        IReadOnlyList<byte[]> skipLines,
+        List<byte[]> skipLines,
         in SourcePrefix? sourcePrefix,
         Decoder decoder)
     {
@@ -191,7 +191,7 @@ public static class HostUtilities
 
         realSlice = HandlePipe(realSlice);
         HandleDelimiter(ref realSlice, Constants.HatSign);
-        if (IsWhiteSpace(realSlice))
+        if (realSlice.IndexOfAnyExcept(Constants.Space, Constants.Tab) == -1)
             return;
 
         decoder.GetChars(realSlice, Cache.Span, false);
@@ -199,16 +199,16 @@ public static class HostUtilities
     }
 
     private static bool HostsBasedShouldSkipLine(in ReadOnlySpan<byte> bytes,
-        IReadOnlyList<byte[]> skipLines)
+        List<byte[]> skipLines)
     {
-        var trimmedStart = TrimStart(bytes);
+        var trimmedStart = bytes.TrimStart(Constants.SpaceTab.Span);
         if (trimmedStart.IsEmpty
             || trimmedStart[0] == Constants.HashSign)
             return true;
 
-        for (var i = 0; i < skipLines.Count; i++)
+        foreach (var t in skipLines)
         {
-            if (bytes.SequenceEqual(skipLines[i]))
+            if (bytes.SequenceEqual(t))
                 return true;
         }
 
@@ -218,32 +218,6 @@ public static class HostUtilities
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     private static bool AdBlockBasedShouldSkipLine(in ReadOnlySpan<byte> current)
         => current[0] != Constants.PipeSign;
-
-    private static ReadOnlySpan<byte> TrimStart(in this ReadOnlySpan<byte> span)
-    {
-        var start = 0;
-        for (; start < span.Length; start++)
-        {
-            if (span[start] != Constants.Space
-                && span[start] != Constants.Tab)
-                break;
-        }
-
-        return start >= span.Length ? ReadOnlySpan<byte>.Empty : span[start..];
-    }
-
-    private static bool IsWhiteSpace(in ReadOnlySpan<byte> span)
-    {
-        var start = 0;
-        for (; start < span.Length; start++)
-        {
-            if (span[start] != Constants.Space
-                && span[start] != Constants.Tab)
-                return false;
-        }
-
-        return true;
-    }
 
     private static ReadOnlySpan<byte> HandlePipe(ReadOnlySpan<byte> lineBytes)
     {
@@ -262,11 +236,11 @@ public static class HostUtilities
     private static ReadOnlySpan<byte> HandlePrefixes(ReadOnlySpan<byte> lineBytes,
         SourcePrefix? sourcePrefix)
     {
-        if (sourcePrefix?.WwwPrefixBytes != null
+        if (sourcePrefix?.WwwPrefixBytes is not null
             && lineBytes.StartsWith(sourcePrefix.Value.WwwPrefixBytes))
             return lineBytes[sourcePrefix.Value.WwwPrefixBytes.Length..];
 
-        if (sourcePrefix?.PrefixBytes != null
+        if (sourcePrefix?.PrefixBytes is not null
             && lineBytes.StartsWith(sourcePrefix.Value.PrefixBytes))
             return lineBytes[sourcePrefix.Value.PrefixBytes.Length..];
 

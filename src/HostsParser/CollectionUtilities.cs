@@ -42,12 +42,12 @@ public static class CollectionUtilities
                 || value.Count < 2)
                 continue;
 
-            for (var index = 0; index < value.Count; index++)
+            foreach (var item in value)
             {
-                if (key == value[index].GetHashCode())
+                if (key == item.GetHashCode())
                     continue;
 
-                filtered.Add(value[index]);
+                filtered.Add(item);
             }
         }
 
@@ -92,23 +92,23 @@ public static class CollectionUtilities
 
     private static ReadOnlySpan<char> GetTopMostDns(in ReadOnlySpan<char> item)
     {
-        var indexes = GetIndexes(item);
-        return indexes.Count <= 1 ? item : ProcessItem(indexes, item);
+        var indices = GetIndices(item);
+        return indices.Count <= 1 ? item : ProcessItem(indices, item);
     }
 
     private static ReadOnlyMemory<char> GetTopMostDns(in ReadOnlyMemory<char> item)
     {
-        var indexes = GetIndexes(item.Span);
-        return indexes.Count <= 1 ? item : ProcessItem(indexes, item);
+        var indices = GetIndices(item.Span);
+        return indices.Count <= 1 ? item : ProcessItem(indices, item);
     }
 
-    private static List<int> GetIndexes(in ReadOnlySpan<char> item)
+    private static List<int> GetIndices(in ReadOnlySpan<char> item)
     {
-        var foundIndexes = new List<int>();
+        var foundIndices = new List<int>();
         for (var i = item.IndexOf(Constants.DotSign); i > -1; i = item.IndexOf(Constants.DotSign, i + 1))
-            foundIndexes.Add(i);
+            foundIndices.Add(i);
 
-        return foundIndexes;
+        return foundIndices;
     }
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -123,42 +123,42 @@ public static class CollectionUtilities
                || secondTop.Equals(Constants.TopDomains.Or.Span, StringComparison.Ordinal);
     }
 
-    private static ReadOnlySpan<char> ProcessItem(List<int> indexes,
+    private static ReadOnlySpan<char> ProcessItem(List<int> indices,
         in ReadOnlySpan<char> item)
     {
-        if (indexes.Count != 2)
+        if (indices.Count != 2)
         {
-            var secondTop = item[(indexes[^2] + 1)..indexes[^1]];
+            var secondTop = item[(indices[^2] + 1)..indices[^1]];
             var dns = IsSecondLevelTopDomain(secondTop)
-                ? item[(indexes[^3] + 1)..]
-                : item[(indexes[^2] + 1)..];
+                ? item[(indices[^3] + 1)..]
+                : item[(indices[^2] + 1)..];
 
-            return dns.Length > 3 ? dns : item[(indexes[^3] + 1)..];
+            return dns.Length > 3 ? dns : item[(indices[^3] + 1)..];
         }
 
-        var slicedItem = item[(indexes[0] + 1)..indexes[1]];
+        var slicedItem = item[(indices[0] + 1)..indices[1]];
         // Check domains ending with x.y where x is shorter than 4 char against known second level top domains.
         // If false, treat x.y as a domain so that any found sub domain will be sorted under it.
-        return IsSecondLevelTopDomain(slicedItem) ? item : item[(indexes[0] + 1)..];
+        return IsSecondLevelTopDomain(slicedItem) ? item : item[(indices[0] + 1)..];
     }
 
-    private static ReadOnlyMemory<char> ProcessItem(List<int> indexes,
+    private static ReadOnlyMemory<char> ProcessItem(List<int> indices,
         in ReadOnlyMemory<char> item)
     {
-        if (indexes.Count != 2)
+        if (indices.Count != 2)
         {
-            var secondTop = item[(indexes[^2] + 1)..indexes[^1]];
+            var secondTop = item[(indices[^2] + 1)..indices[^1]];
             var dns = IsSecondLevelTopDomain(secondTop.Span)
-                ? item[(indexes[^3] + 1)..]
-                : item[(indexes[^2] + 1)..];
+                ? item[(indices[^3] + 1)..]
+                : item[(indices[^2] + 1)..];
 
-            return dns.Length > 3 ? dns : item[(indexes[^3] + 1)..];
+            return dns.Length > 3 ? dns : item[(indices[^3] + 1)..];
         }
 
-        var slicedItem = item[(indexes[0] + 1)..indexes[1]];
+        var slicedItem = item[(indices[0] + 1)..indices[1]];
         // Check domains ending with x.y where x is shorter than 4 char against known second level top domains.
         // If false, treat x.y as a domain so that any found sub domain will be sorted under it.
-        return IsSecondLevelTopDomain(slicedItem.Span) ? item : item[(indexes[0] + 1)..];
+        return IsSecondLevelTopDomain(slicedItem.Span) ? item : item[(indices[0] + 1)..];
     }
 
     private static int IndexOf(in this ReadOnlySpan<char> span,
@@ -172,16 +172,16 @@ public static class CollectionUtilities
 
         return startIndex + indexInSlice;
     }
+}
 
-    private readonly struct StringSortItem
+file readonly struct StringSortItem
+{
+    public readonly string Raw;
+    public readonly ReadOnlyMemory<char> RawMemory;
+
+    public StringSortItem(string raw)
     {
-        public readonly string Raw;
-        public readonly ReadOnlyMemory<char> RawMemory;
-
-        public StringSortItem(string raw)
-        {
-            Raw = raw;
-            RawMemory = raw.AsMemory();
-        }
+        Raw = raw;
+        RawMemory = raw.AsMemory();
     }
 }

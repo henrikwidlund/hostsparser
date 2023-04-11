@@ -31,7 +31,7 @@ public static class ExecutionUtilities
 
         await using var fileStream = File.OpenRead("appsettings.json");
         var settings = await JsonSerializer.DeserializeAsync(fileStream, SourceGenerationContext.Default.Settings);
-        if (settings == null)
+        if (settings is null)
         {
             logger.UnableToRun();
             return;
@@ -61,18 +61,19 @@ public static class ExecutionUtilities
         }
 
         await using StreamWriter streamWriter = new(settings.OutputFileName, false);
-        for (var i = 0; i < settings.HeaderLines.Length; i++)
-            await streamWriter.WriteLineAsync(settings.HeaderLines[i]);
+        foreach (var headerLine in settings.HeaderLines)
+            streamWriter.WriteLine(headerLine);
 
-        await streamWriter.WriteLineAsync($"! Last Modified: {DateTime.UtcNow:u}");
+        streamWriter.WriteLine($"! Last Modified: {DateTime.UtcNow:u}");
 
         foreach (var s in sortedDnsList)
         {
-            await streamWriter.WriteLineAsync();
-            await streamWriter.WriteAsync((char) Constants.PipeSign);
-            await streamWriter.WriteAsync((char) Constants.PipeSign);
-            await streamWriter.WriteAsync(s);
-            await streamWriter.WriteAsync((char) Constants.HatSign);
+            streamWriter.WriteLine();
+            streamWriter.WriteLine();
+            streamWriter.Write((char) Constants.PipeSign);
+            streamWriter.Write((char) Constants.PipeSign);
+            streamWriter.Write(s);
+            streamWriter.Write((char) Constants.HatSign);
         }
 
         stopWatch.Stop();
@@ -87,9 +88,8 @@ public static class ExecutionUtilities
         // Assumed length to reduce allocations
         var combineLines = new HashSet<string>(170_000);
         var externalCoverageLines = new HashSet<string>(50_000);
-        for (var i = 0; i < settings.Filters.Sources.Length; i++)
+        foreach (var sourceItem in settings.Filters.Sources)
         {
-            var sourceItem = settings.Filters.Sources[i];
             await using var stream = await httpClient.GetStreamAsync(sourceItem.Uri);
             if (sourceItem.Format == SourceFormat.Hosts)
             {
