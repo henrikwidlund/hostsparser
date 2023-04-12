@@ -14,8 +14,6 @@ namespace HostsParser;
 
 public static class HostUtilities
 {
-    private static readonly Memory<char> Cache = new char[256];
-
     /// <summary>
     /// Reads the <paramref name="stream"/> and returns a collection based on the items in it.
     /// </summary>
@@ -26,7 +24,7 @@ public static class HostUtilities
     /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
     public static Task ProcessHostsBased(HashSet<string> dnsHashSet,
         Stream stream,
-        List<byte[]>? skipLines,
+        byte[][]? skipLines,
         in SourcePrefix sourcePrefix,
         Decoder decoder)
     {
@@ -96,7 +94,7 @@ public static class HostUtilities
 
     private static async Task ReadPipeAsync(PipeReader reader,
         ICollection<string> resultCollection,
-        List<byte[]>? skipLines,
+        byte[][]? skipLines,
         SourcePrefix? sourcePrefix,
         Decoder decoder)
     {
@@ -129,7 +127,7 @@ public static class HostUtilities
     }
 
     private static void ProcessLastChunk(ICollection<string> resultCollection,
-        List<byte[]>? skipLines,
+        byte[][]? skipLines,
         in SourcePrefix? sourcePrefix,
         Decoder decoder,
         in ReadOnlySequence<byte> buffer)
@@ -140,7 +138,7 @@ public static class HostUtilities
 
     private static void ProcessLine(in ReadOnlySequence<byte> slice,
         ICollection<string> resultCollection,
-        List<byte[]>? skipLines,
+        byte[][]? skipLines,
         in SourcePrefix? sourcePrefix,
         Decoder decoder)
     {
@@ -152,7 +150,7 @@ public static class HostUtilities
 
     private static void ProcessHostsBasedLine(in ReadOnlySequence<byte> slice,
         ICollection<string> resultCollection,
-        List<byte[]> skipLines,
+        byte[][] skipLines,
         in SourcePrefix? sourcePrefix,
         Decoder decoder)
     {
@@ -171,8 +169,17 @@ public static class HostUtilities
         realSlice = HandlePrefixes(realSlice, sourcePrefix);
         HandleDelimiter(ref realSlice, Constants.HashSign);
 
-        decoder.GetChars(realSlice, Cache.Span, false);
-        resultCollection.Add(Cache.Span[..realSlice.Length].Trim().ToString());
+        var chars = ArrayPool<char>.Shared.Rent(256);
+        try
+        {
+            var span = chars.AsSpan();
+            decoder.GetChars(realSlice, span, false);
+            resultCollection.Add(span[..realSlice.Length].Trim().ToString());
+        }
+        finally
+        {
+            ArrayPool<char>.Shared.Return(chars);
+        }
     }
 
     private static void ProcessAdBlockBasedLine(in ReadOnlySequence<byte> slice,
@@ -193,12 +200,21 @@ public static class HostUtilities
         if (realSlice.IndexOfAnyExcept(Constants.Space, Constants.Tab) == -1)
             return;
 
-        decoder.GetChars(realSlice, Cache.Span, false);
-        resultCollection.Add(Cache.Span[..realSlice.Length].ToString());
+        var chars = ArrayPool<char>.Shared.Rent(256);
+        try
+        {
+            var span = chars.AsSpan();
+            decoder.GetChars(realSlice, span, false);
+            resultCollection.Add(span[..realSlice.Length].Trim().ToString());
+        }
+        finally
+        {
+            ArrayPool<char>.Shared.Return(chars);
+        }
     }
 
     private static bool HostsBasedShouldSkipLine(in ReadOnlySpan<byte> bytes,
-        List<byte[]> skipLines)
+        byte[][] skipLines)
     {
         var trimmedStart = bytes.TrimStart(Constants.SpaceTab.Span);
         if (trimmedStart.IsEmpty

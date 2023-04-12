@@ -18,10 +18,10 @@ public static class CollectionUtilities
     {
         List<string> list = new(dnsCollection.Count);
         list.AddRange(dnsCollection
-            .Select(d => new StringSortItem(d))
-            .OrderBy(l => GetTopMostDns(l.RawMemory), ReadOnlyMemoryCharComparer.Default)
-            .ThenBy(l => l.RawMemory.Length)
-            .Select(l => l.Raw));
+            .Select(static d => new StringSortItem(d))
+            .OrderBy(static l => GetTopMostDns(l.RawMemory), ReadOnlyMemoryCharComparer.Default)
+            .ThenBy(static l => l.RawMemory.Length)
+            .Select(static l => l.Raw));
 
         return list;
     }
@@ -65,15 +65,10 @@ public static class CollectionUtilities
         foreach (var s in dnsCollection)
         {
             var key = string.GetHashCode(GetTopMostDns(s));
-            List<string> values;
-            if (!dict.ContainsKey(key))
+            if (!dict.TryGetValue(key, out var values))
             {
                 values = new List<string>();
                 dict.Add(key, values);
-            }
-            else
-            {
-                values = dict[key];
             }
 
             values.Add(s);

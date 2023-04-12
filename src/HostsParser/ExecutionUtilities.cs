@@ -89,26 +89,32 @@ public static class ExecutionUtilities
         // Assumed length to reduce allocations
         var combineLines = new HashSet<string>(170_000);
         var externalCoverageLines = new HashSet<string>(50_000);
+        var tasks = new List<Task>(settings.Filters.Sources.Length);
         foreach (var sourceItem in settings.Filters.Sources)
         {
-            await using var stream = await httpClient.GetStreamAsync(sourceItem.Uri);
-            if (sourceItem.Format == SourceFormat.Hosts)
+            tasks.Add(Task.Run(async () =>
             {
-                await HostUtilities.ProcessHostsBased(
-                    sourceItem.SourceAction == SourceAction.Combine ? combineLines : externalCoverageLines,
-                    stream,
-                    settings.Filters.SkipLinesBytes,
-                    sourceItem.SourcePrefix,
-                    decoder);
-            }
-            else
-            {
-                await HostUtilities.ProcessAdBlockBased(
-                    sourceItem.SourceAction == SourceAction.Combine ? combineLines : externalCoverageLines,
-                    stream,
-                    decoder);
-            }
+                await using var stream = await httpClient.GetStreamAsync(sourceItem.Uri);
+                if (sourceItem.Format == SourceFormat.Hosts)
+                {
+                    await HostUtilities.ProcessHostsBased(
+                        sourceItem.SourceAction == SourceAction.Combine ? combineLines : externalCoverageLines,
+                        stream,
+                        settings.Filters.SkipLinesBytes,
+                        sourceItem.SourcePrefix,
+                        decoder);
+                }
+                else
+                {
+                    await HostUtilities.ProcessAdBlockBased(
+                        sourceItem.SourceAction == SourceAction.Combine ? combineLines : externalCoverageLines,
+                        stream,
+                        decoder);
+                }
+            }));
         }
+
+        await Task.WhenAll(tasks);
 
         return (combineLines, externalCoverageLines);
     }

@@ -30,10 +30,10 @@ public static partial class HostsParserLogger
     public static partial void Finalized(this ILogger logger, TimeSpan elapsed, int count);
 
     [ExcludeFromCodeCoverage(Justification = "Helper method, private type returned.")]
-    public static ILoggerFactory Create() => LoggerFactory.Create(options =>
+    internal static ILoggerFactory Create() => LoggerFactory.Create(static options =>
     {
         options.AddDebug();
-        options.AddSimpleConsole(consoleOptions =>
+        options.AddSimpleConsole(static consoleOptions =>
         {
             consoleOptions.SingleLine = true;
             consoleOptions.TimestampFormat = CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern + " " +
@@ -42,5 +42,5 @@ public static partial class HostsParserLogger
     });
 
     [ExcludeFromCodeCoverage(Justification = "Helper method, private type returned.")]
-    public static ILogger CreateLogger(this ILoggerFactory loggerFactory) => loggerFactory.CreateLogger(nameof(HostsParser));
+    internal static ILogger CreateLogger(this ILoggerFactory loggerFactory) => loggerFactory.CreateLogger(nameof(HostsParser));
 }
