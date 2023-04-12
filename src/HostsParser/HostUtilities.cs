@@ -14,8 +14,6 @@ namespace HostsParser;
 
 public static class HostUtilities
 {
-    private static readonly Memory<char> Cache = new char[256];
-
     /// <summary>
     /// Reads the <paramref name="stream"/> and returns a collection based on the items in it.
     /// </summary>
@@ -171,8 +169,17 @@ public static class HostUtilities
         realSlice = HandlePrefixes(realSlice, sourcePrefix);
         HandleDelimiter(ref realSlice, Constants.HashSign);
 
-        decoder.GetChars(realSlice, Cache.Span, false);
-        resultCollection.Add(Cache.Span[..realSlice.Length].Trim().ToString());
+        var chars = ArrayPool<char>.Shared.Rent(256);
+        try
+        {
+            var span = chars.AsSpan();
+            decoder.GetChars(realSlice, span, false);
+            resultCollection.Add(span[..realSlice.Length].Trim().ToString());
+        }
+        finally
+        {
+            ArrayPool<char>.Shared.Return(chars);
+        }
     }
 
     private static void ProcessAdBlockBasedLine(in ReadOnlySequence<byte> slice,
@@ -193,8 +200,17 @@ public static class HostUtilities
         if (realSlice.IndexOfAnyExcept(Constants.Space, Constants.Tab) == -1)
             return;
 
-        decoder.GetChars(realSlice, Cache.Span, false);
-        resultCollection.Add(Cache.Span[..realSlice.Length].ToString());
+        var chars = ArrayPool<char>.Shared.Rent(256);
+        try
+        {
+            var span = chars.AsSpan();
+            decoder.GetChars(realSlice, span, false);
+            resultCollection.Add(span[..realSlice.Length].Trim().ToString());
+        }
+        finally
+        {
+            ArrayPool<char>.Shared.Return(chars);
+        }
     }
 
     private static bool HostsBasedShouldSkipLine(in ReadOnlySpan<byte> bytes,
