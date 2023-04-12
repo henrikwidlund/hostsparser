@@ -45,7 +45,7 @@ public sealed record SourceEntry(
     SourceItem[] Sources,
     string[]? SkipLines)
 {
-    public readonly byte[][]? SkipLinesBytes = SkipLines?.Select(s => Encoding.UTF8.GetBytes(s)).ToArray();
+    public readonly byte[][]? SkipLinesBytes = SkipLines?.Select(static s => Encoding.UTF8.GetBytes(s)).ToArray();
 }
 
 /// <summary>

@@ -33,7 +33,7 @@ public class SettingsTests
         settings.Filters.Sources.Should().HaveCount(2);
 
         var hostsSource = settings.Filters.Sources.Should()
-            .ContainSingle(item => item.Format == SourceFormat.Hosts).Subject;
+            .ContainSingle(static item => item.Format == SourceFormat.Hosts).Subject;
         hostsSource.Uri.Should().Be("https://hosts-based.uri");
         hostsSource.Prefix.Should().Be("0.0.0.0 ");
         hostsSource.SourceAction.Should().Be(SourceAction.Combine);
@@ -43,7 +43,7 @@ public class SettingsTests
             .BeEquivalentTo(Encoding.UTF8.GetBytes(hostsSource.Prefix + "www."));
 
         var adBlockSource = settings.Filters.Sources.Should()
-            .ContainSingle(item => item.Format == SourceFormat.AdBlock).Subject;
+            .ContainSingle(static item => item.Format == SourceFormat.AdBlock).Subject;
         adBlockSource.Uri.Should().Be("https://adblock-based.uri");
         adBlockSource.Prefix.Should().BeEmpty();
         adBlockSource.SourceAction.Should().Be(SourceAction.ExternalCoverage);

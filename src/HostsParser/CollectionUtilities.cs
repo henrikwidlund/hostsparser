@@ -18,10 +18,10 @@ public static class CollectionUtilities
     {
         List<string> list = new(dnsCollection.Count);
         list.AddRange(dnsCollection
-            .Select(d => new StringSortItem(d))
-            .OrderBy(l => GetTopMostDns(l.RawMemory), ReadOnlyMemoryCharComparer.Default)
-            .ThenBy(l => l.RawMemory.Length)
-            .Select(l => l.Raw));
+            .Select(static d => new StringSortItem(d))
+            .OrderBy(static l => GetTopMostDns(l.RawMemory), ReadOnlyMemoryCharComparer.Default)
+            .ThenBy(static l => l.RawMemory.Length)
+            .Select(static l => l.Raw));
 
         return list;
     }
