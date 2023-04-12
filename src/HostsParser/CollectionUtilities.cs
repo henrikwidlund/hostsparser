@@ -65,15 +65,10 @@ public static class CollectionUtilities
         foreach (var s in dnsCollection)
         {
             var key = string.GetHashCode(GetTopMostDns(s));
-            List<string> values;
-            if (!dict.ContainsKey(key))
+            if (!dict.TryGetValue(key, out var values))
             {
                 values = new List<string>();
                 dict.Add(key, values);
-            }
-            else
-            {
-                values = dict[key];
             }
 
             values.Add(s);

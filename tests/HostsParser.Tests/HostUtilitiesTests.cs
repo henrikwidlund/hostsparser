@@ -44,7 +44,7 @@ public class HostUtilitiesTests
 
         var skipLines = new[] { "some bad line", "another bad line", "0.0.0.0 0.0.0.0" }
             .Select(s => Encoding.UTF8.GetBytes(s))
-            .ToList();
+            .ToArray();
         const string Prefix = "0.0.0.0 ";
         var expected = new HashSet<string> { "dns-a.com", "dns-b.com", "dns-c.com" };
         await using var memoryStream = new MemoryStream();

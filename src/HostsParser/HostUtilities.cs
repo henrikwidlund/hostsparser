@@ -26,7 +26,7 @@ public static class HostUtilities
     /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
     public static Task ProcessHostsBased(HashSet<string> dnsHashSet,
         Stream stream,
-        List<byte[]>? skipLines,
+        byte[][]? skipLines,
         in SourcePrefix sourcePrefix,
         Decoder decoder)
     {
@@ -96,7 +96,7 @@ public static class HostUtilities
 
     private static async Task ReadPipeAsync(PipeReader reader,
         ICollection<string> resultCollection,
-        List<byte[]>? skipLines,
+        byte[][]? skipLines,
         SourcePrefix? sourcePrefix,
         Decoder decoder)
     {
@@ -129,7 +129,7 @@ public static class HostUtilities
     }
 
     private static void ProcessLastChunk(ICollection<string> resultCollection,
-        List<byte[]>? skipLines,
+        byte[][]? skipLines,
         in SourcePrefix? sourcePrefix,
         Decoder decoder,
         in ReadOnlySequence<byte> buffer)
@@ -140,7 +140,7 @@ public static class HostUtilities
 
     private static void ProcessLine(in ReadOnlySequence<byte> slice,
         ICollection<string> resultCollection,
-        List<byte[]>? skipLines,
+        byte[][]? skipLines,
         in SourcePrefix? sourcePrefix,
         Decoder decoder)
     {
@@ -152,7 +152,7 @@ public static class HostUtilities
 
     private static void ProcessHostsBasedLine(in ReadOnlySequence<byte> slice,
         ICollection<string> resultCollection,
-        List<byte[]> skipLines,
+        byte[][] skipLines,
         in SourcePrefix? sourcePrefix,
         Decoder decoder)
     {
@@ -198,7 +198,7 @@ public static class HostUtilities
     }
 
     private static bool HostsBasedShouldSkipLine(in ReadOnlySpan<byte> bytes,
-        List<byte[]> skipLines)
+        byte[][] skipLines)
     {
         var trimmedStart = bytes.TrimStart(Constants.SpaceTab.Span);
         if (trimmedStart.IsEmpty
