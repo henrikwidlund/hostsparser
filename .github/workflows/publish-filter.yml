@@ -17,7 +17,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
@@ -30,8 +30,10 @@ jobs:
         with:
           dotnet-version: 7.0.x
 
-      - name: Run build.sh
-        run: ./build.sh
+      - name: Download latest release
+        run: |
+          mkdir artifacts && cd artifacts
+          curl -sL $(curl -s https://api.github.com/repos/henrikwidlund/HostsParser/releases/latest | grep browser_download_url | cut -d\" -f4 | grep 'linux-x64.tar.gz$') | tar zx
 
       - name: Run HostsParser
         run: |
@@ -70,7 +72,7 @@ jobs:
           path: './public'
 
   deploy:
-    needs: build
+    needs: generate
     runs-on: ubuntu-latest
 
     environment:
