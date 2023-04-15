@@ -34,6 +34,8 @@ jobs:
         run: |
           mkdir artifacts && cd artifacts
           curl -sL $(curl -s https://api.github.com/repos/henrikwidlund/HostsParser/releases/latest | grep browser_download_url | cut -d\" -f4 | grep 'linux-x64.tar.gz$') | tar zx
+          pwd
+          ls
 
       - name: Run HostsParser
         run: |
