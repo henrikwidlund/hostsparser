@@ -4,8 +4,6 @@ on:
   workflow_run:
     workflows:
       - "github-release"
-    branches:
-      - main
     types:
       - completed
   schedule:
