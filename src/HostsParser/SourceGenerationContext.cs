@@ -6,4 +6,4 @@ using System.Text.Json.Serialization;
 namespace HostsParser;
 
 [JsonSerializable(typeof(Settings))]
-internal partial class SourceGenerationContext : JsonSerializerContext { }
+internal sealed partial class SourceGenerationContext : JsonSerializerContext { }

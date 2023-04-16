@@ -9,7 +9,7 @@ using Xunit;
 
 namespace HostsParser.Tests;
 
-public class HostsParserLoggerTests
+public sealed class HostsParserLoggerTests
 {
     [Fact]
     public void Running_Should_Log_Text()
@@ -88,7 +88,7 @@ public class HostsParserLoggerTests
     }
 }
 
-file class TestLogger : ILogger
+file sealed class TestLogger : ILogger
 {
     private readonly List<string> _store;
 

@@ -7,7 +7,7 @@ using Xunit;
 
 namespace HostsParser.Tests;
 
-public class CollectionUtilitiesTests
+public sealed class CollectionUtilitiesTests
 {
     [Fact]
     public void SortDnsList_Should_Be_Ordered()
