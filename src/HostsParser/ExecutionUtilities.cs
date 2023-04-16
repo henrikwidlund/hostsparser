@@ -69,7 +69,6 @@ public static class ExecutionUtilities
         foreach (var s in sortedDnsList)
         {
             streamWriter.WriteLine();
-            streamWriter.WriteLine();
             streamWriter.Write((char) Constants.PipeSign);
             streamWriter.Write((char) Constants.PipeSign);
             streamWriter.Write(s);
