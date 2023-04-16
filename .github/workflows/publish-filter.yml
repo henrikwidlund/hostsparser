@@ -54,9 +54,12 @@ jobs:
           for filename in ./Configurations/*.json; do
               cp $filename ../artifacts/appsettings.json
               dotnet HostsParser.dll
-              ls -la
               CONFIG_FILE=$(echo $filename | cut -d'/' -f 3)
               CONFIG=${CONFIG_FILE//json/txt}
+              #  Default filter doesn't map to the file name of the config, it's just "filter.txt"
+              if [[ ! -f "$CONFIG" ]]; then
+                CONFIG="filter.txt"
+              fi
               cp $CONFIG ../public/$CONFIG
           done
 
