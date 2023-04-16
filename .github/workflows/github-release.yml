@@ -41,10 +41,12 @@ jobs:
           ASSEMBLY_VERSION="${tag//v}"
           if [ "${{ matrix.target }}" == "win-x64" ]; then
             dotnet publish "./src/HostsParser/HostsParser.csproj" -c Release -o release //p:Version="$ASSEMBLY_VERSION"
+            cp ./config ./release/config
             # Pack to zip for Windows
             7z a -tzip "${release_name}.zip" "./release/*"
           else
             dotnet publish "./src/HostsParser/HostsParser.csproj" -c Release -o release /p:Version="$ASSEMBLY_VERSION"
+            cp ./config ./release/config
             # Pack tar.gz for non-Windows
             (cd ./release && tar czvf "../${release_name}.tar.gz" .)
           fi
