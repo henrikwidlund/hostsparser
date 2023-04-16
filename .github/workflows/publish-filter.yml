@@ -47,7 +47,7 @@ jobs:
             cp -r "./src/HostsParser/Configurations" "$CONFIGURATIONS_DIRECTORY"
           fi
           
-          cd ./artifacts
+          cd ./artifacts/Configurations
           ls
 
       - name: Create filters
