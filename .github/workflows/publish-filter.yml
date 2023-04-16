@@ -17,7 +17,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
@@ -30,34 +30,36 @@ jobs:
         with:
           dotnet-version: 7.0.x
 
-      - name: Run build.sh
-        run: ./build.sh
-
-      - name: Run HostsParser
+      - name: Download latest release
         run: |
-          cd ./artifacts
-          dotnet HostsParser.dll
+          mkdir artifacts && cd artifacts
+          curl -sL $(curl -s https://api.github.com/repos/henrikwidlund/HostsParser/releases/latest | grep browser_download_url | cut -d\" -f4 | grep 'linux-x64.tar.gz$') | tar zx
 
       - name: Create public directory
         if: github.ref == 'refs/heads/main'
         run: mkdir ./public
 
-      - name: Copy filter to public directory
+      - name: Fallback config
         if: github.ref == 'refs/heads/main'
         run: |
-          FILTER=./artifacts/filter.txt
-          cp $FILTER ./public
-          cp $FILTER ./public/hosts
+          CONFIGURATIONS_DIRECTORY="./artifacts/Configurations"
+          if [ ! -d "$CONFIGURATIONS_DIRECTORY" ]; then
+            cp -r "./src/HostsParser/Configurations" "$CONFIGURATIONS_DIRECTORY"
+          fi
 
-      - name: Create and copy alternates
+      - name: Create filters
         if: github.ref == 'refs/heads/main'
         run: |
           cd ./artifacts
-          for filename in ../config/*.json; do
+          for filename in ./Configurations/*.json; do
               cp $filename ../artifacts/appsettings.json
               dotnet HostsParser.dll
               CONFIG_FILE=$(echo $filename | cut -d'/' -f 3)
               CONFIG=${CONFIG_FILE//json/txt}
+              #  Default filter doesn't map to the file name of the config, it's just "filter.txt"
+              if [[ ! -f "$CONFIG" ]]; then
+                CONFIG="filter.txt"
+              fi
               cp $CONFIG ../public/$CONFIG
           done
 
@@ -70,7 +72,7 @@ jobs:
           path: './public'
 
   deploy:
-    needs: build
+    needs: generate
     runs-on: ubuntu-latest
 
     environment:
