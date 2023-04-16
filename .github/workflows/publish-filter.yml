@@ -2,10 +2,10 @@ name: Publish Filter
 
 on:
   push:
-#    branches:
-#      - main
-#  schedule:
-#    - cron: '0 */6 * * *' # Every 6 hours
+    branches:
+      - main
+  schedule:
+    - cron: '0 */6 * * *' # Every 6 hours
 
 permissions:
   contents: read
@@ -36,11 +36,11 @@ jobs:
           curl -sL $(curl -s https://api.github.com/repos/henrikwidlund/HostsParser/releases/latest | grep browser_download_url | cut -d\" -f4 | grep 'linux-x64.tar.gz$') | tar zx
 
       - name: Create public directory
-#        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main'
         run: mkdir ./public
 
       - name: Fallback config
-#        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main'
         run: |
           CONFIGURATIONS_DIRECTORY="./artifacts/Configurations"
           if [ ! -d "$CONFIGURATIONS_DIRECTORY" ]; then
@@ -48,7 +48,7 @@ jobs:
           fi
 
       - name: Create filters
-#        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main'
         run: |
           cd ./artifacts
           for filename in ./Configurations/*.json; do
@@ -71,15 +71,15 @@ jobs:
         with:
           path: './public'
 
-#  deploy:
-#    needs: generate
-#    runs-on: ubuntu-latest
-#
-#    environment:
-#      name: github-pages
-#      url: ${{ steps.deployment.outputs.page_url }}
-#
-#    steps:
-#      - name: Deploy to GitHub Pages
-#        id: deployment
-#        uses: actions/deploy-pages@v2
+  deploy:
+    needs: generate
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
