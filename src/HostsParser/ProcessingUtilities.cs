@@ -69,6 +69,7 @@ public static class ProcessingUtilities
             {
                 for (var j = i < lookBack ? 0 : i - lookBack; j < i; j++)
                 {
+                    // ReSharper disable once AccessToModifiedClosure - this is a false positive
                     var otherItem = sortedDnsList[(int)j];
                     AddIfSubDomain(filteredCache, item, otherItem);
                 }
