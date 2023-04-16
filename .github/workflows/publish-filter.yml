@@ -36,11 +36,11 @@ jobs:
           curl -sL $(curl -s https://api.github.com/repos/henrikwidlund/HostsParser/releases/latest | grep browser_download_url | cut -d\" -f4 | grep 'linux-x64.tar.gz$') | tar zx
 
       - name: Create public directory
-        if: github.ref == 'refs/heads/main'
+#        if: github.ref == 'refs/heads/main'
         run: mkdir ./public
 
       - name: Fallback config
-        if: github.ref == 'refs/heads/main'
+#        if: github.ref == 'refs/heads/main'
         run: |
           CONFIGURATIONS_DIRECTORY="./artifacts/Configurations"
           if [ ! -d "$CONFIGURATIONS_DIRECTORY" ]; then
@@ -48,7 +48,7 @@ jobs:
           fi
 
       - name: Create filters
-        if: github.ref == 'refs/heads/main'
+#        if: github.ref == 'refs/heads/main'
         run: |
           cd ./artifacts
           for filename in ./Configurations/*.json; do
