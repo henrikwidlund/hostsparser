@@ -15,7 +15,7 @@ using Xunit;
 
 namespace HostsParser.IntegrationTests;
 
-public class ExecutionUtilitiesTests
+public sealed class ExecutionUtilitiesTests
 {
     [Fact]
     public async Task When_Running_Execute_MultiPassFilter_Toggle_Should_Differ_At_Most_Five()

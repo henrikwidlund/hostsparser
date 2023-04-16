@@ -11,7 +11,7 @@ using Xunit;
 
 namespace HostsParser.Tests;
 
-public class HostUtilitiesTests
+public sealed class HostUtilitiesTests
 {
     [Fact]
     public async Task ProcessHostsBased_Should_Only_Return_Dns_Entries()

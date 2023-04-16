@@ -7,7 +7,7 @@ using Xunit;
 
 namespace HostsParser.Tests;
 
-public class ProcessingUtilitiesTests
+public sealed class ProcessingUtilitiesTests
 {
     [Fact]
     public void ProcessCombined_Should_Remove_Redundant_Entries()

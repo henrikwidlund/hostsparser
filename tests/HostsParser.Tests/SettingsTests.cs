@@ -9,7 +9,7 @@ using Xunit;
 
 namespace HostsParser.Tests;
 
-public class SettingsTests
+public sealed class SettingsTests
 {
     [Fact]
     public void Settings_Should_Be_Deserialized_From_AppSettings()
