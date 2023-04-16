@@ -19,7 +19,7 @@ public static class CollectionUtilities
         List<string> list = new(dnsCollection.Count);
         list.AddRange(dnsCollection
             .Select(static d => new StringSortItem(d))
-            .OrderBy(static l => GetTopMostDns(l.RawMemory), ReadOnlyMemoryCharComparer.Default)
+            .OrderBy(static l => GetTopMostDns(l.RawMemory), ReadOnlyMemoryCharComparer.Instance)
             .ThenBy(static l => l.RawMemory.Length)
             .Select(static l => l.Raw));
 
