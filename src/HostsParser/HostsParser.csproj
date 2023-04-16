@@ -16,8 +16,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="..\..\config\fakenews-gambling-porn.json">
+    <Content Include="Configurations\fakenews-gambling-porn.json">
       <Link>appsettings.json</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configurations\*">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

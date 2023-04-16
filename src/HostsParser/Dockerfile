@@ -6,12 +6,11 @@ WORKDIR /src
 COPY "HostsParser.csproj" .
 RUN dotnet restore "HostsParser.csproj"
 COPY . .
-COPY ../../config ./config
 WORKDIR "/src"
 RUN dotnet build "HostsParser.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "HostsParser.csproj" -c Release -o /app/publish
+RUN dotnet publish "HostsParser.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
