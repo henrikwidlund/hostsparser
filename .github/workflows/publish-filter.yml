@@ -1,9 +1,13 @@
 name: Publish Filter
 
 on:
-  push:
+  workflow_run:
+    workflows:
+      - "github-release"
     branches:
       - main
+    types:
+      - completed
   schedule:
     - cron: '0 */6 * * *' # Every 6 hours
 
