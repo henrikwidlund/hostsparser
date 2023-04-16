@@ -46,9 +46,6 @@ jobs:
           if [ ! -d "$CONFIGURATIONS_DIRECTORY" ]; then
             cp -r "./src/HostsParser/Configurations" "$CONFIGURATIONS_DIRECTORY"
           fi
-          
-          cd ./artifacts/Configurations
-          ls
 
       - name: Create filters
 #        if: github.ref == 'refs/heads/main'
@@ -57,6 +54,7 @@ jobs:
           for filename in ./Configurations/*.json; do
               cp $filename ../artifacts/appsettings.json
               dotnet HostsParser.dll
+              ls -la
               CONFIG_FILE=$(echo $filename | cut -d'/' -f 3)
               CONFIG=${CONFIG_FILE//json/txt}
               cp $CONFIG ../public/$CONFIG
