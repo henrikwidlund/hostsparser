@@ -174,7 +174,7 @@ public static class HostUtilities
         {
             var span = chars.AsSpan();
             decoder.GetChars(realSlice, span, false);
-            resultCollection.Add(span[..realSlice.Length].Trim().ToString());
+            AddItem(resultCollection, span[..realSlice.Length].Trim().ToString());
         }
         finally
         {
@@ -205,11 +205,27 @@ public static class HostUtilities
         {
             var span = chars.AsSpan();
             decoder.GetChars(realSlice, span, false);
-            resultCollection.Add(span[..realSlice.Length].Trim().ToString());
+            AddItem(resultCollection, span[..realSlice.Length].Trim().ToString());
         }
         finally
         {
             ArrayPool<char>.Shared.Return(chars);
+        }
+    }
+
+    private static void AddItem(ICollection<string> resultCollection, string item)
+    {
+        while (true)
+        {
+            try
+            {
+                resultCollection.Add(item);
+                break;
+            }
+            catch (InvalidOperationException)
+            {
+                // Try add again if collection was modified.
+            }
         }
     }
 
