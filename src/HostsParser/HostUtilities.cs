@@ -215,16 +215,16 @@ public static class HostUtilities
 
     private static void AddItem(ICollection<string> resultCollection, string item)
     {
-        while (true)
+        try
         {
-            try
+            resultCollection.Add(item);
+        }
+        catch (InvalidOperationException)
+        {
+            // Try add again if collection was modified.
+            lock (resultCollection)
             {
                 resultCollection.Add(item);
-                break;
-            }
-            catch (InvalidOperationException)
-            {
-                // Try add again if collection was modified.
             }
         }
     }
