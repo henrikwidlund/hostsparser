@@ -25,26 +25,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{4BF4
 		build.sh = build.sh
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{056DB08C-D3C7-4FFD-9A74-CC2F5C78F46D}"
-	ProjectSection(SolutionItems) = preProject
-		config\adware-malware.json = config\adware-malware.json
-		config\custom-combined.json = config\custom-combined.json
-		config\fakenews-gambling-porn-social.json = config\fakenews-gambling-porn-social.json
-		config\fakenews-gambling-social.json = config\fakenews-gambling-social.json
-		config\fakenews-gambling.json = config\fakenews-gambling.json
-		config\fakenews-porn-social.json = config\fakenews-porn-social.json
-		config\fakenews-porn.json = config\fakenews-porn.json
-		config\fakenews-social.json = config\fakenews-social.json
-		config\fakenews.json = config\fakenews.json
-		config\gambling-porn-social.json = config\gambling-porn-social.json
-		config\gambling-porn.json = config\gambling-porn.json
-		config\gambling-social.json = config\gambling-social.json
-		config\gambling.json = config\gambling.json
-		config\porn-social.json = config\porn-social.json
-		config\porn.json = config\porn.json
-		config\social.json = config\social.json
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostsParser", "src\HostsParser\HostsParser.csproj", "{ADDA28F7-6BA7-43C6-9286-CFC8272DC303}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{91B0F884-0C92-4174-9B5D-206CFC4CACED}"
