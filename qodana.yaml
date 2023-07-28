@@ -4,6 +4,9 @@ exclude:
   - name: ClassNeverInstantiated.Global
   - name: ForCanBeConvertedToForeach
   - name: LoopCanBeConvertedToQuery
+  - name: All
+    paths:
+      - "file:"
 include:
   - name: CompareNonConstrainedGenericWithNull
   - name: FunctionComplexityOverflow
