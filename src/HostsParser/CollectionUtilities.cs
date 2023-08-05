@@ -2,6 +2,7 @@
 // GNU General Public License v3.0
 
 using System;
+using System.Buffers;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -87,23 +88,41 @@ public static class CollectionUtilities
 
     private static ReadOnlySpan<char> GetTopMostDns(in ReadOnlySpan<char> item)
     {
-        var indices = GetIndices(item);
-        return indices.Count <= 1 ? item : ProcessItem(indices, item);
+        var buffer = ArrayPool<int>.Shared.Rent(item.Length);
+        try
+        {
+            var indicesCount = GetIndices(item, buffer);
+            var indicesSpan = buffer.AsSpan()[..indicesCount];
+            return indicesCount <= 1 ? item : ProcessItem(indicesSpan, item);
+        }
+        finally
+        {
+            ArrayPool<int>.Shared.Return(buffer);
+        }
     }
 
     private static ReadOnlyMemory<char> GetTopMostDns(in ReadOnlyMemory<char> item)
     {
-        var indices = GetIndices(item.Span);
-        return indices.Count <= 1 ? item : ProcessItem(indices, item);
+        var buffer = ArrayPool<int>.Shared.Rent(item.Length);
+        try
+        {
+            var indicesCount = GetIndices(item.Span, buffer);
+            var indicesSpan = buffer.AsSpan()[..indicesCount];
+            return indicesCount <= 1 ? item : ProcessItem(indicesSpan, item);
+        }
+        finally
+        {
+            ArrayPool<int>.Shared.Return(buffer);
+        }
     }
 
-    private static List<int> GetIndices(in ReadOnlySpan<char> item)
+    private static int GetIndices(in ReadOnlySpan<char> item, int[] buffer)
     {
-        var foundIndices = new List<int>();
+        var index = 0;
         for (var i = item.IndexOf(Constants.DotSign); i > -1; i = item.IndexOf(Constants.DotSign, i + 1))
-            foundIndices.Add(i);
+            buffer[index++] = i;
 
-        return foundIndices;
+        return index;
     }
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -118,10 +137,10 @@ public static class CollectionUtilities
                || secondTop.Equals(Constants.TopDomains.Or.Span, StringComparison.Ordinal);
     }
 
-    private static ReadOnlySpan<char> ProcessItem(List<int> indices,
+    private static ReadOnlySpan<char> ProcessItem(ReadOnlySpan<int> indices,
         in ReadOnlySpan<char> item)
     {
-        if (indices.Count != 2)
+        if (indices.Length != 2)
         {
             var secondTop = item[(indices[^2] + 1)..indices[^1]];
             var dns = IsSecondLevelTopDomain(secondTop)
@@ -137,10 +156,10 @@ public static class CollectionUtilities
         return IsSecondLevelTopDomain(slicedItem) ? item : item[(indices[0] + 1)..];
     }
 
-    private static ReadOnlyMemory<char> ProcessItem(List<int> indices,
+    private static ReadOnlyMemory<char> ProcessItem(in ReadOnlySpan<int> indices,
         in ReadOnlyMemory<char> item)
     {
-        if (indices.Count != 2)
+        if (indices.Length != 2)
         {
             var secondTop = item[(indices[^2] + 1)..indices[^1]];
             var dns = IsSecondLevelTopDomain(secondTop.Span)
