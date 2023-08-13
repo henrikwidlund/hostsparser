@@ -8,6 +8,7 @@ on:
       - completed
   schedule:
     - cron: '0 */6 * * *' # Every 6 hours
+  workflow_dispatch: 
 
 permissions:
   contents: read
@@ -35,24 +36,33 @@ jobs:
           curl -sL $(curl -s https://api.github.com/repos/henrikwidlund/HostsParser/releases/latest | grep browser_download_url | cut -d\" -f4 | grep 'linux-x64.tar.gz$') | tar zx
 
       - name: Create public directory
-        if: github.ref == 'refs/heads/main'
+#        if: github.ref == 'refs/heads/main'
         run: mkdir ./public
 
       - name: Create filters
-        if: github.ref == 'refs/heads/main'
+#        if: github.ref == 'refs/heads/main'
         run: |
-          cd ./artifacts
-          for filename in ./Configurations/*.json; do
-              cp $filename ../artifacts/appsettings.json
-              dotnet HostsParser.dll
-              CONFIG_FILE=$(echo $filename | cut -d'/' -f 3)
-              CONFIG=${CONFIG_FILE//json/txt}
-              #  Default filter doesn't map to the file name of the config, it's just "filter.txt"
-              if [[ ! -f "$CONFIG" ]]; then
-                CONFIG="filter.txt"
-              fi
-              cp $CONFIG ../public/$CONFIG
-          done
+          cat << EOF > temp_script.sh
+          #!/bin/bash
+
+          process_config() {
+            filename="\$1"
+            dotnet ./artifacts/HostsParser.dll "\$1"
+            CONFIG_FILE=\$(echo "\$filename" | cut -d'/' -f 3)
+            CONFIG=\${CONFIG_FILE//json/txt}
+            
+            if [[ ! -f "\$CONFIG" ]]; then
+              CONFIG="filter.txt"
+            fi
+            cp "\$CONFIG" ../public/"\$CONFIG"
+          }
+
+          process_config \$1
+          EOF
+
+          chmod +x temp_script.sh
+          find ./Configurations -name '*.json' -print0 | xargs -0 -I{} -P4 ./temp_script.sh "{}"
+          rm temp_script.sh
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
@@ -66,6 +76,7 @@ jobs:
     needs: generate
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    if: github.ref == 'refs/heads/main'
 
     environment:
       name: github-pages
