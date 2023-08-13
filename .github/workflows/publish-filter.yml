@@ -24,7 +24,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    if: github.ref == 'refs/heads/main'
+#    if: github.ref == 'refs/heads/main'
 
     steps:
       - name: Setup .NET
@@ -48,13 +48,14 @@ jobs:
           process_config() {
             filename="\$1"
             dotnet ./artifacts/HostsParser.dll "\$1"
-            CONFIG_FILE=\$(echo "\$filename" | cut -d'/' -f 3)
+            CONFIG_FILE=\$(echo "\$filename" | cut -d'/' -f 4)
             CONFIG=\${CONFIG_FILE//json/txt}
-            
+
+            #  Default filter doesn't map to the file name of the config, it's just "filter.txt"
             if [[ ! -f "\$CONFIG" ]]; then
               CONFIG="filter.txt"
             fi
-            cp "\$CONFIG" ../public/"\$CONFIG"
+            cp "\$CONFIG" ./public/"\$CONFIG"
           }
 
           process_config \$1
