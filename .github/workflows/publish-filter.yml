@@ -8,6 +8,8 @@ on:
       - completed
   schedule:
     - cron: '0 */6 * * *' # Every 6 hours
+  workflow_dispatch: 
+    
 
 permissions:
   contents: read
@@ -59,7 +61,7 @@ jobs:
           EOF
 
           chmod +x temp_script.sh
-          find ./Configurations -name '*.json' -print0 | xargs -0 -I{} -P4 ./temp_script.sh "{}"
+          find ./artifacts/Configurations -name '*.json' -print0 | xargs -0 -I{} -P4 ./temp_script.sh "{}"
           rm temp_script.sh
 
       - name: Setup Pages
