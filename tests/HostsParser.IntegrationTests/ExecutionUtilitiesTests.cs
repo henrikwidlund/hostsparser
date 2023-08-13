@@ -25,14 +25,15 @@ public sealed class ExecutionUtilitiesTests
         using var httpClient = new HttpClient(streamHttpMessageHandler);
         using var loggerFactory = new NullLoggerFactory();
         var logger = loggerFactory.CreateLogger(nameof(IntegrationTests));
+        const string ConfigurationFile = "appsettings.json";
 
         // Act
-        await ExecutionUtilities.Execute(httpClient, logger);
+        await ExecutionUtilities.Execute(httpClient, logger, ConfigurationFile);
         var linesWithoutMultiPass = (await File.ReadAllLinesAsync("filter.txt"))[7..];
-        var settings = JsonSerializer.Deserialize<Settings>(await File.ReadAllBytesAsync("appsettings.json"))!;
+        var settings = JsonSerializer.Deserialize<Settings>(await File.ReadAllBytesAsync(ConfigurationFile))!;
         settings = settings with { MultiPassFilter = true };
-        await File.WriteAllBytesAsync("appsettings.json", JsonSerializer.SerializeToUtf8Bytes(settings));
-        await ExecutionUtilities.Execute(httpClient, logger);
+        await File.WriteAllBytesAsync(ConfigurationFile, JsonSerializer.SerializeToUtf8Bytes(settings));
+        await ExecutionUtilities.Execute(httpClient, logger, ConfigurationFile);
         var linesWithMultiPass = (await File.ReadAllLinesAsync("filter.txt"))[7..];
 
         // Assert

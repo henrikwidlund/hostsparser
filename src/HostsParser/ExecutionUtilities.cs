@@ -23,13 +23,14 @@ public static class ExecutionUtilities
     /// </summary>
     /// <param name="httpClient">The <see cref="HttpClient"/> that will be used to read from external sources.</param>
     /// <param name="logger">The <see cref="ILogger"/> that will be used for logging.</param>
-    public static async Task Execute(HttpClient httpClient, ILogger logger)
+    /// <param name="configurationFile">Path to the configuration file.</param>
+    public static async Task Execute(HttpClient httpClient, ILogger logger, string configurationFile)
     {
         logger.Running();
         var stopWatch = new Stopwatch();
         stopWatch.Start();
 
-        await using var fileStream = File.OpenRead("appsettings.json");
+        await using var fileStream = File.OpenRead(configurationFile);
         var settings = await JsonSerializer.DeserializeAsync(fileStream, SourceGenerationContext.Default.Settings);
         if (settings is null)
         {

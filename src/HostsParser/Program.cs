@@ -7,4 +7,5 @@ using HostsParser;
 using var httpClient = new HttpClient();
 using var loggerFactory = HostsParserLogger.Create();
 var logger = loggerFactory.CreateLogger();
-await ExecutionUtilities.Execute(httpClient, logger);
+var configurationFile = args.Length > 0 ? args[0] : "appsettings.json";
+await ExecutionUtilities.Execute(httpClient, logger, configurationFile);
