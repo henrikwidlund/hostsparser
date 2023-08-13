@@ -47,7 +47,6 @@ jobs:
 
           process_config() {
             filename="\$1"
-            echo "Processing \$filename"
             dotnet ./artifacts/HostsParser.dll "\$1"
             CONFIG_FILE=\$(echo "\$filename" | cut -d'/' -f 4)
             CONFIG=\${CONFIG_FILE//json/txt}
