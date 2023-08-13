@@ -8,7 +8,6 @@ on:
       - completed
   schedule:
     - cron: '0 */6 * * *' # Every 6 hours
-  workflow_dispatch: 
 
 permissions:
   contents: read
@@ -23,6 +22,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    if: github.ref == 'refs/heads/main'
 
     steps:
       - name: Setup .NET
@@ -36,11 +36,9 @@ jobs:
           curl -sL $(curl -s https://api.github.com/repos/henrikwidlund/HostsParser/releases/latest | grep browser_download_url | cut -d\" -f4 | grep 'linux-x64.tar.gz$') | tar zx
 
       - name: Create public directory
-#        if: github.ref == 'refs/heads/main'
         run: mkdir ./public
 
       - name: Create filters
-#        if: github.ref == 'refs/heads/main'
         run: |
           cat << EOF > temp_script.sh
           #!/bin/bash
@@ -76,7 +74,6 @@ jobs:
     needs: generate
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    if: github.ref == 'refs/heads/main'
 
     environment:
       name: github-pages
