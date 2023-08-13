@@ -9,7 +9,7 @@ on:
   schedule:
     - cron: '0 */6 * * *' # Every 6 hours
   workflow_dispatch: 
-    
+
 
 permissions:
   contents: read
@@ -24,7 +24,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-#    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main'
 
     steps:
       - name: Setup .NET
