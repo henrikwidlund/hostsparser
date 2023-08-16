@@ -62,7 +62,9 @@ jobs:
           EOF
 
           chmod +x temp_script.sh
-          find ./artifacts/Configurations -name '*.json' -print0 | xargs -0 -I{} -P4 ./temp_script.sh "{}"
+          
+          NUM_PROCESSORS=$(nproc)
+          find ./artifacts/Configurations -name '*.json' -print0 | xargs -0 -I{} -P"$NUM_PROCESSORS" ./temp_script.sh "{}"
           rm temp_script.sh
 
       - name: Setup Pages
