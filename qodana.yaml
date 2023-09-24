@@ -1,12 +1,13 @@
 version: "1.0"
-linter: jetbrains/qodana-dotnet:2023.1-eap
+linter: jetbrains/qodana-dotnet:2023.2
 exclude:
   - name: ClassNeverInstantiated.Global
   - name: ForCanBeConvertedToForeach
   - name: LoopCanBeConvertedToQuery
   - name: All
     paths:
-      - "file:"
+      - ../cache/nuget/microsoft.net.test.sdk/17.6.2/build/netcoreapp3.1/Microsoft.NET.Test.Sdk.Program.cs
+      - file:/usr/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk/analyzers/build/config
 include:
   - name: CompareNonConstrainedGenericWithNull
   - name: FunctionComplexityOverflow
