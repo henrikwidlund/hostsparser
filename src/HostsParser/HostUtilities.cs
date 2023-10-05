@@ -4,6 +4,7 @@
 using System;
 using System.Buffers;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.IO.Pipelines;
 using System.Runtime.CompilerServices;
@@ -149,6 +150,7 @@ public static class HostUtilities
     {
         if (skipLines is null)
         {
+            Debug.Assert(allowedOverrides is not null);
             ProcessAdBlockBasedLine(slice, resultCollection, allowedOverrides, decoder);
         }
         else
@@ -191,7 +193,7 @@ public static class HostUtilities
 
     private static void ProcessAdBlockBasedLine(in ReadOnlySequence<byte> slice,
         ICollection<string> resultCollection,
-        ICollection<string>? allowedOverrides,
+        ICollection<string> allowedOverrides,
         Decoder decoder)
     {
         var realSlice = slice.IsSingleSegment
@@ -204,8 +206,6 @@ public static class HostUtilities
             return;
 
         var isAllow = realSlice[0] == Constants.AtSign;
-        if (isAllow && allowedOverrides is null)
-            return;
 
         realSlice = HandlePipeOrAt(realSlice, isAllow);
 
@@ -218,7 +218,7 @@ public static class HostUtilities
         {
             var span = chars.AsSpan();
             decoder.GetChars(realSlice, span, false);
-            AddItem(isAllow ? allowedOverrides! : resultCollection, span[..realSlice.Length].Trim().ToString());
+            AddItem(isAllow ? allowedOverrides : resultCollection, span[..realSlice.Length].Trim().ToString());
         }
         finally
         {
