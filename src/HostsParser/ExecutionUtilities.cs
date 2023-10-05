@@ -38,7 +38,7 @@ public static class ExecutionUtilities
             return;
         }
 
-        var (combineLines, externalCoverageLines) = await ReadSources(settings, httpClient);
+        var (combineLines, externalCoverageLines, allowedOverrides) = await ReadSources(settings, httpClient);
 
         combineLines.ExceptWith(externalCoverageLines);
         combineLines = HostUtilities.RemoveKnownBadHosts(settings.KnownBadHosts, combineLines);
@@ -76,11 +76,20 @@ public static class ExecutionUtilities
             streamWriter.Write((char) Constants.HatSign);
         }
 
+        foreach (var s in allowedOverrides)
+        {
+            streamWriter.WriteLine();
+            streamWriter.Write((char) Constants.AtSign);
+            streamWriter.Write((char) Constants.AtSign);
+            streamWriter.Write(s);
+            streamWriter.Write((char) Constants.HatSign);
+        }
+
         stopWatch.Stop();
-        logger.Finalized(stopWatch.Elapsed, sortedDnsList.Count);
+        logger.Finalized(stopWatch.Elapsed, sortedDnsList.Count + allowedOverrides.Count);
     }
 
-    private static async Task<(HashSet<string> CombinedLines, HashSet<string> ExternalCoverageLines)> ReadSources(
+    private static async Task<Result> ReadSources(
         Settings settings,
         HttpClient httpClient)
     {
@@ -89,6 +98,7 @@ public static class ExecutionUtilities
         // Assumed length to reduce allocations
         var combineLines = new HashSet<string>(170_000);
         var externalCoverageLines = new HashSet<string>(50_000);
+        var allowedOverrides = new HashSet<string>(300);
         var tasks = new List<Task>(settings.Filters.Sources.Length);
         foreach (var sourceItem in settings.Filters.Sources)
         {
@@ -108,6 +118,7 @@ public static class ExecutionUtilities
                 {
                     await HostUtilities.ProcessAdBlockBased(
                         sourceItem.SourceAction == SourceAction.Combine ? combineLines : externalCoverageLines,
+                        allowedOverrides,
                         stream,
                         decoder);
                 }
@@ -116,6 +127,11 @@ public static class ExecutionUtilities
 
         await Task.WhenAll(tasks);
 
-        return (combineLines, externalCoverageLines);
+        return new Result(combineLines, externalCoverageLines, allowedOverrides);
     }
+
+    private record struct Result(
+        HashSet<string> CombinedLines,
+        HashSet<string> ExternalCoverageLines,
+        HashSet<string> AllowedOverrides);
 }

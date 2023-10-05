@@ -46,6 +46,7 @@ public class BenchmarkProcessAdBlockBased : BenchmarkStreamBase
     [BenchmarkCategory(nameof(ProcessAdBlockBased), nameof(HostUtilities))]
     public async Task ProcessAdBlockBased()
         => await HostUtilities.ProcessAdBlockBased(new HashSet<string>(50_000),
+            new HashSet<string>(200),
             _stream!,
             BenchmarkTestData.Decoder);
 }
@@ -75,15 +76,17 @@ public class BenchmarkRemoveKnownBadHosts : BenchmarkStreamBase
             .GetAwaiter().GetResult();
 
         stream = PrepareStream();
-        var externalCoverageLines = new HashSet<string>(50_000);
-        HostUtilities.ProcessAdBlockBased(externalCoverageLines,
+        var dnsHashSet = new HashSet<string>(50_000);
+        var allowedOverrides = new HashSet<string>(200);
+        HostUtilities.ProcessAdBlockBased(dnsHashSet,
+                allowedOverrides,
                 stream,
                 BenchmarkTestData.Decoder)
             .GetAwaiter().GetResult();
 
         stream.Dispose();
 
-        hostsBasedLines.UnionWith(externalCoverageLines);
+        hostsBasedLines.UnionWith(dnsHashSet);
         yield return hostsBasedLines;
     }
 }
