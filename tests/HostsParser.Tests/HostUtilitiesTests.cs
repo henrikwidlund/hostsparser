@@ -89,9 +89,12 @@ public sealed class HostUtilitiesTests
                                      + "\n"
                                      + "||dns-c.com^ #Comment"
                                      + "\n"
+                                     + "@@||dns-d.com^"
+                                     + "\n"
                                      + "\n";
 
-        var expected = new HashSet<string> { "dns-a.com", "dns-b.com", "dns-c.com" };
+        var expectedBlocked = new HashSet<string> { "dns-a.com", "dns-b.com", "dns-c.com" };
+        var expectedAllowed = new HashSet<string> { "||dns-d.com" };
         await using var memoryStream = new MemoryStream();
         await using var streamWriter = new StreamWriter(memoryStream);
         await streamWriter.WriteAsync(AdBlockSource);
@@ -100,14 +103,19 @@ public sealed class HostUtilitiesTests
 
         var decoder = Encoding.UTF8.GetDecoder();
         var dnsCollection = new HashSet<string>();
+        var allowedOverrides = new HashSet<string>();
 
         // Act
-        await HostUtilities.ProcessAdBlockBased(dnsCollection, memoryStream, decoder);
+        await HostUtilities.ProcessAdBlockBased(dnsCollection, allowedOverrides, memoryStream, decoder);
 
         // Assert
         dnsCollection.Should().NotBeEmpty();
-        dnsCollection.Should().HaveSameCount(expected);
-        dnsCollection.Should().OnlyContain(s => expected.Contains(s));
+        dnsCollection.Should().HaveSameCount(expectedBlocked);
+        dnsCollection.Should().OnlyContain(s => expectedBlocked.Contains(s));
+
+        allowedOverrides.Should().NotBeEmpty();
+        allowedOverrides.Should().HaveSameCount(expectedAllowed);
+        allowedOverrides.Should().OnlyContain(s => expectedAllowed.Contains(s));
     }
 
     [Fact]

@@ -29,21 +29,23 @@ public static class HostUtilities
         Decoder decoder)
     {
         var pipeReader = PipeReader.Create(stream);
-        return ReadPipeAsync(pipeReader, dnsHashSet, skipLines, sourcePrefix, decoder);
+        return ReadPipeAsync(pipeReader, dnsHashSet, null, skipLines, sourcePrefix, decoder);
     }
 
     /// <summary>
     /// Reads the <paramref name="stream"/> and returns a collection based on the items in it.
     /// </summary>
-    /// <param name="dnsHashSet">The <see cref="HashSet{T}"/> that results are added to.</param>
+    /// <param name="dnsHashSet">The <see cref="HashSet{T}"/> that blocked results are added to.</param>
+    /// <param name="allowedOverrides">The <see cref="HashSet{T}"/> that allowed results are added to.</param>
     /// <param name="stream">The <see cref="Stream"/> to process.</param>
     /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
     public static Task ProcessAdBlockBased(HashSet<string> dnsHashSet,
+        HashSet<string> allowedOverrides,
         Stream stream,
         Decoder decoder)
     {
         var pipeReader = PipeReader.Create(stream);
-        return ReadPipeAsync(pipeReader, dnsHashSet, null, null, decoder);
+        return ReadPipeAsync(pipeReader, dnsHashSet, allowedOverrides, null, null, decoder);
     }
 
     /// <summary>
@@ -94,6 +96,7 @@ public static class HostUtilities
 
     private static async Task ReadPipeAsync(PipeReader reader,
         ICollection<string> resultCollection,
+        ICollection<string>? allowedOverrides,
         byte[][]? skipLines,
         SourcePrefix? sourcePrefix,
         Decoder decoder)
@@ -111,14 +114,14 @@ public static class HostUtilities
 
                 if (position is null) continue;
 
-                ProcessLine(buffer.Slice(0, position.Value), resultCollection, skipLines, sourcePrefix, decoder);
+                ProcessLine(buffer.Slice(0, position.Value), resultCollection, allowedOverrides, skipLines, sourcePrefix, decoder);
                 buffer = buffer.Slice(buffer.GetPosition(1, position.Value));
             } while (position is not null);
 
             reader.AdvanceTo(buffer.Start, buffer.End);
 
             if (!result.IsCompleted) continue;
-            ProcessLastChunk(resultCollection, skipLines, sourcePrefix, decoder, buffer);
+            ProcessLastChunk(resultCollection, allowedOverrides, skipLines, sourcePrefix, decoder, buffer);
 
             break;
         }
@@ -127,23 +130,27 @@ public static class HostUtilities
     }
 
     private static void ProcessLastChunk(ICollection<string> resultCollection,
+        ICollection<string>? allowedOverrides,
         byte[][]? skipLines,
         in SourcePrefix? sourcePrefix,
         Decoder decoder,
         in ReadOnlySequence<byte> buffer)
     {
         if (buffer.IsEmpty) return;
-        ProcessLine(buffer, resultCollection, skipLines, sourcePrefix, decoder);
+        ProcessLine(buffer, resultCollection, allowedOverrides, skipLines, sourcePrefix, decoder);
     }
 
     private static void ProcessLine(in ReadOnlySequence<byte> slice,
         ICollection<string> resultCollection,
+        ICollection<string>? allowedOverrides,
         byte[][]? skipLines,
         in SourcePrefix? sourcePrefix,
         Decoder decoder)
     {
         if (skipLines is null)
-            ProcessAdBlockBasedLine(slice, resultCollection, decoder);
+        {
+            ProcessAdBlockBasedLine(slice, resultCollection, allowedOverrides, decoder);
+        }
         else
             ProcessHostsBasedLine(slice, resultCollection, skipLines, sourcePrefix, decoder);
     }
@@ -184,6 +191,7 @@ public static class HostUtilities
 
     private static void ProcessAdBlockBasedLine(in ReadOnlySequence<byte> slice,
         ICollection<string> resultCollection,
+        ICollection<string>? allowedOverrides,
         Decoder decoder)
     {
         var realSlice = slice.IsSingleSegment
@@ -195,7 +203,12 @@ public static class HostUtilities
         if (AdBlockBasedShouldSkipLine(realSlice))
             return;
 
-        realSlice = HandlePipe(realSlice);
+        var isAllow = realSlice[0] == Constants.AtSign;
+        if (isAllow && allowedOverrides is null)
+            return;
+
+        realSlice = HandlePipeOrAt(realSlice, isAllow);
+
         HandleDelimiter(ref realSlice, Constants.HatSign);
         if (realSlice.IndexOfAnyExcept(Constants.Space, Constants.Tab) == -1)
             return;
@@ -205,7 +218,7 @@ public static class HostUtilities
         {
             var span = chars.AsSpan();
             decoder.GetChars(realSlice, span, false);
-            AddItem(resultCollection, span[..realSlice.Length].Trim().ToString());
+            AddItem(isAllow ? allowedOverrides! : resultCollection, span[..realSlice.Length].Trim().ToString());
         }
         finally
         {
@@ -248,11 +261,11 @@ public static class HostUtilities
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     private static bool AdBlockBasedShouldSkipLine(in ReadOnlySpan<byte> current)
-        => current[0] != Constants.PipeSign;
+        => current[0] is not Constants.PipeSign and not Constants.AtSign;
 
-    private static ReadOnlySpan<byte> HandlePipe(ReadOnlySpan<byte> lineBytes)
+    private static ReadOnlySpan<byte> HandlePipeOrAt(ReadOnlySpan<byte> lineBytes, bool isAllow)
     {
-        var lastPipe = lineBytes.LastIndexOf(Constants.PipeSign);
+        var lastPipe = lineBytes.LastIndexOf(isAllow ? Constants.AtSign : Constants.PipeSign);
         return lineBytes[(lastPipe == 0 ? 1 : lastPipe + 1)..];
     }
 

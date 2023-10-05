@@ -57,15 +57,17 @@ public abstract class BenchmarkCollectionUtilitiesBase : BenchmarkStreamBase
             .GetAwaiter().GetResult();
 
         stream = PrepareStream();
-        var externalCoverageLines = new HashSet<string>(50_000);
-        HostUtilities.ProcessAdBlockBased(externalCoverageLines,
+        var dnsHashSet = new HashSet<string>(50_000);
+        var allowedOverrides = new HashSet<string>(200);
+        HostUtilities.ProcessAdBlockBased(dnsHashSet,
+                allowedOverrides,
                 stream,
                 BenchmarkTestData.Decoder)
             .GetAwaiter().GetResult();
 
         stream.Dispose();
 
-        hostsBasedLines.UnionWith(externalCoverageLines);
+        hostsBasedLines.UnionWith(dnsHashSet);
 
         yield return hostsBasedLines;
     }

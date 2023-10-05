@@ -8,6 +8,7 @@ namespace HostsParser;
 internal readonly ref struct Constants
 {
     internal const byte PipeSign = (byte)'|';
+    internal const byte AtSign = (byte)'@';
     internal const byte HatSign = (byte)'^';
     internal const byte NewLine = (byte)'\n';
     internal const byte Space = (byte)' ';
