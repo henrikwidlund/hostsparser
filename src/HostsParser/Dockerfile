@@ -1,4 +1,4 @@
-﻿FROM mcr.microsoft.com/dotnet/runtime:7.0-alpine AS base
+FROM mcr.microsoft.com/dotnet/runtime:8.0-alpine AS base
 WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0-alpine AS build
