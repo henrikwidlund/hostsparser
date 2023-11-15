@@ -1,7 +1,7 @@
-﻿FROM mcr.microsoft.com/dotnet/runtime:7.0-alpine AS base
+FROM mcr.microsoft.com/dotnet/runtime:7.0-alpine AS base
 WORKDIR /app
 
-FROM mcr.microsoft.com/dotnet/sdk:7.0-alpine AS build
+FROM mcr.microsoft.com/dotnet/sdk:8.0-alpine AS build
 WORKDIR /src
 COPY "HostsParser.csproj" .
 RUN dotnet restore "HostsParser.csproj"
