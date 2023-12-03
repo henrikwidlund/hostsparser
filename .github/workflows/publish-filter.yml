@@ -27,11 +27,6 @@ jobs:
     if: github.ref == 'refs/heads/main'
 
     steps:
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: 8.0.x
-
       - name: Download latest release
         run: |
           mkdir artifacts && cd artifacts
@@ -47,7 +42,7 @@ jobs:
 
           process_config() {
             filename="\$1"
-            dotnet ./artifacts/HostsParser.dll "\$1"
+            ./artifacts/HostsParser.dll "\$1"
             CONFIG_FILE=\$(echo "\$filename" | cut -d'/' -f 4)
             CONFIG=\${CONFIG_FILE//json/txt}
 
