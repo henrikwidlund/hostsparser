@@ -42,7 +42,7 @@ jobs:
 
           process_config() {
             filename="\$1"
-            ./artifacts/HostsParser.dll "\$1"
+            ./artifacts/HostsParser "\$1"
             CONFIG_FILE=\$(echo "\$filename" | cut -d'/' -f 4)
             CONFIG=\${CONFIG_FILE//json/txt}
 
