@@ -48,12 +48,20 @@ jobs:
           release_name="HostsParser-$tag-${{ matrix.target }}"
           # Build everything
           ASSEMBLY_VERSION="${tag//v}"
-          if [ "${{ matrix.target }}" == "win-x64" ] || [ "${{ matrix.target }}" == "win-arm64" ]; then
-            dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release //p:Version="$ASSEMBLY_VERSION" //p:PublishAot=true
+          if [ "${{ matrix.kind }}" == "windows" ]; then
+            if [ "${{ matrix.target }}" == "win-x64" ]; then
+              dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release //p:Version="$ASSEMBLY_VERSION" //p:PublishAot=true
+            else
+              dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release //p:Version="$ASSEMBLY_VERSION"
+            fi
             # Pack to zip for Windows
             7z a -tzip "${release_name}.zip" "./release/*"
           else
-            dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release /p:Version="$ASSEMBLY_VERSION" /p:PublishAot=true
+            if [[ "${{ matrix.target }}" == *arm64 ]]; then
+              dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release /p:Version="$ASSEMBLY_VERSION"
+            else
+              dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release /p:Version="$ASSEMBLY_VERSION" /p:PublishAot=true
+            fi
             # Pack tar.gz for non-Windows
             (cd ./release && tar czvf "../${release_name}.tar.gz" .)
           fi
