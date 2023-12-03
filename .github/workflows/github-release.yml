@@ -9,16 +9,17 @@ jobs:
     name: Release
     strategy:
       matrix:
+        kind: [ 'linux', 'macos', 'windows' ]
         include:
           - kind: linux
             os: ubuntu-latest
-            targets: ['linux-x64', 'linux-arm64']
+            target: linux
           - kind: macos
             os: macos-latest
-            targets: ['osx-x64', 'osx-arm64']
+            target: osx
           - kind: windows
             os: windows-latest
-            targets: ['win-x64', 'win-arm64']
+            target: win
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
@@ -36,7 +37,8 @@ jobs:
           tag=$(git describe --tags --abbrev=0)
           # Build everything
           ASSEMBLY_VERSION="${tag//v}"
-          for target in "${{ matrix.targets }}"; do
+          for target_arch in "x64" "arm64"; do
+            target="${{ matrix.target }}-$target_arch"
             release_name="HostsParser-$tag-$target"
             if [ "${{ matrix.kind }}" == "windows" ]; then
               if [ "$target" == "win-x64" ]; then
