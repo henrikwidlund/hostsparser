@@ -41,7 +41,7 @@ jobs:
           for target_arch in "x64" "arm64"; do
             target="${{ matrix.target }}-$target_arch"
             release_name="HostsParser-$tag-$target"
-            if [ "${{ target_arch }}" == "arm64" ]; then
+            if [ "$target_arch" == "arm64" ]; then
               dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release -p:Version="$ASSEMBLY_VERSION"
             else
               dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release -p:Version="$ASSEMBLY_VERSION" -p:PublishAot=true
