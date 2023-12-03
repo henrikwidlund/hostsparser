@@ -101,7 +101,7 @@ public readonly record struct SourcePrefix
 /// <summary>
 /// Defines the format of the source.
 /// </summary>
-[JsonConverter(typeof(JsonStringEnumConverter))]
+[JsonConverter(typeof(JsonStringEnumConverter<SourceFormat>))]
 public enum SourceFormat
 {
     /// <summary>
@@ -118,7 +118,7 @@ public enum SourceFormat
 /// <summary>
 /// Definition of the action to be taken on the source.
 /// </summary>
-[JsonConverter(typeof(JsonStringEnumConverter))]
+[JsonConverter(typeof(JsonStringEnumConverter<SourceAction>))]
 public enum SourceAction
 {
     /// <summary>

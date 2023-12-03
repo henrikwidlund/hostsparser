@@ -188,14 +188,8 @@ public static class CollectionUtilities
     }
 }
 
-file readonly struct StringSortItem
+file readonly struct StringSortItem(string raw)
 {
-    public readonly string Raw;
-    public readonly ReadOnlyMemory<char> RawMemory;
-
-    public StringSortItem(string raw)
-    {
-        Raw = raw;
-        RawMemory = raw.AsMemory();
-    }
+    public readonly string Raw = raw;
+    public readonly ReadOnlyMemory<char> RawMemory = raw.AsMemory();
 }

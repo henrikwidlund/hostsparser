@@ -4,6 +4,7 @@
 using System.IO;
 using System.Text;
 using System.Text.Json;
+using System.Threading.Tasks;
 using FluentAssertions;
 using Xunit;
 
@@ -12,13 +13,13 @@ namespace HostsParser.Tests;
 public sealed class SettingsTests
 {
     [Fact]
-    public void Settings_Should_Be_Deserialized_From_AppSettings()
+    public async Task Settings_Should_Be_Deserialized_From_AppSettings()
     {
         // Arrange
-        var appSettings = File.ReadAllText("appsettings.json");
+        await using var fileStream = File.OpenRead("appsettings.json");
 
         // Act
-        var settings = JsonSerializer.Deserialize<Settings>(appSettings);
+        var settings = await JsonSerializer.DeserializeAsync<Settings>(fileStream);
 
         // Assert
         settings.Should().NotBeNull();

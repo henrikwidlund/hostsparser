@@ -22,8 +22,8 @@ public class BenchmarkProcessHostsBased : BenchmarkStreamBase
 
     [Benchmark]
     [BenchmarkCategory(nameof(ProcessHostsBased), nameof(HostUtilities))]
-    public async Task ProcessHostsBased()
-        => await HostUtilities.ProcessHostsBased(new HashSet<string>(140_000),
+    public Task ProcessHostsBased()
+        => HostUtilities.ProcessHostsBased(new HashSet<string>(140_000),
             _stream!,
             BenchmarkTestData.Settings.Filters.SkipLinesBytes,
             BenchmarkTestData.Settings.Filters.Sources[0].SourcePrefix,
@@ -34,7 +34,7 @@ public class BenchmarkProcessHostsBased : BenchmarkStreamBase
 [BenchmarkCategory(nameof(HostUtilities))]
 public class BenchmarkProcessAdBlockBased : BenchmarkStreamBase
 {
-    private Stream? _stream;
+    private MemoryStream? _stream;
 
     [IterationSetup]
     public void IterationSetup() => _stream = PrepareStream();
@@ -44,8 +44,8 @@ public class BenchmarkProcessAdBlockBased : BenchmarkStreamBase
 
     [Benchmark]
     [BenchmarkCategory(nameof(ProcessAdBlockBased), nameof(HostUtilities))]
-    public async Task ProcessAdBlockBased()
-        => await HostUtilities.ProcessAdBlockBased(new HashSet<string>(50_000),
+    public Task ProcessAdBlockBased()
+        => HostUtilities.ProcessAdBlockBased(new HashSet<string>(50_000),
             new HashSet<string>(200),
             _stream!,
             BenchmarkTestData.Decoder);

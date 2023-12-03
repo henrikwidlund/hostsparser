@@ -88,15 +88,11 @@ public sealed class HostsParserLoggerTests
     }
 }
 
-file sealed class TestLogger : ILogger
+file sealed class TestLogger(List<string> store) : ILogger
 {
-    private readonly List<string> _store;
-
-    public TestLogger(List<string> store) => _store = store;
-
     public void Log<TState>(LogLevel logLevel, EventId eventId, TState state, Exception? exception,
         Func<TState, Exception?, string> formatter)
-        => _store.Add($"{logLevel}-{eventId.Id}-{eventId.Name}-{state}");
+        => store.Add($"{logLevel}-{eventId.Id}-{eventId.Name}-{state}");
 
     public bool IsEnabled(LogLevel logLevel) => true;
 
