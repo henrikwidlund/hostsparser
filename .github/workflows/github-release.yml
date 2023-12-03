@@ -9,26 +9,16 @@ jobs:
     name: Release
     strategy:
       matrix:
-        kind: [ 'linux', 'macos', 'windows' ]
         include:
           - kind: linux
             os: ubuntu-latest
-            target: linux-x64
-          - kind: linux
-            os: ubuntu-latest
-            target: linux-arm64
+            targets: ['linux-x64', 'linux-arm64']
           - kind: macos
             os: macos-latest
-            target: osx-x64
-          - kind: macos
-            os: macos-latest
-            target: osx-arm64
+            targets: ['osx-x64', 'osx-arm64']
           - kind: windows
             os: windows-latest
-            target: win-x64
-          - kind: windows
-            os: windows-latest
-            target: win-arm64
+            targets: ['win-x64', 'win-arm64']
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
@@ -42,31 +32,32 @@ jobs:
           dotnet-version: 8.0.x
 
       - name: Build
-        shell: bash
         run: |
           tag=$(git describe --tags --abbrev=0)
-          release_name="HostsParser-$tag-${{ matrix.target }}"
           # Build everything
           ASSEMBLY_VERSION="${tag//v}"
-          if [ "${{ matrix.kind }}" == "windows" ]; then
-            if [ "${{ matrix.target }}" == "win-x64" ]; then
-              dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release //p:Version="$ASSEMBLY_VERSION" //p:PublishAot=true
+          for target in "${{ matrix.targets }}"; do
+            release_name="HostsParser-$tag-$target"
+            if [ "${{ matrix.kind }}" == "windows" ]; then
+              if [ "$target" == "win-x64" ]; then
+                dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release //p:Version="$ASSEMBLY_VERSION" //p:PublishAot=true
+              else
+                dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release //p:Version="$ASSEMBLY_VERSION"
+              fi
+              # Pack to zip for Windows
+              7z a -tzip "${release_name}.zip" "./release/*"
             else
-              dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release //p:Version="$ASSEMBLY_VERSION"
+              if [[ "$target" == *arm64 ]]; then
+                dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release //p:Version="$ASSEMBLY_VERSION"
+              else
+                dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release //p:Version="$ASSEMBLY_VERSION" //p:PublishAot=true
+              fi
+              # Pack tar.gz for non-Windows
+              tar -czvf "${release_name}.tar.gz" -C ./release .
             fi
-            # Pack to zip for Windows
-            7z a -tzip "${release_name}.zip" "./release/*"
-          else
-            if [[ "${{ matrix.target }}" == *arm64 ]]; then
-              dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release /p:Version="$ASSEMBLY_VERSION"
-            else
-              dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release /p:Version="$ASSEMBLY_VERSION" /p:PublishAot=true
-            fi
-            # Pack tar.gz for non-Windows
-            (cd ./release && tar czvf "../${release_name}.tar.gz" .)
-          fi
-          # Delete output directory
-          rm -r "./release"
+            # Delete output directory
+            rm -r "./release"
+          done
       - name: Publish
         uses: softprops/action-gh-release@v1
         with:
