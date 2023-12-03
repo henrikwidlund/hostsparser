@@ -30,7 +30,7 @@ public class BenchmarkExecutionUtilities : BenchmarkStreamBase
 
     [Benchmark]
     [BenchmarkCategory(nameof(Execute), nameof(BenchmarkExecutionUtilities))]
-    public async Task Execute() => await ExecutionUtilities.Execute(_httpClient!, _logger!, "appsettings.json");
+    public Task Execute() => ExecutionUtilities.Execute(_httpClient!, _logger!, "appsettings.json");
 
     [GlobalCleanup]
     public void Cleanup()

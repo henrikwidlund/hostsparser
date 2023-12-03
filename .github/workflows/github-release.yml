@@ -14,12 +14,21 @@ jobs:
           - kind: linux
             os: ubuntu-latest
             target: linux-x64
+          - kind: linux
+            os: ubuntu-latest
+            target: linux-arm64
           - kind: macos
             os: macos-latest
             target: osx-x64
+          - kind: macos
+            os: macos-latest
+            target: osx-arm64
           - kind: windows
             os: windows-latest
             target: win-x64
+          - kind: windows
+            os: windows-latest
+            target: win-arm64
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
@@ -30,7 +39,7 @@ jobs:
       - name: Setup dotnet
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 7.0.x
+          dotnet-version: 8.0.x
 
       - name: Build
         shell: bash
@@ -39,12 +48,12 @@ jobs:
           release_name="HostsParser-$tag-${{ matrix.target }}"
           # Build everything
           ASSEMBLY_VERSION="${tag//v}"
-          if [ "${{ matrix.target }}" == "win-x64" ]; then
-            dotnet publish "./src/HostsParser/HostsParser.csproj" -c Release -o release //p:Version="$ASSEMBLY_VERSION"
+          if [ "${{ matrix.target }}" == "win-x64" ] || [ "${{ matrix.target }}" == "win-arm64" ]; then
+            dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release //p:Version="$ASSEMBLY_VERSION" //p:PublishAot=true
             # Pack to zip for Windows
             7z a -tzip "${release_name}.zip" "./release/*"
           else
-            dotnet publish "./src/HostsParser/HostsParser.csproj" -c Release -o release /p:Version="$ASSEMBLY_VERSION"
+            dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release /p:Version="$ASSEMBLY_VERSION" /p:PublishAot=true
             # Pack tar.gz for non-Windows
             (cd ./release && tar czvf "../${release_name}.tar.gz" .)
           fi

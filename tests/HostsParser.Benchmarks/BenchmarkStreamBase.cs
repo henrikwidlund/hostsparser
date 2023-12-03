@@ -8,7 +8,7 @@ namespace HostsParser.Benchmarks;
 
 public abstract class BenchmarkStreamBase
 {
-    protected static Stream PrepareStream()
+    protected static MemoryStream PrepareStream()
     {
         var stream = new MemoryStream();
 

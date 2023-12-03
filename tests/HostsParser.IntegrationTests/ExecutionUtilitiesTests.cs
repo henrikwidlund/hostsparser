@@ -55,7 +55,7 @@ file sealed class StreamHttpMessageHandler : HttpMessageHandler
         CancellationToken cancellationToken)
         => Task.FromResult(new HttpResponseMessage(HttpStatusCode.OK) {Content = new StreamContent(PrepareStream())});
 
-    private static Stream PrepareStream()
+    private static MemoryStream PrepareStream()
     {
         var stream = new MemoryStream();
 
