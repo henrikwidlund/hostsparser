@@ -48,9 +48,9 @@ jobs:
               7z a -tzip "${release_name}.zip" "./release/*"
             else
               if [[ "$target" == *arm64 ]]; then
-                dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release //p:Version="$ASSEMBLY_VERSION"
+                dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release /p:Version="$ASSEMBLY_VERSION"
               else
-                dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release //p:Version="$ASSEMBLY_VERSION" //p:PublishAot=true
+                dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release /p:Version="$ASSEMBLY_VERSION" /p:PublishAot=true
               fi
               # Pack tar.gz for non-Windows
               tar -czvf "${release_name}.tar.gz" -C ./release .
