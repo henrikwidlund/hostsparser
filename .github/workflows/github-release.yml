@@ -44,7 +44,7 @@ jobs:
             if [ "$target_arch" == "arm64" ]; then
               dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release -p:Version="$ASSEMBLY_VERSION"
             else
-              dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release -p:Version="$ASSEMBLY_VERSION" -p:PublishAot=true
+              dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release -p:Version="$ASSEMBLY_VERSION" -p:PublishAot=true -p:StripSymbols=true
             fi
             if [ "${{ matrix.kind }}" == "windows" ]; then
               # Pack to zip for Windows
