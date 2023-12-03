@@ -10,7 +10,7 @@ using var httpClient = new HttpClient();
 using var loggerFactory = HostsParserLogger.Create();
 var logger = loggerFactory.CreateLogger();
 var configurationFile = args.Length > 0 ? args[0] : "appsettings.json";
-if (!configurationFile.StartsWith(Path.PathSeparator))
+if (!configurationFile.StartsWith(Path.PathSeparator) && !configurationFile.StartsWith("./", StringComparison.Ordinal))
     configurationFile = Path.Combine(AppContext.BaseDirectory, configurationFile);
 
 await ExecutionUtilities.Execute(httpClient, logger, configurationFile);
