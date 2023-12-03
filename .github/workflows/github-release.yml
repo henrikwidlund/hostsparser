@@ -33,6 +33,7 @@ jobs:
           dotnet-version: 8.0.x
 
       - name: Build
+        shell: bash
         run: |
           tag=$(git describe --tags --abbrev=0)
           # Build everything
@@ -40,20 +41,15 @@ jobs:
           for target_arch in "x64" "arm64"; do
             target="${{ matrix.target }}-$target_arch"
             release_name="HostsParser-$tag-$target"
+            if [ "${{ target_arch }}" == "arm64" ]; then
+              dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release -p:Version="$ASSEMBLY_VERSION"
+            else
+              dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release -p:Version="$ASSEMBLY_VERSION" -p:PublishAot=true
+            fi
             if [ "${{ matrix.kind }}" == "windows" ]; then
-              if [ "$target" == "win-x64" ]; then
-                dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release //p:Version="$ASSEMBLY_VERSION" //p:PublishAot=true
-              else
-                dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release //p:Version="$ASSEMBLY_VERSION"
-              fi
               # Pack to zip for Windows
               7z a -tzip "${release_name}.zip" "./release/*"
             else
-              if [[ "$target" == *arm64 ]]; then
-                dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release /p:Version="$ASSEMBLY_VERSION"
-              else
-                dotnet publish "./src/HostsParser/HostsParser.csproj" -r $target -c Release -o release /p:Version="$ASSEMBLY_VERSION" /p:PublishAot=true
-              fi
               # Pack tar.gz for non-Windows
               tar -czvf "${release_name}.tar.gz" -C ./release .
             fi
