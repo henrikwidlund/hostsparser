@@ -303,14 +303,14 @@ dotnet_diagnostic.IDE2003.severity = warning
 # csharp_style_allow_blank_line_after_colon_in_constructor_initializer_experimental
 dotnet_diagnostic.IDE2004.severity = warning
 
-[src/HostsParser.Benchmarks/**.cs]
+[tests/HostsParser.Benchmarks/**.cs]
 dotnet_diagnostic.CA1822.severity = suggestion
 
-[src/HostsParser.Benchmarks/BenchmarkExecutionUtilities.cs]
+[tests/HostsParser.Benchmarks/BenchmarkExecutionUtilities.cs]
 dotnet_diagnostic.CA1001.severity = none
 
-[src/HostsParser.IntegrationTests/**.cs]
+[tests/HostsParser.IntegrationTests/**.cs]
 dotnet_diagnostic.CA1707.severity = none
 
-[src/HostsParser.Tests/**.cs]
+[tests/HostsParser.Tests/**.cs]
 dotnet_diagnostic.CA1707.severity = none
