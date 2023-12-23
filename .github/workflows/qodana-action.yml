@@ -3,6 +3,8 @@ name: Qodana
 on:
   workflow_dispatch:
   pull_request:
+    branches:
+      - main
   push:
     branches:
       - main
@@ -13,9 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
       - name: 'Qodana Scan'
-        uses: JetBrains/qodana-action@v2023.2
+        uses: JetBrains/qodana-action@v2023.3
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
         with:
