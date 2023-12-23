@@ -43,11 +43,8 @@ public static class CollectionUtilities
                 || value.Count < 2)
                 continue;
 
-            foreach (var item in value)
+            foreach (var item in value.Where(item => key != item.GetHashCode()))
             {
-                if (key == item.GetHashCode())
-                    continue;
-
                 filtered.Add(item);
             }
         }
