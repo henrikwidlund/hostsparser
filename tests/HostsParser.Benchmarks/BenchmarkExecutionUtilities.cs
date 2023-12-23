@@ -16,7 +16,7 @@ public class BenchmarkExecutionUtilities : BenchmarkStreamBase
 {
     private StreamHttpMessageHandler? _streamHttpMessageHandler;
     private HttpClient? _httpClient;
-    private ILoggerFactory? _loggerFactory;
+    private NullLoggerFactory? _loggerFactory;
     private ILogger? _logger;
 
     [GlobalSetup]

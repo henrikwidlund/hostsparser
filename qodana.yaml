@@ -8,6 +8,12 @@ exclude:
     paths:
       - file:///usr/share/dotnet/sdk/8.0.100/Sdks/Microsoft.NET.Sdk/analyzers/build/config
       - ../cache/nuget/microsoft.net.test.sdk/17.8.0/build/netcoreapp3.1
+      - src/HostsParser/Configurations
+      - src/HostsParser/.dockerignore
+      - tests/HostsParser.Benchmarks/adbockbased.txt
+      - tests/HostsParser.IntegrationTests/adbockbased.txt
+      - tests/HostsParser.IntegrationTests/appsettings.json
+      - tests/HostsParser.Benchmarks/appsettings.json
 include:
   - name: CompareNonConstrainedGenericWithNull
   - name: FunctionComplexityOverflow
@@ -154,7 +160,6 @@ include:
   - name: CA1861
   - name: ForeachCanBePartlyConvertedToQueryUsingAnotherGetEnumerator
   - name: EditorConfigNoMatchingFiles
-  - name: CheckDependencyLicenses
   - name: ConvertIfStatementToReturnStatement
   - name: ConvertIfStatementToConditionalTernaryExpression
   - name: ConvertIfStatementToNullCoalescingExpression

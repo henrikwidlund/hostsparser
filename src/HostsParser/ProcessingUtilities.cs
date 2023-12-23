@@ -2,6 +2,7 @@
 // GNU General Public License v3.0
 
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace HostsParser;
@@ -104,17 +105,17 @@ public static class ProcessingUtilities
     {
         Parallel.ForEach(CollectionUtilities.SortDnsList(externalCoverageLines), item =>
         {
-            foreach (var localItem in sortedDnsList)
+            foreach (var localItem in sortedDnsList
+                         .Where(localItem => HostUtilities.IsSubDomainOf(localItem, item)))
             {
-                if (HostUtilities.IsSubDomainOf(localItem, item))
-                    filteredCache.Add(localItem);
+                filteredCache.Add(localItem);
             }
         });
         sortedDnsList.RemoveAll(filteredCache.Contains);
         return CollectionUtilities.SortDnsList(sortedDnsList);
     }
 
-    private static void AddIfSubDomain(ISet<string> filteredCache,
+    private static void AddIfSubDomain(HashSet<string> filteredCache,
         string potentialSubDomain,
         string potentialDomain)
     {
