@@ -34,7 +34,8 @@ jobs:
       - name: Run Unit Tests
         run: dotnet test --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:ExcludeByFile="**/HostsParser/Program.cs"
 
-      - uses: codecov/codecov-action@v3
+      - uses: codecov/codecov-action@v4
         with:
           flags: unittests
+          token: ${{ secrets.CODECOV_TOKEN }}
           fail_ci_if_error: true
