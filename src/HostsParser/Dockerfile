@@ -1,7 +1,7 @@
 ﻿FROM mcr.microsoft.com/dotnet/runtime-deps:8.0-jammy-chiseled AS base
 WORKDIR /app
 
-FROM mcr.microsoft.com/dotnet/sdk:8.0-jammy AS build
+FROM mcr.microsoft.com/dotnet/sdk:8.0.101-jammy AS build
 WORKDIR /src
 COPY "HostsParser.csproj" .
 RUN dotnet restore "HostsParser.csproj"
