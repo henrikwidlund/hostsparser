@@ -14,6 +14,8 @@ exclude:
       - tests/HostsParser.IntegrationTests/adbockbased.txt
       - tests/HostsParser.IntegrationTests/appsettings.json
       - tests/HostsParser.Benchmarks/appsettings.json
+      - ..
+      - "file:"
 include:
   - name: CompareNonConstrainedGenericWithNull
   - name: FunctionComplexityOverflow
