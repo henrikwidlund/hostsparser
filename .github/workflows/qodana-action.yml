@@ -11,6 +11,7 @@ on:
 
 jobs:
   qodana:
+    if: github.actor != 'dependabot[bot]'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -29,6 +30,5 @@ jobs:
         with:
           args: --baseline,qodana.sarif.json
       - uses: github/codeql-action/upload-sarif@v3
-        if: github.actor != 'dependabot[bot]'
         with:
           sarif_file: ${{ runner.temp }}/qodana/results/qodana.sarif.json
