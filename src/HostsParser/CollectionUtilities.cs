@@ -65,7 +65,7 @@ public static class CollectionUtilities
             var key = string.GetHashCode(GetTopMostDns(s));
             if (!dict.TryGetValue(key, out var values))
             {
-                values = new List<string>();
+                values = [];
                 dict.Add(key, values);
             }
 
