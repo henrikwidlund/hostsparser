@@ -95,7 +95,7 @@ address to where you host your generated file.
 
 ### Prerequisites
 
-[dotnet 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).
+[dotnet 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0).
 
 Run the following from the directory you cloned the repository to:
 
@@ -117,7 +117,7 @@ The built files will be put in the `artifacts` directory, in the root of the rep
 
 ### Prerequisites
 
-1. [dotnet 8 runtime](https://dotnet.microsoft.com/download/dotnet/8.0).
+1. [dotnet 9 runtime](https://dotnet.microsoft.com/download/dotnet/9.0).
 2. Downloaded binaries or binaries built from source code.
 
 Run the following (if you built from source code, this will be in `artifacts` directory, in the root of the repository):

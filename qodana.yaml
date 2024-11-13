@@ -1,5 +1,5 @@
 version: "1.0"
-linter: jetbrains/qodana-dotnet:2023.3
+linter: jetbrains/qodana-dotnet:2024.2
 exclude:
   - name: ClassNeverInstantiated.Global
   - name: ForCanBeConvertedToForeach
@@ -15,7 +15,6 @@ exclude:
       - tests/HostsParser.IntegrationTests/appsettings.json
       - tests/HostsParser.Benchmarks/appsettings.json
       - ..
-      - "file:"
 include:
   - name: CompareNonConstrainedGenericWithNull
   - name: FunctionComplexityOverflow
