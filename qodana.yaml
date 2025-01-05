@@ -691,3 +691,25 @@ include:
   - name: ArrangeObjectCreationWhenTypeNotEvident
   - name: ArrangeDefaultValueWhenTypeEvident
   - name: ArrangeDefaultValueWhenTypeNotEvident
+exclude:
+  - name: All
+    paths:
+      - tests/HostsParser.IntegrationTests/adbockbased.txt
+      - tests/HostsParser.Benchmarks/adbockbased.txt
+      - src/HostsParser/Configurations/fakenews-porn.json
+      - src/HostsParser/Configurations/fakenews-gambling-porn-social.json
+      - src/HostsParser/Configurations/fakenews-gambling-porn.json
+      - src/HostsParser/Configurations/porn-social.json
+      - src/HostsParser/Configurations/fakenews-porn-social.json
+      - src/HostsParser/Configurations/gambling-porn-social.json
+      - src/HostsParser/Configurations/porn.json
+      - src/HostsParser/Configurations/fakenews-gambling.json
+      - src/HostsParser/Configurations/fakenews-gambling-social.json
+      - src/HostsParser/Configurations/fakenews.json
+      - src/HostsParser/Configurations/social.json
+      - src/HostsParser/Configurations/fakenews-social.json
+      - src/HostsParser/Configurations/gambling-social.json
+      - src/HostsParser/Configurations/adware-malware.json
+      - src/HostsParser/Configurations/gambling.json
+      - src/HostsParser/Configurations/gambling-porn.json
+      - src/HostsParser/Configurations/custom-combined.json
