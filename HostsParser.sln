@@ -11,7 +11,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gh-actions", "gh-actions", "{3C7AEF49-BBA6-4BDE-B869-A4A4DAEED012}"
 ProjectSection(SolutionItems) = preProject
 	.github\workflows\ci.yml = .github\workflows\ci.yml
-	.github\workflows\codeql-analysis.yml = .github\workflows\codeql-analysis.yml
 	.github\workflows\dependency-review.yml = .github\workflows\dependency-review.yml
 	.github\workflows\docker.yml = .github\workflows\docker.yml
 	.github\workflows\github-release.yml = .github\workflows\github-release.yml
