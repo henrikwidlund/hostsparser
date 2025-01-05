@@ -16,7 +16,7 @@ ProjectSection(SolutionItems) = preProject
 	.github\workflows\docker.yml = .github\workflows\docker.yml
 	.github\workflows\github-release.yml = .github\workflows\github-release.yml
 	.github\workflows\publish-filter.yml = .github\workflows\publish-filter.yml
-	.github\workflows\qodana-action.yml = .github\workflows\qodana-action.yml
+	.github\workflows\qodana_code_quality.yml = .github\workflows\qodana_code_quality.yml
 EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{4BF4C761-8D8D-4A91-BDA1-9105DD95ACBB}"
