@@ -2,6 +2,8 @@ version: "1.0"
 linter: jetbrains/qodana-cdnet:2024.3-eap
 profile:
   name: qodana.recommended
+dotnet:
+  solution: HostsParser.sln
 include:
   - name: CheckDependencyLicenses
   - name: CompareNonConstrainedGenericWithNull
