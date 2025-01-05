@@ -4,7 +4,7 @@
 [![CI](https://img.shields.io/github/actions/workflow/status/henrikwidlund/hostsparser/ci.yml?branch=main&label=CI&logo=github)](https://github.com/henrikwidlund/hostsparser/actions/workflows/ci.yml)
 [![CodeQL](https://img.shields.io/github/actions/workflow/status/henrikwidlund/hostsparser/codeql-analysis.yml?branch=main&label=CodeQL&logo=github)](https://github.com/henrikwidlund/hostsparser/actions/workflows/codeql-analysis.yml)
 [![Docker](https://img.shields.io/github/actions/workflow/status/henrikwidlund/hostsparser/docker.yml?branch=main&label=Docker&logo=docker)](https://github.com/henrikwidlund/hostsparser/actions/workflows/docker.yml)
-[![Qodana](https://img.shields.io/github/actions/workflow/status/henrikwidlund/hostsparser/qodana-action.yml?branch=main&label=Qodana&logo=github)](https://github.com/henrikwidlund/hostsparser/actions/workflows/qodana-action.yml)
+[![Qodana](https://img.shields.io/github/actions/workflow/status/henrikwidlund/hostsparser/qodana_code_quality.yml?branch=main&label=Qodana&logo=github)](https://github.com/henrikwidlund/hostsparser/actions/workflows/qodana_code_quality.yml)
 [![codecov.io](https://img.shields.io/codecov/c/gh/henrikwidlund/hostsparser?label=codecov&logo=codecov)](https://codecov.io/gh/henrikwidlund/hostsparser)
 
 Tool for producing an `AdBlock` formatted file from different sources. `hosts` and `AdBlock` based formats are supported
