@@ -41,8 +41,8 @@ public sealed class ExecutionUtilitiesTests
         // This is "okay" because the sort isn't 100% stable and it's a tradeoff between performance and stability.
         linesWithoutMultiPass.Should().NotBeEmpty();
         linesWithMultiPass.Should().NotBeEmpty();
-        linesWithoutMultiPass.Except(linesWithMultiPass).Should().HaveCountLessOrEqualTo(5);
-        linesWithMultiPass.Except(linesWithoutMultiPass).Should().HaveCountLessOrEqualTo(5);
+        linesWithoutMultiPass.Except(linesWithMultiPass).Should().HaveCountLessThanOrEqualTo(5);
+        linesWithMultiPass.Except(linesWithoutMultiPass).Should().HaveCountLessThanOrEqualTo(5);
     }
 }
 
