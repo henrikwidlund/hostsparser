@@ -23,7 +23,7 @@ public sealed class SettingsTests
 
         // Assert
         settings.Should().NotBeNull();
-        settings!.ExtraFiltering.Should().BeTrue();
+        settings.ExtraFiltering.Should().BeTrue();
         settings.HeaderLines.Should().ContainSingle();
         settings.Filters.Should().NotBeNull();
         settings.Filters.SkipLines.Should().NotBeNull();
