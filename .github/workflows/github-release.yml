@@ -41,7 +41,7 @@ jobs:
           tag=$(git describe --tags --abbrev=0)
           # Build everything
           ASSEMBLY_VERSION="${tag//v}"
-          if [ "${{ matrix.kind }}" == "linux-x64" ]; || [ "${{ matrix.kind }}" == "linux-arm64" ]; then
+          if [ "${{ matrix.kind }}" == "linux-x64" ] || [ "${{ matrix.kind }}" == "linux-arm64" ]; then
             release_name="HostsParser-$tag-${{ matrix.target }}"
             dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release -p:Version="$ASSEMBLY_VERSION" -p:PublishAot=true
 
