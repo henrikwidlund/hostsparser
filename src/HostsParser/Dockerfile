@@ -6,8 +6,6 @@ WORKDIR /src
 COPY "HostsParser.csproj" .
 RUN dotnet restore "HostsParser.csproj"
 COPY . .
-WORKDIR "/src"
-RUN dotnet build "HostsParser.csproj" -c Release -o /app/build
 
 FROM build AS publish
 RUN dotnet publish "HostsParser.csproj" -c Release -o /app/publish /p:UseAppHost=true
@@ -15,4 +13,4 @@ RUN dotnet publish "HostsParser.csproj" -c Release -o /app/publish /p:UseAppHost
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "HostsParser.dll"]
+ENTRYPOINT ["./HostsParser"]
