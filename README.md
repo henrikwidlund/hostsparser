@@ -117,16 +117,10 @@ The built files will be put in the `artifacts` directory, in the root of the rep
 
 ### Prerequisites
 
-1. [dotnet 9 runtime](https://dotnet.microsoft.com/download/dotnet/9.0).
-2. Downloaded binaries or binaries built from source code.
+You'll need downloaded binaries or binaries built from source code.
 
-Run the following (if you built from source code, this will be in `artifacts` directory, in the root of the repository):
-
-```sh
-dotnet HostsParser.dll
-```
-
-The program creates the `filter.txt` file in the same directory.
+Execute the binary called HostsParser (if you built from source code, this will be in `artifacts` directory, in the root of the repository).
+The program creates the `filter.txt` file in the same directory as the binary.
 
 ## Docker
 
