@@ -6,14 +6,12 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FluentAssertions;
-using Xunit;
 
 namespace HostsParser.Tests;
 
 public sealed class HostUtilitiesTests
 {
-    [Fact]
+    [Test]
     public async Task ProcessHostsBased_Should_Only_Return_Dns_Entries()
     {
         // Arrange
@@ -64,12 +62,11 @@ public sealed class HostUtilitiesTests
             decoder);
 
         // Assert
-        dnsCollection.Should().NotBeEmpty();
-        dnsCollection.Should().HaveSameCount(expected);
-        dnsCollection.Should().OnlyContain(s => expected.Contains(s));
+        await Assert.That(dnsCollection).HasCount().EqualTo(expected.Count).And
+            .ContainsOnly(s => expected.Contains(s));
     }
 
-    [Fact]
+    [Test]
     public async Task ProcessAdBlockBased_Should_Only_Return_Dns_Entries()
     {
         // Arrange
@@ -109,17 +106,15 @@ public sealed class HostUtilitiesTests
         await HostUtilities.ProcessAdBlockBased(dnsCollection, allowedOverrides, memoryStream, decoder);
 
         // Assert
-        dnsCollection.Should().NotBeEmpty();
-        dnsCollection.Should().HaveSameCount(expectedBlocked);
-        dnsCollection.Should().OnlyContain(s => expectedBlocked.Contains(s));
+        await Assert.That(dnsCollection).HasCount().EqualTo(expectedBlocked.Count).And
+            .ContainsOnly(s => expectedBlocked.Contains(s));
 
-        allowedOverrides.Should().NotBeEmpty();
-        allowedOverrides.Should().HaveSameCount(expectedAllowed);
-        allowedOverrides.Should().OnlyContain(s => expectedAllowed.Contains(s));
+        await Assert.That(allowedOverrides).HasCount().EqualTo(expectedAllowed.Count).And
+            .ContainsOnly(s => expectedAllowed.Contains(s));
     }
 
-    [Fact]
-    public void RemoveKnownBadHosts_Should_Remove_All_SubDomain_Entries_Of_Known_Bad_Hosts()
+    [Test]
+    public async Task RemoveKnownBadHosts_Should_Remove_All_SubDomain_Entries_Of_Known_Bad_Hosts()
     {
         // Arrange
         var knownBadHosts = new[] { "bad-dns.com", "another-bad-dns.co.com" };
@@ -138,18 +133,17 @@ public sealed class HostUtilitiesTests
         dnsCollection = HostUtilities.RemoveKnownBadHosts(knownBadHosts, dnsCollection);
 
         // Assert
-        dnsCollection.Should().NotBeEmpty();
-        dnsCollection.Should().HaveSameCount(expected);
-        dnsCollection.Should().OnlyContain(s => expected.Contains(s));
+        await Assert.That(dnsCollection).HasCount().EqualTo(expected.Count).And
+            .ContainsOnly(s => expected.Contains(s));
     }
 
-    [Theory]
-    [InlineData("subdomain.domain.com", "domain.com", true)]
-    [InlineData("a.subdomain.domain.com", "domain.com", true)]
-    [InlineData("subdomain.domain.co.com", "domain.co.com", true)]
-    [InlineData("different.subdomain.com", "domain.com", false)]
-    [InlineData("b.different.subdomain.com", "domain.com", false)]
-    public void IsSubDomainOf_Should_Validate_SubDomain(string potentialSubDomain,
+    [Test]
+    [Arguments("subdomain.domain.com", "domain.com", true)]
+    [Arguments("a.subdomain.domain.com", "domain.com", true)]
+    [Arguments("subdomain.domain.co.com", "domain.co.com", true)]
+    [Arguments("different.subdomain.com", "domain.com", false)]
+    [Arguments("b.different.subdomain.com", "domain.com", false)]
+    public async Task IsSubDomainOf_Should_Validate_SubDomain(string potentialSubDomain,
         string potentialDomain,
         bool expected)
     {
@@ -158,6 +152,6 @@ public sealed class HostUtilitiesTests
         var isSubDomainOf = HostUtilities.IsSubDomainOf(potentialSubDomain, potentialDomain);
 
         // Assert
-        isSubDomainOf.Should().Be(expected);
+        await Assert.That(isSubDomainOf).IsEqualTo(expected);
     }
 }

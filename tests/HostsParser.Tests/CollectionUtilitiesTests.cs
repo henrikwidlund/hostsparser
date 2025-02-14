@@ -2,15 +2,15 @@
 // GNU General Public License v3.0
 
 using System.Collections.Generic;
-using FluentAssertions;
-using Xunit;
+using System.Threading.Tasks;
+using TUnit.Assertions.Enums;
 
 namespace HostsParser.Tests;
 
 public sealed class CollectionUtilitiesTests
 {
-    [Fact]
-    public void SortDnsList_Should_Be_Ordered()
+    [Test]
+    public async Task SortDnsList_Should_Be_Ordered()
     {
         // Arrange
         var dnsCollection = new List<string>
@@ -39,12 +39,12 @@ public sealed class CollectionUtilitiesTests
         var sortDnsList = CollectionUtilities.SortDnsList(shuffled);
 
         // Assert
-        sortDnsList.Should().NotBeNullOrEmpty();
-        sortDnsList.Should().ContainInOrder(dnsCollection);
+        await Assert.That(sortDnsList).IsNotEmpty()
+            .And.IsEquivalentTo(dnsCollection, CollectionOrdering.Matching);
     }
 
-    [Fact]
-    public void FilterGrouped_Should_Not_Contain_SubDomains()
+    [Test]
+    public async Task FilterGrouped_Should_Not_Contain_SubDomains()
     {
         // Arrange
         var dnsCollection = new HashSet<string>
@@ -65,8 +65,7 @@ public sealed class CollectionUtilitiesTests
         CollectionUtilities.FilterGrouped(dnsCollection);
 
         // Assert
-        dnsCollection.Should().NotBeNullOrEmpty();
-        dnsCollection.Should().HaveSameCount(expected);
-        dnsCollection.Should().OnlyContain(s => expected.Contains(s));
+        await Assert.That(dnsCollection).HasCount().EqualTo(expected.Count)
+            .And.ContainsOnly(s => expected.Contains(s));
     }
 }

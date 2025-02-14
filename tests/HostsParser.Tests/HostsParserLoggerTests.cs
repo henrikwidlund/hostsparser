@@ -3,16 +3,15 @@
 
 using System;
 using System.Collections.Generic;
-using FluentAssertions;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
-using Xunit;
 
 namespace HostsParser.Tests;
 
 public sealed class HostsParserLoggerTests
 {
-    [Fact]
-    public void Running_Should_Log_Text()
+    [Test]
+    public async Task Running_Should_Log_Text()
     {
         // Arrange
         var store = new List<string>();
@@ -22,11 +21,12 @@ public sealed class HostsParserLoggerTests
         logger.Running();
 
         // Assert
-        store.Should().HaveCount(1).And.ContainSingle(static s => s == "Information-1-Running-Running...");
+        await Assert.That(store).HasSingleItem().And
+            .ContainsOnly(static s => s == "Information-1-Running-Running...");
     }
 
-    [Fact]
-    public void UnableToRun_Should_Log_Text()
+    [Test]
+    public async Task UnableToRun_Should_Log_Text()
     {
         // Arrange
         var store = new List<string>();
@@ -36,12 +36,12 @@ public sealed class HostsParserLoggerTests
         logger.UnableToRun();
 
         // Assert
-        store.Should().HaveCount(1).And
-            .ContainSingle(static s => s == "Error-2-UnableToRun-Couldn't load settings. Terminating...");
+        await Assert.That(store).HasSingleItem().And
+            .ContainsOnly(static s => s == "Error-2-UnableToRun-Couldn't load settings. Terminating...");
     }
 
-    [Fact]
-    public void StartExtraFiltering_Should_Log_Text()
+    [Test]
+    public async Task StartExtraFiltering_Should_Log_Text()
     {
         // Arrange
         var store = new List<string>();
@@ -51,12 +51,12 @@ public sealed class HostsParserLoggerTests
         logger.StartExtraFiltering();
 
         // Assert
-        store.Should().HaveCount(1).And.ContainSingle(static s =>
-            s == "Information-3-StartExtraFiltering-Start extra filtering of duplicates.");
+        await Assert.That(store).HasSingleItem().And
+            .ContainsOnly(static s => s == "Information-3-StartExtraFiltering-Start extra filtering of duplicates.");
     }
 
-    [Fact]
-    public void DoneExtraFiltering_Should_Log_Text()
+    [Test]
+    public async Task DoneExtraFiltering_Should_Log_Text()
     {
         // Arrange
         var store = new List<string>();
@@ -66,12 +66,12 @@ public sealed class HostsParserLoggerTests
         logger.DoneExtraFiltering();
 
         // Assert
-        store.Should().HaveCount(1).And
-            .ContainSingle(static s => s == "Information-4-DoneExtraFiltering-Done extra filtering of duplicates.");
+        await Assert.That(store).HasSingleItem().And
+            .ContainsOnly(static s => s == "Information-4-DoneExtraFiltering-Done extra filtering of duplicates.");
     }
 
-    [Fact]
-    public void Finalized_Should_Log_Text()
+    [Test]
+    public async Task Finalized_Should_Log_Text()
     {
         // Arrange
         var store = new List<string>();
@@ -83,8 +83,8 @@ public sealed class HostsParserLoggerTests
         logger.Finalized(timeSpan, Count);
 
         // Assert
-        store.Should().HaveCount(1).And.ContainSingle(s =>
-            s == $"Information-5-Finalized-Execution duration - {timeSpan} | Produced {Count} hosts.");
+        await Assert.That(store).HasSingleItem().And
+            .ContainsOnly( s => s == $"Information-5-Finalized-Execution duration - {timeSpan} | Produced {Count} hosts.");
     }
 }
 

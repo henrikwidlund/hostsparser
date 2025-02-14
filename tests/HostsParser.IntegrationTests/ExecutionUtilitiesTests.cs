@@ -9,15 +9,13 @@ using System.Text;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using FluentAssertions;
 using Microsoft.Extensions.Logging.Abstractions;
-using Xunit;
 
 namespace HostsParser.IntegrationTests;
 
 public sealed class ExecutionUtilitiesTests
 {
-    [Fact]
+    [Test]
     public async Task When_Running_Execute_MultiPassFilter_Toggle_Should_Differ_At_Most_Five()
     {
         // Arrange
@@ -39,10 +37,10 @@ public sealed class ExecutionUtilitiesTests
         // Assert
         // Sometimes there's one item in linesWithoutMultiPass that aren't in linesWithMultiPass.
         // This is "okay" because the sort isn't 100% stable and it's a tradeoff between performance and stability.
-        linesWithoutMultiPass.Should().NotBeEmpty();
-        linesWithMultiPass.Should().NotBeEmpty();
-        linesWithoutMultiPass.Except(linesWithMultiPass).Should().HaveCountLessThanOrEqualTo(5);
-        linesWithMultiPass.Except(linesWithoutMultiPass).Should().HaveCountLessThanOrEqualTo(5);
+        await Assert.That(linesWithoutMultiPass).IsNotEmpty();
+        await Assert.That(linesWithMultiPass).IsNotEmpty();
+        await Assert.That(linesWithoutMultiPass.Except(linesWithMultiPass)).HasCount().LessThanOrEqualTo(5);
+        await Assert.That(linesWithMultiPass.Except(linesWithoutMultiPass)).HasCount().LessThanOrEqualTo(5);
     }
 }
 
