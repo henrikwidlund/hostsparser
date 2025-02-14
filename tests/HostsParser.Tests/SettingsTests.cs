@@ -1,18 +1,18 @@
 // Copyright Henrik Widlund
 // GNU General Public License v3.0
 
+using System;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using FluentAssertions;
-using Xunit;
 
 namespace HostsParser.Tests;
 
 public sealed class SettingsTests
 {
-    [Fact]
+    [Test]
     public async Task Settings_Should_Be_Deserialized_From_AppSettings()
     {
         // Arrange
@@ -22,36 +22,30 @@ public sealed class SettingsTests
         var settings = await JsonSerializer.DeserializeAsync<Settings>(fileStream);
 
         // Assert
-        settings.Should().NotBeNull();
-        settings.ExtraFiltering.Should().BeTrue();
-        settings.HeaderLines.Should().ContainSingle();
-        settings.Filters.Should().NotBeNull();
-        settings.Filters.SkipLines.Should().NotBeNull();
-        settings.Filters.SkipLines.Should().ContainSingle();
-        settings.Filters.SkipLinesBytes.Should().NotBeNull();
-        settings.Filters.SkipLinesBytes.Should().ContainSingle();
-        settings.Filters.Sources.Should().NotBeNullOrEmpty();
-        settings.Filters.Sources.Should().HaveCount(2);
+        await Assert.That(settings).IsNotNull();
+        await Assert.That(settings!.ExtraFiltering).IsTrue();
+        await Assert.That(settings.HeaderLines).HasSingleItem();
+        await Assert.That(settings.Filters).IsNotNull();
+        await Assert.That(settings.Filters.SkipLines).HasSingleItem();
+        await Assert.That(settings.Filters.SkipLinesBytes).HasSingleItem();
+        await Assert.That(settings.Filters.Sources).HasCount().EqualTo(2);
 
-        var hostsSource = settings.Filters.Sources.Should()
-            .ContainSingle(static item => item.Format == SourceFormat.Hosts).Subject;
-        hostsSource.Uri.Should().Be("https://hosts-based.uri");
-        hostsSource.Prefix.Should().Be("0.0.0.0 ");
-        hostsSource.SourceAction.Should().Be(SourceAction.Combine);
-        hostsSource.SourcePrefix.PrefixBytes.Should().NotBeNull();
-        hostsSource.SourcePrefix.PrefixBytes.Should().BeEquivalentTo(Encoding.UTF8.GetBytes(hostsSource.Prefix));
-        hostsSource.SourcePrefix.WwwPrefixBytes.Should()
-            .BeEquivalentTo(Encoding.UTF8.GetBytes(hostsSource.Prefix + "www."));
+        await Assert.That(settings.Filters.Sources.Count(static item => item.Format == SourceFormat.Hosts)).IsEqualTo(1);
+        var hostsSource = settings.Filters.Sources.First(static item => item.Format == SourceFormat.Hosts);
+        await Assert.That(hostsSource.Uri).IsEqualTo(new Uri("https://hosts-based.uri"));
+        await Assert.That(hostsSource.Prefix).IsEqualTo("0.0.0.0 ");
+        await Assert.That(hostsSource.SourceAction).IsEqualTo(SourceAction.Combine);
+        await Assert.That(hostsSource.SourcePrefix.PrefixBytes).IsEquivalentTo(Encoding.UTF8.GetBytes(hostsSource.Prefix));
+        await Assert.That(hostsSource.SourcePrefix.WwwPrefixBytes).IsEquivalentTo(Encoding.UTF8.GetBytes(hostsSource.Prefix + "www."));
 
-        var adBlockSource = settings.Filters.Sources.Should()
-            .ContainSingle(static item => item.Format == SourceFormat.AdBlock).Subject;
-        adBlockSource.Uri.Should().Be("https://adblock-based.uri");
-        adBlockSource.Prefix.Should().BeEmpty();
-        adBlockSource.SourceAction.Should().Be(SourceAction.ExternalCoverage);
-        adBlockSource.SourcePrefix.PrefixBytes.Should().BeNull();
-        adBlockSource.SourcePrefix.PrefixBytes.Should().BeNull();
+        await Assert.That(settings.Filters.Sources.Count(static item => item.Format == SourceFormat.AdBlock)).IsEqualTo(1);
+        var adBlockSource = settings.Filters.Sources.First(static item => item.Format == SourceFormat.AdBlock);
+        await Assert.That(adBlockSource.Uri).IsEqualTo(new Uri("https://adblock-based.uri"));
+        await Assert.That(adBlockSource.Prefix).IsEmpty();
+        await Assert.That(adBlockSource.SourceAction).IsEqualTo(SourceAction.ExternalCoverage);
+        await Assert.That(adBlockSource.SourcePrefix.PrefixBytes).IsNull();
+        await Assert.That(adBlockSource.SourcePrefix.WwwPrefixBytes).IsNull();
 
-        settings.KnownBadHosts.Should().NotBeNull();
-        settings.KnownBadHosts.Should().ContainSingle();
+        await Assert.That(settings.KnownBadHosts).HasSingleItem();
     }
 }

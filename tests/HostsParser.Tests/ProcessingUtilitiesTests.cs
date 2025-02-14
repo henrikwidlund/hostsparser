@@ -2,15 +2,14 @@
 // GNU General Public License v3.0
 
 using System.Collections.Generic;
-using FluentAssertions;
-using Xunit;
+using System.Threading.Tasks;
 
 namespace HostsParser.Tests;
 
 public sealed class ProcessingUtilitiesTests
 {
-    [Fact]
-    public void ProcessCombined_Should_Remove_Redundant_Entries()
+    [Test]
+    public async Task ProcessCombined_Should_Remove_Redundant_Entries()
     {
         // Arrange
         var sortedDnsList = new List<string>
@@ -34,13 +33,12 @@ public sealed class ProcessingUtilitiesTests
             filteredCache);
 
         // Assert
-        sortedDnsList.Should().NotBeEmpty();
-        sortedDnsList.Should().HaveSameCount(expected);
-        sortedDnsList.Should().OnlyContain(s => expected.Contains(s));
+        await Assert.That(sortedDnsList).HasCount().EqualTo(expected.Count)
+            .And.ContainsOnly(s => expected.Contains(s));
     }
 
-    [Fact]
-    public void ProcessCombinedWithMultipleRounds_Should_Remove_Redundant_Entries()
+    [Test]
+    public async Task ProcessCombinedWithMultipleRounds_Should_Remove_Redundant_Entries()
     {
         // Arrange
         var sortedDnsList = new List<string>
@@ -64,13 +62,12 @@ public sealed class ProcessingUtilitiesTests
             filteredCache);
 
         // Assert
-        sortedDnsList.Should().NotBeEmpty();
-        sortedDnsList.Should().HaveSameCount(expected);
-        sortedDnsList.Should().OnlyContain(s => expected.Contains(s));
+        await Assert.That(sortedDnsList).HasCount().EqualTo(expected.Count)
+            .And.ContainsOnly(s => expected.Contains(s));
     }
 
-    [Fact]
-    public void ProcessWithExtraFiltering_Should_Remove_All_Matching_SubDomains()
+    [Test]
+    public async Task ProcessWithExtraFiltering_Should_Remove_All_Matching_SubDomains()
     {
         // Arrange
         var sortedDnsList = new List<string>
@@ -94,8 +91,7 @@ public sealed class ProcessingUtilitiesTests
             filteredCache);
 
         // Assert
-        sortedDnsList.Should().NotBeEmpty();
-        sortedDnsList.Should().HaveSameCount(expected);
-        sortedDnsList.Should().OnlyContain(s => expected.Contains(s));
+        await Assert.That(sortedDnsList).HasCount().EqualTo(expected.Count)
+            .And.ContainsOnly(s => expected.Contains(s));
     }
 }
