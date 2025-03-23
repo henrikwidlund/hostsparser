@@ -2,8 +2,8 @@
 // GNU General Public License v3.0
 
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
+using ZLinq;
 
 namespace HostsParser;
 
@@ -106,6 +106,7 @@ public static class ProcessingUtilities
         Parallel.ForEach(CollectionUtilities.SortDnsList(externalCoverageLines), item =>
         {
             foreach (var localItem in sortedDnsList
+                         .AsValueEnumerable()
                          .Where(localItem => HostUtilities.IsSubDomainOf(localItem, item)))
             {
                 filteredCache.Add(localItem);

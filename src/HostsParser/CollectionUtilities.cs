@@ -4,8 +4,8 @@
 using System;
 using System.Buffers;
 using System.Collections.Generic;
-using System.Linq;
 using System.Runtime.CompilerServices;
+using ZLinq;
 
 namespace HostsParser;
 
@@ -18,11 +18,21 @@ public static class CollectionUtilities
     public static List<string> SortDnsList(ICollection<string> dnsCollection)
     {
         List<string> list = new(dnsCollection.Count);
-        list.AddRange(dnsCollection
+        var (array, size) = dnsCollection
+            .AsValueEnumerable()
             .Select(static d => new StringSortItem(d))
             .OrderBy(static l => GetTopMostDns(l.RawMemory), ReadOnlyMemoryCharComparer.Instance)
             .ThenBy(static l => l.RawMemory.Length)
-            .Select(static l => l.Raw));
+            .Select(static l => l.Raw)
+            .ToArrayPool();
+        try
+        {
+            list.AddRange(array.AsSpan()[..size]);
+        }
+        finally
+        {
+            ArrayPool<string>.Shared.Return(array);
+        }
 
         return list;
     }
@@ -43,7 +53,7 @@ public static class CollectionUtilities
                 || value.Count < 2)
                 continue;
 
-            foreach (var item in value.Where(item => key != item.GetHashCode()))
+            foreach (var item in value.AsValueEnumerable().Where(item => key != item.GetHashCode()))
             {
                 filtered.Add(item);
             }
