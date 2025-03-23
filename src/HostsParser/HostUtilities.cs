@@ -10,6 +10,7 @@ using System.IO.Pipelines;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using ZLinq;
 
 namespace HostsParser;
 
@@ -59,15 +60,10 @@ public static class HostUtilities
     {
         var except = new List<string>(hosts.Count);
 
+        var knownBadHostValueEnumerable = knownBadHosts.AsValueEnumerable();
         foreach (var host in hosts)
         {
-            var found = false;
-            foreach (var knownBadHost in knownBadHosts)
-            {
-                if (!IsSubDomainOf(host, knownBadHost)) continue;
-                found = true;
-                break;
-            }
+            var found = knownBadHostValueEnumerable.Any(knownBadHost => IsSubDomainOf(host, knownBadHost));
 
             if (found)
                 except.Add(host);
@@ -196,34 +192,64 @@ public static class HostUtilities
         ICollection<string> allowedOverrides,
         Decoder decoder)
     {
-        var realSlice = slice.IsSingleSegment
-            ? slice.FirstSpan
-            : slice.ToArray().AsSpan();
-        if (realSlice.IsEmpty)
-            return;
-
-        if (AdBlockBasedShouldSkipLine(realSlice))
-            return;
-
-        var isAllow = realSlice[0] == Constants.AtSign;
-
-        realSlice = HandlePipeOrAt(realSlice, isAllow);
-
-        HandleDelimiter(ref realSlice, Constants.HatSign);
-        if (realSlice.IndexOfAnyExcept(Constants.Space, Constants.Tab) == -1)
-            return;
-
-        var chars = ArrayPool<char>.Shared.Rent(256);
+        byte[]? bytes = null;
         try
         {
-            var span = chars.AsSpan();
-            decoder.GetChars(realSlice, span, false);
-            AddItem(isAllow ? allowedOverrides : resultCollection, span[..realSlice.Length].Trim().ToString());
+            var realSlice = slice.IsSingleSegment
+                ? slice.FirstSpan
+                : slice.Length <= 128 ? Get(slice, stackalloc byte[(int)slice.Length]):
+                (bytes = GetBytes(slice, out var length)).AsSpan()[..length!.Value];
+            if (realSlice.IsEmpty)
+                return;
+
+            if (AdBlockBasedShouldSkipLine(realSlice))
+                return;
+
+            var isAllow = realSlice[0] == Constants.AtSign;
+
+            realSlice = HandlePipeOrAt(realSlice, isAllow);
+
+            HandleDelimiter(ref realSlice, Constants.HatSign);
+            if (realSlice.IndexOfAnyExcept(Constants.Space, Constants.Tab) == -1)
+                return;
+
+            var chars = ArrayPool<char>.Shared.Rent(256);
+            try
+            {
+                var span = chars.AsSpan();
+                decoder.GetChars(realSlice, span, false);
+                AddItem(isAllow ? allowedOverrides : resultCollection, span[..realSlice.Length].Trim().ToString());
+            }
+            finally
+            {
+                ArrayPool<char>.Shared.Return(chars);
+            }
         }
         finally
         {
-            ArrayPool<char>.Shared.Return(chars);
+            if (bytes is not null)
+                ArrayPool<byte>.Shared.Return(bytes);
         }
+    }
+
+    private static ReadOnlySpan<byte> Get(in ReadOnlySequence<byte> sequence, in Span<byte> buffer)
+    {
+        sequence.CopyTo(buffer);
+        return buffer;
+    }
+
+    private static byte[] GetBytes(in ReadOnlySequence<byte> sequence, out int? length)
+    {
+        if (sequence.Length > int.MaxValue)
+        {
+            length = null;
+            return sequence.ToArray();
+        }
+        var intLength = (int)sequence.Length;
+        var bytes = ArrayPool<byte>.Shared.Rent(intLength);
+        length = intLength;
+        sequence.CopyTo(bytes);
+        return bytes;
     }
 
     private static void AddItem(ICollection<string> resultCollection, string item)
