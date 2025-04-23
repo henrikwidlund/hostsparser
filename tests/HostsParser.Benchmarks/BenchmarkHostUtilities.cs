@@ -26,6 +26,7 @@ public class BenchmarkProcessHostsBased : BenchmarkStreamBase
         => HostUtilities.ProcessHostsBased(new HashSet<string>(140_000),
             _stream!,
             BenchmarkTestData.Settings.Filters.SkipLinesBytes,
+            null,
             BenchmarkTestData.Settings.Filters.Sources[0].SourcePrefix,
             BenchmarkTestData.Decoder);
 }
@@ -47,6 +48,7 @@ public class BenchmarkProcessAdBlockBased : BenchmarkStreamBase
     public Task ProcessAdBlockBased()
         => HostUtilities.ProcessAdBlockBased(new HashSet<string>(50_000),
             new HashSet<string>(200),
+            null,
             _stream!,
             BenchmarkTestData.Decoder);
 }
@@ -71,6 +73,7 @@ public class BenchmarkRemoveKnownBadHosts : BenchmarkStreamBase
             .ProcessHostsBased(hostsBasedLines,
                 stream,
                 BenchmarkTestData.Settings.Filters.SkipLinesBytes,
+                null,
                 BenchmarkTestData.Settings.Filters.Sources[0].SourcePrefix,
                 BenchmarkTestData.Decoder)
             .GetAwaiter().GetResult();
@@ -80,6 +83,7 @@ public class BenchmarkRemoveKnownBadHosts : BenchmarkStreamBase
         var allowedOverrides = new HashSet<string>(200);
         HostUtilities.ProcessAdBlockBased(dnsHashSet,
                 allowedOverrides,
+                null,
                 stream,
                 BenchmarkTestData.Decoder)
             .GetAwaiter().GetResult();

@@ -41,11 +41,14 @@ public sealed record Settings(
 /// </summary>
 /// <param name="Sources">The <see cref="SourceItem"/>s settings for fetching and processing filters.</param>
 /// <param name="SkipLines">Array of strings that, if present in the result from <see cref="SourceItem.Uri"/> in <see cref="Sources"/> will be filtered out.</param>
+/// <param name="SkipBlockedHosts">Array of strings that, if present in the result from <see cref="SourceItem.Uri"/> in <see cref="Sources"/> will be excluded from the result.</param>
 public sealed record SourceEntry(
     SourceItem[] Sources,
-    string[]? SkipLines)
+    string[]? SkipLines,
+    string[]? SkipBlockedHosts)
 {
     public readonly byte[][]? SkipLinesBytes = SkipLines?.Select(static s => Encoding.UTF8.GetBytes(s)).ToArray();
+    public readonly byte[][]? SkipBlockedHostsBytes = SkipBlockedHosts?.Select(static s => Encoding.UTF8.GetBytes(s)).ToArray();
 }
 
 /// <summary>

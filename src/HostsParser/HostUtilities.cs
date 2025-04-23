@@ -9,6 +9,7 @@ using System.IO;
 using System.IO.Pipelines;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using ZLinq;
 
@@ -22,16 +23,18 @@ public static class HostUtilities
     /// <param name="dnsHashSet">The <see cref="HashSet{T}"/> that results are added to.</param>
     /// <param name="stream">The <see cref="Stream"/> to process.</param>
     /// <param name="skipLines">The lines that should be excluded from the returned result.</param>
+    /// <param name="skipBlockedHosts">The hosts that should be excluded from the result, even if it's present in the <paramref name="stream"/>.</param>
     /// <param name="sourcePrefix">The <see cref="SourcePrefix"/> with definitions on what should be removed from each row.</param>
     /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
     public static Task ProcessHostsBased(HashSet<string> dnsHashSet,
         Stream stream,
         byte[][]? skipLines,
+        byte[][]? skipBlockedHosts,
         in SourcePrefix sourcePrefix,
         Decoder decoder)
     {
         var pipeReader = PipeReader.Create(stream);
-        return ReadPipeAsync(pipeReader, dnsHashSet, null, skipLines, sourcePrefix, decoder);
+        return ReadPipeAsync(pipeReader, dnsHashSet, null, skipLines, skipBlockedHosts, sourcePrefix, decoder);
     }
 
     /// <summary>
@@ -39,15 +42,17 @@ public static class HostUtilities
     /// </summary>
     /// <param name="dnsHashSet">The <see cref="HashSet{T}"/> that blocked results are added to.</param>
     /// <param name="allowedOverrides">The <see cref="HashSet{T}"/> that allowed results are added to.</param>
+    /// <param name="skipBlockedHosts">The hosts that should be excluded from the result, even if it's present in the <paramref name="stream"/>.</param>
     /// <param name="stream">The <see cref="Stream"/> to process.</param>
     /// <param name="decoder">The <see cref="Decoder"/> used when converting the bytes in <paramref name="stream"/>.</param>
     public static Task ProcessAdBlockBased(HashSet<string> dnsHashSet,
         HashSet<string> allowedOverrides,
+        byte[][]? skipBlockedHosts,
         Stream stream,
         Decoder decoder)
     {
         var pipeReader = PipeReader.Create(stream);
-        return ReadPipeAsync(pipeReader, dnsHashSet, allowedOverrides, null, null, decoder);
+        return ReadPipeAsync(pipeReader, dnsHashSet, allowedOverrides, null, skipBlockedHosts, null, decoder);
     }
 
     /// <summary>
@@ -95,6 +100,7 @@ public static class HostUtilities
         ICollection<string> resultCollection,
         ICollection<string>? allowedOverrides,
         byte[][]? skipLines,
+        byte[][]? skipBlockedHosts,
         SourcePrefix? sourcePrefix,
         Decoder decoder)
     {
@@ -111,14 +117,14 @@ public static class HostUtilities
 
                 if (position is null) continue;
 
-                ProcessLine(buffer.Slice(0, position.Value), resultCollection, allowedOverrides, skipLines, sourcePrefix, decoder);
+                ProcessLine(buffer.Slice(0, position.Value), resultCollection, allowedOverrides, skipLines, skipBlockedHosts, sourcePrefix, decoder);
                 buffer = buffer.Slice(buffer.GetPosition(1, position.Value));
             } while (position is not null);
 
             reader.AdvanceTo(buffer.Start, buffer.End);
 
             if (!result.IsCompleted) continue;
-            ProcessLastChunk(resultCollection, allowedOverrides, skipLines, sourcePrefix, decoder, buffer);
+            ProcessLastChunk(resultCollection, allowedOverrides, skipLines, skipBlockedHosts, sourcePrefix, decoder, buffer);
 
             break;
         }
@@ -129,33 +135,36 @@ public static class HostUtilities
     private static void ProcessLastChunk(ICollection<string> resultCollection,
         ICollection<string>? allowedOverrides,
         byte[][]? skipLines,
+        byte[][]? skipBlockedHosts,
         in SourcePrefix? sourcePrefix,
         Decoder decoder,
         in ReadOnlySequence<byte> buffer)
     {
         if (buffer.IsEmpty) return;
-        ProcessLine(buffer, resultCollection, allowedOverrides, skipLines, sourcePrefix, decoder);
+        ProcessLine(buffer, resultCollection, allowedOverrides, skipLines, skipBlockedHosts, sourcePrefix, decoder);
     }
 
     private static void ProcessLine(in ReadOnlySequence<byte> slice,
         ICollection<string> resultCollection,
         ICollection<string>? allowedOverrides,
         byte[][]? skipLines,
+        byte[][]? skipBlockedHosts,
         in SourcePrefix? sourcePrefix,
         Decoder decoder)
     {
         if (skipLines is null)
         {
             Debug.Assert(allowedOverrides is not null);
-            ProcessAdBlockBasedLine(slice, resultCollection, allowedOverrides, decoder);
+            ProcessAdBlockBasedLine(slice, resultCollection, allowedOverrides, skipBlockedHosts, decoder);
         }
         else
-            ProcessHostsBasedLine(slice, resultCollection, skipLines, sourcePrefix, decoder);
+            ProcessHostsBasedLine(slice, resultCollection, skipLines, skipBlockedHosts, sourcePrefix, decoder);
     }
 
     private static void ProcessHostsBasedLine(in ReadOnlySequence<byte> slice,
         ICollection<string> resultCollection,
         byte[][] skipLines,
+        byte[][]? skipBlockedHosts,
         in SourcePrefix? sourcePrefix,
         Decoder decoder)
     {
@@ -171,7 +180,7 @@ public static class HostUtilities
         if (HostsBasedShouldSkipLine(realSlice, skipLines))
             return;
 
-        realSlice = HandlePrefixes(realSlice, sourcePrefix);
+        realSlice = HandlePrefixes(realSlice, sourcePrefix, skipBlockedHosts);
         HandleDelimiter(ref realSlice, Constants.HashSign);
 
         var chars = ArrayPool<char>.Shared.Rent(256);
@@ -190,6 +199,7 @@ public static class HostUtilities
     private static void ProcessAdBlockBasedLine(in ReadOnlySequence<byte> slice,
         ICollection<string> resultCollection,
         ICollection<string> allowedOverrides,
+        byte[][]? skipBlockedHosts,
         Decoder decoder)
     {
         byte[]? bytes = null;
@@ -213,17 +223,12 @@ public static class HostUtilities
             if (realSlice.IndexOfAnyExcept(Constants.Space, Constants.Tab) == -1)
                 return;
 
-            var chars = ArrayPool<char>.Shared.Rent(256);
-            try
-            {
-                var span = chars.AsSpan();
-                decoder.GetChars(realSlice, span, false);
-                AddItem(isAllow ? allowedOverrides : resultCollection, span[..realSlice.Length].Trim().ToString());
-            }
-            finally
-            {
-                ArrayPool<char>.Shared.Return(chars);
-            }
+            if (IsSkipBlockedHosts(realSlice, skipBlockedHosts))
+                return;
+
+            Span<char> chars = stackalloc char[256];
+            decoder.GetChars(realSlice, chars, false);
+            AddItem(isAllow ? allowedOverrides : resultCollection, chars[..realSlice.Length].Trim().ToString());
         }
         finally
         {
@@ -252,6 +257,8 @@ public static class HostUtilities
         return bytes;
     }
 
+    private static readonly Lock Lock = new();
+
     private static void AddItem(ICollection<string> resultCollection, string item)
     {
         try
@@ -261,7 +268,7 @@ public static class HostUtilities
         catch (InvalidOperationException)
         {
             // Try add again if collection was modified.
-            lock (resultCollection)
+            lock (Lock)
             {
                 resultCollection.Add(item);
             }
@@ -304,16 +311,41 @@ public static class HostUtilities
     }
 
     private static ReadOnlySpan<byte> HandlePrefixes(ReadOnlySpan<byte> lineBytes,
-        SourcePrefix? sourcePrefix)
+        SourcePrefix? sourcePrefix,
+        byte[][]? skipBlockedHosts)
     {
         if (sourcePrefix?.WwwPrefixBytes is not null
             && lineBytes.StartsWith(sourcePrefix.Value.WwwPrefixBytes))
-            return lineBytes[sourcePrefix.Value.WwwPrefixBytes.Length..];
+        {
+            var readOnlySpan = lineBytes[sourcePrefix.Value.WwwPrefixBytes.Length..];
+            if (!IsSkipBlockedHosts(readOnlySpan, skipBlockedHosts))
+            {
+                return readOnlySpan;
+            }
+        }
 
         if (sourcePrefix?.PrefixBytes is not null
             && lineBytes.StartsWith(sourcePrefix.Value.PrefixBytes))
-            return lineBytes[sourcePrefix.Value.PrefixBytes.Length..];
+        {
+            var readOnlySpan = lineBytes[sourcePrefix.Value.PrefixBytes.Length..];
+            return IsSkipBlockedHosts(readOnlySpan, skipBlockedHosts) ? [] : readOnlySpan;
+        }
 
         return lineBytes;
+    }
+
+    private static bool IsSkipBlockedHosts(in ReadOnlySpan<byte> lineBytes,
+        byte[][]? skipBlockedHosts)
+    {
+        if (skipBlockedHosts is null)
+            return false;
+
+        foreach (var t in skipBlockedHosts)
+        {
+            if (lineBytes.SequenceEqual(t))
+                return true;
+        }
+
+        return false;
     }
 }

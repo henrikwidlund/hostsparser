@@ -52,6 +52,7 @@ public abstract class BenchmarkCollectionUtilitiesBase : BenchmarkStreamBase
             .ProcessHostsBased(hostsBasedLines,
                 stream,
                 BenchmarkTestData.Settings.Filters.SkipLinesBytes,
+                null,
                 BenchmarkTestData.Settings.Filters.Sources[0].SourcePrefix,
                 BenchmarkTestData.Decoder)
             .GetAwaiter().GetResult();
@@ -61,6 +62,7 @@ public abstract class BenchmarkCollectionUtilitiesBase : BenchmarkStreamBase
         var allowedOverrides = new HashSet<string>(200);
         HostUtilities.ProcessAdBlockBased(dnsHashSet,
                 allowedOverrides,
+                null,
                 stream,
                 BenchmarkTestData.Decoder)
             .GetAwaiter().GetResult();
