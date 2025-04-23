@@ -67,6 +67,9 @@
       "0.0.0.0 0.0.0.0",
       "0.0.0.0 fe #00::0 ip6-localnet",
       "0.0.0.0 ff #00::0 ip6-mcastprefix"
+    ],
+    "SkipBlockedHosts": [
+      "b-cdn.net"
     ]
   },
   "ExtraFiltering": false,

@@ -111,6 +111,7 @@ public static class ExecutionUtilities
                         sourceItem.SourceAction == SourceAction.Combine ? combineLines : externalCoverageLines,
                         stream,
                         settings.Filters.SkipLinesBytes,
+                        settings.Filters.SkipBlockedHostsBytes,
                         sourceItem.SourcePrefix,
                         decoder);
                 }
@@ -119,6 +120,7 @@ public static class ExecutionUtilities
                     await HostUtilities.ProcessAdBlockBased(
                         sourceItem.SourceAction == SourceAction.Combine ? combineLines : externalCoverageLines,
                         allowedOverrides,
+                        settings.Filters.SkipBlockedHostsBytes,
                         stream,
                         decoder);
                 }
