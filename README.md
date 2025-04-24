@@ -179,10 +179,11 @@ You may adjust the configuration of the application by modifying the `appsetting
 
 ### <a name="filters"></a>`Filters`
 
-| Property                 | Type       | Required | Description                                                                          |
-|--------------------------|------------|----------|--------------------------------------------------------------------------------------|
-| [`Sources`](#sourceitem) | `object[]` | `true`   | Array of [`SourceItem`](#sourceitem) used for fetching and processing filters.       |
-| `SkipLines`              | `string[]` | `true`   | Array of strings that, if present in the result from `Sources` will be filtered out. |
+| Property                 | Type       | Required | Description                                                                                      |
+|--------------------------|------------|----------|--------------------------------------------------------------------------------------------------|
+| [`Sources`](#sourceitem) | `object[]` | `true`   | Array of [`SourceItem`](#sourceitem) used for fetching and processing filters.                   |
+| `SkipLines`              | `string[]` | `true`   | Array of strings that, if present in the result from `Sources` will be filtered out.             |
+| `SkipBlockedHosts`       | `string[]` | `true`   | Array of strings that, if present in the result from `Sources` will be excluded from the result. |
 
 ### <a name="sourceitem"></a>`SourceItem`
 
