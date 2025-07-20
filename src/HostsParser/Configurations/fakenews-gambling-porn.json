@@ -30,7 +30,11 @@
       "ff02::3 ip6-allhosts",
       "0.0.0.0 0.0.0.0",
       "0.0.0.0 fe #00::0 ip6-localnet",
-      "0.0.0.0 ff #00::0 ip6-mcastprefix"
+      "0.0.0.0 ff #00::0 ip6-mcastprefix",
+      "127.0.0.1 localhost #[IPv4]",
+      "::1 localhost #[IPv6]",
+      "127.0.0.1  localhost",
+      "::1  localhost"
     ],
     "SkipBlockedHosts": [
       "b-cdn.net"
@@ -87,7 +91,8 @@
     "sextracker.be",
     "sextracker.de",
     "shengen.ru",
-    "trafficdeposit.com"
+    "trafficdeposit.com",
+    "weather-analytics-events.apple.com"
   ],
   "OutputFileName": "filter.txt"
 }
