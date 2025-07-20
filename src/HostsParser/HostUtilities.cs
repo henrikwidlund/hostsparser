@@ -261,17 +261,9 @@ public static class HostUtilities
 
     private static void AddItem(ICollection<string> resultCollection, string item)
     {
-        try
+        lock (Lock)
         {
             resultCollection.Add(item);
-        }
-        catch (InvalidOperationException)
-        {
-            // Try add again if collection was modified.
-            lock (Lock)
-            {
-                resultCollection.Add(item);
-            }
         }
     }
 
