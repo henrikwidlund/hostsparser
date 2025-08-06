@@ -30,6 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.NET.ILLink.Tasks" Version="9.0.8" />
     <Content Include="Configurations\fakenews-gambling-porn.json">
       <Link>appsettings.json</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
