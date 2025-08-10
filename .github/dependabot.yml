@@ -4,25 +4,13 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    assignees:
-      - "henrikwidlund"
-    reviewers:
-      - "henrikwidlund"
 
   - package-ecosystem: "docker"
     directory: "/src/HostsParser/"
     schedule:
       interval: "daily"
-    assignees:
-      - "henrikwidlund"
-    reviewers:
-      - "henrikwidlund"
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
-    assignees:
-      - "henrikwidlund"
-    reviewers:
-      - "henrikwidlund"
