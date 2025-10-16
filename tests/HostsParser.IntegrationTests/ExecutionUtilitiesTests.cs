@@ -39,8 +39,8 @@ public sealed class ExecutionUtilitiesTests
         // This is "okay" because the sort isn't 100% stable and it's a tradeoff between performance and stability.
         await Assert.That(linesWithoutMultiPass).IsNotEmpty();
         await Assert.That(linesWithMultiPass).IsNotEmpty();
-        await Assert.That(linesWithoutMultiPass.Except(linesWithMultiPass).Count()).IsLessThanOrEqualTo(5);
-        await Assert.That(linesWithMultiPass.Except(linesWithoutMultiPass).Count()).IsLessThanOrEqualTo(5);
+        await Assert.That(linesWithoutMultiPass.Except(linesWithMultiPass)).HasCount().LessThanOrEqualTo(5);
+        await Assert.That(linesWithMultiPass.Except(linesWithoutMultiPass)).HasCount().LessThanOrEqualTo(5);
     }
 }
 
