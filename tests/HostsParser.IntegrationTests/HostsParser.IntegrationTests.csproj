@@ -11,7 +11,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="TUnit" Version="0.77.3" />
+    <PackageReference Include="TUnit" Version="0.78.0" />
   </ItemGroup>
 
   <ItemGroup>
