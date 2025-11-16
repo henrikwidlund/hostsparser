@@ -11,9 +11,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-24.04-arm
-    env:
-      CollectCoverage: true
-      CoverletOutputFormat: opencover
 
     steps:
       - uses: actions/checkout@v5
@@ -32,7 +29,7 @@ jobs:
         run: dotnet build --no-restore
 
       - name: Run Unit Tests
-        run: dotnet test --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:ExcludeByFile="**/HostsParser/Program.cs"
+        run: dotnet test --no-build --verbosity normal --coverage --coverage-output-format cobertura --coverage-settings coverage.runsettings --results-directory ./coverage
 
       - uses: codecov/codecov-action@v5
         if: github.actor != 'dependabot[bot]'
@@ -40,3 +37,4 @@ jobs:
           flags: unittests
           token: ${{ secrets.CODECOV_TOKEN }}
           fail_ci_if_error: true
+          directory: ./coverage
