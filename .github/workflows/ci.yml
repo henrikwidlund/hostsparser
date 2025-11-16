@@ -37,11 +37,26 @@ jobs:
           ls -laR ./coverage || echo "Coverage directory not found"
           echo "All cobertura files:"
           find . -name "*.cobertura.xml" -type f || echo "No cobertura files found"
+          # Rename coverage files to .xml extension that codecov recognizes
+          counter=1
+          for file in ./coverage/*.cobertura.xml; do
+            if [ -f "$file" ]; then
+              mv "$file" "./coverage/coverage${counter}.xml"
+              echo "Renamed $file to coverage${counter}.xml"
+              counter=$((counter + 1))
+            fi
+          done
+          echo "Files after rename:"
+          ls -la ./coverage/
+          echo "Checking first file content:"
+          head -5 ./coverage/coverage1.xml || echo "File not found"
 
-      - uses: codecov/codecov-action@v5
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5
         if: github.actor != 'dependabot[bot]'
         with:
           directory: ./coverage
           flags: unittests
           token: ${{ secrets.CODECOV_TOKEN }}
           fail_ci_if_error: true
+          verbose: true
