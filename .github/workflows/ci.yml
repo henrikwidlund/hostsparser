@@ -31,10 +31,17 @@ jobs:
       - name: Run Unit Tests
         run: dotnet test --no-build --verbosity normal --coverage --coverage-output-format cobertura --coverage-settings coverage.runsettings --results-directory ./coverage
 
+      - name: List coverage files
+        run: |
+          echo "Contents of coverage directory:"
+          ls -laR ./coverage || echo "Coverage directory not found"
+          echo "All cobertura files:"
+          find . -name "*.cobertura.xml" -type f || echo "No cobertura files found"
+
       - uses: codecov/codecov-action@v5
         if: github.actor != 'dependabot[bot]'
         with:
+          directory: ./coverage
           flags: unittests
           token: ${{ secrets.CODECOV_TOKEN }}
           fail_ci_if_error: true
-          directory: ./coverage
