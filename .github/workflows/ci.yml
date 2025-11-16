@@ -11,9 +11,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-24.04-arm
-    env:
-      CollectCoverage: true
-      CoverletOutputFormat: opencover
 
     steps:
       - uses: actions/checkout@v5
@@ -32,11 +29,24 @@ jobs:
         run: dotnet build --no-restore
 
       - name: Run Unit Tests
-        run: dotnet test --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:ExcludeByFile="**/HostsParser/Program.cs"
+        run: dotnet test --no-build --verbosity normal --coverage --coverage-output-format cobertura --coverage-settings coverage.runsettings --results-directory ./coverage
 
-      - uses: codecov/codecov-action@v5
+      - name: Prepare coverage files for Codecov
+        run: |
+          # Rename coverage files to .xml extension that codecov recognizes
+          counter=1
+          for file in ./coverage/*.cobertura.xml; do
+            if [ -f "$file" ]; then
+              mv "$file" "./coverage/coverage${counter}.xml"
+              counter=$((counter + 1))
+            fi
+          done
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@5a1091511ad55cbe89839c7260b706298ca349f7
         if: github.actor != 'dependabot[bot]'
         with:
+          directory: ./coverage
           flags: unittests
           token: ${{ secrets.CODECOV_TOKEN }}
           fail_ci_if_error: true
