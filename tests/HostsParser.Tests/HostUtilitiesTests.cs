@@ -97,13 +97,16 @@ public sealed class HostUtilitiesTests
                                      + "\n"
                                      + "||www.b-cdn.net^"
                                      + "\n"
+                                     + "\n"
+                                     + "@@||explicit.com^|"
+                                     + "\n"
                                      + "\n";
 
         var overrideAllowedHosts = new[] { "b-cdn.net"}
             .Select(static s => Encoding.UTF8.GetBytes(s))
             .ToArray();
         var expectedBlocked = new HashSet<string> { "dns-a.com", "dns-b.com", "dns-c.com", "www.b-cdn.net" };
-        var expectedAllowed = new HashSet<string> { "||dns-d.com" };
+        var expectedAllowed = new HashSet<string> { "||dns-d.com", "||explicit.com^|" };
         await using var memoryStream = new MemoryStream();
         await using var streamWriter = new StreamWriter(memoryStream);
         await streamWriter.WriteAsync(AdBlockSource);

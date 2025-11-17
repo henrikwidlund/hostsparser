@@ -219,7 +219,12 @@ public static class HostUtilities
 
             realSlice = HandlePipeOrAt(realSlice, isAllow);
 
+            var domainOnlySuffix = "^|"u8;
+            var domainOnlyIndex = realSlice.IndexOf(domainOnlySuffix);
+            var explicitEndDomain = domainOnlyIndex != -1;
+
             HandleDelimiter(ref realSlice, Constants.HatSign);
+
             if (realSlice.IndexOfAnyExcept(Constants.Space, Constants.Tab) == -1)
                 return;
 
@@ -228,7 +233,15 @@ public static class HostUtilities
 
             Span<char> chars = stackalloc char[256];
             decoder.GetChars(realSlice, chars, false);
-            AddItem(isAllow ? allowedOverrides : resultCollection, chars[..realSlice.Length].Trim().ToString());
+            if (explicitEndDomain)
+            {
+                // Add back the removed suffix
+                var realLength = realSlice.Length;
+                chars = chars[..(realLength + domainOnlySuffix.Length)];
+                chars[realLength] = (char)Constants.HatSign;
+                chars[realLength + 1] = (char)Constants.PipeSign;
+            }
+            AddItem(isAllow ? allowedOverrides : resultCollection, chars[..(realSlice.Length + (explicitEndDomain ? 2 : 0))].Trim().ToString());
         }
         finally
         {
