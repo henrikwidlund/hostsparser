@@ -1,7 +1,7 @@
 ﻿FROM mcr.microsoft.com/dotnet/runtime-deps:10.0-noble-chiseled AS base
 WORKDIR /app
 
-FROM mcr.microsoft.com/dotnet/sdk:10.0-noble AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0-noble-aot AS build
 WORKDIR /src
 COPY "HostsParser.csproj" .
 RUN dotnet restore "HostsParser.csproj"
