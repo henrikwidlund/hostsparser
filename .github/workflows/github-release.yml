@@ -50,7 +50,7 @@ jobs:
           # Build everything
           release_name="HostsParser-$tag-${{ matrix.target }}"
           
-          dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release -p:Version="$ASSEMBLY_VERSION" -p:PublishAot=true
+          dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release -p:Version="$ASSEMBLY_VERSION"
           
           if [ "${{ matrix.kind }}" = "windows-x64" ] || [ "${{ matrix.kind }}" = "windows-arm64" ]; then
             # Pack to zip for Windows
