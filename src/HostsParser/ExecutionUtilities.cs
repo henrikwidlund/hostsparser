@@ -82,7 +82,8 @@ public static class ExecutionUtilities
             streamWriter.Write((char) Constants.AtSign);
             streamWriter.Write((char) Constants.AtSign);
             streamWriter.Write(s);
-            streamWriter.Write((char) Constants.HatSign);
+            if (!s.EndsWith("^|", StringComparison.Ordinal))
+                streamWriter.Write((char) Constants.HatSign);
         }
 
         stopWatch.Stop();
