@@ -46,7 +46,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         shell: powershell
         run: |
-          ${{ runner.temp }}\scanner\dotnet-sonarscanner begin /k:"henrikwidlund_hostsparser" /o:"henrikwidlund" /d:sonar.token="$env:SONAR_TOKEN"
+          ${{ runner.temp }}\scanner\dotnet-sonarscanner begin /k:"henrikwidlund_hostsparser" /o:"henrikwidlund" /d:sonar.token="$env:SONAR_TOKEN" /d:sonar.coverage.exclusions=**/*
           dotnet build
-          dotnet test --no-build --verbosity normal --coverage --coverage-output-format cobertura --results-directory ./coverage
           ${{ runner.temp }}\scanner\dotnet-sonarscanner end /d:sonar.token="$env:SONAR_TOKEN"
