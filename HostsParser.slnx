@@ -1,0 +1,30 @@
+<Solution>
+  <Folder Name="/gh-actions/">
+    <File Path=".github/workflows/ci.yml" />
+    <File Path=".github/workflows/dependency-review.yml" />
+    <File Path=".github/workflows/docker.yml" />
+    <File Path=".github/workflows/github-release.yml" />
+    <File Path=".github/workflows/publish-filter.yml" />
+    <File Path=".github/workflows/qodana_code_quality.yml" />
+    <File Path=".github/workflows/sonarqube.yml" />
+    <File Path="qodana.yaml" />
+  </Folder>
+  <Folder Name="/scripts/">
+    <File Path="build.cmd" />
+    <File Path="build.sh" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="LICENSE" />
+    <File Path="qodana.yaml" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/HostsParser/HostsParser.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/HostsParser.Benchmarks/HostsParser.Benchmarks.csproj" />
+    <Project Path="tests/HostsParser.IntegrationTests/HostsParser.IntegrationTests.csproj" />
+    <Project Path="tests/HostsParser.Tests/HostsParser.Tests.csproj" />
+  </Folder>
+</Solution>
