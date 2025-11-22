@@ -3,7 +3,6 @@
 
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,6 +10,10 @@ namespace HostsParser.Tests;
 
 public sealed class HostUtilitiesTests
 {
+    private static readonly byte[][] SkipLines = ["some bad line"u8.ToArray(), "another bad line"u8.ToArray(), "0.0.0.0 0.0.0.0"u8.ToArray()];
+
+    private static readonly byte[][] OverrideAllowedHosts = ["b-cdn.net"u8.ToArray()];
+
     [Test]
     public async Task ProcessHostsBased_Should_Only_Return_Dns_Entries()
     {
@@ -42,13 +45,6 @@ public sealed class HostUtilitiesTests
                                    + "\n"
                                    + "0.0.0.0 www.b-cdn.net";
 
-        var skipLines = new[] { "some bad line", "another bad line", "0.0.0.0 0.0.0.0" }
-            .Select(static s => Encoding.UTF8.GetBytes(s))
-            .ToArray();
-
-        var overrideAllowedHosts = new[] { "b-cdn.net"}
-            .Select(static s => Encoding.UTF8.GetBytes(s))
-            .ToArray();
         const string Prefix = "0.0.0.0 ";
         var expected = new HashSet<string> { "dns-a.com", "dns-b.com", "dns-c.com", "www.b-cdn.net" };
         await using var memoryStream = new MemoryStream();
@@ -63,8 +59,8 @@ public sealed class HostUtilitiesTests
         // Act
         await HostUtilities.ProcessHostsBased(dnsCollection,
             memoryStream,
-            skipLines,
-            overrideAllowedHosts,
+            SkipLines,
+            OverrideAllowedHosts,
             new SourcePrefix(Prefix),
             decoder);
 
@@ -102,9 +98,6 @@ public sealed class HostUtilitiesTests
                                      + "\n"
                                      + "\n";
 
-        var overrideAllowedHosts = new[] { "b-cdn.net"}
-            .Select(static s => Encoding.UTF8.GetBytes(s))
-            .ToArray();
         var expectedBlocked = new HashSet<string> { "dns-a.com", "dns-b.com", "dns-c.com", "www.b-cdn.net" };
         var expectedAllowed = new HashSet<string> { "||dns-d.com", "||explicit.com^|" };
         await using var memoryStream = new MemoryStream();
@@ -118,7 +111,7 @@ public sealed class HostUtilitiesTests
         var allowedOverrides = new HashSet<string>();
 
         // Act
-        await HostUtilities.ProcessAdBlockBased(dnsCollection, allowedOverrides, overrideAllowedHosts, memoryStream, decoder);
+        await HostUtilities.ProcessAdBlockBased(dnsCollection, allowedOverrides, OverrideAllowedHosts, memoryStream, decoder);
 
         // Assert
         await Assert.That(dnsCollection).HasCount().EqualTo(expectedBlocked.Count).And
