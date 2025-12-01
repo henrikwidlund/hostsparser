@@ -118,7 +118,7 @@ public sealed class HostUtilitiesTests
         await Assert.That(dnsCollection).ContainsOnly(s => expectedBlocked.Contains(s));
 
         await Assert.That(allowedOverrides).Count().IsEqualTo(expectedAllowed.Count);
-        await Assert.That(dnsCollection).ContainsOnly(s => expectedAllowed.Contains(s));
+        await Assert.That(allowedOverrides).ContainsOnly(s => expectedAllowed.Contains(s));
     }
 
     [Test]
