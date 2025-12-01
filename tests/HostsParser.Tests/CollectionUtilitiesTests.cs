@@ -65,7 +65,7 @@ public sealed class CollectionUtilitiesTests
         CollectionUtilities.FilterGrouped(dnsCollection);
 
         // Assert
-        await Assert.That(dnsCollection).HasCount().EqualTo(expected.Count)
-            .And.ContainsOnly(s => expected.Contains(s));
+        await Assert.That(dnsCollection).Count().IsEqualTo(expected.Count);
+        await Assert.That(dnsCollection).ContainsOnly(s => expected.Contains(s));
     }
 }

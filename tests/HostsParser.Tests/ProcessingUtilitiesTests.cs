@@ -33,8 +33,8 @@ public sealed class ProcessingUtilitiesTests
             filteredCache);
 
         // Assert
-        await Assert.That(sortedDnsList).HasCount().EqualTo(expected.Count)
-            .And.ContainsOnly(s => expected.Contains(s));
+        await Assert.That(sortedDnsList).Count().IsEqualTo(expected.Count);
+        await Assert.That(sortedDnsList).ContainsOnly(s => expected.Contains(s));
     }
 
     [Test]
@@ -62,8 +62,8 @@ public sealed class ProcessingUtilitiesTests
             filteredCache);
 
         // Assert
-        await Assert.That(sortedDnsList).HasCount().EqualTo(expected.Count)
-            .And.ContainsOnly(s => expected.Contains(s));
+        await Assert.That(sortedDnsList).Count().IsEqualTo(expected.Count);
+        await Assert.That(sortedDnsList).ContainsOnly(s => expected.Contains(s));
     }
 
     [Test]
@@ -91,7 +91,7 @@ public sealed class ProcessingUtilitiesTests
             filteredCache);
 
         // Assert
-        await Assert.That(sortedDnsList).HasCount().EqualTo(expected.Count)
-            .And.ContainsOnly(s => expected.Contains(s));
+        await Assert.That(sortedDnsList).Count().EqualTo(expected.Count);
+        await Assert.That(sortedDnsList).ContainsOnly(s => expected.Contains(s));
     }
 }

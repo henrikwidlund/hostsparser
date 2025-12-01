@@ -65,8 +65,8 @@ public sealed class HostUtilitiesTests
             decoder);
 
         // Assert
-        await Assert.That(dnsCollection).HasCount().EqualTo(expected.Count).And
-            .ContainsOnly(s => expected.Contains(s));
+        await Assert.That(dnsCollection).Count().IsEqualTo(expected.Count);
+        await Assert.That(dnsCollection).ContainsOnly(s => expected.Contains(s));
     }
 
     [Test]
@@ -114,11 +114,11 @@ public sealed class HostUtilitiesTests
         await HostUtilities.ProcessAdBlockBased(dnsCollection, allowedOverrides, OverrideAllowedHosts, memoryStream, decoder);
 
         // Assert
-        await Assert.That(dnsCollection).HasCount().EqualTo(expectedBlocked.Count).And
-            .ContainsOnly(s => expectedBlocked.Contains(s));
+        await Assert.That(dnsCollection).Count().IsEqualTo(expectedBlocked.Count);
+        await Assert.That(dnsCollection).ContainsOnly(s => expectedBlocked.Contains(s));
 
-        await Assert.That(allowedOverrides).HasCount().EqualTo(expectedAllowed.Count).And
-            .ContainsOnly(s => expectedAllowed.Contains(s));
+        await Assert.That(allowedOverrides).Count().IsEqualTo(expectedAllowed.Count);
+        await Assert.That(dnsCollection).ContainsOnly(s => expectedAllowed.Contains(s));
     }
 
     [Test]
@@ -141,8 +141,8 @@ public sealed class HostUtilitiesTests
         dnsCollection = HostUtilities.RemoveKnownBadHosts(knownBadHosts, dnsCollection);
 
         // Assert
-        await Assert.That(dnsCollection).HasCount().EqualTo(expected.Count).And
-            .ContainsOnly(s => expected.Contains(s));
+        await Assert.That(dnsCollection).Count().EqualTo(expected.Count);
+        await Assert.That(dnsCollection).ContainsOnly(s => expected.Contains(s));
     }
 
     [Test]

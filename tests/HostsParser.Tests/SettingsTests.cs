@@ -28,7 +28,7 @@ public sealed class SettingsTests
         await Assert.That(settings.Filters).IsNotNull();
         await Assert.That(settings.Filters.SkipLines).HasSingleItem();
         await Assert.That(settings.Filters.SkipLinesBytes).HasSingleItem();
-        await Assert.That(settings.Filters.Sources).HasCount().EqualTo(2);
+        await Assert.That(settings.Filters.Sources).Count().IsEqualTo(2);
 
         await Assert.That(settings.Filters.Sources.Count(static item => item.Format == SourceFormat.Hosts)).IsEqualTo(1);
         var hostsSource = settings.Filters.Sources.First(static item => item.Format == SourceFormat.Hosts);
