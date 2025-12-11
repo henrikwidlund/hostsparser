@@ -91,7 +91,7 @@ public sealed class ProcessingUtilitiesTests
             filteredCache);
 
         // Assert
-        await Assert.That(sortedDnsList).Count().EqualTo(expected.Count);
+        await Assert.That(sortedDnsList).Count().IsEqualTo(expected.Count);
         await Assert.That(sortedDnsList).ContainsOnly(s => expected.Contains(s));
     }
 }

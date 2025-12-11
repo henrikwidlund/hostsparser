@@ -141,7 +141,7 @@ public sealed class HostUtilitiesTests
         dnsCollection = HostUtilities.RemoveKnownBadHosts(knownBadHosts, dnsCollection);
 
         // Assert
-        await Assert.That(dnsCollection).Count().EqualTo(expected.Count);
+        await Assert.That(dnsCollection).Count().IsEqualTo(expected.Count);
         await Assert.That(dnsCollection).ContainsOnly(s => expected.Contains(s));
     }
 
