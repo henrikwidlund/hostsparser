@@ -7,6 +7,11 @@ on:
 jobs:
   release:
     name: Release
+    permissions:
+      id-token: write
+      attestations: write
+      artifact-metadata: write
+      contents: write
     strategy:
       matrix:
         kind: [ 'linux-amd64', 'linux-arm64', 'macos-amd64', 'macos-arm64', 'windows-amd64', 'windows-arm64' ]
@@ -71,3 +76,10 @@ jobs:
             HostsParser*.tar.gz
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Attest build provenance
+        uses: actions/attest-build-provenance@v3.2.0
+        with:
+          subject-path: |
+            HostsParser*.tar.gz
+            HostsParser*.zip
