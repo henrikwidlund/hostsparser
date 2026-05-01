@@ -87,6 +87,11 @@
           "System.Reflection.TypeExtensions": "4.7.0"
         }
       },
+      "Microsoft.DotNet.ILCompiler": {
+        "type": "Transitive",
+        "resolved": "10.0.7",
+        "contentHash": "2H7j1NltkQx04sPWBkUtFrZNBtro7vwsxRtdThP0oDj6Sn3ouGHCQlxATZ4Me2aJE67+KiXMX2V1IHDjt1uIpw=="
+      },
       "Microsoft.DotNet.PlatformAbstractions": {
         "type": "Transitive",
         "resolved": "3.1.6",
@@ -251,6 +256,7 @@
       "hostsparser": {
         "type": "Project",
         "dependencies": {
+          "Microsoft.DotNet.ILCompiler": "[10.0.7, )",
           "Microsoft.Extensions.Logging.Console": "[10.0.7, )",
           "Microsoft.Extensions.Logging.Debug": "[10.0.7, )",
           "ZLinq": "[1.5.6, )"
