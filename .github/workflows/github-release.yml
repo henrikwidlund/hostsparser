@@ -54,8 +54,8 @@ jobs:
 
           # Build everything
           release_name="HostsParser-$tag-${{ matrix.kind }}"
-          
-          dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release -p:Version="$ASSEMBLY_VERSION"
+          dotnet restore "./src/HostsParser/HostsParser.csproj" --use-lock-file --locked-mode
+          dotnet publish "./src/HostsParser/HostsParser.csproj" -r ${{ matrix.target }} -c Release -o release -p:Version="$ASSEMBLY_VERSION" --no-restore
           
           if [ "${{ matrix.kind }}" = "windows-amd64" ] || [ "${{ matrix.kind }}" = "windows-arm64" ]; then
             # Pack to zip for Windows

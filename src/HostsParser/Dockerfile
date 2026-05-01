@@ -4,7 +4,7 @@ WORKDIR /app
 FROM mcr.microsoft.com/dotnet/sdk:10.0-noble-aot AS build
 WORKDIR /src
 COPY "HostsParser.csproj" .
-RUN dotnet restore "HostsParser.csproj"
+RUN dotnet restore "HostsParser.csproj" --use-lock-file --locked-mode
 COPY . .
 
 FROM build AS publish
