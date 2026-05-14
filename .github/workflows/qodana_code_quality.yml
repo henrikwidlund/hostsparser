@@ -24,11 +24,14 @@ jobs:
         uses: JetBrains/qodana-action@d7b5ec2fbec32197ef447c450e00589ed5f34fd5
         with:
           pr-mode: true
-          args: --baseline,qodana.sarif.json
-          upload-result: true
+          args: |
+            --baseline qodana.sarif.json
+            --linter "jetbrains/qodana-cdnet:2026.1"
+            --within-docker false
+          use-caches: true
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_1052839006 }}
           QODANA_ENDPOINT: 'https://qodana.cloud'
-      - uses: github/codeql-action/upload-sarif@7434149006143a4d75b82a2f411ef15b03ccc2d7
+      - uses: github/codeql-action/upload-sarif@68bde559dea0fdcac2102bfdf6230c5f70eb485e
         with:
           sarif_file: ${{ runner.temp }}/qodana/results/qodana.sarif.json
