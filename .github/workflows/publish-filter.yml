@@ -32,7 +32,7 @@ jobs:
             exit 1
           fi
           
-          gh release download --repo henrikwidlund/hostsparser "$latest_release_tag" \                                                                                 
+          gh release download --repo henrikwidlund/hostsparser "$latest_release_tag" \
             --pattern "*linux-amd64.tar.gz" \
             --dir ./artifacts
           
