@@ -22,9 +22,29 @@ jobs:
 
     steps:
       - name: Download latest release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir artifacts && cd artifacts
-          curl -sL $(curl -s https://api.github.com/repos/henrikwidlund/HostsParser/releases/latest | grep browser_download_url | cut -d\" -f4 | grep 'linux-amd64.tar.gz$') | tar zx
+          mkdir artifacts
+          latest_release_tag=$(gh release list --repo henrikwidlund/hostsparser --limit 1 --json tagName --jq '.[0].tagName')
+          if [ -z "$latest_release_tag" ]; then
+            echo "No releases found in henrikwidlund/hostsparser" >&2
+            exit 1
+          fi
+          
+          gh release download --repo henrikwidlund/hostsparser "$latest_release_tag" \                                                                                 
+            --pattern "*linux-amd64.tar.gz" \
+            --dir ./artifacts
+          
+          archive=(./artifacts/*linux-amd64.tar.gz)
+          if [ ! -f "${archive[0]}" ]; then
+            echo "No release archive found in ./artifacts" >&2
+            exit 1
+          fi
+          
+          gh attestation verify "${archive[0]}" --repo henrikwidlund/hostsparser
+          tar -xzf "${archive[0]}" -C ./artifacts
+          rm "${archive[0]}"
 
       - name: Create public directory
         run: mkdir ./public
