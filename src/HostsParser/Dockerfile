@@ -1,5 +1,5 @@
 # 10.0.8
-FROM mcr.microsoft.com/dotnet/runtime-deps@sha256:70c6a58170a1c987724748d5dd185d7cc75d2d9017c80348a27aa95d3ea45c67 AS base
+FROM mcr.microsoft.com/dotnet/runtime-deps@sha256:02cfde646311bfe8a6332681091b323215451cc1beec65afe5e6d1dbb05117c8 AS base
 WORKDIR /app
 
 # 10.0.300
