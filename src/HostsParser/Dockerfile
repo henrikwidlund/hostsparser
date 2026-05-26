@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/dotnet/runtime-deps@sha256:70c6a58170a1c987724748d5dd185d
 WORKDIR /app
 
 # 10.0.300
-FROM mcr.microsoft.com/dotnet/sdk@sha256:76ce51d361bd5be4b531d07c9fef64e8d6c6d17c2dfc0e18137ca21e1604b864 AS build
+FROM mcr.microsoft.com/dotnet/sdk@sha256:c0790639332692a0d56cdd81ed581cfd24d040d9839764c138994866df89a3b6 AS build
 WORKDIR /src
 COPY "HostsParser.csproj" .
 RUN dotnet restore "HostsParser.csproj" --locked-mode
