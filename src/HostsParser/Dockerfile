@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/runtime-deps:10.0.8-noble-chiseled AS base
+FROM mcr.microsoft.com/dotnet/runtime-deps:10.0.9-noble-chiseled AS base
 WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/sdk:10.0.301-noble-aot AS build
