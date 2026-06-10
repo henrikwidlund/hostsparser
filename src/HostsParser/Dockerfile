@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/runtime-deps:10.0.8-noble-chiseled AS base
 WORKDIR /app
 
-FROM mcr.microsoft.com/dotnet/sdk:10.0.300-noble-aot AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0.301-noble-aot AS build
 WORKDIR /src
 COPY "HostsParser.csproj" .
 RUN dotnet restore "HostsParser.csproj" --locked-mode
