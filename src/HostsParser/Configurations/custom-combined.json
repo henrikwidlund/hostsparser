@@ -114,6 +114,216 @@
         "Prefix": "0.0.0.0 ",
         "Format": "Hosts",
         "SourceAction": "Combine"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_3.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_69.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_6.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_46.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_47.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_66.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_61.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_65.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_63.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_60.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_57.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_62.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_17.txt",
+        "Prefix": "127.0.0.1 ",
+        "Format": "Hosts",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_12.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_55.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_54.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_68.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_49.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_24.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_39.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_13.txt",
+        "Prefix": "",
+        "Format": "AdBlock",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt",
+        "Prefix": "0.0.0.0 ",
+        "Format": "Hosts",
+        "SourceAction": "ExternalCoverage"
+      },
+      {
+        "Uri": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt",
+        "Prefix": "0.0.0.0 ",
+        "Format": "Hosts",
+        "SourceAction": "ExternalCoverage"
       }
     ],
     "SkipLines": [
