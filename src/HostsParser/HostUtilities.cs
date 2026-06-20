@@ -203,6 +203,7 @@ public static class HostUtilities
         Decoder decoder)
     {
         byte[]? bytes = null;
+        char[]? charBuffer = null;
         try
         {
             var realSlice = slice.IsSingleSegment
@@ -231,7 +232,11 @@ public static class HostUtilities
             if (IsSkipBlockedHosts(realSlice, skipBlockedHosts))
                 return;
 
-            Span<char> chars = stackalloc char[256];
+            // UTF8 decodes to at most byte-count chars; +2 for the optional "^|" suffix added below.
+            var charCount = realSlice.Length + domainOnlySuffix.Length;
+            var chars = charCount <= 256
+                ? stackalloc char[256]
+                : (charBuffer = ArrayPool<char>.Shared.Rent(charCount)).AsSpan();
             decoder.GetChars(realSlice, chars, false);
             if (explicitEndDomain)
             {
@@ -247,6 +252,8 @@ public static class HostUtilities
         {
             if (bytes is not null)
                 ArrayPool<byte>.Shared.Return(bytes);
+            if (charBuffer is not null)
+                ArrayPool<char>.Shared.Return(charBuffer);
         }
     }
 
