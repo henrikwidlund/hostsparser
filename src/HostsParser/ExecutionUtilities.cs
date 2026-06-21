@@ -94,8 +94,6 @@ public static class ExecutionUtilities
         Settings settings,
         HttpClient httpClient)
     {
-        var decoder = Encoding.UTF8.GetDecoder();
-
         // Assumed length to reduce allocations
         var combineLines = new HashSet<string>(170_000);
         var externalCoverageLines = new HashSet<string>(50_000);
@@ -105,6 +103,7 @@ public static class ExecutionUtilities
         {
             tasks.Add(Task.Run(async () =>
             {
+                var decoder = Encoding.UTF8.GetDecoder();
                 await using var stream = await httpClient.GetStreamAsync(sourceItem.Uri);
                 if (sourceItem.Format == SourceFormat.Hosts)
                 {

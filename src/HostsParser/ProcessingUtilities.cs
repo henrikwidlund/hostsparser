@@ -40,9 +40,7 @@ public static class ProcessingUtilities
         // We only need to check for domains/sub domains covered by AdBlock based file
         // in the code above, after that sub domains covered by AdBlock based file will be gone
         // and the domains in the file can be discarded.
-        sortedDnsList.RemoveAll(externalCoverageLines.Contains);
-
-        sortedDnsList.RemoveAll(filteredCache.Contains);
+        sortedDnsList.RemoveAll(item => externalCoverageLines.Contains(item) || filteredCache.Contains(item));
         return CollectionUtilities.SortDnsList(sortedDnsList);
     }
 

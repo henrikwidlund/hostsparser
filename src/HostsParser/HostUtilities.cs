@@ -183,16 +183,20 @@ public static class HostUtilities
         realSlice = HandlePrefixes(realSlice, sourcePrefix, skipBlockedHosts);
         HandleDelimiter(ref realSlice, Constants.HashSign);
 
-        var chars = ArrayPool<char>.Shared.Rent(256);
+        char[]? charBuffer = null;
         try
         {
-            var span = chars.AsSpan();
-            decoder.GetChars(realSlice, span, false);
-            AddItem(resultCollection, span[..realSlice.Length].Trim().ToString());
+            var charCount = realSlice.Length;
+            var chars = charCount <= 256
+                ? stackalloc char[256]
+                : (charBuffer = ArrayPool<char>.Shared.Rent(charCount)).AsSpan();
+            var written = decoder.GetChars(realSlice, chars, false);
+            AddItem(resultCollection, chars[..written].Trim().ToString());
         }
         finally
         {
-            ArrayPool<char>.Shared.Return(chars);
+            if (charBuffer is not null)
+                ArrayPool<char>.Shared.Return(charBuffer);
         }
     }
 

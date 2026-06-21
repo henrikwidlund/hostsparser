@@ -43,17 +43,16 @@ public static class CollectionUtilities
     /// <param name="dnsCollection">The collection that will be filtered.</param>
     public static void FilterGrouped(HashSet<string> dnsCollection)
     {
-        var cacheHashSet = CreateCacheHashSet(dnsCollection);
-
         var dnsGroups = GroupDnsList(dnsCollection);
+        var apexLookup = dnsCollection.GetAlternateLookup<ReadOnlySpan<char>>();
         HashSet<string> filtered = new(dnsCollection.Count);
         foreach (var (key, value) in dnsGroups)
         {
-            if (!cacheHashSet.Contains(key)
-                || value.Count < 2)
+            if (value.Count < 2
+                || !apexLookup.Contains(key.Span))
                 continue;
 
-            foreach (var item in value.AsValueEnumerable().Where(item => key != item.GetHashCode()))
+            foreach (var item in value.AsValueEnumerable().Where(item => !key.Span.SequenceEqual(item)))
             {
                 filtered.Add(item);
             }
@@ -67,12 +66,12 @@ public static class CollectionUtilities
     /// and value is a list of found sub domains.
     /// </summary>
     /// <param name="dnsCollection">The collection used for grouping.</param>
-    public static Dictionary<int, List<string>> GroupDnsList(HashSet<string> dnsCollection)
+    public static Dictionary<ReadOnlyMemory<char>, List<string>> GroupDnsList(HashSet<string> dnsCollection)
     {
-        var dict = new Dictionary<int, List<string>>(dnsCollection.Count);
+        var dict = new Dictionary<ReadOnlyMemory<char>, List<string>>(dnsCollection.Count, ReadOnlyMemoryCharComparer.Instance);
         foreach (var s in dnsCollection)
         {
-            var key = string.GetHashCode(GetTopMostDns(s));
+            var key = GetTopMostDns(s.AsMemory());
             if (!dict.TryGetValue(key, out var values))
             {
                 values = [];
@@ -83,29 +82,6 @@ public static class CollectionUtilities
         }
 
         return dict;
-    }
-
-    private static HashSet<int> CreateCacheHashSet(HashSet<string> dnsList)
-    {
-        var hashSet = new HashSet<int>(dnsList.Count);
-        foreach (var s in dnsList) hashSet.Add(s.GetHashCode());
-
-        return hashSet;
-    }
-
-    private static ReadOnlySpan<char> GetTopMostDns(in ReadOnlySpan<char> item)
-    {
-        var buffer = ArrayPool<int>.Shared.Rent(item.Length);
-        try
-        {
-            var indicesCount = GetIndices(item, buffer);
-            var indicesSpan = buffer.AsSpan()[..indicesCount];
-            return indicesCount <= 1 ? item : ProcessItem(indicesSpan, item);
-        }
-        finally
-        {
-            ArrayPool<int>.Shared.Return(buffer);
-        }
     }
 
     private static ReadOnlyMemory<char> GetTopMostDns(in ReadOnlyMemory<char> item)
