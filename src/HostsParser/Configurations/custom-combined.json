@@ -32,12 +32,6 @@
         "SourceAction": "Combine"
       },
       {
-        "Uri": "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
-        "Prefix": "0.0.0.0 ",
-        "Format": "Hosts",
-        "SourceAction": "Combine"
-      },
-      {
         "Uri": "https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt",
         "Prefix": "0.0.0.0 ",
         "Format": "Hosts",
