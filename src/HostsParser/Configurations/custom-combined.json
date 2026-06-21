@@ -74,19 +74,7 @@
         "SourceAction": "Combine"
       },
       {
-        "Uri": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/refs/heads/master/data/hosts/extra.txt",
-        "Prefix": "0.0.0.0 ",
-        "Format": "Hosts",
-        "SourceAction": "Combine"
-      },
-      {
         "Uri": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/refs/heads/master/data/hosts/spy.txt",
-        "Prefix": "0.0.0.0 ",
-        "Format": "Hosts",
-        "SourceAction": "Combine"
-      },
-      {
-        "Uri": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/refs/heads/master/data/hosts/update.txt",
         "Prefix": "0.0.0.0 ",
         "Format": "Hosts",
         "SourceAction": "Combine"
