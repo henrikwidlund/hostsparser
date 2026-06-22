@@ -1,6 +1,7 @@
 // Copyright Henrik Widlund
 // GNU General Public License v3.0
 
+using System;
 using System.Collections.Generic;
 using BenchmarkDotNet.Attributes;
 
@@ -23,7 +24,7 @@ public class BenchmarkGroupDnsList : BenchmarkCollectionUtilitiesBase
     [Benchmark]
     [BenchmarkCategory(nameof(GroupDnsList), nameof(CollectionUtilities))]
     [ArgumentsSource(nameof(Source))]
-    public Dictionary<int, List<string>> GroupDnsList(HashSet<string> data) => CollectionUtilities.GroupDnsList(data);
+    public Dictionary<ReadOnlyMemory<char>, List<string>> GroupDnsList(HashSet<string> data) => CollectionUtilities.GroupDnsList(data);
 }
 
 [MemoryDiagnoser]
