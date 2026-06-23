@@ -120,25 +120,6 @@ public static class CollectionUtilities
                || secondTop.Equals(Constants.TopDomains.Or.Span, StringComparison.Ordinal);
     }
 
-    private static ReadOnlySpan<char> ProcessItem(ReadOnlySpan<int> indices,
-        in ReadOnlySpan<char> item)
-    {
-        if (indices.Length != 2)
-        {
-            var secondTop = item[(indices[^2] + 1)..indices[^1]];
-            var dns = IsSecondLevelTopDomain(secondTop)
-                ? item[(indices[^3] + 1)..]
-                : item[(indices[^2] + 1)..];
-
-            return dns.Length > 3 ? dns : item[(indices[^3] + 1)..];
-        }
-
-        var slicedItem = item[(indices[0] + 1)..indices[1]];
-        // Check domains ending with x.y where x is shorter than 4 char against known second level top domains.
-        // If false, treat x.y as a domain so that any found sub domain will be sorted under it.
-        return IsSecondLevelTopDomain(slicedItem) ? item : item[(indices[0] + 1)..];
-    }
-
     private static ReadOnlyMemory<char> ProcessItem(in ReadOnlySpan<int> indices,
         in ReadOnlyMemory<char> item)
     {
