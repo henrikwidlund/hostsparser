@@ -59,7 +59,8 @@ jobs:
         id: build
         uses: docker/build-push-action@53b7df96c91f9c12dcc8a07bcb9ccacbed38856a # v7.3.0
         with:
-          context: ./src/HostsParser/
+          context: .
+          file: ./src/HostsParser/Dockerfile
           platforms: ${{ matrix.platform }}
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha,scope=${{ env.PLATFORM_PAIR }}

@@ -3,9 +3,10 @@ WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/sdk:10.0.302-noble-aot AS build
 WORKDIR /src
-COPY "HostsParser.csproj" .
+COPY ["Directory.Build.props", "."]
+COPY ["src/HostsParser/HostsParser.csproj", "."]
 RUN dotnet restore "HostsParser.csproj" --locked-mode
-COPY . .
+COPY ["src/HostsParser", "."]
 
 FROM build AS publish
 RUN dotnet publish "HostsParser.csproj" -c Release -o /app/publish /p:UseAppHost=true
