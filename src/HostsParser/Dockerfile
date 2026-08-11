@@ -1,7 +1,7 @@
-FROM mcr.microsoft.com/dotnet/runtime-deps:10.0.10-noble-chiseled AS base
+FROM mcr.microsoft.com/dotnet/runtime-deps:10.0.11-noble-chiseled AS base
 WORKDIR /app
 
-FROM mcr.microsoft.com/dotnet/sdk:10.0.302-noble-aot AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0.400-noble-aot AS build
 WORKDIR /src
 COPY ["Directory.Build.props", "."]
 COPY ["src/HostsParser/HostsParser.csproj", "."]
