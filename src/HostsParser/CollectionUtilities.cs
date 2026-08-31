@@ -140,8 +140,8 @@ public static class CollectionUtilities
     }
 
     private static int IndexOf(in this ReadOnlySpan<char> span,
-        in char value,
-        in int startIndex)
+        char value,
+        int startIndex)
     {
         var indexInSlice = span[startIndex..].IndexOf(value);
 

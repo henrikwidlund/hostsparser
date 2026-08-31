@@ -319,7 +319,7 @@ public static class HostUtilities
     }
 
     private static void HandleDelimiter(ref ReadOnlySpan<byte> lineChars,
-        in byte delimiter)
+        byte delimiter)
     {
         var delimiterIndex = lineChars.IndexOf(delimiter);
         if (delimiterIndex > 0)
