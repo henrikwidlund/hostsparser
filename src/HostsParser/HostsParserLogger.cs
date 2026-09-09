@@ -10,23 +10,19 @@ namespace HostsParser;
 
 public static partial class HostsParserLogger
 {
-    [LoggerMessage(EventId = 1, EventName = nameof(Running), Level = LogLevel.Information, Message = "Running...")]
+    [LoggerMessage(EventId = 1, Level = LogLevel.Information, Message = "Running...")]
     public static partial void Running(this ILogger logger);
 
-    [LoggerMessage(EventId = 2, EventName = nameof(UnableToRun), Level = LogLevel.Error,
-        Message = "Couldn't load settings. Terminating...")]
+    [LoggerMessage(EventId = 2, Level = LogLevel.Error, Message = "Couldn't load settings. Terminating...")]
     public static partial void UnableToRun(this ILogger logger);
 
-    [LoggerMessage(EventId = 3, EventName = nameof(StartExtraFiltering), Level = LogLevel.Information,
-        Message = "Start extra filtering of duplicates.")]
+    [LoggerMessage(EventId = 3, Level = LogLevel.Information, Message = "Start extra filtering of duplicates.")]
     public static partial void StartExtraFiltering(this ILogger logger);
 
-    [LoggerMessage(EventId = 4, EventName = nameof(DoneExtraFiltering), Level = LogLevel.Information,
-        Message = "Done extra filtering of duplicates.")]
+    [LoggerMessage(EventId = 4, Level = LogLevel.Information, Message = "Done extra filtering of duplicates.")]
     public static partial void DoneExtraFiltering(this ILogger logger);
 
-    [LoggerMessage(EventId = 5, EventName = nameof(Finalized), Level = LogLevel.Information,
-        Message = "Execution duration - {Elapsed} | Produced {Count} hosts.")]
+    [LoggerMessage(EventId = 5, Level = LogLevel.Information, Message = "Execution duration - {Elapsed} | Produced {Count} hosts.")]
     public static partial void Finalized(this ILogger logger, TimeSpan elapsed, int count);
 
     [ExcludeFromCodeCoverage(Justification = "Helper method, private type returned.")]
