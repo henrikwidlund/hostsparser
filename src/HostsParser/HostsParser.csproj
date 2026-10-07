@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net10.0</TargetFramework>
+    <TargetFramework>net11.0</TargetFramework>
+    <Features>runtime-async=on</Features>
     <Copyright>Henrik Widlund</Copyright>
     <License>GPL-3.0 License</License>
     <Nullable>enable</Nullable>
@@ -15,10 +16,16 @@
     <RuntimeIdentifiers>linux-x64;linux-arm64;osx-arm64;osx-x64;win-x64;win-arm64</RuntimeIdentifiers>
   </PropertyGroup>
 
+  <!-- .NET 11 links with Apple's classic linker (-ld_classic) on Xcode 15 and 16, which fails for osx-x64 on an
+       unaligned pointer in .NET's own System.Net.Security.Native. The default linker handles it fine. -->
+  <PropertyGroup Condition="'$(RuntimeIdentifier)' == 'osx-x64'">
+    <UseLdClassicXCodeLinker>false</UseLdClassicXCodeLinker>
+  </PropertyGroup>
+
   <ItemGroup>
-    <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="10.0.12" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="10.0.12" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.12" />
+    <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="11.0.0-rc.1.26425.128" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="11.0.0-rc.1.26425.128" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="11.0.0-rc.1.26425.128" />
     <PackageReference Include="ZLinq" Version="1.5.6" />
   </ItemGroup>
 

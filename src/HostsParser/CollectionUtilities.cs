@@ -84,7 +84,7 @@ public static class CollectionUtilities
         return dict;
     }
 
-    private static ReadOnlyMemory<char> GetTopMostDns(in ReadOnlyMemory<char> item)
+    private static ReadOnlyMemory<char> GetTopMostDns(ReadOnlyMemory<char> item)
     {
         var buffer = ArrayPool<int>.Shared.Rent(item.Length);
         try
@@ -99,7 +99,7 @@ public static class CollectionUtilities
         }
     }
 
-    private static int GetIndices(in ReadOnlySpan<char> item, int[] buffer)
+    private static int GetIndices(ReadOnlySpan<char> item, int[] buffer)
     {
         var index = 0;
         for (var i = item.IndexOf(Constants.DotSign); i > -1; i = item.IndexOf(Constants.DotSign, i + 1))
@@ -109,7 +109,7 @@ public static class CollectionUtilities
     }
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    private static bool IsSecondLevelTopDomain(in ReadOnlySpan<char> secondTop)
+    private static bool IsSecondLevelTopDomain(ReadOnlySpan<char> secondTop)
     {
         return secondTop.Equals(Constants.TopDomains.Co.Span, StringComparison.Ordinal)
                || secondTop.Equals(Constants.TopDomains.Com.Span, StringComparison.Ordinal)
@@ -120,8 +120,8 @@ public static class CollectionUtilities
                || secondTop.Equals(Constants.TopDomains.Or.Span, StringComparison.Ordinal);
     }
 
-    private static ReadOnlyMemory<char> ProcessItem(in ReadOnlySpan<int> indices,
-        in ReadOnlyMemory<char> item)
+    private static ReadOnlyMemory<char> ProcessItem(ReadOnlySpan<int> indices,
+        ReadOnlyMemory<char> item)
     {
         if (indices.Length != 2)
         {
@@ -139,7 +139,7 @@ public static class CollectionUtilities
         return IsSecondLevelTopDomain(slicedItem.Span) ? item : item[(indices[0] + 1)..];
     }
 
-    private static int IndexOf(in this ReadOnlySpan<char> span,
+    private static int IndexOf(this ReadOnlySpan<char> span,
         char value,
         int startIndex)
     {

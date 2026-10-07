@@ -84,8 +84,8 @@ public static class HostUtilities
     /// <param name="potentialSubDomain">The potential sub domain.</param>
     /// <param name="potentialDomain">The potential domain.</param>
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    public static bool IsSubDomainOf(in ReadOnlySpan<char> potentialSubDomain,
-        in ReadOnlySpan<char> potentialDomain)
+    public static bool IsSubDomainOf(ReadOnlySpan<char> potentialSubDomain,
+        ReadOnlySpan<char> potentialDomain)
     {
         if (potentialDomain.Length < 1
             || potentialSubDomain.Length < potentialDomain.Length
@@ -241,16 +241,16 @@ public static class HostUtilities
             var chars = charCount <= 256
                 ? stackalloc char[256]
                 : (charBuffer = ArrayPool<char>.Shared.Rent(charCount)).AsSpan();
-            decoder.GetChars(realSlice, chars, false);
+            // Multi-byte UTF-8 characters decode to fewer chars than bytes, so use the decoded length
+            var written = decoder.GetChars(realSlice, chars, false);
             if (explicitEndDomain)
             {
                 // Add back the removed suffix
-                var realLength = realSlice.Length;
-                chars = chars[..(realLength + domainOnlySuffix.Length)];
-                chars[realLength] = (char)Constants.HatSign;
-                chars[realLength + 1] = (char)Constants.PipeSign;
+                chars[written] = (char)Constants.HatSign;
+                chars[written + 1] = (char)Constants.PipeSign;
+                written += domainOnlySuffix.Length;
             }
-            AddItem(isAllow ? allowedOverrides : resultCollection, chars[..(realSlice.Length + (explicitEndDomain ? 2 : 0))].Trim().ToString());
+            AddItem(isAllow ? allowedOverrides : resultCollection, chars[..written].Trim().ToString());
         }
         finally
         {
@@ -261,7 +261,7 @@ public static class HostUtilities
         }
     }
 
-    private static ReadOnlySpan<byte> Get(in ReadOnlySequence<byte> sequence, in Span<byte> buffer)
+    private static ReadOnlySpan<byte> Get(in ReadOnlySequence<byte> sequence, Span<byte> buffer)
     {
         sequence.CopyTo(buffer);
         return buffer;
@@ -291,7 +291,7 @@ public static class HostUtilities
         }
     }
 
-    private static bool HostsBasedShouldSkipLine(in ReadOnlySpan<byte> bytes,
+    private static bool HostsBasedShouldSkipLine(ReadOnlySpan<byte> bytes,
         byte[][] skipLines)
     {
         var trimmedStart = bytes.TrimStart(Constants.SpaceTab.Span);
@@ -309,7 +309,7 @@ public static class HostUtilities
     }
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    private static bool AdBlockBasedShouldSkipLine(in ReadOnlySpan<byte> current)
+    private static bool AdBlockBasedShouldSkipLine(ReadOnlySpan<byte> current)
         => current[0] is not Constants.PipeSign and not Constants.AtSign;
 
     private static ReadOnlySpan<byte> HandlePipeOrAt(ReadOnlySpan<byte> lineBytes, bool isAllow)
@@ -350,7 +350,7 @@ public static class HostUtilities
         return lineBytes;
     }
 
-    private static bool IsSkipBlockedHosts(in ReadOnlySpan<byte> lineBytes,
+    private static bool IsSkipBlockedHosts(ReadOnlySpan<byte> lineBytes,
         byte[][]? skipBlockedHosts)
     {
         if (skipBlockedHosts is null)

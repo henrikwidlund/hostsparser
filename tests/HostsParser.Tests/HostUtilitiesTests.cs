@@ -122,6 +122,41 @@ public sealed class HostUtilitiesTests
     }
 
     [Test]
+    public async Task ProcessAdBlockBased_Should_Handle_Non_Ascii_Dns_Entries()
+    {
+        // Arrange
+        // Multi-byte UTF-8 characters decode to fewer chars than bytes
+        const string AdBlockSource = "||bücher.de^"
+                                     + "\n"
+                                     + "||例え.jp^"
+                                     + "\n"
+                                     + "@@||straße.de^|"
+                                     + "\n";
+
+        var expectedBlocked = new HashSet<string> { "bücher.de", "例え.jp" };
+        var expectedAllowed = new HashSet<string> { "||straße.de^|" };
+        await using var memoryStream = new MemoryStream();
+        await using var streamWriter = new StreamWriter(memoryStream);
+        await streamWriter.WriteAsync(AdBlockSource);
+        await streamWriter.FlushAsync();
+        memoryStream.Seek(0, SeekOrigin.Begin);
+
+        var decoder = Encoding.UTF8.GetDecoder();
+        var dnsCollection = new HashSet<string>();
+        var allowedOverrides = new HashSet<string>();
+
+        // Act
+        await HostUtilities.ProcessAdBlockBased(dnsCollection, allowedOverrides, OverrideAllowedHosts, memoryStream, decoder);
+
+        // Assert
+        await Assert.That(dnsCollection).Count().IsEqualTo(expectedBlocked.Count);
+        await Assert.That(dnsCollection).ContainsOnly(s => expectedBlocked.Contains(s));
+
+        await Assert.That(allowedOverrides).Count().IsEqualTo(expectedAllowed.Count);
+        await Assert.That(allowedOverrides).ContainsOnly(s => expectedAllowed.Contains(s));
+    }
+
+    [Test]
     public async Task RemoveKnownBadHosts_Should_Remove_All_SubDomain_Entries_Of_Known_Bad_Hosts()
     {
         // Arrange
