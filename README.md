@@ -95,7 +95,7 @@ address to where you host your generated file.
 
 ### Prerequisites
 
-[dotnet 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0).
+[dotnet 11 SDK](https://dotnet.microsoft.com/download/dotnet/11.0).
 
 Run the following from the directory you cloned the repository to:
 
