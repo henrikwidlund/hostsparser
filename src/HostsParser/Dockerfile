@@ -1,7 +1,7 @@
-FROM mcr.microsoft.com/dotnet/runtime-deps:11.0.0-rc.1-resolute-chiseled@sha256:d5ac1fe29eb973331581ab9737688e646f437894ae38a130d4652542ed19964b AS base
+FROM mcr.microsoft.com/dotnet/runtime-deps:11.0.0-rc.2-resolute-chiseled@sha256:47ef522a67d1434d8b48361f05d4f55b37717094f56b83a580032c067d2ea0e7 AS base
 WORKDIR /app
 
-FROM mcr.microsoft.com/dotnet/sdk:11.0.100-rc.1-resolute-aot@sha256:f7b00e0a7dedf120a340d093b1870dbe73ddf6f53284e688d0281a21dcfdcae7 AS build
+FROM mcr.microsoft.com/dotnet/sdk:11.0.100-rc.2-resolute-aot@sha256:d127bf064bec1c51492a1535482d56bd19aae0b9b46e082a9e3a0bdc1943429e AS build
 WORKDIR /src
 COPY ["Directory.Build.props", "."]
 COPY ["src/HostsParser/HostsParser.csproj", "."]
