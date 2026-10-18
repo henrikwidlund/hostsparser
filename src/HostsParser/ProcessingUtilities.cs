@@ -118,7 +118,8 @@ public static class ProcessingUtilities
         string potentialSubDomain,
         string potentialDomain)
     {
-        if (ShouldSkip(potentialDomain, potentialSubDomain)) return;
+        if (ShouldSkip(potentialDomain, potentialSubDomain))
+            return;
         if (HostUtilities.IsSubDomainOf(potentialSubDomain, potentialDomain))
             filteredCache.Add(potentialSubDomain);
     }

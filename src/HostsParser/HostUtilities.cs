@@ -115,7 +115,8 @@ public static class HostUtilities
             {
                 position = buffer.PositionOf(Constants.NewLine);
 
-                if (position is null) continue;
+                if (position is null)
+                    continue;
 
                 ProcessLine(buffer.Slice(0, position.Value), resultCollection, allowedOverrides, skipLines, skipBlockedHosts, sourcePrefix, decoder);
                 buffer = buffer.Slice(buffer.GetPosition(1, position.Value));
@@ -123,7 +124,8 @@ public static class HostUtilities
 
             reader.AdvanceTo(buffer.Start, buffer.End);
 
-            if (!result.IsCompleted) continue;
+            if (!result.IsCompleted)
+                continue;
             ProcessLastChunk(resultCollection, allowedOverrides, skipLines, skipBlockedHosts, sourcePrefix, decoder, buffer);
 
             break;
@@ -140,7 +142,8 @@ public static class HostUtilities
         Decoder decoder,
         in ReadOnlySequence<byte> buffer)
     {
-        if (buffer.IsEmpty) return;
+        if (buffer.IsEmpty)
+            return;
         ProcessLine(buffer, resultCollection, allowedOverrides, skipLines, skipBlockedHosts, sourcePrefix, decoder);
     }
 
@@ -212,7 +215,7 @@ public static class HostUtilities
         {
             var realSlice = slice.IsSingleSegment
                 ? slice.FirstSpan
-                : slice.Length <= 128 ? Get(slice, stackalloc byte[(int)slice.Length]):
+                : slice.Length <= 128 ? Get(slice, stackalloc byte[(int)slice.Length]) :
                 (bytes = GetBytes(slice, out var length)).AsSpan()[..length!.Value];
             if (realSlice.IsEmpty)
                 return;
@@ -250,6 +253,7 @@ public static class HostUtilities
                 chars[written + 1] = (char)Constants.PipeSign;
                 written += domainOnlySuffix.Length;
             }
+
             AddItem(isAllow ? allowedOverrides : resultCollection, chars[..written].Trim().ToString());
         }
         finally
@@ -274,6 +278,7 @@ public static class HostUtilities
             length = null;
             return sequence.ToArray();
         }
+
         var intLength = (int)sequence.Length;
         var bytes = ArrayPool<byte>.Shared.Rent(intLength);
         length = intLength;

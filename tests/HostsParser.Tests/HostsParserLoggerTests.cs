@@ -84,7 +84,7 @@ public sealed class HostsParserLoggerTests
 
         // Assert
         await Assert.That(store).HasSingleItem().And
-            .ContainsOnly( s => s == $"Information-5-Finalized-Execution duration - {timeSpan} | Produced {Count} hosts.");
+            .ContainsOnly(s => s == $"Information-5-Finalized-Execution duration - {timeSpan} | Produced {Count} hosts.");
     }
 }
 

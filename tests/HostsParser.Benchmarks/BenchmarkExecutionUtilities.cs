@@ -44,6 +44,6 @@ public class BenchmarkExecutionUtilities : BenchmarkStreamBase
     {
         protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request,
             CancellationToken cancellationToken)
-            => Task.FromResult(new HttpResponseMessage(HttpStatusCode.OK) {Content = new StreamContent(PrepareStream())});
+            => Task.FromResult(new HttpResponseMessage(HttpStatusCode.OK) { Content = new StreamContent(PrepareStream()) });
     }
 }
