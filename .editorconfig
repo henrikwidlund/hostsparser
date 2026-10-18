@@ -7,6 +7,7 @@
 # Don't use tabs for indentation.
 [*]
 indent_style = space
+end_of_line = lf
 # (Please don't specify an indent_size here; that has too many unintended consequences.)
 
 # Code files
@@ -28,12 +29,11 @@ indent_size = 2
 indent_size = 2
 
 # CMD files
-[*.cmd]
+[*.{cmd,bat}]
 indent_size = 2
 
 # Shell script files
 [*.sh]
-end_of_line = lf
 indent_size = 2
 
 # Dotnet code style settings:
@@ -169,7 +169,6 @@ dotnet_diagnostic.IDE0170.severity = warning
 
 # RS0016: Only enable if API files are present
 dotnet_public_api_analyzer.require_api_files = true
-end_of_line = lf
 dotnet_style_prefer_is_null_check_over_reference_equality_method = true:warning
 dotnet_code_quality_unused_parameters = all:warning
 dotnet_diagnostic.CA1068.severity = warning
