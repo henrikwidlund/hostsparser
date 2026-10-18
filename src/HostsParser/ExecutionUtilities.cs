@@ -47,7 +47,7 @@ public static class ExecutionUtilities
         CollectionUtilities.FilterGrouped(combineLines);
 
         var sortedDnsList = CollectionUtilities.SortDnsList(combineLines);
-        HashSet<string> filteredCache = new(combineLines.Count);
+        HashSet<string> filteredCache = [with(combineLines.Count)];
         sortedDnsList = settings.MultiPassFilter
             ? ProcessingUtilities.ProcessCombinedWithMultipleRounds(sortedDnsList, externalCoverageLines, filteredCache)
             : ProcessingUtilities.ProcessCombined(sortedDnsList, externalCoverageLines, filteredCache);
@@ -63,27 +63,33 @@ public static class ExecutionUtilities
 
         await using StreamWriter streamWriter = new(settings.OutputFileName, false);
         foreach (var headerLine in settings.HeaderLines)
+            // ReSharper disable once MethodHasAsyncOverload
             streamWriter.WriteLine(headerLine);
 
+        // ReSharper disable once MethodHasAsyncOverload
         streamWriter.WriteLine($"! Last Modified: {DateTime.UtcNow:u}");
 
         foreach (var s in sortedDnsList)
         {
+            // ReSharper disable MethodHasAsyncOverload
             streamWriter.WriteLine();
-            streamWriter.Write((char) Constants.PipeSign);
-            streamWriter.Write((char) Constants.PipeSign);
+            streamWriter.Write((char)Constants.PipeSign);
+            streamWriter.Write((char)Constants.PipeSign);
             streamWriter.Write(s);
-            streamWriter.Write((char) Constants.HatSign);
+            streamWriter.Write((char)Constants.HatSign);
+            // ReSharper restore MethodHasAsyncOverload
         }
 
         foreach (var s in allowedOverrides)
         {
+            // ReSharper disable MethodHasAsyncOverload
             streamWriter.WriteLine();
-            streamWriter.Write((char) Constants.AtSign);
-            streamWriter.Write((char) Constants.AtSign);
+            streamWriter.Write((char)Constants.AtSign);
+            streamWriter.Write((char)Constants.AtSign);
             streamWriter.Write(s);
             if (!s.EndsWith("^|", StringComparison.Ordinal))
-                streamWriter.Write((char) Constants.HatSign);
+                streamWriter.Write((char)Constants.HatSign);
+            // ReSharper restore MethodHasAsyncOverload
         }
 
         stopWatch.Stop();

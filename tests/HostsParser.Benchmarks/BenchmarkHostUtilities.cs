@@ -23,7 +23,7 @@ public class BenchmarkProcessHostsBased : BenchmarkStreamBase
     [Benchmark]
     [BenchmarkCategory(nameof(ProcessHostsBased), nameof(HostUtilities))]
     public Task ProcessHostsBased()
-        => HostUtilities.ProcessHostsBased(new HashSet<string>(140_000),
+        => HostUtilities.ProcessHostsBased([with(140_000)],
             _stream!,
             BenchmarkTestData.Settings.Filters.SkipLinesBytes,
             null,
@@ -46,8 +46,8 @@ public class BenchmarkProcessAdBlockBased : BenchmarkStreamBase
     [Benchmark]
     [BenchmarkCategory(nameof(ProcessAdBlockBased), nameof(HostUtilities))]
     public Task ProcessAdBlockBased()
-        => HostUtilities.ProcessAdBlockBased(new HashSet<string>(50_000),
-            new HashSet<string>(200),
+        => HostUtilities.ProcessAdBlockBased([with(50_000)],
+            [with(200)],
             null,
             _stream!,
             BenchmarkTestData.Decoder);

@@ -17,7 +17,7 @@ public static class CollectionUtilities
     /// <param name="dnsCollection">The collection to sort.</param>
     public static List<string> SortDnsList(ICollection<string> dnsCollection)
     {
-        List<string> list = new(dnsCollection.Count);
+        List<string> list = [with(dnsCollection.Count)];
         var (array, size) = dnsCollection
             .AsValueEnumerable()
             .Select(static d => new StringSortItem(d))
@@ -45,7 +45,7 @@ public static class CollectionUtilities
     {
         var dnsGroups = GroupDnsList(dnsCollection);
         var apexLookup = dnsCollection.GetAlternateLookup<ReadOnlySpan<char>>();
-        HashSet<string> filtered = new(dnsCollection.Count);
+        HashSet<string> filtered = [with(dnsCollection.Count)];
         foreach (var (key, value) in dnsGroups)
         {
             if (value.Count < 2
