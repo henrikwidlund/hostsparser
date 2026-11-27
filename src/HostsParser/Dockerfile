@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/runtime-deps:11.0.0-resolute-chiseled@sha256:24534e1f18024d3f8026061537fa21ba424f46cc0cdab4297c5528937b1ae960 AS base
+FROM mcr.microsoft.com/dotnet/runtime-deps:11.0.0-resolute-chiseled@sha256:afc4f04086a96c8407d912ef30d9a3c387111a362acd76e46a5c7a18702c39e4 AS base
 WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/sdk:11.0.100-resolute-aot@sha256:b9ddcead074e2fc9338c3427f8f0e212e2cd4783ea26c8853ea412221518d1af AS build
